@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/images/cc7aae7b4e21-mlnt9v4x-01.png"

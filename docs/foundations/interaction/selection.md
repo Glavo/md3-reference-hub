@@ -2,7 +2,7 @@
 title: "Selection"
 source_url: "https://m3.material.io/foundations/interaction/selection"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "foundations"
 assets:
   - "assets/images/70fe9c1e77cf-m1qhf1tb-1.png"

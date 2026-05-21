@@ -2,7 +2,7 @@
 title: "Writing and text"
 source_url: "https://m3.material.io/foundations/writing/text-resizing"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "foundations"
 assets:
   - "assets/images/f0a75e64882a-lwj5gijr-8.png"

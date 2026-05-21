@@ -2,7 +2,7 @@
 title: "Start Here: 5 Exercises to Prepare Your App for Large Screens"
 source_url: "https://m3.material.io/blog/5-steps-large-screen-apps"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/8ecd02eefe62-pN5xtyQvPk3HXVVz-gVDc0YYvJ-UzjfFjMcEemwIKWfVmZGCcyV4XNEAjehGLIA9VnuCRzSC0HDNy6p0tDChJvEWjRVsqCvB.png"

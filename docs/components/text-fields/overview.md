@@ -2,7 +2,7 @@
 title: "Text fields"
 source_url: "https://m3.material.io/components/text-fields/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/images/c824c9a88536-lx2u2h3p-1.png"

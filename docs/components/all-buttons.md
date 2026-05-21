@@ -2,7 +2,7 @@
 title: "All buttons"
 source_url: "https://m3.material.io/components/all-buttons"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/images/40d4f9d44388-m4kdl8gi-1.png"

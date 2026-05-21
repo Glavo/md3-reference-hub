@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/applying-m3-expressive"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "foundations"
 assets:
   - "assets/images/83efb4db933d-mhjgyvci-Core-Flow.png"

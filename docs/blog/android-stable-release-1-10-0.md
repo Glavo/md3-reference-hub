@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.10.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-10-0"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/6546cfac5e8f-pR75LC3YTcz6E8rmRyB0FvLZPrvqzHwa-cHtTrrBe3yrNo1YUZLXQzHzvOKVGZZjjoc75U-KG8cvGFUthsfuYBugrUm5MKZN.png"

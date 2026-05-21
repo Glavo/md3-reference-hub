@@ -23,6 +23,22 @@ const DOCS_DIR = path.join(ROOT_DIR, "docs");
 const ASSETS_DIR = path.join(ROOT_DIR, "assets");
 const METADATA_DIR = path.join(ROOT_DIR, "metadata");
 const CACHE_DIR = path.join(ROOT_DIR, ".cache", "m3");
+const README_SECTION_ORDER = ["home", "get-started", "develop", "foundations", "styles", "components", "blog"];
+const README_SECTION_LABELS = new Map([
+  ["home", "Home"],
+  ["get-started", "Get started"],
+  ["develop", "Develop"],
+  ["foundations", "Foundations"],
+  ["styles", "Styles"],
+  ["components", "Components"],
+  ["blog", "Blog"],
+]);
+const ROOT_README_INTRO = [
+  "# MD3 Reference Hub",
+  "",
+  "This repository stores a local Markdown copy of the public Material Design 3 website content, including page content and referenced media assets, for convenient browsing and searching in Git.",
+  "",
+];
 
 const turndown = new TurndownService({
   headingStyle: "atx",
@@ -1495,8 +1511,8 @@ async function generateDocsReadme(manifest) {
     "",
   ];
 
-  for (const [section, sectionPages] of Array.from(bySection.entries()).sort(([a], [b]) => a.localeCompare(b))) {
-    lines.push(`### ${section}`);
+  for (const [section, sectionPages] of sortedReadmeSections(bySection)) {
+    lines.push(`### ${readmeSectionLabel(section)}`);
     lines.push("");
     const sortedPages = sectionPages.sort((a, b) => a.output_file.localeCompare(b.output_file));
     const titleCounts = countReadmeTitles(sortedPages);
@@ -1516,7 +1532,35 @@ async function generateDocsReadme(manifest) {
   lines.push("- Site metadata: https://m3.material.io/site_meta.js");
   lines.push("- License: https://www.apache.org/licenses/LICENSE-2.0.html");
 
-  await writeTextFile(path.join(DOCS_DIR, "README.md"), lines.join("\n"));
+  const docsReadme = lines.join("\n");
+  await writeTextFile(path.join(DOCS_DIR, "README.md"), docsReadme);
+  await writeTextFile(path.join(ROOT_DIR, "README.md"), rootReadmeFromDocsReadme(docsReadme));
+}
+
+function sortedReadmeSections(bySection) {
+  const entries = Array.from(bySection.entries());
+  return entries.sort(([a], [b]) => {
+    const indexA = README_SECTION_ORDER.indexOf(a);
+    const indexB = README_SECTION_ORDER.indexOf(b);
+    if (indexA >= 0 && indexB >= 0) {
+      return indexA - indexB;
+    }
+    if (indexA >= 0) {
+      return -1;
+    }
+    if (indexB >= 0) {
+      return 1;
+    }
+    return a.localeCompare(b);
+  });
+}
+
+function readmeSectionLabel(section) {
+  return README_SECTION_LABELS.get(section) || humanizePathSegment(section);
+}
+
+function rootReadmeFromDocsReadme(docsReadme) {
+  return `${ROOT_README_INTRO.join("\n")}\n${docsReadme.replace(/\]\((?!https?:\/\/|mailto:|#)([^)]+)\)/gu, "](docs/$1)")}`;
 }
 
 function readmeRelativePath(page) {

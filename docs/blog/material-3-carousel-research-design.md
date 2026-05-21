@@ -2,7 +2,7 @@
 title: "Reinventing the carousel"
 source_url: "https://m3.material.io/blog/material-3-carousel-research-design"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/40150c26b331-Aye14jOntTfsKdL9I63t77P6_JpKMBsG8Pw2GWdz6wuIpzGtiQtR_45EsDWJcTygvMOW_NT0SjWtuUkKsISNf9QH28LIsIFx.png"

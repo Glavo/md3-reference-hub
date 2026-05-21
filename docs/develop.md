@@ -2,7 +2,7 @@
 title: "Develop"
 source_url: "https://m3.material.io/develop"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "develop"
 assets:
   - "assets/images/20fd738615a2-XeRKTbjFJGLsD79Iv2yy9FNhaYCvACd-MZuBkdzNMyHG1JC_8WocOyAObIxdWxtX7fsDhT4RV7jK6PsGSqxIR1MXMyDZ6D5v.png"

@@ -2,7 +2,7 @@
 title: "The Best of Material in 2022"
 source_url: "https://m3.material.io/blog/material-design-2022-roundup"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/755a59a10089-pBTzp_qqiB-n3qzvorstY9IHo6QlXigemgUKxYVSEfRQeeWTDIviVYD94oU_ucPJ_c2qMBdLJ17ZoMuzF2SIxJ_PQ0qxdGS3.png"

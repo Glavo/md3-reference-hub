@@ -2,7 +2,7 @@
 title: "Transitions"
 source_url: "https://m3.material.io/styles/motion/transitions/applying-transitions"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "styles"
 assets:
   - "assets/videos/a4b284133695-lygy2t4f-GM3-Styles-Motion-Transitions-ApplyingTransitions-1-v01.mp4"

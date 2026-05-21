@@ -2,7 +2,7 @@
 title: "Scaffold"
 source_url: "https://m3.material.io/foundations/layout/scaffold/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "foundations"
 assets:
   - "assets/images/0a7544d16089-mp3n7x8n-01.png"

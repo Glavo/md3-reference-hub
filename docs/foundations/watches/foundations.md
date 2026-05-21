@@ -2,7 +2,7 @@
 title: "Design for watches"
 source_url: "https://m3.material.io/foundations/watches/foundations"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "foundations"
 assets:
   - "assets/images/73220fb87fb5-mp5bs5es-01.png"

@@ -2,7 +2,7 @@
 title: "Material Design Award Winners 2021"
 source_url: "https://m3.material.io/blog/mda-2021-winners"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/4f5daf829395-ZJ-zVsh_qNTerfhHWiG4cF6pJ4E1hUUYzPD8EqkBxWvxlIAtyTRHgyPKwV1Zjmi7baKvXG3I7HsTLFOtgGMbKXT9bZ-yQwA5.png"

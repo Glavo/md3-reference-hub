@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/videos/a07de0722807-mlb0x4f4-GM3-Search-Bar-Overview-01-v2.mp4"

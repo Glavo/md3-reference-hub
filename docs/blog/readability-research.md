@@ -2,7 +2,7 @@
 title: "Adjusting Grade for Mode"
 source_url: "https://m3.material.io/blog/readability-research"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/29d86a0b1965-Kj5Hi7eTnTTkho_DbsWuvoTo1LmyQpVJXGnmCD9u0eYZ6EErSX71gzh4zsi2MpyS4N5WoAqRsX5eapGrkPTd-GmhveRMckuM.png"

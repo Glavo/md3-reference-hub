@@ -2,7 +2,7 @@
 title: "Global writing"
 source_url: "https://m3.material.io/foundations/content-design/global-writing/word-choice"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "foundations"
 assets:
   - "assets/images/a122cead65c0-lvuo362u-1_do.png"

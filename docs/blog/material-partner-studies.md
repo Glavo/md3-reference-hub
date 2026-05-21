@@ -2,7 +2,7 @@
 title: "Material Partner Studies"
 source_url: "https://m3.material.io/blog/material-partner-studies"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/7f790bd4baa3-yKO2UrlF62uxxlxfdbuPzbR5rp0Ptr3FEx0pQHP3E3FnYzt5_SqzGo7CMOShk6ZZhCtNQ8NiqWEGjhynm1zWYMoCVmdqd80l.png"

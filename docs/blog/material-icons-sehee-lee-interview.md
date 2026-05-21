@@ -2,7 +2,7 @@
 title: "Material Icons: Sehee Lee"
 source_url: "https://m3.material.io/blog/material-icons-sehee-lee-interview"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/f169302adc03-GT3F4Oj3YQOOZr2GtR7PL_AAkvMBuf_E2EdPfra77TwbRepf7IBoQxygVVTHNMNfyyQlGGtkTbxwmacljHDjueZRtLxI3CIK.png"

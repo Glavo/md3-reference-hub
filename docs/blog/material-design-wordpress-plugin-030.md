@@ -2,7 +2,7 @@
 title: "Using Block Patterns with Material Design for WordPress"
 source_url: "https://m3.material.io/blog/material-design-wordpress-plugin-030"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/dc476e9c5d4e-vrwte8PxAxg03-ctZYmdS8w3LD-S6BxgzOeVulzl8VckEsrsKZm3eL6Mv0uxG02jEPOHWHpCwmh83Khx8B6cIVGEceAEha9q.png"

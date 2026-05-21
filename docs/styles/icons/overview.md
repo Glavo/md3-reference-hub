@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "styles"
 assets:
   - "assets/videos/9610029ff525-m15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4"

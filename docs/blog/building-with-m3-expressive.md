@@ -2,7 +2,7 @@
 title: "Start building with Material 3 Expressive"
 source_url: "https://m3.material.io/blog/building-with-m3-expressive"
 lastmod: "2026-05-07"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/0c5716c7fe97-1U71piLcGDg-O2CUVDHaShSo-igfXvZzsdu4e_u_Tt8VuAAPPAJFzcMEGE8bTfu20-BVvVS9v2kDSZ9BcDc672z8IVmjsCAp.png"

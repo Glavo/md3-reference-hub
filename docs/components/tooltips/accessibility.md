@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/accessibility"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4"

@@ -2,7 +2,7 @@
 title: "Static color schemes"
 source_url: "https://m3.material.io/styles/color/static/custom-brand"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "styles"
 assets:
   - "assets/images/ec2f59139e5d-ln4ilrfy-brand-baseline.png"

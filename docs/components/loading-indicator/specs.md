@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/specs"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/images/afa30094eb0f-ma6gd1jj-1-3P.png"

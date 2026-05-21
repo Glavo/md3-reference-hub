@@ -2,7 +2,7 @@
 title: "Switch"
 source_url: "https://m3.material.io/components/switch/guidelines"
 lastmod: "2026-01-06"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/images/4aefc7eba60c-mg7sxhp8-01.png"

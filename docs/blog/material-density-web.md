@@ -2,7 +2,7 @@
 title: "Using Material Density on the Web"
 source_url: "https://m3.material.io/blog/material-density-web"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/0b98092aff42-qGEdgWMxq2N_sW_BueogGolL8ogI1OH-bGMzhZNeLW7eWTMFgIuECRquT-to3lVaPz2xB0Of1gkclBGRM_crDbuQksdm8JxZ.png"

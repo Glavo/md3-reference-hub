@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/images/63c55e59d127-ma23ultc-01-3P.png"

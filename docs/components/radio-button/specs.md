@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/specs"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "components"
 assets:
   - "assets/images/be3b2c0d46fc-md8jp5v6-01-3P.png"

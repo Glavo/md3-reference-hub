@@ -2,7 +2,7 @@
 title: "Introducing Material Theme Builder"
 source_url: "https://m3.material.io/blog/material-theme-builder"
 lastmod: "2024-12-18"
-snapshot_at: "2026-05-21T02:35:31.341Z"
+snapshot_at: "2026-05-21T02:46:50.991Z"
 section: "blog"
 assets:
   - "assets/images/2f5c0016628b-rKjjYo5u2SmXb8kfJvGrN8OAlwbBBZ24hyMWY5PCvt6V4iVhs-R9GvQjpgGm7-P8uAcC3BcmyIBmPgFtASL2nr5HO1H4r0Lc.png"
