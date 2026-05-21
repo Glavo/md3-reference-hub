@@ -2,7 +2,7 @@
 title: "Switch"
 source_url: "https://m3.material.io/components/switch/accessibility"
 lastmod: "2026-01-06"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "components"
 assets:
   - "assets/images/d748c57ec7ba-mg68ycaw-01.png"

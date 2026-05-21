@@ -2,7 +2,7 @@
 title: "New SIL Typefaces"
 source_url: "https://m3.material.io/blog/sil-typefaces"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/63a320014ec8-c33adNZiaxiwipHwzKWKMLqEm1dolxVqu3_6a7J9TBhbDPWDu47hluU1_wXEYqwKr2qmLBWmu6RIPpsdiFRcRLYnOdmnBgdD.png"

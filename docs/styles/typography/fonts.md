@@ -2,7 +2,7 @@
 title: "Typography"
 source_url: "https://m3.material.io/styles/typography/fonts"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "styles"
 assets:
   - "assets/images/5dd14609290f-mac6ta60-1.png"

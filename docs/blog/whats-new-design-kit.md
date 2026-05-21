@@ -2,7 +2,7 @@
 title: "What’s new in the M3 design kit"
 source_url: "https://m3.material.io/blog/whats-new-design-kit"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/d62bd0385e76-deoY-fOAtn2u0fjCSnP96V3Cbfjw5CWwZ5wHOpffUAJjNIePgREmCPoObEewyGWCZfbOsKF3HDYfmcgQufrZJWLY0jGNx1k_.png"

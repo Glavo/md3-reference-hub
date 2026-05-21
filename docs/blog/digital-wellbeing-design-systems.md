@@ -2,7 +2,7 @@
 title: "What “Digital Wellbeing” Means to Material Design"
 source_url: "https://m3.material.io/blog/digital-wellbeing-design-systems"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/24664f2af498-pWI__ft2pjVs3ECo0EaClqZZevZHSXcCuQiNZh-3yriZqa5Q5eybA9SP2Law_vIdk-onnSm4nJu7W1OVdDN8S1vu2eYrHL70.png"

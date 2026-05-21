@@ -2,7 +2,7 @@
 title: "An updated theming experience with Material Theme Builder 2.0"
 source_url: "https://m3.material.io/blog/material-theme-builder-2-color-match"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/e0561f0dabb2-G-lo9iMbLB2HmLzapkkKwExJ-Ow6njtQzTv_BiqyiSdz7N8ghpctryKncyYmOloM7Ea9LnRDeouN6kHxHul3Nb3hns_KKBql.png"

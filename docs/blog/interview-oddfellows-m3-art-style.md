@@ -2,7 +2,7 @@
 title: "How Oddfellows Illustrated Material You"
 source_url: "https://m3.material.io/blog/interview-oddfellows-m3-art-style"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/f89ec02208d6-Xnu_XzomsPU4COc9S-WeIoG4NGSt9WQTZpqV7DdPOX6uhx8F2_-V74HslS_bdTpBXIbretlJxpORHkv8qTYcu6nb35VpA4yW.png"

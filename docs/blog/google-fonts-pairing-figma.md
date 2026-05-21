@@ -2,7 +2,7 @@
 title: "You Asked for it—Here Are Some of Our Favorite Font Pairings"
 source_url: "https://m3.material.io/blog/google-fonts-pairing-figma"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/43aa5d86ac3e-aOqlMj5iSZShiCMopuwUDpII-EnwQ3oimUohubInd9SDEvq6iI8dzy5LapX_yHJj-WknQsCRhirTB7fnC59LNBVg8PXW7cmB.png"

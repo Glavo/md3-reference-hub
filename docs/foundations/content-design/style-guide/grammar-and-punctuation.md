@@ -2,7 +2,7 @@
 title: "Style guide"
 source_url: "https://m3.material.io/foundations/content-design/style-guide/grammar-and-punctuation"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "foundations"
 assets:
   - "assets/images/d0cd1de02203-lvw1bx75-1_do.png"

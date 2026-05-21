@@ -2,7 +2,7 @@
 title: "Advanced customizations"
 source_url: "https://m3.material.io/styles/color/advanced/define-new-colors"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "styles"
 assets:
   - "assets/images/8580963d7d63-lwt7wrjx-1.png"

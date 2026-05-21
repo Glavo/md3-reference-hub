@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose 1.2"
 source_url: "https://m3.material.io/blog/material-3-compose-1-2"
 lastmod: "2026-05-11"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/1494ff21eb63-s3xVT-1wuUuzcoWJpUphvitXeO1RI2It2CvsRpJeizKORSkVbuCJ3Zen8kPJqj04iU9_Q31zeecGiaAyQeWuSRt22_IZejbk.png"

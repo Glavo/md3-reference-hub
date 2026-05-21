@@ -2,7 +2,7 @@
 title: "Web"
 source_url: "https://m3.material.io/develop/web"
 lastmod: "2025-11-03"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "develop"
 assets:
   - "assets/images/6ddcac74fd54-OK8_0PoEDdOY_ZCF0CFgJKziakjlnrQJQywaA20woNK9hUf8rg8KtGAFaWiwfhpGfApEVXTNc8RlMBQlWOsXYdiZutkyrh23.png"

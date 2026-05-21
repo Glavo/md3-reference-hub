@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "components"
 assets:
   - "assets/videos/22ed6df490f4-mbs2h57x-GM3_Expressive_Nav-Rail_Overview_01_IA_v02.mp4"

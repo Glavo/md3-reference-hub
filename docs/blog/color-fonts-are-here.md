@@ -2,7 +2,7 @@
 title: "First Batch of Color Fonts Arrives on Google Fonts"
 source_url: "https://m3.material.io/blog/color-fonts-are-here"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/e9fda8a8fcab-iKp5uW5tPvj58pi9KYkpkWvc5HcmN5ac8Yv0QGrEI0vJ-RTMUpqpzLdlYL-6dcZvGs_c40UeT9eksFlyil0XhJuCOyLwTuoJ.png"

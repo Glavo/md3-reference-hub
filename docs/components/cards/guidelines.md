@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "components"
 assets:
   - "assets/images/6eeeabdc42f0-lwujy207-1.png"

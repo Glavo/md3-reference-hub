@@ -2,7 +2,7 @@
 title: "Material Design for XR (Developer Preview)"
 source_url: "https://m3.material.io/blog/material-design-xr-dev-preview"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/35dab38d49b2-LmC6YZQHA_FFP9yZNFbLYTedVEd0Yg3CGCd4XLkllaafZWYb6paPqED0tEFAx7o-uLwAEX2gBUqnUs5B8I8-XPCbQ5E1pfJ2.png"

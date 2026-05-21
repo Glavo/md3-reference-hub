@@ -2,7 +2,7 @@
 title: "Segmented buttons"
 source_url: "https://m3.material.io/components/segmented-buttons/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "components"
 assets:
   - "assets/images/c34371b7149d-lw7mlxdq-1.png"

@@ -2,7 +2,7 @@
 title: "FAB menu"
 source_url: "https://m3.material.io/components/fab-menu/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "components"
 assets:
   - "assets/images/eec0e1c35fb3-m0aj37mw-01.png"

@@ -2,7 +2,7 @@
 title: "The Avatar Project: Derek Brahney"
 source_url: "https://m3.material.io/blog/derek-brahney-interview"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/6a1336dbe256-CDdX3MT6JBUgiWfaN-dOoqpwzBaLsVe1cZtVt-HlLQowH3iIR5PiMq8YzkyFz9c7cr4Q2OBB17CPng7y_E2Nr6Ltt56M3rAk.png"

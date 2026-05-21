@@ -1673,10 +1673,11 @@ function renderReadmeSectionEntry(section, rootEntry) {
 function renderReadmeEntry(entry, titleCounts, usedLabels, indent = "") {
   if (entry.pages.length > 1 && entry.pages.every(isReadmeTabPage)) {
     const label = readmeEntryLabel(entry, titleCounts, usedLabels);
+    const defaultRelative = readmeRelativePath(entry.pages[0]);
     const tabs = entry.pages
       .map((page) => `[${escapeMarkdownLinkText(readmeTabLinkLabel(page))}](${readmeRelativePath(page)})`)
       .join(" | ");
-    return `${indent}- ${escapeMarkdownLinkText(label)} (${tabs})`;
+    return `${indent}- [${escapeMarkdownLinkText(label)}](${defaultRelative}) (${tabs})`;
   }
 
   const page = entry.pages[0];

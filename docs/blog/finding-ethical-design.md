@@ -2,7 +2,7 @@
 title: "Finding Ethical Design"
 source_url: "https://m3.material.io/blog/finding-ethical-design"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/048a20fcc1b8-XZe4yRiPS-M2DK2LF17ncsifYjO6iCwVKw3yM80-0Q_I7IMnd3hfLSSLRtYRV5-DV4jGkv3RDLfIqRy4ppxigOt-VW6-ObEr.png"

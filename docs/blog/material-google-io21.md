@@ -2,7 +2,7 @@
 title: "Material Design at Google I/O 2021"
 source_url: "https://m3.material.io/blog/material-google-io21"
 lastmod: "2024-06-04"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/e91c31680500-0nEZHj1TagcvsenQeEDJ-4INrnLqDaDe5UoMy-eXVl03RsILYYbVc6rgUAYh5zmdJMeYYshwvetWzTaKNdT5qBpJFYSuGnhE.png"

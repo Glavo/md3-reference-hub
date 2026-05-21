@@ -2,7 +2,7 @@
 title: "Gestures"
 source_url: "https://m3.material.io/foundations/interaction/gestures"
 lastmod: "2026-01-09"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "foundations"
 assets:
   - "assets/videos/cef768e47ec3-lx1faal8-1P-Tap-2_NewSize.mp4"

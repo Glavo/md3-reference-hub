@@ -2,7 +2,7 @@
 title: "Bidirectionality &amp; RTL"
 source_url: "https://m3.material.io/foundations/layout/bidirectionality-rtl"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "foundations"
 assets:
   - "assets/images/66230034630b-mp5maeep-01.png"

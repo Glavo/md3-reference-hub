@@ -2,7 +2,7 @@
 title: "Introducing the Compose Material Catalog"
 source_url: "https://m3.material.io/blog/jetpack-compose-catalog"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/e71a853a36ff-EQuO-xaJrUVqix8E0Va2vWxmUWzEUU4rK7uQT_zfmdJaftbcM2g_kDDrJQavRjWpG1emn4uHlaA9AwptudrM_vSXzIbrUOz6.png"

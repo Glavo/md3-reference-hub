@@ -2,7 +2,7 @@
 title: "Introducing Tone-based Surfaces in Material 3"
 source_url: "https://m3.material.io/blog/tone-based-surface-color-m3"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/219f67f71905-JsPGxLo5hiZrvqOpxpQWrKjOPOwBpJN-Rz8yWdmE-RBnFZX4VmZwnopcsoKW-9iRlh9_pdkcAky1XMs3tbAcoxpDsZCJNejc.png"

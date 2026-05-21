@@ -2,7 +2,7 @@
 title: "Building a Material Dark Theme on Android"
 source_url: "https://m3.material.io/blog/android-dark-theme-tutorial"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "blog"
 assets:
   - "assets/images/9fdc73b2a8b7-G7zEHSzJ1gx4YqOXImcWFm1zyfeHl5vcZooH5rMiKDleGAfk6W8HW2SoMcQZibcU8RGjCpSbM_-FLi6FZ0VN_oXyCJmbWl8Q.png"

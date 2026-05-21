@@ -2,7 +2,7 @@
 title: "Color roles"
 source_url: "https://m3.material.io/styles/color/roles"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:01:23.896Z"
+snapshot_at: "2026-05-21T03:17:26.113Z"
 section: "styles"
 assets:
   - "assets/images/1a32091256d8-ly2ms4t2-1.png"
