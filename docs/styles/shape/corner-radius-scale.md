@@ -2,7 +2,7 @@
 title: "Shape"
 source_url: "https://m3.material.io/styles/shape/corner-radius-scale"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/7f14dca9228a-m0c80f7i-1.png"
@@ -92,9 +92,9 @@ The corner radius shape style, like **medium**, can be customized to be a differ
 
 This applies the change to all components mapped to that shape style, unless they have an override.
 
-<video controls src="../../../assets/videos/f3e01c89a6f4-m0fbcwaf-08-Shape-Corner-Radius-Scale-6.mp4" title="Shapes with different corner radii."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fbcwaf-08%20-%20Shape%20-%20Corner%20Radius%20Scale%206.mp4?alt=media&amp;token=2a9a25cd-8429-42cb-8a0b-a741ce900430" title="Shapes with different corner radii."></video>
 
-[Open video](../../../assets/videos/f3e01c89a6f4-m0fbcwaf-08-Shape-Corner-Radius-Scale-6.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fbcwaf-08%20-%20Shape%20-%20Corner%20Radius%20Scale%206.mp4?alt=media&token=2a9a25cd-8429-42cb-8a0b-a741ce900430>)
 
 ### Component changes 
 
@@ -102,9 +102,9 @@ The style of a specific component, such as a button, can be changed by customizi
 
 For example, by default, buttons are mapped to the **full** corner radius shape style. If your product needs a less rounded shape, remap the token to another style in the shape scale, such as **small** or **medium**.
 
-<video controls src="../../../assets/videos/57ca91e9abcd-m0fbdqeg-09-Diagram-Corner-Rounding.mp4" title="Components with different corner radii."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fbdqeg-09%20-%20Diagram%20Corner%20Rounding.mp4?alt=media&amp;token=7767b025-5f33-4415-867b-af89fa105612" title="Components with different corner radii."></video>
 
-[Open video](../../../assets/videos/57ca91e9abcd-m0fbdqeg-09-Diagram-Corner-Rounding.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fbdqeg-09%20-%20Diagram%20Corner%20Rounding.mp4?alt=media&token=7767b025-5f33-4415-867b-af89fa105612>)
 
 The shape style family can be customized from **rounded** to **cut**. This makes the corner a straight line instead of curved.  
 
@@ -112,9 +112,9 @@ Add extra padding to avoid cutting off content in information-dense components. 
 
 For example, a large cut corner on a card will clip content and images in the area more than a rounded corner of the same size.
 
-<video controls src="../../../assets/videos/29b05ed857da-ma463q2b-10-shape-Corner-Radius-Scale-8.mp4" title="Card with text and full corners."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma463q2b-10%20-%20shape%20-%20Corner%20Radius%20Scale%208.mp4?alt=media&amp;token=982b9a51-c03d-4b4d-86fb-536b49701a44" title="Card with text and full corners."></video>
 
-[Open video](../../../assets/videos/29b05ed857da-ma463q2b-10-shape-Corner-Radius-Scale-8.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma463q2b-10%20-%20shape%20-%20Corner%20Radius%20Scale%208.mp4?alt=media&token=982b9a51-c03d-4b4d-86fb-536b49701a44>)
 
 ![Carousel with images with rounded corners.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c9cdvx-8.png?alt=media&token=563b34cc-3146-49fc-bb3f-0f10e7721697>)
 

@@ -2,7 +2,7 @@
 title: "The Design of Readex Pro"
 source_url: "https://m3.material.io/blog/readex-pro-legibility-arabic-type-design"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/f742df19c7d9-GBChWaUI0XZoKc0B40Y2te4I1ig5jOfg_dliy6JLEMNduG1v3IG_Y0_0I5ggFT1AXTbFNOXuONOfc5v1VN7khfmwZ7C1OxzI.png"

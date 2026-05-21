@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -32,9 +32,9 @@ Resources and guidance for immersive extended reality (XR) devices
 
 -   Provide feedback through spatial audio, haptics, and visual cues
 
-<video controls src="../../../../assets/videos/122a73c9b76e-mowi4zcr-Full-Space.mp4" title="3 XR apps float in a physical room. The view switches to 1 immersive app."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowi4zcr-Full-Space.mp4?alt=media&amp;token=2384b8fd-0a32-4930-8c5d-441b750dd6e9" title="3 XR apps float in a physical room. The view switches to 1 immersive app."></video>
 
-[Open video](../../../../assets/videos/122a73c9b76e-mowi4zcr-Full-Space.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowi4zcr-Full-Space.mp4?alt=media&token=2384b8fd-0a32-4930-8c5d-441b750dd6e9>)
 
 ## Resources & availability
 
@@ -95,9 +95,9 @@ The following Material components are adapted for XR:
 
 -   [Toolbars](../components/toolbars.md)
 
-<video controls src="../../../../assets/videos/a8287ef6c08a-mowj1x1f-toolbars-xr-06.mp4" title="Animation showing a toolbar changing from 2D to 3D."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowj1x1f-toolbars-xr-06.mp4?alt=media&amp;token=5f67401b-e96d-481c-8859-7b7734e9c577" title="Animation showing a toolbar changing from 2D to 3D."></video>
 
-[Open video](../../../../assets/videos/a8287ef6c08a-mowj1x1f-toolbars-xr-06.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowj1x1f-toolbars-xr-06.mp4?alt=media&token=5f67401b-e96d-481c-8859-7b7734e9c577>)
 
 ## XR terms
 

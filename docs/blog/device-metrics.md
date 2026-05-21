@@ -2,7 +2,7 @@
 title: "How to Find Device Metrics for Any Screen"
 source_url: "https://m3.material.io/blog/device-metrics"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/7bf85e44b90e-VSXJYJl6FT8-ehDuH_XzkjkJmlGbHJMu9hBQQa0aTCHEC51Jf5eb8mHYs5OPF3V_ifEriOvE8pkq0uLpfs_Jjho8fp5ii5Ke.png"

@@ -2,7 +2,7 @@
 title: "Magic, utility, and redesigning Material.io"
 source_url: "https://m3.material.io/blog/material-io-redesign"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/394799d84e53-n1AFrqnEqCS6Ntd1UZtqoFZOgSmhYk_YX-CQa9J69XFZoChDhW1tyui1uGpBfh-VJOIJXYbDGfsVrFJfD0Lx9KpaHRguiAo_.png"
@@ -54,7 +54,7 @@ To achieve this balance, we implemented a sub-feature of dynamic color called [c
 The dynamic color transformation creates a holistic visual experience by having the site reflect the content a reader is consuming, and demonstrates Material Design 3’s new color system which uses a unique palette of tones and compliments.
 
 
-[Video: Examples of article pages sliding in and out of view](../../assets/videos/63ebebe4e569-colors-articles.mov)
+[Video: Examples of article pages sliding in and out of view](https://kstatic.googleusercontent.com/files/7cca6e2b0861dbd1f923f76995c874006b2632caf87f0550feff926e1e48794f41d47de7c0e16380f051560b8e2597e61dbb4293b015abec710db9e40df71005)
 
 Component guideline articles are considered the bread and butter of Material Design’s offerings on Material.io. With that in mind, the team wanted to bring the content-based dynamic color story into the reading experience of articles. Following the same theme categories as the component catalog, each component’s article assets are themed accordingly, and Material.io’s UI transforms to reflect that.
 
@@ -65,12 +65,12 @@ Component guideline articles are considered the bread and butter of Material Des
 A beautiful example of combining imagery, color and utility, the component catalog page assists readers in finding the best component for their use case. Component cards are organized into categories based on their function, and each of these categories has a unique theme color to showcase how the new color system applies to different components.
 
 
-[Video: Component card animating between default and hovered states](../../assets/videos/47ddad999c61-component-card.mov)
+[Video: Component card animating between default and hovered states](https://kstatic.googleusercontent.com/files/3e7a9630e450205a0f985fca33abfa1899c3e732558150511a294d08e130eb59941d0b0163d66d5bf92e2a802c5952cb04a28cd2475cbb3b8fabef5f026a3b3d)
 
 When a reader hovers over a component card, a beautiful background image appears, and the card’s colors transform to match that component’s theme. Giving the reader a sense of energetic power, this interaction begins to establish the connection between color and imagery that is a trademark of Material You.
 
 
-[Video: Component catalog cards switching between light and dark mode](../../assets/videos/556aa4341a47-dark-mode-cards.mov)
+[Video: Component catalog cards switching between light and dark mode](https://kstatic.googleusercontent.com/files/0033c898edbfdbad24c7914628bd1a2d83f6ae0b76e9df4c5fa89527aa69e0c37af70c18ac937660a9089f4980a7602a3fc7d03455a3ce79d0e2cd6a134d2050)
 
 A highly requested feature from Material.io readers was support for dark mode, and we thought we could take the request and push it a bit further. Each of the component catalog images (along with header images across the site) also respond to dark and light mode, transforming to reflect a reader’s preference while also demonstrating Material Design 3’s support for a dark context.
 
@@ -85,17 +85,17 @@ In digital products like Material.io, information is inherently hidden behind mo
 The consistent visual treatment of Material.io’s navigation components establishes a functional gestalt through shape and color, signaling to readers that these UI elements are part of a family, and they share a function in helping them traverse the content on the site.
 
 
-[Video: Hovering over navigation rail items to expand the navigation drawer](../../assets/videos/ba37f3942ca7-nav-drawer-1080.mov)
+[Video: Hovering over navigation rail items to expand the navigation drawer](https://kstatic.googleusercontent.com/files/b5a3d7f3f1f79fa543507f26a30d26508c3c9959763498be1bdea20cd382fe58ba8a7631cbba6fded193ae42d1dcda3494dc12ebc8c30be6fbe42eabe4d467a3)
 
 We combined the new navigation rail with the navigation drawer using a simple hover interaction which gives readers a sense of ergonomic speed and quickly provides an overview of the site’s content with relative ease.
 
 
-[Video: Guideline article tabs expanding and contracting upon scrolling](../../assets/videos/a1df18620d15-mio-tabs.mov)
+[Video: Guideline article tabs expanding and contracting upon scrolling](https://kstatic.googleusercontent.com/files/df8f76985c2b22f04044f29863291e8f9a24f26e4239194e20ba7d900d622414b60b96a6cebb15f3fcde0f0d985953ba26516435e698e89c1b687fea136b074e)
 
 Tabs allow readers to switch between different pages of an article on Material.io. We took the opportunity to create custom tabs to align with other navigation elements and express Material 3’s shape language.
 
 
-[Video: Guideline article table of contents shifting up and down between article sections](../../assets/videos/f747efefa510-toc.mov)
+[Video: Guideline article table of contents shifting up and down between article sections](https://kstatic.googleusercontent.com/files/044c77ead50edde218a0f4966cf2b7fe8e304331e126cdd4249b6a89eeb72d45c207ef177a4eb7eae706e6dfcdb1e25b111dc17a4d91cbecfdd10e4dcc159c4a)
 
 A tertiary form of navigation, the table of contents component allows a reader to traverse up and down an article page. A notable addition to this component is the generous article title, giving readers persistent context for what article they are currently referencing.
 
@@ -115,12 +115,12 @@ Material 3’s shape story is dotted with the use of highly expressive “cookie
 
 From full-screen page transitions to navigation component animations, the new Material.io expresses an energetic spirit through its motion, from changes in pixels to entire views.
 
-[Video: Material.io pages transitioning with a vertical slide animation](../../assets/videos/c3d06fcd0c69-top-level-transition.mov)
+[Video: Material.io pages transitioning with a vertical slide animation](https://kstatic.googleusercontent.com/files/da11b66042f6d377d27481f3dab0aab1727b1a9e1819fcf7d429313755887f91b0b99682e47a42253476faea78cdea762d265a1c0dde35b39da6062b206a4ec0)
 
 Top-level pages use a vertical slide transition, to reinforce the vertical nature of the navigation rail and drawer. Whole page transitions provide a sense of speed and cohesion by animating an entire page and its elements together, rather than having them load piece by piece.
 
 
-[Video: Article pages transitioning using a horizontal slide animation](../../assets/videos/255d0dd8368b-tabs-transition.mov)
+[Video: Article pages transitioning using a horizontal slide animation](https://kstatic.googleusercontent.com/files/9d6b254ce3e3b27a130447c966e350787cabbe406ce561ea520ac5e1e925b6920fb559384e72739b11c3a3eb913826302b2c0e04670eb91709b0c76674aabeb5)
 
 When navigating between article tabs the view transitions using a lateral slide transition to reflect the horizontal layout of the tabs.
 
@@ -128,17 +128,17 @@ When navigating between article tabs the view transitions using a lateral slide 
 
 Variable fonts and symbols allowed Material.io to implement them in a way to supplement states, providing distinct visual signals for interaction.
 
-[Video: Symbols in navigation rail increasing in weight upon hover and decreasing upon press](../../assets/videos/9093cb62ef44-symbols-animation-nav.mov)
+[Video: Symbols in navigation rail increasing in weight upon hover and decreasing upon press](https://kstatic.googleusercontent.com/files/cc896ec8a2878448fd0e7c2c6ce733a9d4ac13408d177e6b796dcc9bc4f00cd4722bbc48a09dfc6d7751d73ae1ea365442ed8c2096f9ae9ad0ca12e8cd804331)
 
 Material Symbols are a new set of variable icons from Google Fonts that feature weight, grade and fill axes. Rather than relying solely on color to indicate state change, readers are also given the visual signals of icon weight and fill. Icons react by increasing in weight while hovering and decreasing in weight upon press; this again again provides a sense of magical energy and utility. For navigation components, icons become filled when an item is selected.
 
 
-[Video: Google Sans increasing in weight upon hover and decreasing upon press](../../assets/videos/dcc3904139b3-gs-text.mov)
+[Video: Google Sans increasing in weight upon hover and decreasing upon press](https://kstatic.googleusercontent.com/files/cab6ec3d6d20bfedae7a988e5f806839274811f4d001ce285b753825e320c4ae2488ab2b2e309c638c4a3c96a951d72f2272315653c48a98d3187716180d29bf)
 
 Similarly, we implemented a variable version of Google Sans and utilized its grade axes to add another signifier to component states. By using grade rather than weight, text strings don’t become longer and remain the same width as it’s default state.
 
 
-[Video: Illustrative video with a heart gently floating in a sea of blue and green grain texture](../../assets/videos/b219928f65e7-bookend-opt.mov)
+[Video: Illustrative video with a heart gently floating in a sea of blue and green grain texture](https://kstatic.googleusercontent.com/files/5f9536152a11fbb965890615f00d06a980b4d5d3402a9773e07215584a0111aa443abff9da4da9a3925345e384fe46f100564af50b03d05f1ad781fc852ce238)
 
 As the Material.io design team, our goal is to represent the incredible work that Material Design does at Google as best as possible. So many incredible people are behind this work and it is a pleasure to act as both a steward and a catalyst for one of the most prevalent design systems in the world.
 

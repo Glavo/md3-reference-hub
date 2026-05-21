@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/guidelines"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/3615a1d5c5de-mc92xj30-01.png"
@@ -40,9 +40,9 @@ Radio buttons are the recommended way to allow users to make a single selection 
 
 Only one radio button can be selected at a time.
 
-<video controls src="../../../assets/videos/4264574a51a1-mcelfjb2-GM3_Radio-button_Guidelines_02_IA_v01.mp4" title="1 of 3 languages is chosen using radio buttons. Selecting a language deselects the previous 1."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelfjb2-GM3_Radio-button_Guidelines_02_IA_v01.mp4?alt=media&amp;token=0d82614e-b251-4aae-b4ef-3fade1f6b7a6" title="1 of 3 languages is chosen using radio buttons. Selecting a language deselects the previous 1."></video>
 
-[Open video](../../../assets/videos/4264574a51a1-mcelfjb2-GM3_Radio-button_Guidelines_02_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelfjb2-GM3_Radio-button_Guidelines_02_IA_v01.mp4?alt=media&token=0d82614e-b251-4aae-b4ef-3fade1f6b7a6>)
 
 Use radio buttons to:
 
@@ -109,9 +109,9 @@ Always pair radio buttons with an adjacent label describing what the radio butto
 
 Because only one radio button can be selected at a time, each choice must have its own label.
 
-<video controls src="../../../assets/videos/0ad406a121a5-mcelh3zd-GM3_Radio-button_Guidelines_13_IA_v01.mp4" title="Checkout page with 2 radio buttons for home and office addresses. The labels are &quot;Home&quot; and &quot;Office.&quot;"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelh3zd-GM3_Radio-button_Guidelines_13_IA_v01.mp4?alt=media&amp;token=842f3d43-c21c-4b6f-b720-30f7b534bd17" title="Checkout page with 2 radio buttons for home and office addresses. The labels are &quot;Home&quot; and &quot;Office.&quot;"></video>
 
-[Open video](../../../assets/videos/0ad406a121a5-mcelh3zd-GM3_Radio-button_Guidelines_13_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelh3zd-GM3_Radio-button_Guidelines_13_IA_v01.mp4?alt=media&token=842f3d43-c21c-4b6f-b720-30f7b534bd17>)
 
 ## Placement
 
@@ -133,6 +133,6 @@ _Avoid using horizontal radio button lists_
 
 A radio button is successfully selected when a person clicks or taps either the radio button icon or the label.
 
-<video controls src="../../../assets/videos/213d95add277-mcelja73-GM3_Radio-button_Guidelines_17_IA_v01.mp4" title="Selecting the radio button for dark theme instantly changes the screen to dark theme."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelja73-GM3_Radio-button_Guidelines_17_IA_v01.mp4?alt=media&amp;token=421ebd62-4071-425d-adde-ddde3a7e7041" title="Selecting the radio button for dark theme instantly changes the screen to dark theme."></video>
 
-[Open video](../../../assets/videos/213d95add277-mcelja73-GM3_Radio-button_Guidelines_17_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelja73-GM3_Radio-button_Guidelines_17_IA_v01.mp4?alt=media&token=421ebd62-4071-425d-adde-ddde3a7e7041>)

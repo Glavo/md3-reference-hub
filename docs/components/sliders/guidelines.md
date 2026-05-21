@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/guidelines"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/c2ee114ad7a2-m7m4gc9t-slider-motion.mp4"
@@ -45,9 +45,9 @@ Sliders let users make selections from a range of values
 
 ## Guidelines
 
-<video controls src="../../../assets/videos/c2ee114ad7a2-m7m4gc9t-slider-motion.mp4" title="Photo editor with sliders labeled pop, sharpen, and denoise being adjusted."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7m4gc9t-slider%20motion.mp4?alt=media&amp;token=95c022a4-1968-4b5a-9175-2407bbf7fe20" title="Photo editor with sliders labeled pop, sharpen, and denoise being adjusted."></video>
 
-[Open video](../../../assets/videos/c2ee114ad7a2-m7m4gc9t-slider-motion.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7m4gc9t-slider%20motion.mp4?alt=media&token=95c022a4-1968-4b5a-9175-2407bbf7fe20>)
 
 ## Usage
 
@@ -60,9 +60,9 @@ _Use sliders to pick a value from a range, like volume loudness_
 
 Changes made with sliders must take effect immediately, so people can understand the effects of their selection as they're moving the slider.
 
-<video controls src="../../../assets/videos/b5a3519b5f60-m7llbz94-GM3_Expressive_Slider_guideline_3b_IA_V02-.mp4" title="The brightness slider changes the screen’s brightness in real time."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7llbz94-GM3_Expressive_Slider_guideline_3b_IA_V02%20.mp4?alt=media&amp;token=134b459d-b198-4115-8188-1321d56605a5" title="The brightness slider changes the screen’s brightness in real time."></video>
 
-[Open video](../../../assets/videos/b5a3519b5f60-m7llbz94-GM3_Expressive_Slider_guideline_3b_IA_V02-.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7llbz94-GM3_Expressive_Slider_guideline_3b_IA_V02%20.mp4?alt=media&token=134b459d-b198-4115-8188-1321d56605a5>)
 
 There are three different variants of sliders: **standard**, **centered**, and **range:**
 
@@ -155,9 +155,9 @@ Instead of showing the built-in value label, a separate text input field can be 
 
 Make sure people can tab to the text field directly after the slider.
 
-<video controls src="../../../assets/videos/a38dc699845c-lx2tgm3i-GM3-Components-Sliders-3-v01.mp4" title="Navigating to an adjacent text label, changing the value to 100 using arrow keys. The slider auto-updates based on input value."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tgm3i-GM3-Components-Sliders-3-v01.mp4?alt=media&amp;token=ff66bc1d-5841-4740-a9b0-d73fae991edb" title="Navigating to an adjacent text label, changing the value to 100 using arrow keys. The slider auto-updates based on input value."></video>
 
-[Open video](../../../assets/videos/a38dc699845c-lx2tgm3i-GM3-Components-Sliders-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tgm3i-GM3-Components-Sliders-3-v01.mp4?alt=media&token=ff66bc1d-5841-4740-a9b0-d73fae991edb>)
 
 ### Stop indicators
 
@@ -239,25 +239,25 @@ _XL sliders should be the focus of the page_
 
 Select a value by dragging the handle.
 
-<video controls src="../../../assets/videos/43c4e103d1ae-lx2tddmn-GM3-Components-Sliders-4-1-v01.mp4" title="Slider handle moves smoothly. The value increases and decreases by single digits."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tddmn-GM3-Components-Sliders-4-1-v01.mp4?alt=media&amp;token=17272aa8-8278-45d0-82b0-8de39ccde83b" title="Slider handle moves smoothly. The value increases and decreases by single digits."></video>
 
-[Open video](../../../assets/videos/43c4e103d1ae-lx2tddmn-GM3-Components-Sliders-4-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tddmn-GM3-Components-Sliders-4-1-v01.mp4?alt=media&token=17272aa8-8278-45d0-82b0-8de39ccde83b>)
 
-<video controls src="../../../assets/videos/5c199da2b021-lx2tdv5o-GM3-Components-Sliders-4-2-v01.mp4" title="Slider handle snaps to the nearest multiple of 10 when moved."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tdv5o-GM3-Components-Sliders-4-2-v01.mp4?alt=media&amp;token=387283e5-b7ce-4ee2-b8d6-58f88d0a8af2" title="Slider handle snaps to the nearest multiple of 10 when moved."></video>
 
-[Open video](../../../assets/videos/5c199da2b021-lx2tdv5o-GM3-Components-Sliders-4-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tdv5o-GM3-Components-Sliders-4-2-v01.mp4?alt=media&token=387283e5-b7ce-4ee2-b8d6-58f88d0a8af2>)
 
 ### Select jump
 
 Select a value by selecting part of the track.
 
-<video controls src="../../../assets/videos/b866e0c9af8c-lx2tec5h-GM3-Components-Sliders-5-1-v01.mp4" title="Slider handle moves smoothly to selected value of the slider."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tec5h-GM3-Components-Sliders-5-1-v01.mp4?alt=media&amp;token=ed186b3e-0cc8-4875-a2b7-c541130754e2" title="Slider handle moves smoothly to selected value of the slider."></video>
 
-[Open video](../../../assets/videos/b866e0c9af8c-lx2tec5h-GM3-Components-Sliders-5-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tec5h-GM3-Components-Sliders-5-1-v01.mp4?alt=media&token=ed186b3e-0cc8-4875-a2b7-c541130754e2>)
 
-<video controls src="../../../assets/videos/b217db5eabc5-lx2tep43-GM3-Components-Sliders-5-2-v01.mp4" title="Slider handle moves smoothly to the closest stop indicator value."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tep43-GM3-Components-Sliders-5-2-v01.mp4?alt=media&amp;token=f31f5f31-9bcd-4b8c-be5d-eb2b8268e0ba" title="Slider handle moves smoothly to the closest stop indicator value."></video>
 
-[Open video](../../../assets/videos/b217db5eabc5-lx2tep43-GM3-Components-Sliders-5-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tep43-GM3-Components-Sliders-5-2-v01.mp4?alt=media&token=f31f5f31-9bcd-4b8c-be5d-eb2b8268e0ba>)
 
 ### Select & arrow
 
@@ -269,10 +269,10 @@ Select a value using the keyboard.
 
 **Space & arrows:** Selected value increases or decreases by a larger interval or stop indicator
 
-<video controls src="../../../assets/videos/9e1f6a8cee17-lx2tf2t6-GM3-Components-Sliders-6-1-v01.mp4" title="Tab selects the slider, and arrow keys move the value by 1."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tf2t6-GM3-Components-Sliders-6-1-v01.mp4?alt=media&amp;token=ac491860-373d-4f82-a5c0-8b49514e8521" title="Tab selects the slider, and arrow keys move the value by 1."></video>
 
-[Open video](../../../assets/videos/9e1f6a8cee17-lx2tf2t6-GM3-Components-Sliders-6-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tf2t6-GM3-Components-Sliders-6-1-v01.mp4?alt=media&token=ac491860-373d-4f82-a5c0-8b49514e8521>)
 
-<video controls src="../../../assets/videos/6414291b0d19-lx2tffc3-GM3-Components-Sliders-6-2-v01.mp4" title="Tab selects the slider, and arrow keys move the value by 10."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tffc3-GM3-Components-Sliders-6-2-v01.mp4?alt=media&amp;token=ea5e3c11-2f1c-47ea-99ed-d688be210ad2" title="Tab selects the slider, and arrow keys move the value by 10."></video>
 
-[Open video](../../../assets/videos/6414291b0d19-lx2tffc3-GM3-Components-Sliders-6-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tffc3-GM3-Components-Sliders-6-2-v01.mp4?alt=media&token=ea5e3c11-2f1c-47ea-99ed-d688be210ad2>)

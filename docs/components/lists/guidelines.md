@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -104,9 +104,9 @@ List containers hold all list items and their elements. List item size is determ
 
 When a list item features an image, consider customizing the container color to use a content-based color scheme. This should be applied to either the enabled state or for an interaction.
 
-<video controls src="../../../assets/videos/5c4644db8ecb-miewwh4p-GM3-Expressive-Guidelines-07-v02.mp4" title="A song list with a leading images. When selected, a list item’s container matches the image’s color scheme."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewwh4p-GM3%20-%20Expressive%20-%20Guidelines%2007%20-%20v02.mp4?alt=media&amp;token=ac8e38da-34e6-48c4-bd9d-88f501e9686a" title="A song list with a leading images. When selected, a list item’s container matches the image’s color scheme."></video>
 
-[Open video](../../../assets/videos/5c4644db8ecb-miewwh4p-GM3-Expressive-Guidelines-07-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiewwh4p-GM3%20-%20Expressive%20-%20Guidelines%2007%20-%20v02.mp4?alt=media&token=ac8e38da-34e6-48c4-bd9d-88f501e9686a>)
 
 ### Label & supporting text
 
@@ -235,9 +235,9 @@ _Don’t scale components without adjusting other affected areas of the screen, 
 
 A list in a compact window can become part of a two-column layout in an expanded window, adjusting the amount of information shown in each list item.
 
-<video controls src="../../../assets/videos/dbb52655cce4-mif043uk-GM3-Expressive-Guidelines-22-v02.mp4" title="Animation of a list on mobile and the same list adapted into a 2-column layout on desktop."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif043uk-GM3%20-%20Expressive%20-%20Guidelines%2022%20-%20v02.mp4?alt=media&amp;token=008e454c-7701-4b94-b677-c5492c7f0a01" title="Animation of a list on mobile and the same list adapted into a 2-column layout on desktop."></video>
 
-[Open video](../../../assets/videos/dbb52655cce4-mif043uk-GM3-Expressive-Guidelines-22-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif043uk-GM3%20-%20Expressive%20-%20Guidelines%2022%20-%20v02.mp4?alt=media&token=008e454c-7701-4b94-b677-c5492c7f0a01>)
 
 ### Adapt list elements & layout
 
@@ -245,9 +245,9 @@ Lists can change their layout to adapt to different window sizes. This affects t
 
 For example, a list in a compact window can adjust margins, spacing, or density to better fit an expanded window.
 
-<video controls src="../../../assets/videos/d56625eb3cbe-mif0dffm-GM3-Expressive-Guidelines-23-v02.mp4" title="Photo list on mobile expands to allow larger images and longer descriptions on a tablet."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0dffm-GM3%20-%20Expressive%20-%20Guidelines%2023%20-%20v02.mp4?alt=media&amp;token=10b138ad-a6d2-4503-93f6-2d5e666fd3d8" title="Photo list on mobile expands to allow larger images and longer descriptions on a tablet."></video>
 
-[Open video](../../../assets/videos/d56625eb3cbe-mif0dffm-GM3-Expressive-Guidelines-23-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0dffm-GM3%20-%20Expressive%20-%20Guidelines%2023%20-%20v02.mp4?alt=media&token=10b138ad-a6d2-4503-93f6-2d5e666fd3d8>)
 
 ### Swap components
 
@@ -255,17 +255,17 @@ Lists are just a compact composition of images, text, and actions. Other compone
 
 On large screens, consider swapping a list to a component with a similar purpose to take advantage of available space.
 
-<video controls src="../../../assets/videos/109dbe74f03c-mif0fb1t-GM3-Expressive-Guidelines-24-v02.mp4" title="A mobile photo list changes into cards in a larger window size."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0fb1t-GM3%20-%20Expressive%20-%20Guidelines%2024%20-%20v02.mp4?alt=media&amp;token=eb06f84e-f749-4a5c-8607-10e046ed1ade" title="A mobile photo list changes into cards in a larger window size."></video>
 
-[Open video](../../../assets/videos/109dbe74f03c-mif0fb1t-GM3-Expressive-Guidelines-24-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0fb1t-GM3%20-%20Expressive%20-%20Guidelines%2024%20-%20v02.mp4?alt=media&token=eb06f84e-f749-4a5c-8607-10e046ed1ade>)
 
 ### Compact window size
 
 Lists should extend edge-to-edge in compact windows. Selecting a list item should open a page with the details.
 
-<video controls src="../../../assets/videos/84a77c51fa29-mif0hg20-GM3-Expressive-Guidelines-25-v01.mp4" title="When opened, a mobile photo list item expands to fill the width of the screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0hg20-GM3%20-%20Expressive%20-%20Guidelines%2025%20-%20v01.mp4?alt=media&amp;token=56f7990a-7f12-42bd-9ebe-88399e20fa92" title="When opened, a mobile photo list item expands to fill the width of the screen."></video>
 
-[Open video](../../../assets/videos/84a77c51fa29-mif0hg20-GM3-Expressive-Guidelines-25-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0hg20-GM3%20-%20Expressive%20-%20Guidelines%2025%20-%20v01.mp4?alt=media&token=56f7990a-7f12-42bd-9ebe-88399e20fa92>)
 
 ### Medium & expanded window sizes
 
@@ -279,17 +279,17 @@ _On larger screens, a list-detail view can be more appropriate_
 
 On a larger window size, a list may transform into a carousel.
 
-<video controls src="../../../assets/videos/a5b0cf01721b-mif0mtl7-GM3-Expressive-Guidelines-27-v02.mp4" title="A photo list with thumbnails in a compact window expands into a carousel with large images in an expanded window."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0mtl7-GM3%20-%20Expressive%20-%20Guidelines%2027%20-%20v02.mp4?alt=media&amp;token=d5ed207f-f29b-4de5-a0d4-45e1f14c0392" title="A photo list with thumbnails in a compact window expands into a carousel with large images in an expanded window."></video>
 
-[Open video](../../../assets/videos/a5b0cf01721b-mif0mtl7-GM3-Expressive-Guidelines-27-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0mtl7-GM3%20-%20Expressive%20-%20Guidelines%2027%20-%20v02.mp4?alt=media&token=d5ed207f-f29b-4de5-a0d4-45e1f14c0392>)
 
 Lists can also show more or less content as they scale up and down in size.
 
 For example, a list item can reveal more content when the component expands.
 
-<video controls src="../../../assets/videos/de9fe073a6a1-mif0onle-GM3-Expressive-Guidelines-28-v02.mp4" title="A list expands from a compact to a medium window. The expanded items show supporting text."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0onle-GM3%20-%20Expressive%20-%20Guidelines%2028%20-%20v02.mp4?alt=media&amp;token=2c013635-21bc-485d-89ab-ab1382a3a057" title="A list expands from a compact to a medium window. The expanded items show supporting text."></video>
 
-[Open video](../../../assets/videos/de9fe073a6a1-mif0onle-GM3-Expressive-Guidelines-28-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif0onle-GM3%20-%20Expressive%20-%20Guidelines%2028%20-%20v02.mp4?alt=media&token=2c013635-21bc-485d-89ab-ab1382a3a057>)
 
 ## Behavior
 
@@ -373,6 +373,6 @@ List items containing other list items can expand and collapse in a folder-like 
 
 Tapping a list item expands it vertically across the entire screen using a container transform transition pattern.
 
-<video controls src="../../../assets/videos/d42240d6f62a-miem9cox-GM3-Expressive-Guidelines-34-v02.mp4" title="On a to do list, an item expands, revealing nested child items."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiem9cox-GM3%20-%20Expressive%20-%20Guidelines%2034%20-%20v02.mp4?alt=media&amp;token=2194b99b-9a02-460e-b917-b4818d954232" title="On a to do list, an item expands, revealing nested child items."></video>
 
-[Open video](../../../assets/videos/d42240d6f62a-miem9cox-GM3-Expressive-Guidelines-34-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmiem9cox-GM3%20-%20Expressive%20-%20Guidelines%2034%20-%20v02.mp4?alt=media&token=2194b99b-9a02-460e-b917-b4818d954232>)

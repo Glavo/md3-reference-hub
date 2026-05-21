@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/929ee2bfca47-m0fcl84h-Loading-Indicator-Overview-A-Sync.mp4"
@@ -25,9 +25,9 @@ Loading indicators show the progress for a short wait time
 
 -   Capture attention through motion
 
-<video controls src="../../../assets/videos/929ee2bfca47-m0fcl84h-Loading-Indicator-Overview-A-Sync.mp4" title="A looping sequence of morphs between 7 different shapes in a darker color, sitting on a circular background container in lighter color."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fcl84h-Loading-Indicator-Overview-A-Sync.mp4?alt=media&amp;token=d75aa987-4751-44cf-8013-2db500096066" title="A looping sequence of morphs between 7 different shapes in a darker color, sitting on a circular background container in lighter color."></video>
 
-[Open video](../../../assets/videos/929ee2bfca47-m0fcl84h-Loading-Indicator-Overview-A-Sync.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fcl84h-Loading-Indicator-Overview-A-Sync.mp4?alt=media&token=d75aa987-4751-44cf-8013-2db500096066>)
 
 ## Availability & resources
 
@@ -58,6 +58,6 @@ Loading indicators:
 
 -   Can scale in size
 
-<video controls src="../../../assets/videos/e718edf163d9-m0fcq8u9-Loading-Indicator-Overview-B.mp4" title="Loading indicator in news app with pull-to-refresh."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fcq8u9-Loading-Indicator-Overview-B.mp4?alt=media&amp;token=e6966a82-22f1-46ac-82c8-2597e2815244" title="Loading indicator in news app with pull-to-refresh."></video>
 
-[Open video](../../../assets/videos/e718edf163d9-m0fcq8u9-Loading-Indicator-Overview-B.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fcq8u9-Loading-Indicator-Overview-B.mp4?alt=media&token=e6966a82-22f1-46ac-82c8-2597e2815244>)

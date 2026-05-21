@@ -2,7 +2,7 @@
 title: "Overview"
 source_url: "https://m3.material.io/foundations/overview/principles"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/b07150401645-l6qr2chf-l1yxwqsj-Google_AvatarProject-12_Final-1-(1).png"

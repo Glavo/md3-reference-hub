@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.10.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-10-0"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/6546cfac5e8f-pR75LC3YTcz6E8rmRyB0FvLZPrvqzHwa-cHtTrrBe3yrNo1YUZLXQzHzvOKVGZZjjoc75U-KG8cvGFUthsfuYBugrUm5MKZN.png"
@@ -34,7 +34,7 @@ The general steps to opt-in to predictive back are:
 -   Setting the `android:enableOnBackInvokedCallback` manifest flag to true
 -   Moving away from legacy back navigation (`Activity#onBackPressed`, `KeyEvent.KEYCODE_BACK`, etc)
 
-[Video: predictive-back animation on android](../../assets/videos/df32a2e82c60-lg549708-3P-Bottom_Sheet_Predictive_Back.mp4)
+[Video: predictive-back animation on android](https://kstatic.googleusercontent.com/files/12607e68170650bb6a3e8279fb697f03347a022216efbc3c004183b912a657587fbf61a339729a76dae17a7efd61423dded1a17e7a8dbdf7e66f11197f991fd6)
 
 Once your app is migrated, destinations involving supported components will get predictive back navigation gestures and animations for free.
 

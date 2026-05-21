@@ -2,7 +2,7 @@
 title: "2021 Material Design Awards"
 source_url: "https://m3.material.io/blog/material-design-awards-2021"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/0a0e4c6ee8a5-JPNMdbYQZr2AbTU8uRRXr4C47-NH_rVELRckR_o1-rp7j1JNeAg1OeNoIZhjAS3UvmGBs7IIDyypCODFBT7u_XfGi81Mwv1o.png"

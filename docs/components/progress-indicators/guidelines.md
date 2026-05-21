@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/guidelines"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/b7b18e2ec836-m37ri5xn-Progress-Indicator-A_1.mp4"
@@ -36,9 +36,9 @@ assets:
 
 ## Guidelines
 
-<video controls src="../../../assets/videos/b7b18e2ec836-m37ri5xn-Progress-Indicator-A_1.mp4" title="Primary colored horizontal line fills a contrasting track from left to right and reaches the end when the app is loaded."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm37ri5xn-Progress-Indicator-A_1.mp4?alt=media&amp;token=12f49d7a-8022-4387-ba18-e01026d196d6" title="Primary colored horizontal line fills a contrasting track from left to right and reaches the end when the app is loaded."></video>
 
-[Open video](../../../assets/videos/b7b18e2ec836-m37ri5xn-Progress-Indicator-A_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm37ri5xn-Progress-Indicator-A_1.mp4?alt=media&token=12f49d7a-8022-4387-ba18-e01026d196d6>)
 
 ## Usage
 
@@ -46,13 +46,13 @@ Use progress indicators to show the status of ongoing processes, such as loading
 
 When multiple items are loading, use a single progress indicator to show progress for the group. Don’t add progress indicators to every activity.
 
-<video controls src="../../../assets/videos/59c753b73518-m0h3mssg-Progress-Indicator-B.mp4" title="One progress indicator showing the loading progress for a page of podcasts."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3mssg-Progress-Indicator-B.mp4?alt=media&amp;token=49cf61f1-00e0-431c-ac53-9f7c366540c7" title="One progress indicator showing the loading progress for a page of podcasts."></video>
 
-[Open video](../../../assets/videos/59c753b73518-m0h3mssg-Progress-Indicator-B.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3mssg-Progress-Indicator-B.mp4?alt=media&token=49cf61f1-00e0-431c-ac53-9f7c366540c7>)
 
-<video controls src="../../../assets/videos/fc21e413b2f6-m0h3n5x5-Progress-Indicator-C.mp4" title="Two progress indicators showing the loading progress of two podcasts."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3n5x5-Progress-Indicator-C.mp4?alt=media&amp;token=540710ca-d428-4f87-8099-a891280ffa6f" title="Two progress indicators showing the loading progress of two podcasts."></video>
 
-[Open video](../../../assets/videos/fc21e413b2f6-m0h3n5x5-Progress-Indicator-C.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3n5x5-Progress-Indicator-C.mp4?alt=media&token=540710ca-d428-4f87-8099-a891280ffa6f>)
 
 Choose a loading or progress indicator that corresponds to the expected wait time and kind of process. 
 
@@ -64,17 +64,17 @@ If the wait is very long, consider allowing people to navigate away from the pag
 | Short (between 200ms and 5s) | Loading indicator |
 | Long (Over 5s) | Progress indicator |
 
-<video controls src="../../../assets/videos/b98aa4ecdc28-m0h3nu79-Progress_Indicator-C.mp4" title="Screen without latency without progress indicator."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3nu79-Progress_Indicator-C.mp4?alt=media&amp;token=1ec2bfd0-5878-4530-8f1a-2ae5d8c21407" title="Screen without latency without progress indicator."></video>
 
-[Open video](../../../assets/videos/b98aa4ecdc28-m0h3nu79-Progress_Indicator-C.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3nu79-Progress_Indicator-C.mp4?alt=media&token=1ec2bfd0-5878-4530-8f1a-2ae5d8c21407>)
 
-<video controls src="../../../assets/videos/3548b48b01f0-m0h3o5um-Progress_Indicator-D.mp4" title="Screen with slight lag with loading indicator."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3o5um-Progress_Indicator-D.mp4?alt=media&amp;token=d6cf8057-eef7-41e2-b309-49ef255c9e12" title="Screen with slight lag with loading indicator."></video>
 
-[Open video](../../../assets/videos/3548b48b01f0-m0h3o5um-Progress_Indicator-D.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0h3o5um-Progress_Indicator-D.mp4?alt=media&token=d6cf8057-eef7-41e2-b309-49ef255c9e12>)
 
-<video controls src="../../../assets/videos/bbd9eb03843c-m37rcxcs-Loading-Indicator-E_2.mp4" title="Screen with long lag and progress indicator."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm37rcxcs-Loading-Indicator-E_2.mp4?alt=media&amp;token=15080baf-7d26-41aa-b6ed-f6e3ac35aab9" title="Screen with long lag and progress indicator."></video>
 
-[Open video](../../../assets/videos/bbd9eb03843c-m37rcxcs-Loading-Indicator-E_2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm37rcxcs-Loading-Indicator-E_2.mp4?alt=media&token=15080baf-7d26-41aa-b6ed-f6e3ac35aab9>)
 
 There are two variants of progress indicators:
 
@@ -102,21 +102,21 @@ When using a **determinate** indicator, the indicator must accurately represent 
 
 Use **indeterminate** indicators to show that a process is happening, but the wait time is unknown.
 
-<video controls src="../../../assets/videos/e2d4cb4b9b5b-m0qw0hzu-Progress-Indicator-G.mp4" title="Linear and circular progress indicators show both determinate and indeterminate progress."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw0hzu-Progress-Indicator-G.mp4?alt=media&amp;token=22494899-6e26-4535-be27-9e21a1d9b7de" title="Linear and circular progress indicators show both determinate and indeterminate progress."></video>
 
-[Open video](../../../assets/videos/e2d4cb4b9b5b-m0qw0hzu-Progress-Indicator-G.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw0hzu-Progress-Indicator-G.mp4?alt=media&token=22494899-6e26-4535-be27-9e21a1d9b7de>)
 
 As more information about a process becomes available, a progress indicator should change from **indeterminate** to **determinate**.
 
-<video controls src="../../../assets/videos/97ef0a8b77e8-m0qw2h3o-Progress-Indicator-K.mp4" title="On a track, a contrasting primary-colored horizontal line grows and shrinks, then fills it from left to right as app loads."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw2h3o-Progress-Indicator-K.mp4?alt=media&amp;token=20e232fe-707a-4619-b7a6-295516430e93" title="On a track, a contrasting primary-colored horizontal line grows and shrinks, then fills it from left to right as app loads."></video>
 
-[Open video](../../../assets/videos/97ef0a8b77e8-m0qw2h3o-Progress-Indicator-K.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw2h3o-Progress-Indicator-K.mp4?alt=media&token=20e232fe-707a-4619-b7a6-295516430e93>)
 
 ## Anatomy
 
-<video controls src="../../../assets/videos/a6d864c0afc3-m0qw333o-Progress-Indicator-H.mp4" title="1. The track is a horizontal line. 2. A primary colored line over the contrasting colored track is the progress indicator."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw333o-Progress-Indicator-H.mp4?alt=media&amp;token=f8f9dfed-e386-4c89-9fce-7f3ef92439c7" title="1. The track is a horizontal line. 2. A primary colored line over the contrasting colored track is the progress indicator."></video>
 
-[Open video](../../../assets/videos/a6d864c0afc3-m0qw333o-Progress-Indicator-H.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw333o-Progress-Indicator-H.mp4?alt=media&token=f8f9dfed-e386-4c89-9fce-7f3ef92439c7>)
 
 ### Active indicator
 
@@ -124,9 +124,9 @@ The active indicator shows the progress that has been made so far. 
 
 In indeterminate processes, it grows and shrinks along the track repeatedly.
 
-<video controls src="../../../assets/videos/1c11bb2da6dd-m0qw3uto-Progress-Indicator-I.mp4" title="A primary colored horizontal line fills a contrasting line from left to right.  "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw3uto-Progress-Indicator-I.mp4?alt=media&amp;token=220d7779-79b1-4dc5-a07e-b3aaa5ee2e38" title="A primary colored horizontal line fills a contrasting line from left to right.  "></video>
 
-[Open video](../../../assets/videos/1c11bb2da6dd-m0qw3uto-Progress-Indicator-I.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw3uto-Progress-Indicator-I.mp4?alt=media&token=220d7779-79b1-4dc5-a07e-b3aaa5ee2e38>)
 
 The active indicator appears as soon as progress begins. At low percentages where space is limited, this should appear as a dot to help people understand that there’s progress underway.
 
@@ -140,9 +140,9 @@ The wavy shape can make longer processes feel less static and is best used when 
 
 When using the wavy shape, the overall height of the component changes. At very small sizes, the wavy shape may not be as visible.
 
-<video controls src="../../../assets/videos/0bad54f1ef64-m0qw4l6g-Progress-Indicator-J.mp4" title="Examples of flat and wavy active indicator."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw4l6g-Progress-Indicator-J.mp4?alt=media&amp;token=f46594f6-6dec-4153-98e5-2684fff598d9" title="Examples of flat and wavy active indicator."></video>
 
-[Open video](../../../assets/videos/0bad54f1ef64-m0qw4l6g-Progress-Indicator-J.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw4l6g-Progress-Indicator-J.mp4?alt=media&token=f46594f6-6dec-4153-98e5-2684fff598d9>)
 
 ### Stop indicator
 
@@ -166,18 +166,18 @@ Place a linear progress indicator along the edge of a container that’s loading
 
 Use a single progress indicator at the top of a page to show progress of the whole group. Don’t add one for every element unless they’re activated independently.
 
-<video controls src="../../../assets/videos/fd5f56bb631a-m0qw57zf-Progress-Indicator-L.mp4" title="Progress indicator at top of screen, indicating page content is loading.
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw57zf-Progress-Indicator-L.mp4?alt=media&amp;token=7c60ef03-e605-4c80-8259-ef607744c7f5" title="Progress indicator at top of screen, indicating page content is loading.
 "></video>
 
-[Open video](../../../assets/videos/fd5f56bb631a-m0qw57zf-Progress-Indicator-L.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw57zf-Progress-Indicator-L.mp4?alt=media&token=7c60ef03-e605-4c80-8259-ef607744c7f5>)
 
-<video controls src="../../../assets/videos/cb72be7aaafb-m0qw6vq0-Progress-Indicator-M.mp4" title="Progress indicator on a card, indicating that the card's content is loading."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw6vq0-Progress-Indicator-M.mp4?alt=media&amp;token=870b64b5-6c08-4507-add6-b40864b888d2" title="Progress indicator on a card, indicating that the card's content is loading."></video>
 
-[Open video](../../../assets/videos/cb72be7aaafb-m0qw6vq0-Progress-Indicator-M.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw6vq0-Progress-Indicator-M.mp4?alt=media&token=870b64b5-6c08-4507-add6-b40864b888d2>)
 
-<video controls src="../../../assets/videos/f662d941e493-m37rivp2-Progress-Indicator-N_1.mp4" title="Linear indicator shows the loading progress of a selected news article in a list."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm37rivp2-Progress-Indicator-N_1.mp4?alt=media&amp;token=078eb6df-fe3e-4b23-af7e-68bf89206761" title="Linear indicator shows the loading progress of a selected news article in a list."></video>
 
-[Open video](../../../assets/videos/f662d941e493-m37rivp2-Progress-Indicator-N_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm37rivp2-Progress-Indicator-N_1.mp4?alt=media&token=078eb6df-fe3e-4b23-af7e-68bf89206761>)
 
 Circular progress indicators should be centered directly on the container or page that's loading, such as a button or card.
 
@@ -185,13 +185,13 @@ When loading more items on a page, place the circular progress indicator in the 
 
 However, if the content does not take long to load, consider using a loading indicator instead.
 
-<video controls src="../../../assets/videos/a4d463b9b088-m0qw7zgb-Progress-Indicator-O.mp4" title="As content loads, the screen is blank except for a circular progress indicator."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw7zgb-Progress-Indicator-O.mp4?alt=media&amp;token=31eeacfa-6698-4f50-b5ad-bfcb1bcb5a69" title="As content loads, the screen is blank except for a circular progress indicator."></video>
 
-[Open video](../../../assets/videos/a4d463b9b088-m0qw7zgb-Progress-Indicator-O.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw7zgb-Progress-Indicator-O.mp4?alt=media&token=31eeacfa-6698-4f50-b5ad-bfcb1bcb5a69>)
 
-<video controls src="../../../assets/videos/4a2b30ac9433-m0qw8fla-Progress-Indicator-P.mp4" title="As container content loads, the container is blank except for a circular progress indicator."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw8fla-Progress-Indicator-P.mp4?alt=media&amp;token=6a1386e7-6461-47a1-98ac-703c0ee61b3c" title="As container content loads, the container is blank except for a circular progress indicator."></video>
 
-[Open video](../../../assets/videos/4a2b30ac9433-m0qw8fla-Progress-Indicator-P.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qw8fla-Progress-Indicator-P.mp4?alt=media&token=6a1386e7-6461-47a1-98ac-703c0ee61b3c>)
 
 ### Progress indicators in buttons
 
@@ -201,13 +201,13 @@ In very small buttons, use the flat shape since the wavy shape is not as visible
 
 To ensure a minimum 3:1 contrast ratio, change the active indicator color to be the same color as the button’s icon or label text, and remove the track.
 
-<video controls src="../../../assets/videos/b12ab7095d52-m0qwbhkm-Progress-Indicator-Q.mp4" title="Determinate circular indicator active for 2 seconds after download button is selected, reflecting download progress."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qwbhkm-Progress-Indicator-Q.mp4?alt=media&amp;token=7dd18739-daa4-4e6f-bba1-7b24e0943703" title="Determinate circular indicator active for 2 seconds after download button is selected, reflecting download progress."></video>
 
-[Open video](../../../assets/videos/b12ab7095d52-m0qwbhkm-Progress-Indicator-Q.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qwbhkm-Progress-Indicator-Q.mp4?alt=media&token=7dd18739-daa4-4e6f-bba1-7b24e0943703>)
 
-<video controls src="../../../assets/videos/1bb18232133d-m0qwbvqt-Progress-Indicator-R.mp4" title="Shows idea of indeterminate circular indicators active on multiple buttons as  cluttered and confusing."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qwbvqt-Progress-Indicator-R.mp4?alt=media&amp;token=4b18b8f4-63f2-4e78-baf8-cc6ef6e4166b" title="Shows idea of indeterminate circular indicators active on multiple buttons as  cluttered and confusing."></video>
 
-[Open video](../../../assets/videos/1bb18232133d-m0qwbvqt-Progress-Indicator-R.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qwbvqt-Progress-Indicator-R.mp4?alt=media&token=4b18b8f4-63f2-4e78-baf8-cc6ef6e4166b>)
 
 ## Responsive layout
 

@@ -2,7 +2,7 @@
 title: "Why We Recommend Material Components for Android"
 source_url: "https://m3.material.io/blog/why-we-recommend-material-design-components-android"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/2120829d4f6a-m79E6A7AVxB-mJ5yzx1aPqxbo2QyiEoAzMJhpbmyIGU9brgB0d4hZUDdXIt6suQFDOB6g7RcBcXAq8H_jfwTOhbTd3-yZ2MC.png"

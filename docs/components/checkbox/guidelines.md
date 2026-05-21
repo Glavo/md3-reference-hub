@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/1019b10763b6-mg0yt1n6-1.png"
@@ -87,9 +87,9 @@ _A side sheet can group related controls on larger screens_
 
 Multiple checkboxes in a list can be selected.
 
-<video controls src="../../../assets/videos/8b31ba9c4ecc-lwj3f7ot-GM3-Components-Checkbox-Guidelines-1-v01.mp4" title="Using checkboxes to select a list of extra ingredients, like pickles and tomatoes, to add to a meal."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3f7ot-GM3-Components-Checkbox-Guidelines-1-v01.mp4?alt=media&amp;token=a07308bc-26e6-4d34-8765-cd9ad9e28b82" title="Using checkboxes to select a list of extra ingredients, like pickles and tomatoes, to add to a meal."></video>
 
-[Open video](../../../assets/videos/8b31ba9c4ecc-lwj3f7ot-GM3-Components-Checkbox-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3f7ot-GM3-Components-Checkbox-Guidelines-1-v01.mp4?alt=media&token=a07308bc-26e6-4d34-8765-cd9ad9e28b82>)
 
 Checkboxes can have a parent-child relationship with other checkboxes.
 
@@ -97,14 +97,14 @@ Checkboxes can have a parent-child relationship with other checkboxes.
 -   If a parent checkbox is unchecked, all child checkboxes are unchecked
 -   If some, but not all, child checkboxes are checked, the parent checkbox becomes an indeterminate checkbox. Checking an indeterminate checkbox checks all child items.
 
-<video controls src="../../../assets/videos/bc5356abe343-lwj3h4ri-GM3-Components-Checkbox-Guidelines-2-v01.mp4" title="Checking parent checkbox also checks child items. Unchecking one child item makes parent indeterminate."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3h4ri-GM3-Components-Checkbox-Guidelines-2-v01.mp4?alt=media&amp;token=6272d373-67f5-4c84-83e3-b24489905343" title="Checking parent checkbox also checks child items. Unchecking one child item makes parent indeterminate."></video>
 
-[Open video](../../../assets/videos/bc5356abe343-lwj3h4ri-GM3-Components-Checkbox-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3h4ri-GM3-Components-Checkbox-Guidelines-2-v01.mp4?alt=media&token=6272d373-67f5-4c84-83e3-b24489905343>)
 
 When selected, a checkbox clearly and instantly communicates its selected state.
 
 If used to turn something on or off, the action should be immediately executed.
 
-<video controls src="../../../assets/videos/2ebf22e23559-lwj3iba1-GM3-Components-Checkbox-Guidelines-3-v01.mp4" title="Selecting a checkbox for turning on dark mode immediately changes the phone theme."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3iba1-GM3-Components-Checkbox-Guidelines-3-v01.mp4?alt=media&amp;token=a72e8a98-afda-496e-b1ea-50647e6a9bca" title="Selecting a checkbox for turning on dark mode immediately changes the phone theme."></video>
 
-[Open video](../../../assets/videos/2ebf22e23559-lwj3iba1-GM3-Components-Checkbox-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3iba1-GM3-Components-Checkbox-Guidelines-3-v01.mp4?alt=media&token=a72e8a98-afda-496e-b1ea-50647e6a9bca>)

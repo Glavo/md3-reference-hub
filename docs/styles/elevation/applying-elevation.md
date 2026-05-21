@@ -2,7 +2,7 @@
 title: "Elevation"
 source_url: "https://m3.material.io/styles/elevation/applying-elevation"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/fed7916d81ed-lwyl8vgl-1.png"
@@ -110,9 +110,9 @@ _Interactive elements are emphasized with elevation_
 
 Elements can temporarily lift on focus, selection, or another kind of interaction, like swipe. A raised element can also lower when a higher element appears.
 
-<video controls src="../../../assets/videos/11579d93650d-lwynmywr-GM3-Styles-Elevation-Applying_Elevation-1-v01.mp4" title="Screen in an email app in which sliding over an email card allows you to delete it."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwynmywr-GM3-Styles-Elevation-Applying_Elevation-1-v01.mp4?alt=media&amp;token=d25ea774-8c2d-4a56-ae20-59c0691d4cb8" title="Screen in an email app in which sliding over an email card allows you to delete it."></video>
 
-[Open video](../../../assets/videos/11579d93650d-lwynmywr-GM3-Styles-Elevation-Applying_Elevation-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwynmywr-GM3-Styles-Elevation-Applying_Elevation-1-v01.mp4?alt=media&token=d25ea774-8c2d-4a56-ae20-59c0691d4cb8>)
 
 ## Scrims
 

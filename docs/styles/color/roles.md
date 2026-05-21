@@ -2,7 +2,7 @@
 title: "Color roles"
 source_url: "https://m3.material.io/styles/color/roles"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/1a32091256d8-ly2ms4t2-1.png"
@@ -246,9 +246,9 @@ There are also five surface container roles named based on their level of emphas
 
 **Surface container** is the default role, but the others are especially helpful for creating hierarchy and nested containers in [layouts for expanded screens](../../foundations/layout/breakpoints/expanded.md).
 
-<video controls src="../../../assets/videos/c0aa757b759d-ly2njabe-GM3-Styles-Color-Color_roles-1-v01.mp4" title="4 color swatches in light and dark theme: Surface container lowest, Surface container low, Surface container, Surface container high and Surface container highest."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2njabe-GM3-Styles-Color-Color_roles-1-v01.mp4?alt=media&amp;token=8aa7d283-aff1-4ba2-b146-ea330dc45998" title="4 color swatches in light and dark theme: Surface container lowest, Surface container low, Surface container, Surface container high and Surface container highest."></video>
 
-[Open video](../../../assets/videos/c0aa757b759d-ly2njabe-GM3-Styles-Color-Color_roles-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2njabe-GM3-Styles-Color-Color_roles-1-v01.mp4?alt=media&token=8aa7d283-aff1-4ba2-b146-ea330dc45998>)
 
 The most common combination of surface roles uses **surface** for a background area and **surface container** for a navigation area.
 
@@ -266,9 +266,9 @@ _Surface; Surface container_
 
 Depending on necessary hierarchy, feature area, and design logic, you can use [add-on surface colors](https://m3.material.io/m3/pages/color-roles/tab-1#63d6db08-59e2-4341-ac33-9509eefd9b4f) in larger window class sizes as long as colors are consistently applied.
 
-<video controls src="../../../assets/videos/458e3e3e3756-ly2nit0j-GM3-Styles-Color-Color_roles-2-v01.mp4" title="Mobile, foldable, and tablet screens showing how the body and navigation regions have the same color roles across window sizes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nit0j-GM3-Styles-Color-Color_roles-2-v01.mp4?alt=media&amp;token=f11fcb96-ea21-487e-9e1a-a4517190a291" title="Mobile, foldable, and tablet screens showing how the body and navigation regions have the same color roles across window sizes."></video>
 
-[Open video](../../../assets/videos/458e3e3e3756-ly2nit0j-GM3-Styles-Color-Color_roles-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2nit0j-GM3-Styles-Color-Color_roles-2-v01.mp4?alt=media&token=f11fcb96-ea21-487e-9e1a-a4517190a291>)
 
 By default, neutral-colored components such as navigation bars, menus, or dialogs are mapped to specific surface container roles, but these [roles can be remapped](advanced/overview.md) by makers to suit user needs.
 

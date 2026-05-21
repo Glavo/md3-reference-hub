@@ -2,7 +2,7 @@
 title: "Snackbar"
 source_url: "https://m3.material.io/components/snackbar/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/3c5be3b0373c-lwp0j72d-1.png"
@@ -74,18 +74,18 @@ Snackbars have the following focus requirements:
 -   Don't trap focus in the snackbar. Users should be able to freely navigate in and out.
 -   On web, a shortcut should exist for users to move focus to snackbars with actions (like Alt+G). Ensure that this shortcut is clearly documented, like in a help article.
 
-<video controls src="../../../assets/videos/f2a85d549d5e-lwp0eako-GM3-Components-Snackbar-Accessibility-1-v01.mp4" title="Taking a menu item action moves focus to a snackbar. Moving focus out of the snackbar returns it to the same menu item."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0eako-GM3-Components-Snackbar-Accessibility-1-v01.mp4?alt=media&amp;token=c77a347f-6dae-4211-9430-e6508f305e31" title="Taking a menu item action moves focus to a snackbar. Moving focus out of the snackbar returns it to the same menu item."></video>
 
-[Open video](../../../assets/videos/f2a85d549d5e-lwp0eako-GM3-Components-Snackbar-Accessibility-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0eako-GM3-Components-Snackbar-Accessibility-1-v01.mp4?alt=media&token=c77a347f-6dae-4211-9430-e6508f305e31>)
 
 Focus exits the snackbar differently per platform:
 
 -   Ideally, focus should either return to the element that triggered the snackbar, or go to the next most logical element on the page. 
 -   On Android Compose, focus may move to the nearest visible element, or to the first actionable item on the page.
 
-<video controls src="../../../assets/videos/f9de28226c1b-lwp0g1ed-GM3-Components-Snackbar-Accessibility-2-v01.mp4" title="Confirming in a dialog moves focus to a snackbar. Moving focus out of the snackbar returns it to a page element."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0g1ed-GM3-Components-Snackbar-Accessibility-2-v01.mp4?alt=media&amp;token=b8f4684d-424c-486b-8756-c7a148f56f72" title="Confirming in a dialog moves focus to a snackbar. Moving focus out of the snackbar returns it to a page element."></video>
 
-[Open video](../../../assets/videos/f9de28226c1b-lwp0g1ed-GM3-Components-Snackbar-Accessibility-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0g1ed-GM3-Components-Snackbar-Accessibility-2-v01.mp4?alt=media&token=b8f4684d-424c-486b-8756-c7a148f56f72>)
 
 ### Keyboard navigation
 

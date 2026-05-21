@@ -2,7 +2,7 @@
 title: "Snackbar"
 source_url: "https://m3.material.io/components/snackbar/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/fc6da0d2c294-m6a9x4e1-1.png"
@@ -275,15 +275,15 @@ Snackbars appear without warning, but they don’t block users from interacting 
 
 Snackbars without actions can auto-dismiss after 4–10 seconds, depending on platform. Avoid using auto-dismissing snackbars on web unless there's also inline feedback.
 
-<video controls src="../../../assets/videos/f50b017c565b-lwp03p7p-GM3-Components-Snackbar-Guidelines-1-v01.mp4" title="Snackbar without an action button appearing and disappearing within 4 seconds from the screen of a mobile device."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp03p7p-GM3-Components-Snackbar-Guidelines-1-v01.mp4?alt=media&amp;token=536dcebe-84fa-47e0-8452-3e268b1ca53d" title="Snackbar without an action button appearing and disappearing within 4 seconds from the screen of a mobile device."></video>
 
-[Open video](../../../assets/videos/f50b017c565b-lwp03p7p-GM3-Components-Snackbar-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp03p7p-GM3-Components-Snackbar-Guidelines-1-v01.mp4?alt=media&token=536dcebe-84fa-47e0-8452-3e268b1ca53d>)
 
 Snackbars with actions should remain on the screen until the user takes an action on the snackbar, or dismisses it.
 
-<video controls src="../../../assets/videos/2704281dd3fc-m7ca02x7-m6f92ux5-GM3-Components-Snackbar-Behavior-1-v01.mp4" title="Snackbars with actions should remain on the screen until the user takes an action on the snackbar, or dismisses it."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm7ca02x7-m6f92ux5-GM3-Components-Snackbar-Behavior-1-v01.mp4?alt=media&amp;token=90969bc8-5ceb-4891-8d29-521f673e0b14" title="Snackbars with actions should remain on the screen until the user takes an action on the snackbar, or dismisses it."></video>
 
-[Open video](../../../assets/videos/2704281dd3fc-m7ca02x7-m6f92ux5-GM3-Components-Snackbar-Behavior-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm7ca02x7-m6f92ux5-GM3-Components-Snackbar-Behavior-1-v01.mp4?alt=media&token=90969bc8-5ceb-4891-8d29-521f673e0b14>)
 
 ### Consecutive snackbars
 
@@ -291,14 +291,14 @@ Consecutive snackbars must appear one at a time. 
 
 Snackbars without actions appear and disappear automatically, while those with actions remain on screen until dismissed. However, a snackbar with updated information can immediately replace an outdated snackbar.
 
-<video controls src="../../../assets/videos/48755fd23a5a-lwp06c42-GM3-Components-Snackbar-Guidelines-2-4-v02.mp4" title="Two snackbars appear sequentially on a mobile device. The first includes an action button."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp06c42-GM3-Components-Snackbar-Guidelines-2-4-v02.mp4?alt=media&amp;token=b9c1add8-52de-43e6-b85f-d3939e38de77" title="Two snackbars appear sequentially on a mobile device. The first includes an action button."></video>
 
-[Open video](../../../assets/videos/48755fd23a5a-lwp06c42-GM3-Components-Snackbar-Guidelines-2-4-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp06c42-GM3-Components-Snackbar-Guidelines-2-4-v02.mp4?alt=media&token=b9c1add8-52de-43e6-b85f-d3939e38de77>)
 
-<video controls src="../../../assets/videos/bb3b4dd8020c-lwp08dxf-GM3-Components-Snackbar-Guidelines-3-v01.mp4" title="2 snackbars appear sequentially on a mobile device and are stacked on top of one another. The first includes an action button."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp08dxf-GM3-Components-Snackbar-Guidelines-3-v01.mp4?alt=media&amp;token=97486710-862f-4282-915f-7e4de7f808be" title="2 snackbars appear sequentially on a mobile device and are stacked on top of one another. The first includes an action button."></video>
 
-[Open video](../../../assets/videos/bb3b4dd8020c-lwp08dxf-GM3-Components-Snackbar-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp08dxf-GM3-Components-Snackbar-Guidelines-3-v01.mp4?alt=media&token=97486710-862f-4282-915f-7e4de7f808be>)
 
-<video controls src="../../../assets/videos/863937fa439b-lwp0a03k-GM3-Components-Snackbar-Guidelines-2-3-v01.mp4" title="FAB's position is displaced when a snackbar enters the screen of a mobile device."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0a03k-GM3-Components-Snackbar-Guidelines-2-3-v01.mp4?alt=media&amp;token=f7e5aecd-5cbf-4a5b-8c04-baf3b30727ec" title="FAB's position is displaced when a snackbar enters the screen of a mobile device."></video>
 
-[Open video](../../../assets/videos/863937fa439b-lwp0a03k-GM3-Components-Snackbar-Guidelines-2-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0a03k-GM3-Components-Snackbar-Guidelines-2-3-v01.mp4?alt=media&token=f7e5aecd-5cbf-4a5b-8c04-baf3b30727ec>)

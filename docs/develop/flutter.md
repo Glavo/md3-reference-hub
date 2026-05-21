@@ -2,7 +2,7 @@
 title: "Flutter"
 source_url: "https://m3.material.io/develop/flutter"
 lastmod: "2025-08-22"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "develop"
 assets:
   - "assets/images/b794e9852cc9-kOdimw-XAyiHRVFafT1waKS5FYBY4S97unceUA45Tj2qKAoRuHoU6dSoZ-r3Tr7ZGlo8NqT47AGbEykvZi7FDiCxtrSJXNmz.png"

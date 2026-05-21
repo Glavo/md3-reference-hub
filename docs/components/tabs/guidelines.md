@@ -2,7 +2,7 @@
 title: "Tabs"
 source_url: "https://m3.material.io/components/tabs/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/9bdb10157beb-m2k0hhto-1.png"
@@ -151,9 +151,9 @@ _Badges are used to highlight notifications related to tab specific content_
 
 To differentiate an active tab from an inactive tab, apply an underline and color change to the active tab’s text and icon.
 
-<video controls src="../../../assets/videos/ed36a97ef242-m60drx93-GM3-Components-Tabs-Guidelines-1-v01.mp4" title="Selecting a tab creates an underline below the  icon and text, both which have changed color to show the tab is active."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60drx93-GM3-Components-Tabs-Guidelines-1-v01.mp4?alt=media&amp;token=01dba97f-6d23-422f-a8da-fbc765f43b95" title="Selecting a tab creates an underline below the  icon and text, both which have changed color to show the tab is active."></video>
 
-[Open video](../../../assets/videos/ed36a97ef242-m60drx93-GM3-Components-Tabs-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60drx93-GM3-Components-Tabs-Guidelines-1-v01.mp4?alt=media&token=01dba97f-6d23-422f-a8da-fbc765f43b95>)
 
 ## Choosing the tab variant
 
@@ -199,56 +199,56 @@ _Active, hover, focused, and pressed states_
 
 Fixed tabs display all tabs in a set simultaneously. They are best for switching between related content quickly, such as between transportation methods in a map. To navigate between fixed tabs, tap an individual tab, or swipe left or right in the content area.
 
-<video controls src="../../../assets/videos/7ca73c3ae3bc-m60dtw9m-GM3-Components-Tabs-Guidelines-2-v01.mp4" title="Mobile screen with fixed tabs, text only."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dtw9m-GM3-Components-Tabs-Guidelines-2-v01.mp4?alt=media&amp;token=9eb59133-809d-45dd-8ac1-f5ce4ef3f482" title="Mobile screen with fixed tabs, text only."></video>
 
-[Open video](../../../assets/videos/7ca73c3ae3bc-m60dtw9m-GM3-Components-Tabs-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dtw9m-GM3-Components-Tabs-Guidelines-2-v01.mp4?alt=media&token=9eb59133-809d-45dd-8ac1-f5ce4ef3f482>)
 
 #### Tap a tab
 
 Navigate to a tab by tapping on it.
 
-<video controls src="../../../assets/videos/cd8a11ea8667-m60duq4j-GM3-Components-Tabs-Guidelines-3-v01.mp4" title="Tapping a tab selects it."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60duq4j-GM3-Components-Tabs-Guidelines-3-v01.mp4?alt=media&amp;token=1f45151f-f0a7-44bc-8e3e-c285696673ad" title="Tapping a tab selects it."></video>
 
-[Open video](../../../assets/videos/cd8a11ea8667-m60duq4j-GM3-Components-Tabs-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60duq4j-GM3-Components-Tabs-Guidelines-3-v01.mp4?alt=media&token=1f45151f-f0a7-44bc-8e3e-c285696673ad>)
 
 #### Swipe within the content area
 
 To navigate between tabs, users can swipe left or right within the content area.
 
-<video controls src="../../../assets/videos/8a5096ffbfce-m60dvuo4-GM3-Components-Tabs-Guidelines-4-v01.mp4" title="Swiping left or right on the content area moves the focus between fixed tabs."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dvuo4-GM3-Components-Tabs-Guidelines-4-v01.mp4?alt=media&amp;token=7d119b6f-4276-488b-bee9-0814d15c61aa" title="Swiping left or right on the content area moves the focus between fixed tabs."></video>
 
-[Open video](../../../assets/videos/8a5096ffbfce-m60dvuo4-GM3-Components-Tabs-Guidelines-4-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dvuo4-GM3-Components-Tabs-Guidelines-4-v01.mp4?alt=media&token=7d119b6f-4276-488b-bee9-0814d15c61aa>)
 
 Use caution when placing other swipeable content (such as interactive maps or list items) in the content area.
 
-<video controls src="../../../assets/videos/ab11f00c5896-m60dwpex-GM3-Components-Tabs-Guidelines-5.1-v01.mp4" title="Scrolling up and down through content, then swiping left through tabs."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dwpex-GM3-Components-Tabs-Guidelines-5.1-v01.mp4?alt=media&amp;token=544702cf-ae9c-400e-a038-cfde92c1a9a5" title="Scrolling up and down through content, then swiping left through tabs."></video>
 
-[Open video](../../../assets/videos/ab11f00c5896-m60dwpex-GM3-Components-Tabs-Guidelines-5.1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dwpex-GM3-Components-Tabs-Guidelines-5.1-v01.mp4?alt=media&token=544702cf-ae9c-400e-a038-cfde92c1a9a5>)
 
-<video controls src="../../../assets/videos/e1c2b0fc4b70-m60dxhwe-GM3-Components-Tabs-Guidelines-5.2-v01.mp4" title="Swiping to change tabs accidentally swipes to delete a list item in the UI instead."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dxhwe-GM3-Components-Tabs-Guidelines-5.2-v01.mp4?alt=media&amp;token=37281524-6317-465c-b382-4099b0e3c796" title="Swiping to change tabs accidentally swipes to delete a list item in the UI instead."></video>
 
-[Open video](../../../assets/videos/e1c2b0fc4b70-m60dxhwe-GM3-Components-Tabs-Guidelines-5.2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dxhwe-GM3-Components-Tabs-Guidelines-5.2-v01.mp4?alt=media&token=37281524-6317-465c-b382-4099b0e3c796>)
 
 ### Scrollable tabs
 
 When a set of tabs cannot fit on screen, use scrollable tabs. Scrollable tabs can use longer text labels and a larger number of tabs. They are best used for browsing on touch interfaces.
 
-<video controls src="../../../assets/videos/35edbcbe03b1-m60dygta-GM3-Components-Tabs-Guidelines-6-v01.mp4" title="Scrolling left and right on scrollable tabs."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dygta-GM3-Components-Tabs-Guidelines-6-v01.mp4?alt=media&amp;token=445c40d5-20a1-4afe-885a-ed9bea0640ed" title="Scrolling left and right on scrollable tabs."></video>
 
-[Open video](../../../assets/videos/35edbcbe03b1-m60dygta-GM3-Components-Tabs-Guidelines-6-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dygta-GM3-Components-Tabs-Guidelines-6-v01.mp4?alt=media&token=445c40d5-20a1-4afe-885a-ed9bea0640ed>)
 
 ### Scrolling content
 
 When a screen scrolls up and down through content, tabs can either be fixed to the top of the screen, or scroll off the screen. If they scroll off the screen, they will return when the user scrolls upward.
 
-<video controls src="../../../assets/videos/b992bf6c7969-m60dz0ae-GM3-Components-Tabs-Guidelines-7-v01.mp4" title="Scrolling through content with fixed tabs  at top of the screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dz0ae-GM3-Components-Tabs-Guidelines-7-v01.mp4?alt=media&amp;token=4a834ae7-454d-4029-b581-892fb2052430" title="Scrolling through content with fixed tabs  at top of the screen."></video>
 
-[Open video](../../../assets/videos/b992bf6c7969-m60dz0ae-GM3-Components-Tabs-Guidelines-7-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dz0ae-GM3-Components-Tabs-Guidelines-7-v01.mp4?alt=media&token=4a834ae7-454d-4029-b581-892fb2052430>)
 
-<video controls src="../../../assets/videos/e0812947bd73-m60dztv7-GM3-Components-Tabs-Guidelines-8.1.mp4" title="When scrolling up through content, tabs scroll off screen, then reappear when scrolling back down."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dztv7-GM3-Components-Tabs-Guidelines-8.1.mp4?alt=media&amp;token=d909f8c1-c29d-448b-be0f-8beb0c552208" title="When scrolling up through content, tabs scroll off screen, then reappear when scrolling back down."></video>
 
-[Open video](../../../assets/videos/e0812947bd73-m60dztv7-GM3-Components-Tabs-Guidelines-8.1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60dztv7-GM3-Components-Tabs-Guidelines-8.1.mp4?alt=media&token=d909f8c1-c29d-448b-be0f-8beb0c552208>)
 
-<video controls src="../../../assets/videos/01b6e46d305c-m60e0d2q-GM3-Components-Tabs-Guidelines-8.2.mp4" title="When scrolling up through content, tabs scroll behind the app bar then reappear when scrolling back down."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60e0d2q-GM3-Components-Tabs-Guidelines-8.2.mp4?alt=media&amp;token=53c95ac9-7bb1-47ea-8aa7-a392191e844e" title="When scrolling up through content, tabs scroll behind the app bar then reappear when scrolling back down."></video>
 
-[Open video](../../../assets/videos/01b6e46d305c-m60e0d2q-GM3-Components-Tabs-Guidelines-8.2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm60e0d2q-GM3-Components-Tabs-Guidelines-8.2.mp4?alt=media&token=53c95ac9-7bb1-47ea-8aa7-a392191e844e>)

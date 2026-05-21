@@ -2,7 +2,7 @@
 title: "Buttons"
 source_url: "https://m3.material.io/components/buttons/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/d6beeee81d7c-mmlqkp7g-01.png"
@@ -79,9 +79,9 @@ Buttons communicate actions that people can take. They are typically placed thro
 
 They can also be placed within standard button groups.
 
-<video controls src="../../../assets/videos/2c4aa2d74057-mmlqnl0b-GM3-Commom-Buttons-Guidelines-02-v01.mp4" title="Video call app with prominent filled button to join and end a call."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlqnl0b-GM3%20-%20Commom%20Buttons%20-%20Guidelines%2002%20-%20v01.mp4?alt=media&amp;token=0276f496-231c-4f41-bf90-601156e17612" title="Video call app with prominent filled button to join and end a call."></video>
 
-[Open video](../../../assets/videos/2c4aa2d74057-mmlqnl0b-GM3-Commom-Buttons-Guidelines-02-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlqnl0b-GM3%20-%20Commom%20Buttons%20-%20Guidelines%2002%20-%20v01.mp4?alt=media&token=0276f496-231c-4f41-bf90-601156e17612>)
 
 Buttons are just one option for representing actions in a product and shouldn’t be overused. Too many buttons on a screen can disrupt the visual hierarchy.
 
@@ -129,9 +129,9 @@ Toggle buttons should use an outlined icon when unselected, and a filled version
 
 By default, toggle buttons change from round to square when selected.
 
-<video controls src="../../../assets/videos/d566f4dd405d-mmlt2zdp-GM3-Commom-Buttons-Guidelines-10-v01.mp4" title="Toggle “stop” button in timer app."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlt2zdp-GM3%20-%20Commom%20Buttons%20-%20Guidelines%2010%20-%20v01.mp4?alt=media&amp;token=5bcc30f8-46d3-4c32-b013-61e8eee3ca77" title="Toggle “stop” button in timer app."></video>
 
-[Open video](../../../assets/videos/d566f4dd405d-mmlt2zdp-GM3-Commom-Buttons-Guidelines-10-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmlt2zdp-GM3%20-%20Commom%20Buttons%20-%20Guidelines%2010%20-%20v01.mp4?alt=media&token=5bcc30f8-46d3-4c32-b013-61e8eee3ca77>)
 
 If the label changes on selected or unselected states, be mindful of the character count. Changing the label significantly is disruptive to the user and the page layout.
 

@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/53dc135c6979-mg0wmkr4-01.png"

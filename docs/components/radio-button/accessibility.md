@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/accessibility"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/4eccbf5fd5ad-mcelaxg0-GM3_Radio-button_Accessibility_01_IA_v01.mp4"
@@ -36,9 +36,9 @@ Once a radio button is selected, the group can’t be deselected. To let people 
 
 People should be able to select either the text label or the radio button to select an option.
 
-<video controls src="../../../assets/videos/4eccbf5fd5ad-mcelaxg0-GM3_Radio-button_Accessibility_01_IA_v01.mp4" title="Selecting between radio buttons for a home and office address."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelaxg0-GM3_Radio-button_Accessibility_01_IA_v01.mp4?alt=media&amp;token=73b3e621-4cdd-443f-ad2d-3348de408d8d" title="Selecting between radio buttons for a home and office address."></video>
 
-[Open video](../../../assets/videos/4eccbf5fd5ad-mcelaxg0-GM3_Radio-button_Accessibility_01_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcelaxg0-GM3_Radio-button_Accessibility_01_IA_v01.mp4?alt=media&token=73b3e621-4cdd-443f-ad2d-3348de408d8d>)
 
 ### Avoid applying density by default
 

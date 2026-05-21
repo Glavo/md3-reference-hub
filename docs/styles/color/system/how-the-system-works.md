@@ -2,7 +2,7 @@
 title: "Color system"
 source_url: "https://m3.material.io/styles/color/system/how-the-system-works"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/d7293f5bfed3-m4mxjs2l-1.png"
@@ -104,9 +104,9 @@ The default static color scheme for Material products. [See the baseline color s
 
 _The dynamic color process is automatic. A single source color is used to generate five key colors, which are used to make tonal palettes. Tones from the palettes are then assigned to color roles, which are in turn assigned to elements of the UI._
 
-<video controls src="../../../../assets/videos/c8b8cb23f050-linbo537-MAT020.03-v3.mp4" title="How dynamic color schemes are created."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flinbo537-MAT020.03-v3.mp4?alt=media&amp;token=d22f7ac8-7c43-4730-831d-90ceaddfc783" title="How dynamic color schemes are created."></video>
 
-[Open video](../../../../assets/videos/c8b8cb23f050-linbo537-MAT020.03-v3.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flinbo537-MAT020.03-v3.mp4?alt=media&token=d22f7ac8-7c43-4730-831d-90ceaddfc783>)
 
 ## How dynamic color generates color schemes
 
@@ -301,9 +301,9 @@ _Using colors of tones 30 and 98 for a button and its label create a 7:1 contras
 
 Changing HCT values lets you manipulate colors in flexible but predictable ways. Unlike other color spaces (like HSL or RGB), HCT allows the manipulation of a color's hue and chroma without affecting its tone. Watch to learn more:
 
-<video controls src="../../../../assets/videos/e07cb2ccc1bb-lfmpm0pq-MAT020.02-v3.mp4" title="Animated video explaining the three color dimensions (hue, chroma, and tone) and how they relate to accessible color schemes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Four-fake-design-system%2Fimages%2Flfmpm0pq-MAT020.02-v3.mp4?alt=media&amp;token=39ca7b87-2339-4ad8-b2e2-2b69286c7e2e" title="Animated video explaining the three color dimensions (hue, chroma, and tone) and how they relate to accessible color schemes."></video>
 
-[Open video](../../../../assets/videos/e07cb2ccc1bb-lfmpm0pq-MAT020.02-v3.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Four-fake-design-system%2Fimages%2Flfmpm0pq-MAT020.02-v3.mp4?alt=media&token=39ca7b87-2339-4ad8-b2e2-2b69286c7e2e>)
 
 ### Hue
 

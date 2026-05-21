@@ -101,6 +101,7 @@ function parseArgs(argv) {
     skipAssets: false,
     forceAssets: false,
     imageLinks: "remote",
+    videoLinks: "remote",
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -121,6 +122,10 @@ function parseArgs(argv) {
       args.imageLinks = normalizeImageLinkMode(argv[++i]);
     } else if (arg.startsWith("--image-links=")) {
       args.imageLinks = normalizeImageLinkMode(arg.slice("--image-links=".length));
+    } else if (arg === "--video-links") {
+      args.videoLinks = normalizeVideoLinkMode(argv[++i]);
+    } else if (arg.startsWith("--video-links=")) {
+      args.videoLinks = normalizeVideoLinkMode(arg.slice("--video-links=".length));
     } else if (/^\d+$/u.test(arg) && args.limit === null) {
       args.limit = Number(arg);
     } else {
@@ -139,6 +144,14 @@ function parseArgs(argv) {
 }
 
 function normalizeImageLinkMode(value) {
+  return normalizeMediaLinkMode(value, "--image-links");
+}
+
+function normalizeVideoLinkMode(value) {
+  return normalizeMediaLinkMode(value, "--video-links");
+}
+
+function normalizeMediaLinkMode(value, optionName) {
   const normalized = String(value || "").trim().toLowerCase();
   if (normalized === "remote" || normalized === "direct") {
     return "remote";
@@ -146,7 +159,7 @@ function normalizeImageLinkMode(value) {
   if (normalized === "local") {
     return "local";
   }
-  throw new Error("--image-links must be remote or local.");
+  throw new Error(`${optionName} must be remote or local.`);
 }
 
 function toPosix(value) {
@@ -409,8 +422,9 @@ class HttpClient {
 }
 
 class AssetRegistry {
-  constructor(imageLinks = "remote") {
+  constructor(imageLinks = "remote", videoLinks = "remote") {
     this.imageLinks = imageLinks;
+    this.videoLinks = videoLinks;
     this.assets = new Map();
   }
 
@@ -961,10 +975,14 @@ function imageReference(asset, outputPath, assets) {
   return assets.imageLinks === "local" ? assets.relativePath(asset, outputPath) : asset.source_url;
 }
 
+function videoReference(asset, outputPath, assets) {
+  return assets.videoLinks === "local" ? assets.relativePath(asset, outputPath) : asset.source_url;
+}
+
 function renderVideo(asset, label, outputPath, assets) {
-  const relative = assets.relativePath(asset, outputPath);
+  const href = videoReference(asset, outputPath, assets);
   const safeLabel = label || "Video";
-  return `<video controls src="${relative}" title="${escapeHtml(safeLabel)}"></video>\n\n[Open video](${relative})`;
+  return `<video controls src="${escapeHtml(href)}" title="${escapeHtml(safeLabel)}"></video>\n\n[Open video](${markdownDestination(href)})`;
 }
 
 function cleanInline(value) {
@@ -1039,9 +1057,9 @@ function replaceBlogPlaceholders(html, block, context, pageAssets) {
     }
     const asset = context.assets.register(video.url, "videos", video);
     pageAssets.add(asset.source_url);
-    const relative = context.assets.relativePath(asset, context.outputPath);
+    const href = videoReference(asset, context.outputPath, context.assets);
     const label = video.alt || video.caption || "Video";
-    node.replaceWith(`<p><a href="${escapeHtml(relative)}">Video: ${escapeHtml(label)}</a></p>`);
+    node.replaceWith(`<p><a href="${escapeHtml(href)}">Video: ${escapeHtml(label)}</a></p>`);
   });
 
   $("mio-code-snippet").each((_index, element) => {
@@ -1833,7 +1851,7 @@ async function main() {
   const { allowed, skipped } = filterEntries(sitemapEntries, disallows);
   const selected = selectEntries(allowed, args.limit, routeIndex);
   const urlOutputMap = buildUrlOutputMap(selected, routeIndex);
-  const assets = new AssetRegistry(args.imageLinks);
+  const assets = new AssetRegistry(args.imageLinks, args.videoLinks);
   const snapshotAt = new Date().toISOString();
 
   const manifest = {
@@ -1842,6 +1860,7 @@ async function main() {
     carbon_version: carbonVersion,
     main_bundle_url: mainBundleUrl,
     image_links: args.imageLinks,
+    video_links: args.videoLinks,
     limited: Boolean(args.limit),
     limit: args.limit,
     totals: {

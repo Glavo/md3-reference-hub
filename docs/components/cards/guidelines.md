@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/6eeeabdc42f0-lwujy207-1.png"
@@ -283,9 +283,9 @@ _Place cards in a collection in a straightforward, easy-to-use manner_
 
 Cards can be displayed together in a grid.
 
-<video controls src="../../../assets/videos/e3f59bd6f1d4-lwumleea-GM3-Components-Cards-Guidelines-1-v01.mp4" title="A set of 4 cards in a grid."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumleea-GM3-Components-Cards-Guidelines-1-v01.mp4?alt=media&amp;token=b5a86012-1b58-4343-93a9-d12d9e332eeb" title="A set of 4 cards in a grid."></video>
 
-[Open video](../../../assets/videos/e3f59bd6f1d4-lwumleea-GM3-Components-Cards-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumleea-GM3-Components-Cards-Guidelines-1-v01.mp4?alt=media&token=b5a86012-1b58-4343-93a9-d12d9e332eeb>)
 
 The default grid can be customized in code to show cards in staggered or mosaic grids.
 
@@ -301,17 +301,17 @@ _Custom staggered grid_
 
 Cards can be displayed together in a vertical list.
 
-<video controls src="../../../assets/videos/0b4cb1ebb6b7-lwummhcq-GM3-Components-Cards-Guidelines-2-v01.mp4" title="3 cards in vertical list."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwummhcq-GM3-Components-Cards-Guidelines-2-v01.mp4?alt=media&amp;token=883ac981-471e-40a8-9774-c27ffffcb2d8" title="3 cards in vertical list."></video>
 
-[Open video](../../../assets/videos/0b4cb1ebb6b7-lwummhcq-GM3-Components-Cards-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwummhcq-GM3-Components-Cards-Guidelines-2-v01.mp4?alt=media&token=883ac981-471e-40a8-9774-c27ffffcb2d8>)
 
 ### Carousel
 
 Cards can be displayed together in a horizontal row or carousel.
 
-<video controls src="../../../assets/videos/1e9c8a33bbcc-lwumodmh-GM3-Components-Cards-Guidelines-3-v01.mp4" title="3 event reservation cards in a horizontal row."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumodmh-GM3-Components-Cards-Guidelines-3-v01.mp4?alt=media&amp;token=2be19f23-469e-4bd4-b7e9-bc1f3a814205" title="3 event reservation cards in a horizontal row."></video>
 
-[Open video](../../../assets/videos/1e9c8a33bbcc-lwumodmh-GM3-Components-Cards-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumodmh-GM3-Components-Cards-Guidelines-3-v01.mp4?alt=media&token=2be19f23-469e-4bd4-b7e9-bc1f3a814205>)
 
 ## Adaptive design
 
@@ -363,9 +363,9 @@ On smaller screens with the compact window size, consider swapping cards for lis
 
 Make sure that controls, actions, and other component-specific elements are maintained.
 
-<video controls src="../../../assets/videos/3b8088e4247f-lwumrs3a-GM3-Components-Cards-Guidelines-4-v01.mp4" title="Cards on a large screen adapt to a list on a small mobile screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumrs3a-GM3-Components-Cards-Guidelines-4-v01.mp4?alt=media&amp;token=450f4017-ee5e-466d-a712-8976fa5a9d8e" title="Cards on a large screen adapt to a list on a small mobile screen."></video>
 
-[Open video](../../../assets/videos/3b8088e4247f-lwumrs3a-GM3-Components-Cards-Guidelines-4-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumrs3a-GM3-Components-Cards-Guidelines-4-v01.mp4?alt=media&token=450f4017-ee5e-466d-a712-8976fa5a9d8e>)
 
 ## Behavior
 
@@ -373,25 +373,25 @@ Make sure that controls, actions, and other component-specific elements are main
 
 Cards can use a [container transform](../../styles/motion/transitions/transition-patterns.md#b67cba74-6240-4663-a423-d537b6d21187) transition pattern to reveal additional content. Reserve this pattern for hero moments that are meant to be expressive.
 
-<video controls src="../../../assets/videos/c0a1c08e0083-lwunn86t-GM3-Components-Cards-Guidelines-6-v01.mp4" title="An album card expands to fill the screen and shows additional related content."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwunn86t-GM3-Components-Cards-Guidelines-6-v01.mp4?alt=media&amp;token=13eed0ab-adb0-4314-81d6-210ad15afdc2" title="An album card expands to fill the screen and shows additional related content."></video>
 
-[Open video](../../../assets/videos/c0a1c08e0083-lwunn86t-GM3-Components-Cards-Guidelines-6-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwunn86t-GM3-Components-Cards-Guidelines-6-v01.mp4?alt=media&token=13eed0ab-adb0-4314-81d6-210ad15afdc2>)
 
-<video controls src="../../../assets/videos/81b9e31193ea-lwumvwvk-GM3-Components-Cards-Guidelines-7-1-v01.mp4" title="A card expands, showing all content at once."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumvwvk-GM3-Components-Cards-Guidelines-7-1-v01.mp4?alt=media&amp;token=2049b6fd-afd0-4360-83e3-152030354274" title="A card expands, showing all content at once."></video>
 
-[Open video](../../../assets/videos/81b9e31193ea-lwumvwvk-GM3-Components-Cards-Guidelines-7-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumvwvk-GM3-Components-Cards-Guidelines-7-1-v01.mp4?alt=media&token=2049b6fd-afd0-4360-83e3-152030354274>)
 
-<video controls src="../../../assets/videos/11c282a20896-lwumwjkp-GM3-Components-Cards-Guidelines-7-2-v01.mp4" title="A card expands, internally scrolling to only show some information."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumwjkp-GM3-Components-Cards-Guidelines-7-2-v01.mp4?alt=media&amp;token=de1274d9-8fde-4a8d-bf93-82e0757aee00" title="A card expands, internally scrolling to only show some information."></video>
 
-[Open video](../../../assets/videos/11c282a20896-lwumwjkp-GM3-Components-Cards-Guidelines-7-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumwjkp-GM3-Components-Cards-Guidelines-7-2-v01.mp4?alt=media&token=de1274d9-8fde-4a8d-bf93-82e0757aee00>)
 
 ### Navigation
 
 Cards can use a [forward and backward](../../styles/motion/transitions/transition-patterns.md#df9c7d76-1454-47f3-ad1c-268a31f58bad) transition pattern to navigate between screens at consecutive levels of hierarchy. This pattern has a simpler motion style compared to container transform, which makes it suitable for common navigation transitions.
 
-<video controls src="../../../assets/videos/24ecc096510f-lwumxklj-GM3-Components-Cards-Guidelines-8-v01.mp4" title="Card interaction transitioning to full screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumxklj-GM3-Components-Cards-Guidelines-8-v01.mp4?alt=media&amp;token=a6a4e415-025b-4810-b6cf-92ccfc326e93" title="Card interaction transitioning to full screen."></video>
 
-[Open video](../../../assets/videos/24ecc096510f-lwumxklj-GM3-Components-Cards-Guidelines-8-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumxklj-GM3-Components-Cards-Guidelines-8-v01.mp4?alt=media&token=a6a4e415-025b-4810-b6cf-92ccfc326e93>)
 
 ### Gestures
 
@@ -404,25 +404,25 @@ It can be used to:
 -   Dismiss a card
 -   Change the state of a card, such as flagging or archiving it
 
-<video controls src="../../../assets/videos/cdb06c91a7f1-lwumypwh-GM3-Components-Cards-Guidelines-9-1-v01.mp4" title="A card with 1 assigned swipe: to heart the entire card."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumypwh-GM3-Components-Cards-Guidelines-9-1-v01.mp4?alt=media&amp;token=57103755-db42-48a3-89e0-259529d743a4" title="A card with 1 assigned swipe: to heart the entire card."></video>
 
-[Open video](../../../assets/videos/cdb06c91a7f1-lwumypwh-GM3-Components-Cards-Guidelines-9-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumypwh-GM3-Components-Cards-Guidelines-9-1-v01.mp4?alt=media&token=57103755-db42-48a3-89e0-259529d743a4>)
 
-<video controls src="../../../assets/videos/534c2d203ad4-lwumzbld-GM3-Components-Cards-Guidelines-9-2-v01.mp4" title="A card with an image carousel and a swipe motion to heart only the bottom text on the card."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumzbld-GM3-Components-Cards-Guidelines-9-2-v01.mp4?alt=media&amp;token=f6e05fa1-da38-492c-9d59-944c67f403ce" title="A card with an image carousel and a swipe motion to heart only the bottom text on the card."></video>
 
-[Open video](../../../assets/videos/534c2d203ad4-lwumzbld-GM3-Components-Cards-Guidelines-9-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwumzbld-GM3-Components-Cards-Guidelines-9-2-v01.mp4?alt=media&token=f6e05fa1-da38-492c-9d59-944c67f403ce>)
 
 #### Pick up & move
 
 The pick-up-and-move gesture allows users to move and reorder cards in a collection.
 
-<video controls src="../../../assets/videos/0cffed6f3acb-lwun0601-GM3-Components-Cards-Guidelines-10-1-v01.mp4" title="A card is elevated above all other cards when moved."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwun0601-GM3-Components-Cards-Guidelines-10-1-v01.mp4?alt=media&amp;token=9c8fe299-5e1e-4b7c-9476-cf8a113eb1d6" title="A card is elevated above all other cards when moved."></video>
 
-[Open video](../../../assets/videos/0cffed6f3acb-lwun0601-GM3-Components-Cards-Guidelines-10-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwun0601-GM3-Components-Cards-Guidelines-10-1-v01.mp4?alt=media&token=9c8fe299-5e1e-4b7c-9476-cf8a113eb1d6>)
 
-<video controls src="../../../assets/videos/491429cafc58-lwun0v03-GM3-Components-Cards-Guidelines-10-2-v01.mp4" title="A moved card bumps other cards around, and isn’t elevated above them."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwun0v03-GM3-Components-Cards-Guidelines-10-2-v01.mp4?alt=media&amp;token=6f972a4e-1817-4ed0-92c1-d3fb926340ce" title="A moved card bumps other cards around, and isn’t elevated above them."></video>
 
-[Open video](../../../assets/videos/491429cafc58-lwun0v03-GM3-Components-Cards-Guidelines-10-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwun0v03-GM3-Components-Cards-Guidelines-10-2-v01.mp4?alt=media&token=6f972a4e-1817-4ed0-92c1-d3fb926340ce>)
 
 #### Scrolling
 

@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/videos/9610029ff525-m15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4"
@@ -24,9 +24,9 @@ Icons are small symbols to easily identify actions and categories
 
 -   You can change the weight, fill, optical size, and grade of variable font icons
 
-<video controls src="../../../assets/videos/9610029ff525-m15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4" title="Array of icons with various stylistic attributes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4?alt=media&amp;token=64493a42-2414-4093-8f2b-9d7167269e04" title="Array of icons with various stylistic attributes."></video>
 
-[Open video](../../../assets/videos/9610029ff525-m15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4?alt=media&token=64493a42-2414-4093-8f2b-9d7167269e04>)
 
 ## Resources
 
@@ -58,9 +58,9 @@ _Outlined; Rounded; Sharp_
 
 Material Symbols have four adjustable stylistic variable font attributes called **axes**. An axis refers to an attribute of a symbol that can be altered to create visual variations. The attributes are: weight, fill, optical size, **grade**.
 
-<video controls src="../../../assets/videos/abbe68947a56-m15hn3i9-m0zqvlds-GM3-Styles-Icons-GoogleSymbols-3-v01.mp4" title="Four icons shown with adjusted weight, fill, grade, and optical sizes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm15hn3i9-m0zqvlds-GM3-Styles-Icons-GoogleSymbols-3-v01.mp4?alt=media&amp;token=73e86475-caec-4c9d-9942-ec07a2126feb" title="Four icons shown with adjusted weight, fill, grade, and optical sizes."></video>
 
-[Open video](../../../assets/videos/abbe68947a56-m15hn3i9-m0zqvlds-GM3-Styles-Icons-GoogleSymbols-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm15hn3i9-m0zqvlds-GM3-Styles-Icons-GoogleSymbols-3-v01.mp4?alt=media&token=73e86475-caec-4c9d-9942-ec07a2126feb>)
 
 ### Material Symbols Figma plugin
 

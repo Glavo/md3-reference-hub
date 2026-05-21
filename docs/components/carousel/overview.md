@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/322edda5b3f4-lwuthdnj-GM3-Components-Carousel-Overview-1-v01.mp4"
@@ -26,9 +26,9 @@ Carousels show a collection of items that can be scrolled on and off the screen
 
 -   Items change size as they move through the carousel
 
-<video controls src="../../../assets/videos/322edda5b3f4-lwuthdnj-GM3-Components-Carousel-Overview-1-v01.mp4" title="A carousel being scrolled horizontally. Each carousel item changes shape as it scrolls."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuthdnj-GM3-Components-Carousel-Overview-1-v01.mp4?alt=media&amp;token=fdc84e41-6db8-4bbb-8474-60d754219b63" title="A carousel being scrolled horizontally. Each carousel item changes shape as it scrolls."></video>
 
-[Open video](../../../assets/videos/322edda5b3f4-lwuthdnj-GM3-Components-Carousel-Overview-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuthdnj-GM3-Components-Carousel-Overview-1-v01.mp4?alt=media&token=fdc84e41-6db8-4bbb-8474-60d754219b63>)
 
 ## Availability & resources
 

@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/a07de0722807-mlb0x4f4-GM3-Search-Bar-Overview-01-v2.mp4"
@@ -27,9 +27,9 @@ Search lets people enter a keyword or phrase to get relevant information
 
 -   Use a search app bar to provide an emphasized, global entry-point
 
-<video controls src="../../../assets/videos/a07de0722807-mlb0x4f4-GM3-Search-Bar-Overview-01-v2.mp4" title="Mobile UI shows a person typing into an email search bar. It expands to show a list of results."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb0x4f4-GM3%20-%20Search%20Bar%20-%20Overview%2001%20-v2.mp4?alt=media&amp;token=4438710d-8472-4698-ab9d-183b972998ad" title="Mobile UI shows a person typing into an email search bar. It expands to show a list of results."></video>
 
-[Open video](../../../assets/videos/a07de0722807-mlb0x4f4-GM3-Search-Bar-Overview-01-v2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb0x4f4-GM3%20-%20Search%20Bar%20-%20Overview%2001%20-v2.mp4?alt=media&token=4438710d-8472-4698-ab9d-183b972998ad>)
 
 ## Availability & resources
 
@@ -73,9 +73,9 @@ Supported platforms:
 
 -   [Jetpack Compose](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#SearchBar\(androidx.compose.material3.SearchBarState,kotlin.Function0,androidx.compose.ui.Modifier,androidx.compose.ui.graphics.Shape,androidx.compose.material3.SearchBarColors,androidx.compose.ui.unit.Dp,androidx.compose.ui.unit.Dp\))
 
-<video controls src="../../../assets/videos/dbc37af4892d-mlb19j2i-GM3-Search-Bar-Overview-02-v2.mp4" title="A recipe search with “Search recipes” hinted text, “Mexican dishes” is entered, then results appear in a list."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb19j2i-GM3%20-%20Search%20Bar%20-%20Overview%2002%20-v2.mp4?alt=media&amp;token=99e6f5e3-f3d1-4d83-88c9-5e37c8a0437b" title="A recipe search with “Search recipes” hinted text, “Mexican dishes” is entered, then results appear in a list."></video>
 
-[Open video](../../../assets/videos/dbc37af4892d-mlb19j2i-GM3-Search-Bar-Overview-02-v2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb19j2i-GM3%20-%20Search%20Bar%20-%20Overview%2002%20-v2.mp4?alt=media&token=99e6f5e3-f3d1-4d83-88c9-5e37c8a0437b>)
 
 ## Differences from M2 to M3 baseline
 

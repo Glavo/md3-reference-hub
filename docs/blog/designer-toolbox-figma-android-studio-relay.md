@@ -2,7 +2,7 @@
 title: "The designer’s toolbox"
 source_url: "https://m3.material.io/blog/designer-toolbox-figma-android-studio-relay"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/6f05739525a5-Z0IATfRw5STUP_pa6UUh0hGJ5jaRuJuXSzuqVJHsxav2rAWFKMaZGrvqb5NJBjRO5D2ykfLKuKt3Zrzq95YW6bBKWt__FEg0.png"

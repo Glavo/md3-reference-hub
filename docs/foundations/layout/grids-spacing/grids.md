@@ -2,7 +2,7 @@
 title: "Grids &amp; spacing"
 source_url: "https://m3.material.io/foundations/layout/grids-spacing/grids"
 lastmod: "2026-05-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/bc2847d8da88-mp54500h-03.png"
@@ -118,9 +118,9 @@ Use content rulers to align and anchor key content, such as headlines and carous
 
 _Content rulers offer flexible alignment options to help create a consistent layout across a product_
 
-<video controls src="../../../../assets/videos/9ecb64637d72-mp5778zb-GM3-Layout-Grids-Spacing-13-Ruler-Hero-IA-v02.mp4" title="Carousel and text resizing to align with content rulers, creating a structured layout."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5778zb-GM3%20-Layout%20-%20Grids%20%20-%20Spacing%20-13%20-%20Ruler%20Hero%20-%20IA%20-%20v02.mp4?alt=media&amp;token=ba498b49-3f64-467d-bc3a-852a122cdfb8" title="Carousel and text resizing to align with content rulers, creating a structured layout."></video>
 
-[Open video](../../../../assets/videos/9ecb64637d72-mp5778zb-GM3-Layout-Grids-Spacing-13-Ruler-Hero-IA-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5778zb-GM3%20-Layout%20-%20Grids%20%20-%20Spacing%20-13%20-%20Ruler%20Hero%20-%20IA%20-%20v02.mp4?alt=media&token=ba498b49-3f64-467d-bc3a-852a122cdfb8>)
 
 ### Ruler options
 
@@ -128,9 +128,9 @@ Margin rulers come with some wiggle room to determine how tight or loose a produ
 
 Choosing a narrower or wider margin can create or remove negative space, or create expressive moments in a content-forward product.
 
-<video controls src="../../../../assets/videos/1d7f045dc5d9-mp578joa-GM3-Layout-Grids-Spacing-14-Ruler-Options-IA-v02.mp4" title="Mobile UI showing a recipe layout where text margins narrow while the hero photo expands."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp578joa-GM3%20-Layout%20-%20Grids%20%20-%20Spacing%20-14%20-%20Ruler%20Options%20-%20IA%20-%20v02.mp4?alt=media&amp;token=88e11830-1df2-4dfd-89ad-c0a17dd90a99" title="Mobile UI showing a recipe layout where text margins narrow while the hero photo expands."></video>
 
-[Open video](../../../../assets/videos/1d7f045dc5d9-mp578joa-GM3-Layout-Grids-Spacing-14-Ruler-Options-IA-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp578joa-GM3%20-Layout%20-%20Grids%20%20-%20Spacing%20-14%20-%20Ruler%20Options%20-%20IA%20-%20v02.mp4?alt=media&token=88e11830-1df2-4dfd-89ad-c0a17dd90a99>)
 
 Rulers can also be used to create more immersive experiences. For example, a photo grid can take the full width of the screen, while components like search use wider margins.
 

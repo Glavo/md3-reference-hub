@@ -2,7 +2,7 @@
 title: "Material Android is Compose-first"
 source_url: "https://m3.material.io/blog/material-is-compose-first"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/b19104129b5f-Hu5ftqOU8SihIUjv8_X9Zq85GX32Q2OgWziCcMjxoMTeXtrAfbj8TyDlwRij01gjSL6D3G-o5KNPnoDUswrG7s0hn4SCyBpj.png"
@@ -35,7 +35,7 @@ For years, Material Design has been on a journey to redefine how to build UI on 
 
 While Compose continues to accelerate, our updates for Views have become more focused. For the last few years, we’ve been preparing for a fundamental shift in Android development.
 
-[Video: A collection of expressive UIs, including media players, loaders, alarms, chat interfaces, and more.](../../assets/videos/4211c50ce50e-16x9_Homepage_Hero_050825.mp4)
+[Video: A collection of expressive UIs, including media players, loaders, alarms, chat interfaces, and more.](https://kstatic.googleusercontent.com/files/309f40c5040c1df86bc0cbfb81a2f51be5bc61244908d1d4f5c8cb69edb34258dde5112139a8ecdd651f04291654624fd3a864e1b781f1aaf975578586a8c813)
 
 Earlier this month, we reached a major milestone: the stable release of [Material Views 1.14.0](https://github.com/material-components/material-components-android/releases/tag/1.14.0) (MDC-Android). This release officially brings Material 3 Expressive to the Views framework, as well as other improvements, unlocking more delightful experiences for Android makers:
 
@@ -58,15 +58,15 @@ For designers, the [Material 3 Figma Design Kit](https://www.figma.com/community
 
 We also announced the upcoming integration of Compose [Styles](https://developer.android.com/develop/ui/compose/styles) and the recently-launched [Adaptive Navigation](https://developer.android.com/develop/ui/compose/layouts/adaptive/build-adaptive-navigation) update [with the new Navigation3 library](https://developer.android.com/guide/navigation/navigation-3).
 
-[Video: As Styles API callout is triggered, Material Components callout changes in shape and color.](../../assets/videos/13d603f9f454-03-Shapes.mp4)
+[Video: As Styles API callout is triggered, Material Components callout changes in shape and color.](https://kstatic.googleusercontent.com/files/74ca942112a8fd1e234c1ac6a3d8437063e3903042fecf1eff3c8eef581f0c6d9809c0312ccce8d449413012c603fbdb2c1970b22aea096245973a95478818ea)
 
 The [Compose Styles API](https://developer.android.com/develop/ui/compose/styles) on Android will make it easier than ever to customize Material components. This will improve overall app performance by skipping the composition phase during style updates and will simplify creating cohesive brand experiences. Integration is ongoing, so stay tuned!
 
-[Video: A navigation bar on mobile is a navigation rail on tablet. The color themes change dynamically using styles.](../../assets/videos/14bfa7586b5a-Shrine-Wide.mov)
+[Video: A navigation bar on mobile is a navigation rail on tablet. The color themes change dynamically using styles.](https://kstatic.googleusercontent.com/files/d0d0945b6d9a4baf0d5d2729b0aa6b1e3d6a9cead413fce337f6a7dab09990f01c313c8d4611db3d1d6011cf1a938ba49500176dafdfe8696d896330870bd8ab)
 
 For a long time, building adaptive layouts for foldables, tablets, and desktops was complex, requiring makers to manage and switch between navigation frameworks throughout the app. To solve this, we’ve deeply integrated the Material Adaptive library with [Navigation3](https://developer.android.com/guide/navigation/navigation-3). Since the navigation library now understands the intent of your screens through metadata, it handles the heavy lifting for you, making implementation much more efficient. [Build adaptive UIs with Material components today](https://developer.android.com/develop/adaptive-apps)
 
-[Video: An adaptive pane layout transitions all panes to the left when a button is selected on the rightmost pane.](../../assets/videos/50db08217386-05-ADAPTIVE_REFLOW_BUILD_RENDER.mp4)
+[Video: An adaptive pane layout transitions all panes to the left when a button is selected on the rightmost pane.](https://kstatic.googleusercontent.com/files/ab49db9b1df92f954aed3964996faded190159410bd8f229ab3305c01f81ce0824e78813a117ef560c15f832cb320171f40f74ec2647035f7c32212945ceeb88)
 
 ## Migrating from Views to Compose
 

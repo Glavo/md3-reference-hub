@@ -2,7 +2,7 @@
 title: "Start Here: 5 Exercises to Prepare Your App for Large Screens"
 source_url: "https://m3.material.io/blog/5-steps-large-screen-apps"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/8ecd02eefe62-pN5xtyQvPk3HXVVz-gVDc0YYvJ-UzjfFjMcEemwIKWfVmZGCcyV4XNEAjehGLIA9VnuCRzSC0HDNy6p0tDChJvEWjRVsqCvB.png"
@@ -156,7 +156,7 @@ As a developer, you can also take advantage of components’ ability to use fixe
 
 Component swapping is another, more rare type of adaptation in which functionally equivalent components can actually swap with each other to meet the ergonomic expectations of different devices.
 
-[Video: Example UI adapting from mobile to large screen, swapping nav components](../../assets/videos/d1b5706c9991-mio-staging_mio-components_1584058305895_assets_1n49HQ1AjiDC5aqG38DrtswaJFrR3exKf_rail-adaptatio.mp4)
+[Video: Example UI adapting from mobile to large screen, swapping nav components](https://kstatic.googleusercontent.com/files/8e5938591ed55cfa290357cc229b0fc2610da447067aa88fbe80511863a265199aac605992e5fbf634c151dcbda70821d98bc62decfb8fc169e0e8cc5e6ec3f7)
 
 For example, a bottom navigation bar may switch to a navigation rail on tablets, putting the same nav destinations at easier reach, and opening up more vertical space for your layout on horizontally-oriented screens.
 

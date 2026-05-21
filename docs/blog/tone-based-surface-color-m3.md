@@ -2,7 +2,7 @@
 title: "Introducing Tone-based Surfaces in Material 3"
 source_url: "https://m3.material.io/blog/tone-based-surface-color-m3"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/219f67f71905-JsPGxLo5hiZrvqOpxpQWrKjOPOwBpJN-Rz8yWdmE-RBnFZX4VmZwnopcsoKW-9iRlh9_pdkcAky1XMs3tbAcoxpDsZCJNejc.png"
@@ -23,11 +23,11 @@ Published: 2023-03-23T13:00:00
 
 The previous way makers could achieve tinted surfaces, which are a hallmark of the M3 design language, was to assign the color role “surface” to a component, and increase its elevation to achieve the desired tinting which was applied via an opacity layer.
 
-[Video: Pre-update: A tinted overlay communicated the elevation of a component surface](../../assets/videos/062a3e6e5b73-surface-blog-sequence-old.mov)
+[Video: Pre-update: A tinted overlay communicated the elevation of a component surface](https://kstatic.googleusercontent.com/files/1e0f17dfb71849ec88febb9d60f7d97b4ca49dad62550843be95a097dd21cbfab5c8a6f57373db166a1047783626736efe4a6ae7c08da6bac67a2e015e9751e4)
 
 The update introduces dedicated surface color roles that are no longer tied to elevation. Makers will be able to choose the right surface roles based on the containment needs of their products, and now have more layout flexibility for larger screens.
 
-[Video: Video](../../assets/videos/0dfd0632280b-surface-blog-sequence-new.mov)
+[Video: Video](https://kstatic.googleusercontent.com/files/4ab6ab93782b98d929cd5692a479693dcf7e4c49221db5c6c7c4aaa39ef002702ffce711f630d37482cead19797a30b3159960834eb9186567bc70e73f61c1ad)
 
 The new **surface container roles** and tokens include five colors.
 

@@ -2,7 +2,7 @@
 title: "Grids &amp; spacing"
 source_url: "https://m3.material.io/foundations/layout/grids-spacing/density"
 lastmod: "2026-05-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/videos/8afc04a4ecf5-mp5c4fqq-m6fec25z-GM3-Components-Density-2-v03.mp4"
@@ -42,13 +42,13 @@ Grids and spacing organize content and actions for any layout
 
 -   Layout and component scaling (component adaptation or component density) can allow people to scan, view, or compare more information at once
 
-<video controls src="../../../../assets/videos/8afc04a4ecf5-mp5c4fqq-m6fec25z-GM3-Components-Density-2-v03.mp4" title="A website design with a denser arrangement of text and graphics."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5c4fqq-m6fec25z-GM3-Components-Density-2-v03.mp4?alt=media&amp;token=a22edf15-85b4-48ea-8052-f29c533956fd" title="A website design with a denser arrangement of text and graphics."></video>
 
-[Open video](../../../../assets/videos/8afc04a4ecf5-mp5c4fqq-m6fec25z-GM3-Components-Density-2-v03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5c4fqq-m6fec25z-GM3-Components-Density-2-v03.mp4?alt=media&token=a22edf15-85b4-48ea-8052-f29c533956fd>)
 
-<video controls src="../../../../assets/videos/18f87849bcf4-mp5c5sj5-m6fedlg1-GM3-Components-Density-1-v02.mp4" title="5 components scaling with multiple size examples."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5c5sj5-m6fedlg1-GM3-Components-Density-1-v02.mp4?alt=media&amp;token=6b087963-ddcc-40e9-83bb-7628df356d6b" title="5 components scaling with multiple size examples."></video>
 
-[Open video](../../../../assets/videos/18f87849bcf4-mp5c5sj5-m6fedlg1-GM3-Components-Density-1-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5c5sj5-m6fedlg1-GM3-Components-Density-1-v02.mp4?alt=media&token=6b087963-ddcc-40e9-83bb-7628df356d6b>)
 
 **Information density**
 
@@ -62,9 +62,9 @@ Grids and spacing organize content and actions for any layout
 
 -   Don't apply component scaling by default if it would result in a target below 48x48 CSS pixels
 
-<video controls src="../../../../assets/videos/b04d4bed8621-mp5but2k-m6feg3jn-GM3-Components-Density-3-v02.mp4" title="An email app with “Appearance settings” open to change information density between cozy, comfortable, and compact."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5but2k-m6feg3jn-GM3-Components-Density-3-v02.mp4?alt=media&amp;token=ed3019bd-6a4e-428a-b4b3-9a4c2697b5c4" title="An email app with “Appearance settings” open to change information density between cozy, comfortable, and compact."></video>
 
-[Open video](../../../../assets/videos/b04d4bed8621-mp5but2k-m6feg3jn-GM3-Components-Density-3-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5but2k-m6feg3jn-GM3-Components-Density-3-v02.mp4?alt=media&token=ed3019bd-6a4e-428a-b4b3-9a4c2697b5c4>)
 
 ## Information density
 
@@ -126,9 +126,9 @@ To ensure density settings can be easily reverted, settings interactions must us
 
 Don't scale layouts below 48x48dp by default.
 
-<video controls src="../../../../assets/videos/7f630350f999-m7fb8wiw-GM3_Expressive_Density_12a_IA_v03.mp4" title="A density menu with large, medium, and small options to customize the screen layout of a table on desktop."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7fb8wiw-GM3_Expressive_Density_12a_IA_v03.mp4?alt=media&amp;token=58f22bac-a396-447c-aa5d-aa666e9c180b" title="A density menu with large, medium, and small options to customize the screen layout of a table on desktop."></video>
 
-[Open video](../../../../assets/videos/7f630350f999-m7fb8wiw-GM3_Expressive_Density_12a_IA_v03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7fb8wiw-GM3_Expressive_Density_12a_IA_v03.mp4?alt=media&token=58f22bac-a396-447c-aa5d-aa666e9c180b>)
 
 ## Targets
 

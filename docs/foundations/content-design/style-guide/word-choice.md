@@ -2,7 +2,7 @@
 title: "Style guide"
 source_url: "https://m3.material.io/foundations/content-design/style-guide/word-choice"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/573b33aef4f5-lvw0sjq7-2_do.png"

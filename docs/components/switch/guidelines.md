@@ -2,7 +2,7 @@
 title: "Switch"
 source_url: "https://m3.material.io/components/switch/guidelines"
 lastmod: "2026-01-06"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/4aefc7eba60c-mg7sxhp8-01.png"
@@ -50,9 +50,9 @@ They make a binary selection:
 
 The effects of a switch should start immediately, without needing to save.
 
-<video controls src="../../../assets/videos/06f256abdd2d-lwa9phy3-GM3-Components-Switch-1-v01.mp4" title="Toggling a switch turns on dark mode in Settings on a mobile device."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwa9phy3-GM3-Components-Switch-1-v01.mp4?alt=media&amp;token=87034bac-0c9d-4b3f-91e4-29c02c97964d" title="Toggling a switch turns on dark mode in Settings on a mobile device."></video>
 
-[Open video](../../../assets/videos/06f256abdd2d-lwa9phy3-GM3-Components-Switch-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwa9phy3-GM3-Components-Switch-1-v01.mp4?alt=media&token=87034bac-0c9d-4b3f-91e4-29c02c97964d>)
 
 Use switches to:
 
@@ -119,9 +119,9 @@ _Track; Handle; Icon (optional)_
 
 The switch handle can contain an optional icon.
 
-<video controls src="../../../assets/videos/fadf6d96cdff-lwabkmev-GM3-Components-Switch-2-v01.mp4" title="A checkmark appears on the filled circle of a handle when the switch is toggled on."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwabkmev-GM3-Components-Switch-2-v01.mp4?alt=media&amp;token=c11da5d1-2565-4717-86b8-172964ae3708" title="A checkmark appears on the filled circle of a handle when the switch is toggled on."></video>
 
-[Open video](../../../assets/videos/fadf6d96cdff-lwabkmev-GM3-Components-Switch-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwabkmev-GM3-Components-Switch-2-v01.mp4?alt=media&token=c11da5d1-2565-4717-86b8-172964ae3708>)
 
 Icons can be used to visually emphasize the switch’s selection. The icon’s meaning should be clear and unambiguous to help the people understand whether switch is on or off.
 
@@ -157,12 +157,12 @@ _Settings screens are common places to use switches_
 
 A switch is successfully toggled when the handle slides to the other side of the track after an interaction.
 
-<video controls src="../../../assets/videos/1fae96f42f6a-lwabqhfg-GM3-Components-Switch-3-v01.mp4" title="A switch is toggled to turn on airplane mode and Wi-Fi switch automatically turns off."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwabqhfg-GM3-Components-Switch-3-v01.mp4?alt=media&amp;token=b03a8301-b5e1-43b1-91d5-2fcb30f3ba71" title="A switch is toggled to turn on airplane mode and Wi-Fi switch automatically turns off."></video>
 
-[Open video](../../../assets/videos/1fae96f42f6a-lwabqhfg-GM3-Components-Switch-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwabqhfg-GM3-Components-Switch-3-v01.mp4?alt=media&token=b03a8301-b5e1-43b1-91d5-2fcb30f3ba71>)
 
 When a person toggles a switch, its handle size changes and the corresponding action takes effect immediately.
 
-<video controls src="../../../assets/videos/06f0465e3262-lwabqzdx-GM3-Components-Switch-4-v01.mp4" title="When selected the switch’s handle gets larger and a checkmark appears on the filled circle."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwabqzdx-GM3-Components-Switch-4-v01.mp4?alt=media&amp;token=71a78019-9dac-4493-a0d1-ad40a4c505af" title="When selected the switch’s handle gets larger and a checkmark appears on the filled circle."></video>
 
-[Open video](../../../assets/videos/06f0465e3262-lwabqzdx-GM3-Components-Switch-4-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwabqzdx-GM3-Components-Switch-4-v01.mp4?alt=media&token=71a78019-9dac-4493-a0d1-ad40a4c505af>)

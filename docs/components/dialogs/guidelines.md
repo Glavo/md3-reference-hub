@@ -2,7 +2,7 @@
 title: "Dialogs"
 source_url: "https://m3.material.io/components/dialogs/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/68c0d68b0c0b-m8sf9qay-01.png"
@@ -216,15 +216,15 @@ Because they take up the entire screen, full-screen dialogs are the only dialogs
 
 Use a [container transform](../../styles/motion/transitions/transition-patterns.md#b67cba74-6240-4663-a423-d537b6d21187) pattern to transition a FAB into a full-screen dialog.
 
-<video controls src="../../../assets/videos/1b9adc245bca-mbh08c2v-GM3_Dialogs_Guidelines_25_IA_v02.mp4" title="A FAB transitioning into a full-screen dialog."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh08c2v-GM3_Dialogs_Guidelines_25_IA_v02.mp4?alt=media&amp;token=4d9bc267-de3b-41ba-a59a-b96aa5200dc8" title="A FAB transitioning into a full-screen dialog."></video>
 
-[Open video](../../../assets/videos/1b9adc245bca-mbh08c2v-GM3_Dialogs_Guidelines_25_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh08c2v-GM3_Dialogs_Guidelines_25_IA_v02.mp4?alt=media&token=4d9bc267-de3b-41ba-a59a-b96aa5200dc8>)
 
 When a full-screen dialog is closed without being saved, a basic dialog appears in front of it to confirm selections should be discarded without saving changes.
 
-<video controls src="../../../assets/videos/c6770af6c866-mbh098mh-GM3_Dialogs_Guidelines_26_IA_v01.mp4" title="Closing a full-screen dialog triggers a basic dialog asking to discard the changes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh098mh-GM3_Dialogs_Guidelines_26_IA_v01.mp4?alt=media&amp;token=77730ed0-06cc-49a3-a5cd-1c2c8cf1606a" title="Closing a full-screen dialog triggers a basic dialog asking to discard the changes."></video>
 
-[Open video](../../../assets/videos/c6770af6c866-mbh098mh-GM3_Dialogs_Guidelines_26_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh098mh-GM3_Dialogs_Guidelines_26_IA_v01.mp4?alt=media&token=77730ed0-06cc-49a3-a5cd-1c2c8cf1606a>)
 
 Full-screen dialogs may be used for content or tasks that meet any of these criteria:
 
@@ -329,9 +329,9 @@ Dialogs appear without warning, requiring users to stop their current task. They
 
 Dialogs use an [enter and exit](../../styles/motion/transitions/transition-patterns.md#e1c2a650-d7a4-4a6d-9025-e6b7845291ed) transition pattern to appear on screen.
 
-<video controls src="../../../assets/videos/f66f23831234-mbh0yk3u-GM3_Dialogs_Guidelines_37_IA_v01.mp4" title="Dialog entering and exiting screen using fade transition."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh0yk3u-GM3_Dialogs_Guidelines_37_IA_v01.mp4?alt=media&amp;token=2b4cff4a-041a-4ade-9ef3-5ba676b77f4d" title="Dialog entering and exiting screen using fade transition."></video>
 
-[Open video](../../../assets/videos/f66f23831234-mbh0yk3u-GM3_Dialogs_Guidelines_37_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh0yk3u-GM3_Dialogs_Guidelines_37_IA_v01.mp4?alt=media&token=2b4cff4a-041a-4ade-9ef3-5ba676b77f4d>)
 
 ### Position
 
@@ -347,6 +347,6 @@ Most dialog content should avoid scrolling. Even when scrolling is required, the
 
 Dialogs don’t scroll with elements outside of the dialog, such as the background.
 
-<video controls src="../../../assets/videos/20ce13f6c76a-mbh0z34p-GM3_Dialogs_Guidelines_39_IA_v01.mp4" title="Example of fixed dialog title and buttons."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh0z34p-GM3_Dialogs_Guidelines_39_IA_v01.mp4?alt=media&amp;token=5c6d756b-f497-46fa-9ccb-973051ae5d8b" title="Example of fixed dialog title and buttons."></video>
 
-[Open video](../../../assets/videos/20ce13f6c76a-mbh0z34p-GM3_Dialogs_Guidelines_39_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmbh0z34p-GM3_Dialogs_Guidelines_39_IA_v01.mp4?alt=media&token=5c6d756b-f497-46fa-9ccb-973051ae5d8b>)

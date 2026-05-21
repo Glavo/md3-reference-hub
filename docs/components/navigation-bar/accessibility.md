@@ -2,7 +2,7 @@
 title: "Navigation bar"
 source_url: "https://m3.material.io/components/navigation-bar/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/b7e7f46c95e5-m7paivnz-GM3-Accessibility_Expressive_NavBar_a11y_01_V03.mp4"
@@ -44,9 +44,9 @@ People should be able to do the following using the assistive technology:
 
 -   The icon changes color
 
-<video controls src="../../../assets/videos/b7e7f46c95e5-m7paivnz-GM3-Accessibility_Expressive_NavBar_a11y_01_V03.mp4" title="On a navigation bar, when the Home and Explore icons are tapped, an active indicator is displayed as interaction feedback."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7paivnz-GM3-Accessibility_Expressive_NavBar_a11y_01_V03.mp4?alt=media&amp;token=6b0b243a-794e-4759-9a9f-87b66c584845" title="On a navigation bar, when the Home and Explore icons are tapped, an active indicator is displayed as interaction feedback."></video>
 
-[Open video](../../../assets/videos/b7e7f46c95e5-m7paivnz-GM3-Accessibility_Expressive_NavBar_a11y_01_V03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7paivnz-GM3-Accessibility_Expressive_NavBar_a11y_01_V03.mp4?alt=media&token=6b0b243a-794e-4759-9a9f-87b66c584845>)
 
 **Cursor**
 
@@ -58,9 +58,9 @@ People should be able to do the following using the assistive technology:
 
 -   The icon changes color, becoming darker
 
-<video controls src="../../../assets/videos/6f9404ea6598-m7paj7kh-GM3_Expressive_Accessibility_NavBar_a11y_02_V04.mp4" title="On a navigation bar, the hover and click interactions on the Home and Explore icons have different interaction feedback."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7paj7kh-GM3_Expressive_Accessibility_NavBar_a11y_02_V04.mp4?alt=media&amp;token=e54a8af5-8250-4dd9-9b8b-fc564cb8c692" title="On a navigation bar, the hover and click interactions on the Home and Explore icons have different interaction feedback."></video>
 
-[Open video](../../../assets/videos/6f9404ea6598-m7paj7kh-GM3_Expressive_Accessibility_NavBar_a11y_02_V04.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7paj7kh-GM3_Expressive_Accessibility_NavBar_a11y_02_V04.mp4?alt=media&token=e54a8af5-8250-4dd9-9b8b-fc564cb8c692>)
 
 ### Text scaling and truncation
 

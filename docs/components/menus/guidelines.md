@@ -2,7 +2,7 @@
 title: "Menus"
 source_url: "https://m3.material.io/components/menus/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/8fce25fd715c-mhlk1jwz-GM3_Menus_Guidelines-01_IA_v01.mp4"
@@ -39,9 +39,9 @@ assets:
 
 ## Guidelines
 
-<video controls src="../../../assets/videos/8fce25fd715c-mhlk1jwz-GM3_Menus_Guidelines-01_IA_v01.mp4" title="2 vertical menus, 1 with vibrant colors, 1 with standard colors and grouped items."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlk1jwz-GM3_Menus_Guidelines%2001_IA_v01.mp4?alt=media&amp;token=2e7dfcc9-2447-4808-8234-83c313d82df8" title="2 vertical menus, 1 with vibrant colors, 1 with standard colors and grouped items."></video>
 
-[Open video](../../../assets/videos/8fce25fd715c-mhlk1jwz-GM3_Menus_Guidelines-01_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlk1jwz-GM3_Menus_Guidelines%2001_IA_v01.mp4?alt=media&token=2e7dfcc9-2447-4808-8234-83c313d82df8>)
 
 ## Usage
 
@@ -243,25 +243,25 @@ A menu can appear when a person interacts with an element on the page, like a bu
 
 A menu’s position on screen affects where and how it appears. If opened at the top of the screen, it expands downwards to avoid being cropped.
 
-<video controls src="../../../assets/videos/767ff4ed4b6e-mhln3y77-GM3_Menus_Guidelines-18_IA_v02.mp4" title="A menu activated at the top of the screen expands downwards, then a menu opened at the bottom of the screen expands upward."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhln3y77-GM3_Menus_Guidelines%2018_IA_v02.mp4?alt=media&amp;token=a29213c9-b557-45f5-b1e8-e7644b8dbf3c" title="A menu activated at the top of the screen expands downwards, then a menu opened at the bottom of the screen expands upward."></video>
 
-[Open video](../../../assets/videos/767ff4ed4b6e-mhln3y77-GM3_Menus_Guidelines-18_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhln3y77-GM3_Menus_Guidelines%2018_IA_v02.mp4?alt=media&token=a29213c9-b557-45f5-b1e8-e7644b8dbf3c>)
 
-<video controls src="../../../assets/videos/7fb1265e4a1a-mhln8qym-GM3_Menus_Guidelines-19_IA_v01.mp4" title="A menu expands downward from the top of the screen, appearing below a split button."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhln8qym-GM3_Menus_Guidelines%2019_IA_v01.mp4?alt=media&amp;token=45bfd643-e872-488d-a588-c626a0c77cd0" title="A menu expands downward from the top of the screen, appearing below a split button."></video>
 
-[Open video](../../../assets/videos/7fb1265e4a1a-mhln8qym-GM3_Menus_Guidelines-19_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhln8qym-GM3_Menus_Guidelines%2019_IA_v01.mp4?alt=media&token=45bfd643-e872-488d-a588-c626a0c77cd0>)
 
-<video controls src="../../../assets/videos/6e8e26fd4fbf-mhlna20p-GM3_Menus_Guidelines-20_IA_v02.mp4" title="A menu expands both above and below a line of selected text, separated by a gap."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlna20p-GM3_Menus_Guidelines%2020_IA_v02.mp4?alt=media&amp;token=517b43c3-99e7-4448-9b1a-d0738806d810" title="A menu expands both above and below a line of selected text, separated by a gap."></video>
 
-[Open video](../../../assets/videos/6e8e26fd4fbf-mhlna20p-GM3_Menus_Guidelines-20_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlna20p-GM3_Menus_Guidelines%2020_IA_v02.mp4?alt=media&token=517b43c3-99e7-4448-9b1a-d0738806d810>)
 
-<video controls src="../../../assets/videos/e6007e76ce66-mhlnd4tn-GM3_Menus_Guidelines-21_IA_v01.mp4" title="Selecting the “Phone type” text field reveals a menu with multiple options: Business, Mobile (selected), and Home."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnd4tn-GM3_Menus_Guidelines%2021_IA_v01.mp4?alt=media&amp;token=c02842fd-822d-427d-adff-6b23be4ceb42" title="Selecting the “Phone type” text field reveals a menu with multiple options: Business, Mobile (selected), and Home."></video>
 
-[Open video](../../../assets/videos/e6007e76ce66-mhlnd4tn-GM3_Menus_Guidelines-21_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnd4tn-GM3_Menus_Guidelines%2021_IA_v01.mp4?alt=media&token=c02842fd-822d-427d-adff-6b23be4ceb42>)
 
-<video controls src="../../../assets/videos/8df4e4966d45-mhlnelhq-GM3_Menus_Guidelines-22_IA_v02.mp4" title="A filter chip for “Cycling” in a map UI reveals more menus items: Running, Walking, and Hiking."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnelhq-GM3_Menus_Guidelines%2022_IA_v02.mp4?alt=media&amp;token=f6f6128f-8a69-49f7-be7b-5bf472840dbf" title="A filter chip for “Cycling” in a map UI reveals more menus items: Running, Walking, and Hiking."></video>
 
-[Open video](../../../assets/videos/8df4e4966d45-mhlnelhq-GM3_Menus_Guidelines-22_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnelhq-GM3_Menus_Guidelines%2022_IA_v02.mp4?alt=media&token=f6f6128f-8a69-49f7-be7b-5bf472840dbf>)
 
 **Motion**
 
@@ -269,15 +269,15 @@ Menus use an enter and exit transition. This animation creates a relationship be
 
 When a menu expands, the trigger element becomes pressed. When an item is selected, a ripple appears on touch.
 
-<video controls src="../../../assets/videos/28bb156c98b8-mhlnmpgd-GM3_Menus_Guidelines-24_IA_v02.mp4" title="An animation for entering a new contact’s address. The state selection menu expands and the state California is selected."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnmpgd-GM3_Menus_Guidelines%2024_IA_v02.mp4?alt=media&amp;token=cfabbb98-5329-45e0-9125-8bf6ff2bc8e7" title="An animation for entering a new contact’s address. The state selection menu expands and the state California is selected."></video>
 
-[Open video](../../../assets/videos/28bb156c98b8-mhlnmpgd-GM3_Menus_Guidelines-24_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnmpgd-GM3_Menus_Guidelines%2024_IA_v02.mp4?alt=media&token=cfabbb98-5329-45e0-9125-8bf6ff2bc8e7>)
 
 In dense products, such as on desktop, menus can open instantly to reduce motion.
 
-<video controls src="../../../assets/videos/6a364e29f109-mhlnu8z2-GM3_Menus_Guidelines-23_IA_v01.mp4" title="A menu for changing a font type opens instantly on a desktop UI."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnu8z2-GM3_Menus_Guidelines%2023_IA_v01.mp4?alt=media&amp;token=2e847220-9445-4f63-bad7-927212f9181a" title="A menu for changing a font type opens instantly on a desktop UI."></video>
 
-[Open video](../../../assets/videos/6a364e29f109-mhlnu8z2-GM3_Menus_Guidelines-23_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlnu8z2-GM3_Menus_Guidelines%2023_IA_v01.mp4?alt=media&token=2e847220-9445-4f63-bad7-927212f9181a>)
 
 ### Filtering
 
@@ -287,9 +287,9 @@ As someone types, the list of menu options filters to show relevant results. Thi
 
 Menu items ease into their new position as the menu is filtered.
 
-<video controls src="../../../assets/videos/dfc1fb8f4528-mhloarxl-GM3_Menus_Guidelines-25_IA_v01.mp4" title="An animation showing a text field being typed into. As text is added, the list of menu items below filters down to show only matching options."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhloarxl-GM3_Menus_Guidelines%2025_IA_v01.mp4?alt=media&amp;token=94b90c05-7d4d-4c5a-aa43-0e81ee74becf" title="An animation showing a text field being typed into. As text is added, the list of menu items below filters down to show only matching options."></video>
 
-[Open video](../../../assets/videos/dfc1fb8f4528-mhloarxl-GM3_Menus_Guidelines-25_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhloarxl-GM3_Menus_Guidelines%2025_IA_v01.mp4?alt=media&token=94b90c05-7d4d-4c5a-aa43-0e81ee74becf>)
 
 ### Scrolling
 
@@ -297,9 +297,9 @@ Menus can scroll when all menu items can’t display at once. In this state, men
 
 Don’t use gaps if a menu scrolls; this is currently unsupported.
 
-<video controls src="../../../assets/videos/c5c9311e6ac9-mhloe6n0-GM3_Menus_Guidelines-27_IA_v01.mp4" title="A font menu on a document shows a scrollbar to access font options not currently visible."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhloe6n0-GM3_Menus_Guidelines%2027_IA_v01.mp4?alt=media&amp;token=03dcc47d-f5b5-4f68-b4c5-393b2beb4d01" title="A font menu on a document shows a scrollbar to access font options not currently visible."></video>
 
-[Open video](../../../assets/videos/c5c9311e6ac9-mhloe6n0-GM3_Menus_Guidelines-27_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhloe6n0-GM3_Menus_Guidelines%2027_IA_v01.mp4?alt=media&token=03dcc47d-f5b5-4f68-b4c5-393b2beb4d01>)
 
 ### Selecting
 
@@ -332,9 +332,9 @@ When a menu has multiple submenus, focus follows the current hovered or focused 
 
 As a person moves from one submenu to the next, the corners of the focused submenu become more rounded, while the unfocused submenu becomes less rounded. This adds a dynamic quality to menu interactions.
 
-<video controls src="../../../assets/videos/1de7bfaeac5f-mhloky2g-GM3_Menus_Guidelines-31_IA_v01.mp4" title="On a submenu next to a main menu, a selected item’s corner shape expands for added emphasis."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhloky2g-GM3_Menus_Guidelines%2031_IA_v01.mp4?alt=media&amp;token=17c40e5a-c95f-441f-9c38-d19756bc8acd" title="On a submenu next to a main menu, a selected item’s corner shape expands for added emphasis."></video>
 
-[Open video](../../../assets/videos/1de7bfaeac5f-mhloky2g-GM3_Menus_Guidelines-31_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhloky2g-GM3_Menus_Guidelines%2031_IA_v01.mp4?alt=media&token=17c40e5a-c95f-441f-9c38-d19756bc8acd>)
 
 ## Density
 

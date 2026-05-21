@@ -2,7 +2,7 @@
 title: "10 Steps to Translate Your iOS Designs for Android"
 source_url: "https://m3.material.io/blog/ten-steps-ios-android-design"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/edfb54e45ccb-uBvkusTLFmWwcwPtg4RjBW1en2nMGR7DtXlIPqrCINBfqqy54obNp6nfHC7oa3OLNZFkqqPo8Hr3Dp0QtiwAJKxWjZWQdOVx.png"
@@ -133,7 +133,7 @@ You should have a fully functioning prototype ready, and since you resized it, i
 
 ![A full UI on iOS and Android following the steps outlined above](<https://lh3.googleusercontent.com/dpwALIwi8olCLsJKaDAIElVmp45Ux0h__FEOFFpG0j7xEwkTth3wRe1J5UOjVAz73x8rZvdcpGhJeW9u1837d7mbuWHBKSLgxIl3tKkGrCj7FL9P0Vg>)
 
-[Video: A prototype demo of the completed design](../../assets/videos/668fe3d27ecc-appPrototype.m4v)
+[Video: A prototype demo of the completed design](https://kstatic.googleusercontent.com/files/b07ec8a6b5e64c364da5bd88d89474385dbcadcc9950d14ff3fab891638398b3a2d5afb3c8a6fa2c334d166604699c7b0b6c5bd243bd6f9e67a9c20189808229)
 
 ## Style and component guide
 

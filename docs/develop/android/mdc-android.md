@@ -2,7 +2,7 @@
 title: "Android Views (MDC-Android)"
 source_url: "https://m3.material.io/develop/android/mdc-android"
 lastmod: "2026-05-16"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "develop"
 assets:
   - "assets/images/e796400230b7-O4jGLIb0lz1n8zCIOgoEl4qSa8_8FMiptjDf90xuhU3mvg3yKBmn1epH77a3HW3Mb5QbkYUa3L4wavqIVG2q10tznsvU__mU.png"

@@ -2,7 +2,7 @@
 title: "Extended FABs"
 source_url: "https://m3.material.io/components/extended-fab/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/d8f55fdf7459-m0dfvsl8-01.png"
@@ -236,9 +236,9 @@ _The extended FAB can be at the top of the expanded navigation rail_
 
 The extended FAB surface expands when appearing on screen using an [enter and exit](../../styles/motion/transitions/transition-patterns.md#e1c2a650-d7a4-4a6d-9025-e6b7845291ed) transition pattern.
 
-<video controls src="../../../assets/videos/a59ec0833a50-m23g68f9-EFAB-A_1.mp4" title="Extended FAB appearing on screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm23g68f9-EFAB-A_1.mp4?alt=media&amp;token=9f42a1e6-a093-4791-a1a1-aa211ea3f3f3" title="Extended FAB appearing on screen."></video>
 
-[Open video](../../../assets/videos/a59ec0833a50-m23g68f9-EFAB-A_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm23g68f9-EFAB-A_1.mp4?alt=media&token=9f42a1e6-a093-4791-a1a1-aa211ea3f3f3>)
 
 ### Expanding
 
@@ -246,25 +246,25 @@ The extended FAB can expand and adapt to any shape using a [container transform]
 
 This includes a surface that is part of the app structure, or a surface that spans the entire screen.
 
-<video controls src="../../../assets/videos/632db1961692-m0e6w6vv-EFAB-B_1.mp4" title="Extended FAB adapting to various shapes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6w6vv-EFAB-B_1.mp4?alt=media&amp;token=3f7e1b7a-be23-4869-95aa-f6f592102d31" title="Extended FAB adapting to various shapes."></video>
 
-[Open video](../../../assets/videos/632db1961692-m0e6w6vv-EFAB-B_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6w6vv-EFAB-B_1.mp4?alt=media&token=3f7e1b7a-be23-4869-95aa-f6f592102d31>)
 
 ### Transforming
 
 The extended FAB can transform into a FAB on scroll to temporarily take up less space on screen.
 
-<video controls src="../../../assets/videos/eb3febb1e3a8-m0e6wsqu-EFAB-C.mp4" title="Extended FAB transforming into a FAB when the page is scrolled."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6wsqu-EFAB-C.mp4?alt=media&amp;token=52163e6a-2c39-4b6d-81ab-4b12a4f35885" title="Extended FAB transforming into a FAB when the page is scrolled."></video>
 
-[Open video](../../../assets/videos/eb3febb1e3a8-m0e6wsqu-EFAB-C.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6wsqu-EFAB-C.mp4?alt=media&token=52163e6a-2c39-4b6d-81ab-4b12a4f35885>)
 
 ### Scrolling
 
 The extended FAB can transform into a FAB when scrolling down, and back to an extended FAB when scrolling up.
 
-<video controls src="../../../assets/videos/d6bd7f86c731-m0e6x271-EFAB-D.mp4" title="Extended FAB transforming while scrolling."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6x271-EFAB-D.mp4?alt=media&amp;token=2fb29be1-a582-462f-b44a-1a940a38aeab" title="Extended FAB transforming while scrolling."></video>
 
-[Open video](../../../assets/videos/d6bd7f86c731-m0e6x271-EFAB-D.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6x271-EFAB-D.mp4?alt=media&token=2fb29be1-a582-462f-b44a-1a940a38aeab>)
 
 When the FAB switches to an extended FAB, the following transitions occur:
 
@@ -272,6 +272,6 @@ When the FAB switches to an extended FAB, the following transitions occur:
 -   FAB icon moves to the left
 -   FAB text label fades in
 
-<video controls src="../../../assets/videos/d909bb48c0e8-m23g6lbk-EFAB-E_1.mp4" title="FAB transforming into extended FAB."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm23g6lbk-EFAB-E_1.mp4?alt=media&amp;token=8b552464-4349-49a5-aa8a-8c1473e967c8" title="FAB transforming into extended FAB."></video>
 
-[Open video](../../../assets/videos/d909bb48c0e8-m23g6lbk-EFAB-E_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm23g6lbk-EFAB-E_1.mp4?alt=media&token=8b552464-4349-49a5-aa8a-8c1473e967c8>)

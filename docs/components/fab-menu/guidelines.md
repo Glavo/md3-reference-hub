@@ -2,7 +2,7 @@
 title: "FAB menu"
 source_url: "https://m3.material.io/components/fab-menu/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/2eb10d966ff3-m0al2scq-01.png"
@@ -139,9 +139,9 @@ _Don’t change FAB menu shapes_
 
 The FAB menu can open from any sized FAB. Use with a FAB size suitable for the window size class. For example, larger FABs are recommended for larger windows.
 
-<video controls src="../../../assets/videos/149e8df4108f-mc0tzxol-GM3_Expressive_FAB_Guidelines_FAB-Menu-D_v01.mp4" title="The same FAB menu used in medium and compact window sizes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmc0tzxol-GM3_Expressive_FAB_Guidelines_FAB-Menu%20D_v01.mp4?alt=media&amp;token=9f57a56c-c58c-4a79-920e-5b21485d655a" title="The same FAB menu used in medium and compact window sizes."></video>
 
-[Open video](../../../assets/videos/149e8df4108f-mc0tzxol-GM3_Expressive_FAB_Guidelines_FAB-Menu-D_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmc0tzxol-GM3_Expressive_FAB_Guidelines_FAB-Menu%20D_v01.mp4?alt=media&token=9f57a56c-c58c-4a79-920e-5b21485d655a>)
 
 The FAB menu should remain anchored to the same corner or edge regardless of window size. 
 
@@ -165,9 +165,9 @@ The FAB should transform into the close button of the FAB menu. The menu items s
 
 Originate the transition from one of the FAB's trailing corners, preferably the top-aligned corner.
 
-<video controls src="../../../assets/videos/db5421a4aa0c-m23g9t73-FAB-Menu-A-1.mp4" title="A FAB transforms into a FAB menu while anchoring the animation to the top right corner of the FAB."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm23g9t73-FAB-Menu-A-1.mp4?alt=media&amp;token=bdf9b02f-b3a7-403e-854b-e1866dc67724" title="A FAB transforms into a FAB menu while anchoring the animation to the top right corner of the FAB."></video>
 
-[Open video](../../../assets/videos/db5421a4aa0c-m23g9t73-FAB-Menu-A-1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm23g9t73-FAB-Menu-A-1.mp4?alt=media&token=bdf9b02f-b3a7-403e-854b-e1866dc67724>)
 
 To ensure accessibility for keyboard users on the web, avoid positioning the FAB menu to completely obscure the focus indicator of an actionable element. 
 
@@ -187,14 +187,14 @@ When window height is limited, like when viewing phones in horizontal orientatio
 
 The items should scroll behind the close button.
 
-<video controls src="../../../assets/videos/af87fd2da5e1-m0fevuhp-FAB-Menu-B.mp4" title="A FAB menu with 6 items scrolls off screen on a horizontal-oriented device. Scrolled items move behind the close button."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fevuhp-FAB-Menu-B.mp4?alt=media&amp;token=30bc4800-73ce-4680-9067-a006d8713410" title="A FAB menu with 6 items scrolls off screen on a horizontal-oriented device. Scrolled items move behind the close button."></video>
 
-[Open video](../../../assets/videos/af87fd2da5e1-m0fevuhp-FAB-Menu-B.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fevuhp-FAB-Menu-B.mp4?alt=media&token=30bc4800-73ce-4680-9067-a006d8713410>)
 
 ### Expanding
 
 Any FAB menu item can expand and adapt to any shape using a [container transform](../../styles/motion/transitions/transition-patterns.md#b67cba74-6240-4663-a423-d537b6d21187) transition pattern. This includes a surface that is part of the app structure, or a surface that spans the entire screen.
 
-<video controls src="../../../assets/videos/fa6ab6e43055-m0few8ot-FAB-Menu-C.mp4" title="A FAB menu item expands and transforms into a full screen dialog."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0few8ot-FAB-Menu-C.mp4?alt=media&amp;token=3017a1d5-9e41-47dc-b66a-982e4e1e35db" title="A FAB menu item expands and transforms into a full screen dialog."></video>
 
-[Open video](../../../assets/videos/fa6ab6e43055-m0few8ot-FAB-Menu-C.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0few8ot-FAB-Menu-C.mp4?alt=media&token=3017a1d5-9e41-47dc-b66a-982e4e1e35db>)

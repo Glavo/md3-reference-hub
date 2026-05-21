@@ -2,7 +2,7 @@
 title: "Spacing"
 source_url: "https://m3.material.io/styles/spacing/tokens"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/b67529c78f72-mp47oayx-01.png"

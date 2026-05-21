@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/accessibility"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/49270f5c3c90-lx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4"
@@ -39,9 +39,9 @@ When tapped or dragged, the handle width shrinks to provide interaction feedback
 
 When hovered, the cursor changes. When clicked and dragged, the handle width shrinks, and the value appears.
 
-<video controls src="../../../assets/videos/49270f5c3c90-lx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4" title="Dragging a slider using a mouse cursor and by touch. Handle width shrinks when dragged."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4?alt=media&amp;token=1f2cb7c0-7e6c-4add-a536-e35a15ee94ce" title="Dragging a slider using a mouse cursor and by touch. Handle width shrinks when dragged."></video>
 
-[Open video](../../../assets/videos/49270f5c3c90-lx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4?alt=media&token=1f2cb7c0-7e6c-4add-a536-e35a15ee94ce>)
 
 ### Focus and navigation
 
@@ -49,9 +49,9 @@ Initial focus lands directly on the handle, since it’s the primary interactive
 
 The slider value can then be adjusted using the arrow keys or other keyboard navigation options.
 
-<video controls src="../../../assets/videos/0b27410d239d-lx2tk5qd-GM3-Components-accessibility-Sliders-2-v01.mp4" title="Using keyboard navigation on a slider. Tab to the handle, and use arrow keys to change the value."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tk5qd-GM3-Components-accessibility-Sliders-2-v01.mp4?alt=media&amp;token=7eb948e5-7fa9-47aa-b899-1b05f65b51db" title="Using keyboard navigation on a slider. Tab to the handle, and use arrow keys to change the value."></video>
 
-[Open video](../../../assets/videos/0b27410d239d-lx2tk5qd-GM3-Components-accessibility-Sliders-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2tk5qd-GM3-Components-accessibility-Sliders-2-v01.mp4?alt=media&token=7eb948e5-7fa9-47aa-b899-1b05f65b51db>)
 
 ## Color contrast
 

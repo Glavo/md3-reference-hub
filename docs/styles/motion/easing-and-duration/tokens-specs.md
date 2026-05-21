@@ -2,7 +2,7 @@
 title: "Easing and duration"
 source_url: "https://m3.material.io/styles/motion/easing-and-duration/tokens-specs"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/videos/5c43e3ea7901-lxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4"
@@ -43,17 +43,17 @@ Component: Sliders
 
 This set is the most common because it captures the expressive style of M3.
 
-<video controls src="../../../../assets/videos/5c43e3ea7901-lxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4" title="A line graph illustrating an emphasized easing pattern."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4?alt=media&amp;token=879529b5-4b03-49b3-a203-46657b3148ac" title="A line graph illustrating an emphasized easing pattern."></video>
 
-[Open video](../../../../assets/videos/5c43e3ea7901-lxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4?alt=media&token=879529b5-4b03-49b3-a203-46657b3148ac>)
 
-<video controls src="../../../../assets/videos/c153c317240a-lxo7uv91-GM3-Styles-Motion-Easing_Duration-Tokens-1-2-v01.mp4" title="A line graph illustrating an emphasized decelerate easing pattern."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7uv91-GM3-Styles-Motion-Easing_Duration-Tokens-1-2-v01.mp4?alt=media&amp;token=9f0d914d-4fd4-42ff-a924-54be8cf93e5a" title="A line graph illustrating an emphasized decelerate easing pattern."></video>
 
-[Open video](../../../../assets/videos/c153c317240a-lxo7uv91-GM3-Styles-Motion-Easing_Duration-Tokens-1-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7uv91-GM3-Styles-Motion-Easing_Duration-Tokens-1-2-v01.mp4?alt=media&token=9f0d914d-4fd4-42ff-a924-54be8cf93e5a>)
 
-<video controls src="../../../../assets/videos/5d77b0339f64-lxo7v6ah-GM3-Styles-Motion-Easing_Duration-Tokens-1-3-v01.mp4" title="A line graph illustrating an emphasized accelerate easing pattern."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7v6ah-GM3-Styles-Motion-Easing_Duration-Tokens-1-3-v01.mp4?alt=media&amp;token=6a20dec3-a717-4ac9-b39e-5bd93a90f222" title="A line graph illustrating an emphasized accelerate easing pattern."></video>
 
-[Open video](../../../../assets/videos/5d77b0339f64-lxo7v6ah-GM3-Styles-Motion-Easing_Duration-Tokens-1-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7v6ah-GM3-Styles-Motion-Easing_Duration-Tokens-1-3-v01.mp4?alt=media&token=6a20dec3-a717-4ac9-b39e-5bd93a90f222>)
 
 | Info/Platform | Emphasized | Emphasized decelerate | Emphasized accelerate |
 | --- | --- | --- | --- |
@@ -68,17 +68,17 @@ This set is the most common because it captures the expressive style of M3.
 
 This set is used for simple, small, or utility-focused transitions.
 
-<video controls src="../../../../assets/videos/f34c03bd5016-lxo7vu4c-GM3-Styles-Motion-Easing_Duration-Tokens-2-1-v01.mp4" title="A line graph illustrating a standard easing pattern."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7vu4c-GM3-Styles-Motion-Easing_Duration-Tokens-2-1-v01.mp4?alt=media&amp;token=7a7c72cc-6c0f-4836-8319-96a7fa2dd0a0" title="A line graph illustrating a standard easing pattern."></video>
 
-[Open video](../../../../assets/videos/f34c03bd5016-lxo7vu4c-GM3-Styles-Motion-Easing_Duration-Tokens-2-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7vu4c-GM3-Styles-Motion-Easing_Duration-Tokens-2-1-v01.mp4?alt=media&token=7a7c72cc-6c0f-4836-8319-96a7fa2dd0a0>)
 
-<video controls src="../../../../assets/videos/02f895e225ac-lxo7w7mt-GM3-Styles-Motion-Easing_Duration-Tokens-2-2-v01.mp4" title="A line graph illustrating a standard decelerate easing pattern."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7w7mt-GM3-Styles-Motion-Easing_Duration-Tokens-2-2-v01.mp4?alt=media&amp;token=5dc6520f-ea02-4673-9527-51b9e214e1e4" title="A line graph illustrating a standard decelerate easing pattern."></video>
 
-[Open video](../../../../assets/videos/02f895e225ac-lxo7w7mt-GM3-Styles-Motion-Easing_Duration-Tokens-2-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7w7mt-GM3-Styles-Motion-Easing_Duration-Tokens-2-2-v01.mp4?alt=media&token=5dc6520f-ea02-4673-9527-51b9e214e1e4>)
 
-<video controls src="../../../../assets/videos/f359215507d5-lxo7wjde-GM3-Styles-Motion-Easing_Duration-Tokens-2-3-v01.mp4" title="A line graph illustrating a standard accelerate easing pattern."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7wjde-GM3-Styles-Motion-Easing_Duration-Tokens-2-3-v01.mp4?alt=media&amp;token=d104f24b-757c-4172-8ff5-10beb509865d" title="A line graph illustrating a standard accelerate easing pattern."></video>
 
-[Open video](../../../../assets/videos/f359215507d5-lxo7wjde-GM3-Styles-Motion-Easing_Duration-Tokens-2-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7wjde-GM3-Styles-Motion-Easing_Duration-Tokens-2-3-v01.mp4?alt=media&token=d104f24b-757c-4172-8ff5-10beb509865d>)
 
 |  | Standard | Standard decelerate | Standard accelerate |
 | --- | --- | --- | --- |
@@ -102,9 +102,9 @@ These are used for small utility-focused transitions.
 | md.sys.motion.duration.short3 | 150ms |
 | md.sys.motion.duration.short4 | 200ms |
 
-<video controls src="../../../../assets/videos/526401d689d3-lxo7xbhz-GM3-Styles-Motion-Easing_Duration-Tokens-3-v01.mp4" title="Animation showing a 200ms duration and standard easing curve applied to selection control interactions."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7xbhz-GM3-Styles-Motion-Easing_Duration-Tokens-3-v01.mp4?alt=media&amp;token=1e5623d6-026a-425b-8c68-c8853a10882e" title="Animation showing a 200ms duration and standard easing curve applied to selection control interactions."></video>
 
-[Open video](../../../../assets/videos/526401d689d3-lxo7xbhz-GM3-Styles-Motion-Easing_Duration-Tokens-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7xbhz-GM3-Styles-Motion-Easing_Duration-Tokens-3-v01.mp4?alt=media&token=1e5623d6-026a-425b-8c68-c8853a10882e>)
 
 ### Medium durations
 
@@ -117,9 +117,9 @@ These are used for transitions that traverse a medium area of the screen.
 | md.sys.motion.duration.medium3 | 350ms |
 | md.sys.motion.duration.medium4 | 400ms |
 
-<video controls src="../../../../assets/videos/cffd887bce6b-lxo7xucu-GM3-Styles-Motion-Easing_Duration-Tokens-4-v01.mp4" title="Animation showing a FAB expanding into a sheet with a 400ms duration and Emphasized easing."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7xucu-GM3-Styles-Motion-Easing_Duration-Tokens-4-v01.mp4?alt=media&amp;token=8e049eaf-5050-4c72-b3c7-fd5421f9d675" title="Animation showing a FAB expanding into a sheet with a 400ms duration and Emphasized easing."></video>
 
-[Open video](../../../../assets/videos/cffd887bce6b-lxo7xucu-GM3-Styles-Motion-Easing_Duration-Tokens-4-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7xucu-GM3-Styles-Motion-Easing_Duration-Tokens-4-v01.mp4?alt=media&token=8e049eaf-5050-4c72-b3c7-fd5421f9d675>)
 
 ### Long durations
 
@@ -132,9 +132,9 @@ These durations are often paired with Emphasized easing. They're used for large 
 | md.sys.motion.duration.long3 | 550ms |
 | md.sys.motion.duration.long4 | 600ms |
 
-<video controls src="../../../../assets/videos/06f4cb9c12d2-lxo7ysp0-GM3-Styles-Motion-Easing_Duration-Tokens-5-v01.mp4" title="Animation showing a card expanding into a full screen with a 500ms duration and emphasized easing."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7ysp0-GM3-Styles-Motion-Easing_Duration-Tokens-5-v01.mp4?alt=media&amp;token=8a2cb049-a5d4-40f8-b7b6-3303a5f9166c" title="Animation showing a card expanding into a full screen with a 500ms duration and emphasized easing."></video>
 
-[Open video](../../../../assets/videos/06f4cb9c12d2-lxo7ysp0-GM3-Styles-Motion-Easing_Duration-Tokens-5-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7ysp0-GM3-Styles-Motion-Easing_Duration-Tokens-5-v01.mp4?alt=media&token=8a2cb049-a5d4-40f8-b7b6-3303a5f9166c>)
 
 ### Extra long durations
 
@@ -147,6 +147,6 @@ Though rare, some transitions use durations above 600ms. These are usually used 
 | md.sys.motion.duration.extra-long3 | 900ms |
 | md.sys.motion.duration.extra-long4 | 1000ms |
 
-<video controls src="../../../../assets/videos/42b850c565f7-lxo7z9jk-GM3-Styles-Motion-Easing_Duration-Tokens-6-v01.mp4" title="Animation showing the transition of an ambient carousel auto-advancing with a 1000ms duration and emphasized easing."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7z9jk-GM3-Styles-Motion-Easing_Duration-Tokens-6-v01.mp4?alt=media&amp;token=2d3db148-918b-44e1-9368-780880ec63db" title="Animation showing the transition of an ambient carousel auto-advancing with a 1000ms duration and emphasized easing."></video>
 
-[Open video](../../../../assets/videos/42b850c565f7-lxo7z9jk-GM3-Styles-Motion-Easing_Duration-Tokens-6-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxo7z9jk-GM3-Styles-Motion-Easing_Duration-Tokens-6-v01.mp4?alt=media&token=2d3db148-918b-44e1-9368-780880ec63db>)

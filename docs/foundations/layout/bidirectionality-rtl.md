@@ -2,7 +2,7 @@
 title: "Bidirectionality &amp; RTL"
 source_url: "https://m3.material.io/foundations/layout/bidirectionality-rtl"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/66230034630b-mp5maeep-01.png"
@@ -234,6 +234,6 @@ On Android, [predictive back](https://github.com/material-components/material-c
 
 RTL predictive back features should mirror those found in a LTR context.
 
-<video controls src="../../../assets/videos/0b01c75d881b-mp3l3v9p-GM3_Bidirectionality_Interaction-Gestures_6_IA_v02.mp4" title="Back swipe for RTL languages. The back swipe on a bottom sheet takes person back to previous screen of a photo feed."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3l3v9p-GM3_Bidirectionality_Interaction%20Gestures_6_IA_v02.mp4?alt=media&amp;token=76864157-f79f-4b54-a468-20af37b0af23" title="Back swipe for RTL languages. The back swipe on a bottom sheet takes person back to previous screen of a photo feed."></video>
 
-[Open video](../../../assets/videos/0b01c75d881b-mp3l3v9p-GM3_Bidirectionality_Interaction-Gestures_6_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3l3v9p-GM3_Bidirectionality_Interaction%20Gestures_6_IA_v02.mp4?alt=media&token=76864157-f79f-4b54-a468-20af37b0af23>)

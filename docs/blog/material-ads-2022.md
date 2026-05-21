@@ -2,7 +2,7 @@
 title: "Material Design at Android Developer Summit 2022"
 source_url: "https://m3.material.io/blog/material-ads-2022"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/f35926cf7da0-xyW1MGibDmc3SDy2esX-yvObwIvAH16ucRPF2-x7qJmOYRJRRU_LpOvZbis6yDwavBITLUbYRkbKi7aAvSS0wfOL9-TsElDx.png"

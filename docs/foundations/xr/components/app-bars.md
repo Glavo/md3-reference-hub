@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/app-bars"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -72,9 +72,9 @@ _Measurements and padding for app bar orbiters_
 
 An app bar can appear in an orbiter for a more immersive experience. Currently, this spatial capability is only available in full space. In home space, use a regular app bar on the same plane as the body content to mimic a 2D experience.
 
-<video controls src="../../../../assets/videos/64be6eb726b4-mowvrdts-XR_Top-App-Bar_Usage_01_IA_v03-(1).mp4" title="Animation showing an app bar changing from 2D to 3D."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvrdts-XR_Top-App-Bar_Usage_01_IA_v03%20(1).mp4?alt=media&amp;token=e1562dba-a3c5-47c5-8684-03296fa98418" title="Animation showing an app bar changing from 2D to 3D."></video>
 
-[Open video](../../../../assets/videos/64be6eb726b4-mowvrdts-XR_Top-App-Bar_Usage_01_IA_v03-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvrdts-XR_Top-App-Bar_Usage_01_IA_v03%20(1).mp4?alt=media&token=e1562dba-a3c5-47c5-8684-03296fa98418>)
 
 ## Behavior
 
@@ -86,9 +86,9 @@ It stays anchored to the app during layout or content changes. 
 
 This ensures navigation elements are always easy to find and use.
 
-<video controls src="../../../../assets/videos/548fbd471cb3-mowvuyn4-XR_Top-App-Bar_Behavior_01_IA_v03-(1).mp4" title="An app bar orbiter placed in global context."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvuyn4-XR_Top-App-Bar_Behavior_01_IA_v03%20(1).mp4?alt=media&amp;token=fd8f18d8-abfd-40af-b56b-8ba4fae68525" title="An app bar orbiter placed in global context."></video>
 
-[Open video](../../../../assets/videos/548fbd471cb3-mowvuyn4-XR_Top-App-Bar_Behavior_01_IA_v03-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvuyn4-XR_Top-App-Bar_Behavior_01_IA_v03%20(1).mp4?alt=media&token=fd8f18d8-abfd-40af-b56b-8ba4fae68525>)
 
 ### Local context
 
@@ -96,17 +96,17 @@ When placed in local context, the orbiter is centered at the top of the spatial 
 
 It repositions in response to layout or content changes.
 
-<video controls src="../../../../assets/videos/88584281581e-mowvzhjn-XR_Top-App-Bar_Behavior_02_IA_v03-(1).mp4" title="An app bar orbiter placed in local context."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvzhjn-XR_Top-App-Bar_Behavior_02_IA_v03%20(1).mp4?alt=media&amp;token=b99a382c-3120-4735-9d93-65be00ff1c0c" title="An app bar orbiter placed in local context."></video>
 
-[Open video](../../../../assets/videos/88584281581e-mowvzhjn-XR_Top-App-Bar_Behavior_02_IA_v03-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvzhjn-XR_Top-App-Bar_Behavior_02_IA_v03%20(1).mp4?alt=media&token=b99a382c-3120-4735-9d93-65be00ff1c0c>)
 
 ### Additional app bars
 
 In most cases, apps should only have one app bar orbiter, placed in global context.
 
-<video controls src="../../../../assets/videos/8937d31b4c7b-moww3e8a-XR_Top-App-Bar_Behavior_03_IA_v03-(1).mp4" title="An app switches between 1 and 2 app bar orbiters."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoww3e8a-XR_Top-App-Bar_Behavior_03_IA_v03%20(1).mp4?alt=media&amp;token=b91ce31f-fba5-4d03-af5f-0e79b831fc68" title="An app switches between 1 and 2 app bar orbiters."></video>
 
-[Open video](../../../../assets/videos/8937d31b4c7b-moww3e8a-XR_Top-App-Bar_Behavior_03_IA_v03-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoww3e8a-XR_Top-App-Bar_Behavior_03_IA_v03%20(1).mp4?alt=media&token=b91ce31f-fba5-4d03-af5f-0e79b831fc68>)
 
 ## Placement
 
@@ -140,9 +140,9 @@ _The app bar orbiter shouldn’t exceed the width of adjacent spatial panels_
 
 By default, app bar orbiters are center-aligned to the spatial panel. Their width and placement can be adjusted to accommodate specific user needs, such as improved ergonomics or [right-to-left (RTL) languages](../../layout/bidirectionality-rtl.md).
 
-<video controls src="../../../../assets/videos/e491b1f923f6-mowxpzvt-XR_Top-App-Bar_Spatial-pane-alignment_01_IA_v03-(1).mp4" title="App bar orbiter alignment options in relation to spatial panels: left, center, and right-aligned."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowxpzvt-XR_Top-App-Bar_Spatial-pane-alignment_01_IA_v03%20(1).mp4?alt=media&amp;token=f797df52-a9ab-45c9-84d2-e80f8a0e824c" title="App bar orbiter alignment options in relation to spatial panels: left, center, and right-aligned."></video>
 
-[Open video](../../../../assets/videos/e491b1f923f6-mowxpzvt-XR_Top-App-Bar_Spatial-pane-alignment_01_IA_v03-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowxpzvt-XR_Top-App-Bar_Spatial-pane-alignment_01_IA_v03%20(1).mp4?alt=media&token=f797df52-a9ab-45c9-84d2-e80f8a0e824c>)
 
 ### Width boundaries
 
@@ -168,9 +168,9 @@ When placed in a local context, an app bar orbiter can expand to the width of it
 
 Be sure the orbiter stays in a person’s field of view, and test for usability.
 
-<video controls src="../../../../assets/videos/ecb827f95491-mp1yzz8i-XR_Top-App-Bar_Adaptable-width_01_IA_v03.mp4" title="2 app bar orbiters with the same width as their adjacent spatial panels."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp1yzz8i-XR_Top-App-Bar_Adaptable-width_01_IA_v03.mp4?alt=media&amp;token=a10d0813-23ba-40f8-931f-89492e8f9d4d" title="2 app bar orbiters with the same width as their adjacent spatial panels."></video>
 
-[Open video](../../../../assets/videos/ecb827f95491-mp1yzz8i-XR_Top-App-Bar_Adaptable-width_01_IA_v03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp1yzz8i-XR_Top-App-Bar_Adaptable-width_01_IA_v03.mp4?alt=media&token=a10d0813-23ba-40f8-931f-89492e8f9d4d>)
 
 ## Accessibility considerations
 

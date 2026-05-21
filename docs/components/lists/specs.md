@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -110,9 +110,9 @@ _A multi-select list_
 
 On Android, lists can [expand and collapse](guidelines.md#90a236ee-b587-4361-8911-34006f25a6f1).
 
-<video controls src="../../../assets/videos/d882401ef931-miqm268j-GM3-Expressive-Specs-08-3P-v01-(1).mp4" title="A dropdown list item expands into a list with 6 items, then collapses."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiqm268j-GM3%20-%20Expressive%20-%20Specs%2008%20-%203P%20-%20v01%20(1).mp4?alt=media&amp;token=3ecacbac-4e83-4a82-bfab-107d95b063b9" title="A dropdown list item expands into a list with 6 items, then collapses."></video>
 
-[Open video](../../../assets/videos/d882401ef931-miqm268j-GM3-Expressive-Specs-08-3P-v01-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiqm268j-GM3%20-%20Expressive%20-%20Specs%2008%20-%203P%20-%20v01%20(1).mp4?alt=media&token=3ecacbac-4e83-4a82-bfab-107d95b063b9>)
 
 | **Category** | **Configuration** | **M3** | **M3 Expressive** |
 | --- | --- | --- | --- |

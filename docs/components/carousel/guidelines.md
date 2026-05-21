@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/f1bf561ca3a6-lwusb1kq-1.png"
@@ -91,9 +91,9 @@ If the carousel has a header, you can use an arrow icon button instead. 
 
 View the [accessibility tab](accessibility.md) for more details and alternate solutions.
 
-<video controls src="../../../assets/videos/6b84e41a3080-lwutlc75-GM3-Components-Carousel-Guidelines-1-v01.mp4" title="Carousel on mobile has a &quot;show all&quot; button that opens a page with all carousel items."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutlc75-GM3-Components-Carousel-Guidelines-1-v01.mp4?alt=media&amp;token=ec8a087b-ca5a-496a-b35a-a04c6a0c9a20" title="Carousel on mobile has a &quot;show all&quot; button that opens a page with all carousel items."></video>
 
-[Open video](../../../assets/videos/6b84e41a3080-lwutlc75-GM3-Components-Carousel-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutlc75-GM3-Components-Carousel-Guidelines-1-v01.mp4?alt=media&token=ec8a087b-ca5a-496a-b35a-a04c6a0c9a20>)
 
 ### Multi-browse
 
@@ -103,9 +103,9 @@ On larger screens, more large and medium items are visible in this layout.
 
 Avoid using this layout if the carousel items need lots of text or have complicated imagery.
 
-<video controls src="../../../assets/videos/cb4135cc8edf-lwutm3x8-GM3-Components-Carousel-Guidelines-2-v01.mp4" title="Swiping a multi-browse carousel with snap-scrolling. Items adjust size to fit the layout."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutm3x8-GM3-Components-Carousel-Guidelines-2-v01.mp4?alt=media&amp;token=e67990c5-f2f8-4f84-bf6d-196c8f7f8dbb" title="Swiping a multi-browse carousel with snap-scrolling. Items adjust size to fit the layout."></video>
 
-[Open video](../../../assets/videos/cb4135cc8edf-lwutm3x8-GM3-Components-Carousel-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutm3x8-GM3-Components-Carousel-Guidelines-2-v01.mp4?alt=media&token=e67990c5-f2f8-4f84-bf6d-196c8f7f8dbb>)
 
 In compact windows, only show up to three carousel items if they have text.
 
@@ -123,9 +123,9 @@ Both default scrolling and snap-scrolling work well with this layout.
 
 Since items don't change size, this layout can be customized to show more text or other UI above or below each item without the text being masked or cropped.
 
-<video controls src="../../../assets/videos/044f90bcd4f4-lwutpwf6-GM3-Components-Carousel-Guidelines-3-v01.mp4" title="Swiping an uncontained carousel with default scrolling. Items scroll to the edge and can stop anywhere."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutpwf6-GM3-Components-Carousel-Guidelines-3-v01.mp4?alt=media&amp;token=02d55f05-f085-4e6e-a2ed-272891024672" title="Swiping an uncontained carousel with default scrolling. Items scroll to the edge and can stop anywhere."></video>
 
-[Open video](../../../assets/videos/044f90bcd4f4-lwutpwf6-GM3-Components-Carousel-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutpwf6-GM3-Components-Carousel-Guidelines-3-v01.mp4?alt=media&token=02d55f05-f085-4e6e-a2ed-272891024672>)
 
 ### Uncontained multi-aspect ratio
 
@@ -135,9 +135,9 @@ Item widths can range anywhere between 9:16 for min width size to 16:9 for max w
 
 Only use this carousel layout if the items have various widths.
 
-<video controls src="../../../assets/videos/97d3be51cbfe-mgtvndn1-GM3_Expressive_Carousel_Guidelines-08_IA_v02.mp4" title="Swiping an uncontained carousel with default scrolling. Items scroll to the edge and can stop anywhere."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmgtvndn1-GM3_Expressive_Carousel_Guidelines%2008_IA_v02.mp4?alt=media&amp;token=f6b392c9-3542-45a7-99e7-e2798fd3bfa5" title="Swiping an uncontained carousel with default scrolling. Items scroll to the edge and can stop anywhere."></video>
 
-[Open video](../../../assets/videos/97d3be51cbfe-mgtvndn1-GM3_Expressive_Carousel_Guidelines-08_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmgtvndn1-GM3_Expressive_Carousel_Guidelines%2008_IA_v02.mp4?alt=media&token=f6b392c9-3542-45a7-99e7-e2798fd3bfa5>)
 
 ### Hero
 
@@ -147,17 +147,17 @@ On larger screens, more large items are visible.
 
 Use snap-scrolling so users can easily cycle through items one at a time.
 
-<video controls src="../../../assets/videos/cfdb8bac0f93-lwutqti0-GM3-Components-Carousel-Guidelines-4-v01.mp4" title="Swiping a hero carousel with snap-scrolling. Items adjust size to fit the layout."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutqti0-GM3-Components-Carousel-Guidelines-4-v01.mp4?alt=media&amp;token=8516a459-51b7-47d3-acdd-ca2b69709b21" title="Swiping a hero carousel with snap-scrolling. Items adjust size to fit the layout."></video>
 
-[Open video](../../../assets/videos/cfdb8bac0f93-lwutqti0-GM3-Components-Carousel-Guidelines-4-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutqti0-GM3-Components-Carousel-Guidelines-4-v01.mp4?alt=media&token=8516a459-51b7-47d3-acdd-ca2b69709b21>)
 
 ### Center-aligned hero
 
 When the hero layout is center-aligned, it adds an additional previewed item on the leading edge, making the large carousel item centered.
 
-<video controls src="../../../assets/videos/e87fc7c4e836-lwuts7ja-GM3-Components-Carousel-Guidelines-5-v01.mp4" title="Swiping a center-aligned hero carousel with snap-scrolling. Items adjust size to fit the layout."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuts7ja-GM3-Components-Carousel-Guidelines-5-v01.mp4?alt=media&amp;token=d60c2585-ab6f-4f79-ab1a-69d95a57612b" title="Swiping a center-aligned hero carousel with snap-scrolling. Items adjust size to fit the layout."></video>
 
-[Open video](../../../assets/videos/e87fc7c4e836-lwuts7ja-GM3-Components-Carousel-Guidelines-5-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuts7ja-GM3-Components-Carousel-Guidelines-5-v01.mp4?alt=media&token=d60c2585-ab6f-4f79-ab1a-69d95a57612b>)
 
 ### Full-screen
 
@@ -167,9 +167,9 @@ This layout works best with content that is taller than it is wide, and scrolls 
 
 Use snap-scrolling for full-screen layouts. Don't use default scrolling.
 
-<video controls src="../../../assets/videos/a8dc36747101-lwutt19y-GM3-Components-Carousel-Guidelines-6-v01.mp4" title="Vertically swiping a full-screen carousel with snap-scrolling. Items fit edge-to-edge."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutt19y-GM3-Components-Carousel-Guidelines-6-v01.mp4?alt=media&amp;token=9ce1694c-0db3-44a5-93c0-5f48158345dc" title="Vertically swiping a full-screen carousel with snap-scrolling. Items fit edge-to-edge."></video>
 
-[Open video](../../../assets/videos/a8dc36747101-lwutt19y-GM3-Components-Carousel-Guidelines-6-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutt19y-GM3-Components-Carousel-Guidelines-6-v01.mp4?alt=media&token=9ce1694c-0db3-44a5-93c0-5f48158345dc>)
 
 ## Anatomy
 
@@ -251,9 +251,9 @@ The **default** scrolling behavior doesn't snap items to a layout grid. They can
 
 The **snap-scrolling** behavior aligns carousel items to the layout grid after they're scrolled. Items snap to the grid when released. Use this for multi-browse, hero, and full-screen layouts.
 
-<video controls src="../../../assets/videos/e36035793177-lwutupr4-GM3-Components-Carousel-Guidelines-7-v01.mp4" title="Multi-browse carousel with snap-scrolling. Items slot into the layout once scrolled."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutupr4-GM3-Components-Carousel-Guidelines-7-v01.mp4?alt=media&amp;token=60140626-ce6d-48e5-8031-b93f5d56fadf" title="Multi-browse carousel with snap-scrolling. Items slot into the layout once scrolled."></video>
 
-[Open video](../../../assets/videos/e36035793177-lwutupr4-GM3-Components-Carousel-Guidelines-7-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutupr4-GM3-Components-Carousel-Guidelines-7-v01.mp4?alt=media&token=60140626-ce6d-48e5-8031-b93f5d56fadf>)
 
 In full-screen layouts, make sure the carousel items snap to the edges of the carousel container. Avoid letting them scroll freely or stop halfway.
 

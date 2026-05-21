@@ -2,7 +2,7 @@
 title: "Start building with Material 3 Expressive"
 source_url: "https://m3.material.io/blog/building-with-m3-expressive"
 lastmod: "2026-05-07"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/0c5716c7fe97-1U71piLcGDg-O2CUVDHaShSo-igfXvZzsdu4e_u_Tt8VuAAPPAJFzcMEGE8bTfu20-BVvVS9v2kDSZ9BcDc672z8IVmjsCAp.png"
@@ -62,7 +62,7 @@ M3 Expressive is our most researched update to the design system since its launc
 
 Fourteen new or updated components now feature more configuration capabilities, shape options, emphasized text, and other expressive updates.
 
-[Video: M3 Expressive FAB menu, loading indicator, FAB, toolbar, progress indicators, button group, and navigation.](../../assets/videos/51107a3684b5-00_Bento_Deck_Light_Purple.mp4)
+[Video: M3 Expressive FAB menu, loading indicator, FAB, toolbar, progress indicators, button group, and navigation.](https://kstatic.googleusercontent.com/files/73fc09e97b2e45de032b6ee569beb18d81d0df88dbc547b0ba92e7bf0a8b68191c89df5868c34a8a54ddc070197f0d6e870730faf8108818cfee19f75ba13a00)
 
 -   [App bars](../components/app-bars/overview.md)
 
@@ -103,7 +103,7 @@ Spatial springs mirror the physics of how objects actually move, making animatio
 
 [Learn more about motion](https://m3.material.io/styles/motion/overview?utm_source=blog&utm_medium=referral&utm_campaign=IO25)
 
-[Video: Expressive components showing off new motion style.](../../assets/videos/15dff02d47b6-00_Components_Export.mp4)
+[Video: Expressive components showing off new motion style.](https://kstatic.googleusercontent.com/files/2e0487300d1ca0aa0043bb83fd915c982d9e01475dfb15665e4c45c236c5111e702371d07d9bfa944e5e02f65c642275a2c283a0b3db3b0aadfc1b95d799b518)
 
 #### Visually emphasized typography
 
@@ -197,7 +197,7 @@ Group similar content into informative groupings.
 
 Make interactions feel alive and spirited through shape morph or surface effects. Apply the expressive motion springs or custom micro animations.
 
-[Video: Examples of expressive motion in a range of apps and devices.](../../assets/videos/08cd9d437b33-Montage_02_GS.mp4)
+[Video: Examples of expressive motion in a range of apps and devices.](https://kstatic.googleusercontent.com/files/73453433b2b95ec568fb19e2870cac8628407ca4ed21447828b1da043e77127185def9f3d076266c2ad6b4f67cf8651118a08e6fca89897a4634e454b9bed95e)
 
 #### 6\. Leverage component flexibility
 
@@ -220,7 +220,7 @@ To identify your hero moment, ask yourself:
 2.  **Is this a key interaction in your product?** Think about whether a detail or flow can be emphasized for clarity. Guide the user’s attention by making an important button dominant, or emphasizing key information.
 
 
-[Video: Examples of expressive apps on tablet and phone.](../../assets/videos/80647fd3e64b-01_-_Montage_BUILD_2x_colors_GS.mp4)
+[Video: Examples of expressive apps on tablet and phone.](https://kstatic.googleusercontent.com/files/cfddaba83226a6cd4821443257629eb9307ba214a303c9a258268db4b49e4edba15bae60846fa4933621c1d0f01a58f066a83d1c7695d5b55897f77e0a029d42)
 
 ## Handy links
 

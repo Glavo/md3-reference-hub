@@ -2,7 +2,7 @@
 title: "Chips"
 source_url: "https://m3.material.io/components/chips/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/42035becc577-m99z66s4-01.png"
@@ -48,17 +48,17 @@ When there are too many chips to fit on one row, provide a way to display them a
 
 **Reflow method:** Use a filter chip as a leading element to reflow the horizontal list. This should shift down the content below and make room for all chips to show.
 
-<video controls src="../../../assets/videos/45c424ffcd21-m9a4c1yw-GM3_Chips_Guidelines_07_IA_v01.mp4" title="Selecting a leading button pushes chips previously reachable only by scroll below, making them all visible."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm9a4c1yw-GM3_Chips_Guidelines_07_IA_v01.mp4?alt=media&amp;token=172440e0-6ede-4c76-8ac1-0ba44b6f713d" title="Selecting a leading button pushes chips previously reachable only by scroll below, making them all visible."></video>
 
-[Open video](../../../assets/videos/45c424ffcd21-m9a4c1yw-GM3_Chips_Guidelines_07_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm9a4c1yw-GM3_Chips_Guidelines_07_IA_v01.mp4?alt=media&token=172440e0-6ede-4c76-8ac1-0ba44b6f713d>)
 
 **Menu method:** Create a leading button to display all chip options in a menu. Use this option to avoid shifting the position of the content below.
 
 Don’t use the menu method on chips with a second action, like a remove icon.
 
-<video controls src="../../../assets/videos/fa71311341f8-m9a4cs1u-GM3_Chips_Guidelines_08_IA_v01.mp4" title="Selecting a filter button produces a menu with all previously hidden chips visible."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm9a4cs1u-GM3_Chips_Guidelines_08_IA_v01.mp4?alt=media&amp;token=e4fc1953-feec-4b2d-b70e-958fbde400d4" title="Selecting a filter button produces a menu with all previously hidden chips visible."></video>
 
-[Open video](../../../assets/videos/fa71311341f8-m9a4cs1u-GM3_Chips_Guidelines_08_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm9a4cs1u-GM3_Chips_Guidelines_08_IA_v01.mp4?alt=media&token=e4fc1953-feec-4b2d-b70e-958fbde400d4>)
 
 ### Avoid applying density by default
 

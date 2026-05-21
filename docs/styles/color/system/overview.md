@@ -2,7 +2,7 @@
 title: "Color system"
 source_url: "https://m3.material.io/styles/color/system/overview"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/videos/027437e043f5-linbli4g-MAT020.01-v4.mp4"
@@ -38,9 +38,9 @@ Create accessible, personal color schemes communicating your product's hierarchy
 
 For products migrating from M2 to M3, start by mapping the baseline color scheme to your existing product. It can easily switch to dynamic color when ready.
 
-<video controls src="../../../../assets/videos/027437e043f5-linbli4g-MAT020.01-v4.mp4" title="Introduction to color guidance"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flinbli4g-MAT020.01-v4.mp4?alt=media&amp;token=9731ccc6-7d03-42ec-bff6-115bddc39fc0" title="Introduction to color guidance"></video>
 
-[Open video](../../../../assets/videos/027437e043f5-linbli4g-MAT020.01-v4.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flinbli4g-MAT020.01-v4.mp4?alt=media&token=9731ccc6-7d03-42ec-bff6-115bddc39fc0>)
 
 ![Primary, on primary, primary container, and on primary container roles shown in baseline light theme color scheme.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4hetcer-4.png?alt=media&token=232f45a0-28ae-45b4-891d-f656da56fe91>)
 
@@ -63,9 +63,9 @@ This provides:
 -   User-controlled contrast
 -   Automatic dark theme
 
-<video controls src="../../../../assets/videos/cd22c2cb98b8-m0ob8aeg-Untitled-video-(1).mp4" title="Screen of an email app changing color from red to green to yellow"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0ob8aeg-Untitled%20video%20(1).mp4?alt=media&amp;token=983ab349-d3b4-44ed-81c6-8e5e491130a3" title="Screen of an email app changing color from red to green to yellow"></video>
 
-[Open video](../../../../assets/videos/cd22c2cb98b8-m0ob8aeg-Untitled-video-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0ob8aeg-Untitled%20video%20(1).mp4?alt=media&token=983ab349-d3b4-44ed-81c6-8e5e491130a3>)
 
 ## Resources
 

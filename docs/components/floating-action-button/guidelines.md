@@ -2,7 +2,7 @@
 title: "FABs"
 source_url: "https://m3.material.io/components/floating-action-button/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/68cda2352316-mkapod2e-01.png"
@@ -192,9 +192,9 @@ While FABs should be relevant to screen content, they aren't attached to the sur
 **Reappearance
 **The FAB should only reappear if it's relevant to the new screen. It should reappear in the same position, if possible.
 
-<video controls src="../../../assets/videos/77978e4bc39e-m0e6834q-FAB-A.mp4" title="FAB appearing from the bottom of the screen, moving to a position above the  navigation bar."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6834q-FAB-A.mp4?alt=media&amp;token=3303d91a-c26c-400a-a37a-305bc593a712" title="FAB appearing from the bottom of the screen, moving to a position above the  navigation bar."></video>
 
-[Open video](../../../assets/videos/77978e4bc39e-m0e6834q-FAB-A.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e6834q-FAB-A.mp4?alt=media&token=3303d91a-c26c-400a-a37a-305bc593a712>)
 
 ### Expanding
 
@@ -204,9 +204,9 @@ The FAB can also transition into a FAB menu. 
 
 [More on FAB menus](../fab-menu/accessibility.md)
 
-<video controls src="../../../assets/videos/f64916499722-m1l6g0wn-FAB-B-1.mp4" title="Compose FAB expands to container size, opening a draft email screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm1l6g0wn-FAB-B-1.mp4?alt=media&amp;token=3f9e67e3-57be-4f71-9776-0538f57dc409" title="Compose FAB expands to container size, opening a draft email screen."></video>
 
-[Open video](../../../assets/videos/f64916499722-m1l6g0wn-FAB-B-1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm1l6g0wn-FAB-B-1.mp4?alt=media&token=3f9e67e3-57be-4f71-9776-0538f57dc409>)
 
 ### Scrolling
 
@@ -214,20 +214,20 @@ FABs remain in place on scroll.
 
 Extended FABs can collapse into a FAB on scroll and expand on reaching the bottom of the view.
 
-<video controls src="../../../assets/videos/c7e48824843a-m1l6g857-FAB-C_1.mp4" title="Extended FAB collapsed into a FAB when scrolling on the page."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm1l6g857-FAB-C_1.mp4?alt=media&amp;token=cf8f18fe-f1c9-487d-87d5-079c08e7df7c" title="Extended FAB collapsed into a FAB when scrolling on the page."></video>
 
-[Open video](../../../assets/videos/c7e48824843a-m1l6g857-FAB-C_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm1l6g857-FAB-C_1.mp4?alt=media&token=cf8f18fe-f1c9-487d-87d5-079c08e7df7c>)
 
 ### Moving across tabs
 
 When tabs are present, the FAB should briefly disappear, then reappear when the new content moves into place. This shows that the FAB is not connected to any particular tab.
 
-<video controls src="../../../assets/videos/c6c50d0b46fa-md8w19ca-GM3_Expressive_FAB_Guidelines_FAB-D_v02.mp4" title="FAB blinks away and reappears with new screen content."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd8w19ca-GM3_Expressive_FAB_Guidelines_FAB-D_v02.mp4?alt=media&amp;token=750535f4-7bba-4d54-bfb1-6dd82c944b39" title="FAB blinks away and reappears with new screen content."></video>
 
-[Open video](../../../assets/videos/c6c50d0b46fa-md8w19ca-GM3_Expressive_FAB_Guidelines_FAB-D_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd8w19ca-GM3_Expressive_FAB_Guidelines_FAB-D_v02.mp4?alt=media&token=750535f4-7bba-4d54-bfb1-6dd82c944b39>)
 
 Don't animate the FAB with body content.
 
-<video controls src="../../../assets/videos/2cf14d5fa88e-md8w1k06-GM3_Expressive_FAB_Guidelines_FAB-E_v02.mp4" title="FAB moves horizontally when scrolling between tabs."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd8w1k06-GM3_Expressive_FAB_Guidelines_FAB-E_v02.mp4?alt=media&amp;token=603fbf2b-e9a0-444f-bcdb-efdb990b8271" title="FAB moves horizontally when scrolling between tabs."></video>
 
-[Open video](../../../assets/videos/2cf14d5fa88e-md8w1k06-GM3_Expressive_FAB_Guidelines_FAB-E_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd8w1k06-GM3_Expressive_FAB_Guidelines_FAB-E_v02.mp4?alt=media&token=603fbf2b-e9a0-444f-bcdb-efdb990b8271>)

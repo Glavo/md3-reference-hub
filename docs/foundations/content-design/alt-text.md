@@ -2,7 +2,7 @@
 title: "Alt text"
 source_url: "https://m3.material.io/foundations/content-design/alt-text"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/2589cf097f70-lwj77km2-1_do.png"
@@ -250,9 +250,9 @@ As with still images, if the animated information isn’t elsewhere on the scree
 
 Long-form video content uses video description to narrate the visual elements of a video, so it doesn’t need alt text.
 
-<video controls src="../../../assets/videos/85b75d5ab792-lwj7ncxm-GM3-Foundations-ContentDesign-AltText-1-v01.mp4" title="A tooltip labeled “star” appears when a cursor hovers over a star icon."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7ncxm-GM3-Foundations-ContentDesign-AltText-1-v01.mp4?alt=media&amp;token=7cf30e50-9a9e-480a-b93c-f260f45d365b" title="A tooltip labeled “star” appears when a cursor hovers over a star icon."></video>
 
-[Open video](../../../assets/videos/85b75d5ab792-lwj7ncxm-GM3-Foundations-ContentDesign-AltText-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj7ncxm-GM3-Foundations-ContentDesign-AltText-1-v01.mp4?alt=media&token=7cf30e50-9a9e-480a-b93c-f260f45d365b>)
 
 Alt text on informative GIFs or motion assets should highlight the important points. Think of a heading or title you might give it, and that’s likely your alt text.
 

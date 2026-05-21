@@ -2,7 +2,7 @@
 title: "MDC-Android Stable release 1.7.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-7-0"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/300fd407915c-RFeqhT5kDBq9Fo4GyqNq4EE7g1WKi-NBZ_IWBXOf235ribRpuquQmcjEhLfxPd5LycBauHBWoTHFNIo6eFWYEToksbVSaZdH.png"

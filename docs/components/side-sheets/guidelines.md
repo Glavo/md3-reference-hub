@@ -2,7 +2,7 @@
 title: "Side sheets"
 source_url: "https://m3.material.io/components/side-sheets/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/13c02ec3c4c9-meqqqohk-01.png"
@@ -145,9 +145,9 @@ Side sheets can display a wide variety of content and layouts, ranging from a li
 
 _Form controls shown in a side sheet for app settings_
 
-<video controls src="../../../assets/videos/ca5eced4bfd1-lw8ytzch-GM3-Components-SideSheets-Guidelines-1-v01.mp4" title="As a small screen changes to a larger size the modal side sheet transitions to a standard side sheet."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8ytzch-GM3-Components-SideSheets-Guidelines-1-v01.mp4?alt=media&amp;token=1bf4052f-7d2f-4918-ab47-cac110c8a72b" title="As a small screen changes to a larger size the modal side sheet transitions to a standard side sheet."></video>
 
-[Open video](../../../assets/videos/ca5eced4bfd1-lw8ytzch-GM3-Components-SideSheets-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8ytzch-GM3-Components-SideSheets-Guidelines-1-v01.mp4?alt=media&token=1bf4052f-7d2f-4918-ab47-cac110c8a72b>)
 
 ## Adaptive design
 
@@ -155,9 +155,9 @@ Side sheets have a default width, but can be resized depending on the needs of t
 
 When a standard side sheet opens, the body area shrinks to accommodate the sheet’s width while maintaining a margin on the body’s trailing edge.
 
-<video controls src="../../../assets/videos/78cd687195be-lw8yw08l-GM3-Components-SideSheets-Guidelines-2-v01.mp4" title="Body area of a screen adjusts to accommodate entrance and exit of side sheet. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8yw08l-GM3-Components-SideSheets-Guidelines-2-v01.mp4?alt=media&amp;token=b05fcdca-80b4-4337-9505-251837e72d7d" title="Body area of a screen adjusts to accommodate entrance and exit of side sheet. "></video>
 
-[Open video](../../../assets/videos/78cd687195be-lw8yw08l-GM3-Components-SideSheets-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8yw08l-GM3-Components-SideSheets-Guidelines-2-v01.mp4?alt=media&token=b05fcdca-80b4-4337-9505-251837e72d7d>)
 
 ### RTL language support
 
@@ -175,9 +175,9 @@ This allows their scroll position and content to persist while the page is scrol
 
 Side sheets cannot scroll horizontally.
 
-<video controls src="../../../assets/videos/183815bd8cdf-lw8yz6fq-GM3-Components-SideSheets-Guidelines-3-v01.mp4" title="Animation showing a side sheet being scrolled vertically to view all the options."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8yz6fq-GM3-Components-SideSheets-Guidelines-3-v01.mp4?alt=media&amp;token=9e3edaa2-0851-448a-85bd-983c57f63ad8" title="Animation showing a side sheet being scrolled vertically to view all the options."></video>
 
-[Open video](../../../assets/videos/183815bd8cdf-lw8yz6fq-GM3-Components-SideSheets-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8yz6fq-GM3-Components-SideSheets-Guidelines-3-v01.mp4?alt=media&token=9e3edaa2-0851-448a-85bd-983c57f63ad8>)
 
 ![A side sheet appears to scroll horizontally.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8z3x56-19_don't.png?alt=media&token=b2f8c1b7-ea55-4f8a-b3de-6b9b51be72f9>)
 
@@ -198,6 +198,6 @@ When predictive back is used:
 
 [Find a list of compatible components](../../foundations/interaction/gestures.md#22462fb2-fbe8-4e0c-b3e7-9278bd18ea0d)
 
-<video controls src="../../../assets/videos/63c8814839a8-lw8z7v0k-GM3-Components-SideSheets-Guidelines-4-v02.mp4" title="Swiping to go back shows a preview of the previous screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8z7v0k-GM3-Components-SideSheets-Guidelines-4-v02.mp4?alt=media&amp;token=77de11b6-dee0-4663-93b4-47229c2998bd" title="Swiping to go back shows a preview of the previous screen."></video>
 
-[Open video](../../../assets/videos/63c8814839a8-lw8z7v0k-GM3-Components-SideSheets-Guidelines-4-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8z7v0k-GM3-Components-SideSheets-Guidelines-4-v02.mp4?alt=media&token=77de11b6-dee0-4663-93b4-47229c2998bd>)

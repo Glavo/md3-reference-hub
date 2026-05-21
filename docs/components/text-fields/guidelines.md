@@ -2,7 +2,7 @@
 title: "Text fields"
 source_url: "https://m3.material.io/components/text-fields/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/91d75ba7bf80-lyqb5o7k-1-(1).png"
@@ -157,9 +157,9 @@ Label text should be aligned with the input text, and always visible. It can be 
 
 Label text shouldn't be truncated or take up multiple lines. Keep it short, clear, and fully visible.
 
-<video controls src="../../../assets/videos/ca194bd50285-lx32tcjs-GM3-Components-TextFields-Guidelines-1-v01.mp4" title="Animation of 2 text field’s label text changing position when empty and populated."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32tcjs-GM3-Components-TextFields-Guidelines-1-v01.mp4?alt=media&amp;token=5d88de42-92e9-4aa3-a89a-124a0305b87d" title="Animation of 2 text field’s label text changing position when empty and populated."></video>
 
-[Open video](../../../assets/videos/ca194bd50285-lx32tcjs-GM3-Components-TextFields-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32tcjs-GM3-Components-TextFields-Guidelines-1-v01.mp4?alt=media&token=5d88de42-92e9-4aa3-a89a-124a0305b87d>)
 
 ![Text field with very long label text, too long to display fully display inside the text field container.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx31ykco-13_dont.png?alt=media&token=dc2a9d73-7d0f-42f0-aafa-072fcca98564>)
 
@@ -211,17 +211,17 @@ Text fields can display input text in the following ways:
 
 _Input text in a filled text field_
 
-<video controls src="../../../assets/videos/4ff0acdd0519-lx32tu4z-GM3-Components-TextFields-Guidelines-2-1-v01.mp4" title="Text field with very long input text that scrolls sideways. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32tu4z-GM3-Components-TextFields-Guidelines-2-1-v01.mp4?alt=media&amp;token=ce56cd51-c973-4fb2-9507-3108955d254c" title="Text field with very long input text that scrolls sideways. "></video>
 
-[Open video](../../../assets/videos/4ff0acdd0519-lx32tu4z-GM3-Components-TextFields-Guidelines-2-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32tu4z-GM3-Components-TextFields-Guidelines-2-1-v01.mp4?alt=media&token=ce56cd51-c973-4fb2-9507-3108955d254c>)
 
-<video controls src="../../../assets/videos/9f84d2f4970b-lx32uir5-GM3-Components-TextFields-Guidelines-2-2-v01.mp4" title="Text field with very long input text that wraps into a second line, expanding the text field container. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32uir5-GM3-Components-TextFields-Guidelines-2-2-v01.mp4?alt=media&amp;token=29c194ef-dc2f-4c0e-a20b-d5c3b720253d" title="Text field with very long input text that wraps into a second line, expanding the text field container. "></video>
 
-[Open video](../../../assets/videos/9f84d2f4970b-lx32uir5-GM3-Components-TextFields-Guidelines-2-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32uir5-GM3-Components-TextFields-Guidelines-2-2-v01.mp4?alt=media&token=29c194ef-dc2f-4c0e-a20b-d5c3b720253d>)
 
-<video controls src="../../../assets/videos/cd461a65a094-lx32usx4-GM3-Components-TextFields-Guidelines-2-3-v01.mp4" title="Text area with enough space to allow a very long input text to wrap into a second line without the need to expand the container."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32usx4-GM3-Components-TextFields-Guidelines-2-3-v01.mp4?alt=media&amp;token=acf2e07c-b72b-47a0-9a8f-98dd14978a8d" title="Text area with enough space to allow a very long input text to wrap into a second line without the need to expand the container."></video>
 
-[Open video](../../../assets/videos/cd461a65a094-lx32usx4-GM3-Components-TextFields-Guidelines-2-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32usx4-GM3-Components-TextFields-Guidelines-2-3-v01.mp4?alt=media&token=acf2e07c-b72b-47a0-9a8f-98dd14978a8d>)
 
 ### Prefix text
 
@@ -260,13 +260,13 @@ For text fields that validate their content such as passwords, replace supportin
 -   If only one error is possible, error text should describe how to avoid the error
 -   If multiple errors are possible, error text should describe how to avoid the most likely error
 
-<video controls src="../../../assets/videos/77dc205acb38-lx32v93h-GM3-Components-TextFields-Guidelines-3-1-v01.mp4" title="Mobile UI of a sign up form indicating a invalid entry, and a hint on how to resolve as supporting text below the container. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32v93h-GM3-Components-TextFields-Guidelines-3-1-v01.mp4?alt=media&amp;token=2b4b2b54-a056-4a61-975d-553b5e06e4ca" title="Mobile UI of a sign up form indicating a invalid entry, and a hint on how to resolve as supporting text below the container. "></video>
 
-[Open video](../../../assets/videos/77dc205acb38-lx32v93h-GM3-Components-TextFields-Guidelines-3-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32v93h-GM3-Components-TextFields-Guidelines-3-1-v01.mp4?alt=media&token=2b4b2b54-a056-4a61-975d-553b5e06e4ca>)
 
-<video controls src="../../../assets/videos/91c4562d4417-lx32vmu8-GM3-Components-TextFields-Guidelines-3-2-v01.mp4" title="Mobile UI of a sign up form with an invalid text field entry. The regular supporting text remains above the error message. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32vmu8-GM3-Components-TextFields-Guidelines-3-2-v01.mp4?alt=media&amp;token=39d05576-568a-4739-b598-f9534900853f" title="Mobile UI of a sign up form with an invalid text field entry. The regular supporting text remains above the error message. "></video>
 
-[Open video](../../../assets/videos/91c4562d4417-lx32vmu8-GM3-Components-TextFields-Guidelines-3-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx32vmu8-GM3-Components-TextFields-Guidelines-3-2-v01.mp4?alt=media&token=39d05576-568a-4739-b598-f9534900853f>)
 
 ![Mobile UI of a sign up form with an invalid text field entry. The error message wraps to 2 lines. ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx325xha-27_caution.png?alt=media&token=56146424-2703-4db8-b848-8e986a620685>)
 

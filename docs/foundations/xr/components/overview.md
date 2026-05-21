@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -28,9 +28,9 @@ Learn how Material 3 Expressive components adapt to extended reality devices
 
 -   Provide feedback through spatial audio, haptics, and visual cues
 
-<video controls src="../../../../assets/videos/c939390819e3-moxffyh5-toolbars-xr-06-(2).mp4" title="Animation showing a toolbar changing from 2D to 3D."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxffyh5-toolbars-xr-06%20(2).mp4?alt=media&amp;token=6e469f8c-03d3-48d4-9b78-9977c32d6fd8" title="Animation showing a toolbar changing from 2D to 3D."></video>
 
-[Open video](../../../../assets/videos/c939390819e3-moxffyh5-toolbars-xr-06-(2).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxffyh5-toolbars-xr-06%20(2).mp4?alt=media&token=6e469f8c-03d3-48d4-9b78-9977c32d6fd8>)
 
 ## Material XR components
 

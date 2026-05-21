@@ -2,7 +2,7 @@
 title: "Buttons"
 source_url: "https://m3.material.io/components/buttons/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/31a5e2cce7d3-mmm13hkn-01.png"
@@ -50,9 +50,9 @@ _Avoid excessive text wrapping or truncation by choosing concise strings_
 
 On the web, you can use a modified motion curve to avoid resonant effects from overlapping animations. This provides a smoother experience for interactions where you anticipate multiple clicks or taps in succession.
 
-<video controls src="../../../assets/videos/0775d3e911c6-mmm15x7t-GM3_Buttons_Accesibility-04-v02.mp4" title="A media player where the “next track” button is clicked rapidly, and is transformed with a smooth motion effect."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm15x7t-GM3_Buttons_Accesibility%2004%20-%20v02.mp4?alt=media&amp;token=3e6f0315-1423-46f7-9357-4506333a0264" title="A media player where the “next track” button is clicked rapidly, and is transformed with a smooth motion effect."></video>
 
-[Open video](../../../assets/videos/0775d3e911c6-mmm15x7t-GM3_Buttons_Accesibility-04-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm15x7t-GM3_Buttons_Accesibility%2004%20-%20v02.mp4?alt=media&token=3e6f0315-1423-46f7-9357-4506333a0264>)
 
 ## Keyboard navigation
 

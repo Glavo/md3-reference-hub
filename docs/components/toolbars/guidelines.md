@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/f04a97c90886-m7xi1w6d-01.png"
@@ -363,9 +363,9 @@ _Avoid using multiple toolbars in smaller windows_
 
 Actions at the trailing edge of the toolbar can collapse into an overflow menu at smaller window sizes, and become visible again at larger sizes.
 
-<video controls src="../../../assets/videos/42ffb0c646d1-ma1lvic4-GM3_Adaptive_ToolBar_Guidelines_37_IA_V01.mp4" title="App bar resizing to wider view."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma1lvic4-GM3_Adaptive_ToolBar_Guidelines_37_IA_V01.mp4?alt=media&amp;token=89841766-ea1d-4db4-8860-6068b771961d" title="App bar resizing to wider view."></video>
 
-[Open video](../../../assets/videos/42ffb0c646d1-ma1lvic4-GM3_Adaptive_ToolBar_Guidelines_37_IA_V01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma1lvic4-GM3_Adaptive_ToolBar_Guidelines_37_IA_V01.mp4?alt=media&token=89841766-ea1d-4db4-8860-6068b771961d>)
 
 ### Right-to-left languages
 
@@ -385,24 +385,24 @@ _In RTL languages, reverse the order so Next remains on the trailing edge when f
 
 Docked toolbars can either remain on the screen during scroll, or animate offscreen.
 
-<video controls src="../../../assets/videos/5b7d5989cb2f-m6kw6oe9-Toolbar-GUidelines-31a-RENDER-2x.mp4" title="Docked toolbar animating off screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6kw6oe9-Toolbar%20GUidelines%2031a%20-%20RENDER%202x.mp4?alt=media&amp;token=7cbad4e7-a289-4342-846a-63f7b8054dff" title="Docked toolbar animating off screen."></video>
 
-[Open video](../../../assets/videos/5b7d5989cb2f-m6kw6oe9-Toolbar-GUidelines-31a-RENDER-2x.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6kw6oe9-Toolbar%20GUidelines%2031a%20-%20RENDER%202x.mp4?alt=media&token=7cbad4e7-a289-4342-846a-63f7b8054dff>)
 
 Floating toolbars can remain on the screen, animate offscreen, or collapse into a single, high-emphasis action on scroll.
 
-<video controls src="../../../assets/videos/066af9de23bb-m6kwfvv5-Toolbar-Guidelines-32a-RENDER.mp4" title="Floating toolbar animating off screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6kwfvv5-Toolbar%20Guidelines%2032a%20-%20RENDER.mp4?alt=media&amp;token=8f26be69-b22b-46d1-900d-433e72180126" title="Floating toolbar animating off screen."></video>
 
-[Open video](../../../assets/videos/066af9de23bb-m6kwfvv5-Toolbar-Guidelines-32a-RENDER.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6kwfvv5-Toolbar%20Guidelines%2032a%20-%20RENDER.mp4?alt=media&token=8f26be69-b22b-46d1-900d-433e72180126>)
 
 On Jetpack Compose, the floating toolbar can collapse to a FAB or key action on scroll.
 
-<video controls src="../../../assets/videos/ac78f4927899-m6kwpm0p-Toolbar-Guidelines-33a-RENDER-2x.mp4" title="Floating toolbar with several actions animating on scroll to hide all actions except the center one."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6kwpm0p-Toolbar%20Guidelines%2033a-%20RENDER%202x.mp4?alt=media&amp;token=a55b9c88-559c-46cd-af7b-313b49a5de04" title="Floating toolbar with several actions animating on scroll to hide all actions except the center one."></video>
 
-[Open video](../../../assets/videos/ac78f4927899-m6kwpm0p-Toolbar-Guidelines-33a-RENDER-2x.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6kwpm0p-Toolbar%20Guidelines%2033a-%20RENDER%202x.mp4?alt=media&token=a55b9c88-559c-46cd-af7b-313b49a5de04>)
 
 Don't collapse actions and scroll at the same time.
 
-<video controls src="../../../assets/videos/b6ad7743857d-m9ipmok3-GM3_Expressive_Toolbar_Guidelines_42_IA_v05.mp4" title="A toolbar collapsing to one action, and moving off screen when the page is scrolled."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm9ipmok3-GM3_Expressive_Toolbar_Guidelines_42_IA_v05.mp4?alt=media&amp;token=aed3f7cb-b269-4eb8-8e39-5ae379f2dc34" title="A toolbar collapsing to one action, and moving off screen when the page is scrolled."></video>
 
-[Open video](../../../assets/videos/b6ad7743857d-m9ipmok3-GM3_Expressive_Toolbar_Guidelines_42_IA_v05.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm9ipmok3-GM3_Expressive_Toolbar_Guidelines_42_IA_v05.mp4?alt=media&token=aed3f7cb-b269-4eb8-8e39-5ae379f2dc34>)

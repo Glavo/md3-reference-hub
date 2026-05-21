@@ -2,7 +2,7 @@
 title: "Time pickers"
 source_url: "https://m3.material.io/components/time-pickers/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/eab2ea48c98c-md2pwu0i-01.png"
@@ -166,9 +166,9 @@ There are two primary methods for selecting time with the mobile time picker. Pe
 -   Type in a specific value in the hour and minute fields
 -   Select the hour or minute field from the text input and adjust the clock dial to simultaneously change the corresponding time field above
 
-<video controls src="../../../assets/videos/6a6f67768b99-lw8wa0wg-GM3-Components-TimePickers-Guidelines-1-v01.mp4" title="Dial time picker possible interactions. Dial selector adjusts to match manual input."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8wa0wg-GM3-Components-TimePickers-Guidelines-1-v01.mp4?alt=media&amp;token=303bca0c-902b-49c5-9fd3-8d14448f02fc" title="Dial time picker possible interactions. Dial selector adjusts to match manual input."></video>
 
-[Open video](../../../assets/videos/6a6f67768b99-lw8wa0wg-GM3-Components-TimePickers-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8wa0wg-GM3-Components-TimePickers-Guidelines-1-v01.mp4?alt=media&token=303bca0c-902b-49c5-9fd3-8d14448f02fc>)
 
 ### Appearing & disappearing
 
@@ -176,17 +176,17 @@ Like other kinds of dialogs, time pickers use an enter and exit transition patte
 
 To exit a time picker, the input can either be confirmed (**OK**) or dismissed (**Cancel**). Interacting outside of the dialog will also dismiss the time picker. Unless one of these actions is taken, a time picker will continue to retain focus.
 
-<video controls src="../../../assets/videos/9dc80cc6f3cf-lw8waqdc-GM3-Components-TimePickers-Guidelines-2-v01.mp4" title="Time picker enter and exit transitions."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8waqdc-GM3-Components-TimePickers-Guidelines-2-v01.mp4?alt=media&amp;token=7a222829-9aba-4cdc-be4b-97160cb6602c" title="Time picker enter and exit transitions."></video>
 
-[Open video](../../../assets/videos/9dc80cc6f3cf-lw8waqdc-GM3-Components-TimePickers-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8waqdc-GM3-Components-TimePickers-Guidelines-2-v01.mp4?alt=media&token=7a222829-9aba-4cdc-be4b-97160cb6602c>)
 
 ### Toggle between dial & input
 
 Tapping the keyboard icon on a mobile time picker switches the view to the input picker.
 
-<video controls src="../../../assets/videos/6b09269442a4-lw8wbaye-GM3-Components-TimePickers-Guidelines-3-v01.mp4" title="Time picker transitioning between dial and input selectors."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8wbaye-GM3-Components-TimePickers-Guidelines-3-v01.mp4?alt=media&amp;token=507fb3f4-bfff-4e43-8221-3efa566af7ee" title="Time picker transitioning between dial and input selectors."></video>
 
-[Open video](../../../assets/videos/6b09269442a4-lw8wbaye-GM3-Components-TimePickers-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8wbaye-GM3-Components-TimePickers-Guidelines-3-v01.mp4?alt=media&token=507fb3f4-bfff-4e43-8221-3efa566af7ee>)
 
 ### Scrolling
 

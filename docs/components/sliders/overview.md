@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/overview"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/b2681e7e2460-m7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4"
@@ -26,9 +26,9 @@ Sliders let users make selections from a range of values
 
 -   The slider value should take effect immediately
 
-<video controls src="../../../assets/videos/b2681e7e2460-m7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4" title="A vertical slider changes the brightness of bedroom lights."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4?alt=media&amp;token=e9b46e6a-d3c9-4b05-bcec-725447cda4e6" title="A vertical slider changes the brightness of bedroom lights."></video>
 
-[Open video](../../../assets/videos/b2681e7e2460-m7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4?alt=media&token=e9b46e6a-d3c9-4b05-bcec-725447cda4e6>)
 
 ## Availability & resources
 

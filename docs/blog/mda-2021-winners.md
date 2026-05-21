@@ -2,7 +2,7 @@
 title: "Material Design Award Winners 2021"
 source_url: "https://m3.material.io/blog/mda-2021-winners"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/4f5daf829395-ZJ-zVsh_qNTerfhHWiG4cF6pJ4E1hUUYzPD8EqkBxWvxlIAtyTRHgyPKwV1Zjmi7baKvXG3I7HsTLFOtgGMbKXT9bZ-yQwA5.png"
@@ -54,13 +54,13 @@ Pontus Axelsson, Founder & President at Bontouch, Post-it Brand’s digital part
 
 When users capture a note in the app – using their device’s camera – the note is animated upward, lifting off its real-world background and signaling a transition from physical space to a digital experience. Touches like these serve to replicate and reinforce existing mental models, allowing Post-it Notes to function in the app as they do in reality.
 
-[Video: video of capturing screen of collection of post-its](../../assets/videos/00689f9081b3-PostItCapture.mp4)
+[Video: video of capturing screen of collection of post-its](https://kstatic.googleusercontent.com/files/5ddd1b1546fc17c689be3e528f6f61f150e080cbc351fce1cf6d5abf53b8b232740f283bab1c1f615ab021da2a4ed817b2d0fdb8685c9070933a81ef41f9318c)
 
 Key to the team’s approach with the Post-it app is the recognition – particularly through the pandemic – that people don’t actually want to replace tangible notes and real-world interactions entirely with an app. The team has carefully considered what to translate to the app and how to do it effectively. This thoughtfulness, which positions motion as an integral part of the app’s experience, makes Post-it stand out as one of our Material Design Award winners for 2021.
 
 ## Large Screen Winner: Todoist
 
-[Video: mobile UI expanding into tablet UI of todoist homescreen](../../assets/videos/3dde46a22a10-Todoist_Large_Screen_Transition.mp4)
+[Video: mobile UI expanding into tablet UI of todoist homescreen](https://kstatic.googleusercontent.com/files/354460aef8da51c8e74ca9d5f384456b4ac4655f7fb1ecb24d01465a5009b3509ffdc10520b3368574d742caa489e79409a95d3978637ccd6cdc0c45154c97df)
 
 When building an adaptive experience for Android, Rastislav Vaško, head of Android at Doist, says, “things are adaptive almost by default.” But, he adds, “this can also be a pitfall.” The team at Doist has arrived at a successful adaptive experience for their Android app through iteration, trial and error, and attention to the nuance of adaptive layouts that avoids “falling back” on layouts that may not fully account for certain device sizes or configurations.
 
@@ -78,7 +78,7 @@ For Doist, the Material Design guidelines serve as a shared point of reference b
 
 ![List of meeting codes on black background, white font, and purple CTA links](<https://lh3.googleusercontent.com/q6TcuPUbYHmxBDJU6H5E3aIXzKoCxXgo-8nbG8vBpZP1_VHWSzONq9t2AVPl7AyfSE8BFAJVovLKCXRkCzZNZgep20iDN0pwdfGLnZtdDKQRRq1qy2Y>)
 
-[Video: Meetly onboarding flow video](../../assets/videos/34dcb8686b6f-meetly_onboarding_hide_touch_operations.mp4)
+[Video: Meetly onboarding flow video](https://kstatic.googleusercontent.com/files/e43cf4c65d23c2bff2c574aaa657aebb9bdfaf1496600fb403c69612dfc4305fb73a4ea95f6a29f9bf64a35ddc10ef241a6743199a27f021f60fcf6ed841b75d)
 
 ![Settings screen with dark mode turned on, with black background, white font and purple UI elements](<https://lh3.googleusercontent.com/9VRy5My3Iyb0SUdPmFKb22YlzCyPKDGg7CEvCH_ckFrXgt_820MiDHXiGA5TkdbdSr6rwou5Cs6ZfjxBDPuwVFmiU9psVwt3FI-_sPlQGeu6rDRfi52s>)
 

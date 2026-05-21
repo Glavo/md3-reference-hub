@@ -2,7 +2,7 @@
 title: "How to make your text more accessible"
 source_url: "https://m3.material.io/blog/how-to-make-text-more-accessible"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/40896e6ecfe8-VfKcfwY0D55KIqGuq4dDDQcAHl4gQbVeE3BXx8R-qjSSwFIMJ9KFFCqw3g9LWYlajtQPML-mNdjMOYTHDbxm2BfD77Xq-eNW.png"

@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/33f4035768b1-lwopun3e-1.png"
@@ -259,9 +259,9 @@ When a navigation rail and modal navigation drawer are used together, the drawer
 
 A standard navigation drawer can be used in [single pane layouts](https://m3.material.io/m3/pages/understanding-layout/parts-of-layout) in expanded window sizes.
 
-<video controls src="../../../assets/videos/c6b65b4baa12-lwoqh0d1-GM3-Components-NavDrawer-Guidelines-1-v01.mp4" title="Navigation drawer on tablet with 1 active destination."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqh0d1-GM3-Components-NavDrawer-Guidelines-1-v01.mp4?alt=media&amp;token=dbffbe2f-e8e7-4434-b4ab-c0d41e2068ad" title="Navigation drawer on tablet with 1 active destination."></video>
 
-[Open video](../../../assets/videos/c6b65b4baa12-lwoqh0d1-GM3-Components-NavDrawer-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqh0d1-GM3-Components-NavDrawer-Guidelines-1-v01.mp4?alt=media&token=dbffbe2f-e8e7-4434-b4ab-c0d41e2068ad>)
 
 ### Large and extra-large window sizes
 
@@ -277,9 +277,9 @@ _Use a standard navigation drawer on large and desktop screens_
 
 Navigation drawers can be vertically scrolled, independent of the rest of the screen’s content and UI. If the list of navigation destinations is longer than the height of the drawer, the drawer’s contents can be scrolled within the drawer.
 
-<video controls src="../../../assets/videos/07f895d41cf1-lwoqihhy-GM3-Components-NavDrawer-Guidelines-2-v01.mp4" title="A navigation drawer on the left region of an email app is scrolled vertically without disturbing the rest of the content."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqihhy-GM3-Components-NavDrawer-Guidelines-2-v01.mp4?alt=media&amp;token=f5dbf149-2261-4a0f-988d-d72cc2c6a093" title="A navigation drawer on the left region of an email app is scrolled vertically without disturbing the rest of the content."></video>
 
-[Open video](../../../assets/videos/07f895d41cf1-lwoqihhy-GM3-Components-NavDrawer-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqihhy-GM3-Components-NavDrawer-Guidelines-2-v01.mp4?alt=media&token=f5dbf149-2261-4a0f-988d-d72cc2c6a093>)
 
 ### Visibility
 
@@ -299,6 +299,6 @@ _A permanently-visible standard navigation drawer on desktop_
 
 When a navigation drawer animates on screen, it uses an [enter and exit](../../styles/motion/transitions/applying-transitions.md) transition pattern.
 
-<video controls src="../../../assets/videos/69f587ce7aa8-lwoqk3j4-GM3-Components-NavDrawer-Guidelines-3-v01.mp4" title="In an email app, navigation drawer opens on menu icon click, and closes on outside click."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqk3j4-GM3-Components-NavDrawer-Guidelines-3-v01.mp4?alt=media&amp;token=0f92a1ef-5990-4cfc-a8c0-932477d20478" title="In an email app, navigation drawer opens on menu icon click, and closes on outside click."></video>
 
-[Open video](../../../assets/videos/69f587ce7aa8-lwoqk3j4-GM3-Components-NavDrawer-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqk3j4-GM3-Components-NavDrawer-Guidelines-3-v01.mp4?alt=media&token=0f92a1ef-5990-4cfc-a8c0-932477d20478>)

@@ -2,7 +2,7 @@
 title: "Writing and text"
 source_url: "https://m3.material.io/foundations/writing/text-truncation"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/e229e5cc3f66-lwj5ao0k-18.png"
@@ -63,9 +63,9 @@ _Avoid setting text size limits that don’t fit the space in a component. Use a
 -   If there's an ellipsis, but no way to show the truncated text, it is not accessible
 -   Note that this option can add difficulty for some people
 
-<video controls src="../../../assets/videos/f7c1f26f2a25-lwj5e7k2-GM3-Foundations-WritingAndText-Accessibility-1-v01.mp4" title="A calendar with a cursor hovering  over a day of the week displays a tooltip that reads “Tuesday.”"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5e7k2-GM3-Foundations-WritingAndText-Accessibility-1-v01.mp4?alt=media&amp;token=2fbeb491-6ae1-4c4c-930b-02914cdf93af" title="A calendar with a cursor hovering  over a day of the week displays a tooltip that reads “Tuesday.”"></video>
 
-[Open video](../../../assets/videos/f7c1f26f2a25-lwj5e7k2-GM3-Foundations-WritingAndText-Accessibility-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5e7k2-GM3-Foundations-WritingAndText-Accessibility-1-v01.mp4?alt=media&token=2fbeb491-6ae1-4c4c-930b-02914cdf93af>)
 
 ![On a multiple selection list, the marked checkbox’s label is truncated by an ellipsis.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qvmgvh-24.png?alt=media&token=db765429-c069-476c-85ef-f831e9bc6bd7>)
 

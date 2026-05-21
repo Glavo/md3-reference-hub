@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/c99ac57b9b45-mlosdik1-GM3-App-bar-Accessibility-01-IA-v01.mp4"
@@ -36,9 +36,9 @@ People should be able to do the following using assistive technology:
 
 When tapping on an icon button, a touch ripple appears, indicating interaction feedback.
 
-<video controls src="../../../assets/videos/c99ac57b9b45-mlosdik1-GM3-App-bar-Accessibility-01-IA-v01.mp4" title="An animation of the user tapping on an action item and the ripple effect being shown."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlosdik1-GM3%20-%20App-bar%20-%20Accessibility%2001%20-%20IA%20-%20v01.mp4?alt=media&amp;token=a64b98b3-db51-4137-bfa8-b481c5aa21ad" title="An animation of the user tapping on an action item and the ripple effect being shown."></video>
 
-[Open video](../../../assets/videos/c99ac57b9b45-mlosdik1-GM3-App-bar-Accessibility-01-IA-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlosdik1-GM3%20-%20App-bar%20-%20Accessibility%2001%20-%20IA%20-%20v01.mp4?alt=media&token=a64b98b3-db51-4137-bfa8-b481c5aa21ad>)
 
 ### Cursor
 
@@ -46,9 +46,9 @@ When hovered, the hover state provides a visual cue to the user that the element
 
 When clicked (in both active and inactive states), a ripple appears to indicate feedback.
 
-<video controls src="../../../assets/videos/12def69fdbeb-mlosc4c9-GM3-App-bar-Accessibility-02-IA-v01.mp4" title="A mouse hovering over a button in the app bar, then clicking."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlosc4c9-GM3%20-%20App-bar%20-%20Accessibility%20-%2002%20-%20IA%20-%20v01.mp4?alt=media&amp;token=bee4841d-d415-4dd5-b247-ad3df00c5cf7" title="A mouse hovering over a button in the app bar, then clicking."></video>
 
-[Open video](../../../assets/videos/12def69fdbeb-mlosc4c9-GM3-App-bar-Accessibility-02-IA-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlosc4c9-GM3%20-%20App-bar%20-%20Accessibility%20-%2002%20-%20IA%20-%20v01.mp4?alt=media&token=bee4841d-d415-4dd5-b247-ad3df00c5cf7>)
 
 ### Keyboard or switch
 
@@ -56,9 +56,9 @@ When navigating to an interactive element, a focus indicator appears to show tha
 
 When the element is selected, an action is then performed.
 
-<video controls src="../../../assets/videos/ef6640706b8e-mlosad0z-GM3-App-bar-Accessibility-03-IA-v01.mp4" title="An example of how to navigate the app bar using a keyboard."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlosad0z-GM3%20-%20App-bar%20-%20Accessibility%20-%2003%20-%20IA%20-%20v01.mp4?alt=media&amp;token=c39b29d2-ff9a-4bd4-a6f6-94e717cb2253" title="An example of how to navigate the app bar using a keyboard."></video>
 
-[Open video](../../../assets/videos/ef6640706b8e-mlosad0z-GM3-App-bar-Accessibility-03-IA-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlosad0z-GM3%20-%20App-bar%20-%20Accessibility%20-%2003%20-%20IA%20-%20v01.mp4?alt=media&token=c39b29d2-ff9a-4bd4-a6f6-94e717cb2253>)
 
 ### Initial focus
 

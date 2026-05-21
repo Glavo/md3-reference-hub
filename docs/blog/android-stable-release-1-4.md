@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.4.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-4"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/037d789cfa7d-iT2cU1VgnPw3KhRpDdRPCMvy86s4AR-SQxUORT_bCxmGF5UoZG_hezxrAYbEG4If_4VKM75Bo6sEVmyKQatN-b1CBaAyceoP.png"
@@ -36,7 +36,7 @@ MDC `1.4.0` allows you to use navigation rails in your Android app with the `Nav
 
 Learn more about how to implement navigation rails in our [documentation](https://material.io/components/navigation-rail/android).
 
-[Video: example animations from the Material motion library](../../assets/videos/eb0f26fbe8c1-material-motion.mp4)
+[Video: example animations from the Material motion library](https://kstatic.googleusercontent.com/files/3f02013896d66b3c549d00dc7a08e945975aa1dbf737716139e1663e84d49ec785e07787bbc8384612d418346513c19a1cf858fc8f905f8004609863b7aa300b)
 
 #### Motion theming
 

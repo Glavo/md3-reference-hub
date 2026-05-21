@@ -2,7 +2,7 @@
 title: "Adding Motion Physics with Jetpack Compose"
 source_url: "https://m3.material.io/blog/m3-expressive-motion-theming"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/1ded508971c3-Jq3O_D_spnxd-2_CxeWYFAgtXFYlUS-FT4FUiLdPzRa2pnXVq8IllmGem9q4q1lY1YaLkGRTST_fIPpbuCr40sI987QAmJD1.png"
@@ -37,7 +37,7 @@ Previously, Material motion was defined through non-customizable easing and dura
 
 Read on to learn how the new motion physics scheme works, how existing APIs have changed, and how to get started.
 
-[Video: Video](../../assets/videos/ec18b971754b-040925_Motion_Physics_16-9-aspect.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/ccb9b474586dcb0579532da1df0fd8ac33b2ec8e62e75052f509eef9d0949599e465b3c8991e0d890a62b33f86cc7789d87507ca642a7690522be97e5273085b)
 
 ## Why Material motion?
 
@@ -72,9 +72,9 @@ The physics system has two preset motion schemes: **Expressive** and **Standard*
 -   **Standard**, with its small amount of bounce, feels more functional and should be used for utilitarian products.
 
 
-[Video: Expressive: The Expressive motion scheme overshoots the final values to add bounce.](../../assets/videos/5f474a07a546-Scheme_Spring_Expressive_Export.mp4)
+[Video: Expressive: The Expressive motion scheme overshoots the final values to add bounce.](https://kstatic.googleusercontent.com/files/7db862ca6e52d1940e5d07fd94c8be8d9104776c1fd7cca1a64a9e2e3057c1bd2e8f88da66dcba4c8a128fc58603a81c49aa69a79ba210ed998596c8755cb81f)
 
-[Video: Standard: The Standard motion scheme eases into the final values.](../../assets/videos/54f759e05041-Scheme_Spring_Standard_Export.mp4)
+[Video: Standard: The Standard motion scheme eases into the final values.](https://kstatic.googleusercontent.com/files/0e85f916f4faa031d36b03fa119752471791cba6ba6b913d8dac1f560cb7b6bca61d99f36bc855c1102384bed4bcff97a4843a63ef7cf2f1bc7750dddf627a77)
 
 ## Animation specs: Spatial or Effect
 
@@ -110,9 +110,9 @@ Each animation can also have one of three speeds: **default**, **fast**, and **s
 
 **Speed tokens work across devices**. For example, the **Spatial “fast”** token will always be faster than **“default”** or **“slow,”** but the exact values of each token will differ depending on whether the device is a wearable, phone, or tablet. This ensures the movement feels fast in the context of the device. This also applies when using spring tokens in a custom motion scheme.
 
-[Video: Effects motion in fast, default, and slow speeds](../../assets/videos/4bc1d43c11d2-AllSpeeds_Standard_Export.mp4)
+[Video: Effects motion in fast, default, and slow speeds](https://kstatic.googleusercontent.com/files/d62cb289af2e55417fabf599bf536c7c178fc97d1e24f608d347e3ef248591ec08e92d97b4fed5812454d7fbb99584919b9fc0684c3416841a5d7cd9435e0c1c)
 
-[Video: Spatial motion in fast, default, and slow speeds](../../assets/videos/136c314546bf-AllSpeeds_Expressive_Export.mp4)
+[Video: Spatial motion in fast, default, and slow speeds](https://kstatic.googleusercontent.com/files/91bd68f49329126d9f25ff901319506995864fa01834449d92b78bc077297c94d1d332c8cb755eb13e3e1155b3bb84cff8360a53548ea994d0e518897226674a)
 
 Notice that the Expressive and Standard schemes are presets of opinionated motion values. This makes it easier to swap schemes without changing the underlying property names.
 
@@ -126,9 +126,9 @@ If you look at the predefined specifications on the motion schemes, you may noti
 
 For example, consider the difference between using tween and springs:
 
-[Video: Tween interruptions.](../../assets/videos/18edb9b21f4f-00_compare_tween.mp4)
+[Video: Tween interruptions.](https://kstatic.googleusercontent.com/files/8d28ee2d908d757bac49c82d50da3f34cb0c8078ac6acfe18387d068fc90b86bc5698e7b877b2a00050a0bddc749094aeb00badd9a06a816a6b3234496806000)
 
-[Video: Spring interruptions.](../../assets/videos/fa690358d4ec-00_compare_spring.mp4)
+[Video: Spring interruptions.](https://kstatic.googleusercontent.com/files/8b82ac87cc4b567f7ef613879db379ae180cad58ab7e83cd59a0e42f0cf33d6d32369bf3dd136a56496535906836ba9dd173becdfc9f8adef5f13c92e72f1d8c)
 
 When interrupted and retargeted to a new destination, the spring animation uses its current velocity to perform a more seamless transition between the two states than tween.
 
@@ -152,9 +152,9 @@ For more fine-grained control, you can create your own `MotionScheme` object and
 
 In the code snippet below, we create a whole new `playfulMotionScheme` that by default adds a lot of bounce to components. This demonstrates how you can customize your `MotionScheme`.
 
-[Video: FAB menu with an extra-stiff custom scheme.](../../assets/videos/07ed363db37e-Customization_Fab_Instant_Export.mp4)
+[Video: FAB menu with an extra-stiff custom scheme.](https://kstatic.googleusercontent.com/files/3184635283c35a0300e2ce204951402677a6fb1baee9c5024a8dafacfb0df18a2e38ec510167e4d1391a6dd3461e3e565eb3ef75d0c39f7e85c231a56092a915)
 
-[Video: FAB menu with very low stiffness custom scheme.](../../assets/videos/8cf0fdbce8bd-Customization_Fab_Soft_Export.mp4)
+[Video: FAB menu with very low stiffness custom scheme.](https://kstatic.googleusercontent.com/files/3bae4ef379c27d4b1a3a3241dcde090f8833233e5b394b7ba6d352639cf95ed9b1bc30d546421a750ba803584de991c11e9649613b4cde65f02afdeab58a5ede)
 
 ## Custom component animations
 

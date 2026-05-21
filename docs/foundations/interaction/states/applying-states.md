@@ -2,7 +2,7 @@
 title: "States"
 source_url: "https://m3.material.io/foundations/interaction/states/applying-states"
 lastmod: "2025-08-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/6cd1c2bf3bcf-ly2qpw4a-1.png"
@@ -96,9 +96,9 @@ _If the action represented in the FAB is unavailable, the FAB shouldn't appear_
 
 Disabled components can’t be focused, dragged, or pressed, and they don’t change state when tapped or hovered over.
 
-<video controls src="../../../../assets/videos/d15d6d433ed3-ly2vtf7p-GM3-Foundations-Interaction-States-DisabledBehavior-v01.mp4" title="A cursor moves over and clicks on an disabled/inoperable button and the button doesn’t change."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2vtf7p-GM3-Foundations-Interaction-States-DisabledBehavior-v01.mp4?alt=media&amp;token=929e0dbc-d1ff-4268-8c6a-d41e1a476f0e" title="A cursor moves over and clicks on an disabled/inoperable button and the button doesn’t change."></video>
 
-[Open video](../../../../assets/videos/d15d6d433ed3-ly2vtf7p-GM3-Foundations-Interaction-States-DisabledBehavior-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2vtf7p-GM3-Foundations-Interaction-States-DisabledBehavior-v01.mp4?alt=media&token=929e0dbc-d1ff-4268-8c6a-d41e1a476f0e>)
 
 There can be any number of disabled states in a layout.
 
@@ -150,21 +150,21 @@ _The individual components that are actionable within the app bar inherit hover 
 
 Hover states are initiated by the user pausing over an interactive element using a cursor.
 
-<video controls src="../../../../assets/videos/37d3204bd314-ly2w0utg-GM3-Foundations-Interaction-States-HoverBehavior-1-v01.mp4" title="Button’s text“Enabled”  changes to“Hovered” when cursor moves over the button."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2w0utg-GM3-Foundations-Interaction-States-HoverBehavior-1-v01.mp4?alt=media&amp;token=d62f89ca-33da-4b39-97a9-f766f45ba432" title="Button’s text“Enabled”  changes to“Hovered” when cursor moves over the button."></video>
 
-[Open video](../../../../assets/videos/37d3204bd314-ly2w0utg-GM3-Foundations-Interaction-States-HoverBehavior-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2w0utg-GM3-Foundations-Interaction-States-HoverBehavior-1-v01.mp4?alt=media&token=d62f89ca-33da-4b39-97a9-f766f45ba432>)
 
 Hover states can be combined with focused, activated, selected, or pressed states.
 
-<video controls src="../../../../assets/videos/38cd17fd63d5-ly2w4tl9-GM3-Foundations-Interaction-States-HoverBehavior-2-v01.mp4" title="Filter chip text matches state as it's unselected, hovered, and selected by a cursor."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2w4tl9-GM3-Foundations-Interaction-States-HoverBehavior-2-v01.mp4?alt=media&amp;token=e749787c-d5e7-4820-bab3-31b445b90302" title="Filter chip text matches state as it's unselected, hovered, and selected by a cursor."></video>
 
-[Open video](../../../../assets/videos/38cd17fd63d5-ly2w4tl9-GM3-Foundations-Interaction-States-HoverBehavior-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2w4tl9-GM3-Foundations-Interaction-States-HoverBehavior-2-v01.mp4?alt=media&token=e749787c-d5e7-4820-bab3-31b445b90302>)
 
 There can only be one hover state at a time in a layout.
 
-<video controls src="../../../../assets/videos/532a6343562a-ly2w8zl5-GM3-Foundations-Interaction-States-HoverBehavior-3-v01.mp4" title="Hover state moves from one card to another with cursor movement. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2w8zl5-GM3-Foundations-Interaction-States-HoverBehavior-3-v01.mp4?alt=media&amp;token=e1229bd4-baf1-44c7-9f68-3f0f56c1afb7" title="Hover state moves from one card to another with cursor movement. "></video>
 
-[Open video](../../../../assets/videos/532a6343562a-ly2w8zl5-GM3-Foundations-Interaction-States-HoverBehavior-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2w8zl5-GM3-Foundations-Interaction-States-HoverBehavior-3-v01.mp4?alt=media&token=e1229bd4-baf1-44c7-9f68-3f0f56c1afb7>)
 
 ## Focused
 
@@ -229,9 +229,9 @@ _A selected filter chip in both selected and focused states_
 
 There can only be one focus state at a time in a layout.
 
-<video controls src="../../../../assets/videos/0ebe9f5d0ce6-ly2whda4-GM3-Foundations-Interaction-States-FocusedBehavior-v01.mp4" title="Cursor moving from one card in focus state to another card moves the focus state to the second card. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2whda4-GM3-Foundations-Interaction-States-FocusedBehavior-v01.mp4?alt=media&amp;token=7154f56e-a56d-423e-8de2-fea1290c9ef4" title="Cursor moving from one card in focus state to another card moves the focus state to the second card. "></video>
 
-[Open video](../../../../assets/videos/0ebe9f5d0ce6-ly2whda4-GM3-Foundations-Interaction-States-FocusedBehavior-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2whda4-GM3-Foundations-Interaction-States-FocusedBehavior-v01.mp4?alt=media&token=7154f56e-a56d-423e-8de2-fea1290c9ef4>)
 
 ## Pressed
 
@@ -282,21 +282,21 @@ _The individual components that are actionable within the app bar inherit presse
 
 Pressed states are initiated by user keyboard or voice input on an interactive element.
 
-<video controls src="../../../../assets/videos/fc1a20dab9f2-ly2wqo0t-GM3-Foundations-Interaction-States-PressedBehavior-1-v01.mp4" title="Enabled state activated to pressed state."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wqo0t-GM3-Foundations-Interaction-States-PressedBehavior-1-v01.mp4?alt=media&amp;token=878dc910-8f6c-4cb6-bfdb-3fb88a2ee40a" title="Enabled state activated to pressed state."></video>
 
-[Open video](../../../../assets/videos/fc1a20dab9f2-ly2wqo0t-GM3-Foundations-Interaction-States-PressedBehavior-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wqo0t-GM3-Foundations-Interaction-States-PressedBehavior-1-v01.mp4?alt=media&token=878dc910-8f6c-4cb6-bfdb-3fb88a2ee40a>)
 
 Pressed states can be combined with hovered, focused, activated, or selected states.
 
-<video controls src="../../../../assets/videos/e215a8435977-ly2wrufa-GM3-Foundations-Interaction-States-PressedBehavior-2-v01.mp4" title="Hovered state activated to a pressed state."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wrufa-GM3-Foundations-Interaction-States-PressedBehavior-2-v01.mp4?alt=media&amp;token=37adbaa0-9c13-4684-90fe-ed200d7f9013" title="Hovered state activated to a pressed state."></video>
 
-[Open video](../../../../assets/videos/e215a8435977-ly2wrufa-GM3-Foundations-Interaction-States-PressedBehavior-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wrufa-GM3-Foundations-Interaction-States-PressedBehavior-2-v01.mp4?alt=media&token=37adbaa0-9c13-4684-90fe-ed200d7f9013>)
 
 There may only be a single pressed state at a time in a layout.
 
-<video controls src="../../../../assets/videos/3bd025b052bd-ly2wt4k8-GM3-Foundations-Interaction-States-PressedBehavior-3-v01.mp4" title="Pressed state on one card at a time."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wt4k8-GM3-Foundations-Interaction-States-PressedBehavior-3-v01.mp4?alt=media&amp;token=6f49e3db-4639-4ed8-8556-54a86ee743c4" title="Pressed state on one card at a time."></video>
 
-[Open video](../../../../assets/videos/3bd025b052bd-ly2wt4k8-GM3-Foundations-Interaction-States-PressedBehavior-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wt4k8-GM3-Foundations-Interaction-States-PressedBehavior-3-v01.mp4?alt=media&token=6f49e3db-4639-4ed8-8556-54a86ee743c4>)
 
 ## Dragged
 
@@ -338,12 +338,12 @@ _Components like an app bar that require consistent placement should not inherit
 
 Dragged states are initiated when users touch and hold elements, using an input method such as a tap or click.
 
-<video controls src="../../../../assets/videos/ac5a9f7741f6-ly2wxglg-GM3-Foundations-Interaction-States-DraggedBehavior-1-v01.mp4" title="Going through the states of a draggable list item:  enabled, hovered, dragged."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wxglg-GM3-Foundations-Interaction-States-DraggedBehavior-1-v01.mp4?alt=media&amp;token=1a50ed48-7d69-4df1-b0d2-37034ad3431b" title="Going through the states of a draggable list item:  enabled, hovered, dragged."></video>
 
-[Open video](../../../../assets/videos/ac5a9f7741f6-ly2wxglg-GM3-Foundations-Interaction-States-DraggedBehavior-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wxglg-GM3-Foundations-Interaction-States-DraggedBehavior-1-v01.mp4?alt=media&token=1a50ed48-7d69-4df1-b0d2-37034ad3431b>)
 
 There may only be a single dragged state at a time within a layout.
 
-<video controls src="../../../../assets/videos/8bd4f296e173-ly2wyr5e-GM3-Foundations-Interaction-States-DraggedBehavior-2-v01.mp4" title="Cursor dragging cards one at a time."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wyr5e-GM3-Foundations-Interaction-States-DraggedBehavior-2-v01.mp4?alt=media&amp;token=6ea2d536-318a-4749-9233-52eefb9baab5" title="Cursor dragging cards one at a time."></video>
 
-[Open video](../../../../assets/videos/8bd4f296e173-ly2wyr5e-GM3-Foundations-Interaction-States-DraggedBehavior-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fly2wyr5e-GM3-Foundations-Interaction-States-DraggedBehavior-2-v01.mp4?alt=media&token=6ea2d536-318a-4749-9233-52eefb9baab5>)

@@ -2,7 +2,7 @@
 title: "The Science of Color & Design"
 source_url: "https://m3.material.io/blog/science-of-color-design"
 lastmod: "2024-11-29"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/885bea39b296-FgfF6od_qjYXbXowPPgL3IQ8T0QnEAZnoehlRcXHSXK7QXfHe_LvBm3SeYIkxhSRn3gBjjH4GEO6DYOex8btaN34lVDSzP7Z.png"

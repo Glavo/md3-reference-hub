@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/accessibility"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -54,9 +54,9 @@ Make sure text and UI are legible in different lighting conditions and environme
 
 -   Support light and dark themes
 
-<video controls src="../../../../assets/videos/817067f210fd-mowvgn9f-GM3-Color-01-v1.mp4" title="5 container color roles change from light to dark themes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvgn9f-GM3%20-%20Color%2001%20-%20v1.mp4?alt=media&amp;token=25805b05-f604-4c8b-b441-c88ba9b0df4a" title="5 container color roles change from light to dark themes."></video>
 
-[Open video](../../../../assets/videos/817067f210fd-mowvgn9f-GM3-Color-01-v1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvgn9f-GM3%20-%20Color%2001%20-%20v1.mp4?alt=media&token=25805b05-f604-4c8b-b441-c88ba9b0df4a>)
 
 ## Physical accessibility
 
@@ -70,9 +70,9 @@ To support different mobility levels, provide flexible input methods and positio
 
 -   Allow people to recenter and pull UI closer to them
 
-<video controls src="../../../../assets/videos/bfe26a15feb7-mowvrmua-Spatialize_SpacialPanels_2.mp4" title="A person uses 1 arm to push a spatial panel further out then closer in."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvrmua-Spatialize_SpacialPanels_2.mp4?alt=media&amp;token=4459d3e3-ae37-480b-ba1c-1d5ace36df87" title="A person uses 1 arm to push a spatial panel further out then closer in."></video>
 
-[Open video](../../../../assets/videos/bfe26a15feb7-mowvrmua-Spatialize_SpacialPanels_2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvrmua-Spatialize_SpacialPanels_2.mp4?alt=media&token=4459d3e3-ae37-480b-ba1c-1d5ace36df87>)
 
 ## Target size
 

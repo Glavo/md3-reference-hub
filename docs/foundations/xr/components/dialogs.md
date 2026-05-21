@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/dialogs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -92,9 +92,9 @@ The spatial dialog should scale uniformly. It also fades in when appearing, and 
 
 The dialog's scrim only fades in and out.
 
-<video controls src="../../../../assets/videos/ca94976b55a2-mox8cric-XR_Dialog_Behavior_01_IA_v02-.mp4" title="A direct view of a spatial dialog appearing and disappearing."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8cric-XR_Dialog_Behavior_01_IA_v02%20.mp4?alt=media&amp;token=e460f495-9098-4668-954c-27b70eea9d29" title="A direct view of a spatial dialog appearing and disappearing."></video>
 
-[Open video](../../../../assets/videos/ca94976b55a2-mox8cric-XR_Dialog_Behavior_01_IA_v02-.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8cric-XR_Dialog_Behavior_01_IA_v02%20.mp4?alt=media&token=e460f495-9098-4668-954c-27b70eea9d29>)
 
 ### Movement
 
@@ -106,9 +106,9 @@ The dialog's scrim stays at the app content level at all times.
 
 To prevent motion sickness, use [standard easing](../../../styles/motion/easing-and-duration/tokens-specs.md#601d5552-a6e6-4d74-9886-ff8f24b9ec35) and [long duration](../../../styles/motion/easing-and-duration/tokens-specs.md#48bf653e-46f9-48f5-87e0-eaf8ea3fe716) motion tokens.
 
-<video controls src="../../../../assets/videos/85572194daf2-mox8drwx-XR_Dialog_Behavior_02_IA_v02-.mp4" title="A spatial dialog elevating on the Z-axis, as seen from a side angle."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8drwx-XR_Dialog_Behavior_02_IA_v02%20.mp4?alt=media&amp;token=e278a231-4ee1-4db8-93eb-3defa565b07d" title="A spatial dialog elevating on the Z-axis, as seen from a side angle."></video>
 
-[Open video](../../../../assets/videos/85572194daf2-mox8drwx-XR_Dialog_Behavior_02_IA_v02-.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8drwx-XR_Dialog_Behavior_02_IA_v02%20.mp4?alt=media&token=e278a231-4ee1-4db8-93eb-3defa565b07d>)
 
 ## Placement
 
@@ -120,9 +120,9 @@ A dialog’s placement can be adjusted to accommodate specific needs, such as im
 
 Display spatial dialogs at the **highest resting level**. When setting the depth value of the highest resting level, make sure the elevated dialog is at a comfortable viewing distance from the person. [More on spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation)
 
-<video controls src="../../../../assets/videos/323fbcb5d651-mox8ubbg-GM3_XR_Dialogs_Motion_Placement_01_IA_v03.mp4" title="An animated side view of a dialog moving from the lowest to the highest resting level."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8ubbg-GM3_XR_Dialogs_Motion_Placement_01_IA_v03.mp4?alt=media&amp;token=dcaaeff6-4d44-4d07-8288-f57acf7e9a40" title="An animated side view of a dialog moving from the lowest to the highest resting level."></video>
 
-[Open video](../../../../assets/videos/323fbcb5d651-mox8ubbg-GM3_XR_Dialogs_Motion_Placement_01_IA_v03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8ubbg-GM3_XR_Dialogs_Motion_Placement_01_IA_v03.mp4?alt=media&token=dcaaeff6-4d44-4d07-8288-f57acf7e9a40>)
 
 ### Center spatial dialogs in field of view
 
@@ -130,9 +130,9 @@ Spatial dialogs should be centered in a person’s [field of view](https://devel
 
 If the dialog **can** track head movements, configure it with a lazy follow behavior. This keeps the dialog anchored to the center of a person’s field of view until an action is taken.
 
-<video controls src="../../../../assets/videos/257f1f9ddc30-mox8yi7x-GM3_XR_Dialogs_Motion_Placement_02_IA_v05.mp4" title="A dialog follows a person’s head movements, remaining centered in their field of view."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8yi7x-GM3_XR_Dialogs_Motion_Placement_02_IA_v05.mp4?alt=media&amp;token=6f357063-b36f-4819-9064-2cc7421f7960" title="A dialog follows a person’s head movements, remaining centered in their field of view."></video>
 
-[Open video](../../../../assets/videos/257f1f9ddc30-mox8yi7x-GM3_XR_Dialogs_Motion_Placement_02_IA_v05.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox8yi7x-GM3_XR_Dialogs_Motion_Placement_02_IA_v05.mp4?alt=media&token=6f357063-b36f-4819-9064-2cc7421f7960>)
 
 ## Accessibility considerations
 

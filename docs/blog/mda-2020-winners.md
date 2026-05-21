@@ -2,7 +2,7 @@
 title: "Announcing the Material Design Award Winners for 2020"
 source_url: "https://m3.material.io/blog/mda-2020-winners"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/59ac39cc14b3-WdXw7Oap9phzDPXmTs0XG04nxO8Pe7inIyVNAfeVp6eQBwyXjn_frfGMgfLwubTL-DyMvR_HLpgkhiaatIM42NmmoH87IILH.png"
@@ -29,7 +29,7 @@ Read about each of the winners below, and stay tuned for more in-depth content o
 
 ## _Material Theming_ Winner: Moooi.com
 
-[Video: Video](../../assets/videos/1a5b0bfca993-Moooi-crop-02.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/4f6a7143cffb298fd44f09ae67792b2be4f52221237fb06a96379a0b91ce779605a796adbcf3ae7e24759b4b45ab008811b27c6dd94102e40be7dda9290cdd8c)
 
 In keeping with their namesake, the Dutch word for "beauty," [Moooi](https://www.moooi.com/) focuses on aesthetic fundamentals to create an immersive experience for their digital flagship. As purveyors of design-forward lighting and furnishing, they work with full bleed color, typography, and scale, using a number of reusable components to balance expressiveness and practicality.
 
@@ -43,7 +43,7 @@ We can't highlight Moooi's application of Material Theming without commending th
 
 ## _Material Motion_ Winner: Epsy
 
-[Video: Video](../../assets/videos/d98db74a7ea7-EPSY-crop-02.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/830ce5bdf28c1a31d3d8c6ef5c608cb087ec8b410df29580103050e87a78271c28819d129941d398dbf575e39b7079852a7cdec62e65df502f05c704179c8ee2)
 
 For an app whose aim is to better the lives of those living with epilepsy, [Epsy](https://www.epsyhealth.com/) uses motion meaningfully, guiding users through critical tasks to better their quality of life, like logging triggers, taking medication, and building community connection.
 
@@ -55,7 +55,7 @@ These touches don’t just help to guide users toward more confident mental mode
 
 ## _Dark Theme_ Winner: KAYAK
 
-[Video: Video](../../assets/videos/3eb2b88a7562-KAYAK-crop_3.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/d5f0eb3c0e3b744d8de84ec87c61d8b2e96fbfa4681e8f3e6ab8f36a79fe2a8fe27a1d2fd33257c505bce830120e2adb1f6969d266e50e2967e064f2ad81595f)
 
 [KAYAK](https://www.kayak.com/mobile) has taken their comprehensive price comparison and travel booking experience to the next level by translating their brand into a dark theme, using subtle but intentional applications of color. Their unique orange brand color is used sparingly to give prominent elements, such as their most important navigation icons, top hierarchy, leaving the majority of space dedicated to dark surfaces. KAYAK’s custom dark background mixes in a hint of blue that works in harmony with secondary blue accents found throughout the app.
 

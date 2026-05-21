@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/applying-m3-expressive"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/83efb4db933d-mhjgyvci-Core-Flow.png"
@@ -86,9 +86,9 @@ Expressive components and styles used:
 -   [Material shape library](../../styles/shape/overview-principles.md#579dd4ba-39f3-4e60-bd9b-1d97ed6ef1bf) (“flower” and “sunny”)
 -   [Emphasized typography](../../styles/typography/type-scale-tokens.md#c898d7e2-4833-440c-9dba-9a95c8f50ac9)
 
-<video controls src="../../../assets/videos/c3887c2bc048-mhjh7by4-GM3_Usability_Aura-app_Hold-included_IA_v02.mp4" title=" A flower shape getting larger as a user inhales, and smaller as they exhale."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjh7by4-GM3_Usability_Aura%20app_Hold%20included_IA_v02.mp4?alt=media&amp;token=308f9d53-cdec-4275-b0ae-4647844e6366" title=" A flower shape getting larger as a user inhales, and smaller as they exhale."></video>
 
-[Open video](../../../assets/videos/c3887c2bc048-mhjh7by4-GM3_Usability_Aura-app_Hold-included_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjh7by4-GM3_Usability_Aura%20app_Hold%20included_IA_v02.mp4?alt=media&token=308f9d53-cdec-4275-b0ae-4647844e6366>)
 
 ### Usability design tactics
 
@@ -206,10 +206,10 @@ _The shapes have different forms and sizes; The shapes overlap_
 
 _There’s more even spacing between shapes; The shapes are uniform_
 
-<video controls src="../../../assets/videos/835f25600fed-mhjhu4pj-GM3_Usability_Aura-app-Caution_IA_v01.mp4" title="Arrows, countdown numbers and text move along with the purple and yellow flower that opens and compresses. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjhu4pj-GM3_Usability_Aura%20app%20Caution_IA_v01.mp4?alt=media&amp;token=2b123aee-30a0-41e0-b1c4-ceaf89dc0fc2" title="Arrows, countdown numbers and text move along with the purple and yellow flower that opens and compresses. "></video>
 
-[Open video](../../../assets/videos/835f25600fed-mhjhu4pj-GM3_Usability_Aura-app-Caution_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjhu4pj-GM3_Usability_Aura%20app%20Caution_IA_v01.mp4?alt=media&token=2b123aee-30a0-41e0-b1c4-ceaf89dc0fc2>)
 
-<video controls src="../../../assets/videos/a726fb5c2097-mhjhxmxp-GM3_Usability_Aura-app-Do_IA_v02.mp4" title="The purple and yellow flower expands and contracts, numbers appear for the exhale, hold and inhale"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjhxmxp-GM3_Usability_Aura%20app%20Do_IA_v02.mp4?alt=media&amp;token=7d74c30b-2055-46d0-b60e-9c58aa3068a8" title="The purple and yellow flower expands and contracts, numbers appear for the exhale, hold and inhale"></video>
 
-[Open video](../../../assets/videos/a726fb5c2097-mhjhxmxp-GM3_Usability_Aura-app-Do_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjhxmxp-GM3_Usability_Aura%20app%20Do_IA_v02.mp4?alt=media&token=7d74c30b-2055-46d0-b60e-9c58aa3068a8>)

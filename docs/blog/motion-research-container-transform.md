@@ -2,7 +2,7 @@
 title: "Choosing the Right Transitions"
 source_url: "https://m3.material.io/blog/motion-research-container-transform"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/3e9c9da48278-h-AzVFy6YUsxqT83bikUXRQjBwVSDTb_bBTYEiwl_PKBXh3RqZ5peG5rjIVVYuHUfY9aiHO9nbE15rxhZHFXyOFbJfLHovKc.png"
@@ -23,7 +23,7 @@ Material Research wanted to find out.
 
 ## The Study
 
-[Video: a series of 9 animated transitions](../../assets/videos/8d92bca38fc1-Basil_-_Line_up.mp4)
+[Video: a series of 9 animated transitions](https://kstatic.googleusercontent.com/files/9155ea019c8996a54129615a9cc9bbfcc496da455d757ad8a67cbdb4cbecfb314bedf19164360d0d97384d291a8e0af4fb0f9f6fc4f593c1fbb31ed51944c965)
 
 We constructed a food ordering experience and showed it to a series of users in a [research study](https://userresearch.google.com/).  As participants tapped through the menu, they would see one of seven transitions, or no transition at all (also called a [jump cut](https://en.wikipedia.org/wiki/Jump_cut)).  We interviewed these participants to learn which transition best suited a grid of cards, and why.
 

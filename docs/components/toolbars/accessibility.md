@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/818dbc1643f2-ma798ukw-GM3_Toolbar_Accessibility_1_IA_v02.mp4"
@@ -38,18 +38,18 @@ The toolbar has no interactions by default. All interactions are with the elemen
 
 -   When tapping on an icon button in the toolbar, a touch ripple appears, indicating interaction feedback.
 
-<video controls src="../../../assets/videos/818dbc1643f2-ma798ukw-GM3_Toolbar_Accessibility_1_IA_v02.mp4" title="An animation of the user tapping on an action item and the ripple effect being shown."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma798ukw-GM3_Toolbar_Accessibility_1_IA_v02.mp4?alt=media&amp;token=936128aa-9795-48b3-8b10-5b0f5cbd1317" title="An animation of the user tapping on an action item and the ripple effect being shown."></video>
 
-[Open video](../../../assets/videos/818dbc1643f2-ma798ukw-GM3_Toolbar_Accessibility_1_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma798ukw-GM3_Toolbar_Accessibility_1_IA_v02.mp4?alt=media&token=936128aa-9795-48b3-8b10-5b0f5cbd1317>)
 
 **Cursor**
 
 -   When hovered, the hover state provides a visual cue to the user that the element is interactive. 
 -   When clicked (in both active and inactive states), a ripple appears, showing the user feedback.
 
-<video controls src="../../../assets/videos/83d3e5364742-ma7996zt-GM3_Toolbar_Accessibility_2_IA_v02.mp4" title="A mouse hovering over a button in the top app bar, then clicking."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma7996zt-GM3_Toolbar_Accessibility_2_IA_v02.mp4?alt=media&amp;token=2d872434-fcb6-426b-897e-73be777ad489" title="A mouse hovering over a button in the top app bar, then clicking."></video>
 
-[Open video](../../../assets/videos/83d3e5364742-ma7996zt-GM3_Toolbar_Accessibility_2_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma7996zt-GM3_Toolbar_Accessibility_2_IA_v02.mp4?alt=media&token=2d872434-fcb6-426b-897e-73be777ad489>)
 
 ### Initial focus
 

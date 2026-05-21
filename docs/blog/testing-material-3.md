@@ -2,7 +2,7 @@
 title: "What does your UI say to your users?"
 source_url: "https://m3.material.io/blog/testing-material-3"
 lastmod: "2025-04-30"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/8536a2e7bf88-_XkvCAsnfDAAVGqZXYBAeFrrjv6QyITEGAtOkKyL0U_utVllNJL7N-rJ-zyghQKZ-l51W9KwKH8zdbAOnGacMnhtM7tKuf3k.png"

@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -63,9 +63,9 @@ _Use two visual cues to show a list item is selected, like a leading checkmark a
 
 When a person taps on a list item, a touch ripple appears, indicating interaction feedback.
 
-<video controls src="../../../assets/videos/e6971dd6e986-mif1hthv-GM3-Expressive-Accessibility-02-v01.mp4" title="A 3-item list shows a touch ripple animation as the second item is tapped and selected."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1hthv-GM3%20-%20Expressive%20-%20Accessibility%2002%20-%20v01.mp4?alt=media&amp;token=a21e01eb-4aa5-4416-9bf3-69cb6281de10" title="A 3-item list shows a touch ripple animation as the second item is tapped and selected."></video>
 
-[Open video](../../../assets/videos/e6971dd6e986-mif1hthv-GM3-Expressive-Accessibility-02-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1hthv-GM3%20-%20Expressive%20-%20Accessibility%2002%20-%20v01.mp4?alt=media&token=a21e01eb-4aa5-4416-9bf3-69cb6281de10>)
 
 ### Cursor
 
@@ -85,9 +85,9 @@ When a person tabs to a single-action list, a focus indicator appears, providing
 
 When a person interacts with the focused list item via **Space** or **Enter**, the action is performed.
 
-<video controls src="../../../assets/videos/811801b97616-mif1rzoz-GM3-Expressive-Accessibility-05-v01-with-Keyboards.mp4" title="A focus indicator appears on the first item of a 3-item list, which is then selected."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1rzoz-GM3%20-%20Expressive%20-%20Accessibility%2005%20-%20v01%20with%20Keyboards.mp4?alt=media&amp;token=58a7778f-708f-41ae-bbcf-dcfc4bad045d" title="A focus indicator appears on the first item of a 3-item list, which is then selected."></video>
 
-[Open video](../../../assets/videos/811801b97616-mif1rzoz-GM3-Expressive-Accessibility-05-v01-with-Keyboards.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmif1rzoz-GM3%20-%20Expressive%20-%20Accessibility%2005%20-%20v01%20with%20Keyboards.mp4?alt=media&token=58a7778f-708f-41ae-bbcf-dcfc4bad045d>)
 
 ## Focus
 

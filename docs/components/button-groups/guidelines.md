@@ -2,7 +2,7 @@
 title: "Button groups"
 source_url: "https://m3.material.io/components/button-groups/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/7bc21ce78aaa-m34lmgn1-Button-Group-Hero-alt-2.mp4"
@@ -30,9 +30,9 @@ Button groups organize buttons and add interactions between them
 
 ## Guidelines
 
-<video controls src="../../../assets/videos/7bc21ce78aaa-m34lmgn1-Button-Group-Hero-alt-2.mp4" title="A video call with a standard button group. Selecting the mic changes shape and color, and bounces against adjacent buttons."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34lmgn1-Button-Group-Hero-alt-2.mp4?alt=media&amp;token=142709b2-d7ca-4e66-b9e6-e2a8bbd27533" title="A video call with a standard button group. Selecting the mic changes shape and color, and bounces against adjacent buttons."></video>
 
-[Open video](../../../assets/videos/7bc21ce78aaa-m34lmgn1-Button-Group-Hero-alt-2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34lmgn1-Button-Group-Hero-alt-2.mp4?alt=media&token=142709b2-d7ca-4e66-b9e6-e2a8bbd27533>)
 
 ## Usage
 
@@ -74,9 +74,9 @@ They behave similarly to standard groups, except they don’t affect adjacent bu
 
 Connected groups should replace the baseline segmented button, which is no longer recommended.
 
-<video controls src="../../../assets/videos/d8f323fd9d37-m34llls1-Button-Group-B-2.mp4" title="Selecting a button in a connected button group labelled “My files,” “Shared,” and “Computers.”"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34llls1-Button-Group-B-2.mp4?alt=media&amp;token=4142a8d4-8e42-4e97-9c0f-5143086be82d" title="Selecting a button in a connected button group labelled “My files,” “Shared,” and “Computers.”"></video>
 
-[Open video](../../../assets/videos/d8f323fd9d37-m34llls1-Button-Group-B-2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34llls1-Button-Group-B-2.mp4?alt=media&token=4142a8d4-8e42-4e97-9c0f-5143086be82d>)
 
 Use connected button groups when the button content is related, and buttons can be selected.
 
@@ -148,17 +148,17 @@ In compact windows, consider using smaller, narrower buttons so all buttons in t
 
 Flexible buttons or button groups will automatically adjust width.
 
-<video controls src="../../../assets/videos/f7b06a88e998-ma2ph39h-GM3_Expressive_Button-Groups_Guidelines_12_IA_v01.mp4" title="Button group is adjusted to fill the window size."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma2ph39h-GM3_Expressive_Button-Groups_Guidelines_12_IA_v01.mp4?alt=media&amp;token=790ee31a-f920-49b9-b224-1c035826c00c" title="Button group is adjusted to fill the window size."></video>
 
-[Open video](../../../assets/videos/f7b06a88e998-ma2ph39h-GM3_Expressive_Button-Groups_Guidelines_12_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma2ph39h-GM3_Expressive_Button-Groups_Guidelines_12_IA_v01.mp4?alt=media&token=790ee31a-f920-49b9-b224-1c035826c00c>)
 
 When scaling to larger window sizes, make sure that the visual hierarchy of each button is preserved using qualities like color and size. 
 
 For example, the primary action should remain the largest, widest, or most visually prominent button at all window sizes.
 
-<video controls src="../../../assets/videos/78094e4fddf4-ma2pii3g-Gm3_Expressive_Button-groups_Guidelines_13_IA_v01.mp4" title="Narrow buttons in a group on a compact window become a mixture of wide and narrow buttons on a larger window."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma2pii3g-Gm3_Expressive_Button-groups_Guidelines_13_IA_v01.mp4?alt=media&amp;token=eb65fd9a-f23f-4eb5-88f8-6417b7d7848f" title="Narrow buttons in a group on a compact window become a mixture of wide and narrow buttons on a larger window."></video>
 
-[Open video](../../../assets/videos/78094e4fddf4-ma2pii3g-Gm3_Expressive_Button-groups_Guidelines_13_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma2pii3g-Gm3_Expressive_Button-groups_Guidelines_13_IA_v01.mp4?alt=media&token=eb65fd9a-f23f-4eb5-88f8-6417b7d7848f>)
 
 ### Presentation
 
@@ -166,9 +166,9 @@ Buttons at the trailing edge of the button group can be customized to collapse i
 
 Buttons outside the group aren’t affected by button group behavior.
 
-<video controls src="../../../assets/videos/4470591be69c-ma2pjcic-GM3_Expressive_Button-Groups_Guidelines_14_IA_v01.mp4" title="Buttons collapse into an overflow menu when window size shrinks, and reappear when window size expands."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma2pjcic-GM3_Expressive_Button-Groups_Guidelines_14_IA_v01.mp4?alt=media&amp;token=d2b496fe-0b66-42cd-8b17-828526a5f6b9" title="Buttons collapse into an overflow menu when window size shrinks, and reappear when window size expands."></video>
 
-[Open video](../../../assets/videos/4470591be69c-ma2pjcic-GM3_Expressive_Button-Groups_Guidelines_14_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma2pjcic-GM3_Expressive_Button-Groups_Guidelines_14_IA_v01.mp4?alt=media&token=d2b496fe-0b66-42cd-8b17-828526a5f6b9>)
 
 ## Behavior
 
@@ -180,14 +180,14 @@ In a standard button group, pressing a button also affects the width of adjacent
 
 In a connected button group, only the shape of the pressed button changes.
 
-<video controls src="../../../assets/videos/af9f49948459-m0fljnt9-Button-Group-D.mp4" title="In a calculator app, pressing numbers changes the width of adjacent numbers."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fljnt9-Button-Group-D.mp4?alt=media&amp;token=3906bae1-361f-4340-969e-d9ac7d6b98bf" title="In a calculator app, pressing numbers changes the width of adjacent numbers."></video>
 
-[Open video](../../../assets/videos/af9f49948459-m0fljnt9-Button-Group-D.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fljnt9-Button-Group-D.mp4?alt=media&token=3906bae1-361f-4340-969e-d9ac7d6b98bf>)
 
 ### Selected
 
 A selected button should change shape from round to square, or square to round.
 
-<video controls src="../../../assets/videos/c30eb619830e-m34lm16p-Button-Group-Hero-alt-2.mp4" title="A video call with a standard button group. Selecting the mic changes shape and color, and bounces against adjacent buttons."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34lm16p-Button-Group-Hero-alt-2.mp4?alt=media&amp;token=f56b388e-c7a8-4f79-84e1-e67c8c258b4c" title="A video call with a standard button group. Selecting the mic changes shape and color, and bounces against adjacent buttons."></video>
 
-[Open video](../../../assets/videos/c30eb619830e-m34lm16p-Button-Group-Hero-alt-2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34lm16p-Button-Group-Hero-alt-2.mp4?alt=media&token=f56b388e-c7a8-4f79-84e1-e67c8c258b4c>)

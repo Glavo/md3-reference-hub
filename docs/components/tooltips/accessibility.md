@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/accessibility"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4"
@@ -29,9 +29,9 @@ People should be able to do the following using assistive technology:
 
 Plain and rich tooltips without required actions should remain on screen long enough for people to receive the information without disrupting their existing flow or task.
 
-<video controls src="../../../assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4" title="A cursor hovers over an icon that identifies it as a star, which remains after moving away."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4?alt=media&amp;token=fa4d2602-417f-40f2-b3b1-9979db691f9e" title="A cursor hovers over an icon that identifies it as a star, which remains after moving away."></video>
 
-[Open video](../../../assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4?alt=media&token=fa4d2602-417f-40f2-b3b1-9979db691f9e>)
 
 Tooltips can appear when an actionable element, like a button or navigation rail, is hovered or focused. However, this tooltip shouldn’t hide crucial information.
 

@@ -2,7 +2,7 @@
 title: "Bottom sheets"
 source_url: "https://m3.material.io/components/bottom-sheets/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/20d353317b66-lvp7eqa7-1.png"
@@ -236,6 +236,6 @@ On Android, a gesture called predictive back allows a user to swipe left or righ
 
 A list of compatible components is available in the [gestures article](../../foundations/interaction/gestures.md).
 
-<video controls src="../../../assets/videos/489550ea7cea-lvpbtr1r-GM3-Components-BottomSheets-Guidelines-2-v01.mp4" title="&lt;p&gt;&lt;span style=&quot;white-space:pre-wrap&quot;&gt;Preview of the result of the gesture, &lt;strong&gt;release&lt;/strong&gt; to commit, &lt;strong&gt;fling&lt;/strong&gt; to commit, and &lt;strong&gt;cancel&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvpbtr1r-GM3-Components-BottomSheets-Guidelines-2-v01.mp4?alt=media&amp;token=32073447-f2f2-4cd6-8208-bf3458a7fae6" title="&lt;p&gt;&lt;span style=&quot;white-space:pre-wrap&quot;&gt;Preview of the result of the gesture, &lt;strong&gt;release&lt;/strong&gt; to commit, &lt;strong&gt;fling&lt;/strong&gt; to commit, and &lt;strong&gt;cancel&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;"></video>
 
-[Open video](../../../assets/videos/489550ea7cea-lvpbtr1r-GM3-Components-BottomSheets-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvpbtr1r-GM3-Components-BottomSheets-Guidelines-2-v01.mp4?alt=media&token=32073447-f2f2-4cd6-8208-bf3458a7fae6>)

@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/layout"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -42,9 +42,9 @@ Unlike mobile layouts which are constrained by screen edges, XR layouts must acc
 
 [More on Android XR layouts](https://developer.android.com/design/ui/xr/guides/spatial-ui)
 
-<video controls src="../../../../assets/videos/3faf1a81880d-mowquax6-XR-Headsets.mp4" title="A video of a family plays against an immersive, mountainous background."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowquax6-XR%20Headsets.mp4?alt=media&amp;token=f0c4ce44-de12-49af-bfc9-976a2b045251" title="A video of a family plays against an immersive, mountainous background."></video>
 
-[Open video](../../../../assets/videos/3faf1a81880d-mowquax6-XR-Headsets.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowquax6-XR%20Headsets.mp4?alt=media&token=f0c4ce44-de12-49af-bfc9-976a2b045251>)
 
 ## XR layout basics
 
@@ -62,9 +62,9 @@ In full space, spatial panels are flexible canvases that can contain UI elements
 
 They often serve as the anchor for 3D models and orbiters.
 
-<video controls src="../../../../assets/videos/2fbdc3186151-mowrcjbe-developer.android.com_hero-(2).mp4" title="An XR app with 1 large spatial panel, and 3 orbiters with UI elements and photos."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrcjbe-developer.android.com_hero%20(2).mp4?alt=media&amp;token=980a9373-629e-4c1a-b7f7-e6c7ce55f9ac" title="An XR app with 1 large spatial panel, and 3 orbiters with UI elements and photos."></video>
 
-[Open video](../../../../assets/videos/2fbdc3186151-mowrcjbe-developer.android.com_hero-(2).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrcjbe-developer.android.com_hero%20(2).mp4?alt=media&token=980a9373-629e-4c1a-b7f7-e6c7ce55f9ac>)
 
 #### Size & position
 
@@ -107,9 +107,9 @@ To avoid system UI conflicts, stay within default movement limits:
 
 -   Maximum depth: 5 meters
 
-<video controls src="../../../../assets/videos/d6eeae191bc6-mowrrhdk-spatial-ui-scale.mp4" title="A person uses a 1 arm gesture to make an XR UI larger. The size dynamically scales in relation to the person."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrrhdk-spatial-ui-scale.mp4?alt=media&amp;token=776b7bf5-b144-4797-96c4-dbf2e5dc2a5b" title="A person uses a 1 arm gesture to make an XR UI larger. The size dynamically scales in relation to the person."></video>
 
-[Open video](../../../../assets/videos/d6eeae191bc6-mowrrhdk-spatial-ui-scale.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrrhdk-spatial-ui-scale.mp4?alt=media&token=776b7bf5-b144-4797-96c4-dbf2e5dc2a5b>)
 
 #### Grouping panels
 
@@ -135,9 +135,9 @@ Use orbiters for navigation UI that needs to stay accessible without obscuring t
 
 Material [XR components](../components/overview.md) automatically adapt into orbiters.
 
-<video controls src="../../../../assets/videos/8cfb13e75749-mows9uwa-navrail_proto_2x_01-(1).mp4" title="A nav rail appears as an orbiter to the left of an XR email app."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmows9uwa-navrail_proto_2x_01%20(1).mp4?alt=media&amp;token=f89f3654-540e-4e32-92f2-38e7be47fdee" title="A nav rail appears as an orbiter to the left of an XR email app."></video>
 
-[Open video](../../../../assets/videos/8cfb13e75749-mows9uwa-navrail_proto_2x_01-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmows9uwa-navrail_proto_2x_01%20(1).mp4?alt=media&token=f89f3654-540e-4e32-92f2-38e7be47fdee>)
 
 ### Spatial elevation & depth
 
@@ -147,9 +147,9 @@ Use the Z-axis to create volumetric UI. Unlike 2D elevation which uses shadows, 
 
 -   Layering can separate UI layers physically. For example, a scrim can float several centimeters behind a dialog box.
 
-<video controls src="../../../../assets/videos/786cb21d39fd-mowuw75p-Spatialize_Components_8-(1).mp4" title="A dialog switches from 2D to 3D, using spatial elevation."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowuw75p-Spatialize_Components_8%20(1).mp4?alt=media&amp;token=09e9bad6-2ab4-4fb5-86f0-f69831e4c5a0" title="A dialog switches from 2D to 3D, using spatial elevation."></video>
 
-[Open video](../../../../assets/videos/786cb21d39fd-mowuw75p-Spatialize_Components_8-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowuw75p-Spatialize_Components_8%20(1).mp4?alt=media&token=09e9bad6-2ab4-4fb5-86f0-f69831e4c5a0>)
 
 ## Behavior
 
@@ -161,9 +161,9 @@ In [passthrough](https://developer.android.com/design/ui/xr/guides/foundations#g
 
 -   Head-locked: Avoid locking UI directly to the person's head view, as it can feel jarring. Instead, use a lazy follow behavior where the UI gently drifts to catch up with the person's movement.
 
-<video controls src="../../../../assets/videos/aaffe3917c60-mowv0qt4-spatial-ui-anchor.mp4" title="A person uses a 1 arm gesture to anchor a spatial panel to a physical desk."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowv0qt4-spatial-ui-anchor.mp4?alt=media&amp;token=e0ed5e6b-6887-4a3d-a94c-2d33300a7be2" title="A person uses a 1 arm gesture to anchor a spatial panel to a physical desk."></video>
 
-[Open video](../../../../assets/videos/aaffe3917c60-mowv0qt4-spatial-ui-anchor.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowv0qt4-spatial-ui-anchor.mp4?alt=media&token=e0ed5e6b-6887-4a3d-a94c-2d33300a7be2>)
 
 ### Color contrast & dimming
 
@@ -176,6 +176,6 @@ When using standard **surface** tokens, panels automatically handle contrast: 
 
 [More on XR colors](https://developer.android.com/design/ui/xr/guides/visual-design#colors)
 
-<video controls src="../../../../assets/videos/b0862c681417-mowv8jsw-Dimming-(1).mp4" title="An XR video of a family at the dinner table. The dimming setting adjusts from an opaque virtual background to passthrough."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowv8jsw-Dimming%20(1).mp4?alt=media&amp;token=484e9d13-ab47-404c-8ab6-6608426d6224" title="An XR video of a family at the dinner table. The dimming setting adjusts from an opaque virtual background to passthrough."></video>
 
-[Open video](../../../../assets/videos/b0862c681417-mowv8jsw-Dimming-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowv8jsw-Dimming%20(1).mp4?alt=media&token=484e9d13-ab47-404c-8ab6-6608426d6224>)

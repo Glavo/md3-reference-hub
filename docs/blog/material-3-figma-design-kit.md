@@ -2,7 +2,7 @@
 title: "Introducing the M3 design kit for Figma"
 source_url: "https://m3.material.io/blog/material-3-figma-design-kit"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/2bc614b90413-njAw6ZMF6WzfvQoirrfVNMbSc8LHXMTawSd1zvMQRxnPhEzWKBG_POU_Gi5fCeB5ftB00co0V-52Fj2gqv9LWX6RRagds2Sn.png"
@@ -31,7 +31,7 @@ On a design team, creativity is communal and contextual. We experiment with form
 
 ## More than a sticker sheet
 
-[Video: Video](../../assets/videos/98aa64a5cc56-designkitvideo.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/214a5b34165de6792cc60e8f0ec9ab299ba0caea5c470069f7d6e1a8658ec2363295ff299393f4e082f25b433fc27a92dcbeeb2612cadcd7832cc9c3faeb236c)
 
 What’s in the M3 design kit? Starting today, you get…
 

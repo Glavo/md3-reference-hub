@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/cc7aae7b4e21-mlnt9v4x-01.png"
@@ -316,23 +316,23 @@ The width of the app bar container responds to the view or device width. 
 
 It should always span 100% of the window width.
 
-<video controls src="../../../assets/videos/2bbd0eb9313b-mlp67nmz-GM3-Top-App-Bar-Responsive-1P-v01.mp4" title="App bar resizing to wider view."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp67nmz-GM3%20-%20Top%20App-Bar%20-%20Responsive%20-%201P%20-%20v01.mp4?alt=media&amp;token=3817c0ad-c435-480d-8464-bfaf3ec1632d" title="App bar resizing to wider view."></video>
 
-[Open video](../../../assets/videos/2bbd0eb9313b-mlp67nmz-GM3-Top-App-Bar-Responsive-1P-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp67nmz-GM3%20-%20Top%20App-Bar%20-%20Responsive%20-%201P%20-%20v01.mp4?alt=media&token=3817c0ad-c435-480d-8464-bfaf3ec1632d>)
 
 Resizing may cause actions at the trailing edge of the app bar to collapse into an overflow menu at smaller window sizes. 
 
 These actions become visible again at larger sizes.
 
-<video controls src="../../../assets/videos/8450f9ee07a5-maco62fo-GM3_Adaptive_AppBar_Guidelines_25_IA_V01.mp4" title="Trailing icons in app bar collapse into overflow when screen size shrinks."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmaco62fo-GM3_Adaptive_AppBar_Guidelines_25_IA_V01.mp4?alt=media&amp;token=b95b82f8-cd29-4351-b159-3ef00dc7ed27" title="Trailing icons in app bar collapse into overflow when screen size shrinks."></video>
 
-[Open video](../../../assets/videos/8450f9ee07a5-maco62fo-GM3_Adaptive_AppBar_Guidelines_25_IA_V01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmaco62fo-GM3_Adaptive_AppBar_Guidelines_25_IA_V01.mp4?alt=media&token=b95b82f8-cd29-4351-b159-3ef00dc7ed27>)
 
 The search container of the search app bar should fill 100% of the space between leading and trailing app bar elements until it reaches 312dp. Then, it should only grow further to fill 50% of that space.
 
-<video controls src="../../../assets/videos/6bdd4bad9c2e-mlp6cznn-GM3-App-bar-Guidelines_31-IA-v05.mp4" title="Search app bar resizing to wider view."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6cznn-GM3%20-%20App-bar%20-%20Guidelines_31%20-%20IA%20-%20v05.mp4?alt=media&amp;token=9baefced-7a09-4d12-89e1-a2bd3468c036" title="Search app bar resizing to wider view."></video>
 
-[Open video](../../../assets/videos/6bdd4bad9c2e-mlp6cznn-GM3-App-bar-Guidelines_31-IA-v05.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6cznn-GM3%20-%20App-bar%20-%20Guidelines_31%20-%20IA%20-%20v05.mp4?alt=media&token=9baefced-7a09-4d12-89e1-a2bd3468c036>)
 
 ### Presentation
 
@@ -352,9 +352,9 @@ App bars should initially be the same color as the background, then fill with a 
 
 The app bar can remain on a page at all times, or can hide and reappear when scrolling.
 
-<video controls src="../../../assets/videos/45f9f742d399-mlp6geio-GM3-App-bar-Guidelines-33-v01.mp4" title="Scrolling app bar container fills with contrasting color."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6geio-GM3%20-%20App-bar%20-%20Guidelines%2033%20-%20v01.mp4?alt=media&amp;token=7d677477-0259-4855-85ff-0babbf9bbb27" title="Scrolling app bar container fills with contrasting color."></video>
 
-[Open video](../../../assets/videos/45f9f742d399-mlp6geio-GM3-App-bar-Guidelines-33-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6geio-GM3%20-%20App-bar%20-%20Guidelines%2033%20-%20v01.mp4?alt=media&token=7d677477-0259-4855-85ff-0babbf9bbb27>)
 
 To focus more on body content, consider setting the app bar container to be transparent on scroll. This allows the buttons to float above the content. 
 
@@ -362,22 +362,22 @@ Make sure icon buttons have a container fill. 
 
 Consider using narrow-width icon buttons for actions, like **Back**, to reduce the amount of space they take up.
 
-<video controls src="../../../assets/videos/3b6a0cc31351-mlp6hnuc-GM3-App-bar-Guideline-34-IA-v03.mp4" title="Medium flexible app bar compresses to transform into transparent small app bar."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6hnuc-GM3%20-%20App-bar%20-%20Guideline%2034%20-%20IA%20-%20v03.mp4?alt=media&amp;token=a2c8d4fc-4951-4bc3-a845-fa29260b8287" title="Medium flexible app bar compresses to transform into transparent small app bar."></video>
 
-[Open video](../../../assets/videos/3b6a0cc31351-mlp6hnuc-GM3-App-bar-Guideline-34-IA-v03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6hnuc-GM3%20-%20App-bar%20-%20Guideline%2034%20-%20IA%20-%20v03.mp4?alt=media&token=a2c8d4fc-4951-4bc3-a845-fa29260b8287>)
 
 Selecting the search bar should open the search view component.
 
-<video controls src="../../../assets/videos/103ddc315941-mlp6jluz-GM3-App-bar-Guidelines-34-IA-v01.mp4" title="A search app bar opening the search view component when selected."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6jluz-GM3%20-%20App-bar%20-%20Guidelines%2034%20-%20IA%20-%20v01.mp4?alt=media&amp;token=7298f84c-2b09-41dc-a5a9-a500a37b55ba" title="A search app bar opening the search view component when selected."></video>
 
-[Open video](../../../assets/videos/103ddc315941-mlp6jluz-GM3-App-bar-Guidelines-34-IA-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6jluz-GM3%20-%20App-bar%20-%20Guidelines%2034%20-%20IA%20-%20v01.mp4?alt=media&token=7298f84c-2b09-41dc-a5a9-a500a37b55ba>)
 
 When scrolled, **medium flexible** and **large flexible** app bars can transform into **small** app bars. They should remain small until the page is scrolled back to the top. Don’t transform app bars into a **search app bar**.
 
-<video controls src="../../../assets/videos/07a1d67169e4-mlp6o2a1-GM3-App-bar-Guidelines-36-v01.mp4" title="Scrolling top app bar compressing to scroll upwards or downward."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6o2a1-GM3%20-%20App-bar%20-%20Guidelines%2036%20-%20v01.mp4?alt=media&amp;token=32fb22cd-ab4f-432e-92ba-5c895ba653f4" title="Scrolling top app bar compressing to scroll upwards or downward."></video>
 
-[Open video](../../../assets/videos/07a1d67169e4-mlp6o2a1-GM3-App-bar-Guidelines-36-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6o2a1-GM3%20-%20App-bar%20-%20Guidelines%2036%20-%20v01.mp4?alt=media&token=32fb22cd-ab4f-432e-92ba-5c895ba653f4>)
 
-<video controls src="../../../assets/videos/dc48f304f7fe-mlp6pkl9-GM3-App-bar-Guidelines-37-v01.mp4" title="Medium app bar compresses to transform into Compact top app bar."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6pkl9-GM3%20-%20App-bar%20-%20Guidelines%2037%20-%20v01.mp4?alt=media&amp;token=88f50bfa-9d7d-4a4c-8a99-60c239445e97" title="Medium app bar compresses to transform into Compact top app bar."></video>
 
-[Open video](../../../assets/videos/dc48f304f7fe-mlp6pkl9-GM3-App-bar-Guidelines-37-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6pkl9-GM3%20-%20App-bar%20-%20Guidelines%2037%20-%20v01.mp4?alt=media&token=88f50bfa-9d7d-4a4c-8a99-60c239445e97>)

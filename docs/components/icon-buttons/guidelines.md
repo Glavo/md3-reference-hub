@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/guidelines"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/f6089c53c42a-m34mdbc5-icon-buttons-A_2.mp4"
@@ -33,9 +33,9 @@ Icon buttons help people take minor actions with one tap
 
 ## Guidelines
 
-<video controls src="../../../assets/videos/f6089c53c42a-m34mdbc5-icon-buttons-A_2.mp4" title="Illustrative example of icon buttons in a variety of sizes and shapes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mdbc5-icon-buttons-A_2.mp4?alt=media&amp;token=2f8d9e21-ece3-48bb-be61-2f7620af0f13" title="Illustrative example of icon buttons in a variety of sizes and shapes."></video>
 
-[Open video](../../../assets/videos/f6089c53c42a-m34mdbc5-icon-buttons-A_2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mdbc5-icon-buttons-A_2.mp4?alt=media&token=2f8d9e21-ece3-48bb-be61-2f7620af0f13>)
 
 ## Usage
 
@@ -85,9 +85,9 @@ Use the **filled** style for visual impact and key actions that require high emp
 
 Avoid overusing the filled style on a screen. Use them sparingly.
 
-<video controls src="../../../assets/videos/dcb9bdc4c4b7-m34mf3vo-icon-buttons-B_1.mp4" title="Cards that swipe to reveal buttons with actions."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mf3vo-icon-buttons-B_1.mp4?alt=media&amp;token=fd3d6ff0-1cf0-480b-a979-92e115aa6603" title="Cards that swipe to reveal buttons with actions."></video>
 
-[Open video](../../../assets/videos/dcb9bdc4c4b7-m34mf3vo-icon-buttons-B_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mf3vo-icon-buttons-B_1.mp4?alt=media&token=fd3d6ff0-1cf0-480b-a979-92e115aa6603>)
 
 Use the **tonal** style as a middle ground between filled and outlined icon buttons. It’s useful for secondary actions paired with a high emphasis action.
 
@@ -197,9 +197,9 @@ _A toolbar is a collection of icon buttons and other components_
 
 On hover, the icon button displays a tooltip describing its action, rather than the name of the icon itself.
 
-<video controls src="../../../assets/videos/7344703378a4-m8q92iv1-Gm3_Expressive_Icon_buttons_guidelines_18_IA_v02.mp4" title="The text Add to favorites appears as a tooltip when the curser is placed on a heart shaped icon. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8q92iv1-Gm3_Expressive_Icon_buttons_guidelines_18_IA_v02.mp4?alt=media&amp;token=756abe96-47df-46ee-bd8c-f068c9f729b9" title="The text Add to favorites appears as a tooltip when the curser is placed on a heart shaped icon. "></video>
 
-[Open video](../../../assets/videos/7344703378a4-m8q92iv1-Gm3_Expressive_Icon_buttons_guidelines_18_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8q92iv1-Gm3_Expressive_Icon_buttons_guidelines_18_IA_v02.mp4?alt=media&token=756abe96-47df-46ee-bd8c-f068c9f729b9>)
 
 ### Selection
 
@@ -209,19 +209,19 @@ When placed in a button group, icon buttons change shape to help the selected bu
 
 [More on button groups](../button-groups/overview.md)
 
-<video controls src="../../../assets/videos/e052cf50db8e-m34mfwtu-icon-buttons-D-2.mp4" title="A star-shaped toggle icon button to add or remove a song from favorites.
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mfwtu-icon-buttons-D-2.mp4?alt=media&amp;token=52f44936-4228-481d-ac0e-c8e195eb2286" title="A star-shaped toggle icon button to add or remove a song from favorites.
 "></video>
 
-[Open video](../../../assets/videos/e052cf50db8e-m34mfwtu-icon-buttons-D-2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mfwtu-icon-buttons-D-2.mp4?alt=media&token=52f44936-4228-481d-ac0e-c8e195eb2286>)
 
-<video controls src="../../../assets/videos/110a1b3e2625-m34mg1cq-icon-buttons-E-2.mp4" title="A toggle icon button to open an overflow menu."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mg1cq-icon-buttons-E-2.mp4?alt=media&amp;token=c8ddcbff-ea61-41ca-aa80-9c0eee4e6bb6" title="A toggle icon button to open an overflow menu."></video>
 
-[Open video](../../../assets/videos/110a1b3e2625-m34mg1cq-icon-buttons-E-2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm34mg1cq-icon-buttons-E-2.mp4?alt=media&token=c8ddcbff-ea61-41ca-aa80-9c0eee4e6bb6>)
 
 The icon should become filled to represent selection.
 
 If a filled version of the icon doesn't exist, use semibold weight instead.
 
-<video controls src="../../../assets/videos/a2a80fd1e1ad-m0dz2qbs-icon-button-F.mp4" title="An outlined-style bookmark icon in an unselected state changing to a filled-style selected state."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dz2qbs-icon-button-F.mp4?alt=media&amp;token=cf47de06-dd3f-4aa5-b4aa-eb0d79c7a654" title="An outlined-style bookmark icon in an unselected state changing to a filled-style selected state."></video>
 
-[Open video](../../../assets/videos/a2a80fd1e1ad-m0dz2qbs-icon-button-F.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dz2qbs-icon-button-F.mp4?alt=media&token=cf47de06-dd3f-4aa5-b4aa-eb0d79c7a654>)

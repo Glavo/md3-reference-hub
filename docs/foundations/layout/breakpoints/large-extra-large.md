@@ -2,7 +2,7 @@
 title: "Breakpoints"
 source_url: "https://m3.material.io/foundations/layout/breakpoints/large-extra-large"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/36eaa77af6ee-mp41v09e-01.png"

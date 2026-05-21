@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/8bf7ead408fd-m0fueyh1-01.png"
@@ -244,9 +244,9 @@ When the navigation rail is hidden, the body content can fill in the remaining s
 
 Tabs can be used alongside a navigation rail to create an extra layer of visible navigation.
 
-<video controls src="../../../assets/videos/328829548808-mapifwv9-GM3_Expressive_Nav-Rail_Guidelines_32_IA_V10.mp4" title="Navigation rail collapsed next to screen content, and expanded overlaying screen content with secondary destinations."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmapifwv9-GM3_Expressive_Nav-Rail_Guidelines_32_IA_V10.mp4?alt=media&amp;token=27d22a5d-f968-4b02-8f93-f1f8ed02abc9" title="Navigation rail collapsed next to screen content, and expanded overlaying screen content with secondary destinations."></video>
 
-[Open video](../../../assets/videos/328829548808-mapifwv9-GM3_Expressive_Nav-Rail_Guidelines_32_IA_V10.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmapifwv9-GM3_Expressive_Nav-Rail_Guidelines_32_IA_V10.mp4?alt=media&token=27d22a5d-f968-4b02-8f93-f1f8ed02abc9>)
 
 ## Adaptive design
 
@@ -276,9 +276,9 @@ The contents of the navigation rail also expand to fill the space. For example, 
 
 Extra destinations can be shown in an expanded nav rail.
 
-<video controls src="../../../assets/videos/4f44e362be04-malqalnw-GM3_Expressive_Nav-Rail_Guidelines_27_IA_V07.mp4" title="Extra destinations in an expanded navigation rail."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqalnw-GM3_Expressive_Nav-Rail_Guidelines_27_IA_V07.mp4?alt=media&amp;token=3769dd07-2a42-43fe-96d0-fac669ee36e3" title="Extra destinations in an expanded navigation rail."></video>
 
-[Open video](../../../assets/videos/4f44e362be04-malqalnw-GM3_Expressive_Nav-Rail_Guidelines_27_IA_V07.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalqalnw-GM3_Expressive_Nav-Rail_Guidelines_27_IA_V07.mp4?alt=media&token=3769dd07-2a42-43fe-96d0-fac669ee36e3>)
 
 ## Behavior
 
@@ -286,27 +286,27 @@ Extra destinations can be shown in an expanded nav rail.
 
 Destinations in the navigation rail should remain visible and fixed when scrolling vertically.
 
-<video controls src="../../../assets/videos/ee7db26c732a-m5v1vvd7-J-Scrolling-RENDER-2x.mp4" title="Screen content scrolls while rails stay fixed."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5v1vvd7-J%20-%20Scrolling%20RENDER%20-%202x.mp4?alt=media&amp;token=1f63cc9d-8eab-4033-b6b6-ebce8724011e" title="Screen content scrolls while rails stay fixed."></video>
 
-[Open video](../../../assets/videos/ee7db26c732a-m5v1vvd7-J-Scrolling-RENDER-2x.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5v1vvd7-J%20-%20Scrolling%20RENDER%20-%202x.mp4?alt=media&token=1f63cc9d-8eab-4033-b6b6-ebce8724011e>)
 
 If a layout scrolls horizontally, the rail can scroll off-screen or remain fixed. To distinguish that content is scrolling underneath the rail, use a divider or add elevation to the rail.
 
-<video controls src="../../../assets/videos/b3567cecbcf4-m0gtjndl-K-Side-Scroll-RENDER-2x_240821.mp4" title="A nav rail with a divider between it and the page’s content."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0gtjndl-K%20-%20Side%20Scroll%20RENDER%20-2x_240821.mp4?alt=media&amp;token=629dce43-bf6e-4ad6-89ca-71bb39bec10e" title="A nav rail with a divider between it and the page’s content."></video>
 
-[Open video](../../../assets/videos/b3567cecbcf4-m0gtjndl-K-Side-Scroll-RENDER-2x_240821.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0gtjndl-K%20-%20Side%20Scroll%20RENDER%20-2x_240821.mp4?alt=media&token=629dce43-bf6e-4ad6-89ca-71bb39bec10e>)
 
-<video controls src="../../../assets/videos/e2c390d1d3e8-mbs2jj48-GM3_Expressive_Nav-Rail_Guidelines_30_IA_v01-(1).mp4" title="A nav rail with slight elevation."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmbs2jj48-GM3_Expressive_Nav-Rail_Guidelines_30_IA_v01%20(1).mp4?alt=media&amp;token=cbb06c17-5435-4dc4-a925-655fb6d559f3" title="A nav rail with slight elevation."></video>
 
-[Open video](../../../assets/videos/e2c390d1d3e8-mbs2jj48-GM3_Expressive_Nav-Rail_Guidelines_30_IA_v01-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmbs2jj48-GM3_Expressive_Nav-Rail_Guidelines_30_IA_v01%20(1).mp4?alt=media&token=cbb06c17-5435-4dc4-a925-655fb6d559f3>)
 
 ### Selection
 
 When a destination is tapped, the destination screen uses a [top level](../../styles/motion/transitions/transition-patterns.md#f852afd2-396f-49fd-a265-5f6d96680e16) transition pattern. In addition, the icon becomes filled and the active indicator expands from the center of the icon.
 
-<video controls src="../../../assets/videos/ef17ff636c71-m0fvmjbe-L-NAV-Selection-RENDER-2x_240821.mp4" title="Selection transition between one navigation item and another."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fvmjbe-L%20-%20NAV%20Selection%20-%20RENDER%202x_240821.mp4?alt=media&amp;token=cd5079bc-e9e6-4dc1-952d-a07105f70120" title="Selection transition between one navigation item and another."></video>
 
-[Open video](../../../assets/videos/ef17ff636c71-m0fvmjbe-L-NAV-Selection-RENDER-2x_240821.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fvmjbe-L%20-%20NAV%20Selection%20-%20RENDER%202x_240821.mp4?alt=media&token=cd5079bc-e9e6-4dc1-952d-a07105f70120>)
 
 ### Back
 
@@ -318,6 +318,6 @@ On Android, a gesture called predictive back allows people to swipe left or ri
 
 A list of compatible components is available on the [gestures page](https://m3.material.io/m3/pages/gestures/).
 
-<video controls src="../../../assets/videos/d925769cda5b-mapifi58-GM3_Expressive_Nav-Rail_Guidelines_PredictiveBack_IA_V02.mp4" title="Modal expanded navigation rail with Android predictive back feature."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmapifi58-GM3_Expressive_Nav-Rail_Guidelines_PredictiveBack_IA_V02.mp4?alt=media&amp;token=95c874c8-3be9-48c9-bbf3-3f1edb7cab09" title="Modal expanded navigation rail with Android predictive back feature."></video>
 
-[Open video](../../../assets/videos/d925769cda5b-mapifi58-GM3_Expressive_Nav-Rail_Guidelines_PredictiveBack_IA_V02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmapifi58-GM3_Expressive_Nav-Rail_Guidelines_PredictiveBack_IA_V02.mp4?alt=media&token=95c874c8-3be9-48c9-bbf3-3f1edb7cab09>)

@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose version 1.3"
 source_url: "https://m3.material.io/blog/material-3-compose-1-3"
 lastmod: "2026-05-11"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/c366e8eb9483-DrLnPC8-STsu-5P55vb_gt03HeiUMVfx4k_KPbiGueXrh1XOuuYzAcacYSFVwlwngMK7IO8rqEZnA0Yge84tQpjWnJsLJo9k.png"
@@ -45,7 +45,7 @@ To improve performance, the Material components have been migrated to use the ne
 
 ## Carousel component
 
-[Video: Video](../../assets/videos/70d39329e4d5-compose_material_3_v1_3_carousel_header.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/f642afa49f4a9005de10c8fe3b55346b3df54172b96d7c6d86282577a42010beff6c79d0b7f8ba1d21d69c6ca3c695504e218cc12aabe6f45bc85a1266ffa338)
 
 Material 1.3 introduces two experimental versions of the [Material 3 Carousel](../components/carousel/overview.md) - `HorizontalMultiBrowseCarousel` and `HorizontalUncontainedCarousel`.
 
@@ -53,7 +53,7 @@ The [`HorizontalMultiBrowseCarousel`](https://developer.android.com/reference/ko
 
 ![carousel component](<https://lh3.googleusercontent.com/DEPT123BmoDhy3YqCUG8pjPYxj7TeLJaQbk2L2XU2SG1pv6CvdV8ZjKZyx8YyJXmnkrHXLkrNvIxlhkKRREEjq9IadiLj4hh1UUrG6iTgPRcNPP4hg>)
 
-[Video: Video](../../assets/videos/e9a8d6bf71b7-compose_material_3_v1_3_carousel_multi_browse_short.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/65ab7ea86de837fd6bfc7171d4350d30d260087f3727ae7d94b3b977010fc3b935487616a8177b331ff04155dc32a0e2dade3a172969648cd551e999987bb628)
 
 The  [`HorizontalUncontainedCarousel`](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary#HorizontalUncontainedCarousel\(androidx.compose.material3.carousel.CarouselState,androidx.compose.ui.unit.Dp,androidx.compose.ui.Modifier,androidx.compose.ui.unit.Dp,androidx.compose.foundation.gestures.TargetedFlingBehavior,androidx.compose.foundation.layout.PaddingValues,kotlin.Function2\))  displays its items at a given size and one item at the end that peeks in to show that there are more items in the list.
 
@@ -61,7 +61,7 @@ The  [`HorizontalUncontainedCarousel`](https://developer.android.com/reference/
 
 Similar to using the `HorizontalPager`, the Carousel applies a few design specifications on top of the `Pager`, such as the parallax effect for item content and how the items on each end should size themselves. An example of using the `HorizontalUncontainedCarousel` can be found below:
 
-[Video: Video](../../assets/videos/43c9ee4a2907-compose_material_3_v1_3_carousel_uncontained_short.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/6c041e35c36164d0f08f8cf4f79f58d0707fb887d2482b4587496624671235002f8d8c7a8efb29606bd56de5828db7cc515551016c299f24407ff9d0c46a3268)
 
 As part of the Carousel component, we’ve added two new modifiers to `CarouselItemScope` - [maskClip](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/CarouselItemScope#\(androidx.compose.ui.Modifier\).maskClip\(androidx.compose.ui.graphics.Shape\)) and [maskBorder](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/CarouselItemScope#\(androidx.compose.ui.Modifier\).maskBorder\(androidx.compose.foundation.BorderStroke,androidx.compose.ui.graphics.Shape\)) - to easily add a shape and border to any carousel item. This is needed over the regular `clip` and `border` modifiers to be able to apply it on a container level as the item moves inside the Carousel, if you had to apply the standard `clip` modifier, the items would be statically clipped and not apply the parallax effect that this component introduces.
 
@@ -113,7 +113,7 @@ The pull to refresh experimental APIs have been overhauled and updated to fix a 
 
 Support for predictive back is now built into some of the Material Components.  Predictive back allows a user to swipe left or right on certain components as a way to navigate to a previous destination. Before completing the swipe, the user can decide to continue to the previous view or stay in the current view, where the component will indicate a preview of where going back would take the user.
 
-[Video: Video](../../assets/videos/58615f05cc1b-lpu8t23e-Bottom_Sheet-Back-3P-1.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/601d3cdba9de5c8790825f1f9edcf6a6ab18a59e11a31700fb822985e494699051a1a986a06f45f210520603fb263972e795810c860c73d180c0ccc123177dee)
 
 The following components will now automatically handle predictive back on devices that support it:
 

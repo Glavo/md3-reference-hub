@@ -2,7 +2,7 @@
 title: "Date pickers"
 source_url: "https://m3.material.io/components/date-pickers/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/6e5275896f1b-md5o0x3j-01.png"
@@ -137,13 +137,13 @@ Dates can be added by using a keyboard or by navigating the calendar UI; both op
 
 _Docked date picker_
 
-<video controls src="../../../assets/videos/d0d8981cec9e-lwhi1ze1-GM3-Components-DatePickers-Guidelines-1-v01.mp4" title="Animation of a docked date picker adjusting its size to the selected month."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhi1ze1-GM3-Components-DatePickers-Guidelines-1-v01.mp4?alt=media&amp;token=14718388-0acf-4f51-8bfd-f3a42d76e283" title="Animation of a docked date picker adjusting its size to the selected month."></video>
 
-[Open video](../../../assets/videos/d0d8981cec9e-lwhi1ze1-GM3-Components-DatePickers-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhi1ze1-GM3-Components-DatePickers-Guidelines-1-v01.mp4?alt=media&token=14718388-0acf-4f51-8bfd-f3a42d76e283>)
 
-<video controls src="../../../assets/videos/d9d54e5333de-lwhi7618-GM3-Components-DatePickers-Guidelines-1-2-v01.mp4" title="Animation of a docked date picker changing from calendar view to year selection menu view."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhi7618-GM3-Components-DatePickers-Guidelines-1-2-v01.mp4?alt=media&amp;token=39201a22-7ffc-4cd4-9687-32cd38f60260" title="Animation of a docked date picker changing from calendar view to year selection menu view."></video>
 
-[Open video](../../../assets/videos/d9d54e5333de-lwhi7618-GM3-Components-DatePickers-Guidelines-1-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhi7618-GM3-Components-DatePickers-Guidelines-1-2-v01.mp4?alt=media&token=39201a22-7ffc-4cd4-9687-32cd38f60260>)
 
 ### Month selection
 
@@ -173,13 +173,13 @@ Modal date pickers navigate across dates in several ways:
 
 Don’t use a modal date picker to prompt for dates in the distant past or future, such as a date of birth. In these cases, use a modal input picker or a docked date picker instead.
 
-<video controls src="../../../assets/videos/263487cbe234-lwhkhvz2-GM3-Components-DatePickers-Guidelines-2-v01.mp4" title="Animation of a docked date picker being swiped horizontally to navigate across months. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkhvz2-GM3-Components-DatePickers-Guidelines-2-v01.mp4?alt=media&amp;token=f4bbefe5-6937-423a-b476-bf0017f6fcf4" title="Animation of a docked date picker being swiped horizontally to navigate across months. "></video>
 
-[Open video](../../../assets/videos/263487cbe234-lwhkhvz2-GM3-Components-DatePickers-Guidelines-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkhvz2-GM3-Components-DatePickers-Guidelines-2-v01.mp4?alt=media&token=f4bbefe5-6937-423a-b476-bf0017f6fcf4>)
 
-<video controls src="../../../assets/videos/4de6b0c566f1-lwhkizck-GM3-Components-DatePickers-Guidelines-2-1-v01.mp4" title="Animation of a year picker in a docked date picker being tapped and scrolled vertically to navigate across years."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkizck-GM3-Components-DatePickers-Guidelines-2-1-v01.mp4?alt=media&amp;token=285c6117-593f-4534-8e21-ea29c2b37fb6" title="Animation of a year picker in a docked date picker being tapped and scrolled vertically to navigate across years."></video>
 
-[Open video](../../../assets/videos/4de6b0c566f1-lwhkizck-GM3-Components-DatePickers-Guidelines-2-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkizck-GM3-Components-DatePickers-Guidelines-2-1-v01.mp4?alt=media&token=285c6117-593f-4534-8e21-ea29c2b37fb6>)
 
 ### Date range selection
 
@@ -193,13 +193,13 @@ Modal date pickers navigate across date ranges in several ways:
 -   To select a range of dates, tap the start and end dates on the calendar
 -   To navigate across months, scroll vertically
 
-<video controls src="../../../assets/videos/3f70eefbf48a-lwhklm21-GM3-Components-DatePickers-Guidelines-3-1-v01.mp4" title="Animation of a date range being selected on a modal date range picker."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhklm21-GM3-Components-DatePickers-Guidelines-3-1-v01.mp4?alt=media&amp;token=d7feb81d-26c5-47e5-9fca-4bc3cd16d2a4" title="Animation of a date range being selected on a modal date range picker."></video>
 
-[Open video](../../../assets/videos/3f70eefbf48a-lwhklm21-GM3-Components-DatePickers-Guidelines-3-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhklm21-GM3-Components-DatePickers-Guidelines-3-1-v01.mp4?alt=media&token=d7feb81d-26c5-47e5-9fca-4bc3cd16d2a4>)
 
-<video controls src="../../../assets/videos/51b8de49fa53-lwhkmci9-GM3-Components-DatePickers-Guidelines-3-2-v01.mp4" title="Animation of a modal date range picker being scrolled vertically to navigate across months."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkmci9-GM3-Components-DatePickers-Guidelines-3-2-v01.mp4?alt=media&amp;token=d1bdd71c-9ab4-4c3a-80fc-1627c3246c48" title="Animation of a modal date range picker being scrolled vertically to navigate across months."></video>
 
-[Open video](../../../assets/videos/51b8de49fa53-lwhkmci9-GM3-Components-DatePickers-Guidelines-3-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkmci9-GM3-Components-DatePickers-Guidelines-3-2-v01.mp4?alt=media&token=d1bdd71c-9ab4-4c3a-80fc-1627c3246c48>)
 
 ## Modal date input
 
@@ -223,13 +223,13 @@ _Alternatively, a text field with appropriate hint text can prompt for dates, su
 
 You can swap between the modal date picker and modal date input using the edit or calendar icon.
 
-<video controls src="../../../assets/videos/251ac0fb1b48-lwhkrz7i-GM3-Components-DatePickers-Guidelines-4-1-v01.mp4" title="Animation of a modal date picker switching to a modal date input when the range selection icon is tapped."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkrz7i-GM3-Components-DatePickers-Guidelines-4-1-v01.mp4?alt=media&amp;token=76f08e5e-c703-45fe-b531-7345581c51d8" title="Animation of a modal date picker switching to a modal date input when the range selection icon is tapped."></video>
 
-[Open video](../../../assets/videos/251ac0fb1b48-lwhkrz7i-GM3-Components-DatePickers-Guidelines-4-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkrz7i-GM3-Components-DatePickers-Guidelines-4-1-v01.mp4?alt=media&token=76f08e5e-c703-45fe-b531-7345581c51d8>)
 
-<video controls src="../../../assets/videos/fc262a4e0325-lwhksla9-GM3-Components-DatePickers-Guidelines-4-2-v01.mp4" title="Animation of a modal date picker switching to a modal date input when the edit icon is tapped."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhksla9-GM3-Components-DatePickers-Guidelines-4-2-v01.mp4?alt=media&amp;token=06f2bb29-37a9-4905-8635-f2393d27ed36" title="Animation of a modal date picker switching to a modal date input when the edit icon is tapped."></video>
 
-[Open video](../../../assets/videos/fc262a4e0325-lwhksla9-GM3-Components-DatePickers-Guidelines-4-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhksla9-GM3-Components-DatePickers-Guidelines-4-2-v01.mp4?alt=media&token=06f2bb29-37a9-4905-8635-f2393d27ed36>)
 
 ### Compact window size
 
@@ -253,9 +253,9 @@ _A docked date picker with a full calendar view is best used on larger devices_
 
 Selection is indicated through color, drawing visual attention. In date ranges, start and end dates are selected, while dates in-between appear connected with a subtle highlight.
 
-<video controls src="../../../assets/videos/0d1b8d5c70d9-lwhkykpc-GM3-Components-DatePickers-Guidelines-5-v01.mp4" title="Animation of a modal date range picker showing visual differences between selecting a date range and today's date. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkykpc-GM3-Components-DatePickers-Guidelines-5-v01.mp4?alt=media&amp;token=106350df-2005-4bcb-bd3f-85d759d55eac" title="Animation of a modal date range picker showing visual differences between selecting a date range and today's date. "></video>
 
-[Open video](../../../assets/videos/0d1b8d5c70d9-lwhkykpc-GM3-Components-DatePickers-Guidelines-5-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhkykpc-GM3-Components-DatePickers-Guidelines-5-v01.mp4?alt=media&token=106350df-2005-4bcb-bd3f-85d759d55eac>)
 
 ### Appearing and disappearing
 
@@ -265,13 +265,13 @@ To exit a date picker, the input can either be confirmed (**OK**) or dismissed (
 
 Docked date pickers appear just below the input field.
 
-<video controls src="../../../assets/videos/f1b138ac1117-lwhl1ir9-GM3-Components-DatePickers-Guidelines-6-1-v01.mp4" title="Animation of a modal date picker's enter and exit transition."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhl1ir9-GM3-Components-DatePickers-Guidelines-6-1-v01.mp4?alt=media&amp;token=7e8088e1-11c9-47ed-81df-3a972cf0c87e" title="Animation of a modal date picker's enter and exit transition."></video>
 
-[Open video](../../../assets/videos/f1b138ac1117-lwhl1ir9-GM3-Components-DatePickers-Guidelines-6-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhl1ir9-GM3-Components-DatePickers-Guidelines-6-1-v01.mp4?alt=media&token=7e8088e1-11c9-47ed-81df-3a972cf0c87e>)
 
-<video controls src="../../../assets/videos/56b302a022fc-lwhl2xgp-GM3-Components-DatePickers-Guidelines-6-2-v01.mp4" title="Animation of a docked date picker's calendar icon being clicked making the calendar view appear for date selection."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhl2xgp-GM3-Components-DatePickers-Guidelines-6-2-v01.mp4?alt=media&amp;token=9cb11627-c019-4d3d-947e-e01368c33f7d" title="Animation of a docked date picker's calendar icon being clicked making the calendar view appear for date selection."></video>
 
-[Open video](../../../assets/videos/56b302a022fc-lwhl2xgp-GM3-Components-DatePickers-Guidelines-6-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwhl2xgp-GM3-Components-DatePickers-Guidelines-6-2-v01.mp4?alt=media&token=9cb11627-c019-4d3d-947e-e01368c33f7d>)
 
 ### Responsive layout
 

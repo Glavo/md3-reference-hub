@@ -2,7 +2,7 @@
 title: "What’s new in the M3 design kit"
 source_url: "https://m3.material.io/blog/whats-new-design-kit"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/d62bd0385e76-deoY-fOAtn2u0fjCSnP96V3Cbfjw5CWwZ5wHOpffUAJjNIePgREmCPoObEewyGWCZfbOsKF3HDYfmcgQufrZJWLY0jGNx1k_.png"
@@ -36,7 +36,7 @@ In addition to prototyping, we’ve added new components to the kit: side sheets
 
 We’ve put effort into refactoring many of the components so that they are easy to use. All the configurations and states are at your fingertips, and customizing components is easier than ever!
 
-[Video: zoom-out of components in the design kit](../../assets/videos/7142f33a4686-Zoom-out-E.mp4)
+[Video: zoom-out of components in the design kit](https://kstatic.googleusercontent.com/files/7b306ed977192c301f53004306929b5c638d45072a286a9b918737fbb80f82c365a131265b5b013e751dcc942aee04d581accb62f291cc4a2e294f56e67ed3ef)
 
 Now featuring dozens of UI components and hundreds of styles, the M3 design kit is the best place to start your journey with Material – and it’s available on our community page for free. [Make a copy](https://www.figma.com/community/file/1035203688168086460) to your Figma account today to get started!
 

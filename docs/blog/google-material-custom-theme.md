@@ -2,7 +2,7 @@
 title: "How Google created a custom Material theme"
 source_url: "https://m3.material.io/blog/google-material-custom-theme"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/6956bb8eeb86-ZxnXueIhFlAFYyCid-0_IOTlpsw9ws2FWcqkn_kEiaz91wqM4PuKAWxYoodZel_00d42dl1G9i7d1eZcb0Epx2DhXj7huNsy.png"
@@ -46,7 +46,7 @@ Color proved to be a key technique in directing a user’s attention to importan
 
 Gmail’s conversation view includes a new, more limited range of Material elevation, using a shadow to underscore the open reply box. The reply box’s send button showcases another colorful touch – using a filled background color to highlight the main action on the page. Together, both treatments help users focus on important, action-oriented aspects of the UI.
 
-[Video: Updated guidance on the responsive layout grid allowed the designers to pare down layers of legacy features while introducing multiple panes of content in a collapsible, left-side navigation, as well as a new right-hand panel providing quick access to Calendar, Tasks, and other multi-tasking features.](../../assets/videos/f89801e86002-Gmail-Mocks_1Up-Responsive01_1x.mp4)
+[Video: Updated guidance on the responsive layout grid allowed the designers to pare down layers of legacy features while introducing multiple panes of content in a collapsible, left-side navigation, as well as a new right-hand panel providing quick access to Calendar, Tasks, and other multi-tasking features.](https://kstatic.googleusercontent.com/files/38dc0abce694215ec178600e778c8152996b5fcf672ff06c6ba6d246ec3ebf87eeb082c5a4db686e8e9453edd032750962bbb0e1428acda62c9685ff7463e2e1)
 
 ## Google News: Designing an AI-powered experience
 
@@ -88,7 +88,7 @@ Google Pay uses elevation to “lift” its round-cornered cards, visually echoi
 
 Onboarding is an important part of any app, but for Google Home, it’s unmissable. Users must move step-by-step through the process of connecting to their Wi-Fi network and setting up their device in order for the experience to work. Google Home’s design team helped make the onboarding a delightful, visually engaging experience with colors and animations aligned to the Google Material Theme. Because the eye is naturally drawn to motion and vibrant hues, these animations proved to be an effective technique for encouraging users to make it all the way through device setup.
 
-[Video: The onboarding animations use Google colors to guide attention and create a coherent flow. Abstract metaphors help communicate complicated technical steps in a user-friendly way. Balanced imagery means success, motion cycles mean processing, and collapsed ‘blocks’ indicate a failure state.](../../assets/videos/8c3a74b67f7c-Home-Mocks_OOBE.mp4)
+[Video: The onboarding animations use Google colors to guide attention and create a coherent flow. Abstract metaphors help communicate complicated technical steps in a user-friendly way. Balanced imagery means success, motion cycles mean processing, and collapsed ‘blocks’ indicate a failure state.](https://kstatic.googleusercontent.com/files/85c3f547fe3c7767c94674394c1997a7bfdefa15b4f2cfceb0f6c0a0d1867fd8a5c2092acf27e327a04987b7e4593d48004f26f01a2b33bd801d740c0f698cd3)
 
 ![Google Home app screen for adding a home](<https://lh3.googleusercontent.com/sO0WlHvJOFQ4Xio3yAUf4-VzwpMmLqjc5kKia_sZ0jOX7e8B8vAodiNTjAY5-RPxNreS2tQ2tk6NEZd239NClxhsZAx7-EDhU29lig>)
 

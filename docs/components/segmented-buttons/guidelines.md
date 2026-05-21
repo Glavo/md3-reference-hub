@@ -2,7 +2,7 @@
 title: "Segmented buttons"
 source_url: "https://m3.material.io/components/segmented-buttons/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/c34371b7149d-lw7mlxdq-1.png"
@@ -179,6 +179,6 @@ _A segmented button can be placed on a bottom sheet_
 
 When using both icons and label text in segmented buttons, the icon label is replaced by the checkmark icon when the segment is selected.
 
-<video controls src="../../../assets/videos/d2d978288e50-lw8tx7wx-GM3-Components-SegmentedButtons-Guidelines-1-v01.mp4" title="Segmented button with icon and text labels with checkmark icon in selected segment"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8tx7wx-GM3-Components-SegmentedButtons-Guidelines-1-v01.mp4?alt=media&amp;token=5cad284b-7802-403c-99c4-cbfa0f04af8b" title="Segmented button with icon and text labels with checkmark icon in selected segment"></video>
 
-[Open video](../../../assets/videos/d2d978288e50-lw8tx7wx-GM3-Components-SegmentedButtons-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flw8tx7wx-GM3-Components-SegmentedButtons-Guidelines-1-v01.mp4?alt=media&token=5cad284b-7802-403c-99c4-cbfa0f04af8b>)

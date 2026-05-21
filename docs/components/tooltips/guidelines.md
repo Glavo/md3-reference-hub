@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/guidelines"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/fc4acead3529-me6qnzgx-01.png"
@@ -154,9 +154,9 @@ Both plain and rich tooltips disappear 1.5 seconds after navigating away from th
 
 Triggering a new tooltip immediately closes any other open tooltip.
 
-<video controls src="../../../assets/videos/f383c924f087-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4" title="Hovering and moving from a button with a plain tooltip."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4?alt=media&amp;token=72f5b4fc-4410-4e4b-84f2-2f601e6e4113" title="Hovering and moving from a button with a plain tooltip."></video>
 
-[Open video](../../../assets/videos/f383c924f087-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4?alt=media&token=72f5b4fc-4410-4e4b-84f2-2f601e6e4113>)
 
 ![2 buttons both showing plain tooltips at once.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6ro0ii-17-dont.png?alt=media&token=41b0681c-f04b-4767-b998-67f6b140a4ce>)
 

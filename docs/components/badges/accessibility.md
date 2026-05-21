@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/accessibility"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/a6a5ffaee75a-lvp03lg1-GM3-Components-Badges-Accessibility-1-v01.mp4"
@@ -31,9 +31,9 @@ Badges are most commonly used within other components, such as navigation bar, n
 
 When a badge is used to indicate an unread notification, the badge gets hidden once it's selected.
 
-<video controls src="../../../assets/videos/a6a5ffaee75a-lvp03lg1-GM3-Components-Badges-Accessibility-1-v01.mp4" title="An animation of a badge disappearing once it's tapped."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvp03lg1-GM3-Components-Badges-Accessibility-1-v01.mp4?alt=media&amp;token=b9cdb1a0-1689-4a26-bf91-3311b211f048" title="An animation of a badge disappearing once it's tapped."></video>
 
-[Open video](../../../assets/videos/a6a5ffaee75a-lvp03lg1-GM3-Components-Badges-Accessibility-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvp03lg1-GM3-Components-Badges-Accessibility-1-v01.mp4?alt=media&token=b9cdb1a0-1689-4a26-bf91-3311b211f048>)
 
 ## Visual indicators
 

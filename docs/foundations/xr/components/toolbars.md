@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/toolbars"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -78,9 +78,9 @@ _Padding for toolbar orbiters_
 
 A toolbar can appear in an orbiter for a more immersive experience. Currently, this spatial capability is only available in full space. In home space, use a regular toolbar on the same plane as the body content to mimic a 2D experience.
 
-<video controls src="../../../../assets/videos/e3b95b637861-moxe8vd0-toolbars-xr-06-(1).mp4" title="Animation showing a toolbar changing from 2D to 3D."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxe8vd0-toolbars-xr-06%20(1).mp4?alt=media&amp;token=2824457a-7cee-4649-801e-79cffd355aae" title="Animation showing a toolbar changing from 2D to 3D."></video>
 
-[Open video](../../../../assets/videos/e3b95b637861-moxe8vd0-toolbars-xr-06-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxe8vd0-toolbars-xr-06%20(1).mp4?alt=media&token=2824457a-7cee-4649-801e-79cffd355aae>)
 
 ## Behavior
 
@@ -90,9 +90,9 @@ When placed in local context, the toolbar orbiter is centered at the bottom of t
 
 It repositions in response to layout or content changes.
 
-<video controls src="../../../../assets/videos/447016b954d7-mp0wl8ix-toolbars-xr-07.mp4" title="A toolbar orbiter placed in local context."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0wl8ix-toolbars-xr-07.mp4?alt=media&amp;token=d27f646b-5bb6-4bfd-9e58-4b6cd3f6546f" title="A toolbar orbiter placed in local context."></video>
 
-[Open video](../../../../assets/videos/447016b954d7-mp0wl8ix-toolbars-xr-07.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0wl8ix-toolbars-xr-07.mp4?alt=media&token=d27f646b-5bb6-4bfd-9e58-4b6cd3f6546f>)
 
 ### Global context
 
@@ -100,9 +100,9 @@ When placed in global context, the toolbar orbiter is centered at the bottom of 
 
 It stays anchored to the app during layout or content changes.
 
-<video controls src="../../../../assets/videos/b249e5ea1ec0-mp0woole-toolbars-xr-08.mp4" title="A toolbar orbiter placed in global context."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0woole-toolbars-xr-08.mp4?alt=media&amp;token=15aa6f6b-377c-4aae-a7a2-a3af70f09055" title="A toolbar orbiter placed in global context."></video>
 
-[Open video](../../../../assets/videos/b249e5ea1ec0-mp0woole-toolbars-xr-08.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0woole-toolbars-xr-08.mp4?alt=media&token=15aa6f6b-377c-4aae-a7a2-a3af70f09055>)
 
 ### Expand & collapse
 
@@ -112,17 +112,17 @@ When a toolbar orbiter expands, it stays within the bounds of the adjacent spati
 
 Alternatively, more complex toolbars can be split into multiple toolbars.
 
-<video controls src="../../../../assets/videos/3b02bd720ae7-mp0wrkvj-toolbars-xr-09.mp4" title="A spatial panel with a Google document has a toolbar orbiter that expands from 5 to 10 items."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0wrkvj-toolbars-xr-09.mp4?alt=media&amp;token=6b1d51a9-3408-4ac9-bd5a-f204de662100" title="A spatial panel with a Google document has a toolbar orbiter that expands from 5 to 10 items."></video>
 
-[Open video](../../../../assets/videos/3b02bd720ae7-mp0wrkvj-toolbars-xr-09.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0wrkvj-toolbars-xr-09.mp4?alt=media&token=6b1d51a9-3408-4ac9-bd5a-f204de662100>)
 
 ### Additional toolbars
 
 In some cases, full space apps can have more than one toolbar orbiter, placed in either global or local context.
 
-<video controls src="../../../../assets/videos/7b1b5b93053a-mp0wtnt4-toolbars-xr-10.mp4" title="An app switches between 1 and 2 toolbar orbiters."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0wtnt4-toolbars-xr-10.mp4?alt=media&amp;token=fa37073a-17df-44b4-9443-913f6e4f2f09" title="An app switches between 1 and 2 toolbar orbiters."></video>
 
-[Open video](../../../../assets/videos/7b1b5b93053a-mp0wtnt4-toolbars-xr-10.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0wtnt4-toolbars-xr-10.mp4?alt=media&token=fa37073a-17df-44b4-9443-913f6e4f2f09>)
 
 ## Placement
 

@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.9.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-9-0"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/f440c627bc54-4lVyZj_pYByZSDxuL1o-us6nihWwgD9F5d6HjS6IyP4uxtSO-P3WNqA48hWSVq70q5riU9cJGXCGjbrmFp6KCk-G9MAXyZGe.png"
@@ -24,7 +24,7 @@ Fast on the heels of Google I/O, we’re happy to announce the release of Materi
 
 The new Carousel component allows you to create experiences like photo galleries and interact with lists of items in more flexible ways than a `RecyclerView`.
 
-[Video: animated carousel](../../assets/videos/0401dcc0021f-carousel-animation.mp4)
+[Video: animated carousel](https://kstatic.googleusercontent.com/files/e584c6e0e54dc6c7e5fe4b80fcc93a6f1de49fce23eb4ea7473134ea848dbf99285e512a2b855519185cb7a5fb22f1555abb63d3760396c0e1c66721ed698b1c)
 
 It uses `RecyclerView` as a core so you can rest assured that it will be performant and integrate easily into your designs.
 

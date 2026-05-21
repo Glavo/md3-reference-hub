@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/cc13cedade94-mm28azl5-GM3-Search-Bar-Specs-01-3P-v02.mp4"
@@ -36,9 +36,9 @@ Search lets people enter a keyword or phrase to get relevant information
 
 ## Variants
 
-<video controls src="../../../assets/videos/cc13cedade94-mm28azl5-GM3-Search-Bar-Specs-01-3P-v02.mp4" title="Typing “Ping” into a search bar reveals a list of email results."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm28azl5-GM3%20-%20Search%20Bar%20-%20Specs%2001%20-%203P%20-%20v02.mp4?alt=media&amp;token=c021590d-7b43-4a69-bff1-1e4f9a20090d" title="Typing “Ping” into a search bar reveals a list of email results."></video>
 
-[Open video](../../../assets/videos/cc13cedade94-mm28azl5-GM3-Search-Bar-Specs-01-3P-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmm28azl5-GM3%20-%20Search%20Bar%20-%20Specs%2001%20-%203P%20-%20v02.mp4?alt=media&token=c021590d-7b43-4a69-bff1-1e4f9a20090d>)
 
 | Variant | M3 | M3 Expressive |
 | --- | --- | --- |

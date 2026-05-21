@@ -2,7 +2,7 @@
 title: "Chips"
 source_url: "https://m3.material.io/components/chips/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/eddf4f105b99-m8smcq59-01.png"
@@ -250,13 +250,13 @@ Assist chips can trigger an action or show progress and confirmation.
 
 Write assist chips like buttons: start with a verb. Adjust text dynamically if the state changes, like **Save** to **Saved**.
 
-<video controls src="../../../assets/videos/bf81547f8d2a-m6bar2g2-GM3-Components-Chips-Guidelines-1.1-3P-v01.mp4" title="3 assist chips labeled “Mail,” ”Messenger”, and “Video Chat” on a travel article."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6bar2g2-GM3-Components-Chips-Guidelines-1.1-3P-v01.mp4?alt=media&amp;token=15812d6f-42a4-4fe4-9812-5733219f2808" title="3 assist chips labeled “Mail,” ”Messenger”, and “Video Chat” on a travel article."></video>
 
-[Open video](../../../assets/videos/bf81547f8d2a-m6bar2g2-GM3-Components-Chips-Guidelines-1.1-3P-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6bar2g2-GM3-Components-Chips-Guidelines-1.1-3P-v01.mp4?alt=media&token=15812d6f-42a4-4fe4-9812-5733219f2808>)
 
-<video controls src="../../../assets/videos/60bac7238c45-m6af1abe-GM3-Components-Chips-Guidelines-1.2-v01.mp4" title="Assist chip showing confirmation upon selection."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6af1abe-GM3-Components-Chips-Guidelines-1.2-v01.mp4?alt=media&amp;token=1bd6a52b-bbba-46d0-b946-613396ca2cc9" title="Assist chip showing confirmation upon selection."></video>
 
-[Open video](../../../assets/videos/60bac7238c45-m6af1abe-GM3-Components-Chips-Guidelines-1.2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm6af1abe-GM3-Components-Chips-Guidelines-1.2-v01.mp4?alt=media&token=1bd6a52b-bbba-46d0-b946-613396ca2cc9>)
 
 Assist chips are displayed after primary content, such as below a card or persistently at the bottom of a screen.
 
@@ -298,9 +298,9 @@ Alternatively, a single chip can be selected. This offers an alternative to segm
 
 However, avoid mixing chip set behaviors. All chip sets on a page should be either single-select or multi-select.
 
-<video controls src="../../../assets/videos/995e11865270-m8zkgr9j-GM3_Chips_Guideline_36_IA_v01.mp4" title=" filter chips labeled “Extra soft”, “Soft”, “Medium”, and “Hard” First, the “Extra soft” chip is selected, then it unselects as the “Medium” chip is selected."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8zkgr9j-GM3_Chips_Guideline_36_IA_v01.mp4?alt=media&amp;token=5c0b8311-4de3-482b-a20b-a5251b0596b0" title=" filter chips labeled “Extra soft”, “Soft”, “Medium”, and “Hard” First, the “Extra soft” chip is selected, then it unselects as the “Medium” chip is selected."></video>
 
-[Open video](../../../assets/videos/995e11865270-m8zkgr9j-GM3_Chips_Guideline_36_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8zkgr9j-GM3_Chips_Guideline_36_IA_v01.mp4?alt=media&token=5c0b8311-4de3-482b-a20b-a5251b0596b0>)
 
 In medium and expanded window sizes, filter chips may contain a trailing icon to directly remove the chip or open a menu of options.
 
@@ -316,9 +316,9 @@ _Filter chips can open a menu for more filtering options_
 
 When combined with a menu, the filter chip opens a list of selectable options.
 
-<video controls src="../../../assets/videos/e4161778f7ed-m8zkn8ku-GM3_Chips_Guideline_39_IA_v01.mp4" title="In a trail selector mobile app, a person selects the whole chip to change the menu selection from Walking to Cycling. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8zkn8ku-GM3_Chips_Guideline_39_IA_v01.mp4?alt=media&amp;token=c626d3e1-6080-48f3-95d3-23abf456ae84" title="In a trail selector mobile app, a person selects the whole chip to change the menu selection from Walking to Cycling. "></video>
 
-[Open video](../../../assets/videos/e4161778f7ed-m8zkn8ku-GM3_Chips_Guideline_39_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8zkn8ku-GM3_Chips_Guideline_39_IA_v01.mp4?alt=media&token=c626d3e1-6080-48f3-95d3-23abf456ae84>)
 
 Filter chips can be used with other components, such as search fields and sheets.
 
@@ -354,13 +354,13 @@ _Input chips transform text based on a person's input_
 
 Input chips can support editing to change their contents, such as correcting an email address. In edit mode, the chip reverts back to a text string. Editing can be triggered by interacting with the chip, either by selecting it or by a second interaction after selection.
 
-<video controls src="../../../assets/videos/2ffd9ad04892-m6baqmrn-GM3-Components-Chips-Guidelines-4-3P-v01.mp4" title="Contact transformed into input chip in the “To” filed of an email draft."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6baqmrn-GM3-Components-Chips-Guidelines-4-3P-v01.mp4?alt=media&amp;token=2569f33b-b367-47b3-a977-5b2b379f29ec" title="Contact transformed into input chip in the “To” filed of an email draft."></video>
 
-[Open video](../../../assets/videos/2ffd9ad04892-m6baqmrn-GM3-Components-Chips-Guidelines-4-3P-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6baqmrn-GM3-Components-Chips-Guidelines-4-3P-v01.mp4?alt=media&token=2569f33b-b367-47b3-a977-5b2b379f29ec>)
 
-<video controls src="../../../assets/videos/5f066459d1e2-m8spbow8-GM3_Chips_Guideline_49_IA_v01.mp4" title="Animation showing selection of chip with backspace key."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8spbow8-GM3_Chips_Guideline_49_IA_v01.mp4?alt=media&amp;token=049c59f7-5794-4c95-8a75-2db52a697eaa" title="Animation showing selection of chip with backspace key."></video>
 
-[Open video](../../../assets/videos/5f066459d1e2-m8spbow8-GM3_Chips_Guideline_49_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8spbow8-GM3_Chips_Guideline_49_IA_v01.mp4?alt=media&token=049c59f7-5794-4c95-8a75-2db52a697eaa>)
 
 A single field can contain multiple input chips. These chips can be reordered or moved into other fields.
 
@@ -374,9 +374,9 @@ _Input chips being moved from one field to another_
 
 Input chips can expand to show more information or options. A container transform transition pattern is used to reveal additional content.
 
-<video controls src="../../../assets/videos/c491b837a7c5-m6baqa1g-GM3-Components-Chips-Guidelines-6-3P-v01.mp4" title="Contact input chip expands to show multiple email addresses for that contact"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6baqa1g-GM3-Components-Chips-Guidelines-6-3P-v01.mp4?alt=media&amp;token=3578c258-6cc2-47e3-ab3c-b561e7eae8d9" title="Contact input chip expands to show multiple email addresses for that contact"></video>
 
-[Open video](../../../assets/videos/c491b837a7c5-m6baqa1g-GM3-Components-Chips-Guidelines-6-3P-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6baqa1g-GM3-Components-Chips-Guidelines-6-3P-v01.mp4?alt=media&token=3578c258-6cc2-47e3-ab3c-b561e7eae8d9>)
 
 ### Placement
 
@@ -392,9 +392,9 @@ They can appear:
 
 _Input chips can wrap to a new row if all chips need to be visible_
 
-<video controls src="../../../assets/videos/19f2b422da94-m8zkwi4x-GM3_Chips_Guideline_58-3P-_IA_v01.mp4" title="3 input chips horizontally scrolling."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8zkwi4x-GM3_Chips_Guideline_58%20-%203P%20-_IA_v01.mp4?alt=media&amp;token=cf7cc6f3-c5fd-4a6e-a1c6-0a96cb50baac" title="3 input chips horizontally scrolling."></video>
 
-[Open video](../../../assets/videos/19f2b422da94-m8zkwi4x-GM3_Chips_Guideline_58-3P-_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm8zkwi4x-GM3_Chips_Guideline_58%20-%203P%20-_IA_v01.mp4?alt=media&token=cf7cc6f3-c5fd-4a6e-a1c6-0a96cb50baac>)
 
 ### Icons & images
 
@@ -417,9 +417,9 @@ _Input chips can be a more flexible way to filter search results, compared to fi
 
 _Input chips make it easier to add and remove contacts_
 
-<video controls src="../../../assets/videos/45d952463814-m8so4v60-GM3_Chips_Guideline_64_IA_v01.mp4" title="Animation of overflowed chips in a text field."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8so4v60-GM3_Chips_Guideline_64_IA_v01.mp4?alt=media&amp;token=a9f33551-7c2b-43e9-8fb1-967498afa01d" title="Animation of overflowed chips in a text field."></video>
 
-[Open video](../../../assets/videos/45d952463814-m8so4v60-GM3_Chips_Guideline_64_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8so4v60-GM3_Chips_Guideline_64_IA_v01.mp4?alt=media&token=a9f33551-7c2b-43e9-8fb1-967498afa01d>)
 
 ## Suggestion chips
 

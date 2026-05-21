@@ -2,7 +2,7 @@
 title: "What’s new at Google I/O 2026"
 source_url: "https://m3.material.io/blog/whats-new-at-io26"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/06f720059c08-G43IvlJGVU11dBAU71P9RY24Ps5l4Ea7GjzZz26tiDF25ayml6gkwjmXKQWryF5vcByAtg_2X3aorc3g5cw6bMUrD6rlwpAr.png"
@@ -95,7 +95,7 @@ Expressive search has a new visual style, motion, more flexibility for trailing 
 
 [Expressive search app bar](../components/app-bars/overview.md)
 
-[Video: A recipe search with “Search recipes” hinted text, “Mexican dishes” is entered, then results appear in a list.](../../assets/videos/827e8e136ff0-GM3_-_Search_Bar_-_Overview_02_-v2.mp4)
+[Video: A recipe search with “Search recipes” hinted text, “Mexican dishes” is entered, then results appear in a list.](https://kstatic.googleusercontent.com/files/972ba37c1f857dab8dd18bf16ae8aee3a7dacb13b58142726f5c79c4768f2244f49f7bcfe294c3639ece02a0a2b632568eb5ea95382f4a5a5b02989fb7284cee)
 
 ## Learn about Google Design
 
@@ -107,7 +107,7 @@ Behind the scenes of Jetpack Compose Glimmer, the new design system for display 
 
 [Read the story on Google Design](https://design.google/library/transparent-screens)
 
-[Video: A message overlayed on a view of the Golden Gate Bridge, using AI glasses.](../../assets/videos/7908cea7e9fb-00_Design-Hub_Hero_2X_16x9.mp4)
+[Video: A message overlayed on a view of the Golden Gate Bridge, using AI glasses.](https://kstatic.googleusercontent.com/files/025520f0f4a5d3570295a2bb2d850aa4de825ea49875cbd71764def76ec430c01c99a818c9835b94a0f85f1c5584f1ec07a8c21d712a22d1b4eab3b62a3d4fba)
 
 ### Illustrating the Gemini App
 
@@ -115,4 +115,4 @@ How dynamic cues help people discover, learn, and master an AI assistant's evolv
 
 [Read the story on Google Design](https://design.google/library/gemini-ai-visual-design)
 
-[Video: Animated visual cues for gestures, motion, iconography, UI, and color.](../../assets/videos/9a64e2097a0f-1_IllustratingGemini-16x9.mp4)
+[Video: Animated visual cues for gestures, motion, iconography, UI, and color.](https://kstatic.googleusercontent.com/files/22ac66996edac9ad65cb9815da517171fa5308aad2bc014c3970ed872e4b511fb48853522bf4f031b9d236dd7edb13707bfa9a4235fc292a42777e1365a3df1b)

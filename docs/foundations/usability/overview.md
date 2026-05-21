@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/overview"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/f2410487f3ca-mejie2v2-Hero-image.png"
@@ -79,9 +79,9 @@ Group related elements in subtle containers to make them easier to understand. B
 
 Motion emphasizes key moments or unique experiences. However, use it sparingly since motion can be distracting.
 
-<video controls src="../../../assets/videos/27f1cbc5d40f-mhjgvjyu-GM3_Usability_Aura-app-Flower-only_IA_v01.mp4" title="The flower expands and contracts"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjgvjyu-GM3_Usability_Aura%20app%20Flower%20only_IA_v01.mp4?alt=media&amp;token=50f9ca3e-ebae-473b-bdfd-d0a876507b32" title="The flower expands and contracts"></video>
 
-[Open video](../../../assets/videos/27f1cbc5d40f-mhjgvjyu-GM3_Usability_Aura-app-Flower-only_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjgvjyu-GM3_Usability_Aura%20app%20Flower%20only_IA_v01.mp4?alt=media&token=50f9ca3e-ebae-473b-bdfd-d0a876507b32>)
 
 ### Shape & shape morph
 

@@ -2,7 +2,7 @@
 title: "Layout overview"
 source_url: "https://m3.material.io/foundations/layout/layout-overview/parts-of-layout"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/014ba3740cfc-mp3yuwss-01.png"
@@ -135,9 +135,9 @@ Drag handles can be used to resize panes in a layout. They can:
 
 -   Fully collapse and expand fixed panes to quickly switch between a single and two-pane layout
 
-<video controls src="../../../../assets/videos/fbcc34496b23-mp4771l5-GM3_Applaying-Layout_Understanding_Part_11_IA_v01.mp4" title="A drag handle is used to collapse a two-pane layout into a single-pane layout."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4771l5-GM3_Applaying%20Layout_Understanding_Part_11_IA_v01.mp4?alt=media&amp;token=3f0901d9-f02d-417c-b4cc-08937a5710ef" title="A drag handle is used to collapse a two-pane layout into a single-pane layout."></video>
 
-[Open video](../../../../assets/videos/fbcc34496b23-mp4771l5-GM3_Applaying-Layout_Understanding_Part_11_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4771l5-GM3_Applaying%20Layout_Understanding_Part_11_IA_v01.mp4?alt=media&token=3f0901d9-f02d-417c-b4cc-08937a5710ef>)
 
 ### Rulers
 

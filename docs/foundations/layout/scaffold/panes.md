@@ -2,7 +2,7 @@
 title: "Scaffold"
 source_url: "https://m3.material.io/foundations/layout/scaffold/panes"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/446eae9d32e5-mp3nyytv-13-key01.png"
@@ -77,9 +77,9 @@ Panes can be permanent or temporary. Temporary panes can appear and be dismissed
 
 _Panes can be displayed permanently side by side_
 
-<video controls src="../../../../assets/videos/c5430c566fb3-mp3o8609-GM3_Applying-Layouts_Co-planar-semi-permanent-06_IA_v01.mp4" title="Right pane with a close button being dismissed. The left pane fills the available space."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3o8609-GM3_Applying%20Layouts_Co-planar%20semi-permanent%2006_IA_v01.mp4?alt=media&amp;token=8b54a92e-2107-4890-a90f-6e3f11c3b858" title="Right pane with a close button being dismissed. The left pane fills the available space."></video>
 
-[Open video](../../../../assets/videos/c5430c566fb3-mp3o8609-GM3_Applying-Layouts_Co-planar-semi-permanent-06_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3o8609-GM3_Applying%20Layouts_Co-planar%20semi-permanent%2006_IA_v01.mp4?alt=media&token=8b54a92e-2107-4890-a90f-6e3f11c3b858>)
 
 ### Single-pane layouts
 
@@ -138,9 +138,9 @@ Panes can be resized, expanded, and collapsed using drag handles. 
 
 The drag handle should also toggle between layout sizes when selected. This can be a tap, double tap, or long press.
 
-<video controls src="../../../../assets/videos/9abeb50c3638-mp3omlsl-GM3_Applaying-Layout_Understanding_Part_09_IA_v01.mp4" title="A drag handle is used to collapse a two-pane layout into a single-pane layout."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3omlsl-GM3_Applaying%20Layout_Understanding_Part_09_IA_v01.mp4?alt=media&amp;token=c9b3b79a-dfb6-43f3-8e6e-244b5901f36a" title="A drag handle is used to collapse a two-pane layout into a single-pane layout."></video>
 
-[Open video](../../../../assets/videos/9abeb50c3638-mp3omlsl-GM3_Applaying-Layout_Understanding_Part_09_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3omlsl-GM3_Applaying%20Layout_Understanding_Part_09_IA_v01.mp4?alt=media&token=c9b3b79a-dfb6-43f3-8e6e-244b5901f36a>)
 
 At expanded, large, and extra-large breakpoints, two-pane layouts can be customized to snap to set widths when resized.
 
@@ -152,37 +152,37 @@ The recommended custom widths are:
 
 -   Split-pane with spacer centered visually
 
-<video controls src="../../../../assets/videos/13cb2d3c5c62-mp3ooyrc-GM3_Applaying-Layout_Understanding_Part_10_IA_v01.mp4" title="A drag handle adjusts the panes to recommended custom widths."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ooyrc-GM3_Applaying%20Layout_Understanding_Part_10_IA_v01.mp4?alt=media&amp;token=2898a68a-5da8-4f68-963f-8be20759fba7" title="A drag handle adjusts the panes to recommended custom widths."></video>
 
-[Open video](../../../../assets/videos/13cb2d3c5c62-mp3ooyrc-GM3_Applaying-Layout_Understanding_Part_10_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ooyrc-GM3_Applaying%20Layout_Understanding_Part_10_IA_v01.mp4?alt=media&token=2898a68a-5da8-4f68-963f-8be20759fba7>)
 
 ### Persistent pane resizing
 
 The persistent resizing behavior remembers a person's pane width preference. Use this for most resizable layouts.
 
-<video controls src="../../../../assets/videos/6b74d1420c6b-mp3org16-GM3_Applaying-Layout_Understanding_Part_11_IA_v01.mp4" title="Resizing the panes and then resetting the app preserves the set width."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3org16-GM3_Applaying%20Layout_Understanding_Part_11_IA_v01.mp4?alt=media&amp;token=bd9cc9d8-990c-4030-ad91-c25093fd808c" title="Resizing the panes and then resetting the app preserves the set width."></video>
 
-[Open video](../../../../assets/videos/6b74d1420c6b-mp3org16-GM3_Applaying-Layout_Understanding_Part_11_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3org16-GM3_Applaying%20Layout_Understanding_Part_11_IA_v01.mp4?alt=media&token=bd9cc9d8-990c-4030-ad91-c25093fd808c>)
 
 The width persists even after a breakpoint change. This means that if a two-pane layout is collapsed to one pane at any size, it’ll remain collapsed even when changing breakpoints.
 
-<video controls src="../../../../assets/videos/fc303d6438aa-mp3otau7-GM3_Applaying-Layout_Understanding_Part_12_IA_v02.mp4" title="Resizing the panes and then rotating a tablet back and forth preserves the set width."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3otau7-GM3_Applaying%20Layout_Understanding_Part_12_IA_v02.mp4?alt=media&amp;token=1aeccb08-d4c3-4cd8-90c2-b79246944eb4" title="Resizing the panes and then rotating a tablet back and forth preserves the set width."></video>
 
-[Open video](../../../../assets/videos/fc303d6438aa-mp3otau7-GM3_Applaying-Layout_Understanding_Part_12_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3otau7-GM3_Applaying%20Layout_Understanding_Part_12_IA_v02.mp4?alt=media&token=1aeccb08-d4c3-4cd8-90c2-b79246944eb4>)
 
 ### Temporary pane resizing
 
 The temporary resizing behavior doesn't remember a person’s preferences for pane width. This is primarily used in supporting pane layouts where resizing is uncommon.
 
-<video controls src="../../../../assets/videos/0fa2c6d6e347-mp5bgps3-GM3_Applaying-Layout_Understanding_Part_13_IA_v01.mp4" title="Resizing the panes and then closing the second pane resets the set width when expanded again."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bgps3-GM3_Applaying%20Layout_Understanding_Part_13_IA_v01.mp4?alt=media&amp;token=47e02955-4e23-43b3-8da3-ac589c943814" title="Resizing the panes and then closing the second pane resets the set width when expanded again."></video>
 
-[Open video](../../../../assets/videos/0fa2c6d6e347-mp5bgps3-GM3_Applaying-Layout_Understanding_Part_13_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bgps3-GM3_Applaying%20Layout_Understanding_Part_13_IA_v01.mp4?alt=media&token=47e02955-4e23-43b3-8da3-ac589c943814>)
 
 With temporary resizing, panes should always return to the default layout after the pane or product is closed and reopened. This ensures content is a suitable size for most interactions.
 
-<video controls src="../../../../assets/videos/221c2a1cf868-mp5bk7hu-lxx28ijn-GM3-Styles-Foundations-Layout-UnderstandingLayout-Parts-6-v02.mp4" title="Layouts with temporary resizing reset any custom widths to the default."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bk7hu-lxx28ijn-GM3-Styles-Foundations-Layout-UnderstandingLayout-Parts-6-v02.mp4?alt=media&amp;token=36004a49-bc33-4f4d-81d7-4cf7bd0a56c9" title="Layouts with temporary resizing reset any custom widths to the default."></video>
 
-[Open video](../../../../assets/videos/221c2a1cf868-mp5bk7hu-lxx28ijn-GM3-Styles-Foundations-Layout-UnderstandingLayout-Parts-6-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp5bk7hu-lxx28ijn-GM3-Styles-Foundations-Layout-UnderstandingLayout-Parts-6-v02.mp4?alt=media&token=36004a49-bc33-4f4d-81d7-4cf7bd0a56c9>)
 
 ## Displaying multiple panes
 
@@ -214,9 +214,9 @@ Pane layouts can adapt using three strategies: **show and hide, levitate,** or�
 
 As the breakpoint size or orientation changes, panes can enter and exit the screen or appear next to one another.
 
-<video controls src="../../../../assets/videos/5fe5c594527a-mp3p0wwo-GM3_Applying-Layouts_Understanding_Parts_Reflow_17_IA_V01.mp4" title="1 pane animates off-screen when the device is vertical, then reappears when horizontal."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3p0wwo-GM3_Applying%20Layouts_Understanding_Parts_Reflow_17_IA_V01.mp4?alt=media&amp;token=9983bea7-e42f-4bd4-bbd6-bbfb982759fb" title="1 pane animates off-screen when the device is vertical, then reappears when horizontal."></video>
 
-[Open video](../../../../assets/videos/5fe5c594527a-mp3p0wwo-GM3_Applying-Layouts_Understanding_Parts_Reflow_17_IA_V01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3p0wwo-GM3_Applying%20Layouts_Understanding_Parts_Reflow_17_IA_V01.mp4?alt=media&token=9983bea7-e42f-4bd4-bbd6-bbfb982759fb>)
 
 ### Levitate
 
@@ -231,9 +231,9 @@ Floating panes:
 
 When adding controls that resize or move a floating pane, provide accessible controls.
 
-<video controls src="../../../../assets/videos/7bd04211fe03-mp3p3knn-GM3_Applying-Layouts_Understanding_Parts_Reflow_18_IA_v01.mp4" title="1 pane floats on top of the other when the device changes to a vertical orientation."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3p3knn-GM3_Applying%20Layouts_Understanding_Parts_Reflow_18_IA_v01.mp4?alt=media&amp;token=801d93cf-65bb-47b1-96dc-d92f5dcf370e" title="1 pane floats on top of the other when the device changes to a vertical orientation."></video>
 
-[Open video](../../../../assets/videos/7bd04211fe03-mp3p3knn-GM3_Applying-Layouts_Understanding_Parts_Reflow_18_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3p3knn-GM3_Applying%20Layouts_Understanding_Parts_Reflow_18_IA_v01.mp4?alt=media&token=801d93cf-65bb-47b1-96dc-d92f5dcf370e>)
 
 On large screens:
 
@@ -249,15 +249,15 @@ Docked panes are usually at the bottom of the window, like a bottom sheet.
 
 At medium and expanded breakpoints, docked panes can adapt into floating panes.
 
-<video controls src="../../../../assets/videos/6bc452f4c16b-mp3rcrfk-GM3_Applying-Layouts_Understanding_Parts_Bottom-Sheet-to-Floating-Pane_19_IA_v01.mp4" title="A docked pane on mobile turning into a floating pane on desktop."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3rcrfk-GM3_Applying%20Layouts_Understanding_Parts_Bottom%20Sheet%20to%20Floating%20Pane_19_IA_v01.mp4?alt=media&amp;token=bceb6a76-5826-4102-abe8-39911dcf4fcd" title="A docked pane on mobile turning into a floating pane on desktop."></video>
 
-[Open video](../../../../assets/videos/6bc452f4c16b-mp3rcrfk-GM3_Applying-Layouts_Understanding_Parts_Bottom-Sheet-to-Floating-Pane_19_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3rcrfk-GM3_Applying%20Layouts_Understanding_Parts_Bottom%20Sheet%20to%20Floating%20Pane_19_IA_v01.mp4?alt=media&token=bceb6a76-5826-4102-abe8-39911dcf4fcd>)
 
 Alternatively, at medium and expanded breakpoints, a docked pane can adapt into a co-planar pane.
 
-<video controls src="../../../../assets/videos/b514a49c0392-mp3rfkvn-GM3_Applying-Layouts_Understanding_Parts_Bottom-Sheet-to-Co-planar-Pane_20_IA_v01.mp4" title="A docked pane on the lower half of a mobile screen changes to a co-planar pane on a larger screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3rfkvn-GM3_Applying%20Layouts_Understanding_Parts_Bottom%20Sheet%20to%20Co-planar%20Pane_20_IA_v01.mp4?alt=media&amp;token=17ef48a8-0b49-4cd6-8582-61c35f24f80d" title="A docked pane on the lower half of a mobile screen changes to a co-planar pane on a larger screen."></video>
 
-[Open video](../../../../assets/videos/b514a49c0392-mp3rfkvn-GM3_Applying-Layouts_Understanding_Parts_Bottom-Sheet-to-Co-planar-Pane_20_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3rfkvn-GM3_Applying%20Layouts_Understanding_Parts_Bottom%20Sheet%20to%20Co-planar%20Pane_20_IA_v01.mp4?alt=media&token=17ef48a8-0b49-4cd6-8582-61c35f24f80d>)
 
 On large screens, consider changing docked panes into co-planar panes.
 
@@ -271,15 +271,15 @@ Panes can be reorganized on screen as the breakpoint or orientation changes, als
 
 For example, in a vertical orientation, the supporting pane can move underneath the primary pane.
 
-<video controls src="../../../../assets/videos/0bb611c61232-mp3skf28-GM3_Applying-Layouts_Understanding_Parts_Reflow_23_IA_v01.mp4" title="A supporting pane changes orientation and location as the screen changes orientation. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3skf28-GM3_Applying%20Layouts_Understanding_Parts_Reflow_23_IA_v01.mp4?alt=media&amp;token=7df7dd3b-c257-4705-9d84-dfa333cf7ee0" title="A supporting pane changes orientation and location as the screen changes orientation. "></video>
 
-[Open video](../../../../assets/videos/0bb611c61232-mp3skf28-GM3_Applying-Layouts_Understanding_Parts_Reflow_23_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3skf28-GM3_Applying%20Layouts_Understanding_Parts_Reflow_23_IA_v01.mp4?alt=media&token=7df7dd3b-c257-4705-9d84-dfa333cf7ee0>)
 
 Reflow also applies to breakpoints. When there’s not enough horizontal space for panes, they can stack vertically instead.
 
-<video controls src="../../../../assets/videos/02b6ca9259fe-mp3smk3l-GM3_Applying-Layouts_Understanding_Parts_Reflow-wsc-Change-24_-IA_v01.mp4" title="A supporting pane on the right side of a large horizontal screen moves to the bottom of a vertical small screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3smk3l-GM3_Applying%20Layouts_Understanding_Parts_Reflow%20wsc%20Change%2024_%20IA_v01.mp4?alt=media&amp;token=eae1b187-6655-48dc-9436-c8a9c1ae9fb2" title="A supporting pane on the right side of a large horizontal screen moves to the bottom of a vertical small screen."></video>
 
-[Open video](../../../../assets/videos/02b6ca9259fe-mp3smk3l-GM3_Applying-Layouts_Understanding_Parts_Reflow-wsc-Change-24_-IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3smk3l-GM3_Applying%20Layouts_Understanding_Parts_Reflow%20wsc%20Change%2024_%20IA_v01.mp4?alt=media&token=eae1b187-6655-48dc-9436-c8a9c1ae9fb2>)
 
 ## Spatial panels
 

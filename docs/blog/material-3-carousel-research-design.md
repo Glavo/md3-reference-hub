@@ -2,7 +2,7 @@
 title: "Reinventing the carousel"
 source_url: "https://m3.material.io/blog/material-3-carousel-research-design"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/40150c26b331-Aye14jOntTfsKdL9I63t77P6_JpKMBsG8Pw2GWdz6wuIpzGtiQtR_45EsDWJcTygvMOW_NT0SjWtuUkKsISNf9QH28LIsIFx.png"
@@ -33,7 +33,7 @@ _"[Carousel longshot Philly](https://upload.wikimedia.org/wikipedia/commons/a/a2
 
 No, not _that_ type of carousel! What we’re referring to is the carousel component - a pattern that you’ve probably seen many times across desktop or mobile devices. Consider this ubiquitous carousel:
 
-[Video: material 3 carousel component on a vertical screen](../../assets/videos/33dbe5963fda-Carousel_motion_-_playlist.mp4)
+[Video: material 3 carousel component on a vertical screen](https://kstatic.googleusercontent.com/files/ac6972a66851452f3490fb8a7765e552384297077e63dc5af8ffcf1e0ab88f817d36cc9e781fafadd87abf031fba22a6387f1e9575fadb75845fbe61f9135b8b)
 
 A carousel component is a rotating array of content that allows users to scroll horizontally to view a list of items that aren't immediately visible on the screen–for example, recipes, videos, and news.
 
@@ -49,7 +49,7 @@ When we built the new Material Design carousel, we took into account all these p
 2.  From this baseline, we set out to build something that could support existing use cases while also embracing a more usable, accessible, and expressive design. Our designers incorporated aspects of Material Design’s [shape system](https://m3.material.io/styles/shape/overview), embracing a visual style that makes the carousel component more consistent and cohesive with other aspects of Material Design’d products. We also sought to incorporate aspects from the Material [motion system](https://m3.material.io/styles/motion/overview), aiming to ensure that interacting with the component just feels right, responsive and alive.
 3.  Beyond the visual style, our designers also reimagined the interaction pattern for a modern carousel. We varied the peek size—the size of the last visible element on a carousel—to more effectively communicate to users, “There’s more content here!” We modified the container shape of items within the carousel, allowing us to maximize the number of items shown, while also providing a visual hierarchy to help the user focus on the most important things. And although the smallest items don't show the full picture, the cropped carousel container can still highlight the most salient part of the carousel item.
 
-[Video: Material 3 carousel component on blue background](../../assets/videos/833207293dbc-1P-carousel_behavior_overview-1.mp4)
+[Video: Material 3 carousel component on blue background](https://kstatic.googleusercontent.com/files/14f27301775a6b8eee1db676295d94f16d42181bfb2f4a63fb1f2af8b15fdac29839c9dd6e24adfa092713c1cf85eab1e85d570107e7a84f2988922fec5a48dc)
 
 Throughout all these explorations, our primary goal was to ensure that the carousel was easy to use, easy to understand, and—if we can be so bold— delightful, expressive, and fun to use!
 

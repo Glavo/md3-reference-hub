@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/accessibility"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/aa4cedab2b70-magv3srk-1.png"
@@ -48,9 +48,9 @@ _Avoid using when the contrast is under 3:1_
 
 Pull-to-refresh interactions can’t be accessible by just swiping. Provide an alternate way to refresh the content with a single pointer, such as placing a refresh button in a menu or directly alongside the content.
 
-<video controls src="../../../assets/videos/1eca82867f73-mbf509tn-GM3_Expressive_Loading-Indicator_Accesibility_16_04_v01.mp4" title="Refreshing content initiated by an app bar action."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmbf509tn-GM3_Expressive_Loading-Indicator_Accesibility_16_04_v01.mp4?alt=media&amp;token=2b731444-164e-4a5e-8dfe-b892b6b9dc6f" title="Refreshing content initiated by an app bar action."></video>
 
-[Open video](../../../assets/videos/1eca82867f73-mbf509tn-GM3_Expressive_Loading-Indicator_Accesibility_16_04_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmbf509tn-GM3_Expressive_Loading-Indicator_Accesibility_16_04_v01.mp4?alt=media&token=2b731444-164e-4a5e-8dfe-b892b6b9dc6f>)
 
 ## Labeling elements
 

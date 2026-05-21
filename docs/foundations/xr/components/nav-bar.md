@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/nav-bar"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -58,9 +58,9 @@ _Navigation bar orbiter padding and measurements_
 
 In full space, a navigation bar can appear in an orbiter for a more immersive experience. Currently, spatial capabilities, such as orbiters, are only available in full space. In home space, use a regular navigation bar on the same plane as the body content to mimic a 2D experience.
 
-<video controls src="../../../../assets/videos/6bd31dee3904-m4cj01s5-navbar_01.mp4" title="Interface showcasing navigation bar behavior and placement when transitioning from a 2D to 3D experience."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4cj01s5-navbar_01.mp4?alt=media&amp;token=598ad15c-e79d-4684-bcda-a2eaf0f76071" title="Interface showcasing navigation bar behavior and placement when transitioning from a 2D to 3D experience."></video>
 
-[Open video](../../../../assets/videos/6bd31dee3904-m4cj01s5-navbar_01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4cj01s5-navbar_01.mp4?alt=media&token=598ad15c-e79d-4684-bcda-a2eaf0f76071>)
 
 ## Behavior
 
@@ -68,17 +68,17 @@ In full space, a navigation bar can appear in an orbiter for a more immersive e
 
 When placed in global context, the navigation bar orbiter is centered at the bottom of the app it controls. It stays anchored to the app during layout or content changes. This ensures navigation elements are easy to find and use.
 
-<video controls src="../../../../assets/videos/bf26ceec7a10-mp0xfkl2-navbar_07.mp4" title="A navigation bar orbiter placed in global context."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0xfkl2-navbar_07.mp4?alt=media&amp;token=204309ca-e287-47b0-b809-cf98d19d1881" title="A navigation bar orbiter placed in global context."></video>
 
-[Open video](../../../../assets/videos/bf26ceec7a10-mp0xfkl2-navbar_07.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp0xfkl2-navbar_07.mp4?alt=media&token=204309ca-e287-47b0-b809-cf98d19d1881>)
 
 ### Local context
 
 When placed in local context, the navigation bar orbiter is centered at the bottom of the spatial panel it controls. It repositions in response to layout or content changes.
 
-<video controls src="../../../../assets/videos/8161b687921f-ma4aas8k-XR_Nav-Bar_Behavior_02_V02.mp4" title="A navigation bar orbiter placed in local context."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma4aas8k-XR_Nav-Bar_Behavior_02_V02.mp4?alt=media&amp;token=3fb3e553-5fc0-426a-8c0d-5c6275ab064f" title="A navigation bar orbiter placed in local context."></video>
 
-[Open video](../../../../assets/videos/8161b687921f-ma4aas8k-XR_Nav-Bar_Behavior_02_V02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fma4aas8k-XR_Nav-Bar_Behavior_02_V02.mp4?alt=media&token=3fb3e553-5fc0-426a-8c0d-5c6275ab064f>)
 
 ## Placement
 
@@ -93,25 +93,25 @@ The position of the navigation bar orbiter should communicate its navigational c
 
 A navigation bar orbiter can either overlap or be positioned adjacent to spatial panels with a 20dp margin for visual separation.
 
-<video controls src="../../../../assets/videos/5be5d626a044-moxalxwd-navbar_02.mp4" title="Navigation bar orbiter offset and inset positioning."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxalxwd-navbar_02.mp4?alt=media&amp;token=bf9cf606-d1f6-4bdc-b555-a6c1bfb5c10b" title="Navigation bar orbiter offset and inset positioning."></video>
 
-[Open video](../../../../assets/videos/5be5d626a044-moxalxwd-navbar_02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxalxwd-navbar_02.mp4?alt=media&token=bf9cf606-d1f6-4bdc-b555-a6c1bfb5c10b>)
 
 ### Inset positioning
 
 Don’t obstruct content. To ensure a balanced and uncluttered layout, a navigation bar orbiter should overlap spatial panels by 12dp and no more than half their height.
 
-<video controls src="../../../../assets/videos/c0ed48709f37-moxaokg7-navbar_04.mp4" title="Navigation bar orbiter inset positioning beyond the 12dp recommendation."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxaokg7-navbar_04.mp4?alt=media&amp;token=b226855d-f99c-4e69-b64b-a394911579aa" title="Navigation bar orbiter inset positioning beyond the 12dp recommendation."></video>
 
-[Open video](../../../../assets/videos/c0ed48709f37-moxaokg7-navbar_04.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxaokg7-navbar_04.mp4?alt=media&token=b226855d-f99c-4e69-b64b-a394911579aa>)
 
 ### Horizontal alignment
 
 The navigation bar orbiter placement shouldn't exceed the width of adjacent spatial panels.
 
-<video controls src="../../../../assets/videos/24737cd373b3-moxaqxbc-navbar_05.mp4" title="Nav bar orbiter placement that exceeds the width of its spatial panel."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxaqxbc-navbar_05.mp4?alt=media&amp;token=2dc24b69-cf71-45d0-afbf-ca41f39f2f1e" title="Nav bar orbiter placement that exceeds the width of its spatial panel."></video>
 
-[Open video](../../../../assets/videos/24737cd373b3-moxaqxbc-navbar_05.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxaqxbc-navbar_05.mp4?alt=media&token=2dc24b69-cf71-45d0-afbf-ca41f39f2f1e>)
 
 ### Spatial panel alignment
 
@@ -121,9 +121,9 @@ Their placement can be adjusted to accommodate specific needs, such as improved 
 
 Avoid placing the navigation bar orbiter at the top of a spatial panel, as this area is typically reserved for app bar orbiters or other critical UI elements.
 
-<video controls src="../../../../assets/videos/13a4822d5db1-moxaupni-navbar_06.mp4" title="Nav bar orbiter incorrectly placed above a spatial panel."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxaupni-navbar_06.mp4?alt=media&amp;token=3c9ac7c4-18a7-43d4-9e1d-81457cbfd801" title="Nav bar orbiter incorrectly placed above a spatial panel."></video>
 
-[Open video](../../../../assets/videos/13a4822d5db1-moxaupni-navbar_06.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxaupni-navbar_06.mp4?alt=media&token=3c9ac7c4-18a7-43d4-9e1d-81457cbfd801>)
 
 ## Accessibility considerations
 

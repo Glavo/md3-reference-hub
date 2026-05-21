@@ -2,7 +2,7 @@
 title: "How to Reduce Layout Reflow When Using Web Fonts"
 source_url: "https://m3.material.io/blog/reduce-reflow-with-web-fonts"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/c96d9cb4a15d-95NJbbjo3Rvp4XIU4q1H76ANliAnf8Y8J6n7lUjF69MNz3-LE6UypCUlf3_yX4oWmLytCn1_B_0bt4w3bQUlTndWb7Jq98o8.png"

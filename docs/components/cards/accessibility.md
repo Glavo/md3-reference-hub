@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/05253f4916f8-lwuobzmz-1.png"
@@ -43,9 +43,9 @@ When a user taps on a directly actionable card, a touch ripple appears across th
 
 Non-actionable cards don’t ripple.
 
-<video controls src="../../../assets/videos/5acaf6325378-lwuonrmp-GM3-Components-Cards-Accessibility-1-v01-3.21.14-PM.mp4" title="Ripple effect created when tapping on a card."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuonrmp-GM3-Components-Cards-Accessibility-1-v01%203.21.14%E2%80%AFPM.mp4?alt=media&amp;token=98280acb-35c0-466e-8b8c-a8301adbd956" title="Ripple effect created when tapping on a card."></video>
 
-[Open video](../../../assets/videos/5acaf6325378-lwuonrmp-GM3-Components-Cards-Accessibility-1-v01-3.21.14-PM.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuonrmp-GM3-Components-Cards-Accessibility-1-v01%203.21.14%E2%80%AFPM.mp4?alt=media&token=98280acb-35c0-466e-8b8c-a8301adbd956>)
 
 ### Dragging and dismissing
 
@@ -53,9 +53,9 @@ To meet Material's accessibility standards, any dragging and swiping interaction
 
 For example, tapping a card, or pressing and holding, should open a menu to change its position in a list. That menu could also contain an action to delete the card.
 
-<video controls src="../../../assets/videos/efc6bbe15771-m6gok77f-Components-Cards-Accessibility-1-v01-(1).mp4" title="A list of cards has its order reshuffled using a single-pointer option."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6gok77f-Components-Cards-Accessibility-1-v01%20(1).mp4?alt=media&amp;token=1d8244ec-d550-41e5-8cde-ef41ffb5d001" title="A list of cards has its order reshuffled using a single-pointer option."></video>
 
-[Open video](../../../assets/videos/efc6bbe15771-m6gok77f-Components-Cards-Accessibility-1-v01-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm6gok77f-Components-Cards-Accessibility-1-v01%20(1).mp4?alt=media&token=1d8244ec-d550-41e5-8cde-ef41ffb5d001>)
 
 It isn’t recommended to place menus on top of the card on the draggable state. If doing so is necessary, ensure that the interaction can be completed.
 
@@ -69,9 +69,9 @@ When a directly actionable card is hovered, the hover state provides a visual cu
 
 When a directly actionable card is clicked, a ripple appears, providing feedback.
 
-<video controls src="../../../assets/videos/20ab9fe510a6-lwuoolew-GM3-Components-Cards-Accessibility-2-v01-3.24.03-PM.mp4" title="Hover state and touch ripple effect of a card."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuoolew-GM3-Components-Cards-Accessibility-2-v01%203.24.03%E2%80%AFPM.mp4?alt=media&amp;token=2d157501-1a56-4c87-afa9-bfcc84685d50" title="Hover state and touch ripple effect of a card."></video>
 
-[Open video](../../../assets/videos/20ab9fe510a6-lwuoolew-GM3-Components-Cards-Accessibility-2-v01-3.24.03-PM.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuoolew-GM3-Components-Cards-Accessibility-2-v01%203.24.03%E2%80%AFPM.mp4?alt=media&token=2d157501-1a56-4c87-afa9-bfcc84685d50>)
 
 ### Keyboard
 
@@ -83,9 +83,9 @@ When engaging with a focused actionable card or element using the **Space** or *
 
 Within the menu, a person is able to **Arrow** through the menu items, **Space** or **Enter** to select an item, or **Tab** to exit.
 
-<video controls src="../../../assets/videos/fb65c366b40e-lwuop9fg-GM3-Components-Cards-Accessibility-3-v01.mp4" title="Navigating cards with a keyboard."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuop9fg-GM3-Components-Cards-Accessibility-3-v01.mp4?alt=media&amp;token=e9ed72c1-14d5-438a-9db4-7356c58e9d8b" title="Navigating cards with a keyboard."></video>
 
-[Open video](../../../assets/videos/fb65c366b40e-lwuop9fg-GM3-Components-Cards-Accessibility-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuop9fg-GM3-Components-Cards-Accessibility-3-v01.mp4?alt=media&token=e9ed72c1-14d5-438a-9db4-7356c58e9d8b>)
 
 ## Focus
 

@@ -2,7 +2,7 @@
 title: "Selection"
 source_url: "https://m3.material.io/foundations/interaction/selection"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/70fe9c1e77cf-m1qhf1tb-1.png"
@@ -83,9 +83,9 @@ To select an item and enter selection mode, long press the item or use a shortcu
 
 To exit a selection mode, tap each selected item until they’re unselected, or tap an action on the toolbar.
 
-<video controls src="../../../assets/videos/459fc0d66720-lwvozn9v-GM3-Foundations-Interaction-Selection-Guidelines-2-v02.mp4" title="List items are tapped to select and unselect them."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvozn9v-GM3-Foundations-Interaction-Selection-Guidelines-2-v02.mp4?alt=media&amp;token=ab793705-f19c-433b-a4e7-4c704da83472" title="List items are tapped to select and unselect them."></video>
 
-[Open video](../../../assets/videos/459fc0d66720-lwvozn9v-GM3-Foundations-Interaction-Selection-Guidelines-2-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvozn9v-GM3-Foundations-Interaction-Selection-Guidelines-2-v02.mp4?alt=media&token=ab793705-f19c-433b-a4e7-4c704da83472>)
 
 ### Larger selections
 

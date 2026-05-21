@@ -2,7 +2,7 @@
 title: "Unveiling Material You"
 source_url: "https://m3.material.io/blog/announcing-material-you"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/88253ec5a315-552oGSlinN0Gd7T8EjNkYGCBzHt0UmoG_pWtHSUY6FwaGT4q4-zJlGHD9rWO7MT5Oe_rtQZmyVnGRxVXch7Q1CTSQMs_1Tcw.png"
@@ -26,7 +26,7 @@ Today at I/O we unveiled Material You, a radical new way to think about design. 
 
 ## Material You embraces emotion and expressiveness
 
-[Video: Video](../../assets/videos/313bc47caba2-3.5_Material-You-v100.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/f925638d73101f91d11db39e191ec6ed4101ee96c063283ddc4ea1f01b7d1ebe3ae360c124448d5759a7ecfbcb05af96cf746122ee3b898b4bf7db8d6882de1c)
 
 When we introduced Material Design in 2014, our vision was to help make technology simple and beautiful for everyone, and to rationalize experiences across mobile and the web. The challenge today has broadened. Computing continues to grow with more screens appearing in more areas of our lives. Also, users are demanding more expressiveness and control over their personal devices. They’re seeking experiences that are more than just practical and functional—experiences that also evoke emotion.
 
@@ -34,7 +34,7 @@ Designers across Google from Hardware, Android, and App teams came together to r
 
 ## Personal for every style
 
-[Video: Video](../../assets/videos/1d713e3441c4-4_Material-You-v100.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/e07831809bfeeef1acd74cc5fbf20fc2974984c7e011f01e3df62c96a5a18b309af71e58e01a07ae89e30d7243e692affcf8fbf159fe0e078e35612d0851e8ea)
 
 Users customize their desktops in the physical and digital worlds with images that are personal and provide comfort and joy. We built upon this insight to generate unique Material palettes for everyone, derived from a personal signal—wallpaper—that can be applied to their entire experience.
 
@@ -42,7 +42,7 @@ We mix color science with years of investment in the disciplines of interaction 
 
 ## Alive & Adaptive for every screen
 
-[Video: Video](../../assets/videos/0e5471d6e195-4.5_morph-V106.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/c9170367bc4cc632b580d2adb6ef2dc7ce7b2d7a1033ce00a86866989e59014a6eba496b34e5ba63c782b65069d9486ec7403c95cfd830de843450222c069c83)
 
 As technology has moved into different aspects of people’s lives, apps have been challenged to adapt to new screen sizes, device types, input modalities, and context. The ways in which technology responds to this challenge will determine how it is perceived by people.
 
@@ -50,7 +50,7 @@ In addition to making it easy to adapt to different screen sizes and types, Mate
 
 ## Accessible for every need
 
-[Video: Video](../../assets/videos/afa818be8597-5_Inclusive-Design-11_V101.mp4)
+[Video: Video](https://kstatic.googleusercontent.com/files/9430d9604eff1ecd370d688cb57eb95781e546279ed9bbb04c15dd0b80881c564addc8aaed5d37b3a5fc656b1fc673cfbd25c4b6a08b9d3e7ea396808f00ba20)
 
 Accessibility is core to Google’s mission. We recognize that some people have ongoing accessibility needs, and others have situational needs that require UIs to adapt. Our ambition is to solve this universally—for all people, in all places. By sharing control of contrast, size, and line width, with a contextually aware system that can customize UIs in more ways than previously possible, we can tailor a UI for every user.
 

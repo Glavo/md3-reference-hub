@@ -2,7 +2,7 @@
 title: "Split buttons"
 source_url: "https://m3.material.io/components/split-button/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/28c9184a918d-m4ilqvqh-Split-Button-B.mp4"
@@ -18,9 +18,9 @@ Split buttons open a menu to give people more options related to an action
 -   Use to show an action with a menu of related actions
 -   Same size range as buttons and icon buttons: XS, S, M, L, XL
 
-<video controls src="../../../assets/videos/28c9184a918d-m4ilqvqh-Split-Button-B.mp4" title="An extra large split button. It has a label and icon on one part of the button, and a menu icon on the other part."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4ilqvqh-Split-Button-B.mp4?alt=media&amp;token=2a33379b-01c6-44e5-926a-4af1b897652b" title="An extra large split button. It has a label and icon on one part of the button, and a menu icon on the other part."></video>
 
-[Open video](../../../assets/videos/28c9184a918d-m4ilqvqh-Split-Button-B.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4ilqvqh-Split-Button-B.mp4?alt=media&token=2a33379b-01c6-44e5-926a-4af1b897652b>)
 
 ## Availability & resources
 

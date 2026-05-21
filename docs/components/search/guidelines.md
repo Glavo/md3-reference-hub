@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/fa840541e836-mlfkefwf-GM3-Search-Bar-Guidelines-01-v02.mp4"
@@ -45,9 +45,9 @@ Search lets people enter a keyword or phrase to get relevant information
 
 ## Guidelines
 
-<video controls src="../../../assets/videos/fa840541e836-mlfkefwf-GM3-Search-Bar-Guidelines-01-v02.mp4" title="A mobile UI search with hinted text “Search recipes”, “Mexican dishes” is entered, and a list of recipe results appear."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfkefwf-GM3%20-%20Search%20Bar%20-%20Guidelines%2001%20-%20v02.mp4?alt=media&amp;token=5e327f53-cfd2-4860-8f1f-4cd819f7b34f" title="A mobile UI search with hinted text “Search recipes”, “Mexican dishes” is entered, and a list of recipe results appear."></video>
 
-[Open video](../../../assets/videos/fa840541e836-mlfkefwf-GM3-Search-Bar-Guidelines-01-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfkefwf-GM3%20-%20Search%20Bar%20-%20Guidelines%2001%20-%20v02.mp4?alt=media&token=5e327f53-cfd2-4860-8f1f-4cd819f7b34f>)
 
 ## Usage
 
@@ -258,9 +258,9 @@ Provide a short description of the information people can search, like **Search 
 
 When a person starts typing, the hinted text is replaced with the input text.
 
-<video controls src="../../../assets/videos/767a51c45738-mlfngra0-GM3-Search-Bar-Guidelines-20-v02.mp4" title="A search bar labeled “Search replies”. “Peanut is entered and “Quick results” appear."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfngra0-GM3%20-%20Search%20Bar%20-%20Guidelines%2020%20-%20v02.mp4?alt=media&amp;token=c8f9d59f-1e34-4530-9a39-dab7ce72dff2" title="A search bar labeled “Search replies”. “Peanut is entered and “Quick results” appear."></video>
 
-[Open video](../../../assets/videos/767a51c45738-mlfngra0-GM3-Search-Bar-Guidelines-20-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfngra0-GM3%20-%20Search%20Bar%20-%20Guidelines%2020%20-%20v02.mp4?alt=media&token=c8f9d59f-1e34-4530-9a39-dab7ce72dff2>)
 
 ## Adaptive design
 
@@ -275,9 +275,9 @@ In most cases, a search bar should:
 
 [More on applying layout](https://m3.material.io/m3/pages/layout-overview/)
 
-<video controls src="../../../assets/videos/2b93d4c1b026-mlfnplfk-GM3-Search-Bar-Guidelines-24-v01.mp4" title="A search bar keeps its layout region and scales with different window sizes and layouts."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfnplfk-GM3%20-%20Search%20Bar%20-%20Guidelines%2024%20-%20v01.mp4?alt=media&amp;token=dbd513fe-e17b-4f4b-8787-ac6e98995bce" title="A search bar keeps its layout region and scales with different window sizes and layouts."></video>
 
-[Open video](../../../assets/videos/2b93d4c1b026-mlfnplfk-GM3-Search-Bar-Guidelines-24-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfnplfk-GM3%20-%20Search%20Bar%20-%20Guidelines%2024%20-%20v01.mp4?alt=media&token=dbd513fe-e17b-4f4b-8787-ac6e98995bce>)
 
 ### Focused search
 
@@ -296,9 +296,9 @@ _A docked layout on a large screen; A full-screen layout, the default for compac
 
 Search suggestions or results should swap from full-screen in compact windows to docked in larger window sizes.
 
-<video controls src="../../../assets/videos/5e7e702516d5-mlfo0cyf-GM3-Search-Bar-Guidelines-26-v02.mp4" title="Animation shows search suggestions adapting from full-screen on mobile to a docked layout as the window size increases."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfo0cyf-GM3%20-%20Search%20Bar%20-%20Guidelines%2026%20-%20v02.mp4?alt=media&amp;token=bdee5106-fe0c-4807-a558-1d11626b2248" title="Animation shows search suggestions adapting from full-screen on mobile to a docked layout as the window size increases."></video>
 
-[Open video](../../../assets/videos/5e7e702516d5-mlfo0cyf-GM3-Search-Bar-Guidelines-26-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlfo0cyf-GM3%20-%20Search%20Bar%20-%20Guidelines%2026%20-%20v02.mp4?alt=media&token=bdee5106-fe0c-4807-a558-1d11626b2248>)
 
 ## Behavior
 
@@ -315,13 +315,13 @@ When a search bar is selected, search becomes focused and can:
 
 The **back** icon releases focus, dismisses any suggestions or results, and returns the search bar to its original state.
 
-<video controls src="../../../assets/videos/49bdf0611a2a-mlgr7r58-GM3-Search-Bar-Guidelines-27-v02.mp4" title="When a search bar is tapped, it becomes focused, and suggestions appear in a list. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgr7r58-GM3%20-%20Search%20Bar%20-%20Guidelines%2027%20-%20v02.mp4?alt=media&amp;token=e0bc001e-3c87-4f5e-8ef7-f63e007e00ca" title="When a search bar is tapped, it becomes focused, and suggestions appear in a list. "></video>
 
-[Open video](../../../assets/videos/49bdf0611a2a-mlgr7r58-GM3-Search-Bar-Guidelines-27-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgr7r58-GM3%20-%20Search%20Bar%20-%20Guidelines%2027%20-%20v02.mp4?alt=media&token=e0bc001e-3c87-4f5e-8ef7-f63e007e00ca>)
 
-<video controls src="../../../assets/videos/18636f3ff023-mlgr95m2-GM3-Search-Bar-Guidelines-30-v01.mp4" title="A person searches a photo app. The back icon returns the search bar to its original state."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgr95m2-GM3%20-%20Search%20Bar%20-%20Guidelines%2030%20-%20v01.mp4?alt=media&amp;token=05d76d3e-302b-4f96-ba5a-12999c829d2b" title="A person searches a photo app. The back icon returns the search bar to its original state."></video>
 
-[Open video](../../../assets/videos/18636f3ff023-mlgr95m2-GM3-Search-Bar-Guidelines-30-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgr95m2-GM3%20-%20Search%20Bar%20-%20Guidelines%2030%20-%20v01.mp4?alt=media&token=05d76d3e-302b-4f96-ba5a-12999c829d2b>)
 
 ### Scroll
 
@@ -331,9 +331,9 @@ Depending on needs, a search bar can:
 
 -   Remain fixed at the top of the screen
 
-<video controls src="../../../assets/videos/a41c05e8842f-mlgrahif-GM3-Search-Bar-Guidelines-29-v01.mp4" title="Scrolling up hides the search bar. It reappears when scrolling down."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgrahif-GM3%20-%20Search%20Bar%20-%20Guidelines%2029%20-%20v01.mp4?alt=media&amp;token=3326f168-fa15-43f8-95f0-259760cfb0bb" title="Scrolling up hides the search bar. It reappears when scrolling down."></video>
 
-[Open video](../../../assets/videos/a41c05e8842f-mlgrahif-GM3-Search-Bar-Guidelines-29-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgrahif-GM3%20-%20Search%20Bar%20-%20Guidelines%2029%20-%20v01.mp4?alt=media&token=3326f168-fa15-43f8-95f0-259760cfb0bb>)
 
 ### Search results
 
@@ -354,9 +354,9 @@ _Show search results in a compact, organized list, with an indicator like Quick 
 
 When search results are queried, the input text should remain visible, but not in focus.
 
-<video controls src="../../../assets/videos/951908e75e03-mlgrdhl9-GM3-Search-Bar-Guidelines-33-v02.mp4" title="“Pla” is entered into the search bar, “Plants” is suggested and selected."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgrdhl9-GM3%20-%20Search%20Bar%20-%20Guidelines%2033%20-%20v02.mp4?alt=media&amp;token=823169dd-7cb6-4ef2-abc3-152fb758d30a" title="“Pla” is entered into the search bar, “Plants” is suggested and selected."></video>
 
-[Open video](../../../assets/videos/951908e75e03-mlgrdhl9-GM3-Search-Bar-Guidelines-33-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgrdhl9-GM3%20-%20Search%20Bar%20-%20Guidelines%2033%20-%20v02.mp4?alt=media&token=823169dd-7cb6-4ef2-abc3-152fb758d30a>)
 
 ### Predictive back
 
@@ -369,6 +369,6 @@ On Android, [predictive back](https://github.com/material-components/material-c
 
 [More predictive back design guidance](https://developer.android.com/guide/navigation/custom-back/predictive-back-gesture)
 
-<video controls src="../../../assets/videos/fbf421fb5345-mlgrejsr-GM3-Search-Bar-Guidelines-34-v02.mp4" title="Swiping left on search causes the Android screen to scale left."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgrejsr-GM3%20-%20Search%20Bar%20-%20Guidelines%2034%20-%20v02.mp4?alt=media&amp;token=aed3f171-531b-4e45-a363-dd8dc7938193" title="Swiping left on search causes the Android screen to scale left."></video>
 
-[Open video](../../../assets/videos/fbf421fb5345-mlgrejsr-GM3-Search-Bar-Guidelines-34-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlgrejsr-GM3%20-%20Search%20Bar%20-%20Guidelines%2034%20-%20v02.mp4?alt=media&token=aed3f171-531b-4e45-a363-dd8dc7938193>)

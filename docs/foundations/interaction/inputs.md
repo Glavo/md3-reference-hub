@@ -2,7 +2,7 @@
 title: "Inputs"
 source_url: "https://m3.material.io/foundations/interaction/inputs"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/3345346605b4-lwvoasbb-1.png"
@@ -213,29 +213,29 @@ When an external mouse or touchpad is used, the mouse wheel and trackpad gesture
 
 When a cursor is positioned on a list, the mouse wheel and two-finger touchpad gesture should allow vertical scrolling of the list.
 
-<video controls src="../../../assets/videos/d0a75072d9c5-lwyimd28-GM3-Foundations-Interaction-Inputs-Guidelines-1-v01.mp4" title="Stationary cursor over a scrolling field controlled by a mouse wheel or trackpad."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyimd28-GM3-Foundations-Interaction-Inputs-Guidelines-1-v01.mp4?alt=media&amp;token=e453e95b-714b-40bf-a625-b56df2ddc7e8" title="Stationary cursor over a scrolling field controlled by a mouse wheel or trackpad."></video>
 
-[Open video](../../../assets/videos/d0a75072d9c5-lwyimd28-GM3-Foundations-Interaction-Inputs-Guidelines-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyimd28-GM3-Foundations-Interaction-Inputs-Guidelines-1-v01.mp4?alt=media&token=e453e95b-714b-40bf-a625-b56df2ddc7e8>)
 
 ### Touch scroll & mouse text selection
 
 Upon touch and drag gesture, the text area will scroll. With a mouse interaction, dragging in a text area will select the text.
 
-<video controls src="../../../assets/videos/d41aa379dabc-lwyinkvl-GM3-Foundations-Interaction-Inputs-Guidelines-2-1-v01.mp4" title="Animation of a swipe gesture to scroll the screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyinkvl-GM3-Foundations-Interaction-Inputs-Guidelines-2-1-v01.mp4?alt=media&amp;token=89770d63-2edd-41d8-b685-6800b9b78242" title="Animation of a swipe gesture to scroll the screen."></video>
 
-[Open video](../../../assets/videos/d41aa379dabc-lwyinkvl-GM3-Foundations-Interaction-Inputs-Guidelines-2-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyinkvl-GM3-Foundations-Interaction-Inputs-Guidelines-2-1-v01.mp4?alt=media&token=89770d63-2edd-41d8-b685-6800b9b78242>)
 
-<video controls src="../../../assets/videos/e3c0d03cb870-lwyioh3s-GM3-Foundations-Interaction-Inputs-Guidelines-2-2-v01.mp4" title="Animation showing a dragging gesture with a mouse to select text and image."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyioh3s-GM3-Foundations-Interaction-Inputs-Guidelines-2-2-v01.mp4?alt=media&amp;token=4d672035-b6d3-4b9a-8b44-8bfce0704b5e" title="Animation showing a dragging gesture with a mouse to select text and image."></video>
 
-[Open video](../../../assets/videos/e3c0d03cb870-lwyioh3s-GM3-Foundations-Interaction-Inputs-Guidelines-2-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyioh3s-GM3-Foundations-Interaction-Inputs-Guidelines-2-2-v01.mp4?alt=media&token=4d672035-b6d3-4b9a-8b44-8bfce0704b5e>)
 
 ### Horizontal scroll
 
 Mouse users should be able to scroll with a mouse wheel to navigate horizontally scrolling fields. Trackpad users should be able to scroll using a two-finger horizontal gesture.
 
-<video controls src="../../../assets/videos/03bf17359603-lwyipb8r-GM3-Foundations-Interaction-Inputs-Guidelines-3-v01.mp4" title="A news feed of horizontally scrolling cards."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyipb8r-GM3-Foundations-Interaction-Inputs-Guidelines-3-v01.mp4?alt=media&amp;token=a8764711-9075-4402-854c-846901d78f12" title="A news feed of horizontally scrolling cards."></video>
 
-[Open video](../../../assets/videos/03bf17359603-lwyipb8r-GM3-Foundations-Interaction-Inputs-Guidelines-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyipb8r-GM3-Foundations-Interaction-Inputs-Guidelines-3-v01.mp4?alt=media&token=a8764711-9075-4402-854c-846901d78f12>)
 
 ## Physical keyboard
 
@@ -259,17 +259,17 @@ _When a physical keyboard is removed, show the virtual keyboard_
 
 People typically expect the **E****nter** key on a physical keyboard to be enabled by developers to allow a common function like sending a message.
 
-<video controls src="../../../assets/videos/50860ee9d6d7-lwyiq9rm-GM3-Foundations-Interaction-Inputs-Guidelines-4-v01.mp4" title="A message being typed into a chat, and sent using the Enter key."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyiq9rm-GM3-Foundations-Interaction-Inputs-Guidelines-4-v01.mp4?alt=media&amp;token=75c7d071-fac7-4a86-a05c-94e4cc01b20c" title="A message being typed into a chat, and sent using the Enter key."></video>
 
-[Open video](../../../assets/videos/50860ee9d6d7-lwyiq9rm-GM3-Foundations-Interaction-Inputs-Guidelines-4-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyiq9rm-GM3-Foundations-Interaction-Inputs-Guidelines-4-v01.mp4?alt=media&token=75c7d071-fac7-4a86-a05c-94e4cc01b20c>)
 
 #### Spacebar control
 
 People typically expect the **Spacebar** (or available media keys) to be enabled to play and pause music or video.
 
-<video controls src="../../../assets/videos/122d052eb30c-lwyirw27-GM3-Foundations-Interaction-Inputs-Guidelines-5-v01.mp4" title="A video being paused and resumed by pressing the Spacebar. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyirw27-GM3-Foundations-Interaction-Inputs-Guidelines-5-v01.mp4?alt=media&amp;token=2fffdde8-09e9-4295-8d58-c267d2dda7b2" title="A video being paused and resumed by pressing the Spacebar. "></video>
 
-[Open video](../../../assets/videos/122d052eb30c-lwyirw27-GM3-Foundations-Interaction-Inputs-Guidelines-5-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwyirw27-GM3-Foundations-Interaction-Inputs-Guidelines-5-v01.mp4?alt=media&token=2fffdde8-09e9-4295-8d58-c267d2dda7b2>)
 
 #### Tab focus
 
@@ -289,14 +289,14 @@ _The focus state moves elements as the user presses Tab on their keyboard_
 
 People typically expect the **Escape** key on a physical keyboard to dismiss elements, remove focus, or clear selections.
 
-<video controls src="../../../assets/videos/909eb10ff5b6-mb9r9yci-G_Foundations_Interaction+Inputs_1_IA_v04-(1).mp4" title="Escape key dismisses menu."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmb9r9yci-G_Foundations_Interaction%2BInputs_1_IA_v04%20(1).mp4?alt=media&amp;token=e874ca18-ce94-4a97-9b69-40ebba6348fd" title="Escape key dismisses menu."></video>
 
-[Open video](../../../assets/videos/909eb10ff5b6-mb9r9yci-G_Foundations_Interaction+Inputs_1_IA_v04-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmb9r9yci-G_Foundations_Interaction%2BInputs_1_IA_v04%20(1).mp4?alt=media&token=e874ca18-ce94-4a97-9b69-40ebba6348fd>)
 
-<video controls src="../../../assets/videos/db8b14d17a52-mb9rakzb-G_Foundations_Interaction+Inputs_2_IA_v02-(1).mp4" title="Escape key removes focus indicator from icon."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmb9rakzb-G_Foundations_Interaction%2BInputs_2_IA_v02%20(1).mp4?alt=media&amp;token=3b6d50da-6e7b-4848-a09f-cd36e054f1bf" title="Escape key removes focus indicator from icon."></video>
 
-[Open video](../../../assets/videos/db8b14d17a52-mb9rakzb-G_Foundations_Interaction+Inputs_2_IA_v02-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmb9rakzb-G_Foundations_Interaction%2BInputs_2_IA_v02%20(1).mp4?alt=media&token=3b6d50da-6e7b-4848-a09f-cd36e054f1bf>)
 
-<video controls src="../../../assets/videos/8a8c006d81f1-mb9rbhsj-G_Foundations_Interaction+Inputs_3-_IA_v02-(1).mp4" title="Escape key dismisses text cursor and leaves text itself unchanged."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmb9rbhsj-G_Foundations_Interaction%2BInputs_3%20_IA_v02%20(1).mp4?alt=media&amp;token=b625aabb-99e8-4ef2-ac78-684da460843f" title="Escape key dismisses text cursor and leaves text itself unchanged."></video>
 
-[Open video](../../../assets/videos/8a8c006d81f1-mb9rbhsj-G_Foundations_Interaction+Inputs_3-_IA_v02-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmb9rbhsj-G_Foundations_Interaction%2BInputs_3%20_IA_v02%20(1).mp4?alt=media&token=b625aabb-99e8-4ef2-ac78-684da460843f>)

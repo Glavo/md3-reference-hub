@@ -2,7 +2,7 @@
 title: "Navigation bar"
 source_url: "https://m3.material.io/components/navigation-bar/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/b3d9706bcad6-malqgvk7-01.png"
@@ -219,9 +219,9 @@ _Don’t cover the navigation bar with a FAB_
 
 Navigation bars can be temporarily covered by dialogs, bottom sheets, navigation drawers, the on-screen keyboard, or other elements needed to complete a flow. They should not be permanently obstructed on any screen.
 
-<video controls src="../../../assets/videos/cac8997e4217-malo9ujs-GM3_Expressive_NavBar_Guidelines_26_IA_v01.mp4" title="The navigation bar being covered by a bottom sheet when users take an action on screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalo9ujs-GM3_Expressive_NavBar_Guidelines_26_IA_v01.mp4?alt=media&amp;token=1b324715-0dd9-42e9-8e69-9db76d751482" title="The navigation bar being covered by a bottom sheet when users take an action on screen."></video>
 
-[Open video](../../../assets/videos/cac8997e4217-malo9ujs-GM3_Expressive_NavBar_Guidelines_26_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalo9ujs-GM3_Expressive_NavBar_Guidelines_26_IA_v01.mp4?alt=media&token=1b324715-0dd9-42e9-8e69-9db76d751482>)
 
 ## Adaptive design
 
@@ -237,9 +237,9 @@ Only use navigation bars for compact and medium window size classes. 
 
 **Expanded and extra-large**: Use a navigation rail instead. Decide based on available window space and the number of navigation destinations.
 
-<video controls src="../../../assets/videos/275b18f4c376-malo6njn-GM3-Expressive_NavBar_Guidelines_Responsive-Layout_27_IA_v04.mp4" title="A music app with a nav bar adapting to larger screens, where it changes to horizontal items, and then into a nav rail."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalo6njn-GM3-Expressive_NavBar_Guidelines_Responsive%20Layout_27_IA_v04.mp4?alt=media&amp;token=4346c3f3-6720-40fc-b241-6124f46ac8f4" title="A music app with a nav bar adapting to larger screens, where it changes to horizontal items, and then into a nav rail."></video>
 
-[Open video](../../../assets/videos/275b18f4c376-malo6njn-GM3-Expressive_NavBar_Guidelines_Responsive-Layout_27_IA_v04.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalo6njn-GM3-Expressive_NavBar_Guidelines_Responsive%20Layout_27_IA_v04.mp4?alt=media&token=4346c3f3-6720-40fc-b241-6124f46ac8f4>)
 
 The navigation bar container spans 100% of the window width.
 
@@ -274,18 +274,18 @@ When selecting a navigation bar item not currently selected, the product navigat
 
 Choose the behavior that best suits the product and user needs. For example, an app that requires frequent switching between sections should preserve each section’s state.
 
-<video controls src="../../../assets/videos/c838f72ea86c-m0fpu2iy-C-Switch-Destination-RENDER-2x_240821.mp4" title="After selecting an item on the bottom navigation bar, the app navigates to that destination’s screen"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fpu2iy-C%20-%20Switch%20Destination%20-%20RENDER%202x_240821.mp4?alt=media&amp;token=50e8bd7e-2bcd-4dd7-a194-b803a7137d1a" title="After selecting an item on the bottom navigation bar, the app navigates to that destination’s screen"></video>
 
-[Open video](../../../assets/videos/c838f72ea86c-m0fpu2iy-C-Switch-Destination-RENDER-2x_240821.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fpu2iy-C%20-%20Switch%20Destination%20-%20RENDER%202x_240821.mp4?alt=media&token=50e8bd7e-2bcd-4dd7-a194-b803a7137d1a>)
 
 Re-selecting the currently active destination should reset the scroll position to the top of the page.
 
 **Don't swipe between destinations**
 Swiping across the screen does not navigate between destinations, and is not supported by the navigation bar. Swipe behavior should be reserved for related items, such as cards in a carousel, or actions such as archiving a list item.
 
-<video controls src="../../../assets/videos/a8a6ea11e8d2-malod84x-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_32_IA_V04.mp4" title="Selecting the currently active nav item scrolls the page content back to the top."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalod84x-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_32_IA_V04.mp4?alt=media&amp;token=146d9009-6749-4879-a3a9-b29b6d86ca98" title="Selecting the currently active nav item scrolls the page content back to the top."></video>
 
-[Open video](../../../assets/videos/a8a6ea11e8d2-malod84x-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_32_IA_V04.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalod84x-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_32_IA_V04.mp4?alt=media&token=146d9009-6749-4879-a3a9-b29b6d86ca98>)
 
 ### Scrolling
 
@@ -293,9 +293,9 @@ Upon scroll, the navigation bar can appear or disappear. 
 
 Don’t hide the navigation bar on scroll when a [screen reader](../../foundations/overview/assistive-technology.md#ec6f3e84-a51c-4dc0-a353-6844f5bde698) is active.
 
-<video controls src="../../../assets/videos/b2f63bf5aceb-maloebec-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_33_IA_V04.mp4" title="When scrolling on the page, the nav bar scrolls the opposite direction off screen."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmaloebec-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_33_IA_V04.mp4?alt=media&amp;token=3b80dfa3-d1a9-4330-8b78-1d38be618dfc" title="When scrolling on the page, the nav bar scrolls the opposite direction off screen."></video>
 
-[Open video](../../../assets/videos/b2f63bf5aceb-maloebec-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_33_IA_V04.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmaloebec-GM3_Expressive_Nav-Bar_Guidelines_Behavior_Scrolling_33_IA_V04.mp4?alt=media&token=3b80dfa3-d1a9-4330-8b78-1d38be618dfc>)
 
 ### Selection
 
@@ -303,12 +303,12 @@ The icon becomes filled and the active indicator expands from the center of the 
 
 The active indicator animation should only apply on one axis to better represent a flat, shared plane.
 
-<video controls src="../../../assets/videos/e9f572541e1f-malof0yh-GM3-Expressive_NavBar_Guidelines_34_IA_v01.mp4" title="The active indicator expands from the target when a destination is selected"></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalof0yh-GM3-Expressive_NavBar_Guidelines_34_IA_v01.mp4?alt=media&amp;token=2efedef2-c086-486c-8fa1-4ac81b66a0a1" title="The active indicator expands from the target when a destination is selected"></video>
 
-[Open video](../../../assets/videos/e9f572541e1f-malof0yh-GM3-Expressive_NavBar_Guidelines_34_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmalof0yh-GM3-Expressive_NavBar_Guidelines_34_IA_v01.mp4?alt=media&token=2efedef2-c086-486c-8fa1-4ac81b66a0a1>)
 
 When a destination is tapped, the destination screens use a [top level](../../styles/motion/transitions/transition-patterns.md#f852afd2-396f-49fd-a265-5f6d96680e16) transition pattern. In addition, the icon becomes filled and the active indicator expands from the center of the icon.
 
-<video controls src="../../../assets/videos/d73b852ca214-m0fq2m3b-G-CU-Destination-Change-RENDER-2x_240821.mp4" title="Selecting the home item changes the entire page contents."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fq2m3b-G%20-%20CU%20Destination%20Change%20-%20RENDER%202x_240821.mp4?alt=media&amp;token=a08ab4a0-f0e0-44ad-aebe-3d3494280338" title="Selecting the home item changes the entire page contents."></video>
 
-[Open video](../../../assets/videos/d73b852ca214-m0fq2m3b-G-CU-Destination-Change-RENDER-2x_240821.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fq2m3b-G%20-%20CU%20Destination%20Change%20-%20RENDER%202x_240821.mp4?alt=media&token=a08ab4a0-f0e0-44ad-aebe-3d3494280338>)

@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/applying-icons"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/0bb108f96569-mltewg4l-3p-icons-simple-sm.png"
@@ -117,9 +117,9 @@ Each style symbol contains four axes: **weight, fill, grade,** and **optical siz
 
 Weight defines the symbol’s stroke weight, with a range of weights between thin (100) and bold (700). Weight can also affect the overall size of the symbol.
 
-<video controls src="../../../assets/videos/da6658cbc1a2-lxyimvha-GM3-Styles-Icons-GoogleSymbols-2-v01.mp4" title="Gradual increase of symbols from thin to bold."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyimvha-GM3-Styles-Icons-GoogleSymbols-2-v01.mp4?alt=media&amp;token=c379962f-5a9f-440a-b111-6d689f84c399" title="Gradual increase of symbols from thin to bold."></video>
 
-[Open video](../../../assets/videos/da6658cbc1a2-lxyimvha-GM3-Styles-Icons-GoogleSymbols-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyimvha-GM3-Styles-Icons-GoogleSymbols-2-v01.mp4?alt=media&token=c379962f-5a9f-440a-b111-6d689f84c399>)
 
 ![400 regular-weight icons used in standard navigation drawer and modal navigation drawer.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmltfgz8n-4.png?alt=media&token=e77da1e3-db63-4ea1-a212-2cde29b88cfc>)
 
@@ -155,9 +155,9 @@ _Unfilled symbols with fill set to 0_
 
 _Filled symbols with fill set to 1_
 
-<video controls src="../../../assets/videos/81de75cee3b3-lxyion1g-GM3-Styles-Icons-GoogleSymbols-5-v01.mp4" title="Four filled symbols in selected and unselected states set in bottom navigation."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyion1g-GM3-Styles-Icons-GoogleSymbols-5-v01.mp4?alt=media&amp;token=0b4383fb-41da-4f3f-91ef-a8fcc7408e8d" title="Four filled symbols in selected and unselected states set in bottom navigation."></video>
 
-[Open video](../../../assets/videos/81de75cee3b3-lxyion1g-GM3-Styles-Icons-GoogleSymbols-5-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyion1g-GM3-Styles-Icons-GoogleSymbols-5-v01.mp4?alt=media&token=0b4383fb-41da-4f3f-91ef-a8fcc7408e8d>)
 
 ### Grade
 
@@ -197,9 +197,9 @@ _Four optical sizes, 20dp, 24dp, 40dp, 48dp_
 
 Traditionally, icons are resized from a 24dp source vector, resulting in a large scaled icon that’s too heavy compared to the original. With the optical size axis, you can maintain the stroke weight (thickness) as the icon size grows.
 
-<video controls src="../../../assets/videos/ea8ed5db6f57-lxyiqgos-GM3-Styles-Icons-GoogleSymbols-6-v01.mp4" title="Side-by-side scaling view showing a Material icon and a Material Symbol."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyiqgos-GM3-Styles-Icons-GoogleSymbols-6-v01.mp4?alt=media&amp;token=bf6a692a-102b-47fb-856a-a2ee6aaeb051" title="Side-by-side scaling view showing a Material icon and a Material Symbol."></video>
 
-[Open video](../../../assets/videos/ea8ed5db6f57-lxyiqgos-GM3-Styles-Icons-GoogleSymbols-6-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyiqgos-GM3-Styles-Icons-GoogleSymbols-6-v01.mp4?alt=media&token=bf6a692a-102b-47fb-856a-a2ee6aaeb051>)
 
 ![Desktop dropdown menu with icon in active state.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlhj7jch-18.png?alt=media&token=d577305e-e1f3-4621-a1a1-0f2151a6fded>)
 

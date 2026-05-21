@@ -2,7 +2,7 @@
 title: "Time pickers"
 source_url: "https://m3.material.io/components/time-pickers/accessibility"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/7f2c9604eb68-md2w3xxn-01.png"

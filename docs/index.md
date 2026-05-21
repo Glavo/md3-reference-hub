@@ -2,7 +2,7 @@
 title: "Homepage - Material Design"
 source_url: "https://m3.material.io/"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "home"
 assets:
   - "assets/images/69f4898c4363-BoNssU4yW1fSjpblBYpAuB917yBmYolbBt6rAoS71E5nZ02XHhnUihBAU2TZolfrx8ijsez4r_8ohTucyt9OBaqy59WxuTvW.png"

@@ -2,7 +2,7 @@
 title: "Jamie Chung’s Artful, Abstract Photographs for Material Design"
 source_url: "https://m3.material.io/blog/jamie-chung-photography-interview"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "blog"
 assets:
   - "assets/images/3ad327234849-Bpc-BQmoN7s4SYpy-mhECVQ_XC_lFbAd3UI5UdFjlUcXCeuJRE5YLTGMKNLNK3xsv5w6am2atebuetvxgoa61fpElqv9O94I.png"

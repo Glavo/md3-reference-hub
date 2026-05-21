@@ -2,7 +2,7 @@
 title: "Split buttons"
 source_url: "https://m3.material.io/components/split-button/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/99689c6aaafe-m36akp9w-1.png"
@@ -101,9 +101,9 @@ The split button uses the standard motion scheme (not the expressive motion sche
 
 The menu button rotates inwards 180° when opened and closed.
 
-<video controls src="../../../assets/videos/1dc5bd65c839-m4ilqjvz-Split-Button-B.mp4" title="The trailing menu button spins 180° to point up, and applies a 10% state layer when selected."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4ilqjvz-Split-Button-B.mp4?alt=media&amp;token=0dbfe0fc-ca7b-4e12-afd7-60a6cceb140a" title="The trailing menu button spins 180° to point up, and applies a 10% state layer when selected."></video>
 
-[Open video](../../../assets/videos/1dc5bd65c839-m4ilqjvz-Split-Button-B.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4ilqjvz-Split-Button-B.mp4?alt=media&token=0dbfe0fc-ca7b-4e12-afd7-60a6cceb140a>)
 
 ### Menu placement
 

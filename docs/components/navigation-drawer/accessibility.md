@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/12dd17fec8ea-lwoqqvsf-GM3-Components-NavDrawer-Accessibility-1-v01.mp4"
@@ -46,9 +46,9 @@ Users should be able to: 
 -   The icon switches from outlined to filled
 -   The icon changes color, becoming darker
 
-<video controls src="../../../assets/videos/12dd17fec8ea-lwoqqvsf-GM3-Components-NavDrawer-Accessibility-1-v01.mp4" title="Active indicator and other visual cues appear when nav drawers are tapped."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqqvsf-GM3-Components-NavDrawer-Accessibility-1-v01.mp4?alt=media&amp;token=18c8c980-08e4-4182-86ec-63c02b1c4470" title="Active indicator and other visual cues appear when nav drawers are tapped."></video>
 
-[Open video](../../../assets/videos/12dd17fec8ea-lwoqqvsf-GM3-Components-NavDrawer-Accessibility-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqqvsf-GM3-Components-NavDrawer-Accessibility-1-v01.mp4?alt=media&token=18c8c980-08e4-4182-86ec-63c02b1c4470>)
 
 **Cursor**
 
@@ -57,9 +57,9 @@ Users should be able to: 
 -   The icon switches from outlined to filled
 -   The icon changes color, becoming darker in light theme and lighter in dark theme, to increase the contrast
 
-<video controls src="../../../assets/videos/1d3987dc1ade-lwoqr8nd-GM3-Components-NavDrawer-Accessibility-2-v01.mp4" title="When a cursor goes over a navigation drawer, a hover indicator appears. When tapped, the active indicator appears."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqr8nd-GM3-Components-NavDrawer-Accessibility-2-v01.mp4?alt=media&amp;token=97004b66-7c1e-4ff2-84a3-fd791bb5e348" title="When a cursor goes over a navigation drawer, a hover indicator appears. When tapped, the active indicator appears."></video>
 
-[Open video](../../../assets/videos/1d3987dc1ade-lwoqr8nd-GM3-Components-NavDrawer-Accessibility-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoqr8nd-GM3-Components-NavDrawer-Accessibility-2-v01.mp4?alt=media&token=97004b66-7c1e-4ff2-84a3-fd791bb5e348>)
 
 ## Initial focus
 

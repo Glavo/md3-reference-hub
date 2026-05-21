@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/22ed6df490f4-mbs2h57x-GM3_Expressive_Nav-Rail_Overview_01_IA_v02.mp4"
@@ -21,9 +21,9 @@ Navigation rails let people switch between UI views on mid-sized devices
 -   Can contain 3-7 destinations plus an optional FAB
 -   Always put the rail in the same place, even on different screens of an app
 
-<video controls src="../../../assets/videos/22ed6df490f4-mbs2h57x-GM3_Expressive_Nav-Rail_Overview_01_IA_v02.mp4" title="Navigation rail with 4 destinations, 1 active, and FAB."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmbs2h57x-GM3_Expressive_Nav-Rail_Overview_01_IA_v02.mp4?alt=media&amp;token=c7d344f8-10e6-4d28-af46-31980258435c" title="Navigation rail with 4 destinations, 1 active, and FAB."></video>
 
-[Open video](../../../assets/videos/22ed6df490f4-mbs2h57x-GM3_Expressive_Nav-Rail_Overview_01_IA_v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmbs2h57x-GM3_Expressive_Nav-Rail_Overview_01_IA_v02.mp4?alt=media&token=c7d344f8-10e6-4d28-af46-31980258435c>)
 
 ## Availability & resources
 

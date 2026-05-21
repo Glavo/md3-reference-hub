@@ -2,7 +2,7 @@
 title: "Spacing"
 source_url: "https://m3.material.io/styles/spacing/applying-spacing"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/ca6f6d354d27-mp472g1b-01.png"
@@ -94,10 +94,10 @@ Use this approach when you want the same core component, but want it to appear d
 
 -   Density: Adapt vertical padding to different spacing values for each setting
 
-<video controls src="../../../assets/videos/4a85efa69fb7-mp47k75s-GM3-Spacing-Applying-01-IA-v01.mp4" title="A button’s spacing changes based on if it’s on mobile, desktop, cars, XR, or TVs."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47k75s-GM3%20-%20Spacing%20-%20Applying%2001%20-%20%20IA%20-%20v01.mp4?alt=media&amp;token=dd6dc0fc-646f-4a8c-8afe-86bb6f067126" title="A button’s spacing changes based on if it’s on mobile, desktop, cars, XR, or TVs."></video>
 
-[Open video](../../../assets/videos/4a85efa69fb7-mp47k75s-GM3-Spacing-Applying-01-IA-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47k75s-GM3%20-%20Spacing%20-%20Applying%2001%20-%20%20IA%20-%20v01.mp4?alt=media&token=dd6dc0fc-646f-4a8c-8afe-86bb6f067126>)
 
-<video controls src="../../../assets/videos/783da11efacd-mp47kp67-GM3-Spacing-Applying-02-IA-v01.mp4" title="A list item’s spacing changes based on density settings of 0 to -4."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47kp67-GM3%20-%20Spacing%20-%20Applying%2002%20-%20%20IA%20-%20v01.mp4?alt=media&amp;token=59436e7e-acc6-412f-a59d-d6ca2aba340d" title="A list item’s spacing changes based on density settings of 0 to -4."></video>
 
-[Open video](../../../assets/videos/783da11efacd-mp47kp67-GM3-Spacing-Applying-02-IA-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47kp67-GM3%20-%20Spacing%20-%20Applying%2002%20-%20%20IA%20-%20v01.mp4?alt=media&token=59436e7e-acc6-412f-a59d-d6ca2aba340d>)

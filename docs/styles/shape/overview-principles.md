@@ -2,7 +2,7 @@
 title: "Shape"
 source_url: "https://m3.material.io/styles/shape/overview-principles"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/3a2d77d7eb18-m0c35amt-1.png"
@@ -58,9 +58,9 @@ Added corner radii tokens:
 
 [More on M3 Expressive](../../blog/building-with-m3-expressive.md)
 
-<video controls src="../../../assets/videos/0d2ffe24ee26-m8q813wo-01-shape-Overview-&-principles-2.mp4" title="Animation of available Material shapes."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8q813wo-01%20-%20shape-Overview%20%26%20principles%202.mp4?alt=media&amp;token=f7376b02-0d4b-4f63-8cec-5b581fd75404" title="Animation of available Material shapes."></video>
 
-[Open video](../../../assets/videos/0d2ffe24ee26-m8q813wo-01-shape-Overview-&-principles-2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8q813wo-01%20-%20shape-Overview%20%26%20principles%202.mp4?alt=media&token=f7376b02-0d4b-4f63-8cec-5b581fd75404>)
 
 ## Shape library
 
@@ -78,9 +78,9 @@ Use shape and type together for products to feel cohesive and polished.
 
 _M3 shapes and Google Sans Flex share roundness visual attributes_
 
-<video controls src="../../../assets/videos/a5f4768582a9-m0fc1aun-03-shape-Overview-&-principles-5.mp4" title="While a person taps water and squeezes a soft cube, a button in the middle responds similarly."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fc1aun-03%20-%20shape-Overview%20%26%20principles-5.mp4?alt=media&amp;token=81c96d25-cf31-47ab-9c10-c0abdb56b26b" title="While a person taps water and squeezes a soft cube, a button in the middle responds similarly."></video>
 
-[Open video](../../../assets/videos/a5f4768582a9-m0fc1aun-03-shape-Overview-&-principles-5.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fc1aun-03%20-%20shape-Overview%20%26%20principles-5.mp4?alt=media&token=81c96d25-cf31-47ab-9c10-c0abdb56b26b>)
 
 ## Morph shapes to connect function and feeling
 
@@ -104,9 +104,9 @@ This tension can be used in many ways, like conveying states, drawing attention 
 
 _Create tension by using a combination of round and square shapes_
 
-<video controls src="../../../assets/videos/ab423aff3632-m7p9sea1-GM3_Expressive_Shape_Overview-and-Principles_7_v17.mp4" title="Use different types of shape in loading indicators to show progress."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7p9sea1-GM3_Expressive_Shape_Overview%20and%20Principles_7_v17.mp4?alt=media&amp;token=d72dfebe-d9c9-4081-b6da-1338b9eefd93" title="Use different types of shape in loading indicators to show progress."></video>
 
-[Open video](../../../assets/videos/ab423aff3632-m7p9sea1-GM3_Expressive_Shape_Overview-and-Principles_7_v17.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7p9sea1-GM3_Expressive_Shape_Overview%20and%20Principles_7_v17.mp4?alt=media&token=d72dfebe-d9c9-4081-b6da-1338b9eefd93>)
 
 ## Shape is versatile, not semantic
 
@@ -126,13 +126,13 @@ When incorporating diverse shapes, think about how they fit into the overall des
 
 _Shapes without clear meaning behind why they’re different can add more visual clutter than delight_
 
-<video controls src="../../../assets/videos/597e81f3fe53-m7pa308e-GM3_Expressive_Shape_Overview-and-Principles_9_v17-(1).mp4" title="Shapes morphing to indicate different states."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7pa308e-GM3_Expressive_Shape_Overview%20and%20Principles_9_v17%20(1).mp4?alt=media&amp;token=e495a6b9-987a-4449-aa23-62cf4f8d5cd0" title="Shapes morphing to indicate different states."></video>
 
-[Open video](../../../assets/videos/597e81f3fe53-m7pa308e-GM3_Expressive_Shape_Overview-and-Principles_9_v17-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7pa308e-GM3_Expressive_Shape_Overview%20and%20Principles_9_v17%20(1).mp4?alt=media&token=e495a6b9-987a-4449-aa23-62cf4f8d5cd0>)
 
-<video controls src="../../../assets/videos/aa643f9bfcc0-m7pa3b28-GM3_Expressive_Shape_Overview-and-Principles_10_4x_V03.mp4" title="Shapes being applied as masks on photos to make them more interesting."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7pa3b28-GM3_Expressive_Shape_Overview%20and%20Principles_10_4x_V03.mp4?alt=media&amp;token=8a05935d-719e-491f-a6c9-5524055fe4d4" title="Shapes being applied as masks on photos to make them more interesting."></video>
 
-[Open video](../../../assets/videos/aa643f9bfcc0-m7pa3b28-GM3_Expressive_Shape_Overview-and-Principles_10_4x_V03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7pa3b28-GM3_Expressive_Shape_Overview%20and%20Principles_10_4x_V03.mp4?alt=media&token=8a05935d-719e-491f-a6c9-5524055fe4d4>)
 
 ## Emphasize aesthetic moments with shape
 
@@ -144,6 +144,6 @@ Decorative moments offer the most flexible and creative uses of shape.
 
 When effectively used, shape and motion can make 2D visuals feel 3D. They provide the illusion of depth and volume, making visuals more eye-catching and natural.
 
-<video controls src="../../../assets/videos/8a09f29d0372-mnxek75a-GM3-Shape-Overview-12-v12.mp4" title="Shapes spinning and a weather icon transforming into the current temperature."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmnxek75a-GM3%20-%20Shape%20-%20Overview%2012%20-%20v12.mp4?alt=media&amp;token=195e7da0-07f2-42ab-9d90-5ee9f1562eb0" title="Shapes spinning and a weather icon transforming into the current temperature."></video>
 
-[Open video](../../../assets/videos/8a09f29d0372-mnxek75a-GM3-Shape-Overview-12-v12.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmnxek75a-GM3%20-%20Shape%20-%20Overview%2012%20-%20v12.mp4?alt=media&token=195e7da0-07f2-42ab-9d90-5ee9f1562eb0>)

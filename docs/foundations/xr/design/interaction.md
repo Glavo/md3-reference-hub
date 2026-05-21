@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/interaction"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -25,9 +25,9 @@ Resources and guidance for immersive extended reality (XR) devices
 
 XR interactions should be flexible, comfortable, and intuitive. People expect to interact with digital objects just like they do with physical ones.
 
-<video controls src="../../../../assets/videos/fdd4d595aa56-mowkhgek-content-maps.mp4" title="XR Google Maps switches from a floating 2D map to a 3D aerial city view, followed by a hand-gesture navigated restaurant tour."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowkhgek-content-maps.mp4?alt=media&amp;token=a29bf114-19f0-497b-a293-6651bdc0d378" title="XR Google Maps switches from a floating 2D map to a 3D aerial city view, followed by a hand-gesture navigated restaurant tour."></video>
 
-[Open video](../../../../assets/videos/fdd4d595aa56-mowkhgek-content-maps.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowkhgek-content-maps.mp4?alt=media&token=a29bf114-19f0-497b-a293-6651bdc0d378>)
 
 ## Natural interactions
 
@@ -44,9 +44,9 @@ Support one-handed interactions for essential actions. Don’t require large, re
 
  [More on Android XR gestures](https://developer.android.com/design/ui/xr/guides/foundations#understanding-system)
 
-<video controls src="../../../../assets/videos/3eedebf1d7da-mowkzvav-xr-interaction-02.mp4" title="A person uses their hand to hover on and switch between 3 spatial panels."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowkzvav-xr-interaction-02.mp4?alt=media&amp;token=2b67b2f3-e2e9-4b03-a792-49a9d1f8fb99" title="A person uses their hand to hover on and switch between 3 spatial panels."></video>
 
-[Open video](../../../../assets/videos/3eedebf1d7da-mowkzvav-xr-interaction-02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowkzvav-xr-interaction-02.mp4?alt=media&token=2b67b2f3-e2e9-4b03-a792-49a9d1f8fb99>)
 
 ### System navigation
 
@@ -60,9 +60,9 @@ On Android XR, the system-level navigation menu includes:
 
 -   Recents: People can open, close, and switch apps
 
-<video controls src="../../../../assets/videos/c5ead70070c2-mowwbqda-xr-interaction-03.mp4" title="An animated hand moves its palm up, and pinches the index finger and thumb to open the navigation menu. "></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowwbqda-xr-interaction-03.mp4?alt=media&amp;token=81b539fb-1ddb-4060-bc67-80dd433d84f0" title="An animated hand moves its palm up, and pinches the index finger and thumb to open the navigation menu. "></video>
 
-[Open video](../../../../assets/videos/c5ead70070c2-mowwbqda-xr-interaction-03.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowwbqda-xr-interaction-03.mp4?alt=media&token=81b539fb-1ddb-4060-bc67-80dd433d84f0>)
 
 ## Multimodal inputs
 
@@ -87,9 +87,9 @@ Eye tracking
 
 -   Looking at an object triggers a hover state
 
-<video controls src="../../../../assets/videos/2812c51101ab-mowojjby-Spatialize_3D-Content_5-(2).mp4" title="A person uses ray-based hand tracking to move a 3D globe from a table to a credenza. When selected, a highlighted box appears under the globe."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowojjby-Spatialize_3D-Content_5%20(2).mp4?alt=media&amp;token=2f861b7f-c40d-41b7-80c6-693545afbcd0" title="A person uses ray-based hand tracking to move a 3D globe from a table to a credenza. When selected, a highlighted box appears under the globe."></video>
 
-[Open video](../../../../assets/videos/2812c51101ab-mowojjby-Spatialize_3D-Content_5-(2).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowojjby-Spatialize_3D-Content_5%20(2).mp4?alt=media&token=2f861b7f-c40d-41b7-80c6-693545afbcd0>)
 
 ### Voice, keyboard, mouse, & controller inputs
 
@@ -117,9 +117,9 @@ To keep people comfortable:
 
 -   Use tunnel vision or vignetting to reduce the field of view while in motion
 
-<video controls src="../../../../assets/videos/ba6bb41a5513-mowqbjui-xr-accessibility-01.mp4" title="A person walking in a spatial environment, with a steady visual horizon."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowqbjui-xr-accessibility-01.mp4?alt=media&amp;token=31481d3d-1d3d-4d95-9e51-9ba2e1eb63ca" title="A person walking in a spatial environment, with a steady visual horizon."></video>
 
-[Open video](../../../../assets/videos/ba6bb41a5513-mowqbjui-xr-accessibility-01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowqbjui-xr-accessibility-01.mp4?alt=media&token=31481d3d-1d3d-4d95-9e51-9ba2e1eb63ca>)
 
 ## Feedback
 
@@ -131,17 +131,17 @@ Use hover icons, focus indicators, ripples, text labels, and elevation changes t
 
 To indicate an item is targeted, use [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation) or a highlight state.
 
-<video controls src="../../../../assets/videos/af7d46ea7a13-mowqhvfh-Spatialize_3D-Content_3-(1).mp4" title="When a person uses hand tracking to target a 3D model, a focus indicator appears."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowqhvfh-Spatialize_3D-Content_3%20(1).mp4?alt=media&amp;token=a19a311d-ed54-4448-81e0-b1526ce439e8" title="When a person uses hand tracking to target a 3D model, a focus indicator appears."></video>
 
-[Open video](../../../../assets/videos/af7d46ea7a13-mowqhvfh-Spatialize_3D-Content_3-(1).mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowqhvfh-Spatialize_3D-Content_3%20(1).mp4?alt=media&token=a19a311d-ed54-4448-81e0-b1526ce439e8>)
 
 ### Spatial audio
 
 Sound emitters can be positioned in 3D space and provide audio confirmation of an action. For example, add a **click** sound when a button is pressed.
 
-<video controls src="../../../../assets/videos/70c4b7367337-mowqk798-spatial-audio.mp4" title="As sound emits from 1 of 4 spheres, a person looks toward the active sphere."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowqk798-spatial%20audio.mp4?alt=media&amp;token=3cc2c62a-45cd-44f4-b5f9-8ba993921acd" title="As sound emits from 1 of 4 spheres, a person looks toward the active sphere."></video>
 
-[Open video](../../../../assets/videos/70c4b7367337-mowqk798-spatial-audio.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowqk798-spatial%20audio.mp4?alt=media&token=3cc2c62a-45cd-44f4-b5f9-8ba993921acd>)
 
 ### Haptics
 

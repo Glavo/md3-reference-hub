@@ -2,7 +2,7 @@
 title: "Canonical layout examples"
 source_url: "https://m3.material.io/foundations/layout/canonical-examples/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/f141f3f670f7-mp72kkvb-LD-adapt-C.png"

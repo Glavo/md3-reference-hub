@@ -2,7 +2,7 @@
 title: "Button groups"
 source_url: "https://m3.material.io/components/button-groups/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/903458bca688-ma6nan75-01-3P.png"
@@ -103,17 +103,17 @@ _Filled; Tonal; Outlined; Elevated_
 
 This interaction changes the width, shape, and padding of the selected or activated button, which adjusts the width of buttons directly next to it.
 
-<video controls src="../../../assets/videos/4ffc63a9a39b-mack7ok2-GM3_Expressive_Button-Group_Selection-activation_Standard_3P_AI_v01.mp4" title="A selected button in a standard group bounces against its adjacent button, changing their widths."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmack7ok2-GM3_Expressive_Button%20Group_Selection%20activation_Standard_3P_AI_v01.mp4?alt=media&amp;token=0e4f6b3f-e3e3-4c45-8b8b-4292a2f32cc0" title="A selected button in a standard group bounces against its adjacent button, changing their widths."></video>
 
-[Open video](../../../assets/videos/4ffc63a9a39b-mack7ok2-GM3_Expressive_Button-Group_Selection-activation_Standard_3P_AI_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmack7ok2-GM3_Expressive_Button%20Group_Selection%20activation_Standard_3P_AI_v01.mp4?alt=media&token=0e4f6b3f-e3e3-4c45-8b8b-4292a2f32cc0>)
 
 **Connected button groups** don’t add any interaction between buttons when selected or activated. 
 
 They only affect the shape of the button being selected or activated.
 
-<video controls src="../../../assets/videos/657c73ea9207-mack8xlo-GM3_Button-group_Specs_Selection-&-activation_Connected_IA_v01.mp4" title="A selected button in a connected button group only changes its own shape."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmack8xlo-GM3_Button-group_Specs_Selection-%26-activation_Connected_IA_v01.mp4?alt=media&amp;token=e839d3db-5041-49c3-a780-17267d0c304f" title="A selected button in a connected button group only changes its own shape."></video>
 
-[Open video](../../../assets/videos/657c73ea9207-mack8xlo-GM3_Button-group_Specs_Selection-&-activation_Connected_IA_v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmack8xlo-GM3_Button-group_Specs_Selection-%26-activation_Connected_IA_v01.mp4?alt=media&token=e839d3db-5041-49c3-a780-17267d0c304f>)
 
 ## States
 

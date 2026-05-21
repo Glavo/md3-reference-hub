@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/overview"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/images/0586462c6a91-mleotj2q-01.png"
@@ -52,9 +52,9 @@ The progress indicators have configurations for height and wavy shape. Choose th
 -   Track height: Configurable
 -   Shape: Wavy
 
-<video controls src="../../../assets/videos/899179fdc74b-m0qvxgu6-Progress-Indicator-Overview.mp4" title="Progress indicators used when loading a page and for processing a payment."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qvxgu6-Progress-Indicator-Overview.mp4?alt=media&amp;token=2131e37c-feab-4c1c-b117-16ad223b0078" title="Progress indicators used when loading a page and for processing a payment."></video>
 
-[Open video](../../../assets/videos/899179fdc74b-m0qvxgu6-Progress-Indicator-Overview.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qvxgu6-Progress-Indicator-Overview.mp4?alt=media&token=2131e37c-feab-4c1c-b117-16ad223b0078>)
 
 ## Previous updates
 

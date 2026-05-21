@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "components"
 assets:
   - "assets/videos/086afdbd42f5-lwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4"
@@ -42,9 +42,9 @@ On vertically-scrolling pages, carousels require an accessible way to view all t
 
 Material recommends adding a **Show all** button below the carousel, which opens a dedicated vertically-scrolling page of all carousel items.
 
-<video controls src="../../../assets/videos/086afdbd42f5-lwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4" title="Carousel on mobile has a &quot;show all&quot; button that opens a page with all carousel items."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4?alt=media&amp;token=481dab77-9f29-4618-b6a8-6e37eda180e4" title="Carousel on mobile has a &quot;show all&quot; button that opens a page with all carousel items."></video>
 
-[Open video](../../../assets/videos/086afdbd42f5-lwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4?alt=media&token=481dab77-9f29-4618-b6a8-6e37eda180e4>)
 
 ![Measurements of a "show all" button added below a carousel.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwut0q8v-2.png?alt=media&token=fd99e7b1-4959-4151-a530-a820e6a115f6>)
 
@@ -54,9 +54,9 @@ If the carousel has a header, you can use an arrow icon button instead. Place th
 
 Make sure the header is also displayed on the page of all carousel items.
 
-<video controls src="../../../assets/videos/d99f32007f36-lwutykt0-GM3-Components-Carousel-Accesibility-2-v01.mp4" title="Carousels in a list on mobile with headers have an arrow icon that opens a page with all carousel items."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutykt0-GM3-Components-Carousel-Accesibility-2-v01.mp4?alt=media&amp;token=f22a4f28-192d-4adf-ae7a-f8e705e94062" title="Carousels in a list on mobile with headers have an arrow icon that opens a page with all carousel items."></video>
 
-[Open video](../../../assets/videos/d99f32007f36-lwutykt0-GM3-Components-Carousel-Accesibility-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutykt0-GM3-Components-Carousel-Accesibility-2-v01.mp4?alt=media&token=f22a4f28-192d-4adf-ae7a-f8e705e94062>)
 
 ![Measurements of an arrow icon button added next to a carousel header.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwut172a-4.png?alt=media&token=79318ca5-9f6e-4973-ba50-09469633894b>)
 
@@ -80,9 +80,9 @@ _Don't cover the carousel with buttons or other UI_
 
 Tapping on a carousel item changes the shape slightly, and creates a touch ripple for interaction feedback.
 
-<video controls src="../../../assets/videos/14cf2d4b9518-lwuu2jae-GM3-Components-Carousel-Accesibility-3-v01.mp4" title="Carousel providing a ripple feedback when being tapped."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu2jae-GM3-Components-Carousel-Accesibility-3-v01.mp4?alt=media&amp;token=2e678652-4107-4db0-bbde-ab3b09dc2b81" title="Carousel providing a ripple feedback when being tapped."></video>
 
-[Open video](../../../assets/videos/14cf2d4b9518-lwuu2jae-GM3-Components-Carousel-Accesibility-3-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu2jae-GM3-Components-Carousel-Accesibility-3-v01.mp4?alt=media&token=2e678652-4107-4db0-bbde-ab3b09dc2b81>)
 
 ### Cursor
 
@@ -90,9 +90,9 @@ The hover state provides a visual cue that the carousel item is interactive.
 
 When the carousel item is clicked (in both active and inactive states), a ripple appears for interaction feedback.
 
-<video controls src="../../../assets/videos/1ca93722b36d-lwuu32xk-GM3-Components-Carousel-Accesibility-4-v02.mp4" title="Carousel changing state when hovered."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu32xk-GM3-Components-Carousel-Accesibility-4-v02.mp4?alt=media&amp;token=f5315212-a834-42a4-a3be-5afeb59d29ff" title="Carousel changing state when hovered."></video>
 
-[Open video](../../../assets/videos/1ca93722b36d-lwuu32xk-GM3-Components-Carousel-Accesibility-4-v02.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu32xk-GM3-Components-Carousel-Accesibility-4-v02.mp4?alt=media&token=f5315212-a834-42a4-a3be-5afeb59d29ff>)
 
 ### Initial focus
 
@@ -135,12 +135,12 @@ When reduced motion settings are turned on, the parallax effect should be remove
 
 Make sure carousels with reduced motion reach the edges of the window to avoid clipping visuals.
 
-<video controls src="../../../assets/videos/c8112e4cf58d-lwuu4mjv-GM3-Components-Carousel-Accesibility-5-v01.mp4" title="Comparison of a multi-browse carousel with the reduced motion setting off and on."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu4mjv-GM3-Components-Carousel-Accesibility-5-v01.mp4?alt=media&amp;token=6e5e6517-2ba7-40fd-98ba-db01729dfdf8" title="Comparison of a multi-browse carousel with the reduced motion setting off and on."></video>
 
-[Open video](../../../assets/videos/c8112e4cf58d-lwuu4mjv-GM3-Components-Carousel-Accesibility-5-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu4mjv-GM3-Components-Carousel-Accesibility-5-v01.mp4?alt=media&token=6e5e6517-2ba7-40fd-98ba-db01729dfdf8>)
 
 For hero carousels with reduced motion, the small carousel item is only partially shown on screen.
 
-<video controls src="../../../assets/videos/6a45471566db-lwuu5ddb-GM3-Components-Carousel-Accesibility-6-v01.mp4" title="Comparison of a hero carousel with the reduced motion setting off and on."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu5ddb-GM3-Components-Carousel-Accesibility-6-v01.mp4?alt=media&amp;token=cd58d17b-d305-456b-8820-7b40a077577d" title="Comparison of a hero carousel with the reduced motion setting off and on."></video>
 
-[Open video](../../../assets/videos/6a45471566db-lwuu5ddb-GM3-Components-Carousel-Accesibility-6-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuu5ddb-GM3-Components-Carousel-Accesibility-6-v01.mp4?alt=media&token=cd58d17b-d305-456b-8820-7b40a077577d>)

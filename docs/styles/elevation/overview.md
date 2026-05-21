@@ -2,7 +2,7 @@
 title: "Elevation"
 source_url: "https://m3.material.io/styles/elevation/overview"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/images/6f55e88115bb-lwykafum-1.png"
@@ -66,9 +66,9 @@ Surfaces at different elevations do the following:
 
 3.  Focus attention on the highest elevation, such as a dialog temporarily appearing in front of other surfaces
 
-<video controls src="../../../assets/videos/b79297bf385e-lwykjf69-GM3-Styles-Elevation-Overview-1-v01.mp4" title="2 screens showing surfaces moving in front of and behind other surfaces, the shadow of a FAB, and a dialog appearing at the highest elevation."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykjf69-GM3-Styles-Elevation-Overview-1-v01.mp4?alt=media&amp;token=6a6f026f-2264-474b-9b2d-cab3cd08393e" title="2 screens showing surfaces moving in front of and behind other surfaces, the shadow of a FAB, and a dialog appearing at the highest elevation."></video>
 
-[Open video](../../../assets/videos/b79297bf385e-lwykjf69-GM3-Styles-Elevation-Overview-1-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykjf69-GM3-Styles-Elevation-Overview-1-v01.mp4?alt=media&token=6a6f026f-2264-474b-9b2d-cab3cd08393e>)
 
 ### Resting elevation (default)
 
@@ -84,6 +84,6 @@ Components should change elevation in response to system events or user interact
 
 For example, hovering a FAB temporarily increases the elevation by 1 level, from level 3 to level 4. All Material buttons increase elevation by 1 level when hovered.
 
-<video controls src="../../../assets/videos/33af59d0c0df-lwykkk4p-GM3-Styles-Elevation-Overview-2-v01.mp4" title="FAB elevation from the top and side showing the button elevation changing from 5dp to 8dp on hover."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykkk4p-GM3-Styles-Elevation-Overview-2-v01.mp4?alt=media&amp;token=8ca50f54-913b-4e5a-9e22-22c99a867fd2" title="FAB elevation from the top and side showing the button elevation changing from 5dp to 8dp on hover."></video>
 
-[Open video](../../../assets/videos/33af59d0c0df-lwykkk4p-GM3-Styles-Elevation-Overview-2-v01.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykkk4p-GM3-Styles-Elevation-Overview-2-v01.mp4?alt=media&token=8ca50f54-913b-4e5a-9e22-22c99a867fd2>)

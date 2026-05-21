@@ -2,7 +2,7 @@
 title: "Canonical layout examples"
 source_url: "https://m3.material.io/foundations/layout/canonical-examples/list-detail"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "foundations"
 assets:
   - "assets/images/6bef93607929-mp7394ub-LD-adapt-C.png"
@@ -132,9 +132,9 @@ _Use a selection state in two-pane layouts only; Use a back button in single-pan
 
 The amount of available space is dynamic and changes based on how someone uses a device, such as rotating or unfolding it, or entering multi-window mode.
 
-<video controls src="../../../../assets/videos/83b04d0e98bd-mp53duna-lxygxf8i-Canonical_List-Detail_1.mp4" title="Device rotating from landscape to portrait mode, reducing layout panes from 2 to 1."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53duna-lxygxf8i-Canonical_List-Detail_1.mp4?alt=media&amp;token=0f0919ed-8fc8-4fac-8c81-57a08a618eb4" title="Device rotating from landscape to portrait mode, reducing layout panes from 2 to 1."></video>
 
-[Open video](../../../../assets/videos/83b04d0e98bd-mp53duna-lxygxf8i-Canonical_List-Detail_1.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53duna-lxygxf8i-Canonical_List-Detail_1.mp4?alt=media&token=0f0919ed-8fc8-4fac-8c81-57a08a618eb4>)
 
 #### No selected list item
 
@@ -142,9 +142,9 @@ A single-pane layout shows a list view, while a two-pane layout shows placeholde
 
 In some cases, such as multi-select, the most recently used pane should stay visible when switching to single-pane layout.
 
-<video controls src="../../../../assets/videos/e3892d9e2f94-lxyh497r-Canonical_List-Detail_2.mp4" title="No item selected on a folded device. When unfolded, the detail pane is empty."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyh497r-Canonical_List-Detail_2.mp4?alt=media&amp;token=94cbed39-a6cb-4c46-b544-12d7e209208b" title="No item selected on a folded device. When unfolded, the detail pane is empty."></video>
 
-[Open video](../../../../assets/videos/e3892d9e2f94-lxyh497r-Canonical_List-Detail_2.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyh497r-Canonical_List-Detail_2.mp4?alt=media&token=94cbed39-a6cb-4c46-b544-12d7e209208b>)
 
 #### Selected list item
 
@@ -158,18 +158,18 @@ When going from a two- to single-pane layout, the view depends on the product:
 
 -   Consistency is key: If a layout showed the list view previously, it should return to that view when returning to a single pane
 
-<video controls src="../../../../assets/videos/2b42672508ac-mp54burn-lxyh80t8-Canonical_List-Detail_3.mp4" title="Item selected on a folded device. When unfolded, the detail view shows the item."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54burn-lxyh80t8-Canonical_List-Detail_3.mp4?alt=media&amp;token=0b4b9578-2ef6-4360-ab63-5a050c98377c" title="Item selected on a folded device. When unfolded, the detail view shows the item."></video>
 
-[Open video](../../../../assets/videos/2b42672508ac-mp54burn-lxyh80t8-Canonical_List-Detail_3.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54burn-lxyh80t8-Canonical_List-Detail_3.mp4?alt=media&token=0b4b9578-2ef6-4360-ab63-5a050c98377c>)
 
-<video controls src="../../../../assets/videos/e348a540a984-lxyhcqmk-Canonical_List-Detail_4.mp4" title="Item selected on an unfolded device. When folded, only the detail view shows."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyhcqmk-Canonical_List-Detail_4.mp4?alt=media&amp;token=9349512d-8ecc-414e-a56d-f953992823b4" title="Item selected on an unfolded device. When folded, only the detail view shows."></video>
 
-[Open video](../../../../assets/videos/e348a540a984-lxyhcqmk-Canonical_List-Detail_4.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flxyhcqmk-Canonical_List-Detail_4.mp4?alt=media&token=9349512d-8ecc-414e-a56d-f953992823b4>)
 
 #### Persistent states
 
 In most cases, a state should be saved when navigating between detail views. This includes read and unread content.
 
-<video controls src="../../../../assets/videos/98a2015878e0-mp54fy4m-lxyhgczm-Canonical_List-Detail_5.mp4" title="Scroll position is kept after folding or unfolding the device."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54fy4m-lxyhgczm-Canonical_List-Detail_5.mp4?alt=media&amp;token=bf7772c3-a3e8-49b5-8652-a3e1914eaf41" title="Scroll position is kept after folding or unfolding the device."></video>
 
-[Open video](../../../../assets/videos/98a2015878e0-mp54fy4m-lxyhgczm-Canonical_List-Detail_5.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp54fy4m-lxyhgczm-Canonical_List-Detail_5.mp4?alt=media&token=bf7772c3-a3e8-49b5-8652-a3e1914eaf41>)

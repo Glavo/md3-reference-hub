@@ -2,7 +2,7 @@
 title: "Choosing a scheme"
 source_url: "https://m3.material.io/styles/color/choosing-a-scheme"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:17:26.113Z"
+snapshot_at: "2026-05-21T03:22:19.498Z"
 section: "styles"
 assets:
   - "assets/videos/00e446880719-linbzkgu-MAT020.05-v2-Internal.mp4"
@@ -21,9 +21,9 @@ There are two kinds of color schemes in Material:
 1.  Static
 2.  Dynamic
 
-<video controls src="../../../assets/videos/00e446880719-linbzkgu-MAT020.05-v2-Internal.mp4" title="Types of color schemes in Material Design 3."></video>
+<video controls src="https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flinbzkgu-MAT020.05-v2%20Internal.mp4?alt=media&amp;token=fd39f568-71b3-4490-ab6a-1ef75d4c04b2" title="Types of color schemes in Material Design 3."></video>
 
-[Open video](../../../assets/videos/00e446880719-linbzkgu-MAT020.05-v2-Internal.mp4)
+[Open video](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flinbzkgu-MAT020.05-v2%20Internal.mp4?alt=media&token=fd39f568-71b3-4490-ab6a-1ef75d4c04b2>)
 
 ## Static color
 
