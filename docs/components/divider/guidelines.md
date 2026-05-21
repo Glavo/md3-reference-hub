@@ -2,7 +2,7 @@
 title: "Divider"
 source_url: "https://m3.material.io/components/divider/guidelines"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "components"
 assets:
   - "assets/images/ff21b79423e2-lv6awcxp-1.png"

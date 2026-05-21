@@ -2,7 +2,7 @@
 title: "Tabs"
 source_url: "https://m3.material.io/components/tabs/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "components"
 assets:
   - "assets/videos/e2af1b381076-m60bkpen-GM3-Components-Tabs-Accessibility-1-v01.mp4"

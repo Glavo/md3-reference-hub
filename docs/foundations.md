@@ -2,7 +2,7 @@
 title: "Foundations"
 source_url: "https://m3.material.io/foundations"
 lastmod: "2025-03-24"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "foundations"
 assets:
   - "assets/images/ae3230c6349c-C9KqgxN2aTltNrGEwzmREBeXI2SG0nBXV9MV5v65ewqgsPhpjUiFPW7FX-lq5nlicO_W1iub-XxS3Ojl7qypmMz48biXUzCr.png"

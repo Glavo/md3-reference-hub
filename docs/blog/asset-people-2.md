@@ -2,7 +2,7 @@
 title: "From Placeholders to Genuine Avatars"
 source_url: "https://m3.material.io/blog/asset-people-2"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/50e1f837e369-50eDh4dtCIt5scFkgOmicKvSyQiErVDeLICuMAFJzswNPM47WlSehYuaDdbmZASADfZjMuf2GieR7n8S7a8FKSPkl66lNf8T.png"

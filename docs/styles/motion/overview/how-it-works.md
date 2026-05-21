@@ -2,7 +2,7 @@
 title: "Motion physics system"
 source_url: "https://m3.material.io/styles/motion/overview/how-it-works"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "styles"
 assets:
   - "assets/videos/b55508eddab1-m9d3dbjl-00_Hero-Expressive-New_Export.mp4"

@@ -2,7 +2,7 @@
 title: "Designing Text for the People Who Read It"
 source_url: "https://m3.material.io/blog/designing-text-visual-acuity-research"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/2e16c46f44a9-1lNY69iZ1beIzMdKwc5WOX7GpCR0PMsp93A1F_jF_kcEVJNqKy0YH-glyLtzr8uqrNbqhLjr63iCGWmg7VMiYRjMsqvXMc3h.png"

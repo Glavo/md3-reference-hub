@@ -2,7 +2,7 @@
 title: "Design to Code: Turning Handoffs Into High-fives"
 source_url: "https://m3.material.io/blog/designtocode"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/f4c9b7f34f0e-qpnv-ci_KsPIo_qayXp3E8Tv4xKUIYA-JAgJdiOdmjLD_UuGP7875Lg65YqmBysrvbMBmTP0rM7jknOXrWd2ZZ1BVN-sY-B2.png"

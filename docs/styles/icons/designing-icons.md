@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/designing-icons"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "styles"
 assets:
   - "assets/images/c50e03f4e9a8-mlhi79a8-1.png"

@@ -2,7 +2,7 @@
 title: "Date pickers"
 source_url: "https://m3.material.io/components/date-pickers/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "components"
 assets:
   - "assets/images/7fce4b897815-md5tcq2g-01.png"

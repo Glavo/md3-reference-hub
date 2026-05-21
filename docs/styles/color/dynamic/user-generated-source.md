@@ -2,7 +2,7 @@
 title: "Dynamic color schemes"
 source_url: "https://m3.material.io/styles/color/dynamic/user-generated-source"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "styles"
 assets:
   - "assets/images/09d92a4521f4-m4k2c1o5-4.png"

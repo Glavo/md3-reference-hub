@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.8.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-8-0"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/2445d4d873b7-vm6V3zhog18syLSWP-kG-RE0d9Fgvpa9vOi_eUXpfNMLXQNtocRYepPqPYvPxcpv2k3K8aYVMsaSEzk1KQSPmG6b36ZfVU3o.png"

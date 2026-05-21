@@ -2,7 +2,7 @@
 title: "Migrating to Material Design 3"
 source_url: "https://m3.material.io/blog/migrating-material-3"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/25e7d382cea8-KQ7Ul7smHbhue3rVhcE9xPIL7Dznf8eU7zEEnyevjyp39DBUPPNaI2kIAli81hdr3-f-jWH5O7N1zSvDh2rfVjHlwrmpLDpK.png"

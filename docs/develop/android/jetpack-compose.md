@@ -2,7 +2,7 @@
 title: "Jetpack Compose"
 source_url: "https://m3.material.io/develop/android/jetpack-compose"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "develop"
 assets:
   - "assets/images/b87e2bc83ba2-Z_vCNcq-FC_p17eSvOZ3EWT9UXeoV9u9F0J-d4vpbFKO441FecR7qxFwqpp2AQViCio7HMcZWBWsLF-cbWptTun7XqFk_vM0.png"

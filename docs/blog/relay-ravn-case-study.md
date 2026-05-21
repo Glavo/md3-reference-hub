@@ -2,7 +2,7 @@
 title: "How Ravn solves design-developer handoff with Relay"
 source_url: "https://m3.material.io/blog/relay-ravn-case-study"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/91ef66418c56-17wX3yuSIuY_3BREgpmHBjVq1ng94h9kFUe8GWVxD-o5o8oboBmkDmZwPv2pQvgxVLu2z0zYTXGkI3LmAvHqF5EKq1dbMuJ7.png"

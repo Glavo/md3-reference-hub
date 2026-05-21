@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "components"
 assets:
   - "assets/images/adec38612545-memmstmc-1-3P.png"

@@ -2,7 +2,7 @@
 title: "Roboto … But Make It Flex"
 source_url: "https://m3.material.io/blog/roboto-flex"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/dc142f88e6a9-oI4-7GlbR7x1YdY3PeStcXYDvyZsQ1Ve-aZvTPsbbq5M8i-cr9LikA1L5Rh5NozfyFIs2Rw6RMuWcPLPwb7dL3VYgXZVBDRP.png"

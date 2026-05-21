@@ -2,7 +2,7 @@
 title: "People-First Principles for Digital Wellbeing"
 source_url: "https://m3.material.io/blog/digital-wellbeing-ux-principles"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/0d2c9450e442-7A-P57HPrjeG232q8o78u721pWBzCChFmGjJ4MA26UM9Qy5sF6oqtzH2ajQN7ST8cSA6T32e6AtZC3AoDm_6SUXT8yhYi1F7.png"

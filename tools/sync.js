@@ -24,6 +24,12 @@ const ASSETS_DIR = path.join(ROOT_DIR, "assets");
 const METADATA_DIR = path.join(ROOT_DIR, "metadata");
 const CACHE_DIR = path.join(ROOT_DIR, ".cache", "m3");
 const README_SECTION_ORDER = ["home", "get-started", "develop", "foundations", "styles", "components", "blog"];
+const README_FALLBACK_TAB_ORDER = new Map([
+  ["overview", 0],
+  ["specs", 1],
+  ["guidelines", 2],
+  ["accessibility", 3],
+]);
 const README_SECTION_LABELS = new Map([
   ["home", "Home"],
   ["get-started", "Get started"],
@@ -1102,11 +1108,21 @@ function selectCarbonSections(carbonData, route, tabSlug) {
 }
 
 function routeTabLabel(route, tabSlug) {
+  const match = routeTabMatch(route, tabSlug);
+  return match.tab?.label || (tabSlug ? humanizePathSegment(tabSlug) : null);
+}
+
+function routeTabOrder(route, tabSlug) {
+  return routeTabMatch(route, tabSlug).index;
+}
+
+function routeTabMatch(route, tabSlug) {
   if (!tabSlug) {
-    return null;
+    return { tab: null, index: null };
   }
 
-  const tab = ensureArray(route.tabs).find((candidate) => {
+  const tabs = ensureArray(route.tabs);
+  const index = tabs.findIndex((candidate) => {
     const slugs = new Set([
       kebabCase(candidate.label),
       ...ensureArray(candidate.alternateSlugs).map(trimSlashes),
@@ -1114,7 +1130,7 @@ function routeTabLabel(route, tabSlug) {
     return slugs.has(tabSlug);
   });
 
-  return tab?.label || humanizePathSegment(tabSlug);
+  return index >= 0 ? { tab: tabs[index], index } : { tab: null, index: null };
 }
 
 async function renderResourceChunk(chunk, context) {
@@ -1327,6 +1343,7 @@ async function renderCarbonPage(entry, match, context, manifestPage) {
   manifestPage.route_slug = route.slug;
   manifestPage.tab = match.tabSlug || null;
   manifestPage.tab_title = routeTabLabel(route, match.tabSlug);
+  manifestPage.tab_order = routeTabOrder(route, match.tabSlug);
   manifestPage.page_data_url = pageDataUrl.replace("?cachebust=1", "");
   manifestPage.carbon_url = carbonUrl;
   manifestPage.assets = Array.from(pageAssets);
@@ -1514,7 +1531,7 @@ async function generateDocsReadme(manifest) {
   for (const [section, sectionPages] of sortedReadmeSections(bySection)) {
     lines.push(`### ${readmeSectionLabel(section)}`);
     lines.push("");
-    const sortedPages = sectionPages.sort((a, b) => a.output_file.localeCompare(b.output_file));
+    const sortedPages = sectionPages.sort(compareReadmePages);
     const titleCounts = countReadmeTitles(sortedPages);
     const usedLabels = new Set();
     for (const page of sortedPages) {
@@ -1565,6 +1582,37 @@ function rootReadmeFromDocsReadme(docsReadme) {
 
 function readmeRelativePath(page) {
   return toPosix(path.relative(DOCS_DIR, path.join(ROOT_DIR, page.output_file)));
+}
+
+function compareReadmePages(a, b) {
+  const routeCompare = readmeSortRoute(a).localeCompare(readmeSortRoute(b));
+  if (routeCompare !== 0) {
+    return routeCompare;
+  }
+
+  const tabCompare = readmeTabOrder(a) - readmeTabOrder(b);
+  if (tabCompare !== 0) {
+    return tabCompare;
+  }
+
+  return a.output_file.localeCompare(b.output_file);
+}
+
+function readmeSortRoute(page) {
+  if (page.route_slug) {
+    return page.route_slug;
+  }
+  return readmeRelativePath(page).replace(/\.md$/u, "");
+}
+
+function readmeTabOrder(page) {
+  if (Number.isInteger(page.tab_order)) {
+    return page.tab_order;
+  }
+  if (page.tab && README_FALLBACK_TAB_ORDER.has(page.tab)) {
+    return README_FALLBACK_TAB_ORDER.get(page.tab);
+  }
+  return page.tab ? Number.MAX_SAFE_INTEGER : -1;
 }
 
 function countReadmeTitles(pages) {

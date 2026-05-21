@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/guidelines"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "components"
 assets:
   - "assets/videos/f6089c53c42a-m34mdbc5-icon-buttons-A_2.mp4"

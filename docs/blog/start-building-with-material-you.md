@@ -2,7 +2,7 @@
 title: "Start building with Material You"
 source_url: "https://m3.material.io/blog/start-building-with-material-you"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/ee7d4cc880e8-M9d5b8pDzcsKHhfmCFIilmHUYHr-v5NKwxcQw5g-CIFb0-25Cf5Vr0wwU0shAw6N3mgbW9xmkhN9tV0Bb2egGCwfqrg9OlCE.png"

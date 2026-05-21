@@ -2,7 +2,7 @@
 title: "The new Google Fonts: find what you’re looking for"
 source_url: "https://m3.material.io/blog/2023-google-fonts-redesign"
 lastmod: "2024-07-05"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "blog"
 assets:
   - "assets/images/db2a2ac08fa3-Bc58urZEx3jhRwTeDQMp3L1VwW-Qoo-G-AT9Fe9o6M8yGHvYCoQNnB8Nkk7LQ5041bMxVdbJh3Aa5qAUC7MftTWh3V8oVtVD.png"

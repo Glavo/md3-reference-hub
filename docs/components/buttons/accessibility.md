@@ -2,7 +2,7 @@
 title: "Buttons"
 source_url: "https://m3.material.io/components/buttons/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:46:50.991Z"
+snapshot_at: "2026-05-21T02:53:59.363Z"
 section: "components"
 assets:
   - "assets/images/31a5e2cce7d3-mmm13hkn-01.png"
