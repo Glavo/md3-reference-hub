@@ -1,0 +1,349 @@
+---
+title: "States"
+source_url: "https://m3.material.io/foundations/interaction/states/applying-states"
+lastmod: "2025-08-05"
+snapshot_at: "2026-05-21T00:38:04.260Z"
+section: "foundations"
+assets:
+  - "assets/images/6cd1c2bf3bcf-ly2qpw4a-1.png"
+  - "assets/images/36a36b70dd19-ly2qrzig-2.png"
+  - "assets/images/370d0fee2cf4-ly2qtg0r-3.png"
+  - "assets/images/aa9fd8cbba50-ly2quyuj-4.png"
+  - "assets/videos/d15d6d433ed3-ly2vtf7p-GM3-Foundations-Interaction-States-DisabledBehavior-v01.mp4"
+  - "assets/images/a88723f39ec0-lyml0ix7-6.png"
+  - "assets/images/a61668434eb6-ly2vwc74-7.png"
+  - "assets/images/e13366e50df5-ly2vxl8i-8.png"
+  - "assets/images/5960b03e3b8b-ly2vymng-9.png"
+  - "assets/videos/37d3204bd314-ly2w0utg-GM3-Foundations-Interaction-States-HoverBehavior-1-v01.mp4"
+  - "assets/videos/38cd17fd63d5-ly2w4tl9-GM3-Foundations-Interaction-States-HoverBehavior-2-v01.mp4"
+  - "assets/videos/532a6343562a-ly2w8zl5-GM3-Foundations-Interaction-States-HoverBehavior-3-v01.mp4"
+  - "assets/images/ca670e39fd1b-ly2wa79s-13.png"
+  - "assets/images/038aa3177299-ly2wb5y9-14.png"
+  - "assets/images/94651d4040b6-ly2wctgk-15.png"
+  - "assets/images/14407d225f89-ly2wdmfh-16.png"
+  - "assets/images/79bc90873a46-ly2wf3qd-17.png"
+  - "assets/videos/0ebe9f5d0ce6-ly2whda4-GM3-Foundations-Interaction-States-FocusedBehavior-v01.mp4"
+  - "assets/images/614931561d9a-ly2wj03t-25.png"
+  - "assets/images/be2bac79affa-ly2wk46q-26.png"
+  - "assets/images/bba5efb6a591-ly2wl23l-27.png"
+  - "assets/images/0b2d859dc84a-ly2wo5k7-28.png"
+  - "assets/videos/fc1a20dab9f2-ly2wqo0t-GM3-Foundations-Interaction-States-PressedBehavior-1-v01.mp4"
+  - "assets/videos/e215a8435977-ly2wrufa-GM3-Foundations-Interaction-States-PressedBehavior-2-v01.mp4"
+  - "assets/videos/3bd025b052bd-ly2wt4k8-GM3-Foundations-Interaction-States-PressedBehavior-3-v01.mp4"
+  - "assets/images/fa7acea7e79a-ly2wu37e-32.png"
+  - "assets/images/1ec3ef560b9f-ly2wv77r-33.png"
+  - "assets/images/077535ce7668-ly2ww2lq-34.png"
+  - "assets/videos/ac5a9f7741f6-ly2wxglg-GM3-Foundations-Interaction-States-DraggedBehavior-1-v01.mp4"
+  - "assets/videos/8bd4f296e173-ly2wyr5e-GM3-Foundations-Interaction-States-DraggedBehavior-2-v01.mp4"
+---
+
+# States
+
+States show the interaction status of a component or UI element
+
+## Applying states
+
+## Enabled
+
+An enabled state communicates an interactive component or element. Enabled states use the default styling for each interactive component.
+
+![Enabled state of 4 components.](../../../../assets/images/6cd1c2bf3bcf-ly2qpw4a-1.png)
+
+_Enabled states for:ButtonFABSwitchText field_
+
+## Disabled
+
+A disabled state communicates when a component or element isn’t interactive. This state is visually communicated through color changes and reduced elevation.
+
+**Disabled states don't need to meet Material's contrast requirements.**
+
+![Low opacity solitary button labeled disabled, indicates a  disabled/inoperable state.](../../../../assets/images/36a36b70dd19-ly2qrzig-2.png)
+
+_Disabled button_
+
+Disabled states **are** inherited by action, selection, and input components:
+
+-   Buttons
+-   Cards
+-   Checkboxes
+-   Chips
+-   List items
+-   Radio buttons
+-   Switches
+-   Text fields
+
+![Inoperable state of 4 components.](../../../../assets/images/370d0fee2cf4-ly2qtg0r-3.png)
+
+_Disabled states for:CheckboxIcon buttonRadio buttonSegmented button_
+
+Disabled states **aren't** inherited by communication, containment, navigation, and some actions components: 
+
+-   App bars
+-   Badges
+-   Dialogs
+-   Floating action buttons (FABs)
+-   Menus
+-   Navigation bar, drawer, and rail
+-   Sheets
+-   Tabs
+-   Tooltips
+
+![Screen erroneously showing edit FAB in inoperable state, though the edit function is unavailable.](../../../../assets/images/aa9fd8cbba50-ly2quyuj-4.png)
+
+_If the action represented in the FAB is unavailable, the FAB shouldn't appear_
+
+### Behavior
+
+Disabled components can’t be focused, dragged, or pressed, and they don’t change state when tapped or hovered over.
+
+<video controls src="../../../../assets/videos/d15d6d433ed3-ly2vtf7p-GM3-Foundations-Interaction-States-DisabledBehavior-v01.mp4" title="A cursor moves over and clicks on an disabled/inoperable button and the button doesn’t change."></video>
+
+[Open video](../../../../assets/videos/d15d6d433ed3-ly2vtf7p-GM3-Foundations-Interaction-States-DisabledBehavior-v01.mp4)
+
+There can be any number of disabled states in a layout.
+
+![Disabled components on a screen.](../../../../assets/images/a88723f39ec0-lyml0ix7-6.png)
+
+_Disabled redo icon buttonDisabled checklist icon button_
+
+## Hover
+
+Hover states are initiated by the user pausing over an interactive element using a cursor.
+
+The lower-emphasis surface overlay for hover states can be applied to the entire component, elements within a component, or as a circular shape over part of the component.
+
+![Cursor moves toward button which reads “enabled” and when the cursor touches the button text changes to “hovered.”](../../../../assets/images/a61668434eb6-ly2vwc74-7.png)
+
+_Hovered button_
+
+Hover states **are** inherited by action, selection, and input components:
+
+-   Buttons
+-   Cards
+-   Checkbox
+-   Chips
+-   Date and time pickers
+-   List items
+-   Slider
+-   Switch
+-   Text fields
+
+![Hover state of 4 components.](../../../../assets/images/e13366e50df5-ly2vxl8i-8.png)
+
+_Hovered states for:FABIcon buttonChipSegmented buttons_
+
+Hover states **aren’t** inherited by communication, containment, or navigation components: 
+
+-   App bars
+-   Badges
+-   Dialogs
+-   Menus
+-   Navigation bar, drawer, and rail
+-   Sheets
+-   Tabs
+
+![Mobile screen with the whole  app bar wrongly in hover state.](../../../../assets/images/5960b03e3b8b-ly2vymng-9.png)
+
+_The individual components that are actionable within the app bar inherit hover states, not the whole app bar_
+
+### Behavior
+
+Hover states are initiated by the user pausing over an interactive element using a cursor.
+
+<video controls src="../../../../assets/videos/37d3204bd314-ly2w0utg-GM3-Foundations-Interaction-States-HoverBehavior-1-v01.mp4" title="Button’s text“Enabled”  changes to“Hovered” when cursor moves over the button."></video>
+
+[Open video](../../../../assets/videos/37d3204bd314-ly2w0utg-GM3-Foundations-Interaction-States-HoverBehavior-1-v01.mp4)
+
+Hover states can be combined with focused, activated, selected, or pressed states.
+
+<video controls src="../../../../assets/videos/38cd17fd63d5-ly2w4tl9-GM3-Foundations-Interaction-States-HoverBehavior-2-v01.mp4" title="Filter chip text matches state as it's unselected, hovered, and selected by a cursor."></video>
+
+[Open video](../../../../assets/videos/38cd17fd63d5-ly2w4tl9-GM3-Foundations-Interaction-States-HoverBehavior-2-v01.mp4)
+
+There can only be one hover state at a time in a layout.
+
+<video controls src="../../../../assets/videos/532a6343562a-ly2w8zl5-GM3-Foundations-Interaction-States-HoverBehavior-3-v01.mp4" title="Hover state moves from one card to another with cursor movement. "></video>
+
+[Open video](../../../../assets/videos/532a6343562a-ly2w8zl5-GM3-Foundations-Interaction-States-HoverBehavior-3-v01.mp4)
+
+## Focused
+
+A focused state communicates when a user has highlighted an element using a keyboard or voice. Focus states apply to all interactive components.
+
+The higher-emphasis surface overlay for focused states can be applied to the entire component, elements within a component, or as a circular shape over part of the component.
+
+![A button in focused state.](../../../../assets/images/ca670e39fd1b-ly2wa79s-13.png)
+
+_Focused button_
+
+Focus states **are** inherited by action, selection, and input components:
+
+-   Buttons
+-   Cards
+-   Checkbox
+-   Chips
+-   Date and time pickers
+-   List items
+-   Selection controls
+-   Text fields
+
+![Focus state of 4 components.](../../../../assets/images/038aa3177299-ly2wb5y9-14.png)
+
+_Focused states for:FABIcon buttonChipSegmented buttons_
+
+Focus states **aren’t** inherited by most communication, containment, or navigation components:
+
+-   App bars
+-   Badges
+-   Banner
+-   Card
+-   Dialogs
+-   Navigation bar, drawer, and rail
+-   Sheets
+
+![Mobile screen showing  entire app bar in focus state, which is an error.](../../../../assets/images/94651d4040b6-ly2wctgk-15.png)
+
+_The individual components that are actionable within the app bar inherit focus states, not the whole app bar_
+
+### Keyboard focus indicator
+
+Many people use the **Tab** key or other shortcut to navigate the interactive elements of a web page, like links, buttons, and chips.
+
+When an element is tabbed to, it appears in its focused state with a ring-like **keyboard focus indicator**. This indicator helps web users know where they are on the page.
+
+While focused, an element can be acted on with the keyboard.
+
+![A single filled button in focused state, displaying the keyboard focus indicator.](../../../../assets/images/14407d225f89-ly2wdmfh-16.png)
+
+_Keyboard focus indicator for a filled button_
+
+### Behavior
+
+Focus states are initiated by the user by pressing the **Tab** key on the keyboard (or equivalent).
+
+Focus states can be represented in combination with hover, activated, or selected states.
+
+![A single filter chip simultaneously in selected state and focus state.](../../../../assets/images/79bc90873a46-ly2wf3qd-17.png)
+
+_A selected filter chip in both selected and focused states_
+
+There can only be one focus state at a time in a layout.
+
+<video controls src="../../../../assets/videos/0ebe9f5d0ce6-ly2whda4-GM3-Foundations-Interaction-States-FocusedBehavior-v01.mp4" title="Cursor moving from one card in focus state to another card moves the focus state to the second card. "></video>
+
+[Open video](../../../../assets/videos/0ebe9f5d0ce6-ly2whda4-GM3-Foundations-Interaction-States-FocusedBehavior-v01.mp4)
+
+## Pressed
+
+A pressed state communicates a user-initiated tap or click via cursor, keyboard, or voice input. This state applies to all interactive components.
+
+Pressed states trigger a change in composition and should be high-emphasis.
+
+A ripple overlay signifies a pressed state. It can be applied to an entire component or elements within a component, or as a circular shape over part of the component.
+
+![Button using a ripple overlay to signify it’s in a pressed state.](../../../../assets/images/614931561d9a-ly2wj03t-25.png)
+
+_Pressed button_
+
+Some components, such as buttons or cards, can inherit elevation to signify a pressed state.
+
+![Button using elevation to signify it’s in a pressed state.](../../../../assets/images/be2bac79affa-ly2wk46q-26.png)
+
+_Pressed button with elevation_
+
+Pressed states **are** inherited by action, selection, and some containment components: 
+
+-   Buttons
+-   Cards
+-   Checkbox
+-   Chips
+-   List items
+-   Text fields
+
+![Four components shown in pressed state.](../../../../assets/images/bba5efb6a591-ly2wl23l-27.png)
+
+_Pressed states for:FABIcon buttonChipSegmented button_
+
+Pressed states **aren’t** inherited by communication, navigation, or some containment components: 
+
+-   App bars
+-   Badges
+-   Bottom navigation
+-   Dialogs
+-   Menus
+-   Sheets
+-   Tabs
+
+![Mobile screen showing  entire app bar in pressed state is an error.](../../../../assets/images/0b2d859dc84a-ly2wo5k7-28.png)
+
+_The individual components that are actionable within the app bar inherit pressed states, not the whole app bar_
+
+### Behavior
+
+Pressed states are initiated by user keyboard or voice input on an interactive element.
+
+<video controls src="../../../../assets/videos/fc1a20dab9f2-ly2wqo0t-GM3-Foundations-Interaction-States-PressedBehavior-1-v01.mp4" title="Enabled state activated to pressed state."></video>
+
+[Open video](../../../../assets/videos/fc1a20dab9f2-ly2wqo0t-GM3-Foundations-Interaction-States-PressedBehavior-1-v01.mp4)
+
+Pressed states can be combined with hovered, focused, activated, or selected states.
+
+<video controls src="../../../../assets/videos/e215a8435977-ly2wrufa-GM3-Foundations-Interaction-States-PressedBehavior-2-v01.mp4" title="Hovered state activated to a pressed state."></video>
+
+[Open video](../../../../assets/videos/e215a8435977-ly2wrufa-GM3-Foundations-Interaction-States-PressedBehavior-2-v01.mp4)
+
+There may only be a single pressed state at a time in a layout.
+
+<video controls src="../../../../assets/videos/3bd025b052bd-ly2wt4k8-GM3-Foundations-Interaction-States-PressedBehavior-3-v01.mp4" title="Pressed state on one card at a time."></video>
+
+[Open video](../../../../assets/videos/3bd025b052bd-ly2wt4k8-GM3-Foundations-Interaction-States-PressedBehavior-3-v01.mp4)
+
+## Dragged
+
+A dragged state occurs when a user presses and moves an element or component. Dragged states should be low emphasis, to avoid distracting users from their task.
+
+Dragged states use a lower emphasis overlay. It can be applied to the entire component or to elements within a component.
+
+Some components, such as list items, chips, or cards, can inherit elevation to signify a dragged state.
+
+![List item shown in dragged state.](../../../../assets/images/fa7acea7e79a-ly2wu37e-32.png)
+
+_Dragged list item_
+
+Dragged states **are** inherited by some containment and selection components: 
+
+-   Cards
+-   Chips
+-   List items
+-   Sliders
+
+![A chip and a card both shown in dragged state.](../../../../assets/images/1ec3ef560b9f-ly2wv77r-33.png)
+
+_Dragged states for:ChipCard_
+
+Dragged states **aren’t** inherited by action, communication, navigation, or some containment components: 
+
+-   App bars
+-   Badges
+-   Buttons
+-   Dialogs
+-   Menus
+-   Navigation bar, drawer, and rail
+
+![Mobile screen with app bar in dragged state is an error.](../../../../assets/images/077535ce7668-ly2ww2lq-34.png)
+
+_Components like an app bar that require consistent placement should not inherit dragged states_
+
+### Behavior
+
+Dragged states are initiated when users touch and hold elements, using an input method such as a tap or click.
+
+<video controls src="../../../../assets/videos/ac5a9f7741f6-ly2wxglg-GM3-Foundations-Interaction-States-DraggedBehavior-1-v01.mp4" title="Going through the states of a draggable list item:  enabled, hovered, dragged."></video>
+
+[Open video](../../../../assets/videos/ac5a9f7741f6-ly2wxglg-GM3-Foundations-Interaction-States-DraggedBehavior-1-v01.mp4)
+
+There may only be a single dragged state at a time within a layout.
+
+<video controls src="../../../../assets/videos/8bd4f296e173-ly2wyr5e-GM3-Foundations-Interaction-States-DraggedBehavior-2-v01.mp4" title="Cursor dragging cards one at a time."></video>
+
+[Open video](../../../../assets/videos/8bd4f296e173-ly2wyr5e-GM3-Foundations-Interaction-States-DraggedBehavior-2-v01.mp4)

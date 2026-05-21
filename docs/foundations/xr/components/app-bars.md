@@ -1,0 +1,177 @@
+---
+title: "XR components"
+source_url: "https://m3.material.io/foundations/xr/components/app-bars"
+lastmod: "2026-05-18"
+snapshot_at: "2026-05-21T00:38:04.260Z"
+section: "foundations"
+assets:
+  - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
+  - "assets/images/a0ebba1fa85e-mp5ntwab-01-3P.png"
+  - "assets/images/59e939ea92f0-mp5nuh2w-02-3P.png"
+  - "assets/images/e8aa0cb3decc-mp5nuy7e-03-3P.png"
+  - "assets/images/bcd27dcdc07f-mp5nvfsh-04-3P.png"
+  - "assets/videos/64be6eb726b4-mowvrdts-XR_Top-App-Bar_Usage_01_IA_v03-(1).mp4"
+  - "assets/videos/548fbd471cb3-mowvuyn4-XR_Top-App-Bar_Behavior_01_IA_v03-(1).mp4"
+  - "assets/videos/88584281581e-mowvzhjn-XR_Top-App-Bar_Behavior_02_IA_v03-(1).mp4"
+  - "assets/videos/8937d31b4c7b-moww3e8a-XR_Top-App-Bar_Behavior_03_IA_v03-(1).mp4"
+  - "assets/images/c9bdff6bea91-mowwbs16-09.png"
+  - "assets/images/1e08c6899724-mowwe02f-10.png"
+  - "assets/images/68bf136938e3-mowwevxe-11.png"
+  - "assets/images/3ba2ff466f48-mowwgpq6-12.png"
+  - "assets/videos/e491b1f923f6-mowxpzvt-XR_Top-App-Bar_Spatial-pane-alignment_01_IA_v03-(1).mp4"
+  - "assets/images/d7e1ab16bcad-mowy6885-14.png"
+  - "assets/images/8be47781a17a-mowy73ja-15.png"
+  - "assets/videos/ecb827f95491-mp1yzz8i-XR_Top-App-Bar_Adaptable-width_01_IA_v03.mp4"
+---
+
+# XR components
+
+Learn how Material 3 Expressive components adapt to extended reality devices
+
+![XR components](../../../../assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png)
+
+## App bars
+
+star
+
+Note:
+
+XR guidelines are primarily intended for designers. Find what’s implemented in code in the [design kit](https://www.figma.com/community/file/1035203688168086460).
+
+Extended reality (XR) interfaces have special design requirements, like showing apps in 3D space. Material has an XR app bar with custom specs and guidance. See [XR developer documentation](https://developer.android.com/design/ui/xr/guides/foundations) for more details.
+
+## Variants & configurations
+
+There is one app bar orbiter. It closely aligns with the small app bar. It can be configured to be center-aligned or left-aligned.
+
+![Center and left-aligned app bar orbiters.](../../../../assets/images/a0ebba1fa85e-mp5ntwab-01-3P.png)
+
+_Center-aligned app barLeft-aligned app bar_
+
+## Anatomy
+
+![Diagrams of app bar orbiters identifying 4 internal elements.](../../../../assets/images/59e939ea92f0-mp5nuh2w-02-3P.png)
+
+_ContainerHeadlineTrailing iconsLeading icon_
+
+## Color & elevation
+
+XR uses color to communicate the elevation of UI elements and orbiters. With [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation), the app bar displays above the spatial panel on the Z-axis. Elevated app bars can use any of these color options:
+
+![3 versions of app bar elevation color strategy.](../../../../assets/images/e8aa0cb3decc-mp5nuy7e-03-3P.png)
+
+_Surface containerSurface container highSurface container highest_
+
+## Measurements
+
+![Diagrams with measurements and padding for app bar orbiters.](../../../../assets/images/bcd27dcdc07f-mp5nvfsh-04-3P.png)
+
+_Measurements and padding for app bar orbiters_
+
+## Usage
+
+An app bar can appear in an orbiter for a more immersive experience. Currently, this spatial capability is only available in full space. In home space, use a regular app bar on the same plane as the body content to mimic a 2D experience.
+
+<video controls src="../../../../assets/videos/64be6eb726b4-mowvrdts-XR_Top-App-Bar_Usage_01_IA_v03-(1).mp4" title="Animation showing an app bar changing from 2D to 3D."></video>
+
+[Open video](../../../../assets/videos/64be6eb726b4-mowvrdts-XR_Top-App-Bar_Usage_01_IA_v03-(1).mp4)
+
+## Behavior
+
+### Global context
+
+When placed in global context, the orbiter is centered at the top of the app it controls. 
+
+It stays anchored to the app during layout or content changes. 
+
+This ensures navigation elements are always easy to find and use.
+
+<video controls src="../../../../assets/videos/548fbd471cb3-mowvuyn4-XR_Top-App-Bar_Behavior_01_IA_v03-(1).mp4" title="An app bar orbiter placed in global context."></video>
+
+[Open video](../../../../assets/videos/548fbd471cb3-mowvuyn4-XR_Top-App-Bar_Behavior_01_IA_v03-(1).mp4)
+
+### Local context
+
+When placed in local context, the orbiter is centered at the top of the spatial panel it controls. 
+
+It repositions in response to layout or content changes.
+
+<video controls src="../../../../assets/videos/88584281581e-mowvzhjn-XR_Top-App-Bar_Behavior_02_IA_v03-(1).mp4" title="An app bar orbiter placed in local context."></video>
+
+[Open video](../../../../assets/videos/88584281581e-mowvzhjn-XR_Top-App-Bar_Behavior_02_IA_v03-(1).mp4)
+
+### Additional app bars
+
+In most cases, apps should only have one app bar orbiter, placed in global context.
+
+<video controls src="../../../../assets/videos/8937d31b4c7b-moww3e8a-XR_Top-App-Bar_Behavior_03_IA_v03-(1).mp4" title="An app switches between 1 and 2 app bar orbiters."></video>
+
+[Open video](../../../../assets/videos/8937d31b4c7b-moww3e8a-XR_Top-App-Bar_Behavior_03_IA_v03-(1).mp4)
+
+## Placement
+
+### Offset & inset positioning
+
+In full space, an app bar orbiter can be positioned:
+
+-   Offset 20dp from the spatial panel
+
+-   Inset 12dp, overlapping spatial panel without obstructing content
+
+![App bar orbiter with offset positioning.](../../../../assets/images/c9bdff6bea91-mowwbs16-09.png)
+
+_An app bar orbiter with a 20dp offset creates visual separation from the spatial panel_
+
+![App bar orbiter with inset positioning that obstructs content..](../../../../assets/images/1e08c6899724-mowwe02f-10.png)
+
+_Don’t overlap the app bar orbiter and spatial panel more than 12dp_
+
+### Horizontal alignment
+
+![An app bar orbiter placed within the bounds of its spatial panel.](../../../../assets/images/68bf136938e3-mowwevxe-11.png)
+
+_Always align the app bar orbiter within the bounds of nearby spatial panels_
+
+![An app bar orbiter that extends beyond the width of its spatial panel.](../../../../assets/images/3ba2ff466f48-mowwgpq6-12.png)
+
+_The app bar orbiter shouldn’t exceed the width of adjacent spatial panels_
+
+### Spatial panel alignment
+
+By default, app bar orbiters are center-aligned to the spatial panel. Their width and placement can be adjusted to accommodate specific user needs, such as improved ergonomics or [right-to-left (RTL) languages](../../layout/bidirectionality-rtl.md).
+
+<video controls src="../../../../assets/videos/e491b1f923f6-mowxpzvt-XR_Top-App-Bar_Spatial-pane-alignment_01_IA_v03-(1).mp4" title="App bar orbiter alignment options in relation to spatial panels: left, center, and right-aligned."></video>
+
+[Open video](../../../../assets/videos/e491b1f923f6-mowxpzvt-XR_Top-App-Bar_Spatial-pane-alignment_01_IA_v03-(1).mp4)
+
+### Width boundaries
+
+An app bar orbiter’s width should adjust to stay in a person’s [field of view](https://developer.android.com/design/ui/xr/guides/spatial-ui#where-place). 
+
+This makes crucial navigation elements easy to find.
+
+![An app bar orbiter with a width that fits in a person’s field of view.](../../../../assets/images/d7e1ab16bcad-mowy6885-14.png)
+
+_Adjust the width of the app bar orbiter to fit in a person’s field of view_
+
+It’s not recommended to increase the width of an app bar orbiter beyond a person’s natural [field of view](https://developer.android.com/design/ui/xr/guides/spatial-ui#where-place). 
+
+This creates a visual imbalance and makes it difficult to find navigation elements.
+
+![An app bar orbiter that exceeds the panel’s width and a person’s field of view.](../../../../assets/images/8be47781a17a-mowy73ja-15.png)
+
+_Avoid expanding the app bar orbiter beyond the adjacent panel’s width and a person’s field of view_
+
+### Adaptable width
+
+When placed in a local context, an app bar orbiter can expand to the width of its adjacent spatial panel.   
+
+Be sure the orbiter stays in a person’s field of view, and test for usability.
+
+<video controls src="../../../../assets/videos/ecb827f95491-mp1yzz8i-XR_Top-App-Bar_Adaptable-width_01_IA_v03.mp4" title="2 app bar orbiters with the same width as their adjacent spatial panels."></video>
+
+[Open video](../../../../assets/videos/ecb827f95491-mp1yzz8i-XR_Top-App-Bar_Adaptable-width_01_IA_v03.mp4)
+
+## Accessibility considerations
+
+[XR accessibility](../design/accessibility.md) guidelines are still evolving. XR app bars should follow applicable Material [app bar accessibility standards](../../../components/app-bars/accessibility.md).

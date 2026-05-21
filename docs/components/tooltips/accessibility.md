@@ -1,0 +1,84 @@
+---
+title: "Tooltips"
+source_url: "https://m3.material.io/components/tooltips/accessibility"
+lastmod: "2026-01-30"
+snapshot_at: "2026-05-21T00:38:04.260Z"
+section: "components"
+assets:
+  - "assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4"
+  - "assets/images/8550fbbb913b-me6ru5uh-02.png"
+  - "assets/images/fc554b59788e-me6ruf33-03.png"
+  - "assets/images/8441b09b02ba-mjha0vdq-04.png"
+  - "assets/images/e62799fa71ff-me6ry9ry-05.png"
+---
+
+# Tooltips
+
+Tooltips display brief labels or messages
+
+## Accessibility
+
+## Use cases
+
+People should be able to do the following using assistive technology:
+
+-   Receive a tooltip message
+-   Activate a tooltip with a keyboard or switch input
+
+## Interaction & style
+
+Plain and rich tooltips without required actions should remain on screen long enough for people to receive the information without disrupting their existing flow or task.
+
+<video controls src="../../../assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4" title="A cursor hovers over an icon that identifies it as a star, which remains after moving away."></video>
+
+[Open video](../../../assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4)
+
+Tooltips can appear when an actionable element, like a button or navigation rail, is hovered or focused. However, this tooltip shouldn’t hide crucial information.
+
+Rich tooltips can also appear by selecting an element instead of hovering or focusing on it.
+
+![A cursor hovers over a favorite button producing text about finding this item later in favorites.](../../../assets/images/8550fbbb913b-me6ru5uh-02.png)
+
+_Tooltips can appear on hover or focus to explain actions_
+
+![An information button in a selected state produces text about finding this item later in favorites.](../../../assets/images/fc554b59788e-me6ruf33-03.png)
+
+_Rich tooltips can appear when an element is selected_
+
+## Focus order
+
+Tooltip containers should not block important information or prevent a person from completing an action. 
+
+Focus order within the rich tooltip moves top to bottom between interactive elements. 
+
+Avoid trapping screen reader and keyboard focus on rich tooltips.
+
+People should be able to move linearly through the rest of the page.
+
+![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](../../../assets/images/8441b09b02ba-mjha0vdq-04.png)
+
+_Parent elementInline linkText button_
+
+## Keyboard navigation
+
+**Keys**
+
+**Actions**
+
+**Tab**
+
+Focus lands on button, if available
+
+**Space** or **Enter**
+
+Activates the focused element
+
+## Labeling elements
+
+Tooltips should have the **Tooltip** role, or similar. 
+
+Label all elements in the tooltip according to their own accessibility guidance.
+
+![A rich and plain tooltip with all elements matched to accessibility labels.](../../../assets/images/e62799fa71ff-me6ry9ry-05.png)
+
+_The tooltip container should have the Tooltip role_

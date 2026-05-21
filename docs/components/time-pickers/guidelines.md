@@ -1,0 +1,199 @@
+---
+title: "Time pickers"
+source_url: "https://m3.material.io/components/time-pickers/guidelines"
+lastmod: "2026-02-05"
+snapshot_at: "2026-05-21T00:38:04.260Z"
+section: "components"
+assets:
+  - "assets/images/eab2ea48c98c-md2pwu0i-01.png"
+  - "assets/images/f585103a6c56-md2q22nz-02.png"
+  - "assets/images/830a7aade71b-md2q5unb-03.png"
+  - "assets/images/0303816b3230-md2q7fdq-04.png"
+  - "assets/images/8c4a9d5363d8-md2u47yh-05.png"
+  - "assets/images/4401777cef53-md2u4xoe-06.png"
+  - "assets/images/753f333a4cec-md2u8t61-07.png"
+  - "assets/images/6942c5a00319-md2ugmkj-08.png"
+  - "assets/images/8321caedcb7b-md2uji74-09.png"
+  - "assets/images/e774439d0be2-md2uqf01-10.png"
+  - "assets/images/479b1df75b94-md2wil5z-11.png"
+  - "assets/images/202689aa08bf-lw7tgqq3-12.png"
+  - "assets/images/d256ead36487-md2uzinf-13.png"
+  - "assets/images/cde136cddf0c-md2v1wt2-14_dont.png"
+  - "assets/videos/6a6f67768b99-lw8wa0wg-GM3-Components-TimePickers-Guidelines-1-v01.mp4"
+  - "assets/videos/9dc80cc6f3cf-lw8waqdc-GM3-Components-TimePickers-Guidelines-2-v01.mp4"
+  - "assets/videos/6b09269442a4-lw8wbaye-GM3-Components-TimePickers-Guidelines-3-v01.mp4"
+  - "assets/images/f29d8b7b3fce-md2v8xeq-18.png"
+---
+
+# Time pickers
+
+## Guidelines
+
+![Time picker. It has a dial and keyboard input for hours and minutes, and a setting for AM or PM.](../../../assets/images/eab2ea48c98c-md2pwu0i-01.png)
+
+_Dial selector time picker for a 12-hour clock_
+
+## Usage
+
+Time pickers allow people to enter a specific time value. They’re displayed in dialogs and can be used to select hours, minutes, or periods of time.
+
+They can be used for a wide range of scenarios. Common use cases include:
+
+-   Setting an alarm
+-   Scheduling a meeting
+
+Time pickers are not ideal for nuanced or granular time selection, such as milliseconds for a stopwatch application.
+
+![Time picker with dial input selecting hour 7.](../../../assets/images/f585103a6c56-md2q22nz-02.png)
+
+_Hour selection in a mobile calendar picker_
+
+### Time input picker
+
+Time input pickers allow people to specify a time using keyboard numbers. This input option should be accessible from any other mobile time picker interface by tapping the keyboard icon.
+
+![Input time picker with keyboard active for the hour.](../../../assets/images/830a7aade71b-md2q5unb-03.png)
+
+_Hour input with keyboard entry_
+
+### 24-hour time selection
+
+The dial view can be changed to reflect time selection across 24 hours. This option is set outside of the time picker component, typically through system settings.
+
+![Time picker with dial input selecting hour 20. Hours 0–11 use an outer dial, hours 12–23 use an inner dial.](../../../assets/images/0303816b3230-md2q7fdq-04.png)
+
+_24-hour dial view_
+
+## Anatomy
+
+![17 elements of a dial time picker.](../../../assets/images/8c4a9d5363d8-md2u47yh-05.png)
+
+_Label (headline)Time selector separatorInput fieldInput text Period selector (selected)Period selector text (selected)ContainerPeriod selector outlinePeriod selector textDial selector trackDial label (selected)Text buttonsIcon buttonDial label (unselected)Clock dialInput text (selected)Input field (selected)_
+
+![13 elements of an input time picker.](../../../assets/images/4401777cef53-md2u4xoe-06.png)
+
+_Label (headline)Time selector separatorInput fieldInput text Period selector (selected)Period selector text (selected)ContainerPeriod selector outlinePeriod selector text (unselected)Text buttonsIcon buttonInput text (selected)Input field (selected)_
+
+### Container
+
+Like dialogs, the container should appear above other screen elements. To focus attention, surfaces behind the container have a temporary scrim overlay to make them less prominent.
+
+![Time picker container, all elements inside.](../../../assets/images/753f333a4cec-md2u8t61-07.png)
+
+_The container includes all time picker elements_
+
+### Input selector
+
+The input selector is a unique kind of text field input. It differs from typical text field inputs in that it has:
+
+-   An added highlight to call attention to the selected field
+
+-   A larger shape, size, and font
+
+-   A label below the field
+
+
+Hours and minutes should have separate inputs. For people using a 12-hour clock, an AM/PM selector appears to the right of minutes. For people using a 24-hour clock, the AM/PM selector shouldn’t appear.
+
+![Input time picker with the hour field active, and so highlighted.](../../../assets/images/6942c5a00319-md2ugmkj-08.png)
+
+_Input selector for a 12-hour clock_
+
+### Dial selector
+
+Dial selectors always mimic a round watch face. Hours and minutes can be selected by tapping a number or dragging the dial selector track.
+
+When representing a 12-hour dial, all numbers appear in the outer ring. When representing a 24-hour dial, even numbers appear in an inner ring, and odd numbers appear in an outer ring.
+
+![Dial time picker with hour 7 selected.](../../../assets/images/8321caedcb7b-md2uji74-09.png)
+
+_Dial selector for a 12-hour clock_
+
+### Text & icon buttons
+
+Icon buttons are used to switch between the input selector, represented by a keyboard, and the dial selector, represented by a clock.
+
+Text buttons are used to exit the dialog (**Cancel**) and save the selector input (**OK**).
+
+![Time picker buttons.](../../../assets/images/e774439d0be2-md2uqf01-10.png)
+
+_The keyboard icon allows people to switch between the dial selector (pictured) and the input selector_
+
+### Landscape orientation
+
+The clock dial interface adapts to a device’s orientation. In landscape mode, the stacked input and selection options are positioned side-by-side.
+
+![Time picker in landscape orientation on mobile.](../../../assets/images/479b1df75b94-md2wil5z-11.png)
+
+_On mobile, the time picker can adapt to landscape orientation_
+
+## Placement
+
+Time pickers shouldn’t be obscured by other elements.  
+
+Time pickers should change orientation or variant to ensure they aren't cropped by the edge of the screen.
+
+Time pickers are modal windows above a scrim. This puts the time pickers at the forefront of a person's view, calling attention to make a selection of time.
+
+![Input time picker in landscape orientation on mobile. It's fully visible despite the limited device height.](../../../assets/images/202689aa08bf-lw7tgqq3-12.png)
+
+_The time picker should change to fit the size of the screen so the time picker is always fully visible_
+
+## Adaptive design
+
+Time pickers can swap between orientation or variant depending on device orientation and viewport constraints. 
+
+For example, the time picker can change to landscape orientation on larger breakpoints or when viewport height is limited, to avoid scrolling the dial presentation. 
+
+Time pickers can fallback to the input time picker when there isn’t enough vertical real estate to present the landscape orientation without scrolling.
+
+![Dial time picker in portrait orientation on mobile.](../../../assets/images/d256ead36487-md2uzinf-13.png)
+
+_High-density time picker displayed on mobile_
+
+### Density
+
+Don’t apply density to the time picker dial when the viewport is constrained. Instead, use an input picker.
+
+![Dial time picker in portrait orientation, too tall to fully fit on a mobile device in landscape mode.](../../../assets/images/cde136cddf0c-md2v1wt2-14_dont.png)
+
+_Don’t apply density to the time picker dial when the viewport is constrained. Instead, use an input picker._
+
+## Behavior
+
+There are two primary methods for selecting time with the mobile time picker. People can:
+
+-   Type in a specific value in the hour and minute fields
+-   Select the hour or minute field from the text input and adjust the clock dial to simultaneously change the corresponding time field above
+
+<video controls src="../../../assets/videos/6a6f67768b99-lw8wa0wg-GM3-Components-TimePickers-Guidelines-1-v01.mp4" title="Dial time picker possible interactions. Dial selector adjusts to match manual input."></video>
+
+[Open video](../../../assets/videos/6a6f67768b99-lw8wa0wg-GM3-Components-TimePickers-Guidelines-1-v01.mp4)
+
+### Appearing & disappearing
+
+Like other kinds of dialogs, time pickers use an enter and exit transition pattern to appear on the screen.
+
+To exit a time picker, the input can either be confirmed (**OK**) or dismissed (**Cancel**). Interacting outside of the dialog will also dismiss the time picker. Unless one of these actions is taken, a time picker will continue to retain focus.
+
+<video controls src="../../../assets/videos/9dc80cc6f3cf-lw8waqdc-GM3-Components-TimePickers-Guidelines-2-v01.mp4" title="Time picker enter and exit transitions."></video>
+
+[Open video](../../../assets/videos/9dc80cc6f3cf-lw8waqdc-GM3-Components-TimePickers-Guidelines-2-v01.mp4)
+
+### Toggle between dial & input
+
+Tapping the keyboard icon on a mobile time picker switches the view to the input picker.
+
+<video controls src="../../../assets/videos/6b09269442a4-lw8wbaye-GM3-Components-TimePickers-Guidelines-3-v01.mp4" title="Time picker transitioning between dial and input selectors."></video>
+
+[Open video](../../../assets/videos/6b09269442a4-lw8wbaye-GM3-Components-TimePickers-Guidelines-3-v01.mp4)
+
+### Scrolling
+
+Time pickers should avoid scrolling, and swap component orientation or variant based on device orientation or viewport size. 
+
+Time pickers don’t scroll with elements outside of the modal window, such as the background.
+
+![Input time picker in landscape orientation to fit a mobile device in landscape mode.](../../../assets/images/f29d8b7b3fce-md2v8xeq-18.png)
+
+_Time pickers shouldn’t scroll_

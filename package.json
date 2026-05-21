@@ -1,0 +1,19 @@
+{
+  "name": "md3-reference-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Markdown mirror tooling for m3.material.io.",
+  "scripts": {
+    "sync": "node tools/sync.js",
+    "validate": "node tools/validate.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "fast-xml-parser": "^5.3.2",
+    "turndown": "^7.2.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

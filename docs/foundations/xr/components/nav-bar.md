@@ -1,0 +1,130 @@
+---
+title: "XR components"
+source_url: "https://m3.material.io/foundations/xr/components/nav-bar"
+lastmod: "2026-05-18"
+snapshot_at: "2026-05-21T00:38:04.260Z"
+section: "foundations"
+assets:
+  - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
+  - "assets/images/67e75b360d9e-mp5rw7th-01-3P.png"
+  - "assets/images/bd87b5509390-mp5rwtar-02-3P.png"
+  - "assets/images/952b1c0beedc-mp5rxeyw-03-3P.png"
+  - "assets/videos/6bd31dee3904-m4cj01s5-navbar_01.mp4"
+  - "assets/videos/bf26ceec7a10-mp0xfkl2-navbar_07.mp4"
+  - "assets/videos/8161b687921f-ma4aas8k-XR_Nav-Bar_Behavior_02_V02.mp4"
+  - "assets/videos/5be5d626a044-moxalxwd-navbar_02.mp4"
+  - "assets/videos/c0ed48709f37-moxaokg7-navbar_04.mp4"
+  - "assets/videos/24737cd373b3-moxaqxbc-navbar_05.mp4"
+  - "assets/videos/13a4822d5db1-moxaupni-navbar_06.mp4"
+---
+
+# XR components
+
+Learn how Material 3 Expressive components adapt to extended reality devices
+
+![XR components](../../../../assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png)
+
+## Nav bar
+
+star
+
+Note:
+
+XR guidelines are primarily intended for designers. Find what’s implemented in code in the [design kit](https://www.figma.com/community/file/1035203688168086460).
+
+Extended reality (XR) interfaces have special design requirements, like showing apps in 3D space. Material has an XR navigation bar with custom specs and guidance. See [XR developer documentation](http://developer.android.com/design/ui/xr/guides/foundations) for more details.
+
+## Anatomy
+
+![Diagram of navigation bar orbiter identifying 7 internal elements of the component.](../../../../assets/images/67e75b360d9e-mp5rw7th-01-3P.png)
+
+_ContainerIconActive indicator Small badge (optional)Large badge (optional)Large badge label (optional)Label text_
+
+## Color & elevation
+
+On XR, color is used to highlight elevated UI elements and orbiters. With [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation), the navigation bar displays above the spatial panel, on the Z-axis. Color communicates elevation on UI elements and orbiters. Elevated nav bars can use any of these color options:
+
+![4 versions of elevation color strategy.](../../../../assets/images/bd87b5509390-mp5rwtar-02-3P.png)
+
+_Surface containerSurface container highSurface container highestTertiary container_
+
+## Measurements
+
+![Measurements and padding for navigation bar orbiter.](../../../../assets/images/952b1c0beedc-mp5rxeyw-03-3P.png)
+
+_Navigation bar orbiter padding and measurements_
+
+## Usage
+
+In full space, a navigation bar can appear in an orbiter for a more immersive experience. Currently, spatial capabilities, such as orbiters, are only available in full space. In home space, use a regular navigation bar on the same plane as the body content to mimic a 2D experience.
+
+<video controls src="../../../../assets/videos/6bd31dee3904-m4cj01s5-navbar_01.mp4" title="Interface showcasing navigation bar behavior and placement when transitioning from a 2D to 3D experience."></video>
+
+[Open video](../../../../assets/videos/6bd31dee3904-m4cj01s5-navbar_01.mp4)
+
+## Behavior
+
+### Global context
+
+When placed in global context, the navigation bar orbiter is centered at the bottom of the app it controls. It stays anchored to the app during layout or content changes. This ensures navigation elements are easy to find and use.
+
+<video controls src="../../../../assets/videos/bf26ceec7a10-mp0xfkl2-navbar_07.mp4" title="A navigation bar orbiter placed in global context."></video>
+
+[Open video](../../../../assets/videos/bf26ceec7a10-mp0xfkl2-navbar_07.mp4)
+
+### Local context
+
+When placed in local context, the navigation bar orbiter is centered at the bottom of the spatial panel it controls. It repositions in response to layout or content changes.
+
+<video controls src="../../../../assets/videos/8161b687921f-ma4aas8k-XR_Nav-Bar_Behavior_02_V02.mp4" title="A navigation bar orbiter placed in local context."></video>
+
+[Open video](../../../../assets/videos/8161b687921f-ma4aas8k-XR_Nav-Bar_Behavior_02_V02.mp4)
+
+## Placement
+
+### Navigation context
+
+The position of the navigation bar orbiter should communicate its navigational context:
+
+-   Use **offset positioning** for global actions that affect the overall app experience
+
+-   Use **inset positioning** for local actions that are specific to a spatial panel
+
+
+A navigation bar orbiter can either overlap or be positioned adjacent to spatial panels with a 20dp margin for visual separation.
+
+<video controls src="../../../../assets/videos/5be5d626a044-moxalxwd-navbar_02.mp4" title="Navigation bar orbiter offset and inset positioning."></video>
+
+[Open video](../../../../assets/videos/5be5d626a044-moxalxwd-navbar_02.mp4)
+
+### Inset positioning
+
+Don’t obstruct content. To ensure a balanced and uncluttered layout, a navigation bar orbiter should overlap spatial panels by 12dp and no more than half their height.
+
+<video controls src="../../../../assets/videos/c0ed48709f37-moxaokg7-navbar_04.mp4" title="Navigation bar orbiter inset positioning beyond the 12dp recommendation."></video>
+
+[Open video](../../../../assets/videos/c0ed48709f37-moxaokg7-navbar_04.mp4)
+
+### Horizontal alignment
+
+The navigation bar orbiter placement shouldn't exceed the width of adjacent spatial panels.
+
+<video controls src="../../../../assets/videos/24737cd373b3-moxaqxbc-navbar_05.mp4" title="Nav bar orbiter placement that exceeds the width of its spatial panel."></video>
+
+[Open video](../../../../assets/videos/24737cd373b3-moxaqxbc-navbar_05.mp4)
+
+### Spatial panel alignment
+
+A navigation bar orbiter should always be placed at the bottom of a spatial panel and within the immediate field of view (FOV).
+
+Their placement can be adjusted to accommodate specific needs, such as improved ergonomics or [right-to-left (RTL) languages](../../layout/bidirectionality-rtl.md).
+
+Avoid placing the navigation bar orbiter at the top of a spatial panel, as this area is typically reserved for app bar orbiters or other critical UI elements.
+
+<video controls src="../../../../assets/videos/13a4822d5db1-moxaupni-navbar_06.mp4" title="Nav bar orbiter incorrectly placed above a spatial panel."></video>
+
+[Open video](../../../../assets/videos/13a4822d5db1-moxaupni-navbar_06.mp4)
+
+## Accessibility considerations
+
+XR navigation bars should follow applicable Material [nav bar accessibility standards](../../../components/navigation-bar/accessibility.md). [More on XR accessibility](../design/accessibility.md)
