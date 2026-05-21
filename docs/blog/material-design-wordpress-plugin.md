@@ -2,7 +2,7 @@
 title: "Material Design for WordPress"
 source_url: "https://m3.material.io/blog/material-design-wordpress-plugin"
 lastmod: "2024-04-17"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/b96199e4419e-2bkL2_iRZf7rYM1J6Wq2ZvxWiGYwt8kNpHSW_ckOnSd9indURxfHRe0lnHcCbx3jA7OIE21yVMYlSJFtVcMfaNyEm55y8WyV.png"

@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"

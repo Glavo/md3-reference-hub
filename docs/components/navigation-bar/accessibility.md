@@ -2,7 +2,7 @@
 title: "Navigation bar"
 source_url: "https://m3.material.io/components/navigation-bar/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/videos/b7e7f46c95e5-m7paivnz-GM3-Accessibility_Expressive_NavBar_a11y_01_V03.mp4"

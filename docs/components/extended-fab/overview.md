@@ -2,7 +2,7 @@
 title: "Extended FABs"
 source_url: "https://m3.material.io/components/extended-fab/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/184b55314ff0-m0df17xu-01.png"

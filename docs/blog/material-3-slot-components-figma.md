@@ -2,7 +2,7 @@
 title: "Unlocking component flexibility with slots in Figma"
 source_url: "https://m3.material.io/blog/material-3-slot-components-figma"
 lastmod: "2025-05-13"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/24588d9b0566-ZEXG-W7U-laQVPWKv9dDO63A3X4_53Wye7OjxT287BY0D66dpxl7bsT3FX5MxkjYUIgWfVjJkBSqy9w7XX67qvtbAF8sgx1Q.png"

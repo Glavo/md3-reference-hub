@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/1019b10763b6-mg0yt1n6-1.png"

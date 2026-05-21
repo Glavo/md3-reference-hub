@@ -2,7 +2,7 @@
 title: "Shape"
 source_url: "https://m3.material.io/styles/shape/corner-radius-scale"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "styles"
 assets:
   - "assets/images/7f14dca9228a-m0c80f7i-1.png"

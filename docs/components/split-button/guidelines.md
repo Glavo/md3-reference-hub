@@ -2,7 +2,7 @@
 title: "Split buttons"
 source_url: "https://m3.material.io/components/split-button/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/99689c6aaafe-m36akp9w-1.png"

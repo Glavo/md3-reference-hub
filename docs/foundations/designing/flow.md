@@ -2,7 +2,7 @@
 title: "Designing"
 source_url: "https://m3.material.io/foundations/designing/flow"
 lastmod: "2025-10-08"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "foundations"
 assets:
   - "assets/images/74ae75052e62-m0qvgj8o-5.png"

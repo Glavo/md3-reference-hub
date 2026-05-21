@@ -2,7 +2,7 @@
 title: "Building a Dark Theme for Google Fonts"
 source_url: "https://m3.material.io/blog/google-fonts-dark-theme"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/56d326f05b52-XyYL1gtZmsH8yqGNcybRTDjeFw9cwez-3m5GL0dQF2zUW5yolzoq7j7mXtNigUMD91YmGVMpM3sfSUypLK3n9n2BzJr7vB4l.png"

@@ -2,7 +2,7 @@
 title: "Dialogs"
 source_url: "https://m3.material.io/components/dialogs/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/68c0d68b0c0b-m8sf9qay-01.png"

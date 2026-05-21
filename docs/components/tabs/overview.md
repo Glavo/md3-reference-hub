@@ -2,7 +2,7 @@
 title: "Tabs"
 source_url: "https://m3.material.io/components/tabs/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/427b5b265869-m2kfqg9k-1.png"

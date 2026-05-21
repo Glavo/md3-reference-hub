@@ -2,7 +2,7 @@
 title: "Get Started"
 source_url: "https://m3.material.io/get-started"
 lastmod: "2026-05-13"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "get-started"
 assets:
   - "assets/images/a599dda87ce5-DrY1Wm52hNIcP07rfIJT5yCtpm6T1D1KBHzrPz6s8iKRFV6KwAyygVx7yH3MLnhJelR76FO7NF_5tMAWje_wdE8bLOAwU_yB.png"

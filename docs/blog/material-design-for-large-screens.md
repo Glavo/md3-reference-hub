@@ -2,7 +2,7 @@
 title: "Introducing Material Design Guidance for Large Screens"
 source_url: "https://m3.material.io/blog/material-design-for-large-screens"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/b7b98e56fc79-78oT8GROrcU1-CAKTdsCLUzhSnlS8l_YB33qv52wE1kBlqff0A77JYE8vStC1l__TG8hpqW7RniS-PIOL6fJfiEtEfv0OLpw.png"

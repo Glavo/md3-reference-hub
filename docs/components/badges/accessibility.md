@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/accessibility"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/videos/a6a5ffaee75a-lvp03lg1-GM3-Components-Badges-Accessibility-1-v01.mp4"

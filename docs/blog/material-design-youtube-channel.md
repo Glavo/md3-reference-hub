@@ -2,7 +2,7 @@
 title: "Introducing the Material Design YouTube Channel"
 source_url: "https://m3.material.io/blog/material-design-youtube-channel"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/fc8bf46d0509-A9cWdCGRd1bObEIXYa_exTvmaF8Jwmk2oFLJZFsALhy5Aap-dxl6HK35-0hCdeCd7xj3MQ-oKLxxPkz4cUBPqYnKuUJd3bXg.png"

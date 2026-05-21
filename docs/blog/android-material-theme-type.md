@@ -2,7 +2,7 @@
 title: "Building a Material Theme on Android: Typography"
 source_url: "https://m3.material.io/blog/android-material-theme-type"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/93bc901d9394-QYmMEVMQnST3qpYC1r5OEFSdyvZDQHI-RawscL-YRf1eJaNkJeGoImxSfb1jmIIcHEjrv96pq-HOsUIf7EkKuT6yJMwegbDu.png"

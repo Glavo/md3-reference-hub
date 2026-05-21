@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/accessibility"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/aa4cedab2b70-magv3srk-1.png"

@@ -2,7 +2,7 @@
 title: "Components"
 source_url: "https://m3.material.io/components"
 lastmod: "2024-12-04"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/9ca9710ed1ec-Qc711elOuAZEB87E_WVLPP0VA6NMbtOftvrvuwc8XQZj6W3Zrf_wH0sKFhbfick4zqAf8qpYSPDVihLYOJSrppaeYRNap6Wk.png"

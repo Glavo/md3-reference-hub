@@ -2,7 +2,7 @@
 title: "Building for all"
 source_url: "https://m3.material.io/foundations/building-for-all/co-design"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "foundations"
 assets:
   - "assets/images/aa2ca4be1d5b-mlav38v4-1.png"

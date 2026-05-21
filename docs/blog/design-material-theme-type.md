@@ -2,7 +2,7 @@
 title: "Designing a Material Theme: Typography"
 source_url: "https://m3.material.io/blog/design-material-theme-type"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/274c7fdc6642-n34a-EytCCSC3lu2skTYXmY1E6s_5oadqEcrQGxh5aYclnWcoqRfysXFtn2XOFuDQ-jeJ3euEoKSpe5ZBIzOXf_UYYcj8TWN.png"

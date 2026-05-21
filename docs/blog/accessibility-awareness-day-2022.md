@@ -2,7 +2,7 @@
 title: "Celebrating Global Accessibility Awareness Day"
 source_url: "https://m3.material.io/blog/accessibility-awareness-day-2022"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "blog"
 assets:
   - "assets/images/d80b27ae9d0b-eoKmKp829QKJsoDdR1uOZLCwjdORHBwAyeIqXdE32B26ZHcYBYzA9dpgqwUDuUT1sX3gMNM9ayAxySiMh7v6Jd6OS20wtlgz.png"

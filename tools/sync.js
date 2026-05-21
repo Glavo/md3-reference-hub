@@ -30,6 +30,14 @@ const README_FALLBACK_TAB_ORDER = new Map([
   ["guidelines", 2],
   ["accessibility", 3],
 ]);
+const README_SECTION_ROOTS = new Map([
+  ["home", "index.md"],
+  ["get-started", "get-started.md"],
+  ["develop", "develop.md"],
+  ["foundations", "foundations.md"],
+  ["styles", "styles.md"],
+  ["components", "components.md"],
+]);
 const README_SECTION_LABELS = new Map([
   ["home", "Home"],
   ["get-started", "Get started"],
@@ -1524,22 +1532,22 @@ async function generateDocsReadme(manifest) {
     "",
     `Source: ${SITE_ORIGIN}/`,
     "",
-    "## Sections",
+    "## Contents",
     "",
   ];
 
   for (const [section, sectionPages] of sortedReadmeSections(bySection)) {
-    lines.push(`### ${readmeSectionLabel(section)}`);
-    lines.push("");
     const sortedPages = sectionPages.sort(compareReadmePages);
     const entries = groupReadmePages(sortedPages);
-    const titleCounts = countReadmeTitles(entries);
+    const { rootEntry, childEntries } = splitReadmeSectionEntries(section, entries);
+    const titleCounts = countReadmeTitles(childEntries);
     const usedLabels = new Set();
-    for (const entry of entries) {
-      lines.push(renderReadmeEntry(entry, titleCounts, usedLabels));
+    lines.push(renderReadmeSectionEntry(section, rootEntry));
+    for (const entry of childEntries) {
+      lines.push(renderReadmeEntry(entry, titleCounts, usedLabels, "  "));
     }
-    lines.push("");
   }
+  lines.push("");
 
   lines.push("## Source Files");
   lines.push("");
@@ -1636,19 +1644,45 @@ function isReadmeTabPage(page) {
   return Boolean(page.route_slug && page.tab);
 }
 
-function renderReadmeEntry(entry, titleCounts, usedLabels) {
+function splitReadmeSectionEntries(section, entries) {
+  const rootIndex = entries.findIndex((entry) => isReadmeSectionRootEntry(section, entry));
+  if (rootIndex < 0) {
+    return { rootEntry: null, childEntries: entries };
+  }
+
+  return {
+    rootEntry: entries[rootIndex],
+    childEntries: entries.filter((_entry, index) => index !== rootIndex),
+  };
+}
+
+function isReadmeSectionRootEntry(section, entry) {
+  const rootPath = README_SECTION_ROOTS.get(section);
+  return Boolean(rootPath && entry.pages.length === 1 && readmeRelativePath(entry.pages[0]) === rootPath);
+}
+
+function renderReadmeSectionEntry(section, rootEntry) {
+  const label = escapeMarkdownLinkText(readmeSectionLabel(section));
+  if (!rootEntry) {
+    return `- ${label}`;
+  }
+
+  return `- [${label}](${readmeRelativePath(rootEntry.pages[0])})`;
+}
+
+function renderReadmeEntry(entry, titleCounts, usedLabels, indent = "") {
   if (entry.pages.length > 1 && entry.pages.every(isReadmeTabPage)) {
     const label = readmeEntryLabel(entry, titleCounts, usedLabels);
     const tabs = entry.pages
       .map((page) => `[${escapeMarkdownLinkText(readmeTabLinkLabel(page))}](${readmeRelativePath(page)})`)
       .join(" | ");
-    return `- ${escapeMarkdownLinkText(label)} (${tabs})`;
+    return `${indent}- ${escapeMarkdownLinkText(label)} (${tabs})`;
   }
 
   const page = entry.pages[0];
   const relative = readmeRelativePath(page);
   const label = readmeEntryLabel(entry, titleCounts, usedLabels);
-  return `- [${escapeMarkdownLinkText(label)}](${relative})`;
+  return `${indent}- [${escapeMarkdownLinkText(label)}](${relative})`;
 }
 
 function readmeTabLinkLabel(page) {

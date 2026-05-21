@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/overview"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T02:57:25.562Z"
+snapshot_at: "2026-05-21T03:01:23.896Z"
 section: "components"
 assets:
   - "assets/images/cb496c8bbfc0-me6q4295-01.png"
