@@ -2,7 +2,7 @@
 title: "FABs"
 source_url: "https://m3.material.io/components/floating-action-button/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/68cda2352316-mkapod2e-01.png"
@@ -34,7 +34,7 @@ assets:
 
 ## Guidelines
 
-![3 screens with various FAB sizes.](../../../assets/images/68cda2352316-mkapod2e-01.png)
+![3 screens with various FAB sizes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapod2e-01.png?alt=media&token=2371fb7d-a6b0-4648-9023-ad1a1b7f96f1>)
 
 _FABs have multiple sizes that scale with the window size_
 
@@ -44,7 +44,7 @@ Use a FAB for the most important action on a screen; it appears in front of all 
 
 The FAB can be aligned left, center, or right. It can be positioned above the navigation bar, or nested within it.
 
-![A Compose FAB is positioned above a nav bar on a mobile email inbox.](../../../assets/images/7463f4e628d6-mkapp0w4-02.png)
+![A Compose FAB is positioned above a nav bar on a mobile email inbox.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapp0w4-02.png?alt=media&token=241a9e04-8ed7-4df1-8eb7-c389ab51362c>)
 
 _FABs can use dynamic color_
 
@@ -61,7 +61,7 @@ Choose the FAB size based on the visual hierarchy of your layout. 
 
 Note: The small FAB is no longer recommended.
 
-![3 FAB sizes.](../../../assets/images/aeb55d9eaccd-mkappjdx-03.png)
+![3 FAB sizes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkappjdx-03.png?alt=media&token=a21e240b-8ff5-4959-a8e3-8d002d19ab0b>)
 
 _FAB; Medium FAB; Large FAB_
 
@@ -71,19 +71,19 @@ The medium FAB is recommended for most situations, and works best in compact and
 
 A large FAB is useful in any window size when the layout calls for a clear and prominent primary action, but is best suited for expanded and larger window sizes, where its size helps draw attention.
 
-![A medium FAB over an email app UI.](../../../assets/images/faeb3f82e218-mkapq84r-04.png)
+![A medium FAB over an email app UI.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapq84r-04.png?alt=media&token=3ac65358-559c-4725-b887-7c7de2881712>)
 
 _Use a medium FAB in most window sizes_
 
-![A large FAB over an email app UI.](../../../assets/images/fd18cae909ce-mkapqn1b-05.png)
+![A large FAB over an email app UI.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapqn1b-05.png?alt=media&token=5e6372d1-3c98-40d6-b521-d103604d221f>)
 
 _Use a large FAB when the primary action needs to be prominent_
 
-![A photo feed with no FAB.](../../../assets/images/3c6321bb7e89-mkapr8x3-06-do.png)
+![A photo feed with no FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapr8x3-06-do.png?alt=media&token=362c34fb-d2cf-4c87-b970-68d508cd0628>)
 
 _FABs are not needed on every screen, such as when images represent primary actions_
 
-![A screen with 3 FABs makes it hard to tell what the primary action should be.](../../../assets/images/f079666d7a77-mkaps2z9-07-don't.png)
+![A screen with 3 FABs makes it hard to tell what the primary action should be.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaps2z9-07-don't.png?alt=media&token=6a7e9640-e3f3-4bdd-a06f-fd85cd7d184b>)
 
 _Don't display multiple FABs on a single screen_
 
@@ -91,11 +91,11 @@ A FAB can transform into an extended FAB on larger screens, or it can transition
 
 [More on FAB menus](../fab-menu/accessibility.md)
 
-![A extended FAB saying “Share” with a less popular share icon.](../../../assets/images/0f4ce99dab85-mkc6tcz8-08.png)
+![A extended FAB saying “Share” with a less popular share icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6tcz8-08.png?alt=media&token=c6d0cbd2-c2d4-4056-893e-ccaa0c5a7ebc>)
 
 _Use the extended FAB when label text is necessary_
 
-![A FAB menu showing 3 actions related to sharing.](../../../assets/images/af3ceb440f91-mkc6uyqo-09.png)
+![A FAB menu showing 3 actions related to sharing.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6uyqo-09.png?alt=media&token=75154982-3fd8-4bde-8d3d-4470c055591f>)
 
 _Use the FAB menu when there are many kinds of actions relevant to the FAB_
 
@@ -110,7 +110,7 @@ A FAB promotes an important, constructive action such as:
 -   Share
 -   Start a process
 
-![FABS for 12 common actions including, create, edit, and navigate.](../../../assets/images/167aa2defc42-mkaptzjv-10.png)
+![FABS for 12 common actions including, create, edit, and navigate.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaptzjv-10.png?alt=media&token=6feee690-87e8-42b2-b91e-6bc024c92add>)
 
 _Use FABs for primary, positive actions_
 
@@ -124,13 +124,13 @@ Avoid using a FAB for minor or destructive actions, such as:
 
 -   Controls better suited to a toolbar, like to adjust volume or font color
 
-![FABs for 18 minor or destructive actions, such as cut, trash, and volume.](../../../assets/images/e49130949bbb-mkapug9u-11.png)
+![FABs for 18 minor or destructive actions, such as cut, trash, and volume.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapug9u-11.png?alt=media&token=1fa984f4-3e7a-4960-ae4c-2c44611a7ec5>)
 
 _Don’t use FABs for minor, overflow, unclear, or destructive actions_
 
 ## Anatomy
 
-![2 elements of a FAB.](../../../assets/images/9de6b9e8184c-mkapv2og-12.png)
+![2 elements of a FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkapv2og-12.png?alt=media&token=3686bf12-1656-4350-ae10-e8f104d287bb>)
 
 _Container; Icon_
 
@@ -140,7 +140,7 @@ The FAB is typically displayed in a square container. The container shouldn’t 
 
 The container must have sufficient color contrast with the surface it’s placed on.
 
-![A bright colored FAB has high contrast with the background.](../../../assets/images/2cc02bd62e89-mkaq0msf-13.png)
+![A bright colored FAB has high contrast with the background.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaq0msf-13.png?alt=media&token=34c9472a-9ed8-4db3-990e-84433d0b6331>)
 
 _A FAB container color needs to stand out from its background_
 
@@ -150,11 +150,11 @@ An icon in a FAB should be clear and understandable. When hovering over a FAB on
 
 A FAB shouldn't contain notifications or actions found elsewhere on a screen.
 
-![4 FABs each with a simple icon.](../../../assets/images/77b05b672fe6-mkaq1779-14.png)
+![4 FABs each with a simple icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaq1779-14.png?alt=media&token=d381cf06-0f9b-41bf-91bb-e199ebfc8769>)
 
 _Use clear and simple icons such as add, message, or edit_
 
-![4 FABs each with an ambiguous icon.](../../../assets/images/75376101fe8c-mkaq1wxv-15.png)
+![4 FABs each with an ambiguous icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaq1wxv-15.png?alt=media&token=6e1889bc-265d-4896-8a2d-63cca01c2252>)
 
 _Don’t use confusing or open-ended icons to symbolize less common actions_
 
@@ -166,15 +166,15 @@ In expanded window sizes, consider placing the FAB in the upper left corner, lik
 
 Adjust the size of the FAB based on the context. Use a medium FAB for mobile layouts, and large FAB for tablets and large screens.
 
-![Large screen layout showing FAB in upper left region of the screen, below navigation rail icon.](../../../assets/images/523f94c96fea-mkaq2b6m-16.png)
+![Large screen layout showing FAB in upper left region of the screen, below navigation rail icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaq2b6m-16.png?alt=media&token=f8d3f99a-25ef-44c6-9dc8-78a71f64e587>)
 
 _For large screens, place the FAB in the upper left corner_
 
-![A screen layout with several interactive elements. A single FAB is in the navigation rail.](../../../assets/images/0f0dcb3031fb-mkaq2qmb-17.png)
+![A screen layout with several interactive elements. A single FAB is in the navigation rail.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaq2qmb-17.png?alt=media&token=4028106d-daa4-4cfb-b4a3-ef0e0c9fb96d>)
 
 _A FAB can be used within a navigation component, such as a navigation rail_
 
-![A busy screen layout with 8 cards, each with their own FAB.](../../../assets/images/a500b3aabc80-mkaq35yc-18.png)
+![A busy screen layout with 8 cards, each with their own FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkaq35yc-18.png?alt=media&token=5b375eb2-c9ea-4324-bdcb-09444f227ca8>)
 
 _Individual components, such as cards, shouldn’t have their own FAB_
 

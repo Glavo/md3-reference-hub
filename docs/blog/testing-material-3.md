@@ -2,7 +2,7 @@
 title: "What does your UI say to your users?"
 source_url: "https://m3.material.io/blog/testing-material-3"
 lastmod: "2025-04-30"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/8536a2e7bf88-_XkvCAsnfDAAVGqZXYBAeFrrjv6QyITEGAtOkKyL0U_utVllNJL7N-rJ-zyghQKZ-l51W9KwKH8zdbAOnGacMnhtM7tKuf3k.png"
@@ -13,7 +13,7 @@ assets:
 
 How we tested M2 and M3 interfaces to understand the impact of visual changes
 
-![abstract animation](../../assets/images/8536a2e7bf88-_XkvCAsnfDAAVGqZXYBAeFrrjv6QyITEGAtOkKyL0U_utVllNJL7N-rJ-zyghQKZ-l51W9KwKH8zdbAOnGacMnhtM7tKuf3k.png)
+![abstract animation](<https://lh3.googleusercontent.com/_XkvCAsnfDAAVGqZXYBAeFrrjv6QyITEGAtOkKyL0U_utVllNJL7N-rJ-zyghQKZ-l51W9KwKH8zdbAOnGacMnhtM7tKuf3kFrkQcnQBOOcWI4aOiQ>)
 
 Published: 2024-05-13T13:00:00
 
@@ -69,7 +69,7 @@ We've been systematically using these questions to evaluate Material 3 as a desi
 
 In one experiment, we asked 229 US-based participants to rank Material 2 against Material 3 in the context of an email app.
 
-![Study results comparing Material 2 to Material 3 versions of an email app](../../assets/images/36c4debb0964-oSqPFI3-KfdacrPxv3_5q-OYxSROzVv3AuXPjGmna0MVCuhwCV3HFHZ2HwzF79hW-dQrthh03Mp-_uCG2vkVdg7c_y7x74Em.png)
+![Study results comparing Material 2 to Material 3 versions of an email app](<https://lh3.googleusercontent.com/oSqPFI3-KfdacrPxv3_5q-OYxSROzVv3AuXPjGmna0MVCuhwCV3HFHZ2HwzF79hW-dQrthh03Mp-_uCG2vkVdg7c_y7x74Em0wftJziFmJ6dZ__hCs0>)
 
 Note: The horizontal axis is an estimate of the percent of the population that would choose the design for each question. For example, we estimate 92% of users would find the Material 3 design to be more informative than the Material 2 version of this email app. “\*” indicates a statistically significant difference.
 

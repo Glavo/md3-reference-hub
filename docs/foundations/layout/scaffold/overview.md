@@ -2,7 +2,7 @@
 title: "Scaffold"
 source_url: "https://m3.material.io/foundations/layout/scaffold/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/0a7544d16089-mp3n7x8n-01.png"
@@ -30,6 +30,6 @@ A fundamental UI design structure that provides a standard platform for assembli
 |  | [Spacing system & tokens](../../../styles/spacing/applying-spacing.md) | Available |
 | Implementation | [Jetpack Compose: Rulers](https://developer.android.com/reference/kotlin/androidx/compose/ui/layout/Ruler) | Available |
 
-![2 diagrams of mobile and desktop layouts, identifying the parts of a scaffold.](../../../../assets/images/0a7544d16089-mp3n7x8n-01.png)
+![2 diagrams of mobile and desktop layouts, identifying the parts of a scaffold.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3n7x8n-01.png?alt=media&token=ed620772-fcdc-4d4b-8ff5-afd727a51f5d>)
 
 _Safety region; Bar; Pane; Rail_

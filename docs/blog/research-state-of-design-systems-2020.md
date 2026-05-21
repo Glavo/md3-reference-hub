@@ -2,7 +2,7 @@
 title: "The State of Design Systems: 2020"
 source_url: "https://m3.material.io/blog/research-state-of-design-systems-2020"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/6691db17ce2f-IDHMnQrBxc5SRlLGWdUf50WHjIFyT6TIRsAhZhRir83-cnxwJIYBvyGArfN7t1c5_fK68SfvpUSyq6Hlijrpiw5AC3An4XlS.png"
@@ -24,7 +24,7 @@ assets:
 
 A community survey of design systems, from creation to implementation and beyond
 
-![Image](../../assets/images/6691db17ce2f-IDHMnQrBxc5SRlLGWdUf50WHjIFyT6TIRsAhZhRir83-cnxwJIYBvyGArfN7t1c5_fK68SfvpUSyq6Hlijrpiw5AC3An4XlS.png)
+![Image](<https://lh3.googleusercontent.com/IDHMnQrBxc5SRlLGWdUf50WHjIFyT6TIRsAhZhRir83-cnxwJIYBvyGArfN7t1c5_fK68SfvpUSyq6Hlijrpiw5AC3An4XlSz30f7w>)
 
 Published: 2020-12-16T14:00:00
 
@@ -68,7 +68,7 @@ The top three design system artifacts shifted to:
 
 Most respondents (74%) also reported their design system had a component code library.
 
-![Bar chart](../../assets/images/77f77cdd09a5-AKw04XIMdyldM0BgMh_GSNEgiLaVHxMs0JUqiM8JhrODhtCBcXnOSW5nNUJOGfeihWWStyk_JSYl4_R37hCDRTxuBtxOFgNU.png)
+![Bar chart](<https://lh3.googleusercontent.com/AKw04XIMdyldM0BgMh_GSNEgiLaVHxMs0JUqiM8JhrODhtCBcXnOSW5nNUJOGfeihWWStyk_JSYl4_R37hCDRTxuBtxOFgNU7EpR4A>)
 
 Figure 1: Percentage of responses for a specific artifact included in their organization’s design system (Responses=465)
 
@@ -92,7 +92,7 @@ The top three stated reasons why companies created their in-house design system 
 2.  Address their product’s specific use cases (22%)
 3.  Framework or tech stack constraints (14%)
 
-![Bar chart](../../assets/images/068495e22dda-TdaJWw-tzmMC4eAaQCfRtRUfxDVOjKtdYs_G093UovcWgxxXppfbvXBMgh9zSYjCQKludbKCpfLqMTa3QQ3Gn2cUpbnVGimj.png)
+![Bar chart](<https://lh3.googleusercontent.com/TdaJWw-tzmMC4eAaQCfRtRUfxDVOjKtdYs_G093UovcWgxxXppfbvXBMgh9zSYjCQKludbKCpfLqMTa3QQ3Gn2cUpbnVGimjOLqO5Q>)
 
 Figure 2: Percentage of responses providing reasons for creating in-house design systems (Responses=350)
 
@@ -108,7 +108,7 @@ The top three design systems used by our respondents over the last 2 years are:
 2.  Apple’s Human-Interface Guidelines (HIG)
 3.  Bootstrap
 
-![Bar chart](../../assets/images/4d5b593fcd4d-el4uqW9Lgy30RRxU91SJyFm_Xaql4D3uXi-EwjeZoElhjR6IVWaUSJzVUXsh5rSRBXFPJ-cEabCh7jmwCx4X68lrFAmJwg8_.png)
+![Bar chart](<https://lh3.googleusercontent.com/el4uqW9Lgy30RRxU91SJyFm_Xaql4D3uXi-EwjeZoElhjR6IVWaUSJzVUXsh5rSRBXFPJ-cEabCh7jmwCx4X68lrFAmJwg8_tMRNcw>)
 
 Figure 3: Percentage of choices of design system used or tried in past 2 years (Responses=1259)
 
@@ -128,13 +128,13 @@ The top 3 tools selected by our respondents are:
 2.  Sketch (19%)
 3.  Illustrator (11%)
 
-![Bar chart](../../assets/images/314ca40c3875-ouNvcv0kIuLx0qaApPGL3jzTx5K59PvtjM25KEI5PHB5ivO5qdTmk89OkySsTCmzAG_4nuweS6O11h2CLeMXpHL_hk5EjwNQ.png)
+![Bar chart](<https://lh3.googleusercontent.com/ouNvcv0kIuLx0qaApPGL3jzTx5K59PvtjM25KEI5PHB5ivO5qdTmk89OkySsTCmzAG_4nuweS6O11h2CLeMXpHL_hk5EjwNQsVSqxA>)
 
 Figure 4: Percentage of responses for selecting design tools used (Responses=497)
 
 When we compare tool preference with company size (see Figure 5), Figma is the preference for companies with under 500 employees, while Sketch is the top choice at very large multinational corporations sized 10,000 employees and above.
 
-![Bar chart](../../assets/images/fe6f31a207e8-wT1mWNKXhtJQEi6dZSiLxApsBEJGiQiHo5HFPD4k4rROyXEiM-I0qlPyPTp3VvxMC7EkqCaya61jRdCiwRo4g9X3Xi2vozP7.png)
+![Bar chart](<https://lh3.googleusercontent.com/wT1mWNKXhtJQEi6dZSiLxApsBEJGiQiHo5HFPD4k4rROyXEiM-I0qlPyPTp3VvxMC7EkqCaya61jRdCiwRo4g9X3Xi2vozP71w1R>)
 
 Figure 5: Percentage of responses selecting a specific design tools used by the respondent’s company size (Responses=453)
 
@@ -150,13 +150,13 @@ The top 3 tools selected by our respondents are:
 2.  InVision (18%)
 3.  Zeplin (13%)
 
-![Bar chart](../../assets/images/987af0199d6b-694HlV4aDWOjC3tNxm8q3AWQlDD1upPAjiug9eg-KNBo-MZVM_v2N6vjyZzT8B_5T0JgTseqS5oYXbApoBmMOLW65S3nl7KQ.png)
+![Bar chart](<https://lh3.googleusercontent.com/694HlV4aDWOjC3tNxm8q3AWQlDD1upPAjiug9eg-KNBo-MZVM_v2N6vjyZzT8B_5T0JgTseqS5oYXbApoBmMOLW65S3nl7KQtVMZLA>)
 
 Figure 6: Percentage of responses selecting hand-off UX documentation tools used (Responses=451)
 
 When we compare tools for hand-off of UX documentation usage with company size, Figma is selected by almost all company sizes except for large companies, which use InVision more often.
 
-![Bar chart](../../assets/images/78c5ebd6b16b-D2lfas45m1fhpySXuR_YF4ndCSZjlxAWEz7PH3BkKh-PIeMVExEuiuYyv_vYi6QKhg5mCUhkAhuoXKtZTQ_0PB1A6ZPmKWKu.png)
+![Bar chart](<https://lh3.googleusercontent.com/D2lfas45m1fhpySXuR_YF4ndCSZjlxAWEz7PH3BkKh-PIeMVExEuiuYyv_vYi6QKhg5mCUhkAhuoXKtZTQ_0PB1A6ZPmKWKuNlkOpg>)
 
 Figure 7: Percentage of responses selecting a specific hand-off tools used by the respondent’s company size (Responses=451)
 
@@ -166,13 +166,13 @@ As more organizations create design systems, there is a growing selection of too
 
 In 2019, when we asked about tools to manage design systems, the top tool selected was Sketch. However, this year, the top spot was taken over by Figma (25%), followed by Sketch (21%), and Storybook (17%).
 
-![Bar chart](../../assets/images/860e8b824cf2-sZaXGaLmEClcGscSvw2n4YEr-ITZNOXxp6hcIGQcor7699k0nxdwzdBRmDOGPqg95Ys5GrLTfY_JXX-d_EWiXl-Kl2Qd-AVt.png)
+![Bar chart](<https://lh3.googleusercontent.com/sZaXGaLmEClcGscSvw2n4YEr-ITZNOXxp6hcIGQcor7699k0nxdwzdBRmDOGPqg95Ys5GrLTfY_JXX-d_EWiXl-Kl2Qd-AVtQReq>)
 
 Figure 8: Percentage of responses selecting design system management tools used (Responses=452)
 
 Again, when we review design system management tool usage by company size, Figma is selected by almost all companies except for large companies, which use Sketch more for this activity.
 
-![Bar chart](../../assets/images/d7343c5b32a2-9IZrdaejWMrmo2culDLJRqu2eoGXiQHlKIVkf20FwXqh_jDgRMalrvJnsJTfOCn9lU1bLEFKhR0v-HIr68HDg85GBi8s7s4Q.png)
+![Bar chart](<https://lh3.googleusercontent.com/9IZrdaejWMrmo2culDLJRqu2eoGXiQHlKIVkf20FwXqh_jDgRMalrvJnsJTfOCn9lU1bLEFKhR0v-HIr68HDg85GBi8s7s4QGwcevw>)
 
 Figure 9: Percentage of responses selecting design management tools by the respondent’s company size (Responses=452)
 
@@ -186,7 +186,7 @@ The top support activities reported include:
 2.  Onboarding for how to use the organization’s design system (14%)
 3.  Ability to file bugs against the system (13%)
 
-![Bar chart](../../assets/images/5dee2baa236a-_9KH_iW7Mho5RkAZsqxwV_lljdbvqRqWtRr5sMrFM0m4eDS1ZvjhxBDFXYnWnY3CnMb6Vr2OzmlsRJnjkqhWTtCXV6RDrjoN.png)
+![Bar chart](<https://lh3.googleusercontent.com/_9KH_iW7Mho5RkAZsqxwV_lljdbvqRqWtRr5sMrFM0m4eDS1ZvjhxBDFXYnWnY3CnMb6Vr2OzmlsRJnjkqhWTtCXV6RDrjoNwE0dFg>)
 
 Figure 10: Percentage of responses selecting design system support activities used (Responses=371)
 
@@ -198,7 +198,7 @@ Additionally, a stated goal for using a design system is maintaining product con
 
 In addition to learning more about in-house design systems growth trend, we also learned how long respondents’ design systems had been in place at their organization. About 25% of respondents stated that their design system had been in place 1-2 years, making them fairly new.
 
-![Bar chart](../../assets/images/bef8cb848726-7-WOzOVI0ksZSDxwjMllR4H5kGDU36zCt162e38UXBFqpEH6iSPhJAXNNiMavBM_tSmy1h00yx7vscYNv9uaFNEmMRLCIkmW.png)
+![Bar chart](<https://lh3.googleusercontent.com/7-WOzOVI0ksZSDxwjMllR4H5kGDU36zCt162e38UXBFqpEH6iSPhJAXNNiMavBM_tSmy1h00yx7vscYNv9uaFNEmMRLCIkmW4ihC>)
 
 Figure 11: Percentage of responses selecting number of years design system in place (Responses=533)
 
@@ -206,7 +206,7 @@ Consolidating the tenure data into two clusters (0 - 2 years; 2 - 4+ years) and 
 
 More mid-size companies (50 - 1500 employees) are increasingly using design systems to improve their product’s design and development team processes, product consistency, and quality.
 
-![Bar chart](../../assets/images/23a0c6430531-FKhJYw6e2mgIYWSxBaY9EOPyN_NkwZRh8aPnDqipGTDQ1wLFmesvWAAFuikkbO0uYX8E45-J8yueJJ52rr-HsS1mnF7iqFDl.png)
+![Bar chart](<https://lh3.googleusercontent.com/FKhJYw6e2mgIYWSxBaY9EOPyN_NkwZRh8aPnDqipGTDQ1wLFmesvWAAFuikkbO0uYX8E45-J8yueJJ52rr-HsS1mnF7iqFDlxNnt>)
 
 Figure 12: Count of design systems by respondent’s company size (Responses=389)
 

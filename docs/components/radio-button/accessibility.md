@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/accessibility"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/4eccbf5fd5ad-mcelaxg0-GM3_Radio-button_Accessibility_01_IA_v01.mp4"
@@ -54,11 +54,11 @@ When outside the radio group, **Tab** moves focus directly to the selected radio
 
 Use the **arrows** to navigate between options.
 
-![The Tab key focuses on the first of 2 stacked radio buttons.](../../../assets/images/7f9f78f1db18-mc94qafr-02.png)
+![The Tab key focuses on the first of 2 stacked radio buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmc94qafr-02.png?alt=media&token=638e9dfc-3ae8-41e6-932c-be168461fa20>)
 
 _Tab brings the focus to the initially selected item or the initial radio option_
 
-![The up and down arrow keys move through a list of stacked radio buttons.](../../../assets/images/9b45af1cbfc9-mg0z51u6-03.png)
+![The up and down arrow keys move through a list of stacked radio buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0z51u6-03.png?alt=media&token=3d528eb7-dbb4-4460-a556-b4660f3bc8f0>)
 
 _Arrows move to next element in a list_
 
@@ -77,12 +77,12 @@ If the UI text is correctly linked to the radio button, assistive tech such as a
 
 The accessibility label for a group of radio buttons is typically the same as its title. The role is **Radio group**.
 
-![Accessibility tags for a radio button group.](../../../assets/images/3a99c8d291c5-md3jpo7w-04.png)
+![Accessibility tags for a radio button group.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmd3jpo7w-04.png?alt=media&token=1f68a095-10b8-4914-9273-7f58c99a7f5e>)
 
 _Label the radio group based on the category title_
 
 The accessibility label for an individual radio button is typically the same as its adjacent text label.
 
-![Accessibility tags for a radio button.](../../../assets/images/bfcb6be762d0-mg0z56zm-05.png)
+![Accessibility tags for a radio button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0z56zm-05.png?alt=media&token=eff0ba7d-34fe-434b-b962-755ddac009ad>)
 
 _Label the radio button based on its label text_

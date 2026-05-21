@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/1019b10763b6-mg0yt1n6-1.png"
@@ -24,7 +24,7 @@ Checkboxes let users select one or more items from a list, or turn an item on or
 
 ## Guidelines
 
-![A list of burger additions represented with checkboxes.](../../../assets/images/1019b10763b6-mg0yt1n6-1.png)
+![A list of burger additions represented with checkboxes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0yt1n6-1.png?alt=media&token=e687e377-f0e9-4a8c-8323-97b6f3b03b2d>)
 
 _Checkboxes in a list of items_
 
@@ -37,17 +37,17 @@ Use checkboxes to: 
 -   Turn an item on or off in a desktop environment
 -   Visually group similar options together
 
-![List of 80's songs indicating choice through checkbox selection.](../../../assets/images/6277a0e09161-mg0vnl39-2.png)
+![List of 80's songs indicating choice through checkbox selection.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vnl39-2.png?alt=media&token=a6b2f259-cb48-4e43-9699-e20e94c0d737>)
 
 _Checkboxes select multiple, related options_
 
 Checkboxes should be used instead of switches if multiple, related options can be selected from a list. Checkboxes visually group similar items effectively and take up less space than switches.
 
-![List indicating choice with checkbox selection.](../../../assets/images/12583b42ad5c-mg0vok05-3_do.png)
+![List indicating choice with checkbox selection.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vok05-3_do.png?alt=media&token=6dd5d04d-babd-45cf-b7f8-a5e95ab275ff>)
 
 _Checkboxes let users select one or more options from a list. A parent checkbox allows for easy selection or deselection of all items._
 
-![A list with multiple switches selected.](../../../assets/images/ec9ee588ff43-mg0vwf9n-4_dont.png)
+![A list with multiple switches selected.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vwf9n-4_dont.png?alt=media&token=049701a4-cc33-442f-8e4e-db9c79aa40fa>)
 
 _If a list consists of multiple options, don't use switches. Instead, use checkboxes. Checkboxes imply the items are related, and take up less visual space._
 
@@ -61,17 +61,17 @@ Checkboxes, radio buttons, and switches are the three main selection controls. T
 
 -   Use switches to select standalone or more verbose options in a list, like settings.
 
-![Diagram of 2 radio buttons, one selected and one unselected.](../../../assets/images/288f47105916-mcypcjyf-5.png)
+![Diagram of 2 radio buttons, one selected and one unselected.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcypcjyf-5.png?alt=media&token=e0bb850c-365e-424b-aaa7-703285e8a6ea>)
 
 _Radio buttons_
 
-![Diagram of 2 switches, one selected and one unselected.](../../../assets/images/d4c733cb2859-mg0vwj88-6.png)
+![Diagram of 2 switches, one selected and one unselected.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vwj88-6.png?alt=media&token=9323d5db-9e97-4df0-a4b0-2cf2136cf1d2>)
 
 _Switches_
 
 ## Anatomy
 
-![Diagram of checkbox indicating the 2 parts of its anatomy.](../../../assets/images/8de2720d398b-mcypfx6t-7.png)
+![Diagram of checkbox indicating the 2 parts of its anatomy.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcypfx6t-7.png?alt=media&token=5f2b1048-7e0f-45f5-8f9b-3f09fab4e910>)
 
 _1. Container 2. Icon_
 
@@ -79,7 +79,7 @@ _1. Container 2. Icon_
 
 In expanded window sizes, placing checkboxes within a contained region such as a side sheet can help group related controls and available actions.
 
-![Desktop screen showing music albums and a side sheet containing checkboxes for filtering music genres.](../../../assets/images/da5ec4e4893a-mg0vp83b-8.png)
+![Desktop screen showing music albums and a side sheet containing checkboxes for filtering music genres.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vp83b-8.png?alt=media&token=ccabbf13-9b61-4bec-938e-708c502111b0>)
 
 _A side sheet can group related controls on larger screens_
 

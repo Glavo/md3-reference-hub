@@ -2,7 +2,7 @@
 title: "Unveiling Material You"
 source_url: "https://m3.material.io/blog/announcing-material-you"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/88253ec5a315-552oGSlinN0Gd7T8EjNkYGCBzHt0UmoG_pWtHSUY6FwaGT4q4-zJlGHD9rWO7MT5Oe_rtQZmyVnGRxVXch7Q1CTSQMs_1Tcw.png"
@@ -16,7 +16,7 @@ assets:
 
 The next stage for Material Design
 
-![Image](../../assets/images/88253ec5a315-552oGSlinN0Gd7T8EjNkYGCBzHt0UmoG_pWtHSUY6FwaGT4q4-zJlGHD9rWO7MT5Oe_rtQZmyVnGRxVXch7Q1CTSQMs_1Tcw.png)
+![Image](<https://lh3.googleusercontent.com/552oGSlinN0Gd7T8EjNkYGCBzHt0UmoG_pWtHSUY6FwaGT4q4-zJlGHD9rWO7MT5Oe_rtQZmyVnGRxVXch7Q1CTSQMs_1TcwbIMX9xZYDjEK2_R7PA>)
 
 Published: 2021-05-18T11:00:00
 

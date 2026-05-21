@@ -2,7 +2,7 @@
 title: "Split buttons"
 source_url: "https://m3.material.io/components/split-button/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/28c9184a918d-m4ilqvqh-Split-Button-B.mp4"
@@ -56,6 +56,6 @@ Color styles:
 -   Tonal
 -   Outlined
 
-![5 sizes of split buttons.](../../../assets/images/c056937aed3c-m0dmjd8r-2.png)
+![5 sizes of split buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dmjd8r-2.png?alt=media&token=62fdcac6-024e-4e46-8b38-7c4e6da472a8>)
 
 _Split buttons have the same five recommended sizes as label and icon buttons_

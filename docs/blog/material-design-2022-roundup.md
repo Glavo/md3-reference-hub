@@ -2,7 +2,7 @@
 title: "The Best of Material in 2022"
 source_url: "https://m3.material.io/blog/material-design-2022-roundup"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/755a59a10089-pBTzp_qqiB-n3qzvorstY9IHo6QlXigemgUKxYVSEfRQeeWTDIviVYD94oU_ucPJ_c2qMBdLJ17ZoMuzF2SIxJ_PQ0qxdGS3.png"
@@ -23,7 +23,7 @@ assets:
 
 Some of Material Design’s top moments from the past year
 
-![An animation of blue and green waves, undulating](../../assets/images/755a59a10089-pBTzp_qqiB-n3qzvorstY9IHo6QlXigemgUKxYVSEfRQeeWTDIviVYD94oU_ucPJ_c2qMBdLJ17ZoMuzF2SIxJ_PQ0qxdGS3.png)
+![An animation of blue and green waves, undulating](<https://lh3.googleusercontent.com/pBTzp_qqiB-n3qzvorstY9IHo6QlXigemgUKxYVSEfRQeeWTDIviVYD94oU_ucPJ_c2qMBdLJ17ZoMuzF2SIxJ_PQ0qxdGS3EWe1Dh2-MHf0H1SZafOS>)
 
 Published: 2022-12-15T13:00:00
 
@@ -31,7 +31,7 @@ The year is nearly at an end, and as we look forward to 2023, it’s also time t
 
 In this post the Material Blog editorial team has collected, in no particular order, some of the top highlights from this year in Material Design. From the complete redesign of our guidelines site, all the way to the code that helps you bring Material to life, let’s run through some of the things that made 2022 a great year to get into Material.
 
-![Illustration showing various elements of the Material.io site](../../assets/images/3fcf868f801e-NZmriLmldsKkcXqBxoVY6f4awJRCZqAU0VpFS0k_ACXcl9lGzrKSPTjcQqrrBroVYW3O97wi7vLU6YjfRypm17VnscqRWwCj.png)
+![Illustration showing various elements of the Material.io site](<https://lh3.googleusercontent.com/NZmriLmldsKkcXqBxoVY6f4awJRCZqAU0VpFS0k_ACXcl9lGzrKSPTjcQqrrBroVYW3O97wi7vLU6YjfRypm17VnscqRWwCjNZyLMY_JRFAE8duUqLs>)
 
 ## The Material.io redesign
 
@@ -43,7 +43,7 @@ First up is a recent update: the Material.io redesign. Design Lead David Allin R
 -   A comprehensive navigation scheme from the [navigation rail](../components/navigation-rail/overview.md), [drawer](../components/navigation-drawer/overview.md), and [tabs](../components/tabs/overview.md) help readers find what they’re looking for quickly and consistently.
 -   Visual, animated transitions contribute to the vibrance and coherence of the guidelines as readers navigate between sections.
 
-![Abstract illustration of UI components](../../assets/images/93297b364286-9fIkMhunlA4AEuz3Pqcq8oF_T-z0IeEZB2dNB5cb-PWreSnDZ-6AZnCYPXQxV6ZMiLJMOUby2djao2lNCjBIA_TMUp0jXzeh.png)
+![Abstract illustration of UI components](<https://lh3.googleusercontent.com/9fIkMhunlA4AEuz3Pqcq8oF_T-z0IeEZB2dNB5cb-PWreSnDZ-6AZnCYPXQxV6ZMiLJMOUby2djao2lNCjBIA_TMUp0jXzehWVKaBJy23uq0-meHFg>)
 
 ## Accessibility updates & improvements
 
@@ -55,7 +55,7 @@ From a more accessible [Switch component](../components/switch/overview.md), all
 -   Check out our [list of accessibility-focused content](https://material.io/blog/accessibility-awareness-day-2022) and resources.
 -   Our [session](https://www.youtube.com/watch?v=b6FTDYrJWRA) from Google I/O 2022 goes deep on the ways in which accessibility is baked into Material 3, from components to holistic interfaces.
 
-![Blurred photo of a person in a field, with a photo of a moth overlaid](../../assets/images/62bb92a4ffac-xyxgIMtrkJf_ySRSCWbnBTJDB9FiwmiDi_Sf_EAgucVUmlIvgjNubG-LYHp_Cow5lN4UubOznMzu6SD5Goj87t4-vORNYHFX.png)
+![Blurred photo of a person in a field, with a photo of a moth overlaid](<https://lh3.googleusercontent.com/xyxgIMtrkJf_ySRSCWbnBTJDB9FiwmiDi_Sf_EAgucVUmlIvgjNubG-LYHp_Cow5lN4UubOznMzu6SD5Goj87t4-vORNYHFXYHvu9LMrg0mTO_GGivU>)
 
 ## Replacing “users” with people
 
@@ -67,7 +67,7 @@ The Material You features in M3 are all about putting the people using digital p
 -   A [selection of imagery](https://material.io/blog/asset-people-2), chosen from – and led by – the perspective of each person, helped enrich the personas we worked with.
 -   Integrating the new personas [into our design tools](https://material.io/blog/asset-people-3) and processes was tricky, but paid off. They were able to come with us through the entire design process, providing unique insights as we worked.
 
-![Abstract pattern with the Jetpack Compose logo overlaid](../../assets/images/d30ef7952ea1-50DnDjroqLRZ1Qwd3jzP-L0zd3XRa7LDNvHlr2Ump2qkx-6DN6VhGJetfkFX4YKL5wHEHiSYxE4Ia5RX52qwyxzSi4Dzlmc9.png)
+![Abstract pattern with the Jetpack Compose logo overlaid](<https://lh3.googleusercontent.com/50DnDjroqLRZ1Qwd3jzP-L0zd3XRa7LDNvHlr2Ump2qkx-6DN6VhGJetfkFX4YKL5wHEHiSYxE4Ia5RX52qwyxzSi4Dzlmc98BNBXS-8iw36cdZdGzE>)
 
 ## Component library updates
 
@@ -79,7 +79,7 @@ Material Design’s engineering teams continued to drive forward major updates t
 -   The [MDC-Android stable release 1.7.0](https://material.io/blog/android-stable-release-1-7-0) brought Material 3 shape guidance and improved accessibility.
 -   As always, you can contribute bug reports and feature requests on Github (for [Views](https://github.com/material-components/material-components-android/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BComponent+name%5D+Short+description+of+issue) and [Compose](https://issuetracker.google.com/issues/new?component=742043)) and join the community [on StackOverflow](https://stackoverflow.com/questions/tagged/material-design).
 
-![Various elements from the M3 design kit](../../assets/images/2275a1fc2cf7-TSvlDygs-sCsg6QAJuuZ9pgLoSdbILO8zV9SdHU4tOJ7Nal4S_J-NALRGhH5fuYP4L_VAo9hg0hQEwoApXB_s6EfU1bDxpyZ.png)
+![Various elements from the M3 design kit](<https://lh3.googleusercontent.com/TSvlDygs-sCsg6QAJuuZ9pgLoSdbILO8zV9SdHU4tOJ7Nal4S_J-NALRGhH5fuYP4L_VAo9hg0hQEwoApXB_s6EfU1bDxpyZA16jzZkNZVqzZnD8W-0I>)
 
 ## The M3 Design Kit
 
@@ -91,7 +91,7 @@ Our Material Design Kit got a release of its own, bringing together 28 UI compon
 -   The Design Kit makes use of Figma’s most advanced features, with metadata for accessibility, color values, token names, variants, and interaction state details.
 -   The Kit also integrates with the [Material Theme Builder](https://www.figma.com/community/plugin/1034969338659738588/Material-Theme-Builder) so you can customize the whole system quickly and easily, with more features on the way.
 
-![Relay logo on an abstract illustrated background](../../assets/images/e139a0b7898d-HNb48-7wLmoEBlmvl3xtXWvTscnyfpKIQveVSORlQ_wKF56g0J8hGhb-jtuY1IPJfsQo-gmTrS7tI0l1C28a8cC-Ij9r00d5.png)
+![Relay logo on an abstract illustrated background](<https://lh3.googleusercontent.com/HNb48-7wLmoEBlmvl3xtXWvTscnyfpKIQveVSORlQ_wKF56g0J8hGhb-jtuY1IPJfsQo-gmTrS7tI0l1C28a8cC-Ij9r00d5B2javvn9ryaXhMMr-zg>)
 
 ## Relay in alpha
 
@@ -103,7 +103,7 @@ Relay is a new design-to-code workflow for Android UI, and [the toolkit](http://
 -   Relay is in alpha, and looking for [your feedback](https://goo.gle/relay-feedback)!
 -   Keep track of updates by joining [the Relay mailing list](https://services.google.com/fb/forms/relay-updates/).
 
-![Various Roboto Flex type specimens on an outer space background](../../assets/images/73894b2cbed8-IYW6A2Db9Gm8CjZ7DgkryBLqB7RaTGzhU9-EQRczXMaKOCw5PmmArOkj4pQY7ORjzrGO7PwVPYjhPcNeFPFEAxLkorOzio2M.png)
+![Various Roboto Flex type specimens on an outer space background](<https://lh3.googleusercontent.com/IYW6A2Db9Gm8CjZ7DgkryBLqB7RaTGzhU9-EQRczXMaKOCw5PmmArOkj4pQY7ORjzrGO7PwVPYjhPcNeFPFEAxLkorOzio2M0qpcm_gQH329RpIqVmo>)
 
 ## Roboto variable fonts
 
@@ -115,7 +115,7 @@ This year, the Roboto superfamily of typefaces was expanded – and transformed 
 -   Roboto Flex has actually been tested out in Material Blog headlines since 2021 😉
 -   Roboto Serif is designed for reading comfort, especially in long passages of text. An optical size axis – among others – means it can serve your whole layout.
 
-![Abstract illustration of the letters "A" and "B"](../../assets/images/995e139634fe-xJlpXB9fyuBvATbbPbdiPksY8gnWlbHt-c2zakMg7ubP865t5ddZKNmt6vD8Mw-dH72WnWuEOonTwNC6dBNAnvJXDVj37O9O.png)
+![Abstract illustration of the letters "A" and "B"](<https://lh3.googleusercontent.com/xJlpXB9fyuBvATbbPbdiPksY8gnWlbHt-c2zakMg7ubP865t5ddZKNmt6vD8Mw-dH72WnWuEOonTwNC6dBNAnvJXDVj37O9OeROM6qd6Sn6cAEc8dP0>)
 
 ## Research, research, research
 
@@ -127,7 +127,7 @@ Research is a key pillar of Material Design, and greatly informs our work. In 20
 -   Research and Design partnered to test over 50 unique variants of the [time picker component](../components/time-pickers/overview.md), finding a [more usable solution](https://material.io/blog/24-hour-clock-design-research) for 24-hour clock users.
 -   Our [Switch component](../components/switch/accessibility.md) was redesigned based on our accessibility findings.
 
-![Animation showing the various expressive axes of Material Symbols](../../assets/images/27a46fef5ce8-TuJe68Pv4APxfigy6ZKpg9aumYSr8vOdTRDQaVGuLbVvu5nzcIkkeFO3Di0xv-82Nr_hkVHMa_p671_-kdDse75qYG0ko6WQ.png)
+![Animation showing the various expressive axes of Material Symbols](<https://lh3.googleusercontent.com/TuJe68Pv4APxfigy6ZKpg9aumYSr8vOdTRDQaVGuLbVvu5nzcIkkeFO3Di0xv--82Nr_hkVHMa_p671_-kdDse75qYG0ko6WQepfLVqXPanmojuyHU0>)
 
 ## Material Symbols
 
@@ -139,7 +139,7 @@ Okay, we have one more variable font to tell you about. Actually, this one is an
 -   There’s a [Figma plugin](https://www.figma.com/community/plugin/1088610476491668236) to help you customize and integrate the icons directly into your designs.
 -   View the full collection and play with the sliders [on Google Fonts](https://fonts.google.com/icons)!
 
-![Photographic portrait of Jamie Chung](../../assets/images/989745f438be-ZO8LB0SfTPuY70C9O54eWdq-u90zRFFv62LKmtGHLv2gOqm_VFrzFsuBuI3fzVgzHOgBkKv6IyRtylUq21BX9uftGZM7oljp.png)
+![Photographic portrait of Jamie Chung](<https://lh3.googleusercontent.com/ZO8LB0SfTPuY70C9O54eWdq-u90zRFFv62LKmtGHLv2gOqm_VFrzFsuBuI3fzVgzHOgBkKv6IyRtylUq21BX9uftGZM7oljpLVwPbUH90GNR7wX0qsId>)
 
 ## Bringing the system to life
 
@@ -151,7 +151,7 @@ Last but certainly not least, it’s worth taking a moment to highlight the arti
 -   Jamie Chung and Senior Art Director Emily Blank unpacked [the artful, abstract photos](https://material.io/blog/jamie-chung-photography-interview) you see across Material’s guidelines.
 -   Conceptual Artist Derek Brahney [answered a few burning questions](https://material.io/blog/jamie-chung-photography-interview) and described the work behind abstract photos and avatars designers across Google use in their work.
 
-![Abstract illustration of a plant sprouting out of a purple cube](../../assets/images/8edd3f0c42a9-nxzsX2CmG5Yd3lna5vlj45y-isVopWRqAOhJZRmp6UfiF9cRkSpZFNEoLqt0lq1WxHCr-2GjOKQiX4p8KF1Mkbhl9uw1JAnx.png)
+![Abstract illustration of a plant sprouting out of a purple cube](<https://lh3.googleusercontent.com/nxzsX2CmG5Yd3lna5vlj45y-isVopWRqAOhJZRmp6UfiF9cRkSpZFNEoLqt0lq1WxHCr-2GjOKQiX4p8KF1Mkbhl9uw1JAnxLwFLcI4qinZGhbcqJrQx>)
 
 ## Looking forward
 

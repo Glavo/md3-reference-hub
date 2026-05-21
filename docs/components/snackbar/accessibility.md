@@ -2,7 +2,7 @@
 title: "Snackbar"
 source_url: "https://m3.material.io/components/snackbar/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/3c5be3b0373c-lwp0j72d-1.png"
@@ -35,13 +35,13 @@ Snackbars without actions can auto-dismiss after a sufficient amount of time, ho
 
 Each platform has its own requirements for auto-dismiss durations, however common acceptable durations are 4–10 seconds.
 
-![A snackbar saying "Email marked as read" with no button.](../../../assets/images/3c5be3b0373c-lwp0j72d-1.png)
+![A snackbar saying "Email marked as read" with no button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0j72d-1.png?alt=media&token=fbcb708c-f8d8-4b0a-810f-f68a6bfcc444>)
 
 _Auto-dismissing snackbars should remain on screen long enough to read the information_
 
 Snackbars use a color intended to stand out against UI elements. Use the default color mapping to avoid color conflict issues.
 
-![Snackbar with a dark container on a UI page in light theme.](../../../assets/images/a88447e0a773-lwp0k0la-2.png)
+![Snackbar with a dark container on a UI page in light theme.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0k0la-2.png?alt=media&token=0c86aabd-9c0f-47f6-9dcd-c872748ddfd2>)
 
 _Snackbar should visually stand out_
 
@@ -59,7 +59,7 @@ For example, update the label on a "Save" button to “Saved”, and trigger an 
 
 Alternatively, add actions to the snackbar so it doesn't dismiss until acted on. Actionable snackbars shouldn't auto-dismiss.
 
-![A "save" button changes to say "saved", alongside a snackbar that confirms changes were saved.](../../../assets/images/1e8f998b1200-lwp0kqjx-3.png)
+![A "save" button changes to say "saved", alongside a snackbar that confirms changes were saved.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwp0kqjx-3.png?alt=media&token=cdc2d281-4288-4a6d-830f-8c72184d2dc8>)
 
 _Communicate snackbar information near the action that triggered the snackbar_
 
@@ -103,6 +103,6 @@ Snackbars should be announced once they appear on the screen, but shouldn’t gr
 
 If a snackbar appears when the app is launched, it should be announced after the page’s title, but not receive focus.
 
-![Snackbar accessibility label examples.](../../../assets/images/c602276d2bba-mff15na8-06.png)
+![Snackbar accessibility label examples.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmff15na8-06.png?alt=media&token=ad79461e-ce22-40ce-aad1-1af62fcca9c7>)
 
 _Snackbars are announced when they appear, but don't trap focus_

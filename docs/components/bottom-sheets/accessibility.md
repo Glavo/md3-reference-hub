@@ -2,7 +2,7 @@
 title: "Bottom sheets"
 source_url: "https://m3.material.io/components/bottom-sheets/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/dc6277cc0c8d-lvp8g5p9-1.png"
@@ -30,7 +30,7 @@ Users should be able to:
 
 The top 48dp portion of the bottom sheet is interactive when user-initiated resizing is available and the drag handle is present.
 
-![Touch target area of a bottom sheet.](../../../assets/images/dc6277cc0c8d-lvp8g5p9-1.png)
+![Touch target area of a bottom sheet.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvp8g5p9-1.png?alt=media&token=8e64004e-3857-4101-b39c-99d3a1202671>)
 
 _To ensure touch target accessibility, the top portion of a bottom sheet can be reserved for resize interactions_
 
@@ -38,7 +38,7 @@ _To ensure touch target accessibility, the top portion of a bottom sheet can be 
 
 The optional drag handle can be focused in the tab order and interacted with using non-touch inputs, such as keyboard or switch controls.
 
-![Focus on the drag handle of a bottom sheet.](../../../assets/images/3f5a0c9c3d8d-lvp8gmd5-bottom-sheet-focus.png)
+![Focus on the drag handle of a bottom sheet.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flvp8gmd5-bottom-sheet-focus.png?alt=media&token=cdb9816d-b6f1-4f2d-a6c9-57c7f19adf6a>)
 
 _Visible focus shown on the drag handle affordance_
 
@@ -48,11 +48,11 @@ Include a single-pointer alternative for any action that can be completed by dra
 
 Drag handles should cycle the bottom sheet through available heights when selected. If a drag handle can’t be used, add a button to do this action.
 
-![Bottom sheet with focused drag handle at lower preset height.](../../../assets/images/b1b4d16926ed-m33eulyj-20.png)
+![Bottom sheet with focused drag handle at lower preset height.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm33eulyj-20.png?alt=media&token=d5774ee7-5188-4627-bcb9-af10bdf399f7>)
 
 _Interacting with the drag handle can quickly move a bottom sheet through preset heights_
 
-![Bottom sheet with drag handle at higher preset height.](../../../assets/images/11145bcdbb46-m33euvu0-21.png)
+![Bottom sheet with drag handle at higher preset height.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm33euvu0-21.png?alt=media&token=0d41a86a-77e7-45d2-b8f8-711a008b7c01>)
 
 _A bottom sheet can automatically resize to another height after interacting with the drag handle_
 
@@ -67,6 +67,6 @@ _A bottom sheet can automatically resize to another height after interacting wit
 
 Label only the drag handle. The accessibility role for the drag handle is “button.”
 
-![Labeled drag handle with role of button.](../../../assets/images/d52bfd5d0501-m4bunmcg-2.png)
+![Labeled drag handle with role of button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4bunmcg-2.png?alt=media&token=52a1294c-a753-4e62-a1f3-3379fa80b31f>)
 
 _Label the drag handle_

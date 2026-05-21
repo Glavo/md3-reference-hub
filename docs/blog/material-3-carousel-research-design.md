@@ -2,7 +2,7 @@
 title: "Reinventing the carousel"
 source_url: "https://m3.material.io/blog/material-3-carousel-research-design"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/40150c26b331-Aye14jOntTfsKdL9I63t77P6_JpKMBsG8Pw2GWdz6wuIpzGtiQtR_45EsDWJcTygvMOW_NT0SjWtuUkKsISNf9QH28LIsIFx.png"
@@ -15,7 +15,7 @@ assets:
 
 The research and design behind the evolution of the Material 3 carousel
 
-![carousel component](../../assets/images/40150c26b331-Aye14jOntTfsKdL9I63t77P6_JpKMBsG8Pw2GWdz6wuIpzGtiQtR_45EsDWJcTygvMOW_NT0SjWtuUkKsISNf9QH28LIsIFx.png)
+![carousel component](<https://lh3.googleusercontent.com/Aye14jOntTfsKdL9I63t77P6_JpKMBsG8Pw2GWdz6wuIpzGtiQtR_45EsDWJcTygvMOW_NT0SjWtuUkKsISNf9QH28LIsIFxbWvCeZqJ5rDVAQDjvDZ4>)
 
 Published: 2023-05-10T13:00:00
 
@@ -25,7 +25,7 @@ Or picture this scene: a user wields their remote to scroll through movies or sh
 
 What do those two scenarios have in common? The ubiquitous carousel, of course.
 
-![photo of an amusement park carousel](../../assets/images/64e91b5f9302-hH8gBZ-B__uJr6iR3RYBE2E1mGjXPgsUiatz25xdZWfQkAkkNYTqJtmtPAIkmn-HAaNr3de_IOjfgmOxvzxIGyhnc2ZEgWJu.png)
+![photo of an amusement park carousel](<https://lh3.googleusercontent.com/hH8gBZ-B__uJr6iR3RYBE2E1mGjXPgsUiatz25xdZWfQkAkkNYTqJtmtPAIkmn-HAaNr3de_IOjfgmOxvzxIGyhnc2ZEgWJuS0vTtULFeSgbTg3shtQ>)
 
 Figure 1: A different type of carousel
 

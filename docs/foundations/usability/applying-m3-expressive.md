@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/applying-m3-expressive"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/83efb4db933d-mhjgyvci-Core-Flow.png"
@@ -30,7 +30,7 @@ Usability focuses on making products intuitive and easy to understand for everyo
 
 ## Aura: An example app showcasing usability with M3 Expressive
 
-![Four key screens of the breathing app.](../../../assets/images/83efb4db933d-mhjgyvci-Core-Flow.png)
+![Four key screens of the breathing app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmhjgyvci-Core%20Flow.png?alt=media&token=9ddfd7a6-8f5c-4a4a-a00e-1c37dbb7af84>)
 
 _The four goals in the Aura breathing app: Start a breathing session; Experience and complete a breathing session; View the breathing session results; Check progress towards personal goals_
 
@@ -58,7 +58,7 @@ Expressive components used:
 -   [Switch](../../components/switch/overview.md)
 -   [Navigation bar](../../components/navigation-bar/overview.md)
 
-![3 elements of the landing page of a breathing app.](../../../assets/images/df02fe3e0013-mejir1iw-Visual-Hierarchy-(1).png)
+![3 elements of the landing page of a breathing app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejir1iw-Visual%20Hierarchy%20(1).png?alt=media&token=491a7dfb-2018-4564-a226-807a2586fdd5>)
 
 _App elements in order of emphasis: The Start breathing button is the primary goal of the app; Breathing session settings; Daily welcome message_
 
@@ -112,7 +112,7 @@ Expressive components and elements used:
 -   [Material shape library](../../styles/shape/overview-principles.md#579dd4ba-39f3-4e60-bd9b-1d97ed6ef1bf)
 -   [Emphasized typography](../../styles/typography/type-scale-tokens.md#c898d7e2-4833-440c-9dba-9a95c8f50ac9)
 
-![The breathing report provides data (total breaths taken, exercise duration, heart rate/beats per minute (BPM), and breaths per minute) from the user’s breathing session. ](../../../assets/images/89442e9a4575-mejiz13p-Breathing-Report-Do.png)
+![The breathing report provides data (total breaths taken, exercise duration, heart rate/beats per minute (BPM), and breaths per minute) from the user’s breathing session. ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejiz13p-Breathing%20Report%20Do.png?alt=media&token=76515d71-3997-4020-8d6d-2ed04f8d3a7d>)
 
 _Shapes and smaller sizes emphasize key information and draw attention down the screen to the Finish button_
 
@@ -140,7 +140,7 @@ Expressive components and elements used:
 -   [Material shape library](../../styles/shape/overview-principles.md#579dd4ba-39f3-4e60-bd9b-1d97ed6ef1bf)
 -   [Emphasized typography](../../styles/typography/type-scale-tokens.md#c898d7e2-4833-440c-9dba-9a95c8f50ac9)
 
-![A progress screen shows data in dark primary colors, then statuses in secondary yellow colors in a progress bar and calendar view.](../../../assets/images/6d9a9be6a7b3-mejj1yj5-Progress-WIP.png)
+![A progress screen shows data in dark primary colors, then statuses in secondary yellow colors in a progress bar and calendar view.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejj1yj5-Progress%20-%20WIP.png?alt=media&token=5fc4dfb1-176f-49d0-8f7b-765f892be572>)
 
 _Large text and colorful completed sessions draw attention to the key progress information_
 
@@ -156,11 +156,11 @@ _Large text and colorful completed sessions draw attention to the key progress i
 
 By testing the experience with users, it’s easy to identify usability issues and address them. From version 1 to 2, the design shifts from cluttered to calm and simplified.
 
-![A button to start breathing followed by loosely-grouped settings for duration, sound, and haptics, all with their own styles. ](../../../assets/images/745a1916ee5c-mejj3nr8-Home-Caution-Uglyfied.png)
+![A button to start breathing followed by loosely-grouped settings for duration, sound, and haptics, all with their own styles. ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejj3nr8-Home%20Caution%20Uglyfied.png?alt=media&token=e2a6e7f0-9258-4058-9ccd-12b0153b9683>)
 
 _Version 1: No containment, similar sizes, and inconsistent colors_
 
-![A list of settings consistently styled followed by an extra large button to start breathing.](../../../assets/images/85bcc68cebd8-mejj4ua6-Home-Right.png)
+![A list of settings consistently styled followed by an extra large button to start breathing.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejj4ua6-Home%20Right.png?alt=media&token=bb67336a-ca85-47c7-b256-8cfdd3c57717>)
 
 _Version 2: Neatly grouped settings, an extra large button, and consistent secondary color usage_
 
@@ -174,11 +174,11 @@ By carefully using hierarchy, containment, shape, and color, the final design is
 
 Avoid crowding the screen with too many large or equally prominent elements. Scale and placement create a clear focal point.
 
-![The aura app home page with similar-sized elements competing for attention.](../../../assets/images/75e5e24e31a2-mejj6t5h-Home-Caution-Uglyfied-Deux.png)
+![The aura app home page with similar-sized elements competing for attention.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejj6t5h-Home%20Caution%20Uglyfied%20Deux.png?alt=media&token=a214af02-3324-4217-8569-0127b5c35574>)
 
 _All the elements were large and competed for attention; The visual hierarchy was unclear; The settings weren’t grouped together_
 
-![The aura app home page with a clear visual hierarchy and appropriate emphasis per element.](../../../assets/images/9bff28e50fe6-mejj8ce1-Frame-2147228808.png)
+![The aura app home page with a clear visual hierarchy and appropriate emphasis per element.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejj8ce1-Frame%202147228808.png?alt=media&token=301c51d8-85ae-48e3-ab93-65118c37d8e9>)
 
 _The large Start breathing button is a strong visual focal point; The supporting controls are clear, but less prominent than the Start breathing button_
 
@@ -186,11 +186,11 @@ _The large Start breathing button is a strong visual focal point; The supporting
 
 Use different color roles for actions and data to create a visual hierarchy that makes it simple for users to identify what they can do.
 
-![3 color roles incorrectly used in the aura app.](../../../assets/images/2b50627e0711-mejjaaz6-BEFORE-Primary-Secondary-roles.png)
+![3 color roles incorrectly used in the aura app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejjaaz6-BEFORE%20Primary%20Secondary%20roles.png?alt=media&token=28275bf0-9d9a-4459-a8b1-04d56af20d17>)
 
 _The same color roles, primary (1, 2) and primary container (3), are used for all actions and data_
 
-![3 color roles used in the aura app.](../../../assets/images/280a459b44a5-mejjb7xf-AFTER-Primary-Secondary-roles.png)
+![3 color roles used in the aura app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejjb7xf-AFTER%20Primary%20Secondary%20roles.png?alt=media&token=1090a0c2-bb81-424a-b7fb-723f1ac53548>)
 
 _The primary color role (1) makes the button clear and prominent; The secondary color on selected settings (2) and secondary container color on the dates (3) contrast with the background and primary colors_
 
@@ -198,11 +198,11 @@ _The primary color role (1) makes the button clear and prominent; The secondary 
 
 Use uniform shapes and sizes. Add space between shapes and data to make it simple to compare data. Create gentle visual rhythm by aligning elements in a consistent flow to support a serene, focused experience.
 
-![Breathing report statistics in containers that overlap each other.](../../../assets/images/8e29ab1598b4-mejjcz6i-Breathing-Report-Caution.png)
+![Breathing report statistics in containers that overlap each other.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejjcz6i-Breathing%20Report%20Caution.png?alt=media&token=aa6a75cb-0658-464a-a8b2-ab3d742a17b4>)
 
 _The shapes have different forms and sizes; The shapes overlap_
 
-![Breathing reports statistics in containers neatly organized on the page.](../../../assets/images/4db843849516-mejjk8lk-Breathing-Report-Do-(1).png)
+![Breathing reports statistics in containers neatly organized on the page.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejjk8lk-Breathing%20Report%20Do%20(1).png?alt=media&token=7bda3385-364d-4afb-8d04-abc30149a700>)
 
 _There’s more even spacing between shapes; The shapes are uniform_
 

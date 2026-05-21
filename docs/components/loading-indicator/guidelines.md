@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/bc469fcfd1c3-m41ke7ak-Loading_Indicator-A2.mp4"
@@ -86,7 +86,7 @@ Don’t transition a loading indicator into a progress indicator.
 
 ## Anatomy
 
-![2 parts of an active indicator.](../../../assets/images/9d877e4c5479-m0cads86-7.png)
+![2 parts of an active indicator.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0cads86-7.png?alt=media&token=f27080ab-ebe2-410d-baa6-b0bc04ca5734>)
 
 _Active indicator; Container (optional)_
 
@@ -96,7 +96,7 @@ The active indicator is a looping shape morph sequence composed of seven unique 
 
 [More about the Material shape library](../../styles/shape/overview-principles.md#579dd4ba-39f3-4e60-bd9b-1d97ed6ef1bf)
 
-![Active indicator with shape morph.](../../../assets/images/0ff6b55c995f-m0cafeiy-8.png)
+![Active indicator with shape morph.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0cafeiy-8.png?alt=media&token=bdcb1b69-8492-4871-b07b-2449155b0d42>)
 
 _The active indicator morphs shape to capture attention_
 
@@ -108,7 +108,7 @@ The container should be visible when the loading indicator is placed over other 
 
 The container should be used with pull-to-refresh behavior.
 
-![Active indicator with container.](../../../assets/images/b42a35be0830-m0caha9b-9.png)
+![Active indicator with container.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0caha9b-9.png?alt=media&token=b9bf2aaa-19dd-4aa4-80f7-0484809b74dd>)
 
 _The container is a circle that provides extra contrast from body content_
 
@@ -144,7 +144,7 @@ The ratio between the container and the active indicator stays the same when res
 
 Reserve very large progress indicators for large and extra-large windows, like desktop.
 
-![Loading indicators can range from 24dps to 240dps.](../../../assets/images/fb5ac768c6e8-m0caprda-12.png)
+![Loading indicators can range from 24dps to 240dps.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0caprda-12.png?alt=media&token=ac91d3fa-343a-4bc6-be14-466c85b2086d>)
 
 _Loading indicators can range in size from 24–240dp_
 

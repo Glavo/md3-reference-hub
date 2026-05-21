@@ -2,7 +2,7 @@
 title: "Jetpack Compose: Now in Beta"
 source_url: "https://m3.material.io/blog/jetpack-compose-beta"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/8c410e1abc33-IGVvFnjHRRbphKVi5QL8VrdI1ou4bgUIdWpt0CCHXweVBIwydrpun88kL73-kFg0UeGL2mxwxv6K1EIVIBn4IYiV_2bWT-85.png"
@@ -15,7 +15,7 @@ assets:
 
 Exploring the first beta release of Android’s modern, declarative toolkit for UI development
 
-![abstract illustration](../../assets/images/8c410e1abc33-IGVvFnjHRRbphKVi5QL8VrdI1ou4bgUIdWpt0CCHXweVBIwydrpun88kL73-kFg0UeGL2mxwxv6K1EIVIBn4IYiV_2bWT-85.png)
+![abstract illustration](<https://lh3.googleusercontent.com/IGVvFnjHRRbphKVi5QL8VrdI1ou4bgUIdWpt0CCHXweVBIwydrpun88kL73-kFg0UeGL2mxwxv6K1EIVIBn4IYiV_2bWT-853MCB>)
 
 Published: 2021-02-24T09:30:00
 
@@ -29,7 +29,7 @@ Jetpack Compose offers an implementation of Material Design and [provides](https
 
 Jetpack Compose implements [Material Theming](https://material.io/design/material-theming/overview.html) and supports [dark theme](https://material.io/design/color/dark-theme.html) by default. You can customize color, typography, and shape theming values to fit your product's brand, and get access to convenient functions for working with [system dark theme](https://developer.android.com/guide/topics/ui/look-and-feel/darktheme) (like [`isSystemInDarkTheme`](https://developer.android.com/reference/kotlin/androidx/compose/foundation/package-summary#issystemindarktheme), [`lightColors`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#lightcolors), and [`darkColors`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#darkcolors)).
 
-![GIF showing a Material Design button changing color and shape](../../assets/images/5fad811c2fe5-vLxDu0mrTDm234ff2xoxEKAG2xSDBTYByQ9TF8LyulfKL5nGB7z7PHVrKu3kRoJHj0OPGQHMTYT4_B0ck3XbuCcYETBS1waV.png)
+![GIF showing a Material Design button changing color and shape](<https://lh3.googleusercontent.com/vLxDu0mrTDm234ff2xoxEKAG2xSDBTYByQ9TF8LyulfKL5nGB7z7PHVrKu3kRoJHj0OPGQHMTYT4_B0ck3XbuCcYETBS1waVNWVuUA>)
 
 When creating new screens in Compose, you should ensure that you apply your custom `MaterialTheme` _before_ any UI-emitting Material composables. The Material components (`Button`, `Checkbox`, `BottomNavigation`, etc.) depend on a `MaterialTheme` being in place and their behavior is undefined without it.
 
@@ -79,7 +79,7 @@ Check out the [Layouts in Compose guide](https://developer.android.com/jetpack/c
 
 Material composables that make use of a `Surface` (like `Card`, `TopAppBar`, etc.) automatically include dark theme properties like desaturated colors for accessibility, elevation overlays, and limited color accents. You can also incorporate these in custom scenarios.
 
-![Illustration of a UI showing light theme and dark theme](../../assets/images/56ddde525b18-x4KQQg07DrfuqIaz3E2XwAROxv8uIl202z1IXXV0o0ew5lFwpgZiBAQW_WxQwFELX3DSj8DANWGQHDGyFW_P9mWfk05u1JSi.png)
+![Illustration of a UI showing light theme and dark theme](<https://lh3.googleusercontent.com/x4KQQg07DrfuqIaz3E2XwAROxv8uIl202z1IXXV0o0ew5lFwpgZiBAQW_WxQwFELX3DSj8DANWGQHDGyFW_P9mWfk05u1JSismQdmQ>)
 
 ## Material Icons
 
@@ -89,7 +89,7 @@ Jetpack Compose also provides a convenient means of using icons listed in the [M
 
 Jetpack Compose is designed to work with Android Views. If you're building a new app, the best option might be to implement your entire UI with Compose. But if you're modifying an existing app, you might not want to migrate your app straight away. Instead, you can combine Compose with your existing UI design and adopt it at your own pace.
 
-![Diagram describing the MDC-Android Compose Theme Adapter](../../assets/images/e843d1dce263-hbc3QhQITj-iic8Ju7WYvvWGIY7XSuM5SU0ipdy2xtlypGna4sYYMKTpXAPElpMH8Ho-6hWUmxbolCpWAGlxELNQ3CRS6mB1.png)
+![Diagram describing the MDC-Android Compose Theme Adapter](<https://lh3.googleusercontent.com/hbc3QhQITj-iic8Ju7WYvvWGIY7XSuM5SU0ipdy2xtlypGna4sYYMKTpXAPElpMH8Ho-6hWUmxbolCpWAGlxELNQ3CRS6mB1UNTvH44>)
 
 If you’re using [Material Components for Android](https://github.com/material-components/material-components-android) in your app—in particular [Material Theming](https://material.io/develop/android/theming/theming-overview)—the [MDC-Android Compose Theme Adapter library](https://github.com/material-components/material-components-android-compose-theme-adapter) allows you to easily re-use the color, typography and shape definitions from your existing XML themes, from within your composables, so you don’t need to declare them again and have a single source of truth.
 

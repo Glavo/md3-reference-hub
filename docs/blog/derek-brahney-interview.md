@@ -2,7 +2,7 @@
 title: "The Avatar Project: Derek Brahney"
 source_url: "https://m3.material.io/blog/derek-brahney-interview"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/6a1336dbe256-CDdX3MT6JBUgiWfaN-dOoqpwzBaLsVe1cZtVt-HlLQowH3iIR5PiMq8YzkyFz9c7cr4Q2OBB17CPng7y_E2Nr6Ltt56M3rAk.png"
@@ -17,7 +17,7 @@ assets:
 
 What conceptual artist Derek Brahney is thinking about right now
 
-![Image](../../assets/images/6a1336dbe256-CDdX3MT6JBUgiWfaN-dOoqpwzBaLsVe1cZtVt-HlLQowH3iIR5PiMq8YzkyFz9c7cr4Q2OBB17CPng7y_E2Nr6Ltt56M3rAk.png)
+![Image](<https://lh3.googleusercontent.com/CDdX3MT6JBUgiWfaN-dOoqpwzBaLsVe1cZtVt-HlLQowH3iIR5PiMq8YzkyFz9c7cr4Q2OBB17CPng7y_E2Nr6Ltt56M3rAk5WlLxoJOLiwv9fvmqsk>)
 
 _Photo by Sean Davidson_
 
@@ -25,7 +25,7 @@ Published: 2022-07-07T13:00:00
 
 Derek Brahney is a multidisciplinary artist based in New York, working across sculpture, drawing, photography, and conceptual illustration. Brahney is the latest artist and collaborator on The Avatar Project.  The Avatar Project provides Google designers and engineers with a variety of images, both photography and illustration, that visibly embody Google's core values around diversity and inclusion. Derek’s brief was to bring his style and ideas to what conceptual identity means in representation. After working with Derek for a few months on The Avatar Project, we sat down together for a more personal conversation about the project and his process.
 
-![Photographic illustration of a flower](../../assets/images/c8646453a498-Xw8tmoiFhfeXwg9VTPvZE-Kjknn1SIHX63XwRaZm-QMMcXQKfHwu09NAUBtPcHTrC-X0PMX_wa9ObXgoDkMMBhz5YUuTRkNL.png)
+![Photographic illustration of a flower](<https://lh3.googleusercontent.com/Xw8tmoiFhfeXwg9VTPvZE-Kjknn1SIHX63XwRaZm-QMMcXQKfHwu09NAUBtPcHTrC-X0PMX_wa9ObXgoDkMMBhz5YUuTRkNL_I0jgABYW335mrUtoHtw>)
 
 **Hi Derek, thanks so much for working on this project and for taking the time to do this interview. Could you please tell us a little about yourself?**
 
@@ -45,7 +45,7 @@ World: London, Paris, Copenhagen, Marrakech, beaches, islands, lakes, mountains
 
 NYC: The Met, Balthazar, Ear Inn
 
-![Photographic illustration of a mountain with a smiley face flag on top](../../assets/images/0a20adafaa70-E7XWG2aenixxynDExhtZI8jJMpUMZGPZkuKfEiuh3ZVZzHBtcS1iqbM-tp68IWNCzZmKc-25KZBncRtZf4xi8iKS5MoBaAje.png)
+![Photographic illustration of a mountain with a smiley face flag on top](<https://lh3.googleusercontent.com/E7XWG2aenixxynDExhtZI8jJMpUMZGPZkuKfEiuh3ZVZzHBtcS1iqbM-tp68IWNCzZmKc-25KZBncRtZf4xi8iKS5MoBaAjegcNgK_pZRA0H7SZzhYG1>)
 
 **Any hobbies?**
 
@@ -63,7 +63,7 @@ My work often blurs mediums, even if I try to stick to a certain approach I alwa
 
 1 + 1 = ?
 
-![Photographic illustration of two faces overlapping. The frown of the top face forms a smile over the bottom face.](../../assets/images/69d8879a6b4d-MkPh0RhuitmqEYExmW0Hs2_T_MVKMTjImqKBIJUZERj6_0evD35Fo2cVflMpgfjxmmJ7yMC7YD91ntQA99Epr1zh6fONVIyT.png)
+![Photographic illustration of two faces overlapping. The frown of the top face forms a smile over the bottom face.](<https://lh3.googleusercontent.com/MkPh0RhuitmqEYExmW0Hs2_T_MVKMTjImqKBIJUZERj6_0evD35Fo2cVflMpgfjxmmJ7yMC7YD91ntQA99Epr1zh6fONVIyTapjVuX6RMtVzK6kshzi6>)
 
 **What were your inspirations for this shoot?**
 
@@ -81,7 +81,7 @@ Salvator Mundi by Leonardo Da Vinci, currently the most valuable painting in the
 
 I keep up with what’s going on, however when it comes to my own work I have to try especially hard to block all that out. The goal is always to get to the core of what I want to say and how I want to say it, and paying too much attention to trends can very much be a distraction in that way. Of course, we don’t work in a vacuum and what I see and hear will find its way into the work in many different ways.
 
-![Photographic illustration of three hands. Two have a finger raised.](../../assets/images/8aa56cc8d615-ilSzqmUTvpkqtf18ozDMRifg8ziB0EAQ5-INQGeFgL_JJ5xCcPM6C7il5YVEVL3XrJ4ujvt5Y797cMq8w9CJl-act-x6AkdU.png)
+![Photographic illustration of three hands. Two have a finger raised.](<https://lh3.googleusercontent.com/ilSzqmUTvpkqtf18ozDMRifg8ziB0EAQ5-INQGeFgL_JJ5xCcPM6C7il5YVEVL3XrJ4ujvt5Y797cMq8w9CJl-act-x6AkdUFbSB0NtlocekB_FmIT0>)
 
 **What do you want people to know about the collection?**
 
@@ -99,4 +99,4 @@ I like to view my images as a sort of prompt for the viewer. When dealing with s
 
 This was a challenging and fun project to work on and I hope the images inspire curiosity and make a few people look twice and smile.
 
-![Photographic illustration of a cantaloupe wearing a party hat and blowing a party horn.](../../assets/images/46e21588f461-USCFUKZQkCTCycXYXXaoW93QAYz-VNCxcg1vC7Pqkt9jq-xAI7Fi5OGvzbXgbpIdCEDHLVClfmShV6lQrsuWeUl7xT0rm6w-.png)
+![Photographic illustration of a cantaloupe wearing a party hat and blowing a party horn.](<https://lh3.googleusercontent.com/USCFUKZQkCTCycXYXXaoW93QAYz-VNCxcg1vC7Pqkt9jq-xAI7Fi5OGvzbXgbpIdCEDHLVClfmShV6lQrsuWeUl7xT0rm6w-TxDzoGGKCS9uuqvG9gPP>)

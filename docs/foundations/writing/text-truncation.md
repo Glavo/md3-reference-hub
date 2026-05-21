@@ -2,7 +2,7 @@
 title: "Writing and text"
 source_url: "https://m3.material.io/foundations/writing/text-truncation"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/e229e5cc3f66-lwj5ao0k-18.png"
@@ -36,11 +36,11 @@ Content, understandability, and functionality must not be lost when users modify
 -   “Wrapped” text extends from one line to another, increasing the height of the text container
 -   Text should be wrapped when it’s critical, to ensure understandability, or when there’s space in the component
 
-![Body copy  text wrapped  inside a dialogue with an option to expand content.](../../../assets/images/e229e5cc3f66-lwj5ao0k-18.png)
+![Body copy  text wrapped  inside a dialogue with an option to expand content.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5ao0k-18.png?alt=media&token=9823f564-5494-43f3-85ad-21af8dd5b024>)
 
 _Wrap text, and if it still doesn’t fit, provide a way for users to see more_
 
-![Body copy  text wrapped  inside a dialogue, cut off at the bottom, without an option to expand.](../../../assets/images/ac20efad34f3-lwj5b36c-19.png)
+![Body copy  text wrapped  inside a dialogue, cut off at the bottom, without an option to expand.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5b36c-19.png?alt=media&token=f638592f-e9a7-446c-b7e3-84ef22c0d79c>)
 
 _Don’t cut off text without providing a way for users to view it_
 
@@ -48,11 +48,11 @@ _Don’t cut off text without providing a way for users to view it_
 
 -   Some components can extend vertically or horizontally for more text
 
-![Layout of UI- cards of different sizes organized in a stacked grid.](../../../assets/images/3b873d197d14-lwj5bfye-20.png)
+![Layout of UI- cards of different sizes organized in a stacked grid.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5bfye-20.png?alt=media&token=fa20bfc7-0b26-4ed1-a256-8cb933dbacb4>)
 
 _Use flexible component containers that change size to fit their content_
 
-![A stretched UI card  with a small headline and a large photograph. ](../../../assets/images/20a328394471-lwj5c5w5-21.png)
+![A stretched UI card  with a small headline and a large photograph. ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5c5w5-21.png?alt=media&token=76cd69f0-f8db-4e21-8a38-221cd4d51984>)
 
 _Avoid setting text size limits that don’t fit the space in a component. Use all space available._
 
@@ -67,6 +67,6 @@ _Avoid setting text size limits that don’t fit the space in a component. Use a
 
 [Open video](../../../assets/videos/f7c1f26f2a25-lwj5e7k2-GM3-Foundations-WritingAndText-Accessibility-1-v01.mp4)
 
-![On a multiple selection list, the marked checkbox’s label is truncated by an ellipsis.](../../../assets/images/713796caf353-m0qvmgvh-24.png)
+![On a multiple selection list, the marked checkbox’s label is truncated by an ellipsis.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qvmgvh-24.png?alt=media&token=db765429-c069-476c-85ef-f831e9bc6bd7>)
 
 _Don’t truncate content without providing users another way to see it_

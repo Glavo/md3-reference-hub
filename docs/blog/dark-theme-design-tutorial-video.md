@@ -2,7 +2,7 @@
 title: "Video: Craft a Dark Theme with Material Design"
 source_url: "https://m3.material.io/blog/dark-theme-design-tutorial-video"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/27a611a52c6e-D_LRW8IdVqH8UHILZbktm3QJj95pIVaYy0NShnLbCumeWSlV2f1fFLKYlhqgqEZuxc6e-7aL5c4mbe6RMedilEjRTKMb7J_i.png"
@@ -12,7 +12,7 @@ assets:
 
 Learn how to create a dark theme palette and apply it to surfaces, typography, and components
 
-![Image](../../assets/images/27a611a52c6e-D_LRW8IdVqH8UHILZbktm3QJj95pIVaYy0NShnLbCumeWSlV2f1fFLKYlhqgqEZuxc6e-7aL5c4mbe6RMedilEjRTKMb7J_i.png)
+![Image](<https://lh3.googleusercontent.com/D_LRW8IdVqH8UHILZbktm3QJj95pIVaYy0NShnLbCumeWSlV2f1fFLKYlhqgqEZuxc6e-7aL5c4mbe6RMedilEjRTKMb7J_i-Zqsipq9fdgOEQqS1g>)
 
 Published: 2020-06-30T13:00:00
 

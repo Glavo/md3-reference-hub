@@ -2,7 +2,7 @@
 title: "The Design of Readex Pro"
 source_url: "https://m3.material.io/blog/readex-pro-legibility-arabic-type-design"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/f742df19c7d9-GBChWaUI0XZoKc0B40Y2te4I1ig5jOfg_dliy6JLEMNduG1v3IG_Y0_0I5ggFT1AXTbFNOXuONOfc5v1VN7khfmwZ7C1OxzI.png"
@@ -23,7 +23,7 @@ assets:
 
 Exploring the boundaries of legibility in Arabic type
 
-![Image](../../assets/images/f742df19c7d9-GBChWaUI0XZoKc0B40Y2te4I1ig5jOfg_dliy6JLEMNduG1v3IG_Y0_0I5ggFT1AXTbFNOXuONOfc5v1VN7khfmwZ7C1OxzI.png)
+![Image](<https://lh3.googleusercontent.com/GBChWaUI0XZoKc0B40Y2te4I1ig5jOfg_dliy6JLEMNduG1v3IG_Y0_0I5ggFT1AXTbFNOXuONOfc5v1VN7khfmwZ7C1OxzIvpdDkWCeU-3ePuRYnX4>)
 
 Published: 2023-03-09T13:00:00
 
@@ -81,27 +81,27 @@ These examples with the letter س (seen) for the “s” sound, ج (jeem) for th
 
 **[Amiri](https://fonts.google.com/specimen/Amiri): A calligraphic Naskh typeface for books and other running text.**
 
-![Three Arabic letters](../../assets/images/8e667d0509e8-8E-uebsWkiR1PLuvPfHpRuq0GRFlScu8zASQG7w6bsaVwQT2YwVkocNfAPn1oX7qq-bxZ8abdg7od98-3SJW-x29-Nl39ukE.png)
+![Three Arabic letters](<https://lh3.googleusercontent.com/8E-uebsWkiR1PLuvPfHpRuq0GRFlScu8zASQG7w6bsaVwQT2YwVkocNfAPn1oX7qq-bxZ8abdg7od98-3SJW-x29-Nl39ukEiwFEeUzC8fFNqeH1VWtR>)
 
 Amiri has several calligraphic features: (1) Fluid structures (2) Thin stroke based on pen movement (3) Thick stroke based on pen movement (4) Softly curved horizontal baseline
 
 **[Sakkal Majalla](http://www.sakkal.com/type/majalla.html): A Naskh typeface often used in magazines.**
 
-![Three Arabic letters](../../assets/images/3150ed132856-XoQ0AW7c92ShZl9kExfDFQAXp2AL2gPzHrbgWd6ulB3ZhiCG4T__o_5ybRdSPnpVmsbAeDU5cdWBY1FkvidcjeDORihqO_98.png)
+![Three Arabic letters](<https://lh3.googleusercontent.com/XoQ0AW7c92ShZl9kExfDFQAXp2AL2gPzHrbgWd6ulB3ZhiCG4T__o_5ybRdSPnpVmsbAeDU5cdWBY1FkvidcjeDORihqO_98YIfyJ3mfbXRIvlUCnQ>)
 
 Sakkal Majalla has a magazine style (1) Strokes are less fluid (2) Some structures are similar to calligraphic Naskh (3) Flat horizontal stroke instead of gentle curves
 
 **[Readex Pro](https://fonts.google.com/specimen/Readex+Pro): Magazine style, with geometric influence**
 
-![Arabic letter in blue text on white background](../../assets/images/1cd44e30fab6-MQXY6VAqhKoCPLbhW06Eh3KNaNrN9RcDfh83kuNnCZGrdY1AUFQIVJVtQcb2ETs4_6M83ZZI7cHaF0jKX8EvM9BwZV2J1HhG.png)
+![Arabic letter in blue text on white background](<https://lh3.googleusercontent.com/MQXY6VAqhKoCPLbhW06Eh3KNaNrN9RcDfh83kuNnCZGrdY1AUFQIVJVtQcb2ETs4_6M83ZZI7cHaF0jKX8EvM9BwZV2J1HhGbKnOzAImWKAlXJai3rMG>)
 
 The line (1) points to subtle pen influences, and references the angle of the pen and the way it moves to create the shape.
 
-![Arabic letter in blue text on white background](../../assets/images/5c410fde32c1-Mdcz6mXxkkr70i1f5YYucHDkbGP6OamGZrNu8dcrbmtK3pylX3p15P0aNWyxo4S3nKQCIIvfp5vlJB1Y61lrT0Gb1NfnuOXL.png)
+![Arabic letter in blue text on white background](<https://lh3.googleusercontent.com/Mdcz6mXxkkr70i1f5YYucHDkbGP6OamGZrNu8dcrbmtK3pylX3p15P0aNWyxo4S3nKQCIIvfp5vlJB1Y61lrT0Gb1NfnuOXLH-KcID14baCzB-XcKg8>)
 
 (1) Instead of a shallow, waved line, like in calligraphic Naskh, the top is curved and open, adding a geometric quality to the letter. (2) The curves are static using the typical Naskh structure, but treated in a controlled, geometric way.
 
-![Arabic letter in blue text on white background](../../assets/images/da1d69107c47-9cd5PeMUX45eZiARcP9z1wjVCkd4nRhu-0ivoKlFks9nP_djU1S_pFyFuEGMu_Umog1rV0tC9o4__vBfLvclX3ULjMwWT6vK.png)
+![Arabic letter in blue text on white background](<https://lh3.googleusercontent.com/9cd5PeMUX45eZiARcP9z1wjVCkd4nRhu-0ivoKlFks9nP_djU1S_pFyFuEGMu_Umog1rV0tC9o4__vBfLvclX3ULjMwWT6vKTdAqyxz1FPEEV5N9XQ>)
 
 (1) The almost constant thickness of the strokes is similar to the Latin counterpart of Readex Pro, derived from Lexend. (2) The baseline is flat and horizontal, following the Naskh magazine style, and brings the rhythm closer to the Latin. The diacritic (accent mark) is a rhombus, like in Naskh.
 
@@ -109,7 +109,7 @@ The line (1) points to subtle pen influences, and references the angle of the pe
 
 In addition to creating a custom Naskh with a contemporary blend of genre influences, the designers also had to implement adjustments to the Latin, such as the standard practice of increasing the vertical metrics of the font to accommodate how characters such as “ع” (ain, an unvoiced sound) go deep below the baseline.
 
-![Text labels showing the baselines and descenders for two letters](../../assets/images/6bd252135705-2E3_R59jiiE7Hab-lVE_WkiVLAkh3E0DtP-Ch4QdDzkgzox0DVIchVFV1dAcGzPgZjAKpWM8KC-vd2DC-za2FOuMpI520P0g.png)
+![Text labels showing the baselines and descenders for two letters](<https://lh3.googleusercontent.com/2E3_R59jiiE7Hab-lVE_WkiVLAkh3E0DtP-Ch4QdDzkgzox0DVIchVFV1dAcGzPgZjAKpWM8KC-vd2DC-za2FOuMpI520P0gwdarKb6j9GW-0lOt1bH7>)
 
 Comparison of the Latin lowercase “g” in Lexend compared to the "ع" in Readex Pro. (1) Baseline (2) Latin descender (3) Arabic descender
 
@@ -121,11 +121,11 @@ The following are examples of various spacing options.
 
 ​​In the Arabic writing system, letters at the beginning and middle of a word have to connect to each other, like Latin [ligatures](https://fonts.google.com/knowledge/glossary/ligature) do. The Readex Pro designers had to create enough space between Arabic letters to allow for these connections.
 
-![Red boxes and circles and text labels showing differences between Arabic and Latin letters](../../assets/images/a055c2cacf43-rShJhdf3ubl6mXFMrosgAohDZlfKHBWKnk9_D0_1o7dOzAcaTeJ74Jy_OD8axdylq_3H4NMYJzZy6P2cGweOCgnjO5E9yxd4.png)
+![Red boxes and circles and text labels showing differences between Arabic and Latin letters](<https://lh3.googleusercontent.com/rShJhdf3ubl6mXFMrosgAohDZlfKHBWKnk9_D0_1o7dOzAcaTeJ74Jy_OD8axdylq_3H4NMYJzZy6P2cGweOCgnjO5E9yxd4oMllDTGuoNwoSyu-9Q>)
 
 (1) Narrow spacing: 0 (2) Widest spacing: 100 (3) Extended connection: short connection \[right\] and wide connection \[left\] (4) Extended spacing: narrow spacing \[left, axis value 0\] and wide spacing \[right, axis value 100\] Comparison of extended connection in Arabic \[left\] and extended spacing in Latin \[right\] using Readex Pro Arabic and Readex Pro Latin in the Regular 400 weight. In the Arabic word مرحبا \[“marhaba”, meaning “hello”\], the initial letter ﻣـ \[mim\] connects on the left side.
 
-![Seven lines of text ranging from the shortest line at the top and the longest line at the bottom.](../../assets/images/e7d781ead9ef-4f0MCMWLByq46spSwAY8siwISp0AOe13yA50WY3BAcFsy5bLx8CLj0wSybF0u_TB74REHGOpJDfGEDeeMDLiWVrYpx9SGOmG.png)
+![Seven lines of text ranging from the shortest line at the top and the longest line at the bottom.](<https://lh3.googleusercontent.com/4f0MCMWLByq46spSwAY8siwISp0AOe13yA50WY3BAcFsy5bLx8CLj0wSybF0u_TB74REHGOpJDfGEDeeMDLiWVrYpx9SGOmGqKcFqpHadZU7tLOjZQ>)
 
 English Translation of Arabic text: "At that time, the spoken word was mightier than the sword." | Spacing options: (1) 0 (2) 40 (3) 56 (4) 64 (5) 72 (6) 80 (7) 100
 
@@ -133,7 +133,7 @@ As a variable font, the Hyper Expansion axis allows for customized spacing optio
 
 To find the amount of hyperexpansion that works for you, on the Google Fonts specimen page for Readex Pro navigate to the Type Tester and use the slider to control the Hyper Expansion axis value.
 
-![Animation of selected text changing as the user moves the hyper expansion slider.](../../assets/images/e91d4831c7c6-ArDJAbwRoIWhX1WP4Ab8eTV-H3cRBeBDd364s4YBQaRW5Zki4DLR4P7RbpPjC751fPIgBVYsgGgNeJ_mPKYFHKeYJsIzqI43.png)
+![Animation of selected text changing as the user moves the hyper expansion slider.](<https://lh3.googleusercontent.com/ArDJAbwRoIWhX1WP4Ab8eTV-H3cRBeBDd364s4YBQaRW5Zki4DLR4P7RbpPjC751fPIgBVYsgGgNeJ_mPKYFHKeYJsIzqI43L_H-aMYsj1un6TbNHwgu>)
 
 GIF of the Type Tester
 
@@ -147,7 +147,7 @@ The duo wanted to match the typographic [color](https://fonts.google.com/knowled
 
 In the image below, the words "thank you" in English and "شكرا" (“shukran”, Arabic for “thank you”) appear to have the same visual density, especially in the boldest weights.
 
-![Four white boxes with black text on blue background](../../assets/images/458551a31e83-wt45Ki826Yy_AR10lQ5oO9VIouY9ACbqwedBHv72nt_ew2Gdm3DYvVr7Ro8k0ABNGVuAuyRzomWD2culnjwlTi1abLlAH1lp.png)
+![Four white boxes with black text on blue background](<https://lh3.googleusercontent.com/wt45Ki826Yy_AR10lQ5oO9VIouY9ACbqwedBHv72nt_ew2Gdm3DYvVr7Ro8k0ABNGVuAuyRzomWD2culnjwlTi1abLlAH1lpS4Jear5ggPOzGAsiWQ>)
 
 Bold and Light versions of the words “Thanks” in English and "شكرا" in Arabic (1) Boldest weight, default Hyper Expansion \[axis value 0\] (2) Boldest weight, maximum Hyper Expansion \[axis value 100\] (3) Lightest weight, default Hyper Expansion \[axis value 0\] (4) Lightest weight, maximum Hyper Expansion \[axis value 100\]
 
@@ -163,7 +163,7 @@ Use Readex Pro on Google Docs and other Workspace products:
 2.  Type "Readex Pro” in the search bar
 3.  Click on the family to add it to your fonts menu
 
-![Animation of text in a Google Doc. Cursor selects “More” Fonts menu, user types in “Readex Pro” in the search bar, selects font.](../../assets/images/eaedab9923a9-oCK8-8MapqmaUJkA_LJYT-xRoYkWfYx5mSOke9CyUs98Ye2CmjYN2SozUtS9y5wRjoTdq60ekhRBia1YlhMcwn1Lf5F3Qix9.png)
+![Animation of text in a Google Doc. Cursor selects “More” Fonts menu, user types in “Readex Pro” in the search bar, selects font.](<https://lh3.googleusercontent.com/oCK8-8MapqmaUJkA_LJYT-xRoYkWfYx5mSOke9CyUs98Ye2CmjYN2SozUtS9y5wRjoTdq60ekhRBia1YlhMcwn1Lf5F3Qix9Gjub16afjVHkNcxPaQ>)
 
 How to add Readex Pro in Docs
 

@@ -2,7 +2,7 @@
 title: "Designing"
 source_url: "https://m3.material.io/foundations/designing/structure"
 lastmod: "2025-10-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/7a0f4a6e0ac5-lwj3y443-1.png"
@@ -53,7 +53,7 @@ To enable the screen reader to read out content in the intended order, it’s im
 
 While CSS determines the layout and appearance of a page, screen readers rely on the top-down structure of HTML on any platform (mobile or web). This structure creates a map for the screen reader to follow when reading the content.
 
-![Example of a mobile app using 4 content cards in a 2 by 2 grid. They reading order is top left, to top right, then bottom left, then bottom right.](../../../assets/images/7a0f4a6e0ac5-lwj3y443-1.png)
+![Example of a mobile app using 4 content cards in a 2 by 2 grid. They reading order is top left, to top right, then bottom left, then bottom right.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3y443-1.png?alt=media&token=ca884e93-667e-4daf-bba9-50c94e16f4da>)
 
 _An example of how content hierarchy in a screen can be identified in a logical reading order to optimize for the ways assistive tech, such as screen readers, may interpret information_
 
@@ -67,7 +67,7 @@ Assistive technologies (AT) rely on clear, delineated structures to process page
 
 By **classifying and labeling sections of a page**, structural information that is conveyed visually through layout design can also be represented in code.
 
-![Diagram of a website, showing different regions and their associated landmarks and headings.](../../../assets/images/0858ac449c34-lwj3ys8l-2.png)
+![Diagram of a website, showing different regions and their associated landmarks and headings.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3ys8l-2.png?alt=media&token=c6967605-6ffd-4bfa-8e43-8aee74b6c589>)
 
 _Example of a page diagram mapping the areas for a UI in order to consider the relative landmarks and headings_
 
@@ -98,7 +98,7 @@ Labels should be added to **all regions**, as well as any landmark where a label
 
 **Don't repeat the landmark role within a label**.
 
-![Diagram labeling two regions with a navigation role with the labels primary and pagination](../../../assets/images/4eaf79aad04f-lwj3z6py-3.png)
+![Diagram labeling two regions with a navigation role with the labels primary and pagination](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3z6py-3.png?alt=media&token=584580d1-66d5-4100-8ce6-39f94f60751c>)
 
 _This layout has two areas assigned the navigation role. Each landmark should get a unique label to help users tell the difference between elements._
 
@@ -111,7 +111,7 @@ Assistive technology users often navigate web pages with the help of headings. T
 -   Map content on your pages to headings (H1–H6) in sequential order based on the hierarchy of your content
 -   A single H1 for the page title is recommended
 
-![Diagram labeling different headings](../../../assets/images/95616b3f918d-lwj3znk9-4.png)
+![Diagram labeling different headings](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj3znk9-4.png?alt=media&token=ce4c0c6b-62a0-45e8-9480-62c8912bdde0>)
 
 _Example of headings marked up in code_
 
@@ -125,7 +125,7 @@ Heading levels are informed by the layout's information architecture—the struc
 
 Material Design’s target guidelines can help users who aren’t able to see the screen, or who have difficulty with small touch targets, to tap elements in your app.
 
-![Target guidelines on buttons for easy accessibility.](../../../assets/images/719d63f0d790-lwj401i4-2.png)
+![Target guidelines on buttons for easy accessibility.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj401i4-2.png?alt=media&token=88af57b6-03f7-47bf-aea4-3c91b7fbd121>)
 
 ### Touch and pointer target sizes
 
@@ -135,7 +135,7 @@ For most platforms, consider making touch targets at least 48 x 48dp. A touch ta
 
 Note: iOS recommends 44 x 44dp targets.
 
-![A row of four 24dp icons and one 40dp icon](../../../assets/images/f1a5ef9f2884-m0qv75bo-3-3p.png)
+![A row of four 24dp icons and one 40dp icon](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qv75bo-3-3p.png?alt=media&token=f8ec812a-ebd0-4d8f-8aa3-f81b7ed2e736>)
 
 _Icons: 24dp Star icon: 40dp Touch target on both: 48dp_
 
@@ -145,7 +145,7 @@ Pointer targets are similar to touch targets, but are implemented by motion-trac
 
 Consider making pointer targets minimums 44 x 44dp.
 
-![A row of four icon buttons in the bottom app bar.](../../../assets/images/4e183cc8025d-m0qv7adh-5.png)
+![A row of four icon buttons in the bottom app bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qv7adh-5.png?alt=media&token=fa7b0249-32ad-4472-afc1-6e5a3be8e7f9>)
 
 _Recommended target size for pointers: 44dp_
 
@@ -153,6 +153,6 @@ _Recommended target size for pointers: 44dp_
 
 In most cases, targets separated by 8dp of space or more promote balanced information density and usability.
 
-![Three icons in a row with 48dp touch target size and three icons in a row with 8dp padding between icons.](../../../assets/images/82f803c592d9-m0qv7efk-6.png)
+![Three icons in a row with 48dp touch target size and three icons in a row with 8dp padding between icons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qv7efk-6.png?alt=media&token=eee1f6f5-9c0a-46de-af8d-0ef5be1b8bd8>)
 
 _Two groups of icons showing their overall spacing and the spacing between each other Touch target size: 48dp Padding: 8dp_

@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/05253f4916f8-lwuobzmz-1.png"
@@ -33,7 +33,7 @@ People should be able to do the following using assistive technology:
 
 A card can be a non-actionable container that holds actions like buttons and links, or it can be directly actionable without any buttons or links. This is to avoid stacking actionable elements. An action shouldn’t be placed on an actionable surface.
 
-![2 possible card interaction behaviors.](../../../assets/images/05253f4916f8-lwuobzmz-1.png)
+![2 possible card interaction behaviors.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuobzmz-1.png?alt=media&token=43522d6c-0a33-4b98-8cf8-3e7db99cd337>)
 
 _Non-actionable card with buttons; Directly actionable card with no buttons_
 
@@ -59,7 +59,7 @@ For example, tapping a card, or pressing and holding, should open a menu to chan
 
 It isn’t recommended to place menus on top of the card on the draggable state. If doing so is necessary, ensure that the interaction can be completed.
 
-![A menu over a card that doesn't totally obscure the card.](../../../assets/images/e0500b852552-m4ivybyo-3-a.png)
+![A menu over a card that doesn't totally obscure the card.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4ivybyo-3-a.png?alt=media&token=dd43ecb5-f57b-4079-bda5-e822258fb7c9>)
 
 _Ensure that the menu doesn't cover the card_
 
@@ -93,11 +93,11 @@ All interactive elements of cards need a tab stop so they can be focused. Direct
 
 For non-actionable cards, the card itself is not a tab stop. However, every actionable element in the card is a tab stop so they’re all visited before focus navigates to the next card.
 
-![The focus areas of a card with interactive elements.](../../../assets/images/b5d30b7b33e3-lwuodgu3-5.png)
+![The focus areas of a card with interactive elements.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuodgu3-5.png?alt=media&token=3f2cf54f-c991-49bf-bf2a-447a25e2657a>)
 
 _Use Tab to navigate through all buttons in a card_
 
-![Cards forming a list on mobile and cards forming a gallery on tablet.](../../../assets/images/59c82666be61-lwuoeob6-6.png)
+![Cards forming a list on mobile and cards forming a gallery on tablet.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuoeob6-6.png?alt=media&token=be7c42c2-1676-4bb7-a654-8bdfcc83691b>)
 
 _Card layouts can change on different devices_
 
@@ -116,6 +116,6 @@ Directly actionable cards can have the **button** or **link** role, depending on
 
 Non-actionable cards are purely containers, so they don’t need a role.
 
-![Card elements annotated in the order that a screen reader tabs through them.](../../../assets/images/7f33570dd561-mk6jw3io-09.png)
+![Card elements annotated in the order that a screen reader tabs through them.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmk6jw3io-09.png?alt=media&token=e51c3965-4c45-4a0d-bdc7-9874af242848>)
 
 _Non-actionable card elements are navigable, focused in order, and verbalized when in focus. In this example, the order is: Heading; Image; Body text; Primary button; Secondary button_

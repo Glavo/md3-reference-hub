@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/overview"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/b2681e7e2460-m7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4"
@@ -68,7 +68,7 @@ New configurations: 
 
 -   Sizes: XS (existing default), S, M, L, XL
 
-![3 M3 Expressive sliders.](../../../assets/images/34a17fb72cd2-m7lii3kv-02.png)
+![3 M3 Expressive sliders.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lii3kv-02.png?alt=media&token=315a4297-8491-4398-9ceb-ee02c42bce76>)
 
 _Standard slider; Centered slider; Range slider_
 
@@ -86,7 +86,7 @@ _Standard slider; Centered slider; Range slider_
 
 -   **Color:** Refreshed color mappings
 
-![M3 visually-refreshed slider.](../../../assets/images/6604484a6dab-m7lirx37-03.png)
+![M3 visually-refreshed slider.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7lirx37-03.png?alt=media&token=938a41c7-a272-4f54-b226-a138dbc77dbd>)
 
 _M3 visual refresh: Sliders have a stop indicator, larger label text, and a vertical handle that narrows when pressed. Centered sliders start from the middle instead of the leading edge._
 
@@ -94,10 +94,10 @@ _M3 visual refresh: Sliders have a stop indicator, larger label text, and a vert
 
 -   **Color**: New color mappings and compatibility with dynamic color
 
-![M2 slider.](../../../assets/images/473523e04531-m7livqfr-04.png)
+![M2 slider.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7livqfr-04.png?alt=media&token=04f22602-6e80-4772-84e6-e36473774b80>)
 
 _M2: Sliders have a circular handle and a small label when pressed_
 
-![Original M3 slider.](../../../assets/images/804b7e48b94f-m7liwct9-05.png)
+![Original M3 slider.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7liwct9-05.png?alt=media&token=92017b6d-1e41-4639-9a31-6e78d744afe0>)
 
 _M3: Sliders have new color mappings and support dynamic color_

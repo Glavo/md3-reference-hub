@@ -2,7 +2,7 @@
 title: "Material Design at Google I/O 2021"
 source_url: "https://m3.material.io/blog/material-google-io21"
 lastmod: "2024-06-04"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/e91c31680500-0nEZHj1TagcvsenQeEDJ-4INrnLqDaDe5UoMy-eXVl03RsILYYbVc6rgUAYh5zmdJMeYYshwvetWzTaKNdT5qBpJFYSuGnhE.png"
@@ -16,7 +16,7 @@ assets:
 
 The sessions, workshops, discussions Material Design will host at Google I/O 2021
 
-![illustration showing that Google I/O is May 18-20](../../assets/images/e91c31680500-0nEZHj1TagcvsenQeEDJ-4INrnLqDaDe5UoMy-eXVl03RsILYYbVc6rgUAYh5zmdJMeYYshwvetWzTaKNdT5qBpJFYSuGnhE.png)
+![illustration showing that Google I/O is May 18-20](<https://lh3.googleusercontent.com/0nEZHj1TagcvsenQeEDJ-4INrnLqDaDe5UoMy-eXVl03RsILYYbVc6rgUAYh5zmdJMeYYshwvetWzTaKNdT5qBpJFYSuGnhEvAsLJffSgv4cYYI9K2E>)
 
 Published: 2021-05-06T13:00:00
 
@@ -28,7 +28,7 @@ And we’ll be there, too! Material Design has a full program of sessions, works
 
 Let’s dig into the events and learn how you can connect with the Material Design team at Google I/O 2021.
 
-![Screenshot of the Google I/O schedule](../../assets/images/ac26ff974eb6-szMkpFc4g5p8pYn5R6hC6t7yb6HC5a9nq5NhchNJsK-Xs31nSGmWI_B2ppuEDj6Y2DaW0Eh64mGGMbGp2tqAk5U2Oi6CU2YW.png)
+![Screenshot of the Google I/O schedule](<https://lh3.googleusercontent.com/szMkpFc4g5p8pYn5R6hC6t7yb6HC5a9nq5NhchNJsK-Xs31nSGmWI_B2ppuEDj6Y2DaW0Eh64mGGMbGp2tqAk5U2Oi6CU2YWXB64LQvuA4cEz-0irQ>)
 
 ## Keynotes, Sessions, Workshops, and Ask Me Anything
 
@@ -48,7 +48,7 @@ Learn about the latest updates to our developer products and platforms from Goog
 
 ### Wednesday, May 19
 
-![Screenshot of the Google I/O schedule](../../assets/images/7c366e5ca888-W04JGwhMHGqy2av9XrNiXSo7ke2pLOnNl6EKEuPb3ZO_6G283m4Zc83CU_88KBUL_BgXq0MAsIRlBdOMAQWegm2pARmgup2n.png)
+![Screenshot of the Google I/O schedule](<https://lh3.googleusercontent.com/W04JGwhMHGqy2av9XrNiXSo7ke2pLOnNl6EKEuPb3ZO_6G283m4Zc83CU_88KBUL_BgXq0MAsIRlBdOMAQWegm2pARmgup2nQfUtIfayrq1x5epHXzFn>)
 
 **10:00 AM PT**
 
@@ -76,7 +76,7 @@ This workshop will show you how to write clear, compelling user-facing content �
 
 ## Meetups with Material Design
 
-![Screenshot of the I/O 2021 schedule](../../assets/images/b7639bf00658-_RcpyJCRmrZU2EjGbCjrSh9vQIn1eOqpWms0dJarImDshkqWX9V6cKikfD2_oz4LUu3oozUWCsRdpFR8HZ8-ZH0Tifr9aCa9.png)
+![Screenshot of the I/O 2021 schedule](<https://lh3.googleusercontent.com/_RcpyJCRmrZU2EjGbCjrSh9vQIn1eOqpWms0dJarImDshkqWX9V6cKikfD2_oz4LUu3oozUWCsRdpFR8HZ8-ZH0Tifr9aCa90zMghobcvwZdx7KKy60>)
 
 ### Thursday, May 20
 
@@ -94,7 +94,7 @@ A time to gather with the Material Design community. Join members of the Materia
 
 ## On-demand content
 
-![Screenshot of the I/O 2021 schedule](../../assets/images/58aef43238d0-ngPsz03xSf32dR_x8D_XxZZWH4to3Ib0gs-Z-rLeaEc4_jj5FUdcXBCMUq2vIeKj_NCE9OduPYsy8K8x8-PCDun3VdgcLto1.png)
+![Screenshot of the I/O 2021 schedule](<https://lh3.googleusercontent.com/ngPsz03xSf32dR_x8D_XxZZWH4to3Ib0gs-Z-rLeaEc4_jj5FUdcXBCMUq2vIeKj_NCE9OduPYsy8K8x8-PCDun3VdgcLto1YttOqLfL02gr1eKi9Is>)
 
 [5 things you can do to prepare your app for large screens](https://events.google.com/io/session/b2f0dee6-b649-4e20-8ad6-69266e353f05)
 

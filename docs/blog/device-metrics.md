@@ -2,7 +2,7 @@
 title: "How to Find Device Metrics for Any Screen"
 source_url: "https://m3.material.io/blog/device-metrics"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/7bf85e44b90e-VSXJYJl6FT8-ehDuH_XzkjkJmlGbHJMu9hBQQa0aTCHEC51Jf5eb8mHYs5OPF3V_ifEriOvE8pkq0uLpfs_Jjho8fp5ii5Ke.png"
@@ -12,7 +12,7 @@ assets:
 
 Calculate the right measurements for design across devices
 
-![Image](../../assets/images/7bf85e44b90e-VSXJYJl6FT8-ehDuH_XzkjkJmlGbHJMu9hBQQa0aTCHEC51Jf5eb8mHYs5OPF3V_ifEriOvE8pkq0uLpfs_Jjho8fp5ii5Ke.png)
+![Image](<https://lh3.googleusercontent.com/VSXJYJl6FT8-ehDuH_XzkjkJmlGbHJMu9hBQQa0aTCHEC51Jf5eb8mHYs5OPF3V_ifEriOvE8pkq0uLpfs_Jjho8fp5ii5KeGyS3Nws>)
 
 Published: 2020-05-19T13:00:00
 

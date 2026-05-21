@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/nav-bar"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -22,7 +22,7 @@ assets:
 
 Learn how Material 3 Expressive components adapt to extended reality devices
 
-![XR components](../../../../assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png)
+![XR components](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6grqe5-hero%20image.png?alt=media&token=77848b44-f2d9-4c6e-a51a-d4807d7ea9e4>)
 
 ## Nav bar
 
@@ -36,7 +36,7 @@ Extended reality (XR) interfaces have special design requirements, like showing 
 
 ## Anatomy
 
-![Diagram of navigation bar orbiter identifying 7 internal elements of the component.](../../../../assets/images/67e75b360d9e-mp5rw7th-01-3P.png)
+![Diagram of navigation bar orbiter identifying 7 internal elements of the component.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5rw7th-01-3P.png?alt=media&token=9f654553-9782-4442-80e6-c6f81a39479c>)
 
 _Container; Icon; Active indicator; Small badge (optional); Large badge (optional); Large badge label (optional); Label text_
 
@@ -44,13 +44,13 @@ _Container; Icon; Active indicator; Small badge (optional); Large badge (optiona
 
 On XR, color is used to highlight elevated UI elements and orbiters. With [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation), the navigation bar displays above the spatial panel, on the Z-axis. Color communicates elevation on UI elements and orbiters. Elevated nav bars can use any of these color options:
 
-![4 versions of elevation color strategy.](../../../../assets/images/bd87b5509390-mp5rwtar-02-3P.png)
+![4 versions of elevation color strategy.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5rwtar-02-3P.png?alt=media&token=949b1a5c-1fa5-4880-8a2c-28b4ccef1e93>)
 
 _Surface container; Surface container high; Surface container highest; Tertiary container_
 
 ## Measurements
 
-![Measurements and padding for navigation bar orbiter.](../../../../assets/images/952b1c0beedc-mp5rxeyw-03-3P.png)
+![Measurements and padding for navigation bar orbiter.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5rxeyw-03-3P.png?alt=media&token=7a9e8b61-55f8-4a7d-9a39-2da0d21c98fb>)
 
 _Navigation bar orbiter padding and measurements_
 

@@ -2,7 +2,7 @@
 title: "Looking for Noto? It’s now on the Google Fonts website and API"
 source_url: "https://m3.material.io/blog/noto-announcement"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/b40578e1da4e-Jyqg8Tmxhu98VVfP_FCg8IFPyszgSANBiSUvYzTBGYRjIprsYKHKxNl0nPpfXRniScB7gKhamyn1SF6saEPhQM4mgSQut5XM.png"
@@ -13,7 +13,7 @@ assets:
 
 Expand your font choices with the new Noto site
 
-![Image](../../assets/images/b40578e1da4e-Jyqg8Tmxhu98VVfP_FCg8IFPyszgSANBiSUvYzTBGYRjIprsYKHKxNl0nPpfXRniScB7gKhamyn1SF6saEPhQM4mgSQut5XM.png)
+![Image](<https://lh3.googleusercontent.com/Jyqg8Tmxhu98VVfP_FCg8IFPyszgSANBiSUvYzTBGYRjIprsYKHKxNl0nPpfXRniScB7gKhamyn1SF6saEPhQM4mgSQut5XMpg7lR3usaPI1G9umlWE>)
 
 Published: 2021-09-16T09:00:00
 
@@ -25,7 +25,7 @@ Noto means “I write, I note, I mark,” in Latin (from the verb “notare”).
 
 The Noto name also comes from the mission to provide fonts for almost all Unicode scripts without the tofu-like boxes that appear when a user’s device or computer can’t display letterforms. Noto = “no to(fu).”
 
-![](../../assets/images/1047fa6f0c37-4RSIHkDZC1I8lQB4mIDMACe9T0mkcwHGHTash1w7KyDNX0uQ0GW64OLsznVQAmjkm3YITZ5i3_AD7A63Ns8sJ82kfVIMDC82.png)
+![Image](<https://lh3.googleusercontent.com/4RSIHkDZC1I8lQB4mIDMACe9T0mkcwHGHTash1w7KyDNX0uQ0GW64OLsznVQAmjkm3YITZ5i3_AD7A63Ns8sJ82kfVIMDC82bVXoYR_n6tvWItIkKw>)
 
 “Tofu” boxes appearing on-screen in place of unreadable characters.
 

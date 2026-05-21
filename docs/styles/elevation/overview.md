@@ -2,7 +2,7 @@
 title: "Elevation"
 source_url: "https://m3.material.io/styles/elevation/overview"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/6f55e88115bb-lwykafum-1.png"
@@ -28,7 +28,7 @@ Elevation is the distance between two surfaces on the z-axis
 
 Elevation is measured as the distance between components along the z-axis in density-independent pixels (dps).
 
-![1 diagram shows a light purple square and a darker purple square. A second one shows a side view of the squares in elevation, showing that the light square is lower in elevation than the dark square.](../../../assets/images/6f55e88115bb-lwykafum-1.png)
+![1 diagram shows a light purple square and a darker purple square. A second one shows a side view of the squares in elevation, showing that the light square is lower in elevation than the dark square.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykafum-1.png?alt=media&token=686eda7a-aed0-4d34-a749-0b01f2a50a86>)
 
 _Elevation represents the distance between elements. The product applies color to represent elevation. One surface at 1dp elevation and another surface at 8dp elevation, as viewed from the front; The difference in elevation between the two surfaces is 7dp, as viewed from the side_
 
@@ -48,11 +48,11 @@ _Elevation represents the distance between elements. The product applies color t
 -   Color: New color mappings and compatibility with dynamic color
 -   Levels: Elevation is now described in terms of levels
 
-![Diagram of 2 concentric squares. The inner square is at 12dp and has a larger shadow than the outer square, which is at 3dp.](../../../assets/images/63a552ded98b-lwykc8yv-2.png)
+![Diagram of 2 concentric squares. The inner square is at 12dp and has a larger shadow than the outer square, which is at 3dp.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykc8yv-2.png?alt=media&token=7c4a4e4e-ff37-47d2-a375-579c3f945893>)
 
 _M2: Shadows applied at all levels_
 
-![Diagram of 2 concentric squares without shadows. Instead, the inner square is at level and tonally darker than the outer square, which is at level 2.](../../../assets/images/30643f63b738-lwykckey-3.png)
+![Diagram of 2 concentric squares without shadows. Instead, the inner square is at level and tonally darker than the outer square, which is at level 2.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykckey-3.png?alt=media&token=fd1c5548-7048-4d2c-9123-17308e339731>)
 
 _M3: Using color instead of shadows to communicate elevation_
 
@@ -74,7 +74,7 @@ Surfaces at different elevations do the following:
 
 All components have a default resting elevation. Avoid changing the default elevation of Material components.
 
-![A floating action button with a shadow.](../../../assets/images/1932356f444d-lwykcxkh-5.png)
+![A floating action button with a shadow.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykcxkh-5.png?alt=media&token=d0b226cf-0e17-4719-9f5c-8a186936d003>)
 
 _All components have a default elevation which should be used_
 

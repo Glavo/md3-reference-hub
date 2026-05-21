@@ -2,7 +2,7 @@
 title: "Buttons"
 source_url: "https://m3.material.io/components/buttons/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/108b24f85d53-mmm1qv5u-01.png"
@@ -29,7 +29,7 @@ Buttons prompt most actions in a UI
 
 -   Keep labels concise and use sentence case
 
-![5 variants of buttons.](../../../assets/images/108b24f85d53-mmm1qv5u-01.png)
+![5 variants of buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1qv5u-01.png?alt=media&token=70d30001-94b9-4bc2-a894-3b71a78dfb2e>)
 
 _Elevated button; Filled button; Filled tonal button; Outlined button; Text button_
 
@@ -89,7 +89,7 @@ New padding for **small** buttons:
 
 -   24dp (no longer recommended)
 
-![4 button changes in the expressive update.](../../../assets/images/015c1315a60f-mmm1tos0-03.png)
+![4 button changes in the expressive update.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1tos0-03.png?alt=media&token=dd50e746-4e7b-41f5-8e51-1f26afb86139>)
 
 _Five sizes; Toggle (selection); Two shapes; Two small padding widths_
 
@@ -101,10 +101,10 @@ _Five sizes; Toggle (selection); Two shapes; Two small padding widths_
 
 -   Shape: Fully-rounded corner radius and additional height options
 
-![Rectangular M2 buttons.](../../../assets/images/8feba5852b6e-mmm1vatd-04.png)
+![Rectangular M2 buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1vatd-04.png?alt=media&token=9224dca7-f21c-4dff-812d-3dfb3fa035e6>)
 
 _M2: Buttons have a height of 36dp and slightly rounded corner radius_
 
-![Round-cornered M3 buttons.](../../../assets/images/22971d1e1b5a-mmm1vtk3-05.png)
+![Round-cornered M3 buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmmm1vtk3-05.png?alt=media&token=1f0e0136-6117-4e71-8d6c-d006b6ef3804>)
 
 _M3: Default buttons are taller at 40dp and have fully rounded corners_

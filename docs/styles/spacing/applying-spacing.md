@@ -2,7 +2,7 @@
 title: "Spacing"
 source_url: "https://m3.material.io/styles/spacing/applying-spacing"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/ca6f6d354d27-mp472g1b-01.png"
@@ -23,7 +23,7 @@ Spacing is the distance around and between component and layout elements
 
 Material’s spacing system is intentionally designed to be a simple linear scale. Unlike the color system, which adjusts light and dark theme logic across all components at once, tailored spacing logic is built within each component.
 
-![Component and system token mapping for the leading padding of three different icon buttons.](../../../assets/images/ca6f6d354d27-mp472g1b-01.png)
+![Component and system token mapping for the leading padding of three different icon buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp472g1b-01.png?alt=media&token=faa1b24c-a165-4354-b169-fc162674a082>)
 
 _Components have padding tokens that map to system tokens, which resolve to final values_
 
@@ -41,11 +41,11 @@ Spacing system tokens define the recommended values. Apply these to your product
 
 If the right system token doesn’t exist, [customize the system](applying-spacing.md#f1a6df59-f03d-4949-b1e6-d2dd4422c730) and add your own.
 
-![Button with spacing tokens for all padding and gaps.](../../../assets/images/462d65dccc9a-mp475gv4-02.png)
+![Button with spacing tokens for all padding and gaps.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp475gv4-02.png?alt=media&token=d9282ad6-6edc-49c7-898d-1ee6447ccdb3>)
 
 _Many Material components map to spacing system tokens_
 
-![A list of spacing system tokens from 100 to 400.](../../../assets/images/dd50411d6b43-mp475tmf-03.png)
+![A list of spacing system tokens from 100 to 400.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp475tmf-03.png?alt=media&token=267b98d3-faa5-422e-82b5-611308686964>)
 
 _System tokens define all spacing values recommended by Material_
 
@@ -53,7 +53,7 @@ _System tokens define all spacing values recommended by Material_
 
 When text is scaled up to 200%, the same spacing should be preserved by default.
 
-![A button with text scaled to 200% uses the same spacing tokens as an unscaled button.](../../../assets/images/c34b81555882-mp4783qn-04.png)
+![A button with text scaled to 200% uses the same spacing tokens as an unscaled button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp4783qn-04.png?alt=media&token=430e5fcc-38c8-4834-ad99-b2f9cd77b880>)
 
 _Keep the same spacing when text scales_
 
@@ -67,7 +67,7 @@ Use this approach to customize how the base component appears across the entire 
 
 -   For example, change the “button top padding” mapping from **space125** to **space200** for a taller default button.
 
-![A button’s vertical padding is changed from space125 to space200.](../../../assets/images/60bbb4600ac1-mp47e5lm-08.png)
+![A button’s vertical padding is changed from space125 to space200.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47e5lm-08.png?alt=media&token=4125df00-d67d-414f-8c2e-1bf678da66d3>)
 
 _Customize component spacing to change it across the entire product_
 
@@ -82,7 +82,7 @@ Use this approach when you need spacing units beyond what Material provides, or 
 
 -   For example, if cards and sheets adapt horizontal content padding the same way, you could create a **surface content horizontal padding** token for that pattern.
 
-![An outlined card and a bottom sheet both use the surface-content.padding.horizontal spacing pattern token.](../../../assets/images/414617edd287-mp47j8c0-09.png)
+![An outlined card and a bottom sheet both use the surface-content.padding.horizontal spacing pattern token.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp47j8c0-09.png?alt=media&token=6645788e-b661-4525-a3e8-ceeb553432a6>)
 
 _For products that adapt spacing the exact same way, consider creating a token for that pattern_
 

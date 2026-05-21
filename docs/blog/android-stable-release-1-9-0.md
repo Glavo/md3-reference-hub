@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.9.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-9-0"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/f440c627bc54-4lVyZj_pYByZSDxuL1o-us6nihWwgD9F5d6HjS6IyP4uxtSO-P3WNqA48hWSVq70q5riU9cJGXCGjbrmFp6KCk-G9MAXyZGe.png"
@@ -16,7 +16,7 @@ assets:
 
 New ways to navigate in and interact with your applications
 
-![abstract illustration of a plant sprout emerging from a cube](../../assets/images/f440c627bc54-4lVyZj_pYByZSDxuL1o-us6nihWwgD9F5d6HjS6IyP4uxtSO-P3WNqA48hWSVq70q5riU9cJGXCGjbrmFp6KCk-G9MAXyZGe.png)
+![abstract illustration of a plant sprout emerging from a cube](<https://lh3.googleusercontent.com/4lVyZj_pYByZSDxuL1o-us6nihWwgD9F5d6HjS6IyP4uxtSO-P3WNqA48hWSVq70q5riU9cJGXCGjbrmFp6KCk-G9MAXyZGehRqgnndJxZrEbCMRiXc>)
 
 Published: 2023-05-17T13:00:00
 
@@ -36,7 +36,7 @@ Next, instead of using a `LinearLayoutManager`, use a `CarouselLayoutManager`.
 
 Masking in `MaskableFrameLayout` ranges from 0% to 100% (0.0 to 1.0 in the code). When the layout manager needs to mask an image, it calculates a masking rectangle. The image below shows different masks applied to the same image and how each will reduce the image’s visible area.
 
-![diagram of how images are masked in a carousel](../../assets/images/98fb07a3824c-6IdEWOsFfVrq_d0Yr-NSgnP0iMH-2jsQxlt0pB3hbWTUvVsevd3TdlUWS32V8ZloH9ymGp4zOjQR5XciIDrSvdpVwhY2kz9W.png)
+![diagram of how images are masked in a carousel](<https://lh3.googleusercontent.com/6IdEWOsFfVrq_d0Yr-NSgnP0iMH-2jsQxlt0pB3hbWTUvVsevd3TdlUWS32V8ZloH9ymGp4zOjQR5XciIDrSvdpVwhY2kz9WQhc7Vok0xAUIsKTqhFk>)
 
 If you are using images in your Carousel with a custom image matrix or other components such as text, verify these objects work well with Carousel’s masking or optionally let them react to changes in mask size using an `OnMaskChangedListener` on your `MaskableFrameLayout`.
 
@@ -46,7 +46,7 @@ If you are using images in your Carousel with a custom image matrix or other com
 
 In the images below, at the start of the carousel, we can see two large items, a medium item and a small item. At the end of the carousel, the arrangement shifts to become one small item, followed by a medium item, and finally two large items.
 
-| ![screenshot of carousel in catalog app with scroll position at 0](../../assets/images/e4fb51d99f65-Q5PAFl0kJtvPGHel0TWAXN21Ym5Bal6SlaAkk33imuaKmDaQarDmkn6EgtPE31w0mMYFouo7R92edY5Iae_W81NHqWyv0rXF.png) | ![screenshot of carousel in catalog app with scroll position at 100](../../assets/images/29ab184b12a9-6vKpHerJbKyf8Xm_3u8Kzkg_LpA-AEjxDuzzkK5hhfqbIkqA_oqJlAZ5E1p14Sus8Y7mRRhb4f1MVM7GzlGj4VtV18PeSRd4.png) |
+| ![screenshot of carousel in catalog app with scroll position at 0](<https://lh3.googleusercontent.com/Q5PAFl0kJtvPGHel0TWAXN21Ym5Bal6SlaAkk33imuaKmDaQarDmkn6EgtPE31w0mMYFouo7R92edY5Iae_W81NHqWyv0rXF3mqFuNHVMrzICiLVTQk>) | ![screenshot of carousel in catalog app with scroll position at 100](<https://lh3.googleusercontent.com/6vKpHerJbKyf8Xm_3u8Kzkg_LpA-AEjxDuzzkK5hhfqbIkqA_oqJlAZ5E1p14Sus8Y7mRRhb4f1MVM7GzlGj4VtV18PeSRd4bcSSWNL1frlFC1jGSfM>) |
 | --- | --- |
 
 For more information on integrating the new Carousel component into your app, check out the full [developer documentation](https://github.com/material-components/material-components-android/blob/master/docs/components/Carousel.md).

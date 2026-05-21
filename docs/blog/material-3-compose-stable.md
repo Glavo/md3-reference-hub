@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose is now stable"
 source_url: "https://m3.material.io/blog/material-3-compose-stable"
 lastmod: "2025-03-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/69c1a8d9affd-yYfg__SGRj3ELVT3kcpto_hEBpyDEShR2HyKztmxiYxBIg2AKBokBC03XX8M72Zi2mX4bADa4pcg6PaWGJJ-qyDFAMK0rUJn.png"
@@ -21,7 +21,7 @@ assets:
 
 Exploring the first stable release of Material Design 3 for Compose
 
-![Image](../../assets/images/69c1a8d9affd-yYfg__SGRj3ELVT3kcpto_hEBpyDEShR2HyKztmxiYxBIg2AKBokBC03XX8M72Zi2mX4bADa4pcg6PaWGJJ-qyDFAMK0rUJn.png)
+![Image](<https://lh3.googleusercontent.com/yYfg__SGRj3ELVT3kcpto_hEBpyDEShR2HyKztmxiYxBIg2AKBokBC03XX8M72Zi2mX4bADa4pcg6PaWGJJ-qyDFAMK0rUJn1eBzdZXilA7cw74K70c>)
 
 Published: 2022-10-24T08:00:00
 
@@ -31,7 +31,7 @@ Note: The terms "Material Design 3," "Material 3," and "M3" are used interchange
 
 Material 3 includes updated theming and components, exclusive features like dynamic color, and is designed to be aligned with the latest Android visual style and system UI.
 
-![](../../assets/images/09984d0ccf24-uqNajkKx7YKEhRZRWUvZGjuoziPV7zqyw5rBZW3OnpAynrqiWwTDEzrprVB9Ip1wktkBJ5BuQQ1Vcx9BsOL6Q3tIOsGFkPLW.png)
+![Image](<https://lh3.googleusercontent.com/uqNajkKx7YKEhRZRWUvZGjuoziPV7zqyw5rBZW3OnpAynrqiWwTDEzrprVB9Ip1wktkBJ5BuQQ1Vcx9BsOL6Q3tIOsGFkPLWI1pznkAm6TWZ4DJUvQ>)
 
 Multiple apps using Material Design 3 theming
 
@@ -43,7 +43,7 @@ Note: See the latest M3 versions on the [Compose Material 3 releases page](https
 
 Material 3 brings extensive, finer grained color customisation, and comes with both light and dark color scheme support out of the box. The [Material Theme Builder](https://m3.material.io/theme-builder#/dynamic) allows you to generate a custom color scheme using core colors, and optionally export Compose theming code. You can read more about [color schemes and color roles](https://m3.material.io/styles/color/the-color-system/key-colors-tones).
 
-![](../../assets/images/b4c583423094-BT8EcorV03uUW4SdPpdh3gw4d9qV1GTuL01gZglszBZoLDiO7DTy8XEPlguPXQ__zMm7qKrQmyCF4EM-6j9juIYbB5q66kSx.png)
+![Image](<https://lh3.googleusercontent.com/BT8EcorV03uUW4SdPpdh3gw4d9qV1GTuL01gZglszBZoLDiO7DTy8XEPlguPXQ__zMm7qKrQmyCF4EM-6j9juIYbB5q66kSxdRObF_x7Xa7NG1ZI6A>)
 
 Material Theme Builder to export Material 3 color schemes
 
@@ -53,7 +53,7 @@ Dynamic color derives from the user’s wallpaper. The colors can be applied to 
 
 Dynamic color is available on Android 12 (API level 31) and above. If dynamic color is available, you can set up a dynamic `ColorScheme`. If not, you should fall back to using a custom light or dark `ColorScheme`.
 
-| ![](../../assets/images/59ebb3411d91-isYinQaWjIX0jX1aZY4i0QWOaKF-EQur83BI6AezKaQVSZ2poPCQi2BPQPvSeSQxmu7Sr_k4iubDvoKARRLSAhY1O0c0jB7K.png) Reply Dynamic theming from wallpaper | ![](../../assets/images/02e76f49ddd6-WxI5lRgubhlav9dG6WU6-yeSe3lAWuJQ0xuo7l2fMm1HWfcrGhzEbXlGngr99mWaLfvffiAIhhF45KkoopvokP9jOlP0ZVj8.png) Default Reply app theming |
+| ![Image](<https://lh3.googleusercontent.com/isYinQaWjIX0jX1aZY4i0QWOaKF-EQur83BI6AezKaQVSZ2poPCQi2BPQPvSeSQxmu7Sr_k4iubDvoKARRLSAhY1O0c0jB7K-v2VgefJEyPYqucK1r0>) Reply Dynamic theming from wallpaper | ![Image](<https://lh3.googleusercontent.com/WxI5lRgubhlav9dG6WU6-yeSe3lAWuJQ0xuo7l2fMm1HWfcrGhzEbXlGngr99mWaLfvffiAIhhF45KkoopvokP9jOlP0ZVj809u6ZHwuigmlO4rd0i13>) Default Reply app theming |
 | --- | --- |
 
 The `ColorScheme` class provides builder functions to create both dynamic and custom [light](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#dynamiclightcolorscheme) and [dark](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#dynamicdarkcolorscheme) color schemes:
@@ -66,7 +66,7 @@ The Compose Material 3 APIs contain a wide range of both new and evolved Materia
 
 The M3 `Switch` component has a brand new UI refresh with accessibility-compliant minimum touch target size support, color mappings, and optional  icon support in the switch thumb. The touch target is bigger, and the thumb size increases on user interaction, providing feedback to the user that the thumb is being interacted with.
 
-![](../../assets/images/6622b9825d8b-9ZWLzSdlen3IzreM8RuT06sQZff-nbaR5vAzxZC8CwQgBit5eIxhGAVT66hmwGZFOn8lgPVx0xbpLJSvOl2-85iOOIHoro0j.png)
+![Image](<https://lh3.googleusercontent.com/9ZWLzSdlen3IzreM8RuT06sQZff--nbaR5vAzxZC8CwQgBit5eIxhGAVT66hmwGZFOn8lgPVx0xbpLJSvOl2-85iOOIHoro0jq1G5MsLK8VYwYJNp2A>)
 
 Material 3 Switch thumb interaction
 
@@ -78,13 +78,13 @@ Navigation drawer components now provide wrapper sheets for content to change co
 | PermanentNavigationDrawer | PermanentDrawerSheet |
 | DismissableNavigationDrawer | DismissableDrawerSheet |
 
-![](../../assets/images/0ce3da010f66-7ZoGjkeViQgxDGkDzS0kzS5CofQ1RO1c0WL292JLfJE9Kk5Hqu_vCJ4tDGZ2W2opJj9CDJEqAV8kPVyfnlB_6n1l1NnIDnC3.png)
+![Image](<https://lh3.googleusercontent.com/7ZoGjkeViQgxDGkDzS0kzS5CofQ1RO1c0WL292JLfJE9Kk5Hqu_vCJ4tDGZ2W2opJj9CDJEqAV8kPVyfnlB_6n1l1NnIDnC3tQ0qx4jBmMUwu4QQw5A>)
 
 ModalNavigationDrawer with content wrapped in ModalDrawerSheet
 
 We have a brand new `CenterAlignedTopAppBar` in addition to already existing app bars. This can be used for the main root page in an app: you can display the app name or page headline with home and action icons.
 
-![](../../assets/images/9cfcdc06119a-Z9-ggjETlvW8AR4YsYN8R0L3ooMkhl61Q0ytyUZYgEBj2K-jbl9wY0AIb-qfI98O_RPduFi6aI-ULCBBP0YMg7vXKR2cRvG1.png)
+![Image](<https://lh3.googleusercontent.com/Z9-ggjETlvW8AR4YsYN8R0L3ooMkhl61Q0ytyUZYgEBj2K-jbl9wY0AIb-qfI98O_RPduFi6aI-ULCBBP0YMg7vXKR2cRvG1tW8oip-NSEoDey0UvecE>)
 
 Material CenterAlignedTopAppBar with home and action items
 
@@ -118,7 +118,7 @@ There are different sizes of shapes:
 -   Large
 -   Extra large
 
-![](../../assets/images/1aa683040f93-Gt8j2lkXa_bMtgZSvKh8GoC8iRjQ9uYlcHXe5NfvBxmXqxGgUFD9AsR9dubzaZKvUeB0SQieplUmpaqW_3fobMs3Dni6ZG4e.png)
+![Image](<https://lh3.googleusercontent.com/Gt8j2lkXa_bMtgZSvKh8GoC8iRjQ9uYlcHXe5NfvBxmXqxGgUFD9AsR9dubzaZKvUeB0SQieplUmpaqW_3fobMs3Dni6ZG4em6_kssnjKoR2sHQHnw>)
 
 Material Design 3 shapes used in various components as default value
 
@@ -132,7 +132,7 @@ Jetpack Compose and Material 3 provide window size artifacts that can help make 
 
 Window size classes group sizes into standard size buckets, which are breakpoints that are designed to optimize your app for most unique cases.
 
-![](../../assets/images/f2a3f7cb69c0-v8BRFtSQBn-K4TTqtIh5rzjjj6hZSU0bx-2yaZEEMjjswx-IsswH7XIOeOVxfEYibE5GZXEdASkkGTKM86PJ-VE4KhX2B4wH.png)
+![Image](<https://lh3.googleusercontent.com/v8BRFtSQBn-K4TTqtIh5rzjjj6hZSU0bx-2yaZEEMjjswx-IsswH7XIOeOVxfEYibE5GZXEdASkkGTKM86PJ-VE4KhX2B4wHskearQUaOZuJNkKyJVc>)
 
 WindowWidthSize Class for grouping devices in different size buckets
 

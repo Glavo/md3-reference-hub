@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/app-bars"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -28,7 +28,7 @@ assets:
 
 Learn how Material 3 Expressive components adapt to extended reality devices
 
-![XR components](../../../../assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png)
+![XR components](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6grqe5-hero%20image.png?alt=media&token=77848b44-f2d9-4c6e-a51a-d4807d7ea9e4>)
 
 ## App bars
 
@@ -44,13 +44,13 @@ Extended reality (XR) interfaces have special design requirements, like showing 
 
 There is one app bar orbiter. It closely aligns with the small app bar. It can be configured to be center-aligned or left-aligned.
 
-![Center and left-aligned app bar orbiters.](../../../../assets/images/a0ebba1fa85e-mp5ntwab-01-3P.png)
+![Center and left-aligned app bar orbiters.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5ntwab-01-3P.png?alt=media&token=2957c931-0cbd-43e0-9817-180865d9d141>)
 
 _Center-aligned app bar; Left-aligned app bar; /_
 
 ## Anatomy
 
-![Diagrams of app bar orbiters identifying 4 internal elements.](../../../../assets/images/59e939ea92f0-mp5nuh2w-02-3P.png)
+![Diagrams of app bar orbiters identifying 4 internal elements.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5nuh2w-02-3P.png?alt=media&token=c1c9552e-52b3-4d01-bc82-bf895d38f2b8>)
 
 _Container; Headline; Trailing icons; Leading icon; /_
 
@@ -58,13 +58,13 @@ _Container; Headline; Trailing icons; Leading icon; /_
 
 XR uses color to communicate the elevation of UI elements and orbiters. With [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation), the app bar displays above the spatial panel on the Z-axis. Elevated app bars can use any of these color options:
 
-![3 versions of app bar elevation color strategy.](../../../../assets/images/e8aa0cb3decc-mp5nuy7e-03-3P.png)
+![3 versions of app bar elevation color strategy.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5nuy7e-03-3P.png?alt=media&token=386a2df0-b2db-448a-b116-e43036aa6d86>)
 
 _Surface container; Surface container high; Surface container highest_
 
 ## Measurements
 
-![Diagrams with measurements and padding for app bar orbiters.](../../../../assets/images/bcd27dcdc07f-mp5nvfsh-04-3P.png)
+![Diagrams with measurements and padding for app bar orbiters.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5nvfsh-04-3P.png?alt=media&token=b5844799-c20a-4a08-b821-32a0c96b685d>)
 
 _Measurements and padding for app bar orbiters_
 
@@ -118,21 +118,21 @@ In full space, an app bar orbiter can be positioned:
 
 -   Inset 12dp, overlapping spatial panel without obstructing content
 
-![App bar orbiter with offset positioning.](../../../../assets/images/c9bdff6bea91-mowwbs16-09.png)
+![App bar orbiter with offset positioning.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowwbs16-09.png?alt=media&token=3fb5177d-cc1e-4a78-823a-ee721def6c50>)
 
 _An app bar orbiter with a 20dp offset creates visual separation from the spatial panel_
 
-![App bar orbiter with inset positioning that obstructs content..](../../../../assets/images/1e08c6899724-mowwe02f-10.png)
+![App bar orbiter with inset positioning that obstructs content..](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowwe02f-10.png?alt=media&token=8a89faa8-6e01-4e00-93c9-740a22b9eedb>)
 
 _Don’t overlap the app bar orbiter and spatial panel more than 12dp_
 
 ### Horizontal alignment
 
-![An app bar orbiter placed within the bounds of its spatial panel.](../../../../assets/images/68bf136938e3-mowwevxe-11.png)
+![An app bar orbiter placed within the bounds of its spatial panel.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowwevxe-11.png?alt=media&token=bd0e4a8c-d279-4391-bc8e-d3487772377e>)
 
 _Always align the app bar orbiter within the bounds of nearby spatial panels_
 
-![An app bar orbiter that extends beyond the width of its spatial panel.](../../../../assets/images/3ba2ff466f48-mowwgpq6-12.png)
+![An app bar orbiter that extends beyond the width of its spatial panel.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowwgpq6-12.png?alt=media&token=aaa39a97-16d1-468c-8089-2cc25f6a0bab>)
 
 _The app bar orbiter shouldn’t exceed the width of adjacent spatial panels_
 
@@ -150,7 +150,7 @@ An app bar orbiter’s width should adjust to stay in a person’s [field of vie
 
 This makes crucial navigation elements easy to find.
 
-![An app bar orbiter with a width that fits in a person’s field of view.](../../../../assets/images/d7e1ab16bcad-mowy6885-14.png)
+![An app bar orbiter with a width that fits in a person’s field of view.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowy6885-14.png?alt=media&token=f1863e50-7df0-4855-a040-b174905b4dda>)
 
 _Adjust the width of the app bar orbiter to fit in a person’s field of view_
 
@@ -158,7 +158,7 @@ It’s not recommended to increase the width of an app bar orbiter beyond a pers
 
 This creates a visual imbalance and makes it difficult to find navigation elements.
 
-![An app bar orbiter that exceeds the panel’s width and a person’s field of view.](../../../../assets/images/8be47781a17a-mowy73ja-15.png)
+![An app bar orbiter that exceeds the panel’s width and a person’s field of view.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowy73ja-15.png?alt=media&token=099daf73-2edb-44d7-8d32-6bc52a374044>)
 
 _Avoid expanding the app bar orbiter beyond the adjacent panel’s width and a person’s field of view_
 

@@ -2,7 +2,7 @@
 title: "Writing and text"
 source_url: "https://m3.material.io/foundations/writing/text-resizing"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/f0a75e64882a-lwj5gijr-8.png"
@@ -39,11 +39,11 @@ Most components behave the same when text is resized:
 -   Padding remains constant at 1x the default size
 -   Spacing between elements in a component remain constant at 1x the default size
 
-![Padding is the same on the top and bottom edges of the buttons.](../../../assets/images/f0a75e64882a-lwj5gijr-8.png)
+![Padding is the same on the top and bottom edges of the buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5gijr-8.png?alt=media&token=76c97c12-c912-435f-aca9-f06637257b7b>)
 
 _Button text displayed at 1x, 1.3x, and 2x scales. All have top and bottom padding of 8dp._
 
-![Button text displayed at 1x, 1.3x, and 2x scales. All have left and right padding of 24dp.](../../../assets/images/fd6ec3f75433-lwj5gt05-9.png)
+![Button text displayed at 1x, 1.3x, and 2x scales. All have left and right padding of 24dp.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5gt05-9.png?alt=media&token=876f39d6-c14f-4d45-bd7c-d945f82fff12>)
 
 _Left and right padding remains constant at 24dp as the text size increases._
 
@@ -51,21 +51,21 @@ When text resizing isn't controlled by the device OS, offer multipliers such as 
 
 To calculate a font's size using multipliers, take the **default** **font size** (density = 0) and **multiply it by the scale value**.
 
-![Button with label text at 1x and 2x scale.](../../../assets/images/bb903d346058-lwj5h7wy-10.png)
+![Button with label text at 1x and 2x scale.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5h7wy-10.png?alt=media&token=821d0159-4996-4342-a717-15f3a5d3b375>)
 
 _For example, if a font is 14pt at 1x scale, then the font size should be 28pt when enlarged to 2x scale: (14pt) x (scale value 2) = 28._
 
 Components that don't include text, like progress indicators, checkboxes, or radio buttons, aren't affected by text resizing.
 
-![Icon button with the icon shown at 1x scale and incorrectly at 2x scale.](../../../assets/images/5b21f2fb8243-lwj5hl59-11.png)
+![Icon button with the icon shown at 1x scale and incorrectly at 2x scale.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5hl59-11.png?alt=media&token=0d6620aa-6743-4478-b6a8-cec7da279ca7>)
 
 _When designing for text resizing, don't resize components without text_
 
-![Menu with labels at 1x scale.](../../../assets/images/f3c2c69ba38a-lwj5hzv6-12.png)
+![Menu with labels at 1x scale.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5hzv6-12.png?alt=media&token=0fbdf847-88fa-4bb6-86bd-7827ef797454>)
 
 _UI text displayed at 1x_
 
-![Menu with labels at 2x scale.](../../../assets/images/30f043797ab7-lwj5iftq-13.png)
+![Menu with labels at 2x scale.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5iftq-13.png?alt=media&token=8b0674ad-6a2b-40a2-a54f-88e499dd6ae9>)
 
 _UI text displayed at 2x in which only text and line height is enlarged; the padding between components remains the same as in the 1x UI._
 
@@ -81,11 +81,11 @@ Large type is used regularly by people with low vision and those with difficulty
 
 Use these methods to design a product to handle large type properly.
 
-![Menu with labels at 2x scale.](../../../assets/images/faf756ee737e-m4bi7b7k-13-b.png)
+![Menu with labels at 2x scale.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4bi7b7k-13-b.png?alt=media&token=622a927e-dd3e-4ecc-9cb6-2231e702ead5>)
 
 _Text that is too small and dense can appear overwhelming and difficult to read_
 
-![Menu with labels at 1x scale.](../../../assets/images/e565a07a16bc-m4bi7fz7-13-a.png)
+![Menu with labels at 1x scale.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4bi7fz7-13-a.png?alt=media&token=ece17269-405b-472a-9c38-4d087535740d>)
 
 _Larger text can help people focus on one decision at a time and improve understanding_
 
@@ -93,7 +93,7 @@ _Larger text can help people focus on one decision at a time and improve underst
 
 Avoid common text resizing issues by increasing container size, reflowing layout, enabling scrolling, and adding tooltips.
 
-![ Side by side of 4 commonly found issues when resizing text up.](../../../assets/images/cac5dd089de3-lwj5iwyv-14.png)
+![ Side by side of 4 commonly found issues when resizing text up.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5iwyv-14.png?alt=media&token=b794a6a7-fe17-4365-95dd-8c85565c9d17>)
 
 _Unresponsive container; unintentionally clipped text; Unresponsive text; Overlapping elements; Unwanted truncation_
 
@@ -108,7 +108,7 @@ Consider how text might reflow in a way that allows the eye to follow the end of
 
 Consider reflowing the layout, especially when components grow very long. To accommodate larger text, components can be stacked on top of one another, rather than fixed side-by-side.
 
-![ left: buttons placed side-by-side. Right: buttons stacked on top of one another.](../../../assets/images/fc3e7eb07eba-lwj5jdor-15.png)
+![ left: buttons placed side-by-side. Right: buttons stacked on top of one another.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5jdor-15.png?alt=media&token=82a605c0-5cc9-4d32-897e-d07133b39012>)
 
 _UI displayed at 1x: buttons positioned side-by-side in a standard layout; UI displayed at 2x: buttons stacked to fit the limited horizontal width after text is resized_
 
@@ -118,7 +118,7 @@ When long strings of enlarged text don’t fit on one screen, consider adding a 
 
 Vertical scrolling is preferable to horizontal. Users should only be asked to scroll in one direction, rather than both vertically and horizontally.
 
-![Dialog with a lot of text at 2x size. The text is cut off but accessible when scrolling.](../../../assets/images/d761d4c93156-lwj5ldz9-16.png)
+![Dialog with a lot of text at 2x size. The text is cut off but accessible when scrolling.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5ldz9-16.png?alt=media&token=164a658d-4e2a-4d67-a35c-c4cb051f3389>)
 
 _Some screens may not be able to resize and display necessary content. In this situation a scrollbar can be used to access more text._
 
@@ -135,6 +135,6 @@ Tooltips are the best choice for displaying enlarged text in:  
 -   Navigation rail
 -   Tabs, when fixed to the top of a screen and don’t move off-screen upon scrolling
 
-![Tooltip on navigation rail displays scaled up label text.](../../../assets/images/5be112ee0e01-lwj5lr50-17.png)
+![Tooltip on navigation rail displays scaled up label text.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwj5lr50-17.png?alt=media&token=c1272c3a-bf9b-473d-a942-4bb2c3221ffd>)
 
 _Scale up text in an adjacent tooltip to maintain space in a UI for consuming content._

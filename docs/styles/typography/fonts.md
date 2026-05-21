@@ -2,7 +2,7 @@
 title: "Typography"
 source_url: "https://m3.material.io/styles/typography/fonts"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/5dd14609290f-mac6ta60-1.png"
@@ -29,7 +29,7 @@ Static fonts like [Roboto](https://fonts.google.com/specimen/Roboto) are current
 
 Roboto includes over 3,300 glyphs for representing hundreds of languages around the world.
 
-![A type specimen of Roboto.](../../../assets/images/5dd14609290f-mac6ta60-1.png)
+![A type specimen of Roboto.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmac6ta60-1.png?alt=media&token=22279a66-9af0-4f58-b1dc-fa0226060f88>)
 
 _Roboto is the default typeface in Android and Material 3_
 
@@ -39,7 +39,7 @@ _Roboto is the default typeface in Android and Material 3_
 
 [Roboto Flex is available](https://fonts.google.com/specimen/Roboto+Flex) as a standalone font.
 
-![A type specimen of Roboto Flex.](../../../assets/images/975a47ff622c-mac6xqph-2.png)
+![A type specimen of Roboto Flex.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmac6xqph-2.png?alt=media&token=725b3d28-c1ba-432f-8e27-f9fb43eb203a>)
 
 _Roboto Flex includes the styles of Roboto plus many more weights and widths optimized for larger and smaller sizes_
 
@@ -47,7 +47,7 @@ _Roboto Flex includes the styles of Roboto plus many more weights and widths opt
 
 [Roboto Serif](https://fonts.google.com/specimen/Roboto+Serif) is another variable font family, designed to create a comfortable reading experience. Minimal and highly functional, it can be used anywhere (even in app interfaces) due to its extensive set of weights and widths across a broad range of sizes.
 
-![A type specimen of Roboto Serif.](../../../assets/images/007e39902aac-mac73g8d-3.png)
+![A type specimen of Roboto Serif.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmac73g8d-3.png?alt=media&token=2aa33950-324d-4836-90e4-1f55ca0d01d2>)
 
 _Roboto Serif offers a functional set of weights and widths_
 
@@ -57,7 +57,7 @@ _Roboto Serif offers a functional set of weights and widths_
 
 Monospaced fonts are easier to scan vertically, so are particularly useful for code and keeping numbers aligned. [Learn more about monospaced numbers](applying-type.md#f0f79df7-3174-4012-871e-93ce9a89d08b)
 
-![A type specimen of Roboto Mono.](../../../assets/images/9c4ddb113a2c-maca32t3-4.png)
+![A type specimen of Roboto Mono.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaca32t3-4.png?alt=media&token=4e19a983-a787-4f06-8368-65112f03d582>)
 
 _Equal sizing for each character keeps uniformity of spacing_
 
@@ -69,7 +69,7 @@ Each Noto Sans family is compatible with Roboto and Noto Sans supports more than
 
 [Learn more about typography language considerations](https://m2.material.io/design/typography/language-support.html#language-considerations)
 
-![A type specimen of several Noto Sans fonts.](../../../assets/images/e09dc60bbcb6-maca7fj8-5.png)
+![A type specimen of several Noto Sans fonts.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmaca7fj8-5.png?alt=media&token=93b0a97a-e4d5-4a00-9ef0-808628b7688e>)
 
 _Several Noto Sans fonts for different writing systems_
 
@@ -91,6 +91,6 @@ For example, products using the variable font Roboto Flex should apply font fall
 
 This ensures that text will have a consistent visual style regardless of font support. Designers should connect with their product and engineering partners to confirm that font fallback is available.
 
-![Text examples from Roboto Flex, Roboto, and Noto Sans all show similar styling.](../../../assets/images/8733eade9500-macamced-6.png)
+![Text examples from Roboto Flex, Roboto, and Noto Sans all show similar styling.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacamced-6.png?alt=media&token=0b67278d-ff95-4b5a-adb4-6deee8db786e>)
 
 _Font branding is preserved when moving from Roboto Flex to Roboto to Noto Sans Japanese_

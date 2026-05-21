@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/086afdbd42f5-lwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4"
@@ -46,7 +46,7 @@ Material recommends adding a **Show all** button below the carousel, which opens
 
 [Open video](../../../assets/videos/086afdbd42f5-lwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4)
 
-![Measurements of a "show all" button added below a carousel.](../../../assets/images/358047e3362a-lwut0q8v-2.png)
+![Measurements of a "show all" button added below a carousel.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwut0q8v-2.png?alt=media&token=fd99e7b1-4959-4151-a530-a820e6a115f6>)
 
 _The Show all button should have a padding of 4dp_
 
@@ -58,7 +58,7 @@ Make sure the header is also displayed on the page of all carousel items.
 
 [Open video](../../../assets/videos/d99f32007f36-lwutykt0-GM3-Components-Carousel-Accesibility-2-v01.mp4)
 
-![Measurements of an arrow icon button added next to a carousel header.](../../../assets/images/a08f5ca56ab5-lwut172a-4.png)
+![Measurements of an arrow icon button added next to a carousel header.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwut172a-4.png?alt=media&token=79318ca5-9f6e-4973-ba50-09469633894b>)
 
 _Headers should align with the leading edge, and the arrow icon should have a size of 48dp_
 
@@ -66,11 +66,11 @@ Avoid customizing the accessibility solution when possible. However, if your pro
 
 Avoid adding UI elements, like arrows or other icons, within or beside the carousel.
 
-![Arrow icons on the left and right of the carousel, reducing container width.](../../../assets/images/c5e200aaf9f2-lwykx1vc-5a-don't.png)
+![Arrow icons on the left and right of the carousel, reducing container width.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykx1vc-5a-don't.png?alt=media&token=88d824af-cca5-4743-a7f4-5dc1776d152e>)
 
 _Avoid adding buttons into the carousel container or beside it. Place any buttons above or below the carousel._
 
-![Arrow icons floating on top of the carousel edge, concealing items.](../../../assets/images/2e62ba3e4927-lwykxhsn-5b-don't.png)
+![Arrow icons floating on top of the carousel edge, concealing items.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwykxhsn-5b-don't.png?alt=media&token=7253d6f2-ad26-4cd6-854c-e5b47725c499>)
 
 _Don't cover the carousel with buttons or other UI_
 
@@ -100,11 +100,11 @@ When navigating to a carousel using assistive technology, use **Tab** to place i
 
 Use the up and down arrow keys to leave the carousel and focus on the next element on the page, like the **Show all** button.
 
-![Diagram of how to navigate a carousel using assistive technology.](../../../assets/images/744e4a9710ae-lwut9phs-8.png)
+![Diagram of how to navigate a carousel using assistive technology.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwut9phs-8.png?alt=media&token=b672b540-9326-4e15-9ce3-3696370d6a10>)
 
 _Set initial focus on the first carousel item, and use arrows to navigate items_
 
-![Diagram of how not to navigate a carousel using assistive technology.](../../../assets/images/7a3cdf48f6c0-lwuta5uo-9.png)
+![Diagram of how not to navigate a carousel using assistive technology.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuta5uo-9.png?alt=media&token=4e12e7df-cf8a-4535-9dea-182a8767f066>)
 
 _Avoid focusing on the carousel container_
 
@@ -119,13 +119,13 @@ _Avoid focusing on the carousel container_
 
 The carousel container has the **container** role.
 
-![Accessibility labels of a carousel.](../../../assets/images/5a12b971faaa-lwutav24-10.png)
+![Accessibility labels of a carousel.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutav24-10.png?alt=media&token=cdceb9da-aa24-499f-a5ad-e9d8a028493f>)
 
 _The carousel container is labelled appropriately and has the container role_
 
 Each carousel may have a different number of items, so the label reads out the total amount of items and the current item in focus.
 
-![Accessibility labels of a carousel item.](../../../assets/images/fa5afdd0ecf2-lwutbdy7-11.png)
+![Accessibility labels of a carousel item.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwutbdy7-11.png?alt=media&token=d28c067c-4591-44c8-93a0-ccb5adc4c497>)
 
 _The carousel item label indicates the current item in focus and the total number of items_
 

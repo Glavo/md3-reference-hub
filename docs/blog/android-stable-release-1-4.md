@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.4.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-4"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/037d789cfa7d-iT2cU1VgnPw3KhRpDdRPCMvy86s4AR-SQxUORT_bCxmGF5UoZG_hezxrAYbEG4If_4VKM75Bo6sEVmyKQatN-b1CBaAyceoP.png"
@@ -14,7 +14,7 @@ assets:
 
 NavigationRailView, motion theming, and more
 
-![Image](../../assets/images/037d789cfa7d-iT2cU1VgnPw3KhRpDdRPCMvy86s4AR-SQxUORT_bCxmGF5UoZG_hezxrAYbEG4If_4VKM75Bo6sEVmyKQatN-b1CBaAyceoP.png)
+![Image](<https://lh3.googleusercontent.com/iT2cU1VgnPw3KhRpDdRPCMvy86s4AR-SQxUORT_bCxmGF5UoZG_hezxrAYbEG4If_4VKM75Bo6sEVmyKQatN-b1CBaAyceoP20WJNSfaId21yi4qWQ>)
 
 Published: 2021-07-07T13:00:00
 
@@ -26,7 +26,7 @@ Make sure to check out the [release notes](https://github.com/material-component
 
 A fair bit has changed since `1.3.0` launched in February – we added the navigation rail component, added support for motion theming, and more. The things you loved from the alpha, beta, and RC releases of `1.4.0` are now officially stable. If you haven’t yet started using `1.4.0` of MDC, there’s never been a better time to update.
 
-![closeup example of a navigation rail](../../assets/images/e3a686415ef8-5VzYIwV_8ou2j22qFy-9Oftt5qTt4EcR3pPK25bSBNlI7wx7CYzsDxzliGOyWWk6ClDr7nQ4yrXdGNHw7EnMaE2fbnSWR4YS.png)
+![closeup example of a navigation rail](<https://lh3.googleusercontent.com/5VzYIwV_8ou2j22qFy-9Oftt5qTt4EcR3pPK25bSBNlI7wx7CYzsDxzliGOyWWk6ClDr7nQ4yrXdGNHw7EnMaE2fbnSWR4YSAkuTG2MPyIwRx1B83M0>)
 
 #### NavigationRailView
 

@@ -2,7 +2,7 @@
 title: "Building a Material Theme on Android: Typography"
 source_url: "https://m3.material.io/blog/android-material-theme-type"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/93bc901d9394-QYmMEVMQnST3qpYC1r5OEFSdyvZDQHI-RawscL-YRf1eJaNkJeGoImxSfb1jmIIcHEjrv96pq-HOsUIf7EkKuT6yJMwegbDu.png"
@@ -20,13 +20,13 @@ assets:
 
 Type theming on Android using the MDC library
 
-![Image](../../assets/images/93bc901d9394-QYmMEVMQnST3qpYC1r5OEFSdyvZDQHI-RawscL-YRf1eJaNkJeGoImxSfb1jmIIcHEjrv96pq-HOsUIf7EkKuT6yJMwegbDu.png)
+![Image](<https://lh3.googleusercontent.com/QYmMEVMQnST3qpYC1r5OEFSdyvZDQHI-RawscL-YRf1eJaNkJeGoImxSfb1jmIIcHEjrv96pq-HOsUIf7EkKuT6yJMwegbDuzHk1sw>)
 
 Published: 2020-09-01T13:05:00
 
 [Material Theming](https://material.io/design/material-theming/overview.html#material-theming) is a way to customize [Material Components](https://material.io/components) to align with your brand. A Material theme includes [color](https://material.io/design/color/), [typography](https://material.io/design/typography/) and [shape](https://material.io/design/shape/) parameters which you can adjust to get near-infinite variations of the components – all while maintaining their core anatomy and usability.
 
-![Material button transforming from baseline style to show off different options for color, shape, typography, and label](../../assets/images/7d7229222698-U91QcPXwd4vZy5mqgfKRmrq0glL82XeN-xPOqUzo_kbALtFkQpGoqh8eWUwNx3Injktu5M9NwBQwSOICAmGRthgvD7s0oeky.png)
+![Material button transforming from baseline style to show off different options for color, shape, typography, and label](<https://lh3.googleusercontent.com/U91QcPXwd4vZy5mqgfKRmrq0glL82XeN-xPOqUzo_kbALtFkQpGoqh8eWUwNx3Injktu5M9NwBQwSOICAmGRthgvD7s0oeky9CniMQ>)
 
 On Android, Material Theming can be implemented using the [Material Components (MDC) library](https://github.com/material-components/material-components-android), from version `1.0.0` onwards. If you’re looking to migrate from the Design Support Library or MDC `1.0.0`, take a look at [our migration guide](https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351).
 
@@ -36,13 +36,13 @@ This article will be focusing on **type** theming.
 
 Material Design provides 13 type “styles” that are applied to all the text in your app. Each of these have a design term (eg. “Body 1”) along with a corresponding type attribute that can be overridden in your app theme (eg. `textAppearanceBody1`). There are default “baseline” values (text size, letter spacing, capitalization, etc.) for each style.
 
-![MDC type attributes with examples from different text sizes](../../assets/images/0affc33bef6d-rnDV8xpr0i6fN_tEZTR-mrZij-SYvqglfBhyrsyjgbfs5VZmxkf0LM1CGH6dUSZ_ecmMHYSp8Wp5A-YnVgoa3kLhS3kKvUcS.png)
+![MDC type attributes with examples from different text sizes](<https://lh3.googleusercontent.com/rnDV8xpr0i6fN_tEZTR-mrZij-SYvqglfBhyrsyjgbfs5VZmxkf0LM1CGH6dUSZ_ecmMHYSp8Wp5A-YnVgoa3kLhS3kKvUcSbInN>)
 
 MDC type attributes with baseline styling
 
 Material Components use these type attributes to style textual elements of the widgets (those parts that subclass or comprise one or more `TextView`s).
 
-![Button color attributes: ?attr/colorOnPrimary for + icon and button text, ?attr/textAppearanceButton for button text, ?attr/shapeAppearanceSmallComponent for button shape, ?attr/colorPrimary for background color](../../assets/images/50f296a1d24e-9kGrGMUJPNYUO8H0bYGNE64YuP_GQSKBCV7bcjq8EfWjLhrGoY3-CeeGU-JNKpEOLG2tZOS4b0BDiAUMB9M0e2zPhZo9SGq8.png)
+![Button color attributes: ?attr/colorOnPrimary for + icon and button text, ?attr/textAppearanceButton for button text, ?attr/shapeAppearanceSmallComponent for button shape, ?attr/colorPrimary for background color](<https://lh3.googleusercontent.com/9kGrGMUJPNYUO8H0bYGNE64YuP_GQSKBCV7bcjq8EfWjLhrGoY3-CeeGU-JNKpEOLG2tZOS4b0BDiAUMB9M0e2zPhZo9SGq8wxs72w>)
 
 Type attributes used by a button
 
@@ -69,7 +69,7 @@ Figuring out which type styles to use and the values within them may be the resp
 
 Material Design provides a useful tool for previewing type scales, integrating with [Google Fonts](https://fonts.google.com/) and exporting code. See "Type scale generator" in the [Material Design type scale guidelines](https://material.io/design/typography/the-type-system.html#type-scale).
 
-![](../../assets/images/69e6b44be279-jZcVyxHpKXR6YpDok5dfjDmUDKr9PCq5eWoCQTXL6NpLbW7oXTJflgQHukq-e9Gt9dTEhjVX8pKbkQ4Fi22kGMxGFdlQ3Qru.png)
+![Image](<https://lh3.googleusercontent.com/jZcVyxHpKXR6YpDok5dfjDmUDKr9PCq5eWoCQTXL6NpLbW7oXTJflgQHukq-e9Gt9dTEhjVX8pKbkQ4Fi22kGMxGFdlQ3Qrusk6v4zo>)
 
 Google Fonts (left) and Type scale generator (right)
 
@@ -117,7 +117,7 @@ You can use `lineHeight` in various scenarios:
 -   Included as an item in widget styles with parent `Widget.MaterialComponents.TextView` (applied with `style=”...”`)
 -   Applied directly to `&lt;Texview&gt;`s in layouts
 
-![](../../assets/images/9a085a7986b2-XEbUmo28RCg7uD9xGXDBfRhYmnLmuXsr3JOhaNnFM2D3aAWSWgZhxiwWyZk7OGGKP16_QHes75C7v5jm4j29nh2AgMaSfPf6.png)
+![Image](<https://lh3.googleusercontent.com/XEbUmo28RCg7uD9xGXDBfRhYmnLmuXsr3JOhaNnFM2D3aAWSWgZhxiwWyZk7OGGKP16_QHes75C7v5jm4j29nh2AgMaSfPf6zRwI>)
 
 Different lineHeight values
 
@@ -140,7 +140,7 @@ Once set up, override the type attributes you wish to change in your base theme:
 
 Material Components will respond to theme-level type overrides:
 
-![UI components changing from baseline typography to fontFamily=roboto\_mono and textAppearanceButton. textAllCaps=false.](../../assets/images/30f6739e3e3b-gVJklJ4z31ZhHhSoM2v4Ygzn9UZ1U3HPagBbdc1qMqV5XFI06PGjWsFoliXLFHS-3pPffwIT1utpJx0BglyjnAKfoizzO4q4.png)
+![UI components changing from baseline typography to fontFamily=roboto_mono and textAppearanceButton. textAllCaps=false.](<https://lh3.googleusercontent.com/gVJklJ4z31ZhHhSoM2v4Ygzn9UZ1U3HPagBbdc1qMqV5XFI06PGjWsFoliXLFHS-3pPffwIT1utpJx0BglyjnAKfoizzO4q4yJ517A>)
 
 Material Design components responding to theme-level type overrides
 
@@ -152,7 +152,7 @@ Earlier we said that MDC widgets respond to overrides of theme level type attrib
 
 The MDC developer docs have recently been refreshed. As part of this we’ve included attribute tables which include design terminology and default values used in the library. For example, check out the “Anatomy and key properties” sections of the updated [buttons doc](https://material.io/develop/android/components/buttons/#contained-button).
 
-![](../../assets/images/b08238741194-vnGxmsUU83cC-oODzqEnx0zUmYUyJGugivWuMRZ-qrrtBZJB9jzc687Ghgj4Jdqzj0M4P-7KbDZ0Uq-_uikZ4x5H1jJXD569.png)
+![Image](<https://lh3.googleusercontent.com/vnGxmsUU83cC-oODzqEnx0zUmYUyJGugivWuMRZ-qrrtBZJB9jzc687Ghgj4Jdqzj0M4P-7KbDZ0Uq-_uikZ4x5H1jJXD569PfCm>)
 
 MDC button dev doc attribute table with default type values
 
@@ -160,7 +160,7 @@ MDC button dev doc attribute table with default type values
 
 Inspecting the MDC source code is arguably the most reliable approach. MDC uses default styles to achieve Material Theming so it’s a good idea to look at these as well as any styleable attrs and the java file(s). For example, check out the [styles](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/res/values/styles.xml), [attrs](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/res/values/attrs.xml) and [java file](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/MaterialButton.java) for `MaterialButton`.
 
-![](../../assets/images/35bb501e2779-6f8oySsomvC-CdaCeRzHUleoflDzBWmcQEpUHHoDemEPu94bJV6TTCTzqKX4jecgt1hZOpbS2IEldm8kGemc8lL5ifTA3wdC.png)
+![Image](<https://lh3.googleusercontent.com/6f8oySsomvC-CdaCeRzHUleoflDzBWmcQEpUHHoDemEPu94bJV6TTCTzqKX4jecgt1hZOpbS2IEldm8kGemc8lL5ifTA3wdC0R2eqw>)
 
 MDC button default style with type values
 

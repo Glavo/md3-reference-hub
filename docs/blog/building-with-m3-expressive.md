@@ -2,7 +2,7 @@
 title: "Start building with Material 3 Expressive"
 source_url: "https://m3.material.io/blog/building-with-m3-expressive"
 lastmod: "2026-05-07"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/0c5716c7fe97-1U71piLcGDg-O2CUVDHaShSo-igfXvZzsdu4e_u_Tt8VuAAPPAJFzcMEGE8bTfu20-BVvVS9v2kDSZ9BcDc672z8IVmjsCAp.png"
@@ -27,7 +27,7 @@ assets:
 
 Material’s latest evolution helps you make products even more engaging and easier to use.
 
-![Vibrant purple and coral-toned smartphone apps using M3 Expressive tactics and components.](../../assets/images/0c5716c7fe97-1U71piLcGDg-O2CUVDHaShSo-igfXvZzsdu4e_u_Tt8VuAAPPAJFzcMEGE8bTfu20-BVvVS9v2kDSZ9BcDc672z8IVmjsCAp.png)
+![Vibrant purple and coral-toned smartphone apps using M3 Expressive tactics and components.](<https://lh3.googleusercontent.com/1U71piLcGDg-O2CUVDHaShSo-igfXvZzsdu4e_u_Tt8VuAAPPAJFzcMEGE8bTfu20-BVvVS9v2kDSZ9BcDc672z8IVmjsCApRA6gT1e8dpMoYx5BFQ>)
 
 Published: 2025-05-13T08:00:00
 
@@ -113,7 +113,7 @@ Emphasized typography reinforces the information hierarchy and draws attention t
 
 [Learn more about typography](../styles/typography/overview.md)
 
-![Expressive typography scale showing off a range of possible fonts and type sizes.](../../assets/images/c6b0cf1eb9fb-mGvXwTcCDsK6bML-VVRMaYZt8d5EWzdsc3S2hPw1H8Wx17d3e7Fj5xSQt8Vy-zTvLlKAus2bXpWEKGnTa5SrMBaVVFf1d55S.png)
+![Expressive typography scale showing off a range of possible fonts and type sizes.](<https://lh3.googleusercontent.com/mGvXwTcCDsK6bML-VVRMaYZt8d5EWzdsc3S2hPw1H8Wx17d3e7Fj5xSQt8Vy-zTvLlKAus2bXpWEKGnTa5SrMBaVVFf1d55SjtbDb8ZWpwtHkk_N9Yc>)
 
 The updated type scale includes new emphasized text styles.
 
@@ -127,7 +127,7 @@ A built-in shape-morph animation allows smooth transitions from one shape to ano
 
 [Learn more about shape](https://m3.material.io/styles/shape/overview?utm_source=blog&utm_medium=referral&utm_campaign=IO25)
 
-![35 M3 Expressive shapes and an example Fitbit screen showing unique use of shape in step tracking.](../../assets/images/b01a174ac905-eMG3oraWd133ungUVBdHDfRQVh27Mc8cOP-OYfw9nI4NGef1theSl9VtfFdkeQ0x60TgNjoHwJS2fbuyA74uWp2w3rYGyB1A.png)
+![35 M3 Expressive shapes and an example Fitbit screen showing unique use of shape in step tracking.](<https://lh3.googleusercontent.com/eMG3oraWd133ungUVBdHDfRQVh27Mc8cOP-OYfw9nI4NGef1theSl9VtfFdkeQ0x60TgNjoHwJS2fbuyA74uWp2w3rYGyB1A4pOzkaqSPanGVhgFBr4>)
 
 The shape library has 35 iconic shapes, which can be used to add visual interest to decorative elements.
 
@@ -137,7 +137,7 @@ An expanded range of colors can be used to sharpen hierarchy and clarify key act
 
 [Learn more about color](../styles/color/system/overview.md)
 
-![Rows of expressive screens from a speculative messaging app, showing off the range of possible color themes.](../../assets/images/c3713ef57419-F5LpjxMLtpCms-KfHoKG8oq6x5QnlcXp3HdBHOIu2x3wj-EwqbhkTomoZbdV0b9tr-lOisa2OmMgWyCrtG2Hnrh2MvoKuEMM.png)
+![Rows of expressive screens from a speculative messaging app, showing off the range of possible color themes.](<https://lh3.googleusercontent.com/F5LpjxMLtpCms-KfHoKG8oq6x5QnlcXp3HdBHOIu2x3wj-EwqbhkTomoZbdV0b9tr-lOisa2OmMgWyCrtG2Hnrh2MvoKuEMMSjDsw01bEk64wfnLujzA>)
 
 The expressive color system can create a wide range of accessible palettes.
 
@@ -151,11 +151,11 @@ As Google products started using the new expressive features, we quickly establi
 
 Shape can be a powerful communication tool in your interface. At the base level of visual design, the shapes of components, containers, and content set the tone for a user at first glance. Combining shapes and corner radii can create visual tension or cohesion and direct users’ focus in your app. Use a combination of classic and abstract shapes to create unique silhouettes or groupings.  Use the shape library and the new corner-radii options to mix round and square shapes for tension and visual contrast.
 
-![Media casting screen with small sound buttons.](../../assets/images/90cfcf0320ec-lVu5go_Yym2iT67bz6NclbvF2_U-mY2LkGen73QQGyo9YcJvl91qLrtrUO2Ud2ZIIct_OmyksJZ2pmtDupg6AzQvuWqOYRyd.png)
+![Media casting screen with small sound buttons.](<https://lh3.googleusercontent.com/lVu5go_Yym2iT67bz6NclbvF2_U-mY2LkGen73QQGyo9YcJvl91qLrtrUO2Ud2ZIIct_OmyksJZ2pmtDupg6AzQvuWqOYRydeGyLNCpgX9-jZ2QaOw>)
 
 Smaller shapes can result in essential actions looking less important.
 
-![Media casting screen with stronger button hierarchy including large sound buttons.](../../assets/images/101f6488f796-ZMMuBvnGukfjjV98zYVYbiGKVvQmpAQs8e_bXK9vj5pcJfCCV-oNDsUOsJ6qwAcgXAcVFLYxIjfQn8T8HAiT_UQxmUwW_dEI.png)
+![Media casting screen with stronger button hierarchy including large sound buttons.](<https://lh3.googleusercontent.com/ZMMuBvnGukfjjV98zYVYbiGKVvQmpAQs8e_bXK9vj5pcJfCCV-oNDsUOsJ6qwAcgXAcVFLYxIjfQn8T8HAiT_UQxmUwW_dEIE8YtK2k0-sMnEW3quQ>)
 
 Break from the surrounding shape style to draw attention to a particular element.
 
@@ -163,11 +163,11 @@ Break from the surrounding shape style to draw attention to a particular element
 
 Material’s dynamic color system already offers a range of colors for primary, secondary, and tertiary elements and surfaces. Mixing these colors for key components or visual elements can help emphasize the main takeaway of a screen. Create visual hierarchy with surface tones. Use contrast between primary, secondary, and tertiary color roles to prioritize actions and simplify navigation.
 
-![Video editing screen with gray elements.](../../assets/images/3521aaf46212-w-uA0gQOqLXlUUsL7gvqFxBvdqYU3pBW6GECtvM7pQF8SNNcoz6Zq4hSrr5XWZ0lorlJ_Vucu0GHN-UCzI0YmWTQktrgE5r8.png)
+![Video editing screen with gray elements.](<https://lh3.googleusercontent.com/w-uA0gQOqLXlUUsL7gvqFxBvdqYU3pBW6GECtvM7pQF8SNNcoz6Zq4hSrr5XWZ0lorlJ_Vucu0GHN-UCzI0YmWTQktrgE5r8F-spazyNPiJDgTkvnATf>)
 
 Without contrast, elements can blend together.
 
-![Video editing screen with pink Play button and purple selected clip.](../../assets/images/315949ca4bca-qsr1YvcVNG8ZPQz_pEYvzgkoo7PjoE6c5usJWy4PV363-X0YEf_TCKMX06vsHZbZsU81rcrwOgjQbsUrm-QE5t9602Jq3gVr.png)
+![Video editing screen with pink Play button and purple selected clip.](<https://lh3.googleusercontent.com/qsr1YvcVNG8ZPQz_pEYvzgkoo7PjoE6c5usJWy4PV363-X0YEf_TCKMX06vsHZbZsU81rcrwOgjQbsUrm-QE5t9602Jq3gVrCwh4L7oJX1z6WJ9B6A>)
 
 Use contrast to emphasize the main takeaway or element.
 
@@ -175,7 +175,7 @@ Use contrast to emphasize the main takeaway or element.
 
 Use emphasized text styles to draw attention to important UI elements, like headlines and actions. Create editorial-like moments in your app by emphasizing typography. Heavier weights, larger sizes, color, and spacing can direct attention and make key information more engaging. Using additional type styles from the Material type scale can help create appropriate hierarchy within and between blocks of content.
 
-![3 expressive app screens showing the use of custom typography styles – one with a rounded variable font for an album title.](../../assets/images/e4f457f346a8-B4hgs-2YHv1TDxMu3VSGcx9YMs1CUcl1xHjjJa6AQnwboSfZsbBm04YT2Lb28aEljpngg9bufiSpchbFC6Zyfwf-XoayLny3.png)
+![3 expressive app screens showing the use of custom typography styles – one with a rounded variable font for an album title.](<https://lh3.googleusercontent.com/B4hgs-2YHv1TDxMu3VSGcx9YMs1CUcl1xHjjJa6AQnwboSfZsbBm04YT2Lb28aEljpngg9bufiSpchbFC6Zyfwf-XoayLny332npYU37H0uGJbuKBQ8>)
 
 Expressive typography can enhance hierarchy and add personality.
 
@@ -185,11 +185,11 @@ image\>
 
 Organize content into logical groupings or containers. Give the most important content, tasks, or actions visual prominence through ample space and the brightest surface mapping. Consider using size, spacing, rhythm, similarity, or other grouping principles to make important elements more distinct.
 
-![Payments screen with ungrouped list.](../../assets/images/92ee9f2e3f58-CJJmyj3wgDQyuc2oaLgALoJIPS9LlYTLSO2bauR0BtawJ-1RdCFleP_xworvtJ3IfZ8ApbOzJoFE_fMoENyNxGoeWEqOAFjT.png)
+![Payments screen with ungrouped list.](<https://lh3.googleusercontent.com/CJJmyj3wgDQyuc2oaLgALoJIPS9LlYTLSO2bauR0BtawJ-1RdCFleP_xworvtJ3IfZ8ApbOzJoFE_fMoENyNxGoeWEqOAFjTL3-4CWbckotLZvDY3A>)
 
 Ungrouped information can blend together.
 
-![Payments screen with a list grouped through background colors and containers.](../../assets/images/a890876f39d4-RQeA0hmPo7MidA-dIPf3izT_a5Xpx-LgeSfTwXPgyefF-z5PnpnA29WfARcznPxGSXRvaWUrUXeJkoV8Bw4SNd5oO4KNnW31.png)
+![Payments screen with a list grouped through background colors and containers.](<https://lh3.googleusercontent.com/RQeA0hmPo7MidA-dIPf3izT_a5Xpx-LgeSfTwXPgyefF-z5PnpnA29WfARcznPxGSXRvaWUrUXeJkoV8Bw4SNd5oO4KNnW31e3JHmrsnpb89YQoFwQ>)
 
 Group similar content into informative groupings.
 
@@ -203,7 +203,7 @@ Make interactions feel alive and spirited through shape morph or surface effects
 
 UI should adapt to the user context. Shift components or controls depending on the environment to make completing tasks easier. Adapt content to foldable and large screens through custom tweaks or by applying canonical layouts.
 
-![Range of expressive button groups of different heights and widths.](../../assets/images/f84c46919f57-qbZ73Y1ClbkIyLxhlByqoSbbpoTOs9zR29q4HofXwbIVXjptkHK0pj9VNEgLkm7rdgcbSAAFnIsLaNZBO2Cu_oYUxJYLGIrw.png)
+![Range of expressive button groups of different heights and widths.](<https://lh3.googleusercontent.com/qbZ73Y1ClbkIyLxhlByqoSbbpoTOs9zR29q4HofXwbIVXjptkHK0pj9VNEgLkm7rdgcbSAAFnIsLaNZBO2Cu_oYUxJYLGIrwySq0b0PDY7GMOrzF4w>)
 
 Expressive app bars, toolbars, and buttons.
 

@@ -2,7 +2,7 @@
 title: "The Story of Shantell Sans"
 source_url: "https://m3.material.io/blog/shantell-martin-variable-font"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/ce4b67d73e4b-cHy28WI3xTJQV6u7NoWoQzy2tto013E18vi_tXj24nkclyQ_OaJZh9VUmSg1EhZvwj5PKP1cEtCzSc_J39uMM7mu7Yan-LEA.png"
@@ -30,7 +30,7 @@ assets:
 
 How an artist created a typeface in Latin and Cyrillic
 
-!["Shantell Sans, a font for you" written on an illustration by Shantell Martin](../../assets/images/ce4b67d73e4b-cHy28WI3xTJQV6u7NoWoQzy2tto013E18vi_tXj24nkclyQ_OaJZh9VUmSg1EhZvwj5PKP1cEtCzSc_J39uMM7mu7Yan-LEA.png)
+!["Shantell Sans, a font for you" written on an illustration by Shantell Martin](<https://lh3.googleusercontent.com/cHy28WI3xTJQV6u7NoWoQzy2tto013E18vi_tXj24nkclyQ_OaJZh9VUmSg1EhZvwj5PKP1cEtCzSc_J39uMM7mu7Yan-LEA3dvcNT-IGO7MVPOvkA>)
 
 Published: 2023-03-07T13:00:00
 
@@ -46,7 +46,7 @@ Shantell Martin, Stephen Nixon, and Anya Danilova share their experiences of the
 
 **Shantell Martin, Artist**
 
-![Woman holding a marker with a large drawing behind her](../../assets/images/2a3ad8b744f5-DE6cZaNJl9qD_zaYxZyP4ZeVkompMoBvlS87qDyX0iOOa-7Gpegq3RfKDHAvTfac0YcOuWWumyQQvqskWtgmsCoyNQizs8qt.png)
+![Woman holding a marker with a large drawing behind her](<https://lh3.googleusercontent.com/DE6cZaNJl9qD_zaYxZyP4ZeVkompMoBvlS87qDyX0iOOa-7Gpegq3RfKDHAvTfac0YcOuWWumyQQvqskWtgmsCoyNQizs8qtLFb9ya8qNLtYfEYwc9I>)
 
 Shantell Martin, Photo credit Michelle Mosqueda
 
@@ -78,7 +78,7 @@ I would really love to see children and young adults use Shantell Sans and learn
 
 I have started to use Shantell Sans in some of my projects. I designed key tags with Shantell Sans type for the [Whitney Museum shop](https://shantellmartin.art/work/x-whitney-museum-shop/) in New York City. I also did a project with Cash App, a financial services platform, to create a cash card. The cash tag and the numbers and everything on the back of the card is in Shantell Sans.
 
-![Five gray and black key tags with words and drawings](../../assets/images/e217b0cc63de-4dGL9xumQClNaXcG_754BQwZbF4xqJX4DPDj6HBzy3aigw1eCN6jQHv0Iwd8xJyCEYbVDnjCYXJFp70IY7qPqK9jHy5ykaxM.png)
+![Five gray and black key tags with words and drawings](<https://lh3.googleusercontent.com/4dGL9xumQClNaXcG_754BQwZbF4xqJX4DPDj6HBzy3aigw1eCN6jQHv0Iwd8xJyCEYbVDnjCYXJFp70IY7qPqK9jHy5ykaxMcv7J6V_JIuWnc5918cc>)
 
 Key tags for the Whitney Shop, by Various Keytags, featuring artwork by Shantell Martin and text in Shantell Sans
 
@@ -106,7 +106,7 @@ For it to be easy to use, Shantell Sans had to have the proportions and styles o
 
 Shantell Sans matches the general average for proportions and [weights](https://fonts.google.com/knowledge/glossary/weight) of most modern, common [sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif) fonts. This familiarity helps make it easy for designers to use in a wide variety of projects.
 
-![Two columns of six lines of text in Shantell Sans and Roboto](../../assets/images/3a5d29446c85-CPRxGsUQX5itBOIuhbFg07lYtd0imkfxVLY3yX67DpUdFD9S47kiN-7fdaDP-xzYOshpXY1e9lCUqjousSpXW1Dzcm6XMfhI.png)
+![Two columns of six lines of text in Shantell Sans and Roboto](<https://lh3.googleusercontent.com/CPRxGsUQX5itBOIuhbFg07lYtd0imkfxVLY3yX67DpUdFD9S47kiN-7fdaDP-xzYOshpXY1e9lCUqjousSpXW1Dzcm6XMfhI0_DtzLr1oS6oN-oXHA>)
 
 (1) Shantell Sans and (2) Roboto share similar overall proportions
 
@@ -114,7 +114,7 @@ Shantell Sans matches the general average for proportions and [weights](https://
 
 The [spacing](https://fonts.google.com/knowledge/glossary/spaces) had to work well for small text. The letters are a little wider than an average font, and the spacing between them isn’t too tight. Also, the [kerning](https://fonts.google.com/knowledge/glossary/kerning_kerning_pairs) is optimized for smallish sizes. The typeface had to support a wide range of languages (380+) and be open-source.
 
-![All human beings are born free and equal in dignity and rights, in different languages on 14 lines](../../assets/images/bb1a7c376b35-makkFqk3kHP4kDaMxifJI8pybrvJuRHP1N8u4IQ_8pMXOVGxFznbr5ddi8-6Qutu5KFdyg6OLXt8NnmCDNxFBiKp_9QpuvwK.png)
+![All human beings are born free and equal in dignity and rights, in different languages on 14 lines](<https://lh3.googleusercontent.com/makkFqk3kHP4kDaMxifJI8pybrvJuRHP1N8u4IQ_8pMXOVGxFznbr5ddi8-6Qutu5KFdyg6OLXt8NnmCDNxFBiKp_9QpuvwKeSR_Cib9KfcWTMy7hHXH>)
 
 Text in some of the languages supported by Shantell Sans
 
@@ -122,7 +122,7 @@ Text in some of the languages supported by Shantell Sans
 
 To offer flexibility, the font should have a good range of weights and be a [variable font](https://fonts.google.com/knowledge/glossary/variable_fonts). I brought the spontaneous and vibrant quality of Shantell’s work into some experimental variable axes. For detailed [typography](https://fonts.google.com/knowledge/glossary/typography) for densely-packed information, such as on a business card, the typeface had to include [OpenType](https://fonts.google.com/knowledge/glossary/open_type) features like tabular vs proportional figures, fractions, and localized forms.
 
-![“Typography is kinetic” text changing shape](../../assets/images/59fa15526810-SV0zUwrOsZou0vlcp0NcNnA-xgXctoiH9GCTZBBTQCeWQbiayUsAIW38mlA29QW1MM_z9sY4s_q7gguXii31LmgaZUPy5wAt.png)
+![“Typography is kinetic” text changing shape](<https://lh3.googleusercontent.com/SV0zUwrOsZou0vlcp0NcNnA-xgXctoiH9GCTZBBTQCeWQbiayUsAIW38mlA29QW1MM_z9sY4s_q7gguXii31LmgaZUPy5wAtMlBLC69XqP_UP16tZQ>)
 
 Animation of all five variable axes of Shantell Sans: Weight, Italic, Informality, Bounce, and Spacing
 
@@ -132,13 +132,13 @@ To make sure the font met Shantell’s goals of making an easy-to-read font, I m
 
 The lowercase “n” and “u” are differentiated because the “n” has a typical, "zig-zag" form, while the u has a simplified form without a tail or exit stroke.
 
-![Nine letterforms on two lines of text](../../assets/images/45baee4d0e77-eLsjXMZd3Iu5a9BJvpCR5Ol3n-l-D9qiC6gXuSYDPFFEmlGDBkS0BvDzHVPV3FB9Jqz432IZ129BzYQt9L4hgESdgbV9LsZJ.png)
+![Nine letterforms on two lines of text](<https://lh3.googleusercontent.com/eLsjXMZd3Iu5a9BJvpCR5Ol3n-l-D9qiC6gXuSYDPFFEmlGDBkS0BvDzHVPV3FB9Jqz432IZ129BzYQt9L4hgESdgbV9LsZJfiZH6U_CHRlu4waNOw>)
 
 Carefully-placed exit strokes, serifs, and flags help differentiate letters that might otherwise have similar structures. (1) The uppercase “I”, lowercase “l”, and numeral “1” are differentiated with a serif, exit stroke, and flag (2) The lowercase “n” is in a traditional form and the lowercase “u” is tailless (3) Lowercase “b,” “d,” “p,” and “q” are differentiated through the placement of exit strokes on the “d” and “q”
 
 As you might expect in a handwritten font, the “a” and “g” use the single-story forms that kids tend to learn in school, keeping the font friendly and familiar.
 
-![The “a” and “g” highlighted in the word “amazing”](../../assets/images/0ca34a82c143-s-CrdqszuV0H_BNPJ0d4tuvOX4oQbirz3AcEPf6UHK3D9wfeweoyKEIh6Wo_eYkBDyW8Mu-SiZQXngqtfPnfio79RToOM1l8.png)
+![The “a” and “g” highlighted in the word “amazing”](<https://lh3.googleusercontent.com/s-CrdqszuV0H_BNPJ0d4tuvOX4oQbirz3AcEPf6UHK3D9wfeweoyKEIh6Wo_eYkBDyW8Mu-SiZQXngqtfPnfio79RToOM1l8ZHO9taHpYvhwb5-CkgLR>)
 
 (1) Single-story lowercase “a” (2) Single-story lowercase “g”
 
@@ -150,13 +150,13 @@ We didn’t want to replicate Shantell’s handwriting. We wanted to create a su
 
 Shantell chose her favorite medium-sized felt tip marker (Staedtler Lumocolor M) and wrote several uppercase and lowercase pangrams (sentences including all letters of the alphabet). She also wrote strings of numbers, punctuation, and symbols, plus a few words with [diacritics/accent marks](https://fonts.google.com/knowledge/glossary/diacritic_accent_marks).
 
-![Right hand holding two markers, paper with handwriting](../../assets/images/cd0d7a91d888-LeC7L12mCCA7l1bmI9-M2_eBLTPWy66q2diz9hYpB1aeunSkomlwObeFdlKihEt0rACdticJJfclWL3cVnqD_OT8sYYAmVBb.png)
+![Right hand holding two markers, paper with handwriting](<https://lh3.googleusercontent.com/LeC7L12mCCA7l1bmI9-M2_eBLTPWy66q2diz9hYpB1aeunSkomlwObeFdlKihEt0rACdticJJfclWL3cVnqD_OT8sYYAmVBbIgVHklxLK80dOnq-v0U>)
 
 Shantell Martin holding a Staedtler Lumocolor M, the same marker used to write the sample text (pictured in the background). The markers are custom-printed with Shantell Sans
 
 I traced Shantell’s writing samples and then converted her handwriting into a digital font. The sizing and spacing of Shantell’s handwritten letters varied. To retain the personality of Shantell’s handwriting and make the letterforms more uniform and readable, I subtly modified the character proportions to have consistent heights, widths, spacing, and upright balance, while keeping the best and most unique gestures.
 
-![Letters “r, f, t, G, P, A, R, M, W” on two lines](../../assets/images/5d0e7bdbd252-_KiplE4ufZLeSyk-NQo-4jv9GSQCRSulu8U66KpP5Dv0lc-uER8iGJ7AWOzPaDG05TWaEZFjH7wkg37j-_LOoWQ2yLtFW0-5.png)
+![Letters “r, f, t, G, P, A, R, M, W” on two lines](<https://lh3.googleusercontent.com/_KiplE4ufZLeSyk-NQo-4jv9GSQCRSulu8U66KpP5Dv0lc-uER8iGJ7AWOzPaDG05TWaEZFjH7wkg37j-_LOoWQ2yLtFW0-5FKpu-cr58Z2XoR8tGQ>)
 
 (1) Characters from Shantell Martin’s handwriting (2) Characters from Shantell Sans Semibold
 
@@ -170,17 +170,17 @@ For the Bouncy axes, the glyphs are shifted up or down. In the Informality axis,
 
 Both of these axes have several alternates of letters, numerals, and key symbols. These alternates are automatically put into text, allowing for a randomized appearance of the letters.  This is similar to what naturally occurs when someone writes by hand and some of the same letters take different shapes in different words.
 
-![The words “Fonts are Cool!” on two lines of text](../../assets/images/25a5f4f44972-iyE8LLg53DLMiID8x6e9srjBH4JfTmSj-FGobnEJthzYp8-3qGLDzEFVINKD0UejdCLy1yfeCRHMm7QlwiJ67QRyLVvTJDmR.png)
+![The words “Fonts are Cool!” on two lines of text](<https://lh3.googleusercontent.com/iyE8LLg53DLMiID8x6e9srjBH4JfTmSj-FGobnEJthzYp8-3qGLDzEFVINKD0UejdCLy1yfeCRHMm7QlwiJ67QRyLVvTJDmRwalTCdb3og-iJex6NEg3>)
 
 The animation shows the Weight and Bounce axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Bounce -100 and +100.
 
-![The words “A little less formality” on two lines of text](../../assets/images/e79fefe8f1f1-FBEOB3OWtrM3cLUM5zTiqhtyQbzgyy38PT6DtVmxQFt4VqgqcamiCwmbOOZTIq1arK2f42nbPcTVb-bwI0GhjZBHebArjtVa.png)
+![The words “A little less formality” on two lines of text](<https://lh3.googleusercontent.com/FBEOB3OWtrM3cLUM5zTiqhtyQbzgyy38PT6DtVmxQFt4VqgqcamiCwmbOOZTIq1arK2f42nbPcTVb-bwI0GhjZBHebArjtVaz1L10ItfvC-J0WHndQk3>)
 
 This animation shows the Weight and Informality axes. Both text blocks cycle between Light and ExtraBold weights. The bottom text also cycles between Informality 0 and 100.
 
 The Spacing axis adds extra spacing between letters. This axis opens up new possibilities for animating this parameter alongside the font’s Weight, Italic, Bounce, and Informality axes.
 
-![The word “spacing” on two lines of text](../../assets/images/9a404246aed1-9iNG_TnaOYd4WobbDRdSYW8NbFpjmONJY3McYPU_6ubXkQfuweaXOOQ6P5J4nyPOSVv_68LuKqRRIAgNEk8JVjjyjBwR3OgJ.png)
+![The word “spacing” on two lines of text](<https://lh3.googleusercontent.com/9iNG_TnaOYd4WobbDRdSYW8NbFpjmONJY3McYPU_6ubXkQfuweaXOOQ6P5J4nyPOSVv_68LuKqRRIAgNEk8JVjjyjBwR3OgJ_NtTdv6z64cjZX2qE5qy>)
 
 The animation shows the Weight and Spacing axes. Both lines cycle between Light and ExtraBold weights. The bottom line also cycles between Spacing 0 and 100.
 
@@ -192,7 +192,7 @@ With funding from Google Fonts, we extended the fonts to include wider language 
 
 **Anya Danilova, Type Designer**
 
-![Ten lines of letterforms](../../assets/images/ac683e8767c4-j5kHVaiUBNkRU83qKMyowCwcNnTCyuhRNLU4CRPyJP1wnNR2zo6KfDX7U7QRKIqr5mKRPhgW7KPk6iKm60ZKIti8sYqx64DQ.png)
+![Ten lines of letterforms](<https://lh3.googleusercontent.com/j5kHVaiUBNkRU83qKMyowCwcNnTCyuhRNLU4CRPyJP1wnNR2zo6KfDX7U7QRKIqr5mKRPhgW7KPk6iKm60ZKIti8sYqx64DQ7JIoQ1YYyWtpcDKApnbr>)
 
 Shantell Sans Cyrillic character set
 
@@ -202,7 +202,7 @@ Cyrillic is the script for many Eurasian languages: Bulgarian, Serbian, Russian,
 
 Some Cyrillic letters have different shapes for [upright](https://fonts.google.com/knowledge/glossary/regular_upright) (regular), [italic](https://fonts.google.com/knowledge/glossary/italic), and cursive ([handwriting](https://fonts.google.com/knowledge/glossary/handwriting)) letterforms.
 
-![Three lines of six letters](../../assets/images/16bd5834e16c-5hS8Lygx8JkCnbTAu6CpSXuf8yHKNcC8NQdQLeMQg16XR8ZTfYC1qV8IcKTsvykhsSqAtrRCvvTVZLaOzpFLvWc1JbmqMdXr.png)
+![Three lines of six letters](<https://lh3.googleusercontent.com/5hS8Lygx8JkCnbTAu6CpSXuf8yHKNcC8NQdQLeMQg16XR8ZTfYC1qV8IcKTsvykhsSqAtrRCvvTVZLaOzpFLvWc1JbmqMdXrdkz-At5mj451ZnRXjMo>)
 
 The same lowercase Cyrillic letters have different forms in different styles of writing: (1) Upright (2) Italic (3) Cursive
 
@@ -210,19 +210,19 @@ Shantell’s handwriting is a mixture of cursive and printed shapes. Since she w
 
 I asked Shantell to write a couple of Russian sentences to see her approach to unfamiliar shapes. I asked her to write one word with different shapes of letters.
 
-![Two lines with five words](../../assets/images/11c9b4623915-qjuRdKWxMs2c2cW8W_aSAekb3eNkC5xPzz_MfCX5pN1s_rs_ubJjrvcLnGY_racExfmvUKj51s6M2FXUfFSedttl3JKgc2uD.png)
+![Two lines with five words](<https://lh3.googleusercontent.com/qjuRdKWxMs2c2cW8W_aSAekb3eNkC5xPzz_MfCX5pN1s_rs_ubJjrvcLnGY_racExfmvUKj51s6M2FXUfFSedttl3JKgc2uD44myNmvvkdi9pjNWHt9z>)
 
 Shantell’s writing in Cyrillic had different shapes for the same letters. Words pictured: жаба (zhaba) for frog, овод (ovod) for gadfly
 
 I used Shantell’s writing to inform what kind of shapes felt more natural for the Cyrillic version of the font. To decide on which shapes to use, I compared Shantell’s handwritten letters to the ones I had drawn in a font editor and the Latin glyphs that Stephen Nixon had made.
 
-![Two lines of text in Latin and Cyrillic](../../assets/images/d501fe5d51a2-y4Howvxm6Q3lJKrLwGnJYgobkB2j4TCI8QyAUST-PAL8A-jD8IqovHXlk0Ci4622GDbQUKBqVidSXNuUimUx0XPzIqAYpCV8.png)
+![Two lines of text in Latin and Cyrillic](<https://lh3.googleusercontent.com/y4Howvxm6Q3lJKrLwGnJYgobkB2j4TCI8QyAUST-PAL8A-jD8IqovHXlk0Ci4622GDbQUKBqVidSXNuUimUx0XPzIqAYpCV8OHsIA8WcogDQNdOc5w>)
 
 (1) First version of the letter д (“d” sound) (2) First version of the letter ж (“zh” sound) (3) Final version of the letter д (“d” sound) (4) Final version of the letter ж (“zh” sound), Russian word дождь (rain)
 
 I consulted with other Cyrillic type designers: Maria Doreuli, Krista Radoeva, Alexey Vanyashin, and Jovanna Jocić. They helped me decide on alternate versions of letterforms that are specific to other languages using the Cyrillic alphabet, such as Bulgarian and Serbian.
 
-![Six Cyrillic letters in black on gray background](../../assets/images/d02122abd1b3-iFiqUPXFs0bNhpBZQRLyFsyiQdXZRC569l4x3-pSZ78HV-RU5qTER0NHqCVgWXGNynRdgPPfCirCQBQGMN-L3PaNJzIEM-1u.png)
+![Six Cyrillic letters in black on gray background](<https://lh3.googleusercontent.com/iFiqUPXFs0bNhpBZQRLyFsyiQdXZRC569l4x3-pSZ78HV-RU5qTER0NHqCVgWXGNynRdgPPfCirCQBQGMN-L3PaNJzIEM-1u3PbQ1l8UbsCzoJK_rA>)
 
 (1) Default lowercase shape for letter “в” (“v” sound) | (2) Bulgarian lowercase shape for letter “в” (“v” sound) | (3) Default lowercase shape for letter “г” (“g” sound) | (4) Bulgarian lowercase shape for letter “г” (“g” sound) | (5) Default lowercase shape for letter “б” (“b” sound) | (6) Serbian lowercase shape for letter “б” (“b” sound)
 
@@ -242,7 +242,7 @@ Use Shantell Sans on Google Docs and other Workspace products:
 2.  Type "Shantell Sans” in the search bar
 3.  Click on the family to add it to your fonts menu
 
-![Animation of text in a Google Doc. Cursor selects “More” Fonts menu, user types in “Shantell Sans” in the search bar, selects font.](../../assets/images/79c1c50f8e2d-HcXJcwXZHdJYa871FgmogKLBb2IDqJc-0AJFAB2CU1LxwqNgN6uEFWhT5bzNTtFB67uuFeU8i051yt4klwayr_WPdRXydxXf.png)
+![Animation of text in a Google Doc. Cursor selects “More” Fonts menu, user types in “Shantell Sans” in the search bar, selects font.](<https://lh3.googleusercontent.com/HcXJcwXZHdJYa871FgmogKLBb2IDqJc-0AJFAB2CU1LxwqNgN6uEFWhT5bzNTtFB67uuFeU8i051yt4klwayr_WPdRXydxXfhk3KnbyC1gxRLTEH0KY>)
 
 How to add Shantell Sans to the font menu
 

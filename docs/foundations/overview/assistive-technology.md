@@ -2,7 +2,7 @@
 title: "Overview"
 source_url: "https://m3.material.io/foundations/overview/assistive-technology"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/9b9d7067bb41-m0qv6git-3-3p.png"
@@ -18,7 +18,7 @@ Accessible design enables users with diverse abilities to navigate, understand, 
 
 Assistive technology helps increase, maintain, or improve the functional capabilities of individuals with disabilities. People can live more independently by engaging with technology through devices like keyboards, screen readers, and braille displays, as well as tracking input, magnifiers, and voice input.
 
-![Examples of icons with target sizes indicated beyond the actual size of the icon](../../../assets/images/9b9d7067bb41-m0qv6git-3-3p.png)
+![Examples of icons with target sizes indicated beyond the actual size of the icon](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0qv6git-3-3p.png?alt=media&token=58747de8-c1f4-4f0d-8b47-50b05385a705>)
 
 _Icons are one example of interactive elements that require an understanding of different input methods and user needs. In this example the target area of the icon is identified to show how the expanded icon perimeter makes interacting with an action more accessible._
 

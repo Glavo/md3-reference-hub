@@ -2,7 +2,7 @@
 title: "Building for all"
 source_url: "https://m3.material.io/foundations/building-for-all/co-design"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/aa2ca4be1d5b-mlav38v4-1.png"
@@ -16,7 +16,7 @@ Building for everyone with everyone
 
 Co-design supports innovation by involving the people who use a product or service in the creation process and goes beyond traditional user research. Prioritize engaging with people of varied backgrounds and experiences and remember that building with everyone is an ongoing process. By actively engaging with communities that are often overlooked, you can build products that are more beneficial for everyone. Validate your assumptions and discover new opportunities by conducting market research with a broad range of people.
 
-![Image](../../../assets/images/aa2ca4be1d5b-mlav38v4-1.png)
+![Image](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlav38v4-1.png?alt=media&token=3739b0eb-c02a-446e-aae5-bbf18c36213e>)
 
 ## Questions to consider
 

@@ -2,7 +2,7 @@
 title: "Material Partner Studies"
 source_url: "https://m3.material.io/blog/material-partner-studies"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/7f790bd4baa3-yKO2UrlF62uxxlxfdbuPzbR5rp0Ptr3FEx0pQHP3E3FnYzt5_SqzGo7CMOShk6ZZhCtNQ8NiqWEGjhynm1zWYMoCVmdqd80l.png"
@@ -17,7 +17,7 @@ assets:
 
 Learn how apps like Lyft, Genius, NPR, Pocket Casts, and Zappos bring Material’s new expressive capabilities to life
 
-![Image](../../assets/images/7f790bd4baa3-yKO2UrlF62uxxlxfdbuPzbR5rp0Ptr3FEx0pQHP3E3FnYzt5_SqzGo7CMOShk6ZZhCtNQ8NiqWEGjhynm1zWYMoCVmdqd80l.png)
+![Image](<https://lh3.googleusercontent.com/yKO2UrlF62uxxlxfdbuPzbR5rp0Ptr3FEx0pQHP3E3FnYzt5_SqzGo7CMOShk6ZZhCtNQ8NiqWEGjhynm1zWYMoCVmdqd80lXT_fsw>)
 
 Published: 2018-05-08T13:00:00
 
@@ -27,7 +27,7 @@ The goal has always been to help you build easily and systematically, and now yo
 
 ## Lyft: Taking action with the extended FAB
 
-![Lyft mobile app showing map route and list of car types above an extended FAB to Request Lyft](../../assets/images/c4b9f0e699e4-_7TcBbv1spuE9hwLYl0Mi_vwy_m2m9ovzI6PWsHZRhLSDuLDecTmM-dcqbdGr_uQcimhytuSVZSvk5J7cFM_z3ELlS9tFTGw.png)
+![Lyft mobile app showing map route and list of car types above an extended FAB to Request Lyft](<https://lh3.googleusercontent.com/_7TcBbv1spuE9hwLYl0Mi_vwy_m2m9ovzI6PWsHZRhLSDuLDecTmM-dcqbdGr_uQcimhytuSVZSvk5J7cFM_z3ELlS9tFTGwUjfiOw>)
 
 Lyft uses the extended FAB component to highlight key actions with rounded edges and a striking gradient
 
@@ -39,7 +39,7 @@ Swapping out the circular floating action button for Material’s new extended F
 
 ## Genius: Creating a responsive layout grid
 
-![Genius app desktop and mobile screens with layout grid overlays](../../assets/images/afccbb73a72b-39LtXbGS_EGsY8hzqonI193dG8A5w68kwvOt7GGQU2OqVeI49rYm7IyUp7itEOpU7CycpqWGiB28m5PNf_MU3jof5ZXwKuWH.png)
+![Genius app desktop and mobile screens with layout grid overlays](<https://lh3.googleusercontent.com/39LtXbGS_EGsY8hzqonI193dG8A5w68kwvOt7GGQU2OqVeI49rYm7IyUp7itEOpU7CycpqWGiB28m5PNf_MU3jof5ZXwKuWHcFiPuA>)
 
 Genius created a unified, responsive layout grid with Material
 
@@ -50,7 +50,7 @@ Responsive design isn’t always about resizing and stacking content. [Genius](
 
 ## NPR: Organizing experience with cards
 
-![NPR mobile app with list of news items](../../assets/images/0b2ba964031c-3N3KV1FkutQy_RtShkMCw4i37jnXo_HoWeLrt7tcvnFDxnAnqVJmA5Gq3mz2iI2dthWH9zyEOczSdSZZ8IY3vTZVwSjhxHS4.png)
+![NPR mobile app with list of news items](<https://lh3.googleusercontent.com/3N3KV1FkutQy_RtShkMCw4i37jnXo_HoWeLrt7tcvnFDxnAnqVJmA5Gq3mz2iI2dthWH9zyEOczSdSZZ8IY3vTZVwSjhxHS4DVirHg>)
 
 NPR uses cards, lists, and color to organize and simplify the presentation of its content
 
@@ -63,7 +63,7 @@ NPR needed to create a more flexible and expandable approach to grouping and rev
 
 ## Pocket Casts: Building a better player
 
-![Pocket Casts mobile app with image tiles and player module above a bottom app bar](../../assets/images/8887a0532339-R9dxTh6OVy4FBdiMTqAiTG4rUnqj3z2GHMDgFd9srStQnPBfSefu0gzrDyaO86rHZpZAEhyul0K-QiSHkgV6nmA_H82cHa5G.png)
+![Pocket Casts mobile app with image tiles and player module above a bottom app bar](<https://lh3.googleusercontent.com/-R9dxTh6OVy4FBdiMTqAiTG4rUnqj3z2GHMDgFd9srStQnPBfSefu0gzrDyaO86rHZpZAEhyul0K-QiSHkgV6nmA_H82cHa5Ge3z-A>)
 
 Pocket Casts simplified its approach to color and built a better player that affords richer interaction
 
@@ -75,7 +75,7 @@ To strike a balance between expressing its identity and adapting to the varied a
 
 ## Zappos: Creating and preserving context with the backdrop
 
-![Zappos mobile app with backdrop and layers for list items and bottom app bar](../../assets/images/d27987a8e114-fqmwiF5k72FPhukLdkd-M6ccLRDaY5hmxkL3GE9dddIv6FLNZySAHuUXGkOWDadyssT08gV_UBF1XDWbe_mU2P8wwWHBDk_E.png)
+![Zappos mobile app with backdrop and layers for list items and bottom app bar](<https://lh3.googleusercontent.com/fqmwiF5k72FPhukLdkd-M6ccLRDaY5hmxkL3GE9dddIv6FLNZySAHuUXGkOWDadyssT08gV_UBF1XDWbe_mU2P8wwWHBDk_EXd54>)
 
 Zappos adopted the backdrop to create a clear and efficient mental model for finding and managing content in its app
 

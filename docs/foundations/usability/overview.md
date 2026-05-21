@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/overview"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/f2410487f3ca-mejie2v2-Hero-image.png"
@@ -29,7 +29,7 @@ Usability focuses on making products intuitive and easy to understand for everyo
 
 Usability helps create digital products that are easy to use and engaging. By leveraging M3 Expressive [design tactics](../../blog/building-with-m3-expressive.md#what-rsquo-s-in-the-update) like containment, size, shape, color, and typography, designers can guide users through experiences and emphasize key actions to create intuitive, usable products.
 
-![Image](../../../assets/images/f2410487f3ca-mejie2v2-Hero-image.png)
+![Image](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejie2v2-Hero%20image.png?alt=media&token=9d9dc1ff-3bcb-45e4-bbaf-78b24bd19945>)
 
 ## What is usability?
 
@@ -67,13 +67,13 @@ Tip: Material Design’s dynamic [color roles](../../styles/color/roles.md) auto
 
 More on [Color](../../styles/color/system/overview.md) & [color contrast](../designing/color-contrast.md)
 
-![Light purple, dark purple, yellow and dark green colors on a light purple background](../../../assets/images/300a9c8d8405-mejighrd-Contrast.png)
+![Light purple, dark purple, yellow and dark green colors on a light purple background](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejighrd-Contrast.png?alt=media&token=d99c8cef-57cd-43b0-b165-ae5a1ab018f1>)
 
 ### Containment & grouping content
 
 Group related elements in subtle containers to make them easier to understand. Break content into manageable sections using containment, [spacing](https://m3.material.io/foundations/layout/understanding-layout/spacing), and headings.
 
-![Four different rectangular shapes with round or rounded corners](../../../assets/images/b4cc0f0b4f3d-mejiivyt-Visual-Hierarchy.png)
+![Four different rectangular shapes with round or rounded corners](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejiivyt-Visual%20Hierarchy.png?alt=media&token=8e1f750f-ee5a-4775-87cc-b96b9b26b95b>)
 
 ### [Motion](../../styles/motion/overview/how-it-works.md)
 
@@ -102,7 +102,7 @@ Every shape can morph into another in the set. Shape morph is also applied when 
 
 More on [shape](../../styles/shape/overview-principles.md#579dd4ba-39f3-4e60-bd9b-1d97ed6ef1bf) & [shape morph](../../styles/shape/shape-morph.md)
 
-![Five shapes from the Material Shape set](../../../assets/images/1118a8e361db-mejiksvb-Shape.png)
+![Five shapes from the Material Shape set](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejiksvb-Shape.png?alt=media&token=e496fdad-065e-49c1-8197-b13aa00e9fef>)
 
 ### Size
 
@@ -110,7 +110,7 @@ The size and scale of elements shows their level of importance. The most importa
 
 Using larger sizes for key actions dramatically increases usability and makes products more efficient. Users are satisfied, they make fewer errors, and find the products to be more learnable.
 
-![Small, medium, and large soft burst](../../../assets/images/a38750a7610c-mejimbjk-Size.png)
+![Small, medium, and large soft burst](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejimbjk-Size.png?alt=media&token=052597d9-80f5-4bb9-affe-41ee1af815b5>)
 
 ### Typography 
 
@@ -122,7 +122,7 @@ Type can separate different hierarchies of information. More important informati
 
 [More on typography](../../styles/typography/overview.md)
 
-![Different weights and width of letters](../../../assets/images/d87ff2824e25-mejin9xv-Typography.png)
+![Different weights and width of letters](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmejin9xv-Typography.png?alt=media&token=e057bb09-e023-4c19-85f1-e0d98e847b99>)
 
 ## Design based on primary goals
 

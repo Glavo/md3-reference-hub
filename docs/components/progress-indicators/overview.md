@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/overview"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/0586462c6a91-mleotj2q-01.png"
@@ -24,7 +24,7 @@ assets:
 
 -   Option to apply a wave to the active track for use cases that would benefit from increased expressiveness
 
-![8 progress indicators configured to show different thickness and shape.](../../../assets/images/0586462c6a91-mleotj2q-01.png)
+![8 progress indicators configured to show different thickness and shape.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmleotj2q-01.png?alt=media&token=8d1f2405-86ed-4634-8847-af33a549410d>)
 
 _Linear and circular progress indicators have visual configurations for shape and thickness_
 
@@ -65,7 +65,7 @@ The progress indicators have configurations for height and wavy shape. Choose th
 -   Motion: New motion behavior
 -   Shape: Rounded corners
 
-![GM3 linear and circular progress indicators](../../../assets/images/bf6aa274ce90-mleov4bo-03.png)
+![GM3 linear and circular progress indicators](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmleov4bo-03.png?alt=media&token=ec54810c-b325-4dd1-a547-b66d15d3b260>)
 
 _Progress indicators have a new rounded, colorful style_
 
@@ -75,10 +75,10 @@ _Progress indicators have a new rounded, colorful style_
 
 -   **Color:** New color mappings and compatibility with dynamic color
 
-![M2 linear and circular progress indicators.](../../../assets/images/e27837adebbd-m0c2if7i-04.png)
+![M2 linear and circular progress indicators.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c2if7i-04.png?alt=media&token=2cccabb4-c40c-4db4-9321-51c34cae3d25>)
 
 _M2: Progress indicators have a boxier, neutral style_
 
-![M3 linear and circular progress indicators.](../../../assets/images/a4d36b71d6be-m0c2jf26-05.png)
+![M3 linear and circular progress indicators.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c2jf26-05.png?alt=media&token=2ee132f7-2c47-46e2-8826-910fbdfe4547>)
 
 _M3: Progress indicators are compatible with dynamic color_

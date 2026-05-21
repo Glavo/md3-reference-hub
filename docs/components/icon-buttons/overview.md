@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/overview"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/df11b411f4a6-m0by1ftf-1.png"
@@ -26,7 +26,7 @@ Icon buttons help people take minor actions with one tap
 
 -   In toggle buttons, use the outlined style of an icon for the unselected state, and the filled style for the selected state
 
-![5 kinds of outline buttons.](../../../assets/images/df11b411f4a6-m0by1ftf-1.png)
+![5 kinds of outline buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0by1ftf-1.png?alt=media&token=2888d586-c4ee-456e-8444-805543dddbed>)
 
 _Standard, filled unselected, filled selected, filled tonal, and outlined icon buttons_
 
@@ -88,7 +88,7 @@ Widths: 
 
 -   Wide
 
-![Icon buttons can vary in size, shape, and width.](../../../assets/images/61f66c93a7bf-m0by3xdg-2.png)
+![Icon buttons can vary in size, shape, and width.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0by3xdg-2.png?alt=media&token=0e9b026c-d4c0-4e94-ad89-55a59618a51d>)
 
 _Five sizes; Two shapes; Three widths_
 
@@ -98,6 +98,6 @@ _Five sizes; Two shapes; Three widths_
 
 -   **Variants and naming:** Icon buttons were called toggle buttons. There are now two variants of icon buttons: default and toggle.
 
-![Icon buttons were known as toggle buttons in M2.](../../../assets/images/0d9841ac47fc-m0by5hfz-3.png)
+![Icon buttons were known as toggle buttons in M2.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0by5hfz-3.png?alt=media&token=9b34e493-6c33-4b8e-aa41-93e8045c9952>)
 
 _Default icon buttons; Toggle icon buttons_

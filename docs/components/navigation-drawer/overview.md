@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/86197053537a-lwoorr6v-1.png"
@@ -32,7 +32,7 @@ The navigation drawer is no longer recommended in the Material 3 Expressive upda
 
 -   Put the most frequent destinations at the top and group related destinations together
 
-![2 variants of navigation drawers: standard and modal.](../../../assets/images/86197053537a-lwoorr6v-1.png)
+![2 variants of navigation drawers: standard and modal.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwoorr6v-1.png?alt=media&token=884dcde5-fdd3-438c-9825-1f6668eef908>)
 
 _Standard navigation drawer; Modal navigation drawer_
 
@@ -64,10 +64,10 @@ The navigation drawer is no longer recommended. Use the expanded navigation rail
 
 -   States: Updated color and shape for indicating selected state
 
-![M2 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” is rectangular.](../../../assets/images/0c4f8699d0d7-ldox2g48-navdrawer_OLD_M2.png)
+![M2 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” is rectangular.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fldox2g48-navdrawer_OLD_M2.png?alt=media&token=192ac522-fc4c-4fd2-8fd2-ef6d0f6662e7>)
 
 _M2: Navigation drawer had square corners and a rectangular shape indicating the active destination_
 
-![M3 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” has rounded corners.](../../../assets/images/4bef1d4e4ad2-lzdbjtd0-4.png)
+![M3 navigation drawer with 4 destinations in a mail app. The active destination “Inbox” has rounded corners.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flzdbjtd0-4.png?alt=media&token=8621f0a5-d2d3-41b1-bed8-3d5d6c5fdf34>)
 
 _M3: Navigation drawer has rounded corners, new color mappings, and an updated style for indicating the active destination_

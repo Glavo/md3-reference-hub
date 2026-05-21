@@ -2,7 +2,7 @@
 title: "Material Design at Google I/O ‘24"
 source_url: "https://m3.material.io/blog/google-io-2024"
 lastmod: "2024-11-04"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/9f08fc120ec8-14Q1LNsO6yr4LElzuCQ3ex7FduKZX1KkrJBsNHyXWqO_PvBc-X3vq6ImhhnFV6-mcTKcf-UFwsfd-_GNchWeTXZFf7QWml6D.png"
@@ -12,7 +12,7 @@ assets:
 
 Catch the latest updates, resources, and guides at this year’s developer conference
 
-![Image](../../assets/images/9f08fc120ec8-14Q1LNsO6yr4LElzuCQ3ex7FduKZX1KkrJBsNHyXWqO_PvBc-X3vq6ImhhnFV6-mcTKcf-UFwsfd-_GNchWeTXZFf7QWml6D.png)
+![Image](<https://lh3.googleusercontent.com/14Q1LNsO6yr4LElzuCQ3ex7FduKZX1KkrJBsNHyXWqO_PvBc-X3vq6ImhhnFV6-mcTKcf-UFwsfd-_GNchWeTXZFf7QWml6DLwVomFfTLYGX2n2f3_F7>)
 
 _Illustration by Ivy Knight_
 

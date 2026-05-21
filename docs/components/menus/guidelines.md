@@ -2,7 +2,7 @@
 title: "Menus"
 source_url: "https://m3.material.io/components/menus/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/8fce25fd715c-mhlk1jwz-GM3_Menus_Guidelines-01_IA_v01.mp4"
@@ -60,7 +60,7 @@ Menus have two color mappings:
 
 Vibrant menus are more prominent, and should be used sparingly.
 
-![Menu shows item “Line spacing” opening a submenu. In the second menu, “Custom 1.2” is selected with vibrant color.](../../../assets/images/d4516bdb0a97-mi5nyyrq-02.png)
+![Menu shows item “Line spacing” opening a submenu. In the second menu, “Custom 1.2” is selected with vibrant color.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi5nyyrq-02.png?alt=media&token=7fed7dc7-af6e-49f3-90d3-829500c8e99d>)
 
 _On web, menus can open submenus_
 
@@ -85,7 +85,7 @@ Use menus in situations that need extra actions, like: 
 
 -   Context menus
 
-![A grouped menu with Undo, Redo, Cut, Copy, and Paste options appear over highlighted text in an ebook.](../../../assets/images/080b9ae639ad-mhlkhju5-04.png)
+![A grouped menu with Undo, Redo, Cut, Copy, and Paste options appear over highlighted text in an ebook.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlkhju5-04.png?alt=media&token=ab3df2c7-0424-482c-ad21-d5cf945ca16b>)
 
 _Menus appear in front of all other UI elements_
 
@@ -95,7 +95,7 @@ Vertical menu items can be grouped by adding a divider or small gap. Use groups 
 
 [Gaps and dividers guidelines](guidelines.md#d75ac70c-9122-4b4c-bd60-b856bc66c9bc)
 
-![2 vertical menus: a standard menu with no gap and a grouped menu with 1 gap.](../../../assets/images/8e01c2304abf-mi5o0xc8-05.png)
+![2 vertical menus: a standard menu with no gap and a grouped menu with 1 gap.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi5o0xc8-05.png?alt=media&token=6e9ba56b-a4e8-4fd0-bacd-9fb1333f2cf9>)
 
 _Menu items can be grouped to be more scannable: Standard vertical menu; Grouped vertical menu_
 
@@ -103,13 +103,13 @@ _Menu items can be grouped to be more scannable: Standard vertical menu; Grouped
 
 Context menus provide a list of additional actions a person can take on an item. A secondary click, like a right-click on a mouse or a two-finger tap on a trackpad, opens a context menu.
 
-![A context menu pops up from a newspaper link. The menu items are: Open in new window, Save link as, Copy address, and Inspect.](../../../assets/images/97456eddcb75-mhlkwxab-06.png)
+![A context menu pops up from a newspaper link. The menu items are: Open in new window, Save link as, Copy address, and Inspect.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlkwxab-06.png?alt=media&token=f570d7bb-c80a-43dd-8dd0-9ba78258920f>)
 
 _A context menu appears when right clicking with a mouse or trackpad. It can reveal key actions related to the associated content._
 
 ## Anatomy
 
-![Diagram outlining 11 elements of a menu’s anatomy.](../../../assets/images/b0593560e9ec-migxx4lp-07.png)
+![Diagram outlining 11 elements of a menu’s anatomy.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmigxx4lp-07.png?alt=media&token=cb02e392-139e-4360-bdcd-eb6a8d8501df>)
 
 _Menu item; Leading icon (optional); Menu item text; Trailing icon (optional); Badge (optional); Trailing text (optional); Container; Supporting text (optional); Label text (optional); Gap (optional); Divider (optional)_
 
@@ -119,7 +119,7 @@ Menu items can include label text, leading icons, trailing icons, and keyboard c
 
 When a menu item can only be used under specific conditions, it should appear disabled rather than be removed.
 
-![Menu shows 1 item that’s  disabled, “Redo”. The text color of the disabled item is lighter than the active items.](../../../assets/images/357ec411f243-mhll6qil-08.png)
+![Menu shows 1 item that’s  disabled, “Redo”. The text color of the disabled item is lighter than the active items.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhll6qil-08.png?alt=media&token=ae8d6aaa-5646-493e-8c90-4b21457ff03f>)
 
 _The Redo action is disabled when that action isn’t available_
 
@@ -135,7 +135,7 @@ Use a gap to visually divide menu items into distinct groups. Gaps are more expr
 -   Limit the number of gaps in a menu to one or two
 -   Don’t use gaps in scrollable menus
 
-![2 vertical menus with 5 items. A gap separates items into a group of 3 and group of 2.](../../../assets/images/39ca65efe77b-mi5o2orv-09.png)
+![2 vertical menus with 5 items. A gap separates items into a group of 3 and group of 2.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi5o2orv-09.png?alt=media&token=ddab60a9-d164-4ab9-aa6a-271b4bdd7210>)
 
 _Gaps separate menu items using expressive shapes_
 
@@ -154,7 +154,7 @@ Dividers create a more subtle separation between items. Use a divider for:
 
 On web, use a divider to separate menu items.
 
-![A menu on a web interface with items separated by a divider line.](../../../assets/images/563b4a54a364-migxyr8q-10.png)
+![A menu on a web interface with items separated by a divider line.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmigxyr8q-10.png?alt=media&token=1917b371-7cd4-4221-a770-e1800d56b806>)
 
 _Dividers separate menu items in baseline menus and on web_
 
@@ -170,7 +170,7 @@ Slots work best with simple content such as:
 -   Progress indicators
 -   Color swatches
 
-![A menu showing an undefined slot that could be used for a different element, such as an image.](../../../assets/images/e9e1a46d3f7d-mhllndkg-11.png)
+![A menu showing an undefined slot that could be used for a different element, such as an image.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhllndkg-11.png?alt=media&token=94c23245-a894-465a-a657-4cc1ec9e4e59>)
 
 _Slots can appear anywhere in a menu_
 
@@ -187,7 +187,7 @@ Don't add buttons, switches, or other direct actions into the menu item. Nested 
 
 [More on required accessibility guidelines](https://m3.material.io/m3/pages/menus/accessibility/)
 
-![1 diagram and 1 menu showing icons in each item’s leading slot.](../../../assets/images/163a67667e45-mhllqs3p-12-alt.png)
+![1 diagram and 1 menu showing icons in each item’s leading slot.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhllqs3p-12-alt.png?alt=media&token=10ba86ca-a5f2-4c70-8f5d-29f4c5a33dfa>)
 
 _Reserve the use of slots for use cases that maintain the menu’s accessibility and functionality_
 
@@ -197,7 +197,7 @@ A menu is positioned relative to the window edge. It typically appears below, ne
 
 If a menu is in a position to be cut off, it should automatically reposition to appear to the left, right, or above the element that generates it.
 
-![6 abstract shapes showing how a menu can extend from the edge of the screen.](../../../assets/images/fccd19dd9873-mhllv77j-13.png)
+![6 abstract shapes showing how a menu can extend from the edge of the screen.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhllv77j-13.png?alt=media&token=284a2b26-be83-4564-845a-e8e8f55b168e>)
 
 _Menus can appear around or in front of the element that opened them_
 
@@ -207,7 +207,7 @@ Submenus should open next to the parent menu item without overlapping it.
 
 Submenus are best used on large screens where there's space. [See adaptive guidance](guidelines.md#e588ae16-7a76-4bf9-8532-8d931a13ca35) for alternatives on mobile.
 
-![A submenu opens to the right of its parent menu item, and doesn’t cover it. A selected submenu item includes a checkmark and vibrant highlight.](../../../assets/images/b41ab2336117-mhlm1f1q-15.png)
+![A submenu opens to the right of its parent menu item, and doesn’t cover it. A selected submenu item includes a checkmark and vibrant highlight.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlm1f1q-15.png?alt=media&token=57bbf425-3173-4f90-b96c-93de307cf824>)
 
 _Position submenus to the side of the parent item_
 
@@ -223,7 +223,7 @@ Submenus are not currently available on Jetpack Compose
 
 Consider adapting menus into bottom sheets on small screens. They have more space to display additional items and longer labels.
 
-![A bottom sheet shows longer labels and improved readability on a compact window.](../../../assets/images/4cf5d317b07f-mhlm7yx1-16.png)
+![A bottom sheet shows longer labels and improved readability on a compact window.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlm7yx1-16.png?alt=media&token=efd00c45-20e0-4bdd-936c-3a2383306983>)
 
 _A bottom sheet can replace a menu on smaller screens_
 
@@ -231,7 +231,7 @@ _A bottom sheet can replace a menu on smaller screens_
 
 On medium and expanded windows, menus are most effective as they appear in context with the content. On larger screens, menus can also display more items, and can use submenus to organize complex sets of options.
 
-![A menu with vibrant color on a mid-size screen, with the same elements as a bottom sheet.](../../../assets/images/a980c5f4cdfd-mhlmbxni-17.png)
+![A menu with vibrant color on a mid-size screen, with the same elements as a bottom sheet.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlmbxni-17.png?alt=media&token=e4e83032-18f6-4c94-bdb8-62007e8524d3>)
 
 _On large screens, a menu is often more appropriate than a bottom sheet_
 
@@ -307,7 +307,7 @@ When a menu is opened, the corresponding button or icon button should remain the
 
 This should happen even when opening from a keyboard shortcut.
 
-![The overflow icon remains the same, even after the menu is opened.](../../../assets/images/8b8394b770c9-mhlohkz8-28.png)
+![The overflow icon remains the same, even after the menu is opened.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlohkz8-28.png?alt=media&token=90813acd-a921-473b-8f98-cfc715b51d93>)
 
 _Tapping the icon triggers a menu. Choosing a menu option doesn’t change the icon generating the menu._
 
@@ -320,7 +320,7 @@ Menus can allow either single-select or multi-select actions:
 
 [More on selection accessibility requirements](accessibility.md#149778c9-eb42-4a56-8a0b-9932181ac2cd)
 
-![1 menu for dietary options shows a single selection, Vegan. Another menu shows Vegan and Nut-free selections at the same time. ](../../../assets/images/fc730147b28b-mhkpbo8d-30.png)
+![1 menu for dietary options shows a single selection, Vegan. Another menu shows Vegan and Nut-free selections at the same time. ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkpbo8d-30.png?alt=media&token=a9f4da83-0329-4222-b296-68c399154082>)
 
 _Menus can be single- or multi-select_
 
@@ -340,6 +340,6 @@ As a person moves from one submenu to the next, the corners of the focused subme
 
 On web only, density levels control the spacing between elements. Increasing density decreases the top and bottom padding. [More on layout density](https://m3.material.io/m3/pages/grids-spacing/density/)
 
-![4 menus becoming increasingly dense and compressed.](../../../assets/images/4bac82f51667-mhloonkj-32.png)
+![4 menus becoming increasingly dense and compressed.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhloonkj-32.png?alt=media&token=f60473a4-1b6d-4913-ba1e-002ea51339a2>)
 
 _Density of menus from 0 to -3_

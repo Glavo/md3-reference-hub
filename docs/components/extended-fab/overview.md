@@ -2,7 +2,7 @@
 title: "Extended FABs"
 source_url: "https://m3.material.io/components/extended-fab/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/184b55314ff0-m0df17xu-01.png"
@@ -21,7 +21,7 @@ assets:
 
 -   Use instead of FAB when label text is needed to understand action
 
-![3 extended fab sizes.](../../../assets/images/184b55314ff0-m0df17xu-01.png)
+![3 extended fab sizes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0df17xu-01.png?alt=media&token=06dfec2a-47be-4659-a524-86f136cec764>)
 
 _Small extended FAB; Medium extended FAB; Large extended FAB_
 
@@ -67,7 +67,7 @@ Updates:
 
 -   Adjusted typography to be larger
 
-![The baseline extended FAB and the small, medium, and large extended FABs from the expressive update.](../../../assets/images/6e5c0183c20e-ml9nentp-02.png)
+![The baseline extended FAB and the small, medium, and large extended FABs from the expressive update.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fml9nentp-02.png?alt=media&token=fb7094cc-1fac-45eb-a3f7-a5c683b28ba3>)
 
 _The baseline extended FAB is replaced with a set of small, medium, and large extended FABs with new typography_
 
@@ -77,10 +77,10 @@ _The baseline extended FAB is replaced with a set of small, medium, and large ex
 -   Layout: Extended FAB is the same height as the FAB
 -   Shape: Boxier style with smaller corner radius
 
-![Diagram comparing the M2 FAB and extended FAB.](../../../assets/images/cf759af9670c-mae6zhok-04-3P.png)
+![Diagram comparing the M2 FAB and extended FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmae6zhok-04-3P.png?alt=media&token=37880129-5f8d-4a33-a5b2-b8e74634c57b>)
 
 _M2: Extended FABs are pill-shaped and have a different height and elevation_
 
-![Diagram comparing the M3 FAB and extended FAB.](../../../assets/images/08c26e20fb2e-m0dff6p3-05.png)
+![Diagram comparing the M3 FAB and extended FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dff6p3-05.png?alt=media&token=896b601f-21d9-4cae-854f-840ba268dd73>)
 
 _M3: Extended FABs share the same height, boxier shape, and simpler elevation model as FABs_

@@ -2,7 +2,7 @@
 title: "Advanced customizations"
 source_url: "https://m3.material.io/styles/color/advanced/adjust-existing-colors"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/46586b0b0fba-lwt7zkg8-1.png"
@@ -28,7 +28,7 @@ You can input colors to define your own baseline scheme.
 
 You may want to define your own baseline scheme so your app’s colors stay static (ie. does not change with dynamic color), such as to reflect your brand colors. By providing your own custom input colors for the primary, secondary, tertiary, and neutral colors in the scheme, Material will provide back the scheme’s regular color roles with values derived from your reference colors.
 
-![Above, a logo of two trees featuring dark green, orange, and pale blue colors. Below, each of those colors is show as a circle, with an arrow pointing from it to a set of chips showing color roles produced from the original color.](../../../../assets/images/46586b0b0fba-lwt7zkg8-1.png)
+![Above, a logo of two trees featuring dark green, orange, and pale blue colors. Below, each of those colors is show as a circle, with an arrow pointing from it to a set of chips showing color roles produced from the original color.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwt7zkg8-1.png?alt=media&token=d6aa53db-1686-443c-b47a-89cb0c4a6cfd>)
 
 _You can input your own colors to produce a static baseline scheme. In this example, colors from the logo are inputted to produce primary, secondary, and tertiary colors._
 
@@ -50,7 +50,7 @@ You can define color algorithm rules to produce your own dynamic scheme.
 
 Control the appearance of your app’s colors while respecting dynamic color. For example, you may want your app to match the user’s wallpaper theme, but appear more vibrant than the default dynamic theme colors.
 
-![Thumbnail of a red floral wallpaper with two arrows leading out of it, labeled 1 and 2. Arrow 1 leads to a set of red colors chips produced from the wallpaper. Arrow 2 points to another set of red color chips, which appear more vibrant than the first.](../../../../assets/images/ec4ab91ce275-lwt809t2-2.png)
+![Thumbnail of a red floral wallpaper with two arrows leading out of it, labeled 1 and 2. Arrow 1 leads to a set of red colors chips produced from the wallpaper. Arrow 2 points to another set of red color chips, which appear more vibrant than the first.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwt809t2-2.png?alt=media&token=2f6a951b-89fe-4154-a188-61939ae892dd>)
 
 _You can define your own dynamic scheme to reflect a user's wallpaper but control other aspects such as the colors' vibrancy. Colors produced dynamically from a user's red wallpaper following default specs; Colors produced dynamically from the same wallpaper following custom-defined specs_
 
@@ -74,7 +74,7 @@ You can apply color fidelity to make scheme colors better match your input color
 Material scheme colors are mapped to tones (lightness or darkness) to achieve visually accessible color pairings with sufficient contrast between foreground and background elements. In some cases, these tones can prevent colors from appearing as intended, such as when a color is too light to appear vibrant. Color fidelity is a feature that adjusts tones in these cases to produce the intended visual results without harming visual contrast.
 
 ![Above, a dark purple circle with an arrow labeled 1 pointing to a set of color chips, whose colors appear similarly dark.
-Below, a dark purple circle with an arrow labeled 2 pointing to a set of color chips, whose colors appear lighter.](../../../../assets/images/4c04d8198d0c-lwt80nic-3.png)
+Below, a dark purple circle with an arrow labeled 2 pointing to a set of color chips, whose colors appear lighter.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwt80nic-3.png?alt=media&token=3c8ada3b-6184-4d34-8763-5b20288ddb22>)
 
 _Color fidelity adjusts tones in color roles to produce the closest match to your input color. In this example, colors are produced from a dark purple input with and without color fidelity. Color roles produced with color fidelity; Color roles produced without color fidelity_
 
@@ -98,13 +98,13 @@ Static colors may visually clash with a  scheme’s dynamically changing colors
 
 Colors that are closer in hue appear more pleasing together than colors with hues farther apart. Based on this principle, harmonization adjusts the hue of static colors, making them closer to the hue of the scheme’s primary color.
 
-![Diagram comparing static colors in an app to harmonized static colors](../../../../assets/images/d750964423f0-lwt814il-4.png)
+![Diagram comparing static colors in an app to harmonized static colors](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwt814il-4.png?alt=media&token=c451da1d-f5cb-43ef-ad1c-d1e8e23c68bd>)
 
 _In this example, the color scheme has:Green as the primary color; Static blue; Static orange;; When harmonized, those static colors change hue, moving closer to the primary color on the color wheel. The resulting colors appear more visually pleasing together because they are closer in hue._
 
 To preserve the semantic meaning of static colors (such as a red to communicate errors), harmonization limits the amount that a color’s hue can change. Harmonized colors will become warmer or cooler in hue without appearing like another type of color.
 
-![Diagram showing the limited range of harmonized hues](../../../../assets/images/646d5fc17e7c-lwt81svm-5.png)
+![Diagram showing the limited range of harmonized hues](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwt81svm-5.png?alt=media&token=75856d62-6223-4263-9919-8996940fa1c6>)
 
 _To preserve the semantic meaning of colors, harmonization limits the amount that a color’s hue can change. For example, a red color (1) can become cooler (2) or warmer (3) in hue, but will not appear purple or orange._
 

@@ -2,7 +2,7 @@
 title: "From Placeholders to Genuine Avatars"
 source_url: "https://m3.material.io/blog/asset-people-2"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/50e1f837e369-50eDh4dtCIt5scFkgOmicKvSyQiErVDeLICuMAFJzswNPM47WlSehYuaDdbmZASADfZjMuf2GieR7n8S7a8FKSPkl66lNf8T.png"
@@ -15,7 +15,7 @@ assets:
 
 Using stock imagery to create believable people
 
-![photo collage of a moth over a field of grass](../../assets/images/50e1f837e369-50eDh4dtCIt5scFkgOmicKvSyQiErVDeLICuMAFJzswNPM47WlSehYuaDdbmZASADfZjMuf2GieR7n8S7a8FKSPkl66lNf8T.png)
+![photo collage of a moth over a field of grass](<https://lh3.googleusercontent.com/50eDh4dtCIt5scFkgOmicKvSyQiErVDeLICuMAFJzswNPM47WlSehYuaDdbmZASADfZjMuf2GieR7n8S7a8FKSPkl66lNf8Tj1RtCMIemyAJnagx2YQ>)
 
 Published: 2022-03-24T13:00:00
 
@@ -35,13 +35,13 @@ Visual representation of life doesn't have to be overly polished. Perfect visual
 
 [To start building Sam’s identity](https://material.io/blog/asset-people-1), who uses they/them pronouns, I started with their profile image. Knowing they are shy and reserved, I chose portraits with a soft focus to respect that part of them and their privacy while also elevating their shyness to a creative level.
 
-![Three circular photographic avatars](../../assets/images/64891ded40b9-7pyq19iH7-0neo7o7WR1BfUoHxPHaEUsM1YIdNAler-zKMXMEpQA0W8LFrnmZ-QVW9hdrpnOdr8FZlx_N3Kemq38g8ztRhtI.png)
+![Three circular photographic avatars](<https://lh3.googleusercontent.com/7pyq19iH7-0neo7o7WR1BfUoHxPHaEUsM1YIdNAler-zKMXMEpQA0W8LFrnmZ-QVW9hdrpnOdr8FZlx_N3Kemq38g8ztRhtIwETjtzUrJC-2KxTFvJl6>)
 
 Three stock image options selected for Sam
 
 Since Sam is a nature enthusiast, I knew their phone’s camera roll would be full of outdoor adventures, and it was likely Sam would choose one of those photos for their phone’s wallpaper. Getting the wallpaper right was important because it defined what Sam’s UI looked like with [dynamic theming](https://m3.material.io/styles/color/dynamic-color/user-generated-color).
 
-![Three pictures of mushrooms](../../assets/images/8609d8ed98b9-4tdSYMZH3eXoSzGR_XkEvqeztnlLl8tllRPf1xYxYnnMA2hdgMnKnrQzbCQYRRs-7QvQo-y2-kD4bDgUYnE0p-enehd_Bba0.png)
+![Three pictures of mushrooms](<https://lh3.googleusercontent.com/4tdSYMZH3eXoSzGR_XkEvqeztnlLl8tllRPf1xYxYnnMA2hdgMnKnrQzbCQYRRs-7QvQo-y2-kD4bDgUYnE0p-enehd_Bba0ve798YXSxHOCNF2wVw>)
 
 Three different styles of photography on a scale from user-generated to professional
 
@@ -51,7 +51,7 @@ Before I made the selections for nature imagery, I went on a hike and photograph
 
 Pulling art for the media was my favorite part because it was an opportunity to have a little fun. Because the subject matter and styling of podcasts, albums, and movie posters are all so diverse, I had visual flexibility in building out Sam’s media library. I could choose literal, abstract, user-generated, and commercial photography and illustration while still capturing the essence of Sam’s identity.
 
-![](../../assets/images/b3bc37ca07d0-jxOIpfjstvhQjGXIABSzZi4iMmvaqRI9S_kff22nMbHMWnQIz2K36DAOTxWy6JJd1jscn_gtRZM8PJLyZ1wC5pIyXxaW6cwB.png)
+![Image](<https://lh3.googleusercontent.com/jxOIpfjstvhQjGXIABSzZi4iMmvaqRI9S_kff22nMbHMWnQIz2K36DAOTxWy6JJd1jscn_gtRZM8PJLyZ1wC5pIyXxaW6cwBOyG1zqfpkivrykFLkjk>)
 
 A collection of photography and illustration styles selected for media images
 

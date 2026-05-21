@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/3f91d2e3e3fd-mlktxqjf-01.png"
@@ -27,7 +27,7 @@ App bars are placed at the top of the screen to help people navigate through a p
 
 -   Can animate on and off screen with another bar of controls, like a row of chips
 
-![4 configurations of app bars stacked vertically to show differences.](../../../assets/images/3f91d2e3e3fd-mlktxqjf-01.png)
+![4 configurations of app bars stacked vertically to show differences.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlktxqjf-01.png?alt=media&token=fe608fa5-00d5-4278-a2a5-2edcdbb248d0>)
 
 _Search app bar; Small; Medium flexible; Large flexible_
 
@@ -85,7 +85,7 @@ Variants and naming:
 
     -   More flexible elements for imagery and filled buttons
 
-![4 total app bar configurations.](../../../assets/images/53e994347ad3-mlku5356-05.png)
+![4 total app bar configurations.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlku5356-05.png?alt=media&token=76ad704f-5607-425a-83a1-0f2ae2ca8f2e>)
 
 _Search app bar; Small; Medium flexible; Large flexible_
 
@@ -96,10 +96,10 @@ _Search app bar; Small; Medium flexible; Large flexible_
 -   Typography: Larger default text
 -   Layout: Smaller default height
 
-![M2 top app bar with elevation to separate it from main content.](../../../assets/images/8190ca6aabcb-mmdho0pd-04-3P.png)
+![M2 top app bar with elevation to separate it from main content.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmdho0pd-04-3P.png?alt=media&token=da65583f-2790-41fc-81cb-d0fd0fed567c>)
 
 _M2: Elevation and a drop shadow raise the top app bar when content is present underneath_
 
-![M3 app bar with subtle color difference from main content.](../../../assets/images/c57ef9bfe14b-mlkui2vk-07.png)
+![M3 app bar with subtle color difference from main content.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlkui2vk-07.png?alt=media&token=ab974573-5f3b-469a-9779-173b3101e1f0>)
 
 _M3: On scroll, a color fill overlay separates the app bar from the content beneath_

@@ -2,7 +2,7 @@
 title: "Button groups"
 source_url: "https://m3.material.io/components/button-groups/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/9d31dcf7ad0e-m4sskpfx-1_alt.png"
@@ -25,7 +25,7 @@ Button groups organize buttons and add interactions between them
 
 -   Support for single-select, multi-select, and selection-required
 
-![A standard button group and a segmented button group.](../../../assets/images/9d31dcf7ad0e-m4sskpfx-1_alt.png)
+![A standard button group and a segmented button group.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4sskpfx-1_alt.png?alt=media&token=9de29e7b-e0c9-442c-84df-2ad6a90d5f04>)
 
 _Button groups can contain buttons and icon buttons_
 
@@ -63,6 +63,6 @@ Configurations:
 
 -   Applies default shape to all buttons: round or square
 
-![Standard button group in 3 of 5 available sizes, and segmented button group with just icon buttons and just common buttons.](../../../assets/images/000c5a02decf-m0ca0qix-1.png)
+![Standard button group in 3 of 5 available sizes, and segmented button group with just icon buttons and just common buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0ca0qix-1.png?alt=media&token=36ca89da-91f7-443b-800d-a35bd8744481>)
 
 _Button groups are containers that hold buttons of many shapes and sizes_

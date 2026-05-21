@@ -2,7 +2,7 @@
 title: "Introducing Material Design Guidance for Large Screens"
 source_url: "https://m3.material.io/blog/material-design-for-large-screens"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/b7b98e56fc79-78oT8GROrcU1-CAKTdsCLUzhSnlS8l_YB33qv52wE1kBlqff0A77JYE8vStC1l__TG8hpqW7RniS-PIOL6fJfiEtEfv0OLpw.png"
@@ -14,7 +14,7 @@ assets:
 
 Designing and building for more devices
 
-![illustration of flowers in a small vase, framed by an illustration of more flowers in a large bowl](../../assets/images/b7b98e56fc79-78oT8GROrcU1-CAKTdsCLUzhSnlS8l_YB33qv52wE1kBlqff0A77JYE8vStC1l__TG8hpqW7RniS-PIOL6fJfiEtEfv0OLpw.png)
+![illustration of flowers in a small vase, framed by an illustration of more flowers in a large bowl](<https://lh3.googleusercontent.com/78oT8GROrcU1-CAKTdsCLUzhSnlS8l_YB33qv52wE1kBlqff0A77JYE8vStC1l__TG8hpqW7RniS-PIOL6fJfiEtEfv0OLpwKTmhYc94mSCzEuRApkMv>)
 
 _Illustration by Simone Noronha_
 
@@ -26,7 +26,7 @@ As a system capability, layout and component responsiveness are now baked into o
 
 Keep reading to see exactly what’s new, and check our session from I/O 2021: [_5 things you can do to prepare your app for large screens_](https://www.youtube.com/watch?v=UNDZn9GKJGo).
 
-![Side by side image of a large screen and small screen layout, with column grids overlaid](../../assets/images/48b6d6f2a8c4-hfTScd8mpxO4zJ-b0ovcUaRsSMVS_3S8lZ5gOMxLIlvP8x2eV6ubMQVG9Qx5gXpXEN1ny9DjVOV-hZP33h8iL6WE9M-g0kA6.png)
+![Side by side image of a large screen and small screen layout, with column grids overlaid](<https://lh3.googleusercontent.com/hfTScd8mpxO4zJ-b0ovcUaRsSMVS_3S8lZ5gOMxLIlvP8x2eV6ubMQVG9Qx5gXpXEN1ny9DjVOV-hZP33h8iL6WE9M-g0kA6ozrMYNaf7b47KEmVw2A>)
 
 New layout guidance defines responsive grid composition and behavior.
 
@@ -56,7 +56,7 @@ The [_Component behavior_](https://material.io/design/layout/component-behavior.
 -   The **overlay** behaviors has been moved to the [_Understanding layout_](https://material.io/design/layout/understanding-layout.html) article, as a distinct layout response.
 -   The **push** behavior has been removed, to focus on preserving the context of the body region as a navigation component enters the screen.
 
-![Diagram of a button at minimum and maximum width](../../assets/images/fcd6c45f0881-rz3-a6KQw7oFlBKmUGhdLK1R942lQWuSMDbjYSt2yd-YJu620jjhurfObDOu57HonuAzIeGuwuvgvP87L427yB5E3eK5CQJW.png)
+![Diagram of a button at minimum and maximum width](<https://lh3.googleusercontent.com/rz3-a6KQw7oFlBKmUGhdLK1R942lQWuSMDbjYSt2yd-YJu620jjhurfObDOu57HonuAzIeGuwuvgvP87L427yB5E3eK5CQJWY4EUMjwD7VtmDQ0E1Cs>)
 
 Component updates define new scaling and adaptation behaviors for individual Material components.
 

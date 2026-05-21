@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/guidelines"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/f6089c53c42a-m34mdbc5-icon-buttons-A_2.mp4"
@@ -50,7 +50,7 @@ Icon buttons can be placed directly on the background or in most container compo
 
 Multiple icon buttons can be placed in a standard button group to add interaction and motion between the buttons when pressed. [More about standard button groups](../button-groups/overview.md)
 
-![Icon buttons in a toolbar.](../../../assets/images/aa0f525d905b-m0c0dz7i-2.png)
+![Icon buttons in a toolbar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0dz7i-2.png?alt=media&token=5a110185-4604-4ade-839b-64d97ec3e9f7>)
 
 _Icon buttons can be used within other components, such as in a toolbar or card_
 
@@ -65,7 +65,7 @@ There are four icon button color styles, in order of emphasis:
 
 For the highest emphasis, use the filled style. For the lowest emphasis, use standard.
 
-![Diagram of default and toggle icon buttons in 4 color styles.](../../../assets/images/1701a0a3e6bb-mal4e7zr-3.png)
+![Diagram of default and toggle icon buttons in 4 color styles.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal4e7zr-3.png?alt=media&token=822c3843-626e-4d15-b00a-2c228db906af>)
 
 _The default (left) and toggle (right) icon buttons are available in all four color styles_
 
@@ -73,11 +73,11 @@ Use a filled, tonal, or outlined icon button when the button needs more visual s
 
 Choose the right style and emphasis for the situation.
 
-![‘Heart” icon on a background about a cooking show.](../../../assets/images/e0f96b5c8069-m0c0hfou-4.png)
+![‘Heart” icon on a background about a cooking show.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0hfou-4.png?alt=media&token=d75ce156-ae29-4e58-8a52-ff89d0acf750>)
 
 _Use icons with a background to make them easy to see on any surface_
 
-![Text button and icon button in an app together.](../../../assets/images/650772a5e2a6-m0c0ir4x-5.png)
+![Text button and icon button in an app together.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0ir4x-5.png?alt=media&token=59ab40b3-9d13-4f3f-9009-6b5ecb0b6217>)
 
 _When mixing button variants, use color styles to make the primary action clear_
 
@@ -93,7 +93,7 @@ Use the **tonal** style as a middle ground between filled and outlined icon butt
 
 For example, use the tonal style for actions like **Raise hand** in a video meeting. When selected, its visual emphasis is greater than the outlined menu button, but less than the filled **End call** button.
 
-![Icons found on the bottom of a telephone screen, including a “hang up” icon with a bright red tone.](../../../assets/images/e63d2c767c9e-m0c0lz0p-7.png)
+![Icons found on the bottom of a telephone screen, including a “hang up” icon with a bright red tone.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0lz0p-7.png?alt=media&token=da11d026-2024-4119-ae4d-719fa72443c7>)
 
 _Leverage the different color styles to establish emphasis and direct people to important actions_
 
@@ -101,7 +101,7 @@ Use the **outlined** style for medium-emphasis buttons. It’s useful when the b
 
 Use the **standard** style for low-emphasis buttons, or when placing buttons on a colorful surface.
 
-![Left and right arrow outlined icon buttons indicating that more cards are available to browse.  ](../../../assets/images/c52e04c1ccf0-m5xjqza2-8.png)
+![Left and right arrow outlined icon buttons indicating that more cards are available to browse.  ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5xjqza2-8.png?alt=media&token=47a14a51-a2ca-4f91-8d5f-540cf46986a2>)
 
 _Outlined buttons indicate that more content is available without grabbing attention_
 
@@ -123,7 +123,7 @@ And three widths:
 
 Use size and width to provide emphasis and visual hierarchy in a page with multiple buttons. The main action should be the most visually prominent, whether through color or size, like starting and stopping a timer or playing and pausing a song.
 
-![Variety of buttons in a timer app.](../../../assets/images/e2846b2b69fa-m5xk0kj1-10.png)
+![Variety of buttons in a timer app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm5xk0kj1-10.png?alt=media&token=84ca5176-249f-4fdb-a1a5-ad091e974b17>)
 
 _Use different button colors and sizes to provide visual hierarchy and emphasize primary actions_
 
@@ -131,13 +131,13 @@ Not all icon buttons will need to emphasize a primary and secondary action. 
 
 When buttons have a similar importance, they should be the same size.
 
-![Uniform button sizes in a calculator app.](../../../assets/images/92fc2677f868-macq65s8-11.png)
+![Uniform button sizes in a calculator app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmacq65s8-11.png?alt=media&token=749ee537-83e4-4cd2-a706-a14d74c4296d>)
 
 _When everything should have the same emphasis, use icon buttons that are the same size_
 
 ## Anatomy
 
-![Diagram of anatomy of outlined, standard, and filled icon buttons. ](../../../assets/images/a698d92b9ac3-m0dw9g2n-11.png)
+![Diagram of anatomy of outlined, standard, and filled icon buttons. ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dw9g2n-11.png?alt=media&token=4b25bd9e-b8bd-41dd-bf61-840592be5a93>)
 
 _Icon; Container_
 
@@ -149,7 +149,7 @@ Default icon buttons should use filled icons.
 
 Toggle buttons should use an outlined icon when unselected, and a filled version of the icon when selected.
 
-![“Heart” icon in a restaurant app.](../../../assets/images/7cdd99ff4b5c-m0c0tpl2-12.png)
+![“Heart” icon in a restaurant app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0tpl2-12.png?alt=media&token=b1823b3b-520b-4c87-856e-d1f2d28225a5>)
 
 _Ensure the meaning of the icon is clear, such as a heart indicating Favorite_
 
@@ -159,7 +159,7 @@ For selected toggle buttons, if a filled version of an icon doesn’t exist, inc
 
 This is to ensure that selection is communicated through at least two properties, rather than just color. This requirement doesn't apply to default non-toggle buttons.
 
-![Selected, semi-bold icon in a text editing app.](../../../assets/images/059c02239f4b-mal4l31k-14.png)
+![Selected, semi-bold icon in a text editing app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal4l31k-14.png?alt=media&token=8a03cafa-e5b6-4a7a-8ffd-49eca72f62e1>)
 
 _Icons without a fill should be semibolded when selected_
 
@@ -167,7 +167,7 @@ _Icons without a fill should be semibolded when selected_
 
 The container provides increased contrast and hierarchy in places that need more visual separation from the background or other elements.
 
-![Container separating a video call preview with actions you can take.](../../../assets/images/6dcd77e5d380-m0c0wdzg-13.png)
+![Container separating a video call preview with actions you can take.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0wdzg-13.png?alt=media&token=d8ee5c0a-ec56-4503-92b7-e149822a522b>)
 
 _The container provides visual separation from the background image_
 
@@ -179,7 +179,7 @@ These buttons should be used for common, easily understandable actions. 
 
 Only use a few icon buttons at once.
 
-![App bar with icon buttons.](../../../assets/images/6d9f9b3d92ac-m0c0xugp-14.png)
+![App bar with icon buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0xugp-14.png?alt=media&token=c015216c-90e6-4071-81a5-7cc615306ed1>)
 
 _App bars often contain icon buttons_
 
@@ -187,7 +187,7 @@ In dense layouts, group popular actions by placing many icon buttons next to eac
 
 These components draw attention or add interaction between buttons.
 
-![Toolbar with icon buttons and FAB.](../../../assets/images/f2512942eaad-m0c0z5xa-15.png)
+![Toolbar with icon buttons and FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c0z5xa-15.png?alt=media&token=2eb01ea3-eaf7-4884-89f5-0c396c18be40>)
 
 _A toolbar is a collection of icon buttons and other components_
 

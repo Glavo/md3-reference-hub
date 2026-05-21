@@ -2,7 +2,7 @@
 title: "Adjusting Grade for Mode"
 source_url: "https://m3.material.io/blog/readability-research"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/29d86a0b1965-Kj5Hi7eTnTTkho_DbsWuvoTo1LmyQpVJXGnmCD9u0eYZ6EErSX71gzh4zsi2MpyS4N5WoAqRsX5eapGrkPTd-GmhveRMckuM.png"
@@ -19,7 +19,7 @@ assets:
 
 Measuring the impact font grade has on text readability
 
-![Image](../../assets/images/29d86a0b1965-Kj5Hi7eTnTTkho_DbsWuvoTo1LmyQpVJXGnmCD9u0eYZ6EErSX71gzh4zsi2MpyS4N5WoAqRsX5eapGrkPTd-GmhveRMckuM.png)
+![Image](<https://lh3.googleusercontent.com/Kj5Hi7eTnTTkho_DbsWuvoTo1LmyQpVJXGnmCD9u0eYZ6EErSX71gzh4zsi2MpyS4N5WoAqRsX5eapGrkPTd-GmhveRMckuMvScAoAGOh1cp8r3SokH2>)
 
 Published: 2022-05-11T09:00:00
 
@@ -35,7 +35,7 @@ Let’s dive in!
 
 Before we get started, let’s make sure we all understand what variable fonts are. The best way to describe variable fonts may be in comparison to traditional fonts. Traditional fonts, for instance, need a different font file for every available style, like thin, normal, or bold (see the image below for an example). Historically, letters were cast in metal and foundries would create a new letter set for each style, and traditional digital fonts still follow this pattern.
 
-![Image showing the text “thin, normal, bold, black” in Roboto font, demonstrating the range of font weights between thin to black](../../assets/images/10a69e348e11-UNg4f2lBdyWLA9GgmFSSfmHCB3NS2jqKAB4a3a-z8xK7Jz9TTOQM5-B48wNjwndohoCKQaFlcyB1E4JQA2bi7bMV8ucgFals.png)
+![Image showing the text “thin, normal, bold, black” in Roboto font, demonstrating the range of font weights between thin to black](<https://lh3.googleusercontent.com/UNg4f2lBdyWLA9GgmFSSfmHCB3NS2jqKAB4a3a-z8xK7Jz9TTOQM5-B48wNjwndohoCKQaFlcyB1E4JQA2bi7bMV8ucgFalss0oZ_7LTdddGA989zQ>)
 
 Roboto font showing thin, normal, bold, and black weights.
 
@@ -43,7 +43,7 @@ Variable fonts, however, provide the ability to use _**type as software**_ and b
 
 Similar to the weight variable font characteristic, you can also modify text grade. Grade can be thought of like weight in most ways, but grade maintains text width, so you can increase grade from the minimum to the maximum values while minimizing the impact on the overall design of text blocks or causing line reflows. An example of text cycling through the minimum to maximum grade values for a Variable Font is shown below.
 
-![An animation showing the Roboto Flex Variable Font displaying the text “maine lobster,” cycling from the minimum to the maximum value for the grade Variable Font characteristic.](../../assets/images/6f1e91af9950-QtIYUc2KV4oek2V3PocYGzc8MlTMcgbCgvAmgHdRC2evRpffuGJnLKVANE07iEM-UVbzEGIDbM8qTBGkUPSlBEdINL45jW14.png)
+![An animation showing the Roboto Flex Variable Font displaying the text “maine lobster,” cycling from the minimum to the maximum value for the grade Variable Font characteristic.](<https://lh3.googleusercontent.com/QtIYUc2KV4oek2V3PocYGzc8MlTMcgbCgvAmgHdRC2evRpffuGJnLKVANE07iEM-UVbzEGIDbM8qTBGkUPSlBEdINL45jW14S1To1raY96OBoYjyszo>)
 
 Roboto Flex Variable Font, demonstrating the continuous range between the minimum and maximum values for grade.
 
@@ -59,13 +59,13 @@ If you’re still curious about the details of our study design, here’s a brie
 
 This part is easy because we can describe all our results in a single graph:
 
-![Graph showing readability results across multiple values of grade, between both light mode and dark mode](../../assets/images/4d173b5d65a3-Fs0jmhIGONaK5azzaPi1hcpbixcrLCoBhCmCzI7fTz2XU3dvq8WnBXHCkq4rjRJHSAoU_vWlh4iBJjZ8qFXM-V21e4VJg16a.png)
+![Graph showing readability results across multiple values of grade, between both light mode and dark mode](<https://lh3.googleusercontent.com/Fs0jmhIGONaK5azzaPi1hcpbixcrLCoBhCmCzI7fTz2XU3dvq8WnBXHCkq4rjRJHSAoU_vWlh4iBJjZ8qFXM-V21e4VJg16aQ66sQ35oPW3Gpv9oiA>)
 
 Graph showing readability results across multiple values of grade, between both light mode and dark mode
 
 From a quick glance at this graph we can see a couple things right away. First, readability in dark mode (the blue line, on top) appears to be consistently higher than readability in light mode (the orange line, below). And second, while readability in dark mode appears to be relatively stable across values of grade, readability in light mode appears to improve as grade values increase (that is, the time to read a phrase decreases as the value for grade increases, shown by the orange line going down and to the right). But are these apparent differences _significant_, in the [statistical sense](https://en.wikipedia.org/wiki/Statistical_significance)? We had three main findings, described below using the same graph.
 
-![Showing readability across light mode vs dark mode, here calling out no significant difference in readability for all values of grade for dark mode](../../assets/images/cb2b3c0d6a19-L1yLlLcewN03yJZHNNg6gCDcxdad47bJ0hIEvcNlmLIIg5GyrvspcD3kSaInASs3r3vgmxaU-xCWqHAR5Sis4amEid8ct5Zi.png)
+![Showing readability across light mode vs dark mode, here calling out no significant difference in readability for all values of grade for dark mode](<https://lh3.googleusercontent.com/L1yLlLcewN03yJZHNNg6gCDcxdad47bJ0hIEvcNlmLIIg5GyrvspcD3kSaInASs3r3vgmxaU-xCWqHAR5Sis4amEid8ct5ZikbeYom0veerCc4G6CT8>)
 
 Showing readability across light mode vs dark mode, here calling out no significant difference in readability for all values of grade for dark mode
 
@@ -73,7 +73,7 @@ _**First**_, we didn’t find any impact of grade on readability for dark mode. 
 
 Not _quite_. While we didn’t find a significant impact of grade on readability in dark mode, it’s possible that in other contexts—for instance, reading long paragraphs instead of short phrases—the difference might be significant. But for the contexts we tested, we’d suggest that design can select a value of grade they feel is most appealing, without that grade value negatively impacting readability.
 
-![Showing readability across light mode vs dark mode, here calling out a significant difference in readability between the lowest and highest grade values for dark mode](../../assets/images/394b59ded6b5-TV7TozFl8Zk-ANMLlc91yL2DiCx9YdVvVetGL3Y58886VWezw8k8-IMf6-xbxgvYPDf6McQhZbuF9begLY54993QZxjePxx_.png)
+![Showing readability across light mode vs dark mode, here calling out a significant difference in readability between the lowest and highest grade values for dark mode](<https://lh3.googleusercontent.com/TV7TozFl8Zk-ANMLlc91yL2DiCx9YdVvVetGL3Y58886VWezw8k8-IMf6-xbxgvYPDf6McQhZbuF9begLY54993QZxjePxx_vnGRKaaf55yefrRJgXM>)
 
 Showing readability across light mode vs dark mode, here calling out a significant difference in readability between the lowest and highest grade values for dark mode
 
@@ -81,7 +81,7 @@ _**Second**_, we _did_ find a significant difference between the lowest and high
 
 So what does this mean? Basically, in light mode, higher values of grade result in text that is more readable. This difference doesn’t appear to exist when the grade value is 0 (the default), so increasing grade arbitrarily from the default won’t improve readability significantly. But if you’re considering adopting the _minimum_ value of grade (i.e., -200 in the graph above), you should be sensitive to the fact that this may have an adverse impact on the readability of your text. Which is not to say that you should never use these values, but consider using them in a context where that impact is balanced by the aesthetic or brand goals you’re trying to achieve.
 
-![Showing readability across light mode vs dark mode, here calling out a significant difference in readability between the highest grade value in light mode and grade values in dark mode above around -115](../../assets/images/d41e06e72eef-OrVr4xEo02eAO3aPb1zGsQF1y9fOsssjWzLYxV1hx1K2L4qQVfqSyTvY37EFPb45D5Wem5ImUXf8sLwpUyblwPUM_DiO9Lp-.png)
+![Showing readability across light mode vs dark mode, here calling out a significant difference in readability between the highest grade value in light mode and grade values in dark mode above around -115](<https://lh3.googleusercontent.com/OrVr4xEo02eAO3aPb1zGsQF1y9fOsssjWzLYxV1hx1K2L4qQVfqSyTvY37EFPb45D5Wem5ImUXf8sLwpUyblwPUM_DiO9Lp-LSarzklZceTGvtnl4Kc>)
 
 Showing readability across light mode vs dark mode, here calling out a significant difference in readability between the highest grade value in light mode and grade values in dark mode above around -115
 
@@ -105,7 +105,7 @@ More broadly, though, I think there’s a _**huge**_ opportunity to use approach
 
 Consider for example designing a product that can be used both when you’re right next to it or when you’re across the room.
 
-![Animation of a small screen in tablet orientation showing the text, “Your order is 7 mins away.” As the viewer backs away from the screen the text size and grade increases, as the text changes to “7 mins away,” showing that the text is always readable at multiple distances](../../assets/images/40cfda7edc3a-u0Y_JNSbFzBdT-phyhew_8DsEcbdzkQgkIltSXKdU-mVchOFQZ0ZYeVep4apZt1jZSNHaRKLNhinzpRYadel2dSbkgaYtfEr.png)
+![Animation of a small screen in tablet orientation showing the text, “Your order is 7 mins away.” As the viewer backs away from the screen the text size and grade increases, as the text changes to “7 mins away,” showing that the text is always readable at multiple distances](<https://lh3.googleusercontent.com/u0Y_JNSbFzBdT-phyhew_8DsEcbdzkQgkIltSXKdU-mVchOFQZ0ZYeVep4apZt1jZSNHaRKLNhinzpRYadel2dSbkgaYtfEr3rVJIilT8Zr8H7GTKS8>)
 
 An example of how the approach to readability research described above could be used to refine the experiences of future interactions
 

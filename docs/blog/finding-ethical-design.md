@@ -2,7 +2,7 @@
 title: "Finding Ethical Design"
 source_url: "https://m3.material.io/blog/finding-ethical-design"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/048a20fcc1b8-XZe4yRiPS-M2DK2LF17ncsifYjO6iCwVKw3yM80-0Q_I7IMnd3hfLSSLRtYRV5-DV4jGkv3RDLfIqRy4ppxigOt-VW6-ObEr.png"
@@ -14,7 +14,7 @@ assets:
 
 Incorporating ethics in the daily work of design
 
-![Line drawing of a figure looking at their reflection surrounded by abstract shapes](../../assets/images/048a20fcc1b8-XZe4yRiPS-M2DK2LF17ncsifYjO6iCwVKw3yM80-0Q_I7IMnd3hfLSSLRtYRV5-DV4jGkv3RDLfIqRy4ppxigOt-VW6-ObEr.png)
+![Line drawing of a figure looking at their reflection surrounded by abstract shapes](<https://lh3.googleusercontent.com/XZe4yRiPS-M2DK2LF17ncsifYjO6iCwVKw3yM80-0Q_I7IMnd3hfLSSLRtYRV5-DV4jGkv3RDLfIqRy4ppxigOt-VW6-ObErG8AFdyo>)
 
 _Illustration by Jefferson Cheng_
 
@@ -28,7 +28,7 @@ I slowed down to understand my role as a designer. I started looking at my contr
 
 Every designer defines their role differently, often in response to the type of work they do, how they do it, and who they do it for. But, however a designer understands their role, the social and cultural impacts of the work are inevitable. This means we need to make space in the definition of a designer’s work to include responsible practices that account for our impact.
 
-![Line drawing of a flower under an arc of abstract shapes](../../assets/images/fe501262e757-QaVnNOcq7wdYbhqWJ_AiUXKESOYjhj1qJV1QFSfwMQE4sBulYQBpy5s5sv1HziWeGS4JwU34OT3XzNTKkZIThSQYcMgeBbP8.png)
+![Line drawing of a flower under an arc of abstract shapes](<https://lh3.googleusercontent.com/QaVnNOcq7wdYbhqWJ_AiUXKESOYjhj1qJV1QFSfwMQE4sBulYQBpy5s5sv1HziWeGS4JwU34OT3XzNTKkZIThSQYcMgeBbP86ZCySA>)
 
 ## Space to learn
 
@@ -38,7 +38,7 @@ The more I learn, the more humility I feel. By expanding our exposure to ethical
 
 There’s no single way to apply ethics to a design practice; perhaps the only rule is to persistently look to the future as well as the past when designing. Our decisions are informed by the past; and because our decisions have an impact, they also inform futures that deserve to be proactively anticipated. Evaluating legacies and anticipating outcomes of design work can result in meaningful changes to the status quo and can be an act of hope.
 
-![Line drawing of a sun with face and legs walking through a tunnel of abstract shapes](../../assets/images/f425a6f5d7d8-qAxb9B3L2z1QQAchCpD5TS7QRqcgOvSnMR7eViVuGZsfmiUiZckcmGzIWykX4Su-VQemOf4192f0cF9QsTHRIP-xB_6zzzzj.png)
+![Line drawing of a sun with face and legs walking through a tunnel of abstract shapes](<https://lh3.googleusercontent.com/qAxb9B3L2z1QQAchCpD5TS7QRqcgOvSnMR7eViVuGZsfmiUiZckcmGzIWykX4Su-VQemOf4192f0cF9QsTHRIP-xB_6zzzzjIH7uCA>)
 
 ## Making a choice
 

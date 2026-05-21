@@ -2,7 +2,7 @@
 title: "Building a Material Dark Theme on Android"
 source_url: "https://m3.material.io/blog/android-dark-theme-tutorial"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/9fdc73b2a8b7-G7zEHSzJ1gx4YqOXImcWFm1zyfeHl5vcZooH5rMiKDleGAfk6W8HW2SoMcQZibcU8RGjCpSbM_-FLi6FZ0VN_oXyCJmbWl8Q.png"
@@ -20,7 +20,7 @@ assets:
 
 How to turn out the lights on Android using the MDC library
 
-![Illustration of a bottom navigation bar next to a stylized sunset.](../../assets/images/9fdc73b2a8b7-G7zEHSzJ1gx4YqOXImcWFm1zyfeHl5vcZooH5rMiKDleGAfk6W8HW2SoMcQZibcU8RGjCpSbM_-FLi6FZ0VN_oXyCJmbWl8Q.png)
+![Illustration of a bottom navigation bar next to a stylized sunset.](<https://lh3.googleusercontent.com/G7zEHSzJ1gx4YqOXImcWFm1zyfeHl5vcZooH5rMiKDleGAfk6W8HW2SoMcQZibcU8RGjCpSbM_-FLi6FZ0VN_oXyCJmbWl8QOLa9tQ>)
 
 Published: 2020-08-26T13:00:00
 
@@ -60,7 +60,7 @@ You need to change your theme to extend from one of the `Theme.MaterialComponent
 
 This step is optional, but allows you to support devices running versions of Android before Android 10. Since most devices before Android 10 do not have a system-level dark theme setting\*, apps can provide their own in-app setting to allow users to choose what theme to use per-app.
 
-![Dark Theme settings screen with dark grey background and purple switch toggle.](../../assets/images/a862ad4ed77b-fj735Xvllsyev9581m3U8iqFqkA3mQoJtc4cVxWlM1ZNcrKCqr6WAjCKsXNkDSWfhJwXZybObNdKUCrIQWJhUMIVg9XGlG2_.png)
+![Dark Theme settings screen with dark grey background and purple switch toggle.](<https://lh3.googleusercontent.com/fj735Xvllsyev9581m3U8iqFqkA3mQoJtc4cVxWlM1ZNcrKCqr6WAjCKsXNkDSWfhJwXZybObNdKUCrIQWJhUMIVg9XGlG2_G4ad_Yc>)
 
 Example in-app dark theme setting
 
@@ -100,7 +100,7 @@ Next up, let’s look at your app’s color palette. It’s likely that your app
 
 We’re going to be talking about color tones a lot below, so here’s a quick recap on the Material color system. It defines colors as a series of tones within each color. The tones are numbered from 50 (lightest, least saturated tone), to 900 (darkest, most saturated tone). Here’s the baseline teal and indigo color tones:
 
-![Two rows of square purple and turquoise colors over a light grey background increasing in lightness from dark purple to light purple, and dark turquoise to light turquoise.](../../assets/images/413a62986102-_dSFAyUwtgMvXkelYY0YzkHw4IHl0NBqoD-VtPbXtVehCxnCqjFXmCvcMCG2KkK-yz2YQUt2qsrTP_knfF9nnukVKPSJcYFD.png)
+![Two rows of square purple and turquoise colors over a light grey background increasing in lightness from dark purple to light purple, and dark turquoise to light turquoise.](<https://lh3.googleusercontent.com/_dSFAyUwtgMvXkelYY0YzkHw4IHl0NBqoD-VtPbXtVehCxnCqjFXmCvcMCG2KkK-yz2YQUt2qsrTP_knfF9nnukVKPSJcYFDhQx2Ow>)
 
 Baseline Material color palettes
 
@@ -114,7 +114,7 @@ For your `colorPrimaryVariant`, we recommend using the `colorPrimary` from your 
 
 These values are just a starting point though. You should ensure that the chosen colors have a [WCAG AA](https://www.w3.org/WAI/standards-guidelines/wcag/) contrast ratio of at least 4.5:1 against the background/surface color at all used elevation levels (more on that later).
 
-![A row of square purple colors over a dark grey background increasing in lightness from dark purple to light purple](../../assets/images/d7ea665b110b-dzVEmxUUQDz1IF27ccyMgDwUS112OR1ssWkhw03uYdBa5A3OaxZOb7D0jWHhLtVJb8YOWrEjUFyzeXRascLR5O1VTavnqIMe.png)
+![A row of square purple colors over a dark grey background increasing in lightness from dark purple to light purple](<https://lh3.googleusercontent.com/dzVEmxUUQDz1IF27ccyMgDwUS112OR1ssWkhw03uYdBa5A3OaxZOb7D0jWHhLtVJb8YOWrEjUFyzeXRascLR5O1VTavnqIMedQhl>)
 
 [The Material color tool](https://material.io/resources/color/) is handy for experimenting with colors.
 
@@ -134,7 +134,7 @@ If the device and/or app has been set to use a dark theme, the app should read t
 
 With that intention in mind, even if we use muted **50–200** color tones for branded surfaces, it can still be too bold and emit too much light for a dark theme:
 
-![A bottom app bar component with a light purple background covered by a floating action button component with a dark grey background and white plus icon.](../../assets/images/cb3cf0eb20b5-msOcZ1La-avPL1xS4jxwUTTZ4F7nZrdq8AGaAiAS6dNNTJafxDK2bSRS_zWgzFcvnSVlazr_N0lf_GUzSezLDcP-H-rT4ruf.png)
+![A bottom app bar component with a light purple background covered by a floating action button component with a dark grey background and white plus icon.](<https://lh3.googleusercontent.com/msOcZ1La-avPL1xS4jxwUTTZ4F7nZrdq8AGaAiAS6dNNTJafxDK2bSRS_zWgzFcvnSVlazr_N0lf_GUzSezLDcP-H--rT4ruf1CmA50>)
 
 Avoid filling large regions with vivid colors.
 
@@ -148,7 +148,7 @@ Let’s look at an example. Say we have a bottom app bar like the above example,
 
 If you have a non-MDC view which you would like to be treated similarly, you can use the `?attr/colorPrimarySurface` theme attribute:
 
-![Two phone screens showing a blue background on the left and a dark grey background on the right.](../../assets/images/540d9780f71b-SgXfHggIrxdROUQs8lcMOZgFqCf5-txosXBhbhfOX5vjzN_X8au4N8fmoyK03TefsWvePW8dl8DQu2ioC6r1WO8EdiWTjC62.png)
+![Two phone screens showing a blue background on the left and a dark grey background on the right.](<https://lh3.googleusercontent.com/SgXfHggIrxdROUQs8lcMOZgFqCf5-txosXBhbhfOX5vjzN_X8au4N8fmoyK03TefsWvePW8dl8DQu2ioC6r1WO8EdiWTjC62y4SS4w>)
 
 colorPrimarySurface applied across light and dark themes
 
@@ -158,7 +158,7 @@ To subtly express your brand color on all of your app’s surface, you can set y
 
 For an example using the baseline theme’s values:
 
-![A diagram showing two surfaces, translucent purple and dark grey, being composited vertically over each other.](../../assets/images/b682b123340c-NBedPZaXuj5x-DTzxExI3u-1nO_4FRGWR-zQV1VEZkj45Cj2gIJLj_K8TqCychRP7Uy-xHSwRz6JV3KtWGEPiXnfosem_l3w.png)
+![A diagram showing two surfaces, translucent purple and dark grey, being composited vertically over each other.](<https://lh3.googleusercontent.com/NBedPZaXuj5x-DTzxExI3u-1nO_4FRGWR-zQV1VEZkj45Cj2gIJLj_K8TqCychRP7Uy-xHSwRz6JV3KtWGEPiXnfosem_l3wUWjM>)
 
 A custom colorSurface can be expressed as a calculated color based on a composition of colorPrimary over a dark theme's colorSurface
 
@@ -172,7 +172,7 @@ We’ve just gone through a lot of information about choosing colors, but how sh
 
 We’re going to rely on some organisation of our themes. We’re going to use a theme structure like this:
 
-![A diagram with yellow, green, and red blocks indicating a platform, base, and app theme hierarchy.](../../assets/images/4ecdd12d910d-7hHe6QpYb7DIJZF3nOFiMREl9yyPdyVyeBSYLKdbOQgcKT6fI1S1HOFoVP8FfQ_Av2po-V7h_5-GzBrB6dwK623LDyueBm5A.png)
+![A diagram with yellow, green, and red blocks indicating a platform, base, and app theme hierarchy.](<https://lh3.googleusercontent.com/7hHe6QpYb7DIJZF3nOFiMREl9yyPdyVyeBSYLKdbOQgcKT6fI1S1HOFoVP8FfQ_Av2po-V7h_5-GzBrB6dwK623LDyueBm5AeFbN5A>)
 
 This example theme structure works well for dark themes
 
@@ -188,7 +188,7 @@ Shadows in the Material system are cast by numerous [light sources](https://mate
 
 For light surface colors, such as white, that change is imperceptible since it is already light. For dark surfaces though, it can have a large effect:
 
-![A square surface and a dial. The surface gets lighter as the dial increases its elevation.](../../assets/images/8eea8928a177-LowBLDd5VzR1-rd2zk1qZySKubJRoXOMy8kzPcvKVJs7p2mmUzDgUM94ZeOtXntj67pcRv1XbmM3BXQ7tcEWwX4ybwT-dg4Q.png)
+![A square surface and a dial. The surface gets lighter as the dial increases its elevation.](<https://lh3.googleusercontent.com/LowBLDd5VzR1-rd2zk1qZySKubJRoXOMy8kzPcvKVJs7p2mmUzDgUM94ZeOtXntj67pcRv1XbmM3BXQ7tcEWwX4ybwT-dg4Qg0nu76o>)
 
 Elevation overlays lighten as the elevation value increases
 

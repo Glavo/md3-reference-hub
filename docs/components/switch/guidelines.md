@@ -2,7 +2,7 @@
 title: "Switch"
 source_url: "https://m3.material.io/components/switch/guidelines"
 lastmod: "2026-01-06"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/4aefc7eba60c-mg7sxhp8-01.png"
@@ -33,7 +33,7 @@ Switches toggle the selection of an item on or off
 
 ## Guidelines
 
-![A switch in 2 states, off and on.](../../../assets/images/4aefc7eba60c-mg7sxhp8-01.png)
+![A switch in 2 states, off and on.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7sxhp8-01.png?alt=media&token=9cf20c7f-1383-4349-a75b-f6242b3a8aaf>)
 
 _Switches change settings and other options immediately_
 
@@ -59,7 +59,7 @@ Use switches to:
 -   Toggle a single item on or off
 -   Immediately activate or deactivate something
 
-![Switch used in notification settings to turn on and off the "play over notifications" function.](../../../assets/images/71920a172821-mg7txet6-03.png)
+![Switch used in notification settings to turn on and off the "play over notifications" function.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7txet6-03.png?alt=media&token=9dde367e-511f-44db-a9cd-6f3ea4c2630c>)
 
 _Switches are commonly used on mobile to turn settings on or off_
 
@@ -67,11 +67,11 @@ Switches control binary options, not opposing ones. A binary option represents a
 
 Opposing options are when only one option in a set can be selected at a time, like a list or map view. Use a connected button group instead.
 
-![A connected button group with options of List View and Map View.](../../../assets/images/a42a4184c323-mg7uio91-05-do.png)
+![A connected button group with options of List View and Map View.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7uio91-05%20-%20do.png?alt=media&token=b2b0ba0d-c3d0-4239-8b0f-d96c53e9457c>)
 
 _Use a connected button group to choose between opposing options_
 
-![A switch with non-binary options of List View and Map View.](../../../assets/images/a8aacfaeec0a-mg7ukia8-06-dont.png)
+![A switch with non-binary options of List View and Map View.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7ukia8-06%20-%20dont.png?alt=media&token=79ae5e92-2043-4265-b926-1965e7805d0b>)
 
 _Avoid using switches to toggle between opposing options_
 
@@ -85,33 +85,33 @@ Use radio buttons to select a single option in a list.
 
 Use switches to select standalone or more verbose options in a list, like settings.
 
-![2 checkboxes, 1 unchecked and 1 checked.](../../../assets/images/6bf26a16ee78-mg7ul4t0-07.png)
+![2 checkboxes, 1 unchecked and 1 checked.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7ul4t0-07.png?alt=media&token=95b2a20a-6385-4636-8418-d6322ab44f62>)
 
 _Checkboxes_
 
-![2 radio buttons, 1 in an enabled state, 1 in a disabled state.](../../../assets/images/b46e98b7bca0-mg7ulhxp-08.png)
+![2 radio buttons, 1 in an enabled state, 1 in a disabled state.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7ulhxp-08.png?alt=media&token=3f1f093d-f109-41cc-94b9-8275abe131d8>)
 
 _Radio buttons_
 
-![Mobile screen with checkboxes to select list items and call to action button to update the list.](../../../assets/images/88ff3fe42453-mg7ustxv-09_Do.png)
+![Mobile screen with checkboxes to select list items and call to action button to update the list.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7ustxv-09_Do.png?alt=media&token=2f9d9c72-a27f-4bb4-a475-f1bdaa198acf>)
 
 _Use checkboxes (not switches) to let people select one or more options from a list_
 
-![Mobile screen with checkboxes to select list items and call to action switch to update the list.](../../../assets/images/f59618e66a1e-mg7ut60g-10_Don't.png)
+![Mobile screen with checkboxes to select list items and call to action switch to update the list.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7ut60g-10_Don't.png?alt=media&token=258cf8f8-e60a-4b0f-b0f0-9c08f5a70a8f>)
 
 _A switch can't replace a button. People expect a call to action to be a button, not a switch._
 
-![Radio buttons used to select a language for a mobile app.](../../../assets/images/93eab5c03ca8-mg7uvzmf-11_do.png)
+![Radio buttons used to select a language for a mobile app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7uvzmf-11_do.png?alt=media&token=07dcfa64-19b2-481b-b65d-4703baafa5e0>)
 
 _Use radio buttons (not switches) when only one item can be selected from a list_
 
-![Mobile screen with switches to select list items and call to action button to update the list.](../../../assets/images/42bec459bdd4-mg7vc3q1-12_don't.png)
+![Mobile screen with switches to select list items and call to action button to update the list.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7vc3q1-12_don't.png?alt=media&token=3176413a-9e5d-448f-b807-36ca1b72ac04>)
 
 _Avoid using a switch to select multiple options that require people to save. Switches should be immediate. Use checkboxes instead._
 
 ## Anatomy
 
-![3 elements of a switch. ](../../../assets/images/12315816fa63-mg7vge0i-13.png)
+![3 elements of a switch. ](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7vge0i-13.png?alt=media&token=082b9467-6cbf-4fea-a904-be06d0b5b7ef>)
 
 _Track; Handle; Icon (optional)_
 
@@ -125,11 +125,11 @@ The switch handle can contain an optional icon.
 
 Icons can be used to visually emphasize the switch’s selection. The icon’s meaning should be clear and unambiguous to help the people understand whether switch is on or off.
 
-![2 switches, the unselected state icon is an X, and the selected state is a checkmark.](../../../assets/images/06fc31d0595f-mg7vjfr0-15_Do.png)
+![2 switches, the unselected state icon is an X, and the selected state is a checkmark.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7vjfr0-15_Do.png?alt=media&token=a17fe805-0167-4f6a-b155-f7c3f5aacb4b>)
 
 _Use icons that clearly communicate whether the switch is on or off, such as an X and a checkmark_
 
-![A switch’s unselected handle icon is a moon and the selected state icon is a pencil.](../../../assets/images/e178b0f06039-mg7vpyog-16_Don't.png)
+![A switch’s unselected handle icon is a moon and the selected state icon is a pencil.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7vpyog-16_Don't.png?alt=media&token=70eb3f5d-9352-484d-8077-26b25f8c8339>)
 
 _Avoid using more ambiguous or non-binary icons, such as a moon or edit icon_
 
@@ -137,11 +137,11 @@ _Avoid using more ambiguous or non-binary icons, such as a moon or edit icon_
 
 Switches should always be paired with an inline label describing what the switch controls when selected.
 
-![Switch label text: 1. Permission manager, App has access to your data. 2. Camera access, app has access to your camera. 3. Show password.](../../../assets/images/6210ccb8918b-mg7vyj3y-17_do.png)
+![Switch label text: 1. Permission manager, App has access to your data. 2. Camera access, app has access to your camera. 3. Show password.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7vyj3y-17_do.png?alt=media&token=dca3bc09-c973-4f83-8394-4012f61b958b>)
 
 _Keep labels short and direct. A label should describe what the control does when the switch is on._
 
-![On a mobile screen’s privacy settings, 2 switches have “On” label text and checkmark icons. The last switch has “Off” label text and no icon.](../../../assets/images/d2c776ded9a3-mg7vz4xm-18_don't.png)
+![On a mobile screen’s privacy settings, 2 switches have “On” label text and checkmark icons. The last switch has “Off” label text and no icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7vz4xm-18_don't.png?alt=media&token=e81167e0-82e8-487e-af0a-4b91d93360e9>)
 
 _Don't add label text into the switch; the font size would be too small to be accessible. Use an appropriate icon instead._
 
@@ -149,7 +149,7 @@ _Don't add label text into the switch; the font size would be too small to be ac
 
 Switches are often arranged in stacked layouts.
 
-![Screen showing labels and stacked switches in varying on/off modes.](../../../assets/images/210aa0ae31fb-mg7xvplw-19_placement.png)
+![Screen showing labels and stacked switches in varying on/off modes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg7xvplw-19_placement.png?alt=media&token=73f5211c-64e5-4b82-b081-95ab81ae7b9d>)
 
 _Settings screens are common places to use switches_
 

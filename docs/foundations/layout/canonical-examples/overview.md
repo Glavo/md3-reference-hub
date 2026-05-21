@@ -2,7 +2,7 @@
 title: "Canonical layout examples"
 source_url: "https://m3.material.io/foundations/layout/canonical-examples/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/f141f3f670f7-mp72kkvb-LD-adapt-C.png"
@@ -22,7 +22,7 @@ Canonical layout examples demonstrate how to implement the layout scaffold. They
 
 Each layout example considers common use cases and components to address expectations and user needs for how products adapt across breakpoints (previously window size classes).
 
-![A messaging app on desktop mapping bar, rail, and pane regions.](../../../../assets/images/f141f3f670f7-mp72kkvb-LD-adapt-C.png)
+![A messaging app on desktop mapping bar, rail, and pane regions.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp72kkvb-LD%20adapt%20C.png?alt=media&token=8df2d01b-2928-4746-b6cd-a56951fa32ec>)
 
 _A layout scaffold can include bar, rail, and pane regions_
 
@@ -46,7 +46,7 @@ Use a feed layout to arrange elements like cards in a configurable grid for a qu
 
 [More on feed layouts](https://m3.material.io/m3/pages/canonical-examples/feed/)
 
-![A course list in a feed layout at a medium breakpoint. 8 cards in a single pane, with bar above and leading rail.](../../../../assets/images/4a548a86e56c-mp72yab6-Feed-adapt-B.png)
+![A course list in a feed layout at a medium breakpoint. 8 cards in a single pane, with bar above and leading rail.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp72yab6-Feed%20adapt%20B.png?alt=media&token=cb5f6703-79cf-4d01-8518-c13612989d40>)
 
 ### List-detail
 
@@ -54,7 +54,7 @@ Use a list-detail layout to display explorable lists of items alongside each ite
 
 [More on list-detail layouts](https://m3.material.io/m3/pages/canonical-examples/list-detail/)
 
-![List-detail layout of a messaging app. Pane 1 lists all conversations. Pane 2 shows the selected message.](../../../../assets/images/b04aef3c17b3-mp72ypkq-LD-adapt-B.png)
+![List-detail layout of a messaging app. Pane 1 lists all conversations. Pane 2 shows the selected message.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp72ypkq-LD%20adapt%20B.png?alt=media&token=4315342c-1992-4deb-9047-8e566410d1ed>)
 
 __
 
@@ -69,7 +69,7 @@ Use a supporting pane layout to organize content into primary and secondary sect
 
 [More on supporting pane layouts](https://m3.material.io/m3/pages/canonical-examples/supporting-pane/)
 
-![Supporting pane layout. The primary pane shows course details. The  secondary pane lists “Lessons in this course”.](../../../../assets/images/f2f4b13136e5-mp72z1no-SP-adapt-B.png)
+![Supporting pane layout. The primary pane shows course details. The  secondary pane lists “Lessons in this course”.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp72z1no-SP%20adapt%20B.png?alt=media&token=4b51d4f8-3107-43e1-bd49-06b3f22d3428>)
 
 ## Advanced custom layouts
 
@@ -85,6 +85,6 @@ Use the [levitate](../scaffold/panes.md#96bf71b8-04b8-4fff-97c7-9bc782fbf401) ad
 
 -   Creating a calendar event
 
-![Custom layout. A shopping basket floats above a clothing product page.](../../../../assets/images/3d73c38fa4fd-mp731djr-ACL-Adapt-B2.png)
+![Custom layout. A shopping basket floats above a clothing product page.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp731djr-ACL%20Adapt%20B2.png?alt=media&token=b1292c0f-0457-49d9-b522-33ed5320fea2>)
 
 _Layering panes helps people focus on a specific task_

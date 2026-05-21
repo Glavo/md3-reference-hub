@@ -2,7 +2,7 @@
 title: "Unlocking component flexibility with slots in Figma"
 source_url: "https://m3.material.io/blog/material-3-slot-components-figma"
 lastmod: "2025-05-13"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/24588d9b0566-ZEXG-W7U-laQVPWKv9dDO63A3X4_53Wye7OjxT287BY0D66dpxl7bsT3FX5MxkjYUIgWfVjJkBSqy9w7XX67qvtbAF8sgx1Q.png"
@@ -16,7 +16,7 @@ assets:
 
 One less reason to “detach instance”
 
-![abstract diagrammatic illustration](../../assets/images/24588d9b0566-ZEXG-W7U-laQVPWKv9dDO63A3X4_53Wye7OjxT287BY0D66dpxl7bsT3FX5MxkjYUIgWfVjJkBSqy9w7XX67qvtbAF8sgx1Q.png)
+![abstract diagrammatic illustration](<https://lh3.googleusercontent.com/ZEXG-W7U-laQVPWKv9dDO63A3X4_53Wye7OjxT287BY0D66dpxl7bsT3FX5MxkjYUIgWfVjJkBSqy9w7XX67qvtbAF8sgx1QWzTSe2dieKq4sOSodJg>)
 
 Published: 2024-11-04T13:00:00
 
@@ -35,7 +35,7 @@ Adding slots to components enables them to better express the maker’s needs. S
 
 This aligns with how these container-like components are designed with how they are built–– crafting the design toolkit to mimic the component capabilities in code.
 
-![Material default card component beside slot enabled card](../../assets/images/5361be6e04fc-oq47vhxQrCvbMPNH9LpLs6DfR-J5wW1wL4u04Re-uv8kf2jMw0FR0uoICaQqPqsBX6hTvHDKrsn5wXrobE8Cv-lRYFh2t0ZE.png)
+![Material default card component beside slot enabled card](<https://lh3.googleusercontent.com/oq47vhxQrCvbMPNH9LpLs6DfR-J5wW1wL4u04Re--uv8kf2jMw0FR0uoICaQqPqsBX6hTvHDKrsn5wXrobE8Cv-lRYFh2t0ZE-X5FLVOZRb_huqXaIM>)
 
 ## How to use slots
 
@@ -47,13 +47,13 @@ Each slot enabled component will have a unique instance for activating the slot.
 
 Select the Slot property to change to the Slot placeholder content and reveal options related to the slot
 
-![Card component showing figma layout choices to enable slot](../../assets/images/63874ea95c65-hMrc5mbn8t_fzhVKuSiyzM7md0Jz3Dzq5vs-1mB5iiCFWNTUK1kotqjlnoTSrLbs4bI6HDZPbUYr6QdmR3v2PZt8E0t_Sfe5.png)
+![Card component showing figma layout choices to enable slot](<https://lh3.googleusercontent.com/hMrc5mbn8t_fzhVKuSiyzM7md0Jz3Dzq5vs-1mB5iiCFWNTUK1kotqjlnoTSrLbs4bI6HDZPbUYr6QdmR3v2PZt8E0t_Sfe5ZGPJqY-ILhDomrd_jLs>)
 
 Slot enabled components will provide a layout override
 
 The slot can then be swapped for a local instance of another component.
 
-![Slot component showing Figma instance swap functionality](../../assets/images/f8aecfe38b2b-J3Hi9r0ELFo6DKy00RoNQ4R_yp7QJW8Q_92wpLC0Fh7j492ub16ZBZ0n-R_i6uwlmsm_TbMzJlmoCxsraHrA7hx_BRJy22ed.png)
+![Slot component showing Figma instance swap functionality](<https://lh3.googleusercontent.com/J3Hi9r0ELFo6DKy00RoNQ4R_yp7QJW8Q_92wpLC0Fh7j492ub16ZBZ0n-R_i6uwlmsm_TbMzJlmoCxsraHrA7hx_BRJy22edBWAXoMeKOZnRBclpfw>)
 
 Slot swap allows for quick replacement for local components
 
@@ -73,6 +73,6 @@ Components like Cards, Sheets, Lists, Menus and Toolbars are containers that hou
 
 ([Guide to components in Figma](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma))
 
-![Local component of grouped avatars replacing a leading slot position of a list item](../../assets/images/26ed6e492af7-Bh8f6ZE_Ijpuar1XcbbFawIfvZNWybPMpMQZI12HPA_cMQLZcPA_Gh3NtiJETt-Ev8PR9F8830migCgJzx0L5Va6BMbaayYX.png)
+![Local component of grouped avatars replacing a leading slot position of a list item](<https://lh3.googleusercontent.com/Bh8f6ZE_Ijpuar1XcbbFawIfvZNWybPMpMQZI12HPA_cMQLZcPA_Gh3NtiJETt-Ev8PR9F8830migCgJzx0L5Va6BMbaayYX24g26v4gFh17Ehw9Qn8>)
 
 The **slot component** technique is a powerful method that can help you create flexible and dynamic layouts with ease. As the Material library grows, more components will offer slot functionality. It's a great addition to [Material's Figma Design Kit](https://www.figma.com/community/file/1035203688168086460/material-3-design-kit) and we encourage you to try it out today!

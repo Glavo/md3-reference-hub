@@ -2,7 +2,7 @@
 title: "Switch"
 source_url: "https://m3.material.io/components/switch/overview"
 lastmod: "2026-01-06"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/d6c2a0e6ec31-lwa9bnl5-1.png"
@@ -22,7 +22,7 @@ Switches toggle the selection of an item on or off
 
 -   Make sure the switch’s selection (on or off) is visible at a glance
 
-![A switch in two states, off and on.](../../../assets/images/d6c2a0e6ec31-lwa9bnl5-1.png)
+![A switch in two states, off and on.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwa9bnl5-1.png?alt=media&token=8a4b85d3-5a30-49e2-b32d-927fc4c6fc2d>)
 
 _Switches can be toggled on and off_
 
@@ -48,10 +48,10 @@ _Switches can be toggled on and off_
 
 -   Layout: Track is taller and wider
 
-![M2 switches in off and on states.](../../../assets/images/1cadefeab95f-mg65z0ro-02.png)
+![M2 switches in off and on states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg65z0ro-02.png?alt=media&token=4fdec8c9-1449-43cd-86b8-7aca1f7a1ad1>)
 
 _M2: Switches have a circular handle that extends beyond the edge of the track_
 
-![M3 switch shown toggled off and toggled on. When switched on, it has a checkmark icon.](../../../assets/images/cbf45a40b10a-mg65zp7b-03.png)
+![M3 switch shown toggled off and toggled on. When switched on, it has a checkmark icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg65zp7b-03.png?alt=media&token=bffcc9c3-bdaa-45b5-9065-d67bccd8dcf3>)
 
 _M3: Switches have a taller and wider track, new color mappings, and the ability to show an icon in the handle_

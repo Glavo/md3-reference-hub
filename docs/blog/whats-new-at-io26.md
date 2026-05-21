@@ -2,7 +2,7 @@
 title: "What’s new at Google I/O 2026"
 source_url: "https://m3.material.io/blog/whats-new-at-io26"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/06f720059c08-G43IvlJGVU11dBAU71P9RY24Ps5l4Ea7GjzZz26tiDF25ayml6gkwjmXKQWryF5vcByAtg_2X3aorc3g5cw6bMUrD6rlwpAr.png"
@@ -21,7 +21,7 @@ assets:
 
 Material’s latest updates make it easier to create expressive, adaptive products
 
-![Image](../../assets/images/06f720059c08-G43IvlJGVU11dBAU71P9RY24Ps5l4Ea7GjzZz26tiDF25ayml6gkwjmXKQWryF5vcByAtg_2X3aorc3g5cw6bMUrD6rlwpAr.png)
+![Image](<https://lh3.googleusercontent.com/G43IvlJGVU11dBAU71P9RY24Ps5l4Ea7GjzZz26tiDF25ayml6gkwjmXKQWryF5vcByAtg_2X3aorc3g5cw6bMUrD6rlwpAr_MhtpI1QT69uA-SOt0Q>)
 
 Published: 2026-05-19T08:00:00
 
@@ -42,7 +42,7 @@ Check out the updated layout principles and guidelines:
 -   [Bidirectionality & right-to-left (RTL)](../foundations/layout/bidirectionality-rtl.md)
 -   [Canonical examples](https://m3.material.io/foundations/layout/canonical-examples)
 
-![Compact and expanded layout scaffolds.](../../assets/images/688c0bfc3168-XOJm03fcmzIsqWMYWf_rlfSzprq9uFyEpf2LOIvIbM_4FYL3MPuytghRLE_OI1pWD6Jc1F4VC4vWGYqqr2twhP1t_cHInlr5.png)
+![Compact and expanded layout scaffolds.](<https://lh3.googleusercontent.com/XOJm03fcmzIsqWMYWf_rlfSzprq9uFyEpf2LOIvIbM_4FYL3MPuytghRLE_OI1pWD6Jc1F4VC4vWGYqqr2twhP1t_cHInlr5-vxcCdrG5_mJ8eAkaK8>)
 
 Use the expressive layout scaffold to adapt screens across breakpoints
 
@@ -52,7 +52,7 @@ The spacing system is the foundation for adaptive design, built on an 8dp scale.
 
 [More on the spacing system](../styles/spacing/overview.md)
 
-![A 2-pane layout showing padding, gap, and margin spacing.](../../assets/images/ab84e260c926-5625MJiJGRDzEYbV8wr8J3OFvwYcLYUCtmUyjbPGSPqPBUZGMsW-3YkKe0yhGygDFgWGo7vPSMbsQl0m_ueFCHBLN9wdbVgD.png)
+![A 2-pane layout showing padding, gap, and margin spacing.](<https://lh3.googleusercontent.com/5625MJiJGRDzEYbV8wr8J3OFvwYcLYUCtmUyjbPGSPqPBUZGMsW-3YkKe0yhGygDFgWGo7vPSMbsQl0m_ueFCHBLN9wdbVgDASGqNHyQ7aQANuk05Rw2>)
 
 Apply spacing tokens to the margins, padding, and gaps of a component or layout so it can programmatically adapt to contexts like device type or density settings
 
@@ -60,11 +60,11 @@ Apply spacing tokens to the margins, padding, and gaps of a component or layout 
 
 Follow these form factor principles to create apps that are optimized for [watches](../foundations/watches/overview.md) and [immersive XR](../foundations/xr/design/overview.md).
 
-![A smartwatch music app using expressive motion.](../../assets/images/8e5e3522de3f-Dli63T2_nx84mxXr4IFvigXEBkPOpazLbiV6urNJ_OKrSSrqT9wRqp2r0qXzDufG9GvPKY10aRsCF1cIlAcAianusqjlP7Rb.png)
+![A smartwatch music app using expressive motion.](<https://lh3.googleusercontent.com/Dli63T2_nx84mxXr4IFvigXEBkPOpazLbiV6urNJ_OKrSSrqT9wRqp2r0qXzDufG9GvPKY10aRsCF1cIlAcAianusqjlP7RbFG6nCC7oxtGBNX38CQ>)
 
 <strong>Design for watches</strong> using a physics-based motion system, arc text styles, and edge-hugging containers
 
-![An XR app with 2 spatial panels, 1 orbiter, and an immersive background.](../../assets/images/d9462ca1cf25-kPbmMI-p29M71VYjtdmpsuZJ8djcyYjIK2jdCbckSAos7Q-MQoI6LTDwH8neAoP1X8-kzP4u5I2aNoiET071RBvHSSP7wGGV.png)
+![An XR app with 2 spatial panels, 1 orbiter, and an immersive background.](<https://lh3.googleusercontent.com/kPbmMI-p29M71VYjtdmpsuZJ8djcyYjIK2jdCbckSAos7Q-MQoI6LTDwH8neAoP1X8-kzP4u5I2aNoiET071RBvHSSP7wGGVP2DdNKoWYKqxwJ_KNv4>)
 
 <strong>Design for immersive XR</strong> to create immersive environments using spatial panels and depth-based elevation
 
@@ -75,7 +75,7 @@ Expressive lists and menus got a lot of buzz at Google I/O. Check out the vibran
 -   [Expressive lists](../components/lists/overview.md)
 -   [Expressive menus](../components/menus/overview.md)
 
-![Expressive lists and menus showcasing vibrant, expressive designs.](../../assets/images/a33fbe43c693-R1uK-1Czo386AyWkPz0k1a2QPcXPywhKqAO6hS3moQwablhBGaohR0PFMF1nCYet7ultJvbjPPk_oyBGCzHkbpmceSiYDvsN.png)
+![Expressive lists and menus showcasing vibrant, expressive designs.](<https://lh3.googleusercontent.com/R1uK-1Czo386AyWkPz0k1a2QPcXPywhKqAO6hS3moQwablhBGaohR0PFMF1nCYet7ultJvbjPPk_oyBGCzHkbpmceSiYDvsNNpJg9xB0Pq4fApLHWw>)
 
 ## Material Android is Compose-first
 
@@ -83,7 +83,7 @@ Read the blog post about the upcoming stable Compose release, including 14 expre
 
 [Read the Compose-first article](material-is-compose-first.md)
 
-![Text: “Compose Material 3 is going stable”.](../../assets/images/0c2d9bb7358d-psnY8cwGsozvdpKU_ShiJ4ikqGndGxar_uXiQal16WuaUFtckWTDswV0gRHGU1VhsjLxoBMISdKX5ytRDmyD41kv0mcq_oXk.png)
+![Text: “Compose Material 3 is going stable”.](<https://lh3.googleusercontent.com/psnY8cwGsozvdpKU_ShiJ4ikqGndGxar_uXiQal16WuaUFtckWTDswV0gRHGU1VhsjLxoBMISdKX5ytRDmyD41kv0mcq_oXk1sWvXickvh1vYSEmdiJp>)
 
 ## More recent updates
 

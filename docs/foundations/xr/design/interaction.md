@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/interaction"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -19,7 +19,7 @@ assets:
 
 Resources and guidance for immersive extended reality (XR) devices
 
-![Design for immersive XR](../../../../assets/images/c96d3c3a1421-mp6oo483-hero-image.png)
+![Design for immersive XR](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6oo483-hero%20image.png?alt=media&token=e98832ea-27a5-45b3-8e22-8838005536d6>)
 
 ## Interaction
 

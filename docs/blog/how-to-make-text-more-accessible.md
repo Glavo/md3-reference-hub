@@ -2,7 +2,7 @@
 title: "How to make your text more accessible"
 source_url: "https://m3.material.io/blog/how-to-make-text-more-accessible"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/40896e6ecfe8-VfKcfwY0D55KIqGuq4dDDQcAHl4gQbVeE3BXx8R-qjSSwFIMJ9KFFCqw3g9LWYlajtQPML-mNdjMOYTHDbxm2BfD77Xq-eNW.png"
@@ -13,7 +13,7 @@ assets:
 
 Find all of Google Fonts’ typefaces, articles, and resources to make your text easier to read
 
-![Image](../../assets/images/40896e6ecfe8-VfKcfwY0D55KIqGuq4dDDQcAHl4gQbVeE3BXx8R-qjSSwFIMJ9KFFCqw3g9LWYlajtQPML-mNdjMOYTHDbxm2BfD77Xq-eNW.png)
+![Image](<https://lh3.googleusercontent.com/VfKcfwY0D55KIqGuq4dDDQcAHl4gQbVeE3BXx8R-qjSSwFIMJ9KFFCqw3g9LWYlajtQPML-mNdjMOYTHDbxm2BfD77Xq-eNWstVyclHD5yKVDJx6C6k>)
 
 Published: 2023-05-12T13:00:00
 
@@ -23,7 +23,7 @@ Below you will find a summary of articles about those typefaces and other subjec
 
 If you want to see the usage statistics for any of the fonts listed below, go to the About section of any specimen page on fonts.google.com and scroll to the Usage section.
 
-![User types Lexend in search bar, clicks on the Lexend tile to access the specimen page , clicks on About & license, cursor highlights the Usage statistics section heading.](../../assets/images/77d6ff751f28-gX6011rfNv6r6wTsVqK3Ox9MLEpYf5P4mxfTh0OMRTE1COyDJi6-xsRhwa9hjMGZ-bvfuCZHNHPrpx83pe4w-_mxI6qtY-9l.png)
+![User types Lexend in search bar, clicks on the Lexend tile to access the specimen page , clicks on About & license, cursor highlights the Usage statistics section heading.](<https://lh3.googleusercontent.com/gX6011rfNv6r6wTsVqK3Ox9MLEpYf5P4mxfTh0OMRTE1COyDJi6-xsRhwa9hjMGZ-bvfuCZHNHPrpx83pe4w-_mxI6qtY-9lLHXw_cQ-KRt7EzyrGg>)
 
 ## Typefaces designed for improved accessibility
 

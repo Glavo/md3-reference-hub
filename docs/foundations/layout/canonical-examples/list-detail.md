@@ -2,7 +2,7 @@
 title: "Canonical layout examples"
 source_url: "https://m3.material.io/foundations/layout/canonical-examples/list-detail"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/6bef93607929-mp7394ub-LD-adapt-C.png"
@@ -40,7 +40,7 @@ Key use cases for this layout include parent-child pairings of information like:
 
 -   Email inbox + selected email
 
-![An email app in a list-detail layout at a medium breakpoint.](../../../../assets/images/6bef93607929-mp7394ub-LD-adapt-C.png)
+![An email app in a list-detail layout at a medium breakpoint.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp7394ub-LD%20adapt%20C.png?alt=media&token=d4ee0120-592a-47e3-b820-7180650f7da8>)
 
 _List; Detail_
 
@@ -56,13 +56,13 @@ Examples include:
 
 -   Browsing multiple albums and seeing individual track information
 
-![Several stacked cards make up the list area on the left pane, while the detail area is a single section on the right pane.](../../../../assets/images/b5a2a03c075d-mp52v68p-02.png)
+![Several stacked cards make up the list area on the left pane, while the detail area is a single section on the right pane.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp52v68p-02.png?alt=media&token=4173a4a5-6f51-4639-8404-0ef3711a22ec>)
 
 _Simplified diagram of: List area; Detail area_
 
 ### Dividing space
 
-![Compact windows have 1 pane, while medium and expanded windows can have 2 panes for list-detailed views.](../../../../assets/images/506748044188-mp52wfuu-03.png)
+![Compact windows have 1 pane, while medium and expanded windows can have 2 panes for list-detailed views.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp52wfuu-03.png?alt=media&token=9535e2cb-8fe9-4f55-87cc-c2f55b2ef300>)
 
 _The most basic list-detail views for compact, medium, and expanded layouts_
 
@@ -86,7 +86,7 @@ List-detail layouts use the same pane guidance as all single and two-pane layout
 
 -   Only one view is visible at a time, either list or detail
 
-![Single-pane layout on 3 devices at compact breakpoints.](../../../../assets/images/82b2d8142cf1-mp533vzf-04.png)
+![Single-pane layout on 3 devices at compact breakpoints.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp533vzf-04.png?alt=media&token=7241c2e9-126a-487b-b74d-e20d62d16fa6>)
 
 _Phone in portrait orientation; Closed foldable; Tablet in split-screen mode_
 
@@ -94,7 +94,7 @@ _Phone in portrait orientation; Closed foldable; Tablet in split-screen mode_
 
 -   Use a single-pane layout for information-dense content or deep focus
 
-![Single-pane layout on a foldable open flat and a tablet in portrait orientation.](../../../../assets/images/e4ea757937b9-mp535cbt-05.png)
+![Single-pane layout on a foldable open flat and a tablet in portrait orientation.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp535cbt-05.png?alt=media&token=e6487d36-75c2-482d-bd8b-fec3cde0306d>)
 
 _Foldable open flat; Tablet in portrait orientation_
 
@@ -102,7 +102,7 @@ _Foldable open flat; Tablet in portrait orientation_
 
 -   To maximize horizontal space for two-pane layouts, use a bottom navigation bar or modal navigation rail
 
-![2-pane layout on a foldable open flat and a tablet in portrait orientation.](../../../../assets/images/32747cdc9058-mp537scf-06.png)
+![2-pane layout on a foldable open flat and a tablet in portrait orientation.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp537scf-06.png?alt=media&token=5cf94d50-364d-41d7-b069-67aec1ac338d>)
 
 _Foldable open flat; Tablet in portrait orientation_
 
@@ -110,7 +110,7 @@ _Foldable open flat; Tablet in portrait orientation_
 
 -   Use a two-pane layout
 
-![2-pane layout on a phone and tablet, both in landscape orientation.](../../../../assets/images/2e9606795ed9-mp538uu5-07.png)
+![2-pane layout on a phone and tablet, both in landscape orientation.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp538uu5-07.png?alt=media&token=3348b4ce-14f4-4bc3-ae8b-8bb5a4851f0c>)
 
 _Phone in landscape orientation; Tablet in landscape orientation_
 
@@ -124,7 +124,7 @@ _Phone in landscape orientation; Tablet in landscape orientation_
 
 -   Visual focus: Use [explicit and implicit grouping](../grids-spacing/spacing.md#e7e6d1ac-031a-4757-afcf-b223f23654ea) to direct focus in two-pane layouts
 
-![A 2-pane layout shows a selected list item. A single-pane layout uses a Back button to return to the list.](../../../../assets/images/168507122a3f-mp53b085-08.png)
+![A 2-pane layout shows a selected list item. A single-pane layout uses a Back button to return to the list.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp53b085-08.png?alt=media&token=ee7424e2-9c1c-4669-93cf-2f7aae5b4409>)
 
 _Use a selection state in two-pane layouts only; Use a back button in single-pane layouts only_
 

@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -14,7 +14,7 @@ assets:
 
 Learn how Material 3 Expressive components adapt to extended reality devices
 
-![XR components](../../../../assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png)
+![XR components](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6grqe5-hero%20image.png?alt=media&token=77848b44-f2d9-4c6e-a51a-d4807d7ea9e4>)
 
 ## Overview
 
@@ -46,6 +46,6 @@ The following Material components are adapted for XR:
 
 -   [Toolbars](toolbars.md)
 
-![Side view of an XR dialog showcasing spatial elevation.](../../../../assets/images/5168a90d962d-moxgb0ta-06.png)
+![Side view of an XR dialog showcasing spatial elevation.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxgb0ta-06.png?alt=media&token=b18f5559-f8f7-4203-b59e-c7ee2755b6b0>)
 
 _A dialog can be spatially elevated on the Z-axis above spatial panels_

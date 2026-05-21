@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/6dea4095537c-m0aionfm-01.png"
@@ -27,7 +27,7 @@ Toolbars display frequently used actions relevant to the current page
 
 -   Don’t show at the same time as a navigation bar
 
-![2 variants of toolbars.](../../../assets/images/6dea4095537c-m0aionfm-01.png)
+![2 variants of toolbars.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aionfm-01.png?alt=media&token=0f1d71f5-1d22-4820-859d-fd952e995cf9>)
 
 _Configurations of floating toolbars_
 
@@ -70,7 +70,7 @@ Variants and naming:
 
 -   **Bottom app bar** is still available, but not recommended
 
-![2 examples of toolbar variants.](../../../assets/images/35a2711acc41-m0aiswog-02.png)
+![2 examples of toolbar variants.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0aiswog-02.png?alt=media&token=e5523e45-647f-4168-b257-c773be63adf6>)
 
 _Floating, vibrant color scheme and paired with FAB; Docked with embedded primary action instead of FAB_
 
@@ -80,10 +80,10 @@ _Floating, vibrant color scheme and paired with FAB; Docked with embedded primar
 -   Elevation: No shadow
 -   Layout: Container height is taller and the FAB is now contained within the app bar container
 
-![M2 bottom app bar.](../../../assets/images/3d8f2c2e1603-m0e7liab-2.png)
+![M2 bottom app bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e7liab-2.png?alt=media&token=16c3ad53-7e83-4079-85ad-9b096bbb56fc>)
 
 _M2: Bottom app bar had higher elevation of 8dp and didn't contain the FAB_
 
-![M3 bottom app bar.](../../../assets/images/3625883ba25e-m0e7mh6v-3.png)
+![M3 bottom app bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0e7mh6v-3.png?alt=media&token=9dfb6612-f40c-4d4c-a773-463109db7c5f>)
 
 _M3: Bottom app bar has new colors, a taller container, no elevation or shadow, and contains the FAB_

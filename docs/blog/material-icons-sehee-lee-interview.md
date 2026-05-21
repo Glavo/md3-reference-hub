@@ -2,7 +2,7 @@
 title: "Material Icons: Sehee Lee"
 source_url: "https://m3.material.io/blog/material-icons-sehee-lee-interview"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/f169302adc03-GT3F4Oj3YQOOZr2GtR7PL_AAkvMBuf_E2EdPfra77TwbRepf7IBoQxygVVTHNMNfyyQlGGtkTbxwmacljHDjueZRtLxI3CIK.png"
@@ -12,7 +12,7 @@ assets:
 
 An interview with Senior Visual Designer leading icons and design systems for Google Fonts, Sehee Lee
 
-![Illustration showing SeHee interacting with abstract graphic elements](../../assets/images/f169302adc03-GT3F4Oj3YQOOZr2GtR7PL_AAkvMBuf_E2EdPfra77TwbRepf7IBoQxygVVTHNMNfyyQlGGtkTbxwmacljHDjueZRtLxI3CIK.png)
+![Illustration showing SeHee interacting with abstract graphic elements](<https://lh3.googleusercontent.com/GT3F4Oj3YQOOZr2GtR7PL_AAkvMBuf_E2EdPfra77TwbRepf7IBoQxygVVTHNMNfyyQlGGtkTbxwmacljHDjueZRtLxI3CIKapiFFqBvlGKIuC9z-Q>)
 
 Published: 2022-05-11T10:00:00
 

@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/4fb26523ffd8-me8hopxl-01.png"
@@ -25,7 +25,7 @@ Badges show notifications, counts, or status information on navigation items and
 
 -   Keep the default color mapping
 
-![3 icons with badges. 1 is a small dot. 2 is a larger circle with a 1 digit number. 3 is an oval with a 4 digit number.](../../../assets/images/4fb26523ffd8-me8hopxl-01.png)
+![3 icons with badges. 1 is a small dot. 2 is a larger circle with a 1 digit number. 3 is an oval with a 4 digit number.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme8hopxl-01.png?alt=media&token=e9840156-17f4-4edf-b69a-eb62bd0b5c5c>)
 
 _Small badge on a navigation item; Large badge on a navigation item; Large badge with max characters on a navigation item_
 
@@ -45,6 +45,6 @@ _Small badge on a navigation item; Large badge on a navigation item; Large badge
 
 -   Color: New color mappings and compatibility with dynamic color
 
-![Navigation bar showing 4 icons with different badge variants in a bright red color.](../../../assets/images/247e030cf778-me8hz0r2-02.png)
+![Navigation bar showing 4 icons with different badge variants in a bright red color.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme8hz0r2-02.png?alt=media&token=579d40e2-1895-4ed4-a074-22f71265f580>)
 
 _Badges have new color mappings_

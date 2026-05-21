@@ -2,7 +2,7 @@
 title: "New SIL Typefaces"
 source_url: "https://m3.material.io/blog/sil-typefaces"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/63a320014ec8-c33adNZiaxiwipHwzKWKMLqEm1dolxVqu3_6a7J9TBhbDPWDu47hluU1_wXEYqwKr2qmLBWmu6RIPpsdiFRcRLYnOdmnBgdD.png"
@@ -23,7 +23,7 @@ assets:
 
 Expanding type for legibility and lesser-served languages
 
-![Image](../../assets/images/63a320014ec8-c33adNZiaxiwipHwzKWKMLqEm1dolxVqu3_6a7J9TBhbDPWDu47hluU1_wXEYqwKr2qmLBWmu6RIPpsdiFRcRLYnOdmnBgdD.png)
+![Image](<https://lh3.googleusercontent.com/c33adNZiaxiwipHwzKWKMLqEm1dolxVqu3_6a7J9TBhbDPWDu47hluU1_wXEYqwKr2qmLBWmu6RIPpsdiFRcRLYnOdmnBgdDt3jCX6EpKySBkmsXAw>)
 
 Published: 2023-03-22T13:00:00
 
@@ -58,7 +58,7 @@ The [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id
 
 **1\. [Tai Heritage Pro](https://fonts.google.com/specimen/Tai+Heritage+Pro) (Tai Viet script)**
 
-![Five lines of text in Tai Heritage Pro](../../assets/images/3ea6b43d474e-uhhVNjxLAMfWHv5n3OyQykieE0olmxXnH1aCXJPCOBjzwsetOPBmW7YbBmYRdSZ8TuU_r06pVTXhShN0pcL85alBXMUfT1mY.png)
+![Five lines of text in Tai Heritage Pro](<https://lh3.googleusercontent.com/uhhVNjxLAMfWHv5n3OyQykieE0olmxXnH1aCXJPCOBjzwsetOPBmW7YbBmYRdSZ8TuU_r06pVTXhShN0pcL85alBXMUfT1mY6aAeYQS90kYPMeTMMuQ>)
 
 “Ải Mák Hút Sen Pau” (“Mr. Countless Warts”), Tai Dam folk tale
 
@@ -72,7 +72,7 @@ Read more on [SIL’s homepage](https://software.sil.org/taiheritage/), [ScriptS
 
 **2\. [Nuosu](https://fonts.google.com/specimen/Nuosu+SIL) (Yi script)**
 
-![Three columns of text](../../assets/images/bfc717518aa0-AWWfsjPydsax00rB3eynpGLfmXbKIOvvhtgq8oVELDFR-5gYGFJN6YTmOV__bKz9BGugpUExZJnaqFPO8u7TVV0z9Xkf3l-U.png)
+![Three columns of text](<https://lh3.googleusercontent.com/AWWfsjPydsax00rB3eynpGLfmXbKIOvvhtgq8oVELDFR-5gYGFJN6YTmOV__bKz9BGugpUExZJnaqFPO8u7TVV0z9Xkf3l-UmRnUk-AoB7YsGkZu>)
 
 Epic Yi poem (Axmo Hnixsse "Mother’s Daughter") 1. Poem in Nuosu 2. Transliteration 3. Translation in English
 
@@ -84,7 +84,7 @@ Read more on [ScriptSource](https://scriptsource.org/scr/Yiii), [Unicode](https:
 
 **3\. [Mingzat](https://fonts.google.com/specimen/Mingzat) (Lepcha script)**
 
-![Black text on beige background](../../assets/images/83577d31cf70-5JBxaadcEL49HaFqdEeSc2T9ap089NX1XeANJ07lkEZ9z81TQK3IFRiAv6AY-QN_gW-sNRYM5bmetrJhG9oUtiCfEbMTHLCW.png)
+![Black text on beige background](<https://lh3.googleusercontent.com/5JBxaadcEL49HaFqdEeSc2T9ap089NX1XeANJ07lkEZ9z81TQK3IFRiAv6AY-QN_gW-sNRYM5bmetrJhG9oUtiCfEbMTHLCWbGIgkGTsLdUXtnucv9c>)
 
 The word “tyâng” for “whole” in the Lepcha script.
 
@@ -108,19 +108,19 @@ Below is an example of how SIL uses OpenType technology to modify the position o
 
 **Step 1**: The word without OpenType technology. Two letters collide.
 
-![Letterforms in black and red](../../assets/images/6a54f9f64d39-VhW5tilaOnJQlTMrdAy-s23BGxUMkyxz8za6FrBikLYKVKYCFZO3YjjQDISOftduVmrmBj3T7MBVPqnfYJvDb69ZjmXJnmA6.png)
+![Letterforms in black and red](<https://lh3.googleusercontent.com/VhW5tilaOnJQlTMrdAy-s23BGxUMkyxz8za6FrBikLYKVKYCFZO3YjjQDISOftduVmrmBj3T7MBVPqnfYJvDb69ZjmXJnmA6Awla4ajQtf_8BxmI_sc>)
 
 **Step 2**: The OpenType code for this font first substitutes an alternate glyph (2) for the taller one (1). However, the tone mark (3) is still too close to the shorter glyph.
 
-![Letterforms in black, green, and red with numbers in circles](../../assets/images/c49d5c91ed93-E28R5NhMtNxjKrzgHPBmdM-RRpC24dYwshoZf7kVSLGleTDIFZNIx6uhim0j6I4gKWPVgH945A-FKrMryBgBuJVGNY_ceG8i.png)
+![Letterforms in black, green, and red with numbers in circles](<https://lh3.googleusercontent.com/E28R5NhMtNxjKrzgHPBmdM-RRpC24dYwshoZf7kVSLGleTDIFZNIx6uhim0j6I4gKWPVgH945A-FKrMryBgBuJVGNY_ceG8i9JmGapNuWwcEnCvc-xQ>)
 
 **Step 3**: Next the OpenType code moves the tone mark from its original position (3) a bit higher (4) to give adequate space between the strokes.
 
-![Letterforms in black, green, and red with numbers in circles](../../assets/images/0cc7841652f5-DhTra7uy345ofrr6JJdd0_nAtm-X21Tdav_fgd5GU0EsM57Vfs8Qp2Yp52zTkGZGq_DPhEr2SfEGb-GFfDssCbfxNl1HsF3a.png)
+![Letterforms in black, green, and red with numbers in circles](<https://lh3.googleusercontent.com/DhTra7uy345ofrr6JJdd0_nAtm-X21Tdav_fgd5GU0EsM57Vfs8Qp2Yp52zTkGZGq_DPhEr2SfEGb-GFfDssCbfxNl1HsF3aknaZe9ruLOFIRObxGn4>)
 
 **Step 4**: The final rendering of the word after OpenType code was applied.
 
-![Black letterforms](../../assets/images/aae0fb68d5fd-LxiDbyO08fSgcQkGuzgvYI5WZO2IMhnya4PYaWM-ZuLLFqh62_o3QMaBfnsZPF5OQcg7CWKv8sk35JeZlz2ExLc8sr9A7zCK.png)
+![Black letterforms](<https://lh3.googleusercontent.com/LxiDbyO08fSgcQkGuzgvYI5WZO2IMhnya4PYaWM-ZuLLFqh62_o3QMaBfnsZPF5OQcg7CWKv8sk35JeZlz2ExLc8sr9A7zCKd45QOhn9AjZqLRKVkA>)
 
 SIL also uses their own libre and open source [Graphite](http://graphite.sil.org) font shaping technology, that was developed to handle complex scripts which OpenType can’t handle yet.
 
@@ -132,20 +132,20 @@ One of Andika’s techniques is to clearly distinguish similar letterforms and n
 
 See these examples of Andika’s legibility and letter recognition features:
 
-![Three lines with three sets of letters](../../assets/images/5df7ac2f7103-8iRkOaoT6arIhsP7c85e-rBSG6J2CHQA3j6bYgof6qm2825XiEDxxw1CaCwhGHKnNe5e3QpPj74jwreWpUdf9OGtb4r964rP.png)
+![Three lines with three sets of letters](<https://lh3.googleusercontent.com/8iRkOaoT6arIhsP7c85e-rBSG6J2CHQA3j6bYgof6qm2825XiEDxxw1CaCwhGHKnNe5e3QpPj74jwreWpUdf9OGtb4r964rPjoUwF8ySB0Ts5TJQx_U>)
 
 1.  Andika’s [ascenders](https://fonts.google.com/knowledge/glossary/ascenders_descenders) allow enough room for diacritics.
 2.  The visual separation of the strokes in the lowercase “m, n, p, and r,” may make it easier to distinguish the letterforms. The top triangle of white space between the stem and the curve is just a little larger than in other typefaces.
 3.  The open [counters](https://fonts.google.com/knowledge/glossary/counter) in the lowercase “c” and “e” make letters appear larger than they are. Open counters help with recognizing any similarly shaped letters as there is a little more separation of black from white.  The open counters help in recognizing turned letterforms, such as "ɔ" and "ə" in the language Anii of West Africa.
 
-![Two lines with four sets of letters](../../assets/images/7cf5b8d57dd2-qjN5f_2eGux9vttMBQFms-9_hEefkrXDH-a76z4qwe_Jj4i8U_UrVjTEZ2NJZs_vaW1ZI2LZvkX-VgjIadDtODiLo7xyZnTi.png)
+![Two lines with four sets of letters](<https://lh3.googleusercontent.com/qjN5f_2eGux9vttMBQFms-9_hEefkrXDH-a76z4qwe_Jj4i8U_UrVjTEZ2NJZs_vaW1ZI2LZvkX-VgjIadDtODiLo7xyZnTiYfQzu0s7-_IHN0GqvdeG>)
 
 1.  The [Latin](https://fonts.google.com/knowledge/glossary/latin) [uppercase](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) "I,” lowercase “l,” and numeral “1” are designed to look distinct.
 2.  The subtle emphasis added to the beginning and end strokes in lowercase “h,” “n,” “a,” and “u” is similar to handwritten forms and gives clearer definition to the letters. It's also a helpful model for students learning to write, as the hand tends to make similar subtle movements when pulling letter strokes from top to bottom and then moving to the right for the next stroke.
 3.  The [ascenders and descenders](https://fonts.google.com/knowledge/glossary/ascenders_descenders) in the lowercase “f,” “y,” and” j” have clear curves.
 4.  In the lowercase “r,” the curved stroke finishes with a downward movement to prevent the combination of the lowercase letters “rn” from being misread as “m”.
 
-![Two lines with three sets of letters](../../assets/images/44bd136d3f1b-ehDJr3Kb1-ar1DapjLgmJKDCIr49YI_7A-h_tVQUurUQdP1QW8W7Pb1LvHfIp5jJDAjjtljNj8RUXActau9v3YY8nnzzK3NI.png)
+![Two lines with three sets of letters](<https://lh3.googleusercontent.com/ehDJr3Kb1-ar1DapjLgmJKDCIr49YI_7A-h_tVQUurUQdP1QW8W7Pb1LvHfIp5jJDAjjtljNj8RUXActau9v3YY8nnzzK3NIOlPnS9JsSQJTuIGiVA>)
 
 1.  The lowercase “o” and “a”: When using the simpler, single-story or primary form of a, it needs to be distinct from o.
 2.  Lowercase “a,” “g,” “d,” “q,” “b” and “p”:   The bowls are different from one another.
@@ -154,7 +154,7 @@ See these examples of Andika’s legibility and letter recognition features:
 
 The simpler single-story lowercase “a” and “g” are preferred by literacy specialists for new readers because they are easier to imitate in handwriting. The double-story versions, also known as the typographic forms, are included in the font for literacy materials for more experienced readers.
 
-![One line with two sets of letters](../../assets/images/77c674fde8c7-IH_HJABAcPCpY-jxcO4mNNCEPe1VqNzqX-7DE-TP6ZOmcc4nvFVPzr-naJYJ4OzrMSpfiZ1ctLO0UmRHfoDVefHcUpk-q5cq.png)
+![One line with two sets of letters](<https://lh3.googleusercontent.com/IH_HJABAcPCpY--jxcO4mNNCEPe1VqNzqX-7DE--TP6ZOmcc4nvFVPzr-naJYJ4OzrMSpfiZ1ctLO0UmRHfoDVefHcUpk-q5cqDQNYixevV6ggmED4Hi>)
 
 Lowercase “a” and “g”: 1. Single-story forms 2. Double-story forms
 

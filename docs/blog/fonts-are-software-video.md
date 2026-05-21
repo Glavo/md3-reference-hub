@@ -2,7 +2,7 @@
 title: "Video: Fonts are software"
 source_url: "https://m3.material.io/blog/fonts-are-software-video"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/ffdf32670731-UZDpLpdaA00MuMc0cBiRzQTG3zvUR-ZMHyI7LALYCBzw3ZA7hRxnb-bwy4GZS7yqJhAxbIBWtQMQiAO4saj2W2YgfA-LAyFU.png"
@@ -12,7 +12,7 @@ assets:
 
 Catch up on Google Fonts' talk at Figma Config 2023
 
-![Splitscreen: tobias and a screenshot of text in an app](../../assets/images/ffdf32670731-UZDpLpdaA00MuMc0cBiRzQTG3zvUR-ZMHyI7LALYCBzw3ZA7hRxnb-bwy4GZS7yqJhAxbIBWtQMQiAO4saj2W2YgfA-LAyFU.png)
+![Splitscreen: tobias and a screenshot of text in an app](<https://lh3.googleusercontent.com/UZDpLpdaA00MuMc0cBiRzQTG3zvUR-ZMHyI7LALYCBzw3ZA7hRxnb-bwy4GZS7yqJhAxbIBWtQMQiAO4saj2W2YgfA-LAyFU26Zu3ilF_4l_SB3YOTk>)
 
 Published: 2023-08-24T13:00:00
 

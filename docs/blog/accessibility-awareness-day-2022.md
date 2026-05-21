@@ -2,7 +2,7 @@
 title: "Celebrating Global Accessibility Awareness Day"
 source_url: "https://m3.material.io/blog/accessibility-awareness-day-2022"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/d80b27ae9d0b-eoKmKp829QKJsoDdR1uOZLCwjdORHBwAyeIqXdE32B26ZHcYBYzA9dpgqwUDuUT1sX3gMNM9ayAxySiMh7v6Jd6OS20wtlgz.png"
@@ -12,7 +12,7 @@ assets:
 
 Resources from Material Design to help you design for everyone
 
-![Image](../../assets/images/d80b27ae9d0b-eoKmKp829QKJsoDdR1uOZLCwjdORHBwAyeIqXdE32B26ZHcYBYzA9dpgqwUDuUT1sX3gMNM9ayAxySiMh7v6Jd6OS20wtlgz.png)
+![Image](<https://lh3.googleusercontent.com/eoKmKp829QKJsoDdR1uOZLCwjdORHBwAyeIqXdE32B26ZHcYBYzA9dpgqwUDuUT1sX3gMNM9ayAxySiMh7v6Jd6OS20wtlgz6tiiMuHahuSxy2NvQg>)
 
 Published: 2022-05-19T13:00:00
 

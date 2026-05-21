@@ -2,7 +2,7 @@
 title: "Bottom sheets"
 source_url: "https://m3.material.io/components/bottom-sheets/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/df25caa58914-lvutved1-1.png"
@@ -18,7 +18,7 @@ Bottom sheets show secondary content anchored to the bottom of the screen
 
 Modal bottom sheets are above a scrim while standard bottom sheets don't have a scrim. Besides this, both variants of bottom sheets have the same specs.
 
-![Diagram of container, drag handle, scrim](../../../assets/images/df25caa58914-lvutved1-1.png)
+![Diagram of container, drag handle, scrim](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvutved1-1.png?alt=media&token=255fee5a-992a-4df3-bae9-ea3fde9c08a7>)
 
 _Container; Drag handle (optional); Scrim_
 
@@ -38,13 +38,13 @@ Component: Bottom sheets
 
 Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](../../foundations/design-tokens/overview.md)
 
-![Two diagrams featuring color opposites of scrim, container, drag handle](../../../assets/images/7e92f1dbcbe8-lvutweax-2.png)
+![Two diagrams featuring color opposites of scrim, container, drag handle](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvutweax-2.png?alt=media&token=b648cac3-38a8-4ca1-8897-a573240be757>)
 
 _Bottom sheet color roles used for both light and dark schemes: Scrim*; On surface variant; Surface container low; *On Android platforms, the scrim color and opacity is automatically handled by the system UI._
 
 ## Measurements
 
-![Bottom sheet on larger device with 56dp top and 56dp side margins](../../../assets/images/b54e6b3827c5-lvutx4kk-3.png)
+![Bottom sheet on larger device with 56dp top and 56dp side margins](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvutx4kk-3.png?alt=media&token=dd4a1d99-3cfc-444a-ae94-1c577604b3dc>)
 
 _Bottom sheet padding and size measurements_
 

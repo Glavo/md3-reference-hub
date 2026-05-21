@@ -2,7 +2,7 @@
 title: "Material Android is Compose-first"
 source_url: "https://m3.material.io/blog/material-is-compose-first"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/b19104129b5f-Hu5ftqOU8SihIUjv8_X9Zq85GX32Q2OgWziCcMjxoMTeXtrAfbj8TyDlwRij01gjSL6D3G-o5KNPnoDUswrG7s0hn4SCyBpj.png"
@@ -17,7 +17,7 @@ assets:
 
 Start migrating to Compose to get the latest from Material
 
-![Image](../../assets/images/b19104129b5f-Hu5ftqOU8SihIUjv8_X9Zq85GX32Q2OgWziCcMjxoMTeXtrAfbj8TyDlwRij01gjSL6D3G-o5KNPnoDUswrG7s0hn4SCyBpj.png)
+![Image](<https://lh3.googleusercontent.com/Hu5ftqOU8SihIUjv8_X9Zq85GX32Q2OgWziCcMjxoMTeXtrAfbj8TyDlwRij01gjSL6D3G-o5KNPnoDUswrG7s0hn4SCyBpjSVnsPUiL8_qd0XiwL08>)
 
 Published: 2026-05-19T08:00:00
 
@@ -27,7 +27,7 @@ Later in 2026, we’ll promote M3 Expressive experimental APIs, making [Material
 
 To focus on Compose going forward, [Material Views 1.14.0](https://github.com/material-components/material-components-android/releases/tag/1.14.0) (MDC-Android) will be our final stable release for the Views library. There’s never been a better time to migrate to [Jetpack Compose](http://goo.gle/compose-migration).
 
-![Text: Compose Material 3 is going stable.](../../assets/images/aeac3fa29a4c-3x5u5He_G5aM-hAbFOEmjdikmgjpDNQZs3LKWT9itRuF6o3H5PI1n1KR9mN_LiYY7uJvGoTWY_rn7Up0b3R5JOskbizhaUJ3.png)
+![Text: Compose Material 3 is going stable.](<https://lh3.googleusercontent.com/3x5u5He_G5aM-hAbFOEmjdikmgjpDNQZs3LKWT9itRuF6o3H5PI1n1KR9mN_LiYY7uJvGoTWY_rn7Up0b3R5JOskbizhaUJ3rB8B6HhFPx1O73vYng>)
 
 ## The final Material Views release
 

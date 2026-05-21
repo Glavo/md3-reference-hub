@@ -2,7 +2,7 @@
 title: "Inputs"
 source_url: "https://m3.material.io/foundations/interaction/inputs"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/3345346605b4-lwvoasbb-1.png"
@@ -42,7 +42,7 @@ Inputs are devices that provide interactive control of an app. Common inputs inc
 -   Design for touch, keyboard, and mouse interactions
 -   Embrace multiple input methods and gestures within your app
 
-![Editing interface on a large screen device. The selected text is highlighted and the text cursor is visible.](../../../assets/images/3345346605b4-lwvoasbb-1.png)
+![Editing interface on a large screen device. The selected text is highlighted and the text cursor is visible.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvoasbb-1.png?alt=media&token=2706b8e6-4f43-4a00-9f8c-313bf1ca33d1>)
 
 _Designing for inputs allows people to use the inputs they prefer, like a mouse to highlight text on a tablet_
 
@@ -70,11 +70,11 @@ People can use external inputs like a mouse, keyboard, or stylus with their phon
 -   Media keys
 -   Modifier keys
 
-![Image of a mouse.](../../../assets/images/febcb8e17f49-m4781mpt-2.png)
+![Image of a mouse.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4781mpt-2.png?alt=media&token=4b1a2542-90ca-4586-b809-6c20fa5aa034>)
 
-![Image of a laptop keyboard and trackpad.](../../../assets/images/78ea7f703bf9-lwvoce8y-3.png)
+![Image of a laptop keyboard and trackpad.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvoce8y-3.png?alt=media&token=858a71ae-a1ab-403a-adb6-074566f3b0b0>)
 
-![Image of a keyboard.](../../../assets/images/41cd92893d95-lwvocxli-4.png)
+![Image of a keyboard.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvocxli-4.png?alt=media&token=fe5784ee-f092-40d6-9c96-4b3b6e1b4a10>)
 
 ### Input device behaviors
 
@@ -103,7 +103,7 @@ On devices that don't specifically recognize mouse or stylus input, the mouse is
 
 A mouse click or stylus tap should demonstrate the same feedback as touch input. One example of this is showing the ripple for a pressed state.
 
-![A view of a display with a visible mouse cursor.](../../../assets/images/56ae7b461cf6-m47884lw-Frame-1321316889.png)
+![A view of a display with a visible mouse cursor.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm47884lw-Frame%201321316889.png?alt=media&token=27bba76e-597c-41ac-9446-7e9bafa37f3a>)
 
 _A visible mouse cursor is seen when the external input is connected_
 
@@ -113,7 +113,7 @@ _A visible mouse cursor is seen when the external input is connected_
 
 A secondary click (whether using a single button or two fingers on a trackpad) should activate a context menu. The context menu shows additional options for the object that's clicked. See [menus](../../components/menus/overview.md) for more usage and guidelines.
 
-![A context menu pop up from a link with the options: Open link in new window, Save link as, Copy link location, and Inspect.](../../../assets/images/61f197ddb72e-lwvoetuu-6.png)
+![A context menu pop up from a link with the options: Open link in new window, Save link as, Copy link location, and Inspect.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvoetuu-6.png?alt=media&token=a1d1943b-8906-4e9f-96bd-e23ba631d331>)
 
 _The context menu should appear when right clicking with a mouse or trackpad_
 
@@ -123,7 +123,7 @@ When using a mouse cursor, help users discover interactive objects by enabling v
 
 Hovering with a cursor (or stylus) should also invoke tooltips when applicable. See [tooltips](../../components/tooltips/overview.md) for guidance.
 
-![Icon button, floating action button, and menu items in their hovered and not hovered states.](../../../assets/images/63f2daa416e5-lwvofwmm-7.png)
+![Icon button, floating action button, and menu items in their hovered and not hovered states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvofwmm-7.png?alt=media&token=c01eebb6-93d7-4e40-8156-947c480b8840>)
 
 _Components without a hover state; Components with a hover state change applied_
 
@@ -135,7 +135,7 @@ Cursors appear when using external input devices like a mouse or trackpad. The c
 
 By default, external input control should be rendered as a pointer.
 
-![A cursor rendered as a pointer.](../../../assets/images/0b64c41b9494-m478zll6-8.png)
+![A cursor rendered as a pointer.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm478zll6-8.png?alt=media&token=985719f0-888f-41a6-a5c9-23b21091f793>)
 
 _A pointer provides a visible indicator for input controls_
 
@@ -143,7 +143,7 @@ _A pointer provides a visible indicator for input controls_
 
 The cursor should appear as a hand to indicate links or linked images.
 
-![A link cursor (hand) shown when hovering over a linked image.](../../../assets/images/a779442b80e3-lwvogkod-8.png)
+![A link cursor (hand) shown when hovering over a linked image.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwvogkod-8.png?alt=media&token=d6119250-af14-4742-b20d-8f562a50274d>)
 
 _The hand cursor is used for links and clickable images_
 
@@ -151,7 +151,7 @@ _The hand cursor is used for links and clickable images_
 
 The cursor should change to resize arrows on the boundaries of resizable elements.
 
-![A cursor at the edge of the screen as resize arrows.](../../../assets/images/4fea6b007841-m4793i0f-8-(1).png)
+![A cursor at the edge of the screen as resize arrows.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4793i0f-8%20(1).png?alt=media&token=b94e8e6f-b790-4812-9d82-c66d70716ba5>)
 
 _Resize arrows indicate an element can be resized_
 
@@ -167,7 +167,7 @@ The cursor should appear as an I-beam when hovering on text. When manipulating e
 
 -   Single click deselects text and repositions the cursor
 
-![I-beam cursor hovering over selectable text.](../../../assets/images/02883b1f4714-m4798kwo-9.png)
+![I-beam cursor hovering over selectable text.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4798kwo-9.png?alt=media&token=c20ead4b-ac39-45c4-bc73-552fdd5d165e>)
 
 _An I-beam cursor indicates selectable text_
 
@@ -179,7 +179,7 @@ When selecting text using a mouse, trackpad, or stylus:
 
 -   Don’t show touch controls next to the highlighted area
 
-![Highlighted text in a single color.](../../../assets/images/c05d376f9748-m479c91z-12-(1).png)
+![Highlighted text in a single color.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm479c91z-12%20(1).png?alt=media&token=9f6f5be4-8571-4cab-a135-962387634d1d>)
 
 _Selected text shows a visible highlight_
 
@@ -189,11 +189,11 @@ When interacting using touch, always show touch controls, even if other inputs a
 
 When using a mouse, trackpad, or stylus, show the I-beam and context menu, even if it's a touch device.
 
-![Touch controls are produced on selected text, with mouse and trackpad detected.](../../../assets/images/4499515e9453-m48p2zdz-13-(2).png)
+![Touch controls are produced on selected text, with mouse and trackpad detected.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm48p2zdz-13%20(2).png?alt=media&token=6efd6004-66c4-4c60-995c-8dc26a01a4a8>)
 
 _When using a touchscreen to select text, show touch controls_
 
-![Selected text with a context menu, with mouse and trackpad detected.](../../../assets/images/77bb6be06597-m48p38qk-14-(2).png)
+![Selected text with a context menu, with mouse and trackpad detected.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm48p38qk-14%20(2).png?alt=media&token=3b6e4428-9260-4953-8261-9136214a9809>)
 
 _When using a mouse, trackpad, or stylus to select text, use the right-click context menu_
 
@@ -201,7 +201,7 @@ _When using a mouse, trackpad, or stylus to select text, use the right-click con
 
 When using a stylus, cursors are usually not necessary, unless they communicate tool properties such as brush size or shape.
 
-![A cursor rendered as a circle.](../../../assets/images/985943182f04-m48p68lr-12-(2).png)
+![A cursor rendered as a circle.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm48p68lr-12%20(2).png?alt=media&token=94399daa-4563-4402-9729-3fe0b3becaa0>)
 
 _The circle cursor indicates the selected stylus tool and size_
 
@@ -245,11 +245,11 @@ When a physical keyboard is connected to a device, either externally or as a bui
 
 A virtual keyboard should appear or hide in response to the presence of a physical keyboard.
 
-![Text being entered into a field with no on-screen keyboard displayed.](../../../assets/images/c8bf460dd741-m0b7vzhy-19.png)
+![Text being entered into a field with no on-screen keyboard displayed.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0b7vzhy-19.png?alt=media&token=7ae7282f-1e8d-4ce9-9fd5-7423bcf4e498>)
 
 _When a physical keyboard is attached, hide the virtual keyboard_
 
-![Text being entered into a field with an on-screen keyboard.](../../../assets/images/1db502fdf72c-m0b7w8fa-20.png)
+![Text being entered into a field with an on-screen keyboard.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0b7w8fa-20.png?alt=media&token=51ece2e1-122e-45bc-9c5d-7ddf5a72ba7d>)
 
 _When a physical keyboard is removed, show the virtual keyboard_
 
@@ -277,11 +277,11 @@ When keyboard users navigate a page using **Tab**, the focus on interactive item
 
 When focused from a keyboard or other input device, the focus state includes a ring-like keyboard focus indicator.
 
-![Tab focus is on “small,” which is one of four size options for sweatshirts at an online store.](../../../assets/images/562471f398a8-m0b7yvt7-23.png)
+![Tab focus is on “small,” which is one of four size options for sweatshirts at an online store.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0b7yvt7-23.png?alt=media&token=0461477f-c0fb-48d3-b29b-fd0a463524c3>)
 
 _Tab focus includes a visible keyboard focus indicator_
 
-![Tab focus is on “medium,” which is one of four size options for sweatshirts at an online store.](../../../assets/images/fea484d653d9-m0b7zlqx-24.png)
+![Tab focus is on “medium,” which is one of four size options for sweatshirts at an online store.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0b7zlqx-24.png?alt=media&token=ebdbbf64-30b6-48f0-9195-7278153eb547>)
 
 _The focus state moves elements as the user presses Tab on their keyboard_
 

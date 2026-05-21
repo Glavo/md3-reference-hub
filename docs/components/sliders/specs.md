@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/specs"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/e6ea7ef4d189-ma6a7kht-01-3P.png"
@@ -23,7 +23,7 @@ Sliders let users make selections from a range of values
 
 ## Variants
 
-![3 variants of sliders.](../../../assets/images/e6ea7ef4d189-ma6a7kht-01-3P.png)
+![3 variants of sliders.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a7kht-01-3P.png?alt=media&token=1f16d3a6-fc72-447e-83d7-ef38b37ff8fd>)
 
 _Standard; Centered; Range_
 
@@ -36,11 +36,11 @@ _Standard; Centered; Range_
 
 ## Configurations
 
-![Orientation and size configurations of sliders.](../../../assets/images/661083c87bc1-ma6a86b2-02-3P.png)
+![Orientation and size configurations of sliders.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a86b2-02-3P.png?alt=media&token=fbacd23b-0918-427c-9803-cd4c7050ed9f>)
 
 _Orientation: Horizontal, vertical; Size: XS, S, M, L, XL_
 
-![Optional anatomy configurations of sliders.](../../../assets/images/a4a38e048b81-ma6a8q7u-03-3P.png)
+![Optional anatomy configurations of sliders.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a8q7u-03-3P.png?alt=media&token=799e249c-9c5f-496b-b4ce-ef9b61ae2466>)
 
 _Inset icon; Stops; Value indicator_
 
@@ -76,29 +76,29 @@ Component: Sliders
 
 ## Anatomy
 
-![6 elements of a slider.](../../../assets/images/fd29369eb6b2-ma6a99lg-04-3p.png)
+![6 elements of a slider.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6a99lg-04-3p.png?alt=media&token=c1f10fb4-9cb1-4093-8305-6d3df903a22d>)
 
 _Value indicator (optional); Stop indicators (optional); Active track; Handle; Inactive track; Inset icon (optional)_
 
 ## Color
 
-![9 color roles of a slider.](../../../assets/images/55944bc73cc2-ma6aa21o-05-3P.png)
+![9 color roles of a slider.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6aa21o-05-3P.png?alt=media&token=d3fe982f-6f76-4973-aaf6-aa65a59956d3>)
 
 _Slider color roles used for light and dark schemes: Inverse surface; Inverse on surface; Primary; On primary; Primary; Secondary container; On secondary container; On secondary container; On primary_
 
 ## States
 
-![5 states of sliders in light and dark schemes.](../../../assets/images/ced01732b171-ma6aaode-06-3P.png)
+![5 states of sliders in light and dark schemes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6aaode-06-3P.png?alt=media&token=5b594eb5-38dd-45e4-a53e-2a976e720a09>)
 
 _Enabled; Disabled; Hovered; Focused; Pressed_
 
 ## Measurements
 
-![Common slider padding and size measurements.](../../../assets/images/ff884732fc93-ma6abaty-07-3P.png)
+![Common slider padding and size measurements.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6abaty-07-3P.png?alt=media&token=ecddf256-7f72-45c7-a4b2-64a91b405704>)
 
 _Padding and size measurements for common sliders_
 
-![Slider padding and size measurements at each size configuration, XS to XL.](../../../assets/images/20eb937ccd2b-ma6absmo-07-3P.png)
+![Slider padding and size measurements at each size configuration, XS to XL.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fma6absmo-07-3P.png?alt=media&token=e564d492-18b4-45d1-8efe-a62a5278e577>)
 
 _Padding and size measurements for XS, S, M, L, and XL sliders_
 

@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/cc7aae7b4e21-mlnt9v4x-01.png"
@@ -50,7 +50,7 @@ App bars are placed at the top of the screen to help people navigate through a p
 
 ## Guidelines
 
-![4 app bars with headlines and action icons.](../../../assets/images/cc7aae7b4e21-mlnt9v4x-01.png)
+![4 app bars with headlines and action icons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnt9v4x-01.png?alt=media&token=0cdcf9fb-c1f2-4dd5-8746-6e414feee9bb>)
 
 _App bars show information about the page, key actions, and navigation actions like Back or Menu_
 
@@ -60,7 +60,7 @@ Use an app bar to provide content and actions related to the current page, such 
 
 The information and actions in the app bar should be contextual and specific to a page, but can also include global product controls, such as search or notifications.
 
-![App bar with navigation icon buttons and a 2-line title.](../../../assets/images/1f0a2ce57890-mlntdon8-02.png)
+![App bar with navigation icon buttons and a 2-line title.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntdon8-02.png?alt=media&token=7474bc26-0192-42ed-9ae4-d429ee924607>)
 
 _App bars provide content and actions related to the current page_
 
@@ -70,7 +70,7 @@ The primary action should alter or exit the entire page, like **Send**, **Save**
 
 If the product has many actions, place those in a toolbar. Avoid placing an overflow menu in the app bar when possible.
 
-![App bar with content below.](../../../assets/images/fe869da14480-mlnth1j3-03.png)
+![App bar with content below.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnth1j3-03.png?alt=media&token=20971f34-e3ce-481d-ab93-7e6515060d07>)
 
 _App bars can display one high visibility action to boost its prominence_
 
@@ -78,11 +78,11 @@ To boost visibility of a primary action, change the style of the icon button to 
 
 Avoid using multiple filled or tonal buttons.
 
-![App bar with 1 filled button.](../../../assets/images/6e40b5bb1e1c-mlntiy4b-04-do.png)
+![App bar with 1 filled button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntiy4b-04-do.png?alt=media&token=377f38d5-e584-48cc-bc4c-7b6924efb2bd>)
 
 _Use a filled or tonal button for important actions_
 
-![App bar with 2 filled buttons, side by side.](../../../assets/images/1a3f94aba74f-mlntjjnv-05-dont.png)
+![App bar with 2 filled buttons, side by side.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntjjnv-05-dont.png?alt=media&token=7edfa0f2-f8ca-4ccc-a273-8fc079488693>)
 
 _Don’t put multiple filled or tonal buttons in the app bar_
 
@@ -103,7 +103,7 @@ The four variants of app bars are:
 4.  **Large flexible**
     Use to emphasize the headline of the page.
 
-![The 4 app bar variants.](../../../assets/images/bc4b5c5eed15-mlntmieq-06.png)
+![The 4 app bar variants.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntmieq-06.png?alt=media&token=c19118e7-becf-4020-9834-4808d65dff6e>)
 
 _Search app bar; Small; Medium flexible; Large flexible_
 
@@ -118,7 +118,7 @@ There are two baseline app bars that are no longer recommended:
 2.  **Large**
     Replace with large flexible.
 
-![2 baseline app bars.](../../../assets/images/457f614fd846-mlntnwot-07.png)
+![2 baseline app bars.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntnwot-07.png?alt=media&token=dda26bc8-d2d7-4573-a638-b392ab477962>)
 
 _Medium; Large_
 
@@ -126,7 +126,7 @@ _Medium; Large_
 
 Use a search app bar to provide an emphasized entry-point to open the search view.
 
-![A search bar within an app bar.](../../../assets/images/c255216b6f02-mlntr0ls-08.png)
+![A search bar within an app bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntr0ls-08.png?alt=media&token=3d8eef75-94d0-4d8f-9ccf-fbda3f747b4e>)
 
 _Search app bars have a search field instead of heading text_
 
@@ -140,7 +140,7 @@ Search bars should always include the word **Search**. They can use various capi
 3.  Search \[Product\] 
     Example: **Search Photos**
 
-![3 examples of search text in an app bar.](../../../assets/images/0ae5b326f677-mlntrvt2-09.png)
+![3 examples of search text in an app bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntrvt2-09.png?alt=media&token=1cbbdac4-2b41-433c-a6f0-f9eaefdb7f86>)
 
 _Use proper capitalization depending on what’s being searched_
 
@@ -150,7 +150,7 @@ In addition to a trailing avatar, search app bars can have up to two trailing ic
 
 Trailing icons can be placed inside or outside the search bar.
 
-![2 icons placed in the search bar.](../../../assets/images/6901b0238f87-mlntvpyq-10.png)
+![2 icons placed in the search bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntvpyq-10.png?alt=media&token=e8605375-74f6-4f86-95ba-3cbf97a0abb9>)
 
 _Put the most used actions on the left and least used on the right_
 
@@ -160,7 +160,7 @@ This logo can be purely cosmetic, or can trigger an action like returning to the
 
 Avoid using a logo to open an expanded navigation rail.
 
-![A search app bar with a logo, search bar, and avatar.](../../../assets/images/d43806ec2fa2-mlntz91y-11.png)
+![A search app bar with a logo, search bar, and avatar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlntz91y-11.png?alt=media&token=9075c294-0618-48e2-ad59-fa6c078f1d9f>)
 
 _The leading element can be a product logo_
 
@@ -168,7 +168,7 @@ Don’t use more than two trailing icon buttons with an avatar. 
 
 If more actions are needed, place them in a toolbar instead.
 
-![3 icons placed in a search app bar.](../../../assets/images/d355bd730227-mlnu01cf-12-Dont.png)
+![3 icons placed in a search app bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnu01cf-12-Dont.png?alt=media&token=0e553615-403a-4262-82e9-e288d7c660e0>)
 
 _Don’t use three icons and an avatar in a search app bar_
 
@@ -176,7 +176,7 @@ _Don’t use three icons and an avatar in a search app bar_
 
 The search app bar dynamically adapts to available width. There should be up to four trailing icons on larger screens.
 
-![4 actions placed in a search app bar on a large screen.](../../../assets/images/ad35fd2da2c6-mlnu4je0-13.png)
+![4 actions placed in a search app bar on a large screen.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnu4je0-13.png?alt=media&token=7e18830b-0ad8-4daf-bd6c-a4444703e399>)
 
 _Increased horizontal space on larger screens allows for up to four trailing icons._
 
@@ -186,13 +186,13 @@ By default, search containers in app bars use the **surface container** color to
 
 When choosing alternate colors, make sure the search text and container have at least 3:1 contrast for readability.
 
-![App bar with a light search container color.](../../../assets/images/18e90505f10c-mlnu68g2-14.png)
+![App bar with a light search container color.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnu68g2-14.png?alt=media&token=1a01e007-1a24-4d4e-844e-2974b56e060b>)
 
 _Search app bars can use different colors, like surface bright, for improved contrast with surrounding elements_
 
 ## Anatomy
 
-![ Diagram of app bar layout.](../../../assets/images/560d769fb24e-mlnub2xp-15.png)
+![ Diagram of app bar layout.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnub2xp-15.png?alt=media&token=3c28ab87-33b2-4e09-b2b7-207d28656b2f>)
 
 _Container; Headline; Trailing icons; Subtitle; Leading button_
 
@@ -202,21 +202,21 @@ The app bar container holds all information and actions at the top of a screen, 
 
 Avoid changing the position or shape of the container.
 
-![App bar with square corners.](../../../assets/images/03d83c5927e5-mlnuf0r2-16-do.png)
+![App bar with square corners.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnuf0r2-16-do.png?alt=media&token=1fb862a0-8a65-4d93-af58-23b8f45e9603>)
 
 _Use straight corners for app bars_
 
-![App bar with curved corners.](../../../assets/images/e76b8c1b2a88-mlnugbt5-17-dont.png)
+![App bar with curved corners.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnugbt5-17-dont.png?alt=media&token=c7c569a5-2a81-4583-a069-489e9e24fba9>)
 
 _Don’t use curved shapes. This implies that the container can expand upon interaction._
 
 Always use the default height of the app bar, and make it span the full width of the window.
 
-![App bar at default height.](../../../assets/images/be37732a83a0-mlnuiiym-18-Do.png)
+![App bar at default height.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnuiiym-18-Do.png?alt=media&token=9eb7bc81-3b55-4eea-bd7b-056e75806c41>)
 
 _Default heights were chosen to ensure readability of on-screen elements_
 
-![App bar with reduced height.](../../../assets/images/6e25eca487a3-mlnuja9a-19-Don't.png)
+![App bar with reduced height.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnuja9a-19-Don't.png?alt=media&token=1545b8ba-fdf0-47ac-8a4a-ff46376cd5d3>)
 
 _Don't make an app bar shorter than its default height_
 
@@ -226,7 +226,7 @@ Image logos can be used in app bars to bolster brand identity or visual appeal.�
 
 The image should be high quality and pertinent, and shouldn’t disrupt the app bar's functionality.
 
-![A logo added to an app bar.](../../../assets/images/9df1eee4ef67-mlnuliot-20.png)
+![A logo added to an app bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnuliot-20.png?alt=media&token=adba677c-2152-4281-8bd4-f8716770b7af>)
 
 _Image logos can replace all text in small app bars, and appear above the text in other app bars_
 
@@ -240,7 +240,7 @@ It typically is one of the following:
 
 -   A back arrow, which returns to the previous screen
 
-![Leading navigation icon aligned on left of app bar](../../../assets/images/d2c937cf5776-mlnumedg-21.png)
+![Leading navigation icon aligned on left of app bar](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnumedg-21.png?alt=media&token=3e674e2f-9102-4572-8d2d-b53da2435447>)
 
 _Leading Back button_
 
@@ -258,11 +258,11 @@ In medium flexible and large flexible app bars, the headline can wrap to a secon
 
 Don’t truncate the headline text.
 
-![App bar headline text set in 2 lines.](../../../assets/images/d23b74661999-mlnurf1u-22-Do.png)
+![App bar headline text set in 2 lines.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnurf1u-22-Do.png?alt=media&token=3a5b3bbb-92c1-4a5b-9bd1-7e14e49c3ad2>)
 
 _If headline text is long, use a medium flexible or large flexible app bar and wrap the headline to two lines maximum_
 
-![Small app bar headline text wrapped on 2 lines.](../../../assets/images/229aff185f05-mlnus8yg-23-Don't.png)
+![Small app bar headline text wrapped on 2 lines.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnus8yg-23-Don't.png?alt=media&token=5fd85933-3b19-4bd6-8d78-f0740a229798>)
 
 _Don’t wrap text in a small app bar_
 
@@ -270,7 +270,7 @@ Headlines can be aligned to the leading edge or centered.
 
 The headline’s typography size and style change depending on the app bar variant.
 
-![Search, small, medium and large flexible app bars with headline styles.](../../../assets/images/7fbea0056744-mlnuwnod-24.png)
+![Search, small, medium and large flexible app bars with headline styles.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnuwnod-24.png?alt=media&token=b7d50c26-4b22-499d-937e-b8a46da6c6d2>)
 
 _Headline typography style for each app bar Search: Body large; Small: Title large; Medium flexible: Headline medium; Large flexible: Display small_
 
@@ -280,7 +280,7 @@ Subtitles can add additional context to a page. 
 
 These can be leading-aligned or center-aligned with the headline text.
 
-![Small to large flexible app bars with headline and subtitle styles.](../../../assets/images/f9b9bbb86bf1-mlnvaru4-25.png)
+![Small to large flexible app bars with headline and subtitle styles.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnvaru4-25.png?alt=media&token=2f11cf07-6128-4ce8-b884-25d866b7a3ab>)
 
 _Subtitle typography style for each app bar: Small: Label medium; Medium flexible: Label large; Large flexible: Title medium_
 
@@ -292,17 +292,17 @@ Avoid using these buttons to open a menu with more actions. If more actions are 
 
 If changing the icon button color style to filled or tonal, only use one icon button.
 
-![2 icons placed to right of headline, from most to least used.](../../../assets/images/8464031c9c74-mlnvbo80-26.png)
+![2 icons placed to right of headline, from most to least used.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnvbo80-26.png?alt=media&token=486aa96c-7657-4afe-9ef1-79af0f159f63>)
 
 _Put the most used actions on the left and least used on the right_
 
 Use filled icons when possible for the best visibility. Outlined icons can also be used, particularly for unselected toggle buttons.
 
-![App bar with 2 filled icons, “save” and “download.”](../../../assets/images/cf3b5254604f-mlnvcdyc-27-Do.png)
+![App bar with 2 filled icons, “save” and “download.”](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnvcdyc-27-Do.png?alt=media&token=cdca83fa-7075-404b-aa93-c226a2252ef5>)
 
 _Use filled icons for clear, visible actions_
 
-![App bar with 2 outlined icons, “save” and “download.”](../../../assets/images/74f525a8af6c-mlnvcyu3-28-Caution.png)
+![App bar with 2 outlined icons, “save” and “download.”](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlnvcyu3-28-Caution.png?alt=media&token=bc0b91fe-454e-4dcc-ba4c-37c03fd1633c>)
 
 _Outlined icons can be used as needed, or when using toggle buttons_
 
@@ -340,7 +340,7 @@ The app bar automatically supports right-to-left (RTL) languages by aligning the
 
 This means that in RTL languages, the layout of the app bar is mirrored.
 
-![App bar in RTL with Hebrew text.](../../../assets/images/d2cf1dbd5ebf-mlp6doc5-32.png)
+![App bar in RTL with Hebrew text.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlp6doc5-32.png?alt=media&token=c3eed041-8305-4c9b-94de-18360f723822>)
 
 _The app bar’s layout is mirrored for right-to-left (RTL) languages_
 

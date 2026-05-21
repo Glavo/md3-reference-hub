@@ -2,7 +2,7 @@
 title: "Color resources"
 source_url: "https://m3.material.io/styles/color/resources"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/5f52fa71a956-ln49elwq-1-mtb.png"
@@ -20,7 +20,7 @@ MTB creates a full tonal scheme, contrast checking, and tokens. 
 
 [Material Theme Builder plugin](https://www.figma.com/community/plugin/1034969338659738588/material-theme-builder)
 
-![Screenshot of Figma design software showing a color scheme diagram on the canvas, a modal popup with the Material Theme Builder UI, and color scheme styles listed in the right UI pane.](../../../assets/images/5f52fa71a956-ln49elwq-1-mtb.png)
+![Screenshot of Figma design software showing a color scheme diagram on the canvas, a modal popup with the Material Theme Builder UI, and color scheme styles listed in the right UI pane.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Fln49elwq-1-mtb.png?alt=media&token=07b587e4-4adb-4c06-b94d-15bdd408345b>)
 
 _Material Theme Builder lets you create color schemes and apply them to your designs._
 

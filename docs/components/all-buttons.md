@@ -2,7 +2,7 @@
 title: "All buttons"
 source_url: "https://m3.material.io/components/all-buttons"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/40d4f9d44388-m4kdl8gi-1.png"
@@ -21,7 +21,7 @@ When choosing the right button for an action, consider the level of emphasis eac
 
 ##### There are 10 types of buttons in Material 3.
 
-![10 types of buttons.](../../assets/images/40d4f9d44388-m4kdl8gi-1.png)
+![10 types of buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4kdl8gi-1.png?alt=media&token=78222465-efb0-405d-9e25-3a771b475e3a>)
 
 _Button; Toggle button; Icon button; Toggle icon button; Split button; Standard button group; Connected button group; Floating action button (FAB); Extended FAB; FAB menu_
 
@@ -51,7 +51,7 @@ Each screen should contain a single prominent button for the primary action. Thi
 
 A product can show more than one button at a time in a layout. Use different color styles to create visual hierarchy and indicate the importance of each button.
 
-![3 types of hierarchy: high emphasis, medium emphasis, and low emphasis.](../../assets/images/de582a7b11ec-m0gpi7ar-2.png)
+![3 types of hierarchy: high emphasis, medium emphasis, and low emphasis.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0gpi7ar-2.png?alt=media&token=e31c5827-b4dd-4fdd-83de-d109e43641c7>)
 
 _A button’s level of emphasis helps determine its appearance, typography, and placement_
 
@@ -59,26 +59,26 @@ _A button’s level of emphasis helps determine its appearance, typography, and 
 
 Use a combination of button styles on the same screen to focus attention on a primary action, while offering alternatives.
 
-![Newsfeed screen with 3 different types of buttons following the emphasis hierarchy.](../../assets/images/90f9e13b984a-m4k8798m-3.png)
+![Newsfeed screen with 3 different types of buttons following the emphasis hierarchy.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k8798m-3.png?alt=media&token=1f675b98-035f-4adf-97c2-a8375a437370>)
 
 _A filled button for a high-emphasis action; A text button for a low-emphasis action; An extended FAB for the highest emphasis action_
 
-![Text button to the left of a filled button.](../../assets/images/650fca98e087-m4k87hb1-4.png)
+![Text button to the left of a filled button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87hb1-4.png?alt=media&token=e3effe4b-5a28-4eb6-89b9-2a4cc3fd5d17>)
 
 _For multiple actions, choose a higher-emphasis button for the more important action, such as a filled button next to a text button_
 
-![Outlined button to the left of a filled button.](../../assets/images/e7fd8f9a0021-m4k87km1-5.png)
+![Outlined button to the left of a filled button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87km1-5.png?alt=media&token=2429b8b4-abef-4285-918f-fa59a525ce3a>)
 
 _When using multiple buttons, you can place an outlined button (medium emphasis) next to a filled button (high emphasis)_
 
-![Text button to the left of an outlined button.](../../assets/images/04aefff4f438-m4k87oz2-6.png)
+![Text button to the left of an outlined button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87oz2-6.png?alt=media&token=2d9a1ec8-e9a8-4a8d-84b9-438e42016d16>)
 
 _When using multiple buttons, you can place a text button (low emphasis) next to an outlined button (medium emphasis)_
 
-![Single filled button at the bottom of a mobile screen.](../../assets/images/6c5dfa76493f-m4k87stt-7.png)
+![Single filled button at the bottom of a mobile screen.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87stt-7.png?alt=media&token=7fa90222-a791-4276-944d-4122dc855061>)
 
 _Use a filled button on its own for a single important action_
 
-![Filled button stacked above a text button.](../../assets/images/36cb1ae61ba1-m4k87x4t-8.png)
+![Filled button stacked above a text button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4k87x4t-8.png?alt=media&token=804d28f2-8df3-4b20-a9cf-b279bf566bff>)
 
 _Avoid placing a button below another button if there's space to place them side-by-side_

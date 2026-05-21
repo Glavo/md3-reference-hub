@@ -2,7 +2,7 @@
 title: "Tabs"
 source_url: "https://m3.material.io/components/tabs/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/e2af1b381076-m60bkpen-GM3-Components-Tabs-Accessibility-1-v01.mp4"
@@ -99,6 +99,6 @@ On arrow/tab in a tab menu, the active indicator appears on the first interactiv
 
 When the visible UI text is ambiguous, or there is no visible UI text, accessibility labels need to be more descriptive. For example, an icon button that visually represents a “video camera” requires additional information in its accessibility label to clarify the icon’s intent.
 
-![Small device screen  with the tab highlighted and the label and role illustrated.](../../../assets/images/bd9981a61d5f-m2k3h2mn-7.png)
+![Small device screen  with the tab highlighted and the label and role illustrated.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm2k3h2mn-7.png?alt=media&token=47b7122f-9754-488f-8436-39a6b015175a>)
 
 _While the icon visually represents a “Video camera,” the accessibility label for this tab clarifies its function: “Video format media content”_

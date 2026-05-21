@@ -2,7 +2,7 @@
 title: "Using the Gemini app with Material Design 3"
 source_url: "https://m3.material.io/blog/how-to-gemini-app-compose-material-design-3"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/79d8bab656a2-_GAV0tea_Vg-fwl92xjOoBHoZDyxl01gNGKMZJdDgPBkEIfJfkjvDGgLRmIQhDXkRyh3vfhhkznA7Zx74IFqADVf1nQoSAa5.png"
@@ -13,7 +13,7 @@ assets:
 
 Example prompts for designers and developers
 
-![Image](../../assets/images/79d8bab656a2-_GAV0tea_Vg-fwl92xjOoBHoZDyxl01gNGKMZJdDgPBkEIfJfkjvDGgLRmIQhDXkRyh3vfhhkznA7Zx74IFqADVf1nQoSAa5.png)
+![Image](<https://lh3.googleusercontent.com/_GAV0tea_Vg-fwl92xjOoBHoZDyxl01gNGKMZJdDgPBkEIfJfkjvDGgLRmIQhDXkRyh3vfhhkznA7Zx74IFqADVf1nQoSAa59JWy3o3LyTUGs0gGLO4>)
 
 Published: 2024-05-07T13:00:00
 
@@ -39,7 +39,7 @@ Working on the user interface for an app or website, designers create a mockup t
 
 Review this mockup showing a Tablet UI and show me all of the Material design 3 components I should use based on the mockup. Include portrait and landscape view considerations, include light and dark mode and any accessibility needs for the app. Then, show me Compose Kotlin code for this screen based on the descriptions generated.
 
-![Android mockup](../../assets/images/f249b87a20a2-HSSMuL9CDG3tJeHLhaClmW-SgTVZtAdPTtSIsqlfujD2HqU2wb-e3sQKpskYrAtAbORmlUiZ9i1jsb-AcPEa5GBYHb8Nl6Sb.png)
+![Android mockup](<https://lh3.googleusercontent.com/HSSMuL9CDG3tJeHLhaClmW-SgTVZtAdPTtSIsqlfujD2HqU2wb-e3sQKpskYrAtAbORmlUiZ9i1jsb-AcPEa5GBYHb8Nl6SbhcxVHyMbDowO617w9RsL>)
 
 Uploaded mockup
 

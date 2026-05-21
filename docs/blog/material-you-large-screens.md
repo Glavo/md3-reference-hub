@@ -2,7 +2,7 @@
 title: "Better design for bigger screens"
 source_url: "https://m3.material.io/blog/material-you-large-screens"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/e548cb799500-_mkKRboDKzkH_IzsVklwbVxksh3ZXWFDoZkHE0T6WxRh0IkqJxZRwVde-kTVy-NFc0ciYVHNGsIwBnVJK9XL75UqHocdiwE8.png"
@@ -15,7 +15,7 @@ assets:
 
 How Material You supports beautiful, efficient tablet and foldable experiences
 
-![Image](../../assets/images/e548cb799500-_mkKRboDKzkH_IzsVklwbVxksh3ZXWFDoZkHE0T6WxRh0IkqJxZRwVde-kTVy-NFc0ciYVHNGsIwBnVJK9XL75UqHocdiwE8.png)
+![Image](<https://lh3.googleusercontent.com/_mkKRboDKzkH_IzsVklwbVxksh3ZXWFDoZkHE0T6WxRh0IkqJxZRwVde-kTVy-NFc0ciYVHNGsIwBnVJK9XL75UqHocdiwE8qaODHx79NaWAtybXOFE>)
 
 Published: 2023-04-29T13:00:00
 
@@ -27,7 +27,7 @@ At Google I/O this year, Material Design is diving into the latest updates to la
 
 One of the top challenges of designing for large screens is creating layouts that are both visually appealing and user-friendly – without completely redesigning your app for each form factor. So, rather than design for an ever-increasing number of formats, we created Window Size Classes to ensure layouts adapt seamlessly across a range of devices.
 
-![](../../assets/images/75649f71ad8e-FFzfrTw11l9Zs8d9ON2ms7f4WRGHf9dOjEhnjsHTEEwCHjdji_GCTThZHZoFXDiAf1W9_jcGi47KBgaysha1GrDymBjMFXNa.png)
+![Image](<https://lh3.googleusercontent.com/FFzfrTw11l9Zs8d9ON2ms7f4WRGHf9dOjEhnjsHTEEwCHjdji_GCTThZHZoFXDiAf1W9_jcGi47KBgaysha1GrDymBjMFXNa0m-7eKhY9kywEYj2K50>)
 
 There are three window size classes: compact, medium, and expanded
 
@@ -37,7 +37,7 @@ For more complex layout scenarios, you can also  consider incorporating width a
 
 A typical app’s layout is made of two parts: the navigation and the body.
 
-![](../../assets/images/bb089baa0562-OdxbwYv4pA7vT5w9hd49Pqh4jnmuFbUgJooqIqKS8ByHFcYsuLF34FhSW6qjuh6KNzI4oxPC78Dl6gFWjk_r97xRVAXfvBmZ.png)
+![Image](<https://lh3.googleusercontent.com/OdxbwYv4pA7vT5w9hd49Pqh4jnmuFbUgJooqIqKS8ByHFcYsuLF34FhSW6qjuh6KNzI4oxPC78Dl6gFWjk_r97xRVAXfvBmZt6cyCfNnT7QNI3kv-KmV>)
 
 Compact devices use a navigation bar, medium devices can use a navigation rail, and expanded devices can take advantage of a navigation drawer
 
@@ -51,7 +51,7 @@ Content in a pane can be aligned and displayed in multiple columns. Columns are 
 
 New hardware is always exciting–but also brings challenges for handling new, unexpected use cases. Material’s updated guidance looks at how your design can adapt to a range of hardware specs with less work to customize and adapt your layout.
 
-![](../../assets/images/480fb6de421c-E7-U2j_dicT3wUuNCf4kgkZ04nQl-FKXdtr3qTsCXO7SeJ-52gOO4S3M_aXXzRPygNa5sQNJ6rzmSPjMBE23q-9vdh_tspxU.png)
+![Image](<https://lh3.googleusercontent.com/E7-U2j_dicT3wUuNCf4kgkZ04nQl-FKXdtr3qTsCXO7SeJ-52gOO4S3M_aXXzRPygNa5sQNJ6rzmSPjMBE23q-9vdh_tspxUqTPsA0Srf9FXyt7VeuNb>)
 
 New hardware comes with new challenges: hinges, on-screen cameras, and rapidly changing window size classes
 

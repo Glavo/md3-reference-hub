@@ -2,7 +2,7 @@
 title: "Material Components for Android 1.2.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-2"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/e0e7d39cfd3f-kMVUmItZ96jyShlKNdRVPf3Xpt9BKDRMxc919C2imRjLozwk8fWO4jaAoe4_fAGzDZ0gyP5tZaNSqr-IKQbBwzShHyKR2BD2.png"
@@ -15,7 +15,7 @@ assets:
 
 Material motion system, Sliders, ShapeableImageView, and more
 
-![Illustrated UI frames with Android bots](../../assets/images/e0e7d39cfd3f-kMVUmItZ96jyShlKNdRVPf3Xpt9BKDRMxc919C2imRjLozwk8fWO4jaAoe4_fAGzDZ0gyP5tZaNSqr-IKQbBwzShHyKR2BD2.png)
+![Illustrated UI frames with Android bots](<https://lh3.googleusercontent.com/kMVUmItZ96jyShlKNdRVPf3Xpt9BKDRMxc919C2imRjLozwk8fWO4jaAoe4_fAGzDZ0gyP5tZaNSqr-IKQbBwzShHyKR2BD2Etru>)
 
 Published: 2020-08-04T13:00:00
 
@@ -27,7 +27,7 @@ Be sure to check out the [release notes](https://github.com/material-components
 
 A fair bit has changed since we launched `[1.1.0](https://medium.com/google-design/material-design-components-for-android-1-1-0-are-now-available-45e1d576037c)` in February — we added the motion system, slider component, a widget for image shape theming, and more. The things you loved from the alpha, beta, and RC releases of `1.2.0` are now officially stable. If you haven’t yet started using version `1.2.0` of MDC, there’s never been a better time to update.
 
-![](../../assets/images/24a0cd0cf2d2-vN3rn-qxpd5mZAsxqq43fC088mMCtYFjOiCo1Ig-LFR6hEWlD44pna0YaOG2LIMZ9Fkf5xRQ1D5iN9p8c-d-9rdCH_QjKChd.png)
+![Image](<https://lh3.googleusercontent.com/vN3rn-qxpd5mZAsxqq43fC088mMCtYFjOiCo1Ig-LFR6hEWlD44pna0YaOG2LIMZ9Fkf5xRQ1D5iN9p8c-d-9rdCH_QjKChdIe1M>)
 
 ## Material motion
 
@@ -50,7 +50,7 @@ Fade a target View (using `TransitionManager`)
 
 Learn more about [how to implement motion for Android](https://material.io/develop/android/theming/motion).
 
-![Baseline slider component with indicator moving from 37 to 89](../../assets/images/98ec941ad92e-fI5NTbHaTtm72CwrxbkMBgfUqiHNm9D7K-SsUSsrvP4sTVCuIv7stIn-yrruWnIeOKM0ClAJqp6wjxmE9GTGTqHa2Jk1a3dh.png)
+![Baseline slider component with indicator moving from 37 to 89](<https://lh3.googleusercontent.com/fI5NTbHaTtm72CwrxbkMBgfUqiHNm9D7K-SsUSsrvP4sTVCuIv7stIn-yrruWnIeOKM0ClAJqp6wjxmE9GTGTqHa2Jk1a3dh6kBd8g>)
 
 ## Slider
 
@@ -60,7 +60,7 @@ MDC `1.2.0` allows you to use sliders in your Android app with the `[Slider](
 
 Learn more about [how to implement sliders](https://material.io/develop/android/components/slider).
 
-![9 shapes illustrating the range of options from very rounded to slightly rounded, sharp, and cut](../../assets/images/972b98de4b82-VeQa8SnPQaKm_VvdkajEdiv4coIUGnhW-YKILlGRXnTyhaIbdTAcKT2fG7VOO3uwAe4MSOz8BDCxS7b-JFDA4qHwfOUrh7dU.png)
+![9 shapes illustrating the range of options from very rounded to slightly rounded, sharp, and cut](<https://lh3.googleusercontent.com/VeQa8SnPQaKm_VvdkajEdiv4coIUGnhW-YKILlGRXnTyhaIbdTAcKT2fG7VOO3uwAe4MSOz8BDCxS7b-JFDA4qHwfOUrh7dUepfgb3g>)
 
 ## ShapeableImageView
 

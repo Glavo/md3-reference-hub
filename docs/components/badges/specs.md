@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/specs"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/827879794a3d-mamlcpos-1-3P.png"
@@ -19,11 +19,11 @@ Badges show notifications, counts, or status information on navigation items and
 
 ## Specs
 
-![5 aspects of badge anatomy on a navigation bar.](../../../assets/images/827879794a3d-mamlcpos-1-3P.png)
+![5 aspects of badge anatomy on a navigation bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmamlcpos-1-3P.png?alt=media&token=915611ea-55ac-48cb-83bf-417ef338e02d>)
 
 _Navigation bar Small badge; Large badge container; Large badge label; Large badge maximum character count container; Large badge maximum character count label_
 
-![5 aspects of badge anatomy on a navigation rail.](../../../assets/images/e0ba99ad622c-mamlee0o-2-3P.png)
+![5 aspects of badge anatomy on a navigation rail.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmamlee0o-2-3P.png?alt=media&token=456c8e6e-e485-4c1f-87bc-f4185cabe437>)
 
 _Navigation rail Small badge; Large badge container; Large badge label; Large badge maximum character count container; Large badge maximum character count label; /_
 
@@ -43,17 +43,17 @@ Component: Badges
 
 Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](../../foundations/design-tokens/overview.md)
 
-![5 applications of badge color on light and dark theme navigation bars.](../../../assets/images/7298af6b76bd-mg0yc68n-03-3P.png)
+![5 applications of badge color on light and dark theme navigation bars.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmg0yc68n-03-3P.png?alt=media&token=b0199799-0f54-4989-9eb5-9ab7aac1a3d0>)
 
 _Badge color roles used for light and dark schemes in navigation bar: Error; Error; On error; On error; Error_
 
-![5 applications of badge color on light and dark theme navigation rails.](../../../assets/images/eeb1cf35bfd7-lz9ep1tz-4.png)
+![5 applications of badge color on light and dark theme navigation rails.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flz9ep1tz-4.png?alt=media&token=1fe78232-1ccb-4c41-92a7-c1b9ee36df28>)
 
 _Badge color roles used for light and dark schemes in navigation rail: Error; On error; Error; On error; Error; /_
 
 ## Measurements
 
-![Annotation of badge sizes, padding, and measurements from the corner of the icon to the badge opposite corner.](../../../assets/images/4bae765a51e1-lz9eqf8f-badge_layout-correct.png)
+![Annotation of badge sizes, padding, and measurements from the corner of the icon to the badge opposite corner.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flz9eqf8f-badge_layout-correct.png?alt=media&token=5eef9643-a8a4-4adf-8cb5-1aead3ce6d05>)
 
 _Badge padding and size measurements_
 
@@ -72,7 +72,7 @@ _Badge padding and size measurements_
 
 Different badges are shown on navigation destinations in various states.
 
-![Diagram of 3 badge variations shown on navigation destinations in various states.](../../../assets/images/3a82d4920907-lz9eqsps-6.png)
+![Diagram of 3 badge variations shown on navigation destinations in various states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flz9eqsps-6.png?alt=media&token=d12e4a0d-b307-4c34-8df1-27d87e4a5a4a>)
 
 1.  Inactive with label - small badge
 2.  Inactive with label - large badge

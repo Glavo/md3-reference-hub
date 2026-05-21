@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -16,7 +16,7 @@ assets:
 
 Lists are continuous, vertical indexes of text or images.
 
-![Lists](../../../assets/images/74fff6d874e2-miq1b43h-frame.png)
+![Lists](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmiq1b43h-frame.png?alt=media&token=fc752db1-dd0a-4ab3-95fa-46598de9cffe>)
 
 ## Overview
 
@@ -30,7 +30,7 @@ Lists are continuous, vertical indexes of text or images.
 
 -   Choose between standard and segmented styles
 
-![1 list contains 3 items, each with a label text, supporting text, and trailing text. A music app shows list items with leading images.](../../../assets/images/63b9796f40c1-mi8nxjh0-01.png)
+![1 list contains 3 items, each with a label text, supporting text, and trailing text. A music app shows list items with leading images.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8nxjh0-01.png?alt=media&token=c030c446-c1e4-46b4-b732-cf0f8bb19bd5>)
 
 _A list item's label text, supporting text, image, and trailing icon can be customized to create a variety of lists_
 
@@ -80,7 +80,7 @@ Supported platforms:
 
 -   [Jetpack Compose](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#ListItem%28kotlin.Function0,androidx.compose.ui.Modifier,kotlin.Function0,kotlin.Function0,kotlin.Function0,kotlin.Function0,androidx.compose.material3.ListItemColors,androidx.compose.ui.unit.Dp,androidx.compose.ui.unit.Dp%29)
 
-![2 party planning lists with 2 completed list items each. In 1 list, the selected items are highlighted.](../../../assets/images/890a074f84e2-mi8pwbjv-02.png)
+![2 party planning lists with 2 completed list items each. In 1 list, the selected items are highlighted.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8pwbjv-02.png?alt=media&token=dc992ed3-06fd-4d06-aaab-249562097efc>)
 
 _Expressive lists feature improved selection states_
 
@@ -98,10 +98,10 @@ _Expressive lists feature improved selection states_
 
     -   If a list is 88dp or larger, or contains three or more lines of text, elements are top-aligned
 
-![3 variants of lists in M2.](../../../assets/images/f13ab1b086a1-mi8q1tdh-03.png)
+![3 variants of lists in M2.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8q1tdh-03.png?alt=media&token=5845ac54-f92c-41e8-8290-fac24588b690>)
 
 _M2: Non-standard heights and alignments_
 
-![3 variants of lists in M3 baseline.](../../../assets/images/8027a26ba8ba-mi8q2xsp-04.png)
+![3 variants of lists in M3 baseline.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmi8q2xsp-04.png?alt=media&token=df0c89b9-3118-4fad-bd02-8b9bd51cc98f>)
 
 _M3 (baseline): Standardized heights and alignments_

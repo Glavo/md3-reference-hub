@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -18,7 +18,7 @@ assets:
 
 Resources and guidance for immersive extended reality (XR) devices
 
-![Design for immersive XR](../../../../assets/images/c96d3c3a1421-mp6oo483-hero-image.png)
+![Design for immersive XR](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6oo483-hero%20image.png?alt=media&token=e98832ea-27a5-45b3-8e22-8838005536d6>)
 
 ## Overview
 
@@ -53,7 +53,7 @@ Resources and guidance for immersive extended reality (XR) devices
 
 Material components like buttons and menus help people navigate spatial apps with confidence.
 
-![A button opens to show a 3D Material menu.](../../../../assets/images/2dda1a3ce9f9-moxbsbzn-Spatialize_Components_10.gif)
+![A button opens to show a 3D Material menu.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmoxbsbzn-Spatialize_Components_10.gif?alt=media&token=b6813038-ded9-4f90-ad94-d740c11fbb2f>)
 
 _In XR, a Material menu uses elevation to appear in 3D_
 
@@ -61,7 +61,7 @@ _In XR, a Material menu uses elevation to appear in 3D_
 
 Place content in the center of a person’s field of view, and design for different body positions, such as seated, standing, and reclined.
 
-![A person sitting in a chair in an immersive XR environment, with lines marking their field of view.](../../../../assets/images/c131025bb83b-mowiikrm-03.png)
+![A person sitting in a chair in an immersive XR environment, with lines marking their field of view.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowiikrm-03.png?alt=media&token=f64a8f49-743a-439f-bf43-c5e577ba5c80>)
 
 _Positioning content in a person’s field of view keeps the UI visible and minimizes the need for excessive head or body movement_
 
@@ -69,7 +69,7 @@ _Positioning content in a person’s field of view keeps the UI visible and mini
 
 Use elevation and 3D models to add volume, create a sense of realism, and spatial understanding.
 
-![A person stands in front of an XR app with 3 curved panels and a 3D shark.](../../../../assets/images/a145aa8f399c-mowilveb-04.png)
+![A person stands in front of an XR app with 3 curved panels and a 3D shark.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowilveb-04.png?alt=media&token=125e5211-61a5-46c7-9f4e-806274ec223a>)
 
 _3D models can be viewed from all angles and moved with natural interactions_
 
@@ -77,7 +77,7 @@ _3D models can be viewed from all angles and moved with natural interactions_
 
 Design apps to work with system-level assistive technologies like screen readers, voice commands, and text resizing. Provide large target sizes, support multimodal inputs, and ensure text is legible against any background.
 
-![1 XR settings icon button with labeled target size and offset. 1 microphone icon button with a visible cursor.](../../../../assets/images/3170bdcccf4b-mowin62l-05.png)
+![1 XR settings icon button with labeled target size and offset. 1 microphone icon button with a visible cursor.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowin62l-05.png?alt=media&token=1050432a-36bd-4218-ba7e-af41ccd0f12b>)
 
 _In XR, icon buttons should have a 56dp target size and 4dp offset_
 

@@ -2,7 +2,7 @@
 title: "Looking for What’s Missing"
 source_url: "https://m3.material.io/blog/asset-people-3"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/1894e621fb15-xuAQngD7mW3Ay_UFZEMhnqlx52Jn0J6whGNAWG7j_fNp1-NyI10G2ObYzSe3W3rJOjXpYxwhneuCLNryBty_WTIXuGZAaxkC.png"
@@ -21,7 +21,7 @@ assets:
 
 A guide to including world-building narratives in a designer’s toolkit
 
-![Image](../../assets/images/1894e621fb15-xuAQngD7mW3Ay_UFZEMhnqlx52Jn0J6whGNAWG7j_fNp1-NyI10G2ObYzSe3W3rJOjXpYxwhneuCLNryBty_WTIXuGZAaxkC.png)
+![Image](<https://lh3.googleusercontent.com/xuAQngD7mW3Ay_UFZEMhnqlx52Jn0J6whGNAWG7j_fNp1-NyI10G2ObYzSe3W3rJOjXpYxwhneuCLNryBty_WTIXuGZAaxkCGc3dbiO66O-0VhPgMw>)
 
 _Art by David Allin Reese_
 
@@ -43,13 +43,13 @@ Figma is a design tool that is set up to serve a visual-to-code process, but not
 
 **Libraries** in Figma are sets of **components** and styles that are easily searchable. Components are elements connected to a main version that can be duplicated. Edits are made to the main version to then be dispersed to every connected duplicate, which is called an **instance**.
 
-![](../../assets/images/f5c03d0e9a91-TkLTpTfrC1oGt8ztuzqntR_Ah9PzbsaaKFLvWyCDhfpEeS6MoERJj7rPb5j8kU7Hk1dkQ_-FDgTa3xe2qmsREsuQJVbnXlnj.png)
+![Image](<https://lh3.googleusercontent.com/TkLTpTfrC1oGt8ztuzqntR_Ah9PzbsaaKFLvWyCDhfpEeS6MoERJj7rPb5j8kU7Hk1dkQ_-FDgTa3xe2qmsREsuQJVbnXlnjo2dWAr6ckKWLEHtzaFY>)
 
 An element converted into a component demonstrating how a change will automatically appear in connected instances in any file that has placed them from a shared library.
 
 Including the profiles in a Figma library was an interesting puzzle to solve because it wasn’t only a matter of [supplying licensed images to designers](https://material.io/blog/asset-people-2), I also needed to attach text that was tied to specific people, relationships, and scenarios independent from design elements.
 
-![Part of the analysis of various elements that make up Lee’s profile](../../assets/images/bd627c6c593c-HzZlBq_B2qXkauxlVzKMkhkz0xhslZz1F1xJ8QKFjhQVQ3ReHpOiP3dx46NwMM8sbCuEwW5IglwlRQrNP6l4qZYSajG9Zz08.png)
+![Part of the analysis of various elements that make up Lee’s profile](<https://lh3.googleusercontent.com/HzZlBq_B2qXkauxlVzKMkhkz0xhslZz1F1xJ8QKFjhQVQ3ReHpOiP3dx46NwMM8sbCuEwW5IglwlRQrNP6l4qZYSajG9Zz081OxGgwj32boMbdr9yXE>)
 
 Part of the analysis of various elements that make up Lee’s profile
 
@@ -59,7 +59,7 @@ Then I took care of the features that Figma already intuitively supports by foll
 
 1\. Organize component **variants** (different expressions of one component) into categories. Design the categories to be descriptive and straightforward. Our library has a component called Social Circle, for example, which includes avatars for everyone the main person interacts with.
 
-![This social circle component contains nine image options with corresponding names, message text, relationship context, and other metadata.](../../assets/images/d894dc54fa8f-oURaCiRR2WCpo4HdspLExtKEVDFskK2Cxr2V5X0Yza-qvGE5AgWFWqa-UIDUDC7WJJ_HJtqy8BDf08ZaHLdkDqb34c_uUUm7.png)
+![This social circle component contains nine image options with corresponding names, message text, relationship context, and other metadata.](<https://lh3.googleusercontent.com/oURaCiRR2WCpo4HdspLExtKEVDFskK2Cxr2V5X0Yza-qvGE5AgWFWqa-UIDUDC7WJJ_HJtqy8BDf08ZaHLdkDqb34c_uUUm7NKoZyu0PY3ihQC1MccQ>)
 
 This social circle component contains nine image options with corresponding names, message text, relationship context, and other metadata.
 
@@ -67,7 +67,7 @@ This social circle component contains nine image options with corresponding name
 
 3\. Group each collection of categories by profile so that they can be expanded or collapsed depending on who the designer chooses to use.
 
-![Fully expanded library on the left and collapsed view on the right](../../assets/images/1fba497b68cd-62HUWsfVrBUFhvlhF_Np5iFg4CphQH728LbBoeYzevhJiPlva2z18udNBELhL2-gZQoYF_EiiiiroWMpKPOSclAyFOJ064dc.png)
+![Fully expanded library on the left and collapsed view on the right](<https://lh3.googleusercontent.com/62HUWsfVrBUFhvlhF_Np5iFg4CphQH728LbBoeYzevhJiPlva2z18udNBELhL2-gZQoYF_EiiiiroWMpKPOSclAyFOJ064dcLTcjx-HumcfWiYZnTPda>)
 
 Fully expanded library on the left and collapsed view on the right
 
@@ -75,7 +75,7 @@ Fully expanded library on the left and collapsed view on the right
 
 5\. Provide any useful metadata to the components which will appear as hover-activated tooltips. The metadata can hold suggested uses as well as world-building context. For our Music components, which contain the licensed images of mock album covers, the tooltip suggests placing them in search results, media players, lists, and messages. It also includes a note about what kind of music the person prefers, like Sam listens to gentle classical and ambient music.
 
-![A tooltip showing metadata suggesting best uses for Ping’s media type](../../assets/images/7417ab770a30-G2l58u1u1cfvNSHTzqe98VR8YK4FGz7HbBg2TliCulJszx0UUhhLyaoPtFKZ1aNd6kpSY7tHDMmUOMmzy2g8_bEFk5Wr5cWE.png)
+![A tooltip showing metadata suggesting best uses for Ping’s media type](<https://lh3.googleusercontent.com/G2l58u1u1cfvNSHTzqe98VR8YK4FGz7HbBg2TliCulJszx0UUhhLyaoPtFKZ1aNd6kpSY7tHDMmUOMmzy2g8_bEFk5Wr5cWEgpTqVrAhxmU-lfp-Ew>)
 
 A tooltip showing metadata suggesting best uses for Ping’s media type
 
@@ -85,24 +85,24 @@ My solution was to co-opt property overrides to allow the content to appear temp
 
 6\. Provide raw text through property override toggles in the component variant which will place the text temporarily in the file so it can be copied and pasted into the design. Then the toggle can be turned off. This will keep designers in their workspace and not looking for a separate source document. Official edits to the text can still be made to the original component and it will disperse throughout all live instances.
 
-![The extra content toggle selected showing raw selectable text to accompany an album cover.](../../assets/images/3815557dfaad-jyf-oq06TuWVkm-n1PRwhNa6RSUznxeZRuk-kgHkeRYP62mK_LQRSq4RH3w_EYG0Z2-5kcwBoVtP5DNRDBaZgEah-9Cj5P8z.png)
+![The extra content toggle selected showing raw selectable text to accompany an album cover.](<https://lh3.googleusercontent.com/jyf-oq06TuWVkm-n1PRwhNa6RSUznxeZRuk-kgHkeRYP62mK_LQRSq4RH3w_EYG0Z2-5kcwBoVtP5DNRDBaZgEah-9Cj5P8z7LU_ltET9kl58A-Arg>)
 
 The extra content toggle selected showing raw selectable text to accompany an album cover
 
 7. Not everything will have extra raw content, so indicate which ones do to increase the ease of discoverability. A designer making an email interface will benefit from knowing who in the social circle has that kind of content available. I chose to indicate them with an asterisk (\*) in the variant list and provided a note about the asterisk in the metadata tooltip.
 
-![Lee’s social circle variant with asterisk selected to indicate there is message text attached](../../assets/images/58566902f6b6-tvRj92HDuffcPNpa6RHaqCO60xyqkadnEpLF1E5L-VWJUPNhEnl5fKUdg7MqD7vp8huQXKf9h5fK86GSDlFmuptyItcquajf.png)
+![Lee’s social circle variant with asterisk selected to indicate there is message text attached](<https://lh3.googleusercontent.com/tvRj92HDuffcPNpa6RHaqCO60xyqkadnEpLF1E5L-VWJUPNhEnl5fKUdg7MqD7vp8huQXKf9h5fK86GSDlFmuptyItcquajfAZw8BmHAi2TVzjl9pZw>)
 
 Lee’s social circle variant with asterisk selected to indicate there is message text attached
 
 8. Add any additional contextual information to the property panel. This is ideal for content that is important to know, but doesn’t need to be copied and pasted, like someone’s pronouns or how many episodes a podcast has.
 
-![Podcast with ten episodes selected in the variant list supported with contextual information](../../assets/images/eb446db83d44-mLntQcoDcQ_tK6RPSdKOeJXBW7XiRl65AHPGABBUioPBu2xIS5YG826GTKrWEoFURcm1PyT5JsQ6ZOW2Km8MOWQvHsGqrs4O.png)
+![Podcast with ten episodes selected in the variant list supported with contextual information](<https://lh3.googleusercontent.com/mLntQcoDcQ_tK6RPSdKOeJXBW7XiRl65AHPGABBUioPBu2xIS5YG826GTKrWEoFURcm1PyT5JsQ6ZOW2Km8MOWQvHsGqrs4O5UxtuiDdDfMtNgZUxw>)
 
 Podcast with ten episodes selected in the variant list supported with contextual information
 
 The results are three different worlds organized into a concise, robust, customizable, and instructive group of components representing hundreds of unique pieces of content. Being concise is fundamental to usability. No one needs to use their time looking for a needle in a haystack when the needle can easily be threaded with licensed images, corresponding text, and all the metadata needed for designers to begin sewing together thoughtful and consistent designs.
 
-![An overview of the final library containing 28 components that represent 218 unique pieces of visual and written content](../../assets/images/f68f570dfa39-zRulxput0Bv3Xfrfm8oVf21BXkylZtKVZ7sO36GPFsPpjf5uRUMD9Ch7bom-x9wsRCRaJphD6BUrswLH6F1cmW8KEpen_ZO7.png)
+![An overview of the final library containing 28 components that represent 218 unique pieces of visual and written content](<https://lh3.googleusercontent.com/zRulxput0Bv3Xfrfm8oVf21BXkylZtKVZ7sO36GPFsPpjf5uRUMD9Ch7bom-x9wsRCRaJphD6BUrswLH6F1cmW8KEpen_ZO7Lwz66VrCnELQ4b4XLw>)
 
 An overview of the final library containing 28 components that represent 218 unique pieces of visual and written content

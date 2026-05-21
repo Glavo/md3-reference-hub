@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose 1.2"
 source_url: "https://m3.material.io/blog/material-3-compose-1-2"
 lastmod: "2026-05-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/1494ff21eb63-s3xVT-1wuUuzcoWJpUphvitXeO1RI2It2CvsRpJeizKORSkVbuCJ3Zen8kPJqj04iU9_Q31zeecGiaAyQeWuSRt22_IZejbk.png"
@@ -19,7 +19,7 @@ assets:
 
 Exploring the 1.2 release of Material Design 3 for Compose
 
-![abstract illustration pale green and peach tones](../../assets/images/1494ff21eb63-s3xVT-1wuUuzcoWJpUphvitXeO1RI2It2CvsRpJeizKORSkVbuCJ3Zen8kPJqj04iU9_Q31zeecGiaAyQeWuSRt22_IZejbk.png)
+![abstract illustration pale green and peach tones](<https://lh3.googleusercontent.com/s3xVT-1wuUuzcoWJpUphvitXeO1RI2It2CvsRpJeizKORSkVbuCJ3Zen8kPJqj04iU9_Q31zeecGiaAyQeWuSRt22_IZejbkjPKMQAQqOgZn_gPJPhYI>)
 
 Published: 2024-02-07T13:00:00
 
@@ -29,9 +29,9 @@ The 1.2 release of Compose Material 3 is here, and with it comes new components,
 
 `Segmented Button` is a new experimental component. There are single select and multiple selection variants.
 
-![segmented button](../../assets/images/7f98b3acc785-MRGpPtlLR_oFFP5q9tXAcF_G6gcFGi_r1jnFTvg4SOntdC7Am9DVO15PgHkuBA0j0gh09F4rG9isWXUkbe0uG50KWzWw_K_L.png)
+![segmented button](<https://lh3.googleusercontent.com/MRGpPtlLR_oFFP5q9tXAcF_G6gcFGi_r1jnFTvg4SOntdC7Am9DVO15PgHkuBA0j0gh09F4rG9isWXUkbe0uG50KWzWw_K_LkhPXS82flPHXTEjDL9k>)
 
-![segmented button with two items selected](../../assets/images/204a26328ec2-j8sTaLIqknCT9c2yqitgk2zF4W_HaOkYHW2g07Hjn-UWDytZNTCTz6MrSUJeBoI6VkwUnBEEckpF3Xz5L1Fw-NbawkpJaPTB.png)
+![segmented button with two items selected](<https://lh3.googleusercontent.com/j8sTaLIqknCT9c2yqitgk2zF4W_HaOkYHW2g07Hjn-UWDytZNTCTz6MrSUJeBoI6VkwUnBEEckpF3Xz5L1Fw-NbawkpJaPTBJ1mslD2yTE986QO1hbY>)
 
 `BottomAppBar` has a `BottomAppBarScrollBehavior` to auto-hide itself when content is scrolled.
 
@@ -39,19 +39,19 @@ The 1.2 release of Compose Material 3 is here, and with it comes new components,
 
 `Badge` and `BadgedBox` have been promoted to stable.
 
-![Badge on icon](../../assets/images/0e16a5d6cf3d-oPc29x-FxE_KGdXW0B3AqQ8vgDJVuQzA_SjnKMKUEtbrfD7PW1YEQbRw0EzKyyPBJoMNsyFUPCR7yYzRVeXlbTIsBhxXy5FL.png)
+![Badge on icon](<https://lh3.googleusercontent.com/oPc29x-FxE_KGdXW0B3AqQ8vgDJVuQzA_SjnKMKUEtbrfD7PW1YEQbRw0EzKyyPBJoMNsyFUPCR7yYzRVeXlbTIsBhxXy5FLFqj7ZzczxnsGhobyaw>)
 
 The `Chip` APIs have been promoted to stable.
 
-![Chips](../../assets/images/a3e7aab77bba-2MxUFjAePtUPSAh_nqoOLP5CdnjlploeyoFwlMYJ8quSmima8XmJYSpK5UGv62Z-e72wx6PqYHP9NKWzrXlrbITXWeLc4TUu.png)
+![Chips](<https://lh3.googleusercontent.com/2MxUFjAePtUPSAh_nqoOLP5CdnjlploeyoFwlMYJ8quSmima8XmJYSpK5UGv62Z-e72wx6PqYHP9NKWzrXlrbITXWeLc4TUu6whTehBInpJsSUSEibx9>)
 
 ## Color Changes
 
 Material3 Compose 1.2 has an expanded color set giving you more ways to personalize your apps. Notable additions are more surface options to represent emphasis of information in your UIs. Components have been updated to make fuller use of the new surface values.
 
-![Light scheme](../../assets/images/51c2305d93df-jAliy_eXJWNsSEZei7ySjjja4IptR2gCM-8efiykeYXP9aP2VC_Z_xx0Vry1UD7TSEI-H3wNLZWaBOWd5h3D3mIXofFPu13-.png)
+![Light scheme](<https://lh3.googleusercontent.com/jAliy_eXJWNsSEZei7ySjjja4IptR2gCM-8efiykeYXP9aP2VC_Z_xx0Vry1UD7TSEI-H3wNLZWaBOWd5h3D3mIXofFPu13-6OqkHM93XeX_jtV6Qxw>)
 
-![Dark scheme](../../assets/images/019d4fbae53d-6YedDwTRqxhyco3sDt_0zfAq_BpA2PgWiY5Npblf5fJHuV8HXN0yP3UHwDU9CCLjPzEImikuZAC1Ly0dKA4oKUBiW8T97PRY.png)
+![Dark scheme](<https://lh3.googleusercontent.com/6YedDwTRqxhyco3sDt_0zfAq_BpA2PgWiY5Npblf5fJHuV8HXN0yP3UHwDU9CCLjPzEImikuZAC1Ly0dKA4oKUBiW8T97PRYpu5cuVPucSpVdHX3l-S1>)
 
 A small implementation note is that the ColorScheme object is now immutable allowing Jetpack Compose to skip it and possibly optimize successive compositions when the object hasn’t changed.
 
@@ -63,7 +63,7 @@ Previously in Material, we provided a single surface value and calculated interp
 
 Color roles simulating different elevation levels have been added to theming. There are now three surface color options and five surface container options.
 
-![Surface roles from a light color scheme](../../assets/images/b444ea93bc58-DPXzSGYraDha9ZwQi0WMQnWIhx_YrPkMUf6H5Yys4FVzVBXTt25UQFd19F0qUx2-yMH3nkVtMqkoUm3Gsw-8hJ6WrIAPNfTh.png)
+![Surface roles from a light color scheme](<https://lh3.googleusercontent.com/DPXzSGYraDha9ZwQi0WMQnWIhx_YrPkMUf6H5Yys4FVzVBXTt25UQFd19F0qUx2-yMH3nkVtMqkoUm3Gsw-8hJ6WrIAPNfThqEZRTIY41Oh6ebJjCSQ>)
 
 `Surface Bright` is guaranteed to be the lightest surface color. It is not currently in use by any of our provided components.
 

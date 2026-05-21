@@ -2,7 +2,7 @@
 title: "Dynamic color schemes"
 source_url: "https://m3.material.io/styles/color/dynamic/content-based-source"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/23b64e6220ef-lnoncne7-04.png"
@@ -23,7 +23,7 @@ Like user-generated color, the image is digitally analyzed through quantization,
 -   The product (and possibly system UI) change to a color corresponding to on-screen imagery
 -   A product that looks "smart"
 
-![Screenshot of a messaging app on a tablet screen.](../../../../assets/images/23b64e6220ef-lnoncne7-04.png)
+![Screenshot of a messaging app on a tablet screen.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flnoncne7-04.png?alt=media&token=20b6cfe8-2928-4685-b5a0-610772cbcea2>)
 
 _Messaging app with content-based color_
 

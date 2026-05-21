@@ -2,7 +2,7 @@
 title: "Building a Dark Theme for Google Fonts"
 source_url: "https://m3.material.io/blog/google-fonts-dark-theme"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/56d326f05b52-XyYL1gtZmsH8yqGNcybRTDjeFw9cwez-3m5GL0dQF2zUW5yolzoq7j7mXtNigUMD91YmGVMpM3sfSUypLK3n9n2BzJr7vB4l.png"
@@ -14,7 +14,7 @@ assets:
 
 How Google Fonts implemented a dark theme in its Angular App
 
-![illustration of the Google Fonts homepage](../../assets/images/56d326f05b52-XyYL1gtZmsH8yqGNcybRTDjeFw9cwez-3m5GL0dQF2zUW5yolzoq7j7mXtNigUMD91YmGVMpM3sfSUypLK3n9n2BzJr7vB4l.png)
+![illustration of the Google Fonts homepage](<https://lh3.googleusercontent.com/XyYL1gtZmsH8yqGNcybRTDjeFw9cwez-3m5GL0dQF2zUW5yolzoq7j7mXtNigUMD91YmGVMpM3sfSUypLK3n9n2BzJr7vB4lvkT1eg>)
 
 Published: 2021-02-22T13:00:00
 
@@ -34,7 +34,7 @@ Next, we modified the primary color to work better with the dark background. In 
 
 We also adjusted text and icon colors, using 3 different shades of grey depending on the level of emphasis and hierarchy. We use lighter greys for primary text and navigational icons, and a darker grey for secondary text.
 
-![Screenshot of Google Fonts website in light and dark themes](../../assets/images/239854ca03dd-hCrqDkj_XwfIRMp0MsZqxy61dlIIIizBTCF4WJmKBo3L_5CT9qQTZ4seg-mZEBDQda-_V2p_fY-KqD-8D5_te78o9gjJAqBz.png)
+![Screenshot of Google Fonts website in light and dark themes](<https://lh3.googleusercontent.com/hCrqDkj_XwfIRMp0MsZqxy61dlIIIizBTCF4WJmKBo3L_5CT9qQTZ4seg-mZEBDQda-_V2p_fY-KqD-8D5_te78o9gjJAqBzcqiBuw>)
 
 Lastly, we added a different treatment for the card component. In light theme, shadows are used to express elevation on hovered, focused and pressed states. But when we applied the same default shadow values for the dark theme, the shadows did not show enough contrast and visual cues for different element states on the dark background. So we added a lighter overlay to the dark themed card components to preserve the same visual expression and experience as the light theme. This also helps with the components’ legibility and ensures elevation expression that’s distinguable from the dark background.
 
@@ -68,7 +68,7 @@ Finally, we made our existing visual regression tests parameterized, to be able 
 
 ## See it in action
 
-![GIF showing Google Fonts dark theme toggling on and off](../../assets/images/85e90cbdd4f5-iTiNCaHTGGTCPtmMB5ABF6PhYk_ujzvDIVkL1eqYjmIOsrWiGXmdb-lIkf7Z-r2V9mKw5-k6bGKMRlsgPnQHwI-Th7u04k80.png)
+![GIF showing Google Fonts dark theme toggling on and off](<https://lh3.googleusercontent.com/iTiNCaHTGGTCPtmMB5ABF6PhYk_ujzvDIVkL1eqYjmIOsrWiGXmdb-lIkf7Z-r2V9mKw5--k6bGKMRlsgPnQHwI-Th7u04k80-y26g>)
 
 No need to wait any longer: the dark theme for [Google Fonts catalog](https://fonts.google.com) is already available! Check it out and share your feedback with us on Twitter [@GoogleFonts](https://twitter.com/googlefonts?lang=en), via email (fonts@google.com) or via the feedback feature in the bottom left corner of our app. We hope you enjoy it! 🌚
 

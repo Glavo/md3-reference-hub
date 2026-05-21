@@ -2,7 +2,7 @@
 title: "Material Design for XR (Developer Preview)"
 source_url: "https://m3.material.io/blog/material-design-xr-dev-preview"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/35dab38d49b2-LmC6YZQHA_FFP9yZNFbLYTedVEd0Yg3CGCd4XLkllaafZWYb6paPqED0tEFAx7o-uLwAEX2gBUqnUs5B8I8-XPCbQ5E1pfJ2.png"
@@ -23,7 +23,7 @@ assets:
 
 Building UI that adapts for XR with familiar frameworks and tools
 
-![spatialized material design layout](../../assets/images/35dab38d49b2-LmC6YZQHA_FFP9yZNFbLYTedVEd0Yg3CGCd4XLkllaafZWYb6paPqED0tEFAx7o-uLwAEX2gBUqnUs5B8I8-XPCbQ5E1pfJ2.png)
+![spatialized material design layout](<https://lh3.googleusercontent.com/LmC6YZQHA_FFP9yZNFbLYTedVEd0Yg3CGCd4XLkllaafZWYb6paPqED0tEFAx7o-uLwAEX2gBUqnUs5B8I8-XPCbQ5E1pfJ2usXj8d92AzQ_988aQg8>)
 
 Published: 2024-12-12T13:00:00
 
@@ -45,11 +45,11 @@ The [Android XR design guidelines](https://developer.android.com/design/ui/xr/) 
 
 To help you build integrated and boundless experiences, Android XR includes [multimodal inputs](https://developer.android.com/design/ui/xr/guides/foundations#design-multimodal), and [spatial capabilities](http://developer.android.com/design/ui/xr/guides/spatial-ui). Users can experience your app in two modes: [Home Space](https://developer.android.com/design/ui/xr/guides/foundations) and [Full Space](https://developer.android.com/design/ui/xr/guides/foundations). In Home Space, a user is able to multitask with your app running side by side with other apps. In Full Space, your app takes center stage as the focus of the user's experience with full access to the spatial and 3D capabilities of Android XR.
 
-![Woman standing at a table with 3 apps open around her.](../../assets/images/86cb9f894782-SGb0xm8dlDBTnd2euS-dOVAv_j4O6uk_bCMp7BkQB97dDXQuVn72Dcq3IpOVwjyuMMuHh4RyPzcPR6q4UfgLmPXqjL86G_9N.png)
+![Woman standing at a table with 3 apps open around her.](<https://lh3.googleusercontent.com/SGb0xm8dlDBTnd2euS-dOVAv_j4O6uk_bCMp7BkQB97dDXQuVn72Dcq3IpOVwjyuMMuHh4RyPzcPR6q4UfgLmPXqjL86G_9Nt7I7PRK7A2oi1Aqr5Q>)
 
 In Home Space, a user is able to multitask with your app running side by side with other apps.
 
-![Woman standing in a virtual moon crater with an app open in front of her. The app has four spatial panels, an orbiter, and a 3D pyramid.](../../assets/images/996fba3057ac-Ntu9h5U4fS56NUU75O-hEvs1maLHRESck4dFrtldYJ2zeuAnVuQeXWkXfBxZbqkj84Brp5T_czmDcXIgWLq3iF1mbcES-TRr.png)
+![Woman standing in a virtual moon crater with an app open in front of her. The app has four spatial panels, an orbiter, and a 3D pyramid.](<https://lh3.googleusercontent.com/Ntu9h5U4fS56NUU75O-hEvs1maLHRESck4dFrtldYJ2zeuAnVuQeXWkXfBxZbqkj84Brp5T_czmDcXIgWLq3iF1mbcES-TRrhpmmSky2060oSh3NkZhM>)
 
 In Full Space, your app takes center stage as the focus of the user's experience with full access to the spatial and 3D capabilities of Android XR.
 
@@ -63,7 +63,7 @@ Spatial panels allow you to take advantage of the infinite canvas that Android X
 
 Spatial UI behaviors in Material Design components and adaptive layouts will help your app adapt naturally to 3D space.
 
-![Material adaptive layout adjusting between home space and full space modes](../../assets/images/224fb478361e-aKNVM5nF1ukFod-lQUc0SQF_6yF-T5P6UwyAPkkxNeWhyN0c48m3AkAkjs3a1gYk_x9gzJN40NHd95x1MCw2aDK0IjxK5pYw.png)
+![Material adaptive layout adjusting between home space and full space modes](<https://lh3.googleusercontent.com/aKNVM5nF1ukFod-lQUc0SQF_6yF-T5P6UwyAPkkxNeWhyN0c48m3AkAkjs3a1gYk_x9gzJN40NHd95x1MCw2aDK0IjxK5pYwu9P7twKkgBX6rIKpGuw>)
 
 Material Design adaptive components and layouts for XR
 
@@ -75,11 +75,11 @@ Android XR gives you the flexibility to design a spacious UI that adapts seamles
 
 The navigation rail in any Compose layout including [`NavigationSuiteScaffold`](https://developer.android.com/develop/ui/compose/layouts/adaptive/build-adaptive-navigation) will automatically adapt to an XR orbiter. For more information, read [Material Design guidelines](https://m3.material.io/components/navigation-rail/xr).
 
-![Home space app with navigation rail](../../assets/images/5d993b99758c-6n2h_icI8q2ESzqESIQNS69kRNmN2ncZdLRdo8oOUO02JbLKLBrZOKRrba_g54FnormKcqZIz-ggW4_mwLjXc8LHWZMteLe-.png)
+![Home space app with navigation rail](<https://lh3.googleusercontent.com/6n2h_icI8q2ESzqESIQNS69kRNmN2ncZdLRdo8oOUO02JbLKLBrZOKRrba_g54FnormKcqZIz-ggW4_mwLjXc8LHWZMteLe-zpuv5wG88RMPRMS4vg>)
 
 Non-spatialized navigation rail
 
-![Full space app with navigation rail](../../assets/images/26b8bfeda629-z8haeB4KGw8L0GsKnA1ZmokvtnM_Is3vriHC8SbW48bCzDNURkAjNRVwOUA99P_9BVxGKQ5E_njZRBEh1QEE2mFEPluVkSTH.png)
+![Full space app with navigation rail](<https://lh3.googleusercontent.com/z8haeB4KGw8L0GsKnA1ZmokvtnM_Is3vriHC8SbW48bCzDNURkAjNRVwOUA99P_9BVxGKQ5E_njZRBEh1QEE2mFEPluVkSTHMjh10UMnpMPtdet5NlY>)
 
 Spatialized (XR-adapted) navigation rail
 
@@ -87,11 +87,11 @@ Spatialized (XR-adapted) navigation rail
 
 Likewise, the navigation bar in any Compose layout including [`NavigationSuiteScaffold`](https://developer.android.com/develop/ui/compose/layouts/adaptive/build-adaptive-navigation) will automatically adapt to an XR orbiter. For more information, read [Material Design guidelines](https://m3.material.io/components/navigation-bar/xr).
 
-![Compact layout in home space mode with nav bar](../../assets/images/09dafd96add9-oJcnR0EUitzuHwx7o15Pk101VywYBL8aVJsDF-175GTlZ6kUqcJhMW-f8HZ7uoTNZ_i9QWj1OQAtlHbjcfw6EMk_9-KzAYzl.png)
+![Compact layout in home space mode with nav bar](<https://lh3.googleusercontent.com/oJcnR0EUitzuHwx7o15Pk101VywYBL8aVJsDF-175GTlZ6kUqcJhMW-f8HZ7uoTNZ_i9QWj1OQAtlHbjcfw6EMk_9-KzAYzlkFl2cQdAxlxiw9aipA>)
 
 Non-spatialized navigation bar
 
-![Expanded layout in full space with nav bar](../../assets/images/c3a74fd6a2fd-oB6Czgh-4EbsCabSbemY9uBHoAQlbONHRz9AOCwXbVzBwL8dW2mgqCikjkVmQIfkS3FWVPvJWZWvnGXWdGPNot4N6UN4Id5F.png)
+![Expanded layout in full space with nav bar](<https://lh3.googleusercontent.com/oB6Czgh-4EbsCabSbemY9uBHoAQlbONHRz9AOCwXbVzBwL8dW2mgqCikjkVmQIfkS3FWVPvJWZWvnGXWdGPNot4N6UN4Id5FXcELvIGqAJhYszHWAA>)
 
 Spatialized (XR-adapted) navigation bar
 
@@ -99,11 +99,11 @@ Spatialized (XR-adapted) navigation bar
 
 [Compose Material 3 Adaptive Layouts](https://developer.android.com/jetpack/androidx/releases/compose-material3-adaptive) in XR have a 1:1 mapping where each pane becomes an XR spatial panel. Learn more about [`ListDetailPaneScaffold`](https://developer.android.com/develop/ui/compose/layouts/adaptive/list-detail) and [adaptive design guidelines](https://m3.material.io/foundations/adaptive-design).
 
-![List-detail layout in home space](../../assets/images/2a47310a481a-UQNZ7IU2o0QU_UdKJsqehLTRQNUDnZS_hOoDkQhu8VnSlUcYuWF7ohD5GH_rBbwA8sUOMb8QsjYu_KhQDw57j_HYkA3meoR4.png)
+![List-detail layout in home space](<https://lh3.googleusercontent.com/UQNZ7IU2o0QU_UdKJsqehLTRQNUDnZS_hOoDkQhu8VnSlUcYuWF7ohD5GH_rBbwA8sUOMb8QsjYu_KhQDw57j_HYkA3meoR4bxie8BFOz3NhpGGdbw>)
 
 Non-spatialized ListDetailPaneScaffold
 
-![List-detail layout in full space](../../assets/images/7bfb700dedd9-3SZDiYGeMQ6OcrI_jplqKKUuVdhRlh-e6x-8Of-5BWv-8B7hIOW8w8khkYpubXqArQ5h2MXT06XNKcHN7v8jNvasK1OAMf__.png)
+![List-detail layout in full space](<https://lh3.googleusercontent.com/3SZDiYGeMQ6OcrI_jplqKKUuVdhRlh-e6x-8Of-5BWv-8B7hIOW8w8khkYpubXqArQ5h2MXT06XNKcHN7v8jNvasK1OAMf__wUGA7N6fNKcK6dwsFkA>)
 
 Spatialized (XR-adapted) ListDetailPaneScaffold
 
@@ -111,11 +111,11 @@ Spatialized (XR-adapted) ListDetailPaneScaffold
 
 [Compose Material 3 Adaptive Layouts](https://developer.android.com/jetpack/androidx/releases/compose-material3-adaptive) in XR also have a 1:1 mapping where each pane becomes an XR spatial panel. Learn more about [`SupportingPaneScaffold`](https://developer.android.com/develop/ui/compose/layouts/adaptive/build-a-supporting-pane-layout) and [adaptive design guidelines](https://m3.material.io/foundations/adaptive-design).
 
-![supporting pane layout in home space](../../assets/images/eb1a31436558-B-JqNbwGerfkdwPGe_S407ZHnxcWiObalnK0qBRPfDiSaDew2ScsZqYkybNUz961qd7IhADr67eJDxeVIIQ4nYcYfg4IlfMF.png)
+![supporting pane layout in home space](<https://lh3.googleusercontent.com/B-JqNbwGerfkdwPGe_S407ZHnxcWiObalnK0qBRPfDiSaDew2ScsZqYkybNUz961qd7IhADr67eJDxeVIIQ4nYcYfg4IlfMFjSiGqMUTcllM22Wr828>)
 
 Non-spatialized SupportingPaneScaffold
 
-![supporting pane layout in full space](../../assets/images/43d2cb7a33dc-UD_39RYFdzRYFthsxXXgBmjdLOuoT_E3OetgJF9MEHUx1wQxq9aq11NNbeKvdKXQGeFXTzg2Bp8wvJHCW-EeP97_HoNehlL7.png)
+![supporting pane layout in full space](<https://lh3.googleusercontent.com/UD_39RYFdzRYFthsxXXgBmjdLOuoT_E3OetgJF9MEHUx1wQxq9aq11NNbeKvdKXQGeFXTzg2Bp8wvJHCW-EeP97_HoNehlL7ruT0gazFOIKp2PpD8kfZ>)
 
 Spatialized (XR-adapted) SupportingPaneScaffold
 

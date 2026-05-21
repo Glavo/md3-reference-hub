@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/bdabb758a547-lwuilyza-1.png"
@@ -25,7 +25,7 @@ Cards display content and actions about a single subject
 
 -   Cards have flexible layouts and dimensions based on their contents
 
-![3 variants of cards](../../../assets/images/bdabb758a547-lwuilyza-1.png)
+![3 variants of cards](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuilyza-1.png?alt=media&token=f4bfb5e7-e96f-41b7-8c6e-e00ab2260001>)
 
 _Elevated card; Filled card; Outlined card_
 
@@ -49,6 +49,6 @@ _Elevated card; Filled card; Outlined card_
 
 -   Variants: Three official card variants – elevated, filled, and outlined
 
-![M3-style card](../../../assets/images/2caa2687aaf9-lwuimnd8-2.png)
+![M3-style card](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwuimnd8-2.png?alt=media&token=c9ef2b3a-985a-487b-b521-de02ce44c8e0>)
 
 _Cards have updated colors, elevation, and variants_

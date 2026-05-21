@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/accessibility"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/5839acbccc38-mal4w7e9-1_Do.png"
@@ -30,11 +30,11 @@ People should be able to do the following using assistive technology:
 
 Ensure the icon has contrast of at least 3:1 with the surface or background.
 
-![Icon button with correct contrast ratio.](../../../assets/images/5839acbccc38-mal4w7e9-1_Do.png)
+![Icon button with correct contrast ratio.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal4w7e9-1_Do.png?alt=media&token=b59c5fba-011b-49af-8c0a-9f06a5d5f4b5>)
 
 _Icon buttons should have a 3:1 contrast ratio with the surface or background_
 
-![Icon button with insufficient contrast ratio.](../../../assets/images/2afd183d6459-mal4w3mg-2_Don't.png)
+![Icon button with insufficient contrast ratio.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal4w3mg-2_Don't.png?alt=media&token=72bcee5d-ca2a-4f93-9c08-861003f0f4ff>)
 
 _Avoid using colors with contrast below 3:1_
 
@@ -49,7 +49,7 @@ _Avoid using colors with contrast below 3:1_
 
 The accessibility label for icon buttons describes the action the button is executing, such as **Add to favorites**, **Bookmark**, or **Send message**.
 
-![Icon button label and role.](../../../assets/images/993afafc3799-mal4xuoj-3.png)
+![Icon button label and role.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmal4xuoj-3.png?alt=media&token=f0908e1c-f8cf-467a-a4bc-359ab5bf80d0>)
 
 _The icon button label describes the action, such as Add to favorites for the heart icon_
 
@@ -59,7 +59,7 @@ Groups of similar components can be nested together inside a component, or they 
 
 The target size of each icon button should be at least 48dp, even when nested.
 
-![Icon buttons with 48dp target sizes.](../../../assets/images/34d5520d50ad-m0c1h7ba-4.png)
+![Icon buttons with 48dp target sizes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c1h7ba-4.png?alt=media&token=79849c70-99e3-4433-8616-05d06808a57b>)
 
 _Icon buttons can be used within other components, such as an app bar_
 
@@ -73,6 +73,6 @@ Provide density options that allow people to choose a higher density, such as se
 
 On web, icon buttons should display a tooltip with an accessibility label.
 
-![“Heart” icon with "Add to favorites" tooltip on hover.](../../../assets/images/506180e221e4-m0c1j2b9-5.png)
+![“Heart” icon with "Add to favorites" tooltip on hover.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c1j2b9-5.png?alt=media&token=244efcd1-5b55-496d-a4bb-9bc97593fbd9>)
 
 _The tooltip label text should be clear and concise_

@@ -2,7 +2,7 @@
 title: "Magic, utility, and redesigning Material.io"
 source_url: "https://m3.material.io/blog/material-io-redesign"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/394799d84e53-n1AFrqnEqCS6Ntd1UZtqoFZOgSmhYk_YX-CQa9J69XFZoChDhW1tyui1uGpBfh-VJOIJXYbDGfsVrFJfD0Lx9KpaHRguiAo_.png"
@@ -29,7 +29,7 @@ assets:
 
 Pushing visual and interactive expression in design guidelines with Material Design 3
 
-![Image](../../assets/images/394799d84e53-n1AFrqnEqCS6Ntd1UZtqoFZOgSmhYk_YX-CQa9J69XFZoChDhW1tyui1uGpBfh-VJOIJXYbDGfsVrFJfD0Lx9KpaHRguiAo_.png)
+![Image](<https://lh3.googleusercontent.com/n1AFrqnEqCS6Ntd1UZtqoFZOgSmhYk_YX-CQa9J69XFZoChDhW1tyui1uGpBfh-VJOIJXYbDGfsVrFJfD0Lx9KpaHRguiAo_wG87UMyXc3VJSuwHHxTR>)
 
 Published: 2022-10-18T10:00:00
 
@@ -41,13 +41,13 @@ For this refresh, the Material.io team showcased new features and components whi
 
 [Click here](https://material.io/) to check out the new Material.io
 
-![Homepage of Material.io](../../assets/images/090b7dca9fcb-6aaoMqll-RgC38h6pundoR1u46I6QWJzsGK_r4ONvfy0Omj-7l6ZY9-j0SCYNvcjlOSwme89PLeQskYEj2i9_zMNOix1FwRN.png)
+![Homepage of Material.io](<https://lh3.googleusercontent.com/6aaoMqll-RgC38h6pundoR1u46I6QWJzsGK_r4ONvfy0Omj-7l6ZY9-j0SCYNvcjlOSwme89PLeQskYEj2i9_zMNOix1FwRN7-ZmRSZfq5KBHpV3ky4>)
 
 ## Connecting imagery, dynamic color and guidelines
 
 Dynamic color is a tentpole feature of Material You, a subset of features of Material Design 3 that make digital products feel personal based on a person’s device wallpaper or preferences. When designing for Material.io, we considered how we could showcase dynamic color and the new color system while still maintaining the site’s use-case as a reference material.
 
-![Image of themed components against an illustrative background](../../assets/images/b80a669e3c28-ZBWTcgEGUl9hiLnxRhFSuNLeWHYP6zv5Y2XhiLY7p0wns-p9jGcpczu_jaKGEOYAtaaCgsc4HnTZ8rRu2uv59WJqlX6s61Bt.png)
+![Image of themed components against an illustrative background](<https://lh3.googleusercontent.com/ZBWTcgEGUl9hiLnxRhFSuNLeWHYP6zv5Y2XhiLY7p0wns-p9jGcpczu_jaKGEOYAtaaCgsc4HnTZ8rRu2uv59WJqlX6s61BtiaitbDHQLjf8Oef4AWY>)
 
 To achieve this balance, we implemented a sub-feature of dynamic color called [content-based dynamic color](https://m3.material.io/styles/color/dynamic-color/user-generated-color) to modify the colors of Material.io’s UI. This is similar to dynamic color, but instead of relying on personal preferences we relied on a beautiful set of imagery ranging in style, color and subject matter. These images were commissioned by [Oddfellows](https://material.io/blog/interview-oddfellows-m3-art-style) and [Jamie Chung](https://material.io/blog/jamie-chung-photography-interview) and are styled specifically to compliment the diagrammatic and UI example images found across the site.
 
@@ -60,7 +60,7 @@ Component guideline articles are considered the bread and butter of Material Des
 
 ## Component catalog
 
-![Component catalog page on Material.io](../../assets/images/2130f140f321-hvoUcqePmGD08I30r_OJ9pzPsw7C0Nx5EZRk18Qw0Q4Z8dRJ186EImpJ4zZOzk5h7eVM-TXX-DjEw_Y7YLypAdakn4KJiwT2.png)
+![Component catalog page on Material.io](<https://lh3.googleusercontent.com/hvoUcqePmGD08I30r_OJ9pzPsw7C0Nx5EZRk18Qw0Q4Z8dRJ186EImpJ4zZOzk5h7eVM-TXX-DjEw_Y7YLypAdakn4KJiwT2irwoPAOY27mMDi7KIILE>)
 
 A beautiful example of combining imagery, color and utility, the component catalog page assists readers in finding the best component for their use case. Component cards are organized into categories based on their function, and each of these categories has a unique theme color to showcase how the new color system applies to different components.
 
@@ -80,7 +80,7 @@ When designing for print, the designer is primarily concerned with one interacti
 
 In digital products like Material.io, information is inherently hidden behind more complex information architecture, and the user has to perform a number of gestures or actions to reveal it, this is magic. To help readers perform this spellwork, we wanted to provide a consistent wayfinding experience to help them find what they are looking for.
 
-![Juxtaposed view of navigation rail, drawer and tabs on Material.io](../../assets/images/6b6ea06dff9b-j3pjWkdHIUoL5rdspLQGwuRv9Q8jAcaMRr0qZLLSXmqAlt4GNe0u6_wRx2vHrbIRiUgJcjqbj8bnhJ2XwN7ca4xVeBpZGBIK.png)
+![Juxtaposed view of navigation rail, drawer and tabs on Material.io](<https://lh3.googleusercontent.com/j3pjWkdHIUoL5rdspLQGwuRv9Q8jAcaMRr0qZLLSXmqAlt4GNe0u6_wRx2vHrbIRiUgJcjqbj8bnhJ2XwN7ca4xVeBpZGBIK_t-dPAGXuLAa0Pz_gW4>)
 
 The consistent visual treatment of Material.io’s navigation components establishes a functional gestalt through shape and color, signaling to readers that these UI elements are part of a family, and they share a function in helping them traverse the content on the site.
 
@@ -103,11 +103,11 @@ A tertiary form of navigation, the table of contents component allows a reader t
 
 Marginalia, a beautiful word I learned not too long ago from a colleague which is used to describe elements found in the margins of a page. When redesigning the article experience for Material.io, the team considered some of these small, sometimes invisible details of the reading experience such as bullet points, semantic colors and list numerals.
 
-![An example of a do and don't on Material.io using blue and red as semantic colors](../../assets/images/597d75ad7700-Q-DgxCIfJG0OmK9wo6FaCX6ugHS9XMYn6aS_48F-wFV_tLGk5t6R2bmeOEAmqF2WmW5Uuo17mWo3z7bQiQPGkmU7sL7SMcg4.png)
+![An example of a do and don't on Material.io using blue and red as semantic colors](<https://lh3.googleusercontent.com/Q-DgxCIfJG0OmK9wo6FaCX6ugHS9XMYn6aS_48F-wFV_tLGk5t6R2bmeOEAmqF2WmW5Uuo17mWo3z7bQiQPGkmU7sL7SMcg4d0cFp0c-6CF0CPfibw>)
 
 We redesigned Do and Don’t labels that avoid the semantic use of red and green, and instead used blue as the affirmative color. Nearly 10% of people struggle with red-green colorblindness (including myself). With that in mind, and with the assurance of 3 signifiers: text, icon, and color, we felt confident in making the call to depart from typical affirmative and negative semantic colors.
 
-![Example of custom, star shaped bullets on material.io](../../assets/images/c884438ddc98-WyHHFm8QKPYsw_7qEdU3e2FtQ1kE3oHEReMoJJEG343LN1FW4T5-nciw0sUqXK4JBeL780AEyl0g7ULf8iziAbI5JBsl2QUw.png)
+![Example of custom, star shaped bullets on material.io](<https://lh3.googleusercontent.com/WyHHFm8QKPYsw_7qEdU3e2FtQ1kE3oHEReMoJJEG343LN1FW4T5-nciw0sUqXK4JBeL780AEyl0g7ULf8iziAbI5JBsl2QUws7A0OOyofY-7gYOsLFI>)
 
 Material 3’s shape story is dotted with the use of highly expressive “cookie” shapes, as the team likes to call them. Applying these shapes to bullet points at such a small scale, and randomly rotating them with some simple CSS provides a sense of understated iconoclasm, pushing visual expression for the sake of expression, rather than strict utility.
 

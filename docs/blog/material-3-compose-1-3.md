@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose version 1.3"
 source_url: "https://m3.material.io/blog/material-3-compose-1-3"
 lastmod: "2026-05-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/c366e8eb9483-DrLnPC8-STsu-5P55vb_gt03HeiUMVfx4k_KPbiGueXrh1XOuuYzAcacYSFVwlwngMK7IO8rqEZnA0Yge84tQpjWnJsLJo9k.png"
@@ -25,7 +25,7 @@ assets:
 
 Exploring the 1.3 release of Material Design 3 for Compose
 
-![Image](../../assets/images/c366e8eb9483-DrLnPC8-STsu-5P55vb_gt03HeiUMVfx4k_KPbiGueXrh1XOuuYzAcacYSFVwlwngMK7IO8rqEZnA0Yge84tQpjWnJsLJo9k.png)
+![Image](<https://lh3.googleusercontent.com/DrLnPC8-STsu-5P55vb_gt03HeiUMVfx4k_KPbiGueXrh1XOuuYzAcacYSFVwlwngMK7IO8rqEZnA0Yge84tQpjWnJsLJo9kzz6ndQ7UJ-TJrE97oRU>)
 
 Published: 2024-09-10T13:00:00
 
@@ -51,13 +51,13 @@ Material 1.3 introduces two experimental versions of the [Material 3 Carousel](.
 
 The [`HorizontalMultiBrowseCarousel`](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary#HorizontalMultiBrowseCarousel\(androidx.compose.material3.carousel.CarouselState,androidx.compose.ui.unit.Dp,androidx.compose.ui.Modifier,androidx.compose.ui.unit.Dp,androidx.compose.foundation.gestures.TargetedFlingBehavior,androidx.compose.ui.unit.Dp,androidx.compose.ui.unit.Dp,androidx.compose.foundation.layout.PaddingValues,kotlin.Function2\)) shows at least one large, medium, and small carousel item.
 
-![carousel component](../../assets/images/3e0d389f64e6-DEPT123BmoDhy3YqCUG8pjPYxj7TeLJaQbk2L2XU2SG1pv6CvdV8ZjKZyx8YyJXmnkrHXLkrNvIxlhkKRREEjq9IadiLj4hh.png)
+![carousel component](<https://lh3.googleusercontent.com/DEPT123BmoDhy3YqCUG8pjPYxj7TeLJaQbk2L2XU2SG1pv6CvdV8ZjKZyx8YyJXmnkrHXLkrNvIxlhkKRREEjq9IadiLj4hh1UUrG6iTgPRcNPP4hg>)
 
 [Video: Video](../../assets/videos/e9a8d6bf71b7-compose_material_3_v1_3_carousel_multi_browse_short.mp4)
 
 The  [`HorizontalUncontainedCarousel`](https://developer.android.com/reference/kotlin/androidx/compose/material3/carousel/package-summary#HorizontalUncontainedCarousel\(androidx.compose.material3.carousel.CarouselState,androidx.compose.ui.unit.Dp,androidx.compose.ui.Modifier,androidx.compose.ui.unit.Dp,androidx.compose.foundation.gestures.TargetedFlingBehavior,androidx.compose.foundation.layout.PaddingValues,kotlin.Function2\))  displays its items at a given size and one item at the end that peeks in to show that there are more items in the list.
 
-![carousel component with equal width items](../../assets/images/85916d200d90-eD3MsG445cg94jaQ-XdCmvlgmpufz1OdpUqm1coFKg4RyBBlK1_u_oIQPYYzfIkYm4VAEtdjuRFh7_NKseJ6Es-E0C18V3ZY.png)
+![carousel component with equal width items](<https://lh3.googleusercontent.com/eD3MsG445cg94jaQ-XdCmvlgmpufz1OdpUqm1coFKg4RyBBlK1_u_oIQPYYzfIkYm4VAEtdjuRFh7_NKseJ6Es-E0C18V3ZYmtcg5Ek_tdJgl_7_EG3U>)
 
 Similar to using the `HorizontalPager`, the Carousel applies a few design specifications on top of the `Pager`, such as the parallax effect for item content and how the items on each end should size themselves. An example of using the `HorizontalUncontainedCarousel` can be found below:
 
@@ -67,7 +67,7 @@ As part of the Carousel component, we’ve added two new modifiers to `CarouselI
 
 For example, if you wanted to surround your Carousel items with a border, you can do so by placing the `maskBorder` modifier onto the individual item, as well as provide a different shape to the items with `maskClip`:
 
-![carousel with bordered items](../../assets/images/ccd0913e3fcd-4Mv5AUboQH_OCRrnI5VMutyelAGAvPcM6ydy7PhgOqhihNr0XcxVJOQZfgp6ep6xRakUPJ7w5kc_iEMyxXAHMXUgcYWafPeO.png)
+![carousel with bordered items](<https://lh3.googleusercontent.com/4Mv5AUboQH_OCRrnI5VMutyelAGAvPcM6ydy7PhgOqhihNr0XcxVJOQZfgp6ep6xRakUPJ7w5kc_iEMyxXAHMXUgcYWafPeOzqATriJhG5_WG7dIV-sT>)
 
 ## Component updates
 
@@ -77,7 +77,7 @@ The following components have been updated to match the Material 3 specification
 
 The [progress indicator](../components/progress-indicators/overview.md) components have been updated to a new visual style to match the Material 3 specification:
 
-![linear and circular progress indicators](../../assets/images/68532d67ab47-jjoVgAzqpayTA72T5Y3mTnR4Ql-5ASIcslSN2ckzWFMzQUncxj7_R4RsZd9yhHLfKX9tJG4D50dQZkD7-C0bf_M5AChp2XG2.png)
+![linear and circular progress indicators](<https://lh3.googleusercontent.com/jjoVgAzqpayTA72T5Y3mTnR4Ql-5ASIcslSN2ckzWFMzQUncxj7_R4RsZd9yhHLfKX9tJG4D50dQZkD7-C0bf_M5AChp2XG2DzRqbx_MclLJtiKmqNA>)
 
 1.  [`LinearProgessIndicator`](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#LinearProgressIndicator\(androidx.compose.ui.Modifier,androidx.compose.ui.graphics.Color,androidx.compose.ui.graphics.Color\)) is a straight line progress indicator, the visual style has changed to use rounded `strokeCap` by default, this can be changed with the `strokeCap` parameter. New parameter for specifying the `gapSize` between the progress indicator and track is now available. To change or disable the visual indicator at the end - use the `drawStopIndicator` parameter.
 2.  [`CircularProgressIndicator`](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#CircularProgressIndicator\(androidx.compose.ui.Modifier,androidx.compose.ui.graphics.Color,androidx.compose.ui.unit.Dp\)) is a circle shaped progress indicator, the visual style has changed to use rounded `strokeCap`, this can be changed with the `strokeCap` parameter. New parameter for specifying the `gapSize` between the progress indicator and track is now available.
@@ -88,15 +88,15 @@ The [slider](../components/sliders/overview.md) component has been updated to a 
 
 1.  Continuous slider: `Slider`
 
-    ![continuous slider](../../assets/images/6dea54c896ee-1OU9xdvZ1ouk40epthZkt3tXGZVQjhrFrsrSQaMWQUHB0NnqG31O9xpNNEVt3r7OHcctqRgdl8ch4KZ8J_UUrpmmtSXtkdYE.png)
+    ![continuous slider](<https://lh3.googleusercontent.com/1OU9xdvZ1ouk40epthZkt3tXGZVQjhrFrsrSQaMWQUHB0NnqG31O9xpNNEVt3r7OHcctqRgdl8ch4KZ8J_UUrpmmtSXtkdYEJ59iroXNMJAT2ey_zAE>)
 
 2.  Discrete slider: `Slider` with `steps` parameter set
 
-    ![discrete slider](../../assets/images/5fbbd49cbecf-6JQqGQk4PPb1DizJTjNnThLMQZ6AYvXBh920Jwm5D493QB9FPVL4oYoO3h-otGmHdRpntKFJ2nJLPKS9rrhhASGuGTP-t-7d.png)
+    ![discrete slider](<https://lh3.googleusercontent.com/6JQqGQk4PPb1DizJTjNnThLMQZ6AYvXBh920Jwm5D493QB9FPVL4oYoO3h-otGmHdRpntKFJ2nJLPKS9rrhhASGuGTP-t-7dW5Z5yaUf8OvtHTItZ8Y>)
 
 3.  Range slider: `RangeSlider` 
 
-    ![range slider](../../assets/images/872ce8e354c6-671iyxq3rm67ducjeWnafRj1dWm2LOcmFPdZ2UwJMOdSPRQs4FcOhMinu3B8AY0_QCylAyc3xxEFpHm5SgfQphSi20GS7dVe.png)
+    ![range slider](<https://lh3.googleusercontent.com/671iyxq3rm67ducjeWnafRj1dWm2LOcmFPdZ2UwJMOdSPRQs4FcOhMinu3B8AY0_QCylAyc3xxEFpHm5SgfQphSi20GS7dVeIzi9hpRRniLxyrPi20E>)
 
 
 **Bottom Sheet**
@@ -128,7 +128,7 @@ The following components will now automatically handle predictive back on device
 
 For developers using the previous opacity-based surface model for custom color mappings, we recommend remapping these to the new roles:
 
-![updated color mapping diagram](../../assets/images/26aa149c1cf6-b94lGmuynALaLTkcyC-d7x8T0eTb9JC-0qZ0aDrTRGpJFwNXTd119F02BaaaTGdPSEf7ndQ3AV60s91UivV_vDzmqW4aK_d0.png)
+![updated color mapping diagram](<https://lh3.googleusercontent.com/b94lGmuynALaLTkcyC-d7x8T0eTb9JC-0qZ0aDrTRGpJFwNXTd119F02BaaaTGdPSEf7ndQ3AV60s91UivV_vDzmqW4aK_d0T-12-IcLMjDQvlOnbGk>)
 
 Instead of using `ColorScheme.surfaceColorAtElevation()`, use the following colors instead:
 
@@ -148,7 +148,7 @@ In addition to the introduction of tone based surface color roles, the following
 -   `onTertiaryContainer`
 -   `onErrorContainer`
 
-![updated color scheme applied to components](../../assets/images/ae46fb917d07-V_JToogTe7oilw8FmfBShEKDTXv_I0lf1rcaLBr6R5yO5wVChnBdmL1LE-dzlDoWQ5Js7eRwQwUAgRuNnCmTxTtR5oaCSiMO.png)
+![updated color scheme applied to components](<https://lh3.googleusercontent.com/V_JToogTe7oilw8FmfBShEKDTXv_I0lf1rcaLBr6R5yO5wVChnBdmL1LE-dzlDoWQ5Js7eRwQwUAgRuNnCmTxTtR5oaCSiMOdY9qQNoMah5806Ueig>)
 
 Affected components:
 

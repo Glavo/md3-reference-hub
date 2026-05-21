@@ -2,7 +2,7 @@
 title: "Announcing Google Fonts Knowledge"
 source_url: "https://m3.material.io/blog/google-fonts-knowledge"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/b2485e6f5c2c-7I_HJpE7Ey92aJnE6PLYwwPVR4DEnPScLc7zAR3fUsVDQYWQgYrlrk7UOKEDj6rfreKBVWcgsT-N2viMuIedK7iaaBz-2_yy.png"
@@ -13,7 +13,7 @@ assets:
 
 A new resource to help designers and developers choose and use type with purpose
 
-![Image](../../assets/images/b2485e6f5c2c-7I_HJpE7Ey92aJnE6PLYwwPVR4DEnPScLc7zAR3fUsVDQYWQgYrlrk7UOKEDj6rfreKBVWcgsT-N2viMuIedK7iaaBz-2_yy.png)
+![Image](<https://lh3.googleusercontent.com/7I_HJpE7Ey92aJnE6PLYwwPVR4DEnPScLc7zAR3fUsVDQYWQgYrlrk7UOKEDj6rfreKBVWcgsT-N2viMuIedK7iaaBz-2_yyQvQ2ewfgTcC0DwO4DPI>)
 
 Published: 2021-12-07T10:00:00
 
@@ -29,4 +29,4 @@ The Google Fonts Knowledge library, as it stands today, consists of 30+ lessons 
 
 It’s not hard to become a good typographer, but it can sometimes be hard to demystify the art and science of typography itself. Google Fonts Knowledge aims to make these skills accessible to all.
 
-![Google Fonts Knowledge homepage screenshot](../../assets/images/d05be116f279-pHf_iayB9z42wCMXL-SyuF4Gz6SjOByjWSrrwwrnhFbO5DQCBdhmNFNWW184q8KAzMtedGaznlfGrbf8bXGMcwobucX3GhGF.png)
+![Google Fonts Knowledge homepage screenshot](<https://lh3.googleusercontent.com/pHf_iayB9z42wCMXL-SyuF4Gz6SjOByjWSrrwwrnhFbO5DQCBdhmNFNWW184q8KAzMtedGaznlfGrbf8bXGMcwobucX3GhGF_ZXzfCsbOsUEkPcdzFcf>)

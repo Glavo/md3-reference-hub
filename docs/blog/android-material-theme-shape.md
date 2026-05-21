@@ -2,7 +2,7 @@
 title: "Building a Material Theme on Android: Shape"
 source_url: "https://m3.material.io/blog/android-material-theme-shape"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/77c7547bb983-xDCjGLXfjLAHyaA1ZYQrDNPUm8P6zVsK4Zk6AFDzxpnKe10X-FrECxi10pB3hTWxzl-pyJ8SY3ZBreGZpD3lhHBWK-mrFL5H.png"
@@ -20,13 +20,13 @@ assets:
 
 Shape theming on Android using the MDC library
 
-![Image](../../assets/images/77c7547bb983-xDCjGLXfjLAHyaA1ZYQrDNPUm8P6zVsK4Zk6AFDzxpnKe10X-FrECxi10pB3hTWxzl-pyJ8SY3ZBreGZpD3lhHBWK-mrFL5H.png)
+![Image](<https://lh3.googleusercontent.com/xDCjGLXfjLAHyaA1ZYQrDNPUm8P6zVsK4Zk6AFDzxpnKe10X-FrECxi10pB3hTWxzl-pyJ8SY3ZBreGZpD3lhHBWK-mrFL5H_FH2zg>)
 
 Published: 2020-09-01T13:03:00
 
 [Material Theming](https://material.io/design/material-theming/overview.html#material-theming) is a way to customize [Material Components](https://material.io/components) to align with your brand. A Material theme includes [color](https://material.io/design/color/), [typography](https://material.io/design/typography/) and [shape](https://material.io/design/shape/) parameters which you can adjust to get near-infinite variations of the components – all while maintaining their core anatomy and usability.
 
-![Material button transforming from baseline style to show off different options for color, shape, typography, and label](../../assets/images/4dce8978f798-VCtdEjXvwAg3Gdgje_AEvZEfwaB6__Cwq5ZeTrVV6DJJzo1SCEWDOZXLjYqkCXa7bZzdE4qtprD4x6pt6VQJAJX3-hFYsMXS.png)
+![Material button transforming from baseline style to show off different options for color, shape, typography, and label](<https://lh3.googleusercontent.com/VCtdEjXvwAg3Gdgje_AEvZEfwaB6__Cwq5ZeTrVV6DJJzo1SCEWDOZXLjYqkCXa7bZzdE4qtprD4x6pt6VQJAJX3-hFYsMXSGm2LoA>)
 
 On Android, Material Theming can be implemented using the [Material Components (MDC) library](https://github.com/material-components/material-components-android), from version `1.1.0` onwards. If you’re looking to migrate from the Design Support Library or MDC `1.0.0`, take a look at our [migration guide](https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351).
 
@@ -38,13 +38,13 @@ Most widgets have a background shape, but have you ever thought about the ways t
 
 Material Design provides 3 shape “categories” that are applied to the shapeable widgets of your app. Each of these have a design term (eg. “Small components”) along with a corresponding shape attribute that can be overridden in your app theme (eg. \``shapeAppearanceSmallComponent`\`). There are default “baseline” values (corner size, corner family, etc.) for each category.
 
-![ShapeAppearanceSmallComponent with rounded, 4 dp corners. ShapeAppearanceMediumComponent with rounded, 4 dp corners. ShapeAppearanceLargeComponent with rounded, 0 dp corners.](../../assets/images/c493179629b1-GaJLAG38YYsUT05HM9DWhFl06KQcKOHQ5g-eQ0wQpNqVGtF7FrePVUOHxwn2cTTEntTMqT2hJnP6IxP8B4CjmmoaWxAwzhFe.png)
+![ShapeAppearanceSmallComponent with rounded, 4 dp corners. ShapeAppearanceMediumComponent with rounded, 4 dp corners. ShapeAppearanceLargeComponent with rounded, 0 dp corners.](<https://lh3.googleusercontent.com/GaJLAG38YYsUT05HM9DWhFl06KQcKOHQ5g-eQ0wQpNqVGtF7FrePVUOHxwn2cTTEntTMqT2hJnP6IxP8B4CjmmoaWxAwzhFeAu2RbQ>)
 
 MDC shape attributes with baseline values
 
 Material Components use these shape attributes to style backgrounds of the widgets.
 
-![Button color attributes: ?attr/colorOnPrimary for + icon and button text, ?attr/textAppearanceButton for button text, ?attr/shapeAppearanceSmallComponent for button shape, ?attr/colorPrimary for background color](../../assets/images/d5920d91a3ec-tfDkjI_T9f9pqZCE96_A_94k5vvogrG6FKM-If4UIRDiehK5iMd7X0a1D5eHQPHthjr28AwPX5d2yhQkHtran3othj3S3lSY.png)
+![Button color attributes: ?attr/colorOnPrimary for + icon and button text, ?attr/textAppearanceButton for button text, ?attr/shapeAppearanceSmallComponent for button shape, ?attr/colorPrimary for background color](<https://lh3.googleusercontent.com/tfDkjI_T9f9pqZCE96_A_94k5vvogrG6FKM-If4UIRDiehK5iMd7X0a1D5eHQPHthjr28AwPX5d2yhQkHtran3othj3S3lSYxeZXog>)
 
 Shape attributes used by a button
 
@@ -73,7 +73,7 @@ See the [shape guidelines](https://material.io/design/shape/applying-shape-to-ui
 
 Material Design provides a useful [shape customization tool](https://material.io/design/shape/about-shape.html#shape-customization-tool) for previewing shape categories and how changes apply to the corners of various components.
 
-![](../../assets/images/791c036cd041-yaLZ_6n-zgJcQNo4HTlO6GQLqO1CtdzLXpBEnw2zrKjvdT__Oa2b0MNCk5MUFhsjYW9gbRC2NVnacmgrCtjl1hU_SLumbagR.png)
+![Image](<https://lh3.googleusercontent.com/yaLZ_6n-zgJcQNo4HTlO6GQLqO1CtdzLXpBEnw2zrKjvdT__Oa2b0MNCk5MUFhsjYW9gbRC2NVnacmgrCtjl1hU_SLumbagRD6XPQg>)
 
 Shape customization tool
 
@@ -144,7 +144,7 @@ Once set up, override the shape attributes you wish to change in your base theme
 
 Material Design components will respond to theme-level shape overrides:
 
-![UI components changing from baseline shape to cornerFamily=cut, with corner sizes 8 dp, 12 dp, 16 dp.](../../assets/images/36e421530415-gnKKrcjEX9IBXFAMTn_9YMa-ECxn3FBHsw__UTqAowjlttLEBwY9kRp0eizEyiunRs12IzywO6u69zRa_qvZXgam8p-HMnDT.png)
+![UI components changing from baseline shape to cornerFamily=cut, with corner sizes 8 dp, 12 dp, 16 dp.](<https://lh3.googleusercontent.com/gnKKrcjEX9IBXFAMTn_9YMa-ECxn3FBHsw__UTqAowjlttLEBwY9kRp0eizEyiunRs12IzywO6u69zRa_qvZXgam8p-HMnDTW3hmJw>)
 
 Material Design components responding to theme-level shape overrides
 
@@ -152,7 +152,7 @@ Material Design components responding to theme-level shape overrides
 
 Shape theming is powered by [`MaterialShapeDrawable`](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/shape/MaterialShapeDrawable.java). It’s the default background drawable for all MDC widgets and handles rendering shape. Unlike other drawables, it’s not usable in XML and needs to be handled programmatically.
 
-![](../../assets/images/fd9f67864248-27Uy-sb7tyds8kgaooepHk1KcwizdC-UYZLqW_MqkYFjOFG4_Ijiymvyz-TsU33b1Ccw8_AbXSUaujrT9K5FRKK2iz5fqcyv.png)
+![Image](<https://lh3.googleusercontent.com/27Uy-sb7tyds8kgaooepHk1KcwizdC-UYZLqW_MqkYFjOFG4_Ijiymvyz-TsU33b1Ccw8_AbXSUaujrT9K5FRKK2iz5fqcyvn9Vj>)
 
 MaterialShapeDrawable and ShapeAppearanceModel visualized
 
@@ -196,7 +196,7 @@ Earlier we said that MDC widgets respond to overrides of theme level shape attri
 
 The MDC developer docs have recently been refreshed. As part of this we’ve included attribute tables which include design terminology and default values used in the library. For example, check out the “Anatomy and key properties” sections of the updated [buttons doc](https://material.io/develop/android/components/buttons/#contained-button).
 
-![](../../assets/images/27f5464b8bcb-Y9sF_I0nve-cuSFQ4DHPuJXZG994yrDDg-Aea8E7HmHqIYr7PJLpDe9cvpaWLBYl1TzYeHRkYD-kLb81ET0krvUwjsWGLwbN.png)
+![Image](<https://lh3.googleusercontent.com/Y9sF_I0nve-cuSFQ4DHPuJXZG994yrDDg-Aea8E7HmHqIYr7PJLpDe9cvpaWLBYl1TzYeHRkYD-kLb81ET0krvUwjsWGLwbN2mVdKw>)
 
 MDC button dev doc attribute table with default shape values
 
@@ -213,7 +213,7 @@ An interesting observation is how MDC widgets use default styles to ensure `Mate
 -   If a background has been set (eg. in a layout or custom style) then respect this and do not use `MaterialShapeDrawable`
 
 
-![](../../assets/images/ef6fb4112eb7-mNnyGGni-I24PhbGl5XH6VLYRlaPlIUDAPULyRcSRdVQkMJbbe_QHvGm-MCfPF1r-qOSwRsyrab91FCqJ0qwZhiQw5vU8J3E.png)
+![Image](<https://lh3.googleusercontent.com/mNnyGGni-I24PhbGl5XH6VLYRlaPlIUDAPULyRcSRdVQkMJbbe_QHvGm-MCfPF1r--qOSwRsyrab91FCqJ0qwZhiQw5vU8J3ETV4WBg>)
 
 MDC button default style with shape values
 

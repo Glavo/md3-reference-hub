@@ -2,7 +2,7 @@
 title: "Jamie Chung’s Artful, Abstract Photographs for Material Design"
 source_url: "https://m3.material.io/blog/jamie-chung-photography-interview"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/3ad327234849-Bpc-BQmoN7s4SYpy-mhECVQ_XC_lFbAd3UI5UdFjlUcXCeuJRE5YLTGMKNLNK3xsv5w6am2atebuetvxgoa61fpElqv9O94I.png"
@@ -17,7 +17,7 @@ assets:
 
 From psychedelic bubbles to underwater plants, learn about the photos that challenge the limitations of imagery on the web
 
-![photographic portrait](../../assets/images/3ad327234849-Bpc-BQmoN7s4SYpy-mhECVQ_XC_lFbAd3UI5UdFjlUcXCeuJRE5YLTGMKNLNK3xsv5w6am2atebuetvxgoa61fpElqv9O94I.png)
+![photographic portrait](<https://lh3.googleusercontent.com/Bpc-BQmoN7s4SYpy-mhECVQ_XC_lFbAd3UI5UdFjlUcXCeuJRE5YLTGMKNLNK3xsv5w6am2atebuetvxgoa61fpElqv9O94IzCK1X6gpkgELZ60_lSc>)
 
 Published: 2022-08-25T13:00:00
 
@@ -25,7 +25,7 @@ This might be strange to read or even to say, but Jamie and I met over drugs. Am
 
 I had the pleasure of sitting down (virtually) with Jamie for an interview after the project wrapped. Below is our conversation about his inspiration, favorite songs, and the smell of seaweed on day three of a shoot. See below for the details and more questions about the project.
 
-![photographic illustration of rainbow colored bubbles on a blue background](../../assets/images/1f1b0857c16b-eBZfr_U9xwXRtgbgUafy3dSnI7u8Am-pZWFx7qh0tAHtfSxWCgFVFAESyWKW4L8wW4k1ILoDjjUMqzappR-v1OpZMH6J4-Qt.png)
+![photographic illustration of rainbow colored bubbles on a blue background](<https://lh3.googleusercontent.com/eBZfr_U9xwXRtgbgUafy3dSnI7u8Am-pZWFx7qh0tAHtfSxWCgFVFAESyWKW4L8wW4k1ILoDjjUMqzappR-v1OpZMH6J4-QtMkANKvOGxDhJFVDwQprY>)
 
 **Jamie, thank you so much for taking the time to talk to us about the shoot you did for [Material.io](https://material.io/). Let’s kick this off…Could you please tell us a little about yourself?**
 
@@ -39,7 +39,7 @@ Last week, I rode in a hot air balloon for 15 miles in rural Pennsylvania. It wa
 
 “[Wish I Didn’t Miss You](https://music.youtube.com/watch?v=2IH3IV_7p-o)” by Angie Stone
 
-![photographic illustration of yellow bubbles on a yellow background](../../assets/images/59ae3716460b-ziBhtWR-BCe2wx62_Zse0ahuX_iKL7FK28NvnPb8-zxOWO8TbYc5E7m9LBuxjlQLFX8jt0tuVTOgQci_jdUZ_tsnx36JhkV9.png)
+![photographic illustration of yellow bubbles on a yellow background](<https://lh3.googleusercontent.com/ziBhtWR-BCe2wx62_Zse0ahuX_iKL7FK28NvnPb8-zxOWO8TbYc5E7m9LBuxjlQLFX8jt0tuVTOgQci_jdUZ_tsnx36JhkV9Hc29SCYeFJQQO0xbH1rJ>)
 
 **If you could photograph anyone or anything, who/what would it be?** 
 
@@ -53,7 +53,7 @@ Sculptor or surgeon.
 
 I love looking at photo books and going gallery hopping.
 
-![photographic illustration of green seaweed leaves on a light green background](../../assets/images/e1fbcf525804-oAQren0vN0irBV9mEhQD3LQKzeiWiMPwNxwtnN0tdfgJFQn1C3J6Z3h8MVs0LT2GmmisWQio1k4-MOvP2rIumZ33oAHeLG85.png)
+![photographic illustration of green seaweed leaves on a light green background](<https://lh3.googleusercontent.com/oAQren0vN0irBV9mEhQD3LQKzeiWiMPwNxwtnN0tdfgJFQn1C3J6Z3h8MVs0LT2GmmisWQio1k4-MOvP2rIumZ33oAHeLG85o4XTr16llJY8N1K9Qnk>)
 
 **What about trends? Which current art world trends are you following?**
 
@@ -67,7 +67,7 @@ I decided I wanted to be a photographer in high school, so I went to art school,
 
 I really just caught a vibe from some of the reference drawings that the Google team sent. They were pretty abstract, and so I thought about what photographable things would have similar texture, color and form. I meditated on that for a while, and the idea of sea plants came to me. And…. the sea plants were already dead when we got them; we just rehydrated them. Don’t @ me!
 
-![photographic illustration showing the silhouette of strands of sea grapes on a purple background](../../assets/images/47bd0b08d123-bRExZ5VMnxmK_Apx_pw55fLv7y7FN5M63PcwNRyt4XF8FvKh2iZ_-BGGkgPVtMb6qJr899qnVGMOW1hUtmZvV1w3PRE9MEib.png)
+![photographic illustration showing the silhouette of strands of sea grapes on a purple background](<https://lh3.googleusercontent.com/bRExZ5VMnxmK_Apx_pw55fLv7y7FN5M63PcwNRyt4XF8FvKh2iZ_-BGGkgPVtMb6qJr899qnVGMOW1hUtmZvV1w3PRE9MEibrdWTk-P18blVPXTwVQ>)
 
 **What was the most challenging part of the project?**
 
@@ -81,7 +81,7 @@ No, I actually loved it. It allowed me to really use my imagination. I didn’t 
 
 It was freeing and imaginative and fun. I was very satisfied with the process and the final product.
 
-![abstract photographic illustration of flowers seen through a clear surface coated in water droplets](../../assets/images/a385f7c553e2-fugFoXSzya8pKzoh80VsTG0eI9edxat7jMMBf5OywtzT_tNtZqGer_BVbsW21FuhdZwW6OEAXK4mNuxc8VS0kCn1XaHn-ea_.png)
+![abstract photographic illustration of flowers seen through a clear surface coated in water droplets](<https://lh3.googleusercontent.com/fugFoXSzya8pKzoh80VsTG0eI9edxat7jMMBf5OywtzT_tNtZqGer_BVbsW21FuhdZwW6OEAXK4mNuxc8VS0kCn1XaHn-ea_g05x1W0JZMetWJlZDw>)
 
 **What surprised you most about this project?**
 

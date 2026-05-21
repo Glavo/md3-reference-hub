@@ -2,7 +2,7 @@
 title: "How Ravn solves design-developer handoff with Relay"
 source_url: "https://m3.material.io/blog/relay-ravn-case-study"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/91ef66418c56-17wX3yuSIuY_3BREgpmHBjVq1ng94h9kFUe8GWVxD-o5o8oboBmkDmZwPv2pQvgxVLu2z0zYTXGkI3LmAvHqF5EKq1dbMuJ7.png"
@@ -13,7 +13,7 @@ assets:
 
 One team’s approach to sharing design intent using Google’s new design-to-code tool
 
-![Image](../../assets/images/91ef66418c56-17wX3yuSIuY_3BREgpmHBjVq1ng94h9kFUe8GWVxD-o5o8oboBmkDmZwPv2pQvgxVLu2z0zYTXGkI3LmAvHqF5EKq1dbMuJ7.png)
+![Image](<https://lh3.googleusercontent.com/17wX3yuSIuY_3BREgpmHBjVq1ng94h9kFUe8GWVxD-o5o8oboBmkDmZwPv2pQvgxVLu2z0zYTXGkI3LmAvHqF5EKq1dbMuJ7xqTFtO5N-QBTBwVSYw>)
 
 Published: 2023-02-02T10:00:00
 
@@ -31,7 +31,7 @@ Product Designer Lea Escobar agrees. The design team at Ravn had tried setting u
 
 In some ways, this hurdle can never disappear: design workflows are conversations. However, solving some basic issues frees up time to solve bigger problems: designers can pay more attention to their work, and developers are freed up to do more code. If great product design involves developers and designers collaborating to find great solutions to difficult problems, a product like Relay provides enormous value in creating more time in the day for these vital conversations.
 
-![Side-by-side screenshots of the Relay plugins for Figma and Android Studio](../../assets/images/1caf4f5e2188-JP2uf3jCjuMZtyc3Z0bG1dgdDLB0NYlVBsVSz7cs253Kp8SyKxjmoCyD_8-cRnCT0eH2SDxp3PQX8oOfkTwO4A-CYAcRfVAv.png)
+![Side-by-side screenshots of the Relay plugins for Figma and Android Studio](<https://lh3.googleusercontent.com/JP2uf3jCjuMZtyc3Z0bG1dgdDLB0NYlVBsVSz7cs253Kp8SyKxjmoCyD_8-cRnCT0eH2SDxp3PQX8oOfkTwO4A-CYAcRfVAvoQZdFcTEIfb-Qd3FS10>)
 
 Handoff across specialties can boil down to individual preference, or broad commercial standards. How details like interaction and styles get transferred are predicated on expectations set early in the process. Engineers might have a preference to how a specific component is annotated, but having a standardized structure can make things more efficient across the board.
 

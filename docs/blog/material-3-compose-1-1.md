@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose gets new components and features"
 source_url: "https://m3.material.io/blog/material-3-compose-1-1"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/b19f5cf4e139-luOy6tCtv9Q6bJsVMD4jbQYdk_vBOTeemCcI5Zp2m88X_Z4FtrobQ7prtNkSevt1O-zZwg-vO5VAo-MGwzCG0IOqf-AkGuqr.png"
@@ -24,7 +24,7 @@ assets:
 
 Exploring the 1.1 release of Material Design 3 for Compose
 
-![Animated top app bar](../../assets/images/b19f5cf4e139-luOy6tCtv9Q6bJsVMD4jbQYdk_vBOTeemCcI5Zp2m88X_Z4FtrobQ7prtNkSevt1O-zZwg-vO5VAo-MGwzCG0IOqf-AkGuqr.png)
+![Animated top app bar](<https://lh3.googleusercontent.com/luOy6tCtv9Q6bJsVMD4jbQYdk_vBOTeemCcI5Zp2m88X_Z4FtrobQ7prtNkSevt1O-zZwg-vO5VAo-MGwzCG0IOqf-AkGuqrSmyOHFTtaiAPBvWkViKN>)
 
 Published: 2023-05-10T13:00:00
 
@@ -42,13 +42,13 @@ There are two variations of bottom sheet available: standard and modal bottom sh
 
 The [standard bottom sheet](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#BottomSheetScaffold\(kotlin.Function1,androidx.compose.ui.Modifier,androidx.compose.material3.BottomSheetScaffoldState,androidx.compose.ui.unit.Dp,androidx.compose.ui.graphics.Shape,androidx.compose.ui.graphics.Color,androidx.compose.ui.graphics.Color,androidx.compose.ui.unit.Dp,androidx.compose.ui.unit.Dp,kotlin.Function0,kotlin.Boolean,kotlin.Function0,kotlin.Function1,androidx.compose.ui.graphics.Color,androidx.compose.ui.graphics.Color,kotlin.Function1\)) is great for use cases where you need to interact with both the bottom sheet and main UI region. You can use the standard bottom sheet with BottomSheetScaffold by providing sheet UI in the sheetContent parameter. You can also provide an optional drag handle to easily interact with the sheet.
 
-![Standard bottom sheet](../../assets/images/17adfc1e8237-rihApNZWg_567r2XkibXaCbPMUoi4ya6gUUkeFBrLAqERVnfh16hc5DtOWrLsBebFqh6hFGX4farNBP02XhaVV19AR5XfKnb.png)
+![Standard bottom sheet](<https://lh3.googleusercontent.com/rihApNZWg_567r2XkibXaCbPMUoi4ya6gUUkeFBrLAqERVnfh16hc5DtOWrLsBebFqh6hFGX4farNBP02XhaVV19AR5XfKnbu3_MkvnLEM0zTSolZj8>)
 
 Standard bottom sheet
 
 The [modal bottom sheet](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#ModalBottomSheet\(kotlin.Function0,androidx.compose.ui.Modifier,androidx.compose.material3.SheetState,androidx.compose.ui.graphics.Shape,androidx.compose.ui.graphics.Color,androidx.compose.ui.graphics.Color,androidx.compose.ui.unit.Dp,androidx.compose.ui.graphics.Color,kotlin.Function0,kotlin.Function1\)) overlays the main UI and can be dismissed when users interact outside of the sheet region, similar to a dialog. It provides clear separation from the main UI, making it easy for users to focus on the sheet content.
 
-![Modal bottom sheet](../../assets/images/1fec94a8c645-4tEM-mM93iOqZ-4O1JBTarOaF4SiF3nb1nK9hA9mKY33DgLw6RK9t3YRaWhfUUUA9VRdEELyhycc89mqiphANGJdcPyoHhK7.png)
+![Modal bottom sheet](<https://lh3.googleusercontent.com/4tEM--mM93iOqZ-4O1JBTarOaF4SiF3nb1nK9hA9mKY33DgLw6RK9t3YRaWhfUUUA9VRdEELyhycc89mqiphANGJdcPyoHhK7caQ_9cbjcMwNUR2gGA>)
 
 Modal bottom sheet
 
@@ -60,13 +60,13 @@ The 1.1 release also brings brand new date selection components: [`DatePicker()`
 
 Both the date picker and date range picker support date input mode by updating the `initalDisplayMode` parameter to input type, which sets the initial display mode to input type. The user can switch back to default selection mode by toggle.
 
-![Selection of date pickers](../../assets/images/aba8e0a40fde-t_lB-9MPlXlLlkTtQG9fKLeqDvBikAK8E8s50o0qt5BWcv42k-qiem7Ga-LqqF-nutSMg0YqXriP3b0QVKp2xJq0UyHk9iFd.png)
+![Selection of date pickers](<https://lh3.googleusercontent.com/t_lB-9MPlXlLlkTtQG9fKLeqDvBikAK8E8s50o0qt5BWcv42k-qiem7Ga-LqqF-nutSMg0YqXriP3b0QVKp2xJq0UyHk9iFduGXSpYGrCiUFXR89Rw>)
 
 Left: Date picker in input mode, Middle: Date picker in display mode, Right: Date range picker
 
 Compose Material 3 also provides a [`DatePickerDialog()`](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#DatePickerDialog\(kotlin.Function0,kotlin.Function0,androidx.compose.ui.Modifier,kotlin.Function0,androidx.compose.ui.graphics.Shape,androidx.compose.ui.unit.Dp,androidx.compose.material3.DatePickerColors,androidx.compose.ui.window.DialogProperties,kotlin.Function1\)) composable to show a date picker in  a dialog, with the option to confirm or dismiss it.
 
-![Date picker dialog switching between picker and input display mode](../../assets/images/dfd6becf28a7-qkNHOHz6ZFWossHsS4STzxlmihni9sqWO6M8nzHfrEYu7yeLSM1C2whRQ8W_q4nJj7f7aTQ02wgquCOIQZqVB2xA1woAKmXe.png)
+![Date picker dialog switching between picker and input display mode](<https://lh3.googleusercontent.com/qkNHOHz6ZFWossHsS4STzxlmihni9sqWO6M8nzHfrEYu7yeLSM1C2whRQ8W_q4nJj7f7aTQ02wgquCOIQZqVB2xA1woAKmXewuWNra-xd5CxFYHc_Q>)
 
 Date picker dialog switching between picker and input display mode
 
@@ -76,7 +76,7 @@ Compose Material 3 also includes new time picker components for choosing the des
 
 There are two versions available: one with a horizontal layout in which users enter the time using the keyboard, and another with a vertical layout in which users can also use a slide dial to select the time.
 
-![](../../assets/images/81fe10cd7b48-r9uHWAqLRgHwQOQMjSqZlldGdpM82FfenTiPv2f-ZonlSDyY4HSUcA5H79kL74MugaokXB3AvDQv1R-VedaSKozAJMfQ3fZr.png)
+![Image](<https://lh3.googleusercontent.com/r9uHWAqLRgHwQOQMjSqZlldGdpM82FfenTiPv2f-ZonlSDyY4HSUcA5H79kL74MugaokXB3AvDQv1R-VedaSKozAJMfQ3fZrydkBXFTnTZ4KevPAo8k>)
 
 Left: Time picker in vertical layout, Right: Time picker in horizontal layout
 
@@ -86,7 +86,7 @@ Compose provides a single [`TimePicker`](https://developer.android.com/reference
 
 The 1.1 release brings new search bar components, which provide users the ability to search queries and display dynamic search results.
 
-![Search bar and search result view](../../assets/images/a20d191bf75f-AAQu2xACSSDqMw8zPEiQhvT9KGCOvAr47gpB8ujE02E_CxyrUojzbX22y5eibklRQbT7inNqtV9ReCo75BMZwrhSFa94Ds9V.png)
+![Search bar and search result view](<https://lh3.googleusercontent.com/AAQu2xACSSDqMw8zPEiQhvT9KGCOvAr47gpB8ujE02E_CxyrUojzbX22y5eibklRQbT7inNqtV9ReCo75BMZwrhSFa94Ds9VLL-WlxwWTWyeL4fZeNA>)
 
 Search bar and search result view
 
@@ -96,7 +96,7 @@ When active, the search bar expands into a search view that displays dynamic res
 
 The docked search bar is great for medium to large devices where the search view doesn’t need to take up all the screen space and results can be shown in a docked view.
 
-![Docked search bar and search view on a tablet](../../assets/images/64f22e22080c-A5BFskNiJtnpu2xJYw9cevEukwyTCVQ1ntR42B7GMBn1r8-lxsMA1CtNlxOrD7-NXTsn9LA28zpsGcyuiiS1O-5gBkie550N.png)
+![Docked search bar and search view on a tablet](<https://lh3.googleusercontent.com/A5BFskNiJtnpu2xJYw9cevEukwyTCVQ1ntR42B7GMBn1r8-lxsMA1CtNlxOrD7-NXTsn9LA28zpsGcyuiiS1O-5gBkie550NiMrLnOH3ULlZ-2l05Nx2>)
 
 Docked search bar and search view on a tablet
 
@@ -110,7 +110,7 @@ Material 3 provides two types of tooltips: [plain tooltip](https://developer.and
 
 Plain tooltips briefly describe a UI element. Plain tooltips are great for labeling UI elements with no text, like icon-only and field elements.
 
-![Plain tooltip on an icon button](../../assets/images/7866780518e3-0be1_Ojz3qPiI2xZJj3oirD5dTbt_FMnXqop8u1LvHwTylXo0OIMed-KI076eJCGfjdoj7P84DdM8z9dbQVwBqhMBu-6nsgG.png)
+![Plain tooltip on an icon button](<https://lh3.googleusercontent.com/0be1_Ojz3qPiI2xZJj3oirD5dTbt_FMnXqop8u1LvHwTylXo0OIMed-KI076eJCGfjdoj7P84DdM8z9dbQVwBqhMBu-6nsgGkqJpR6i44tvdTKPxtf-p>)
 
 Plain tooltip on an icon button
 
@@ -118,7 +118,7 @@ You can use the `PlainTooltipBox()` composable to add a plain tooltip. To apply 
 
 Rich tooltips are great for longer texts like definitions or explanations. Rich tooltips provide additional context to a UI element and can include a button or hyperlink.
 
-![Rich tooltip with description and text button as action](../../assets/images/184ccfec2707-oaCfOW1cPFvGlLFvokdfBtDlxbx5jkQCJqUZfurMh0so6n6Mg-bGWjgr0uYKKm-vQUmsWzJxMVwqD2pxXYeFLHc7Ql-D9Rwt.png)
+![Rich tooltip with description and text button as action](<https://lh3.googleusercontent.com/oaCfOW1cPFvGlLFvokdfBtDlxbx5jkQCJqUZfurMh0so6n6Mg-bGWjgr0uYKKm-vQUmsWzJxMVwqD2pxXYeFLHc7Ql-D9RwtAknu0kRLQgvTvBDjKi8>)
 
 Rich tooltip with description and text button as action
 
@@ -134,7 +134,7 @@ With the 1.1 release, many key components have graduated from the experimental s
 
 Components like Scaffold, Surface, Navigation drawers, and many others are building blocks of your apps, and you can now be assured that they will not have any major breaking changes.
 
-![Navigation rail and Navigation drawer](../../assets/images/a5fd87c3f321-Hm0xbN7qc4H49z88n1yv4foM80eieMA5SRQCV88E3gdwjEF6dIUGqdj4mBK7TcaCdNAdTe2eOUALWPBKKY_56DwWrV0ay_Ja.png)
+![Navigation rail and Navigation drawer](<https://lh3.googleusercontent.com/Hm0xbN7qc4H49z88n1yv4foM80eieMA5SRQCV88E3gdwjEF6dIUGqdj4mBK7TcaCdNAdTe2eOUALWPBKKY_56DwWrV0ay_Jap4vYt0XtsfWpjeaJJYY>)
 
 Navigation rail and Navigation drawer
 
@@ -152,7 +152,7 @@ For top app bars, you can choose between pinned scroll behavior or enter always 
 
 In pinned scroll behavior, the top app bar is always pinned at the top, but changes its container color when content is scrolled.
 
-![Top app bar with pinned scroll behavior](../../assets/images/3f9d03820b9e-U1gUUb8937W5VphSnJ3N3zp8UWxcHifADhVNdUwm5slE9SCz0B7lP4AuHvR2KmkUyH-TqcJDhtEOlDiyFQtuVpSF_p8VevQo.png)
+![Top app bar with pinned scroll behavior](<https://lh3.googleusercontent.com/U1gUUb8937W5VphSnJ3N3zp8UWxcHifADhVNdUwm5slE9SCz0B7lP4AuHvR2KmkUyH-TqcJDhtEOlDiyFQtuVpSF_p8VevQonPixlLK7abUHPV05iGF2>)
 
 Top app bar with pinned scroll behavior
 
@@ -160,7 +160,7 @@ To add the behavior to the app bar, define a scroll behavior `TopAppBarDefaults.
 
 In the enter always scroll behavior, the top app bar disappears when the user scrolls through the content, and shows up again when the user scrolls down.
 
-![Top app bar with enter-always scroll behavior](../../assets/images/d26dfe2dd539-rb0EIvJyXg44CDwYkDuRtGQ2aHpa8jAkiSbf0ybtFxRW8ufCPSkIyk67sMko4HX1nwzJ8XlsegNeDIQUW-aLUWWy8unmDAQJ.png)
+![Top app bar with enter-always scroll behavior](<https://lh3.googleusercontent.com/rb0EIvJyXg44CDwYkDuRtGQ2aHpa8jAkiSbf0ybtFxRW8ufCPSkIyk67sMko4HX1nwzJ8XlsegNeDIQUW-aLUWWy8unmDAQJKPC4kyi4fiAQUsWfFw>)
 
 Top app bar with enter-always scroll behavior.
 

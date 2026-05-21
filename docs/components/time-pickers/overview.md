@@ -2,7 +2,7 @@
 title: "Time pickers"
 source_url: "https://m3.material.io/components/time-pickers/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/e604dc558325-mcyz4dh2-01.png"
@@ -22,7 +22,7 @@ assets:
 
 -   Make sure time can easily be selected by hand on a mobile device
 
-![Dial time picker dial and input time picker.](../../../assets/images/e604dc558325-mcyz4dh2-01.png)
+![Dial time picker dial and input time picker.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcyz4dh2-01.png?alt=media&token=726495da-d131-42f3-a766-cd787c29a235>)
 
 _Time picker dial; Time picker input_
 
@@ -42,10 +42,10 @@ _Time picker dial; Time picker input_
 
 -   Color: New color mappings and compatibility with dynamic color
 
-![Time picker’s old color mappings. The selected hour of 7 and AM text is purple, on a purple background.](../../../assets/images/83e9f2b632c9-mcz00a3d-02.png)
+![Time picker’s old color mappings. The selected hour of 7 and AM text is purple, on a purple background.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcz00a3d-02.png?alt=media&token=195f2e65-d46e-466a-b952-e7cfa9761d48>)
 
 _M2: Time pickers had different color mappings_
 
-![Time picker's new color mappings. The selected hour of 7 and AM text is black, with different background colors.](../../../assets/images/b122a101d332-mcz04x96-03.png)
+![Time picker's new color mappings. The selected hour of 7 and AM text is black, with different background colors.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcz04x96-03.png?alt=media&token=a2f4ba54-7a25-4967-b3d9-bb113e40713e>)
 
 _M3: Time pickers have new color mappings compatible with dynamic color_

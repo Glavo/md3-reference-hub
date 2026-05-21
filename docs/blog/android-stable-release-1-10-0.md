@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.10.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-10-0"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/6546cfac5e8f-pR75LC3YTcz6E8rmRyB0FvLZPrvqzHwa-cHtTrrBe3yrNo1YUZLXQzHzvOKVGZZjjoc75U-KG8cvGFUthsfuYBugrUm5MKZN.png"
@@ -16,7 +16,7 @@ assets:
 
 Updates, refinements and a new way to transition between destinations
 
-![abstract flower and leaf illustration](../../assets/images/6546cfac5e8f-pR75LC3YTcz6E8rmRyB0FvLZPrvqzHwa-cHtTrrBe3yrNo1YUZLXQzHzvOKVGZZjjoc75U-KG8cvGFUthsfuYBugrUm5MKZN.png)
+![abstract flower and leaf illustration](<https://lh3.googleusercontent.com/pR75LC3YTcz6E8rmRyB0FvLZPrvqzHwa-cHtTrrBe3yrNo1YUZLXQzHzvOKVGZZjjoc75U-KG8cvGFUthsfuYBugrUm5MKZNwvH37cw4NqM8EzkPCBI>)
 
 Published: 2023-10-25T13:00:00
 
@@ -61,7 +61,7 @@ Side sheets, first mentioned in the blog post announcing version [1.8.0](https:/
 
 Carousels, introduced in the [1.9.0 announcement post](https://material.io/blog/android-stable-release-1-9-0), have a new variant (`HeroCarouselStrategy`) that aligns content to the start and uses a “hero” strategy, allocating most of the space in the carousel to one main element.
 
-![carousel in the material catalog app](../../assets/images/bfb5874df3b8-CCu0KuZwrZXgfaI_z1tvyzOpx1iip6IK7vXp9HD1iLRplnJGk5TE9LepSC7OvilkEz4tlfWVf-q4hdo0acUMkOW_GS_C0_2F.png)
+![carousel in the material catalog app](<https://lh3.googleusercontent.com/CCu0KuZwrZXgfaI_z1tvyzOpx1iip6IK7vXp9HD1iLRplnJGk5TE9LepSC7OvilkEz4tlfWVf-q4hdo0acUMkOW_GS_C0_2FcwuSmnC06zUbV1xj5FW3>)
 
 **BadgeDrawable**
 
@@ -69,11 +69,11 @@ BadgeDrawables, often used to annotate items in navigation components with text 
 
 Previously, you could align the badge to any of the four corners of the anchor view. That has been reduced to two alignments: `TOP_START` and `TOP_END` (default).
 
-![Bottom nav bar with badges](../../assets/images/ae9a2437eb04-I2FShTZJ7bV7dszsQ437Y8Zu3u0CTdb_T0JJB-zE6EZB0TxpR74ULHo5tqKlByJlu1K97PeHyOzCCTbg8-ahllLzedwwLGXY.png)
+![Bottom nav bar with badges](<https://lh3.googleusercontent.com/I2FShTZJ7bV7dszsQ437Y8Zu3u0CTdb_T0JJB-zE6EZB0TxpR74ULHo5tqKlByJlu1K97PeHyOzCCTbg8-ahllLzedwwLGXYkVmP3Gupm_vjW1NUaw>)
 
 TOP\_START Alignment
 
-![Bottom nav bar with badges](../../assets/images/9497005d2c56-B24uqNiYvH9lJnZf6UnjbNx5VCQ-yGb8xbHsewo91MfBC0n0cQx5d4h891OLAYqTWvDrBSomScR6O5u1A0kWCr9V8MdZqZCV.png)
+![Bottom nav bar with badges](<https://lh3.googleusercontent.com/B24uqNiYvH9lJnZf6UnjbNx5VCQ-yGb8xbHsewo91MfBC0n0cQx5d4h891OLAYqTWvDrBSomScR6O5u1A0kWCr9V8MdZqZCVhrH3YEDgdEZuxusbDQ>)
 
 TOP\_END Alignment (Default)
 

@@ -2,7 +2,7 @@
 title: "Replacing “Users” with People"
 source_url: "https://m3.material.io/blog/asset-people-1"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/a6c697aef9af-U1kpQVQ_FXSY6dBaJTXPPP2ItujhE1DXv-ji64uftie5dRIby3Z9pmHG5F2HKphGTSMUYjqaI6WLj3Podcw_MGK46b3gI5cQ.png"
@@ -18,7 +18,7 @@ assets:
 
 Considering the real world by making human connections
 
-![illustration of various faces](../../assets/images/a6c697aef9af-U1kpQVQ_FXSY6dBaJTXPPP2ItujhE1DXv-ji64uftie5dRIby3Z9pmHG5F2HKphGTSMUYjqaI6WLj3Podcw_MGK46b3gI5cQ.png)
+![illustration of various faces](<https://lh3.googleusercontent.com/U1kpQVQ_FXSY6dBaJTXPPP2ItujhE1DXv-ji64uftie5dRIby3Z9pmHG5F2HKphGTSMUYjqaI6WLj3Podcw_MGK46b3gI5cQ6dsCV9QBUH1ep8urzsc>)
 
 Published: 2022-03-17T13:00:00
 
@@ -52,23 +52,23 @@ When our asset production kicked off for the [Material 3 release](https://materi
 
 Our newly created people can be seen in the many assets throughout our new [Material 3 guidelines](../index.md). They each have their own themes in their respective screens demonstrating the capabilities of Material’s [new color expression](https://m3.material.io/styles/color/dynamic-color/overview). (All characters and other entities appearing in this work are fictitious. Any resemblance to real persons or other real-life entities is purely coincidental.)
 
-![photographic avatar](../../assets/images/8d847752dd4a-Y9FODTiSIk4WyRidkv8F6rdBlpgw1e4Z8TCZcB-Ls0aHkaEjaukRhKwAgQnt1jjgV4SiRVSswDOm0CtlZGYGpeQFGaAhS59x.png)
+![photographic avatar](<https://lh3.googleusercontent.com/Y9FODTiSIk4WyRidkv8F6rdBlpgw1e4Z8TCZcB-Ls0aHkaEjaukRhKwAgQnt1jjgV4SiRVSswDOm0CtlZGYGpeQFGaAhS59x4LFEdL94ZQgneVKD1g>)
 
 
 **Sam Pietersen** uses they/them pronouns and expresses their gender as nonconforming or genderless. They speak English, work as an educator, and have a mostly friend-based chosen family. Sam has a reserved personality and spends a lot of time in nature with their support dog, Peanut.
 
-![example interface](../../assets/images/ea50710f1ac9-JYKtkfQ2_cEvNvhmsJDvVfO9qAF_R3JlzAp5ZygacPEhY5wo9SxMVyM1JivFIRCO3Ey59trHpvRW-aTs9_ufBUa8OkarWawJ.png)
+![example interface](<https://lh3.googleusercontent.com/JYKtkfQ2_cEvNvhmsJDvVfO9qAF_R3JlzAp5ZygacPEhY5wo9SxMVyM1JivFIRCO3Ey59trHpvRW-aTs9_ufBUa8OkarWawJWss5f7zwQtw_uz_-6nU>)
 
 
 **Lee Villnueva** uses she/her pronouns and expresses her gender as femme. She is bilingual in English and Spanish, works in healthcare, and has a large extended family. Lee has a casual, laid-back personality and spends a lot of time with her family and at live music events.
 
-![photographic avatar](../../assets/images/e4c9c882a1c7-6L9ZXjz0F4_KwYIeISh4HxLMW8YhnJf0_Aumd0ezeE8mcyPRlArfFn52OpqHNe3cDIOoQA7osQWqTNfM31xAg6483N8KTVHz.png)
+![photographic avatar](<https://lh3.googleusercontent.com/6L9ZXjz0F4_KwYIeISh4HxLMW8YhnJf0_Aumd0ezeE8mcyPRlArfFn52OpqHNe3cDIOoQA7osQWqTNfM31xAg6483N8KTVHzmYUPO0F6qIQFgIZypTg>)
 
-![example UI](../../assets/images/d8b980735b05-j5pt7pX0Ed8S6mefVm5yh0vO0vR7r05aiK49x9g4LHZynuwb-zJMuqWLEZSz35QidhvhF8UZsaEWC5qiMCHjsjA2XG1mB_Fo.png)
+![example UI](<https://lh3.googleusercontent.com/j5pt7pX0Ed8S6mefVm5yh0vO0vR7r05aiK49x9g4LHZynuwb-zJMuqWLEZSz35QidhvhF8UZsaEWC5qiMCHjsjA2XG1mB_FoqZNKsxacp1O0QzZGIg>)
 
-![photographic avatar](../../assets/images/5e96958c5a13-BV94h3SC7Y2sY4MuM_iEGlMn-xhB4KDaFhGGCnY8t4IS2Pldi0VM53LndEvy6bKHBt-6JAnYHsa8X4sTWmxxQic8SVnQk2pH.png)
+![photographic avatar](<https://lh3.googleusercontent.com/BV94h3SC7Y2sY4MuM_iEGlMn-xhB4KDaFhGGCnY8t4IS2Pldi0VM53LndEvy6bKHBt-6JAnYHsa8X4sTWmxxQic8SVnQk2pHsOoeOj9QhPcJX_aIKtQ>)
 
 
 **Ping Qiang** uses he/him pronouns and expresses his gender as subtle masc. He is bilingual in English and Chinese, works in mental health counseling, and has a large social circle. Ping has an outgoing personality and spends a lot of time cooking and dining with friends and family.
 
-![example UI](../../assets/images/51b2b548bf0b-mrE4i7WcHfVi8aCoA_6mLndxlO1tr9Z-hRPP4hKz9Z6RcClZxhNKRhSqWF-RXhT2R5EgbNRJDc5I3CvSGmVVfF2g8f27rsSY.png)
+![example UI](<https://lh3.googleusercontent.com/mrE4i7WcHfVi8aCoA_6mLndxlO1tr9Z-hRPP4hKz9Z6RcClZxhNKRhSqWF-RXhT2R5EgbNRJDc5I3CvSGmVVfF2g8f27rsSYPJ9pJqDopUUKN4Ehs6w>)

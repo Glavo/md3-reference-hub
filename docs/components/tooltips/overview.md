@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/overview"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/cb496c8bbfc0-me6q4295-01.png"
@@ -26,7 +26,7 @@ Tooltips display brief labels or messages
 
 -   Rich tooltips can include an optional title, link, and buttons
 
-![2 variants of tooltips.](../../../assets/images/cb496c8bbfc0-me6q4295-01.png)
+![2 variants of tooltips.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6q4295-01.png?alt=media&token=103d96af-908d-4764-9169-910ec6d9ad26>)
 
 _Plain tooltip; Rich tooltip_
 
@@ -48,10 +48,10 @@ _Plain tooltip; Rich tooltip_
 
 -   **Shape**: Rich tooltips have more rounded corners
 
-![GM2 rich tooltip.](../../../assets/images/c4866321a06e-mjh9u4lo-02.png)
+![GM2 rich tooltip.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmjh9u4lo-02.png?alt=media&token=e4043ce7-5389-49bc-b42c-40973d0e9fba>)
 
 _M2: Rich tooltips have slightly rounded corners_
 
-![GM3 rich tooltip.](../../../assets/images/c52ee7bdf720-me6q4dmm-03.png)
+![GM3 rich tooltip.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fme6q4dmm-03.png?alt=media&token=3e7f1900-0e76-458f-a6dd-e226fe64a633>)
 
 _M3: Rich tooltips have more rounded corners and support dynamic color_

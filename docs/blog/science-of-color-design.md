@@ -2,7 +2,7 @@
 title: "The Science of Color & Design"
 source_url: "https://m3.material.io/blog/science-of-color-design"
 lastmod: "2024-11-29"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/885bea39b296-FgfF6od_qjYXbXowPPgL3IQ8T0QnEAZnoehlRcXHSXK7QXfHe_LvBm3SeYIkxhSRn3gBjjH4GEO6DYOex8btaN34lVDSzP7Z.png"
@@ -20,7 +20,7 @@ assets:
 
 How Material used color science to make design easier and more expressive than ever before
 
-![Image](../../assets/images/885bea39b296-FgfF6od_qjYXbXowPPgL3IQ8T0QnEAZnoehlRcXHSXK7QXfHe_LvBm3SeYIkxhSRn3gBjjH4GEO6DYOex8btaN34lVDSzP7Z.png)
+![Image](<https://lh3.googleusercontent.com/FgfF6od_qjYXbXowPPgL3IQ8T0QnEAZnoehlRcXHSXK7QXfHe_LvBm3SeYIkxhSRn3gBjjH4GEO6DYOex8btaN34lVDSzP7ZULMMSqoE7bsxyCWA0Q>)
 
 _HCT, a new color space developed by Google for design_
 
@@ -40,7 +40,7 @@ The way to construct a smooth distribution of colors is to use a perceptually ac
 
 The three dimensions the eye uses to organize colors are hue, colorfulness, and lightness. Hue tells us what angle on the color wheel to use, say, red versus purple. Colorfulness describes how vibrant or neutral (close to gray) a color looks—the further away colors are from the center of the color space, the more colorful it is. Lightness describes how close to white or black a color appears. In color space, lightness is vertical, like floors in a building.
 
-![](../../assets/images/a000f1f37910-wB5PDoi6DRex1AOSXv9F-Pr_0QxVnJ8C6kUB-UEqrQ35Hb5vMtyWWtKOBolpoyMhEJuDVs07rEUnOEJqdPsEhRblGDs3eFrH.png)
+![Image](<https://lh3.googleusercontent.com/wB5PDoi6DRex1AOSXv9F-Pr_0QxVnJ8C6kUB-UEqrQ35Hb5vMtyWWtKOBolpoyMhEJuDVs07rEUnOEJqdPsEhRblGDs3eFrHpN8BINeCNrxpxjuh9I0>)
 
 In the early 1900s, MassArt professor Albert Munsell created the perceptually accurate color system¹ Source by SharkD, derivative work of Datumizer² CC BY-SA 3.0 license³
 
@@ -56,11 +56,11 @@ HCT’s hue and colorfulness measures, hue and chroma, are the same as CAM16’s
 
 For the first time, designers have a color system that truly reflects what users see, taking into account a range of variables to ensure appropriate color contrast, accessibility standards, and consistent lightness/colorfulness across hues.
 
-![](../../assets/images/06ca8251054b-PWM-JWdCtOxcGHHoiZfm1HkSNNcMRXyGE4CRapU1lrFHo93W1dqHACB24x7FCuqFKA-6LTBMhEtSHsMkZcu8EsOrNaUWE6ix.png)
+![Image](<https://lh3.googleusercontent.com/PWM-JWdCtOxcGHHoiZfm1HkSNNcMRXyGE4CRapU1lrFHo93W1dqHACB24x7FCuqFKA-6LTBMhEtSHsMkZcu8EsOrNaUWE6ixtknM1Sv7hhpHwvLWcG1->)
 
 At HSL “lightness” 50, accurately measured lightness ranges from 33 to 96!
 
-![](../../assets/images/6471ff1a9c1f-V8hsEuYzWThQiqE6FdY0IHRwLsWjrmsOlNUEDMIsO_1LQyunBLiX71BM7VmnXam9V7sxTr6RZFcoit0-kD0TgZh3NG9VFxTk.png)
+![Image](<https://lh3.googleusercontent.com/V8hsEuYzWThQiqE6FdY0IHRwLsWjrmsOlNUEDMIsO_1LQyunBLiX71BM7VmnXam9V7sxTr6RZFcoit0-kD0TgZh3NG9VFxTkr4gHwBoZ_UFbyPGgsg>)
 
 Viewing LCH & HCT color spaces from the top, we can visualize Lab’s more inconsistent scaling
 
@@ -78,7 +78,7 @@ The HCT color system makes meeting accessibility standards much easier. Instead 
 
 For example, to meet [WCAG contrast requirements](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html), smaller elements (less than ¼” or 40 dp) require a tone difference of 50 with their background, larger elements require a tone difference of 40. This principle works consistently for any pair of colors.
 
-![](../../assets/images/ff7f02cbc5c6-UwzVMjQUmpgj6k3F8oAb_7TuyjL7RqrVFTJtwdnu36DMq8tNiF40AFe59CDjP4YvNMWFK9Xh5FjJQY1QLu2bF5Y7LlVRxWxE.png)
+![Image](<https://lh3.googleusercontent.com/UwzVMjQUmpgj6k3F8oAb_7TuyjL7RqrVFTJtwdnu36DMq8tNiF40AFe59CDjP4YvNMWFK9Xh5FjJQY1QLu2bF5Y7LlVRxWxEbDTqnCg0U-v2SXk30nw>)
 
 Claude Monet’s “Impression, Sunrise” shows why contrast measures legibility for all, not just non-standard vision: the sun and sky have exactly the same luminance, creating a hazy effect that makes the sun hard to focus on. When viewing the image in black and white, only seeing luminance, the sun disappears completely.
 
@@ -94,7 +94,7 @@ The other components of color, hue and chroma, are open to any values, enabling 
 
 ## Dynamic color: Personalized color at scale
 
-![](../../assets/images/4f0a7c6b524f-lpMERRSJV0-EYstnNp-H6UIc_kfyhLFTXP8j9lvIIS8XkmDxAXxbZswwOp9pLaq8Z50zFJKPRWRlH0GZKJvLSYpcmonsiGXs.png)
+![Image](<https://lh3.googleusercontent.com/lpMERRSJV0-EYstnNp-H6UIc_kfyhLFTXP8j9lvIIS8XkmDxAXxbZswwOp9pLaq8Z50zFJKPRWRlH0GZKJvLSYpcmonsiGXs9Du0glI03BLIZb6kRVc>)
 
 From left to right: 1.) Original image, 2.) Image quantized using Google’s previous algorithm, 3.) Image quantized using Google’s implementation of M. Emre Celebi’s quantization algorithm (arxiv.org/abs/1101.0395), performance enables many more colors, retaining colorfulness.
 
@@ -108,7 +108,7 @@ Using the source color, we create the core palette, which is a set of 5 tonal pa
 
 Finally, we fill out the table that defines the hue chroma and tone of each color role, then use those values and HCT to create the colors used in the theme.
 
-![Tonal palettes generated from Google Blue, #4285F4](../../assets/images/dc521d11f389-25H1ut2RHsWhTK6Nr9jFuwBYpaXyOJtBlGhOTBcNhDWE4q8VoNWRExUxtLYyPyM4swITzlLYJF3pJ5WipEcVr9xdvyHtaCAA.png)
+![Tonal palettes generated from Google Blue, #4285F4](<https://lh3.googleusercontent.com/25H1ut2RHsWhTK6Nr9jFuwBYpaXyOJtBlGhOTBcNhDWE4q8VoNWRExUxtLYyPyM4swITzlLYJF3pJ5WipEcVr9xdvyHtaCAA8zPn8v2h6Lcru5-tAh0>)
 
 Tonal palettes generated from Google Blue, #4285F4
 
@@ -124,11 +124,11 @@ We'll continue updating this tool and adding new code modules as we develop new 
 -   Image filters and blend modes that use HCT, maintaining creative intent and legibility, and a GLSL shader for HCT.
 -   A new type of gradient that blends realistically, like our work on color harmony. Using HCT produces accurate blends that behave like paints, avoiding issues present in other color spaces.
 
-![](../../assets/images/4919d2405f39-E_Te2ABKYJaO9sHwRChTB2JNgnpS_RMhqI79XAZfRb0aGCf__Wtm4drYJ2SdaRP9GNJBOCVODy66wPNU2ERQnlUSWQKPU__6.png)
+![Image](<https://lh3.googleusercontent.com/E_Te2ABKYJaO9sHwRChTB2JNgnpS_RMhqI79XAZfRb0aGCf__Wtm4drYJ2SdaRP9GNJBOCVODy66wPNU2ERQnlUSWQKPU__6hwnJ2_TeneTNap6ZjYQ>)
 
 Scrims and shadows that ensure text is legible on any background.
 
-![](../../assets/images/10b6eb1f41fb-459crB0shmfQBhnWHtw5UPjX1x42hQ_1GNBxOjiwYootCbqzxno4rleDZ4e8ceuB1RDqyvyrtJTP7QkANIreOmp6Jwefk_yN.png)
+![Image](<https://lh3.googleusercontent.com/459crB0shmfQBhnWHtw5UPjX1x42hQ_1GNBxOjiwYootCbqzxno4rleDZ4e8ceuB1RDqyvyrtJTP7QkANIreOmp6Jwefk_yNGL42ZDSnXXCHmuXpvA>)
 
 Gradients in HCT respect colorfulness and maintain legibility
 

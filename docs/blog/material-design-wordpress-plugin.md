@@ -2,7 +2,7 @@
 title: "Material Design for WordPress"
 source_url: "https://m3.material.io/blog/material-design-wordpress-plugin"
 lastmod: "2024-04-17"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/b96199e4419e-2bkL2_iRZf7rYM1J6Wq2ZvxWiGYwt8kNpHSW_ckOnSd9indURxfHRe0lnHcCbx3jA7OIE21yVMYlSJFtVcMfaNyEm55y8WyV.png"
@@ -14,7 +14,7 @@ assets:
 
 Apply Material Design directly to WordPress sites, no coding required
 
-![Image](../../assets/images/b96199e4419e-2bkL2_iRZf7rYM1J6Wq2ZvxWiGYwt8kNpHSW_ckOnSd9indURxfHRe0lnHcCbx3jA7OIE21yVMYlSJFtVcMfaNyEm55y8WyV.png)
+![Image](<https://lh3.googleusercontent.com/2bkL2_iRZf7rYM1J6Wq2ZvxWiGYwt8kNpHSW_ckOnSd9indURxfHRe0lnHcCbx3jA7OIE21yVMYlSJFtVcMfaNyEm55y8WyVVUM0bVA>)
 
 Published: 2021-02-16T12:00:00
 
@@ -45,7 +45,7 @@ Ready to dive in and give it a try? Just follow the instructions below, and keep
 
 Set up and preview your global Material theme styles within the customizer. Choose colors, typography, shapes, and icons to express your unique style. For guidance on customizing Material theme styles to express your product’s unique style, check out our series of [posts on Material Theming](https://material.io/blog/design-material-theme-color).
 
-![](../../assets/images/ba66ed492c71-l3Gw3dxN84yBxAHrO2Nu07fJhb2Dq-wwGa24EAwZyTLuAetKlAmqpwWfwYXZWFBWJhXbSRHXVgQ9z_Esz6J3EMNhZdx_v5BE.png)
+![Image](<https://lh3.googleusercontent.com/l3Gw3dxN84yBxAHrO2Nu07fJhb2Dq-wwGa24EAwZyTLuAetKlAmqpwWfwYXZWFBWJhXbSRHXVgQ9z_Esz6J3EMNhZdx_v5BEETF5Hg>)
 
 Start from our existing styles and use Material Theming to create a custom look and feel. Choose colors, typography, shapes, and icons to express your unique style.
 
@@ -53,7 +53,7 @@ Start from our existing styles and use Material Theming to create a custom look 
 
 Add [Material Components](https://material.io/components) like buttons and cards, and create layouts for things like image-heavy pages or styled contact forms. Customize the look of your blocks by adjusting global theme styles, or setting the style of a single component in the block editor.
 
-![Block for recent posts is added to an example blog page titled “Hello world!” and customized using the block editor](../../assets/images/431d697795c5-YliXgwzOuPcr5x1GQkk2lyHNLQshdlUsokoMcQCcH-y9ONov2uLShyisQ99s1Gn3dE287J7lzGyb78wHuZURfmYXCKBSLLa3.png)
+![Block for recent posts is added to an example blog page titled “Hello world!” and customized using the block editor](<https://lh3.googleusercontent.com/YliXgwzOuPcr5x1GQkk2lyHNLQshdlUsokoMcQCcH-y9ONov2uLShyisQ99s1Gn3dE287J7lzGyb78wHuZURfmYXCKBSLLa3ILRRhSw>)
 
 Add Material blocks inline and customize them using the block editor panel.
 

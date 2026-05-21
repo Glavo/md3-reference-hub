@@ -2,7 +2,7 @@
 title: "Start building with Material You"
 source_url: "https://m3.material.io/blog/start-building-with-material-you"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/ee7d4cc880e8-M9d5b8pDzcsKHhfmCFIilmHUYHr-v5NKwxcQw5g-CIFb0-25Cf5Vr0wwU0shAw6N3mgbW9xmkhN9tV0Bb2egGCwfqrg9OlCE.png"
@@ -17,7 +17,7 @@ assets:
 
 Implement dynamic color and explore some of the latest personalization features of Material Design 3
 
-![Image](../../assets/images/ee7d4cc880e8-M9d5b8pDzcsKHhfmCFIilmHUYHr-v5NKwxcQw5g-CIFb0-25Cf5Vr0wwU0shAw6N3mgbW9xmkhN9tV0Bb2egGCwfqrg9OlCE.png)
+![Image](<https://lh3.googleusercontent.com/M9d5b8pDzcsKHhfmCFIilmHUYHr-v5NKwxcQw5g-CIFb0-25Cf5Vr0wwU0shAw6N3mgbW9xmkhN9tV0Bb2egGCwfqrg9OlCEU_QN6f_Je0g0i2uF2Js>)
 
 Published: 2021-10-27T09:00:00
 
@@ -27,7 +27,7 @@ You’ll be able to access everything you need to start building for Android 12 
 
 ## Dynamic color makes your app more personal
 
-![](../../assets/images/9fe686d451a4-DtAwRJg286xmkSgB6c4vgvnQzOjBglC8vYam9ZXJ3l1fz93nHL5RZyNXiIW0rhFk9t3aJ3C5YFpun7VatpyJ9F1eNv_cdR7L.png)
+![Image](<https://lh3.googleusercontent.com/DtAwRJg286xmkSgB6c4vgvnQzOjBglC8vYam9ZXJ3l1fz93nHL5RZyNXiIW0rhFk9t3aJ3C5YFpun7VatpyJ9F1eNv_cdR7LoGyuBUsNzN2jtb9T6iJG>)
 
 Creating a dynamic, personal approach to color that prioritizes accessibility is no simple task—for design or engineering—but new Material You features can take care of it for you.
 
@@ -40,7 +40,7 @@ Dynamic color plays a key role in Material You, creating individualized and expr
 
 ## Material Components get a visual refresh
 
-![](../../assets/images/c5ae5406f019-GoQAugdtVdzlWcJ0HrFnjI4DIBuTc39m4A8ZE_kd2CXtKID0XU777gSE9etkc6gBCtm9HLYIcWmpAz9FARKPuaCouFNKeJtN.png)
+![Image](<https://lh3.googleusercontent.com/GoQAugdtVdzlWcJ0HrFnjI4DIBuTc39m4A8ZE_kd2CXtKID0XU777gSE9etkc6gBCtm9HLYIcWmpAz9FARKPuaCouFNKeJtNF3gSqg5qzV8svGwHSJU>)
 
 Along with dynamic color, we’ve also updated several Material Components to support Material Design 3 with a new visual style that incorporates improved use of white space and new state indicators. We’ve designed these components to be responsive to dynamic color, applying Material’s new color roles in a consistent and comprehensive way, sensitive to usability, accessibility, and your brand. The updates allow you to maintain and blend your brand colors with dynamic colors resulting in a one-of-a-kind, personalized experience for the user.
 
@@ -50,7 +50,7 @@ Along with dynamic color, we’ve also updated several Material Components to su
 
 ## New tools simplify design and implementation
 
-![](../../assets/images/21f65f120c92-2Vfz6cFD4fZQRPgDIsdHnc5SF4fe1znBNQ9vxdDHBGfi-2wd6G2HI-38DufeiFIlHSviPoRvw8hbwNdxNJdmx4Otzp1gaso6.png)
+![Image](<https://lh3.googleusercontent.com/2Vfz6cFD4fZQRPgDIsdHnc5SF4fe1znBNQ9vxdDHBGfi-2wd6G2HI-38DufeiFIlHSviPoRvw8hbwNdxNJdmx4Otzp1gaso6XEuioJ1fAYbG81Dmd70>)
 
 Want to start exploring how Material’s new color system can work in your app? New tools for developers and designers make it easy, providing simple controls that give you access to the complex Material You color generation system.
 
@@ -65,7 +65,7 @@ We are also releasing an updated version of Jetpack Compose Material that suppor
 
 ## Design tokens improve collaboration and cohesion at scale
 
-![](../../assets/images/149fbf41cb6a-Zmv4G2DTWbKsF3ww2OKJrqfDax4OvECjsrIvO0wN-ZByNd7JumgLXy1p7q0wPHCI3fi4sfDNexNm9Y4zGm-USm0GBYpq8qeK.png)
+![Image](<https://lh3.googleusercontent.com/Zmv4G2DTWbKsF3ww2OKJrqfDax4OvECjsrIvO0wN-ZByNd7JumgLXy1p7q0wPHCI3fi4sfDNexNm9Y4zGm-USm0GBYpq8qeKP8yJRzaZXmhest9ZVg>)
 
 Our new tools are backed by a concept that can greatly help your team’s efficiency, collaboration, and cohesion across experiences: design tokens.
 
@@ -79,7 +79,7 @@ Tokens for things like type styles and color roles will help keep your design an
 
 ## Getting started and looking forward to the next step
 
-![](../../assets/images/bb70d58ba2da-qzrrSWrlt2gdtffYvJSgy33F_Wjfakmzbkx1r4xuwSVyPgixaii0Hs-hdScWBmBYt8qLXI1-13TOxmga0_ABD5ZCbUqFdXoU.png)
+![Image](<https://lh3.googleusercontent.com/qzrrSWrlt2gdtffYvJSgy33F_Wjfakmzbkx1r4xuwSVyPgixaii0Hs-hdScWBmBYt8qLXI1-13TOxmga0_ABD5ZCbUqFdXoUeihtj6ZoQwZ4R0ZGQiU>)
 
 Today’s updates are just step one on the Material Design journey, and there’s still a lot to look forward to. Keep an eye out on Material.io and [subscribe to our newsletter](https://services.google.com/fb/forms/materialdesignnewsletter/) for updates.
 

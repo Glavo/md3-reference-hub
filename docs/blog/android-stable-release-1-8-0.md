@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.8.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-8-0"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/2445d4d873b7-vm6V3zhog18syLSWP-kG-RE0d9Fgvpa9vOi_eUXpfNMLXQNtocRYepPqPYvPxcpv2k3K8aYVMsaSEzk1KQSPmG6b36ZfVU3o.png"
@@ -18,7 +18,7 @@ assets:
 
 New ways to navigate in and interact with your applications
 
-![Image](../../assets/images/2445d4d873b7-vm6V3zhog18syLSWP-kG-RE0d9Fgvpa9vOi_eUXpfNMLXQNtocRYepPqPYvPxcpv2k3K8aYVMsaSEzk1KQSPmG6b36ZfVU3o.png)
+![Image](<https://lh3.googleusercontent.com/vm6V3zhog18syLSWP-kG-RE0d9Fgvpa9vOi_eUXpfNMLXQNtocRYepPqPYvPxcpv2k3K8aYVMsaSEzk1KQSPmG6b36ZfVU3obasxEZGDQUxIw5VHDMI>)
 
 Published: 2023-02-02T13:00:00
 
@@ -28,9 +28,9 @@ The new year brings with it two new components that can redefine how users navig
 
 The SearchBar component allows you to bring a well-understood navigation pattern to your apps that your users will have seen many times before across Google apps.
 
-![Search bar positioned over a long passage of text on a mobile screen](../../assets/images/18fce64e9834-YKEh4KUMPUe6-p8iWpsE2XbtCj1CSEd7x0M4dHzjcIp4BU4dPdlg-z93QwQJK8xRefQo4wvLxoMW1M8doxZxEONm8-CZL6MW.png)
+![Search bar positioned over a long passage of text on a mobile screen](<https://lh3.googleusercontent.com/YKEh4KUMPUe6-p8iWpsE2XbtCj1CSEd7x0M4dHzjcIp4BU4dPdlg-z93QwQJK8xRefQo4wvLxoMW1M8doxZxEONm8-CZL6MWER6eLmUFUek1UW61EhT0>)
 
-![Search bar positioned over a tab bar and cards on a mobile screen](../../assets/images/7de49130781d-E_Ed2P0q3XX68AsukK4hLjHN39yT4k78idTQGbWAtQ5W9xeB7rwLfZsehnD894x68I53JEGFxHgW7qHiLc_VtGW5-3dW5Lyy.png)
+![Search bar positioned over a tab bar and cards on a mobile screen](<https://lh3.googleusercontent.com/E_Ed2P0q3XX68AsukK4hLjHN39yT4k78idTQGbWAtQ5W9xeB7rwLfZsehnD894x68I53JEGFxHgW7qHiLc_VtGW5-3dW5LyyOLk4ZEnbBLXwGKmfXv7b>)
 
 SearchBar provides a floating search field that extends Toolbar. That means you can use navigation icons, menu items, or any other APIs you’ve already been using with Toolbars. When using SearchBar within a CoordinatorLayout parent, you can set SearchBar’s scrolling behavior to control how it responds to scrolling.
 
@@ -40,7 +40,7 @@ SearchView offers a full-screen search view. When used with SearchBar, SearchVie
 
 SearchView's header is similar to SearchBar; it supports navigation, text entry/hinting, and actions. Below the header, SearchView also holds search results, previous search queries, and suggestions/helper text.
 
-![SearchView opened on a mobile screen, showing a search bar and several suggestions, plus an open keyboard at the bottom of the screen](../../assets/images/8dfdcab0d1a0-lxorRjf7EzUemlTDRAhSam4wurh_2UGomsMB9v_xjHjuwD1COB5uNuA1dmVL6PD56sbRH6YCXL9s21P6NwqxkjnUhLDl6xAI.png)
+![SearchView opened on a mobile screen, showing a search bar and several suggestions, plus an open keyboard at the bottom of the screen](<https://lh3.googleusercontent.com/lxorRjf7EzUemlTDRAhSam4wurh_2UGomsMB9v_xjHjuwD1COB5uNuA1dmVL6PD56sbRH6YCXL9s21P6NwqxkjnUhLDl6xAIzG-4Jj5QE08lnAhgjBfb>)
 
 For more information on integrating the new Material Search components into your app, check out the full [developer documentation](https://github.com/material-components/material-components-android/blob/master/docs/components/Search.md).
 
@@ -56,13 +56,13 @@ Your application’s needs and screen real estate will determine which side shee
 
 Standard side sheets allow the user to view and interact with the side sheet and the visible portion of the main content at the same time. These are well suited to large screens or foldables in tablet mode and are not recommended for smaller screens; opt for modal side sheets on narrower screens.
 
-![A standard sidesheet overlapping an app layout on the right edge of the screen](../../assets/images/b9354f9c1ebf-9jQ84_sJ_9UEKkSksm7xObgRdXjmd7UCYTMdvFF2Sz_krc7LWvlhSJWDPHB4N0kAh8CSJvFgED_5KgkBC33CwHI8zzdOkZXi.png)
+![A standard sidesheet overlapping an app layout on the right edge of the screen](<https://lh3.googleusercontent.com/9jQ84_sJ_9UEKkSksm7xObgRdXjmd7UCYTMdvFF2Sz_krc7LWvlhSJWDPHB4N0kAh8CSJvFgED_5KgkBC33CwHI8zzdOkZXiTzRV4d8T9asZxbToeQ>)
 
 #### **Modal Side Sheets**
 
 Modal side sheets are more useful on smaller screens. They appear above the main content and block interaction with content outside their bounds. User actions outside the side sheet will dismiss the modal sheet.
 
-![A modal sidesheet overlapping an app layout on the right side of the screen. The app layout is darkened, highlighting the sidesheet.](../../assets/images/40e95b367ad4-nc9Bp-o4jKcOuTrV_T0GqpqafSTLGYXz2sMoMp8CtTQfwJA5-8IwKRmgcCPyi75iz6fc7_uPylWnUT3khJrsyQuObUoP3eVA.png)
+![A modal sidesheet overlapping an app layout on the right side of the screen. The app layout is darkened, highlighting the sidesheet.](<https://lh3.googleusercontent.com/nc9Bp-o4jKcOuTrV_T0GqpqafSTLGYXz2sMoMp8CtTQfwJA5-8IwKRmgcCPyi75iz6fc7_uPylWnUT3khJrsyQuObUoP3eVAld2hLxo7KUox-WVi2oI>)
 
 #### **Coplanar Side Sheets**
 
@@ -70,7 +70,7 @@ Coplanar side sheets are a more responsive version of standard sheets; coplanar 
 
 Like standard sheets, coplanar sheets are recommended for large screens and foldable devices, and are not recommended for smaller screens.
 
-![A co-planar sidesheet that compresses the main app layout from the right edge of the screen.](../../assets/images/9f6fa92aa438-b_uSGOnnXJXD1C-3YpIIoTa-DzyYagX6ubo2ZIttWiWdfxNRInJ8b9kLrcCI7IY9TVSSwkMwmAMaz3e57DDBsPAgU-JCaxIZ.png)
+![A co-planar sidesheet that compresses the main app layout from the right edge of the screen.](<https://lh3.googleusercontent.com/b_uSGOnnXJXD1C-3YpIIoTa-DzyYagX6ubo2ZIttWiWdfxNRInJ8b9kLrcCI7IY9TVSSwkMwmAMaz3e57DDBsPAgU-JCaxIZbMbJrNY9VpTaw0bc3RQ>)
 
 For more information on integrating the new Material Side Sheet components into your app, check out the full [developer documentation](https://github.com/material-components/material-components-android/blob/master/docs/components/SideSheet.md).
 

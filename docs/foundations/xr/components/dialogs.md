@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/dialogs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -22,7 +22,7 @@ assets:
 
 Learn how Material 3 Expressive components adapt to extended reality devices
 
-![XR components](../../../../assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png)
+![XR components](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6grqe5-hero%20image.png?alt=media&token=77848b44-f2d9-4c6e-a51a-d4807d7ea9e4>)
 
 ## Dialogs
 
@@ -44,7 +44,7 @@ Note:
 
 Color and elevation for spatial dialogs aren’t available in Jetpack Compose yet. These need to be customized manually.
 
-![2 spatially elevated dialogs with surface-container-high and surface-container-highest color roles.](../../../../assets/images/2df61bb43496-mp5rmvr7-01-3P.png)
+![2 spatially elevated dialogs with surface-container-high and surface-container-highest color roles.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5rmvr7-01-3P.png?alt=media&token=1dde2ef8-1536-4fd5-932b-4701ab757581>)
 
 _Surface container high; Surface container highest_
 
@@ -52,7 +52,7 @@ For effective visual hierarchy, a dialog should be the most prominent element. 
 
 Add a scrim behind a dialog to improve its visibility. Scrims prevent other content from being selected until the dialog action is complete.
 
-![Dialog with surface-container-highest color and a scrim.](../../../../assets/images/351b97cee0bb-mox7g5yi-02.png)
+![Dialog with surface-container-highest color and a scrim.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7g5yi-02.png?alt=media&token=7a21ccfd-5b6b-4840-a471-7dd6e803a83f>)
 
 _Make sure a spatial dialog’s color is higher than all other UI elements, and use a scrim_
 
@@ -60,7 +60,7 @@ The dialog should have the highest elevation in the product.
 
 For example, if the dialog is **surface container high**, don’t use **surface container highest** for any other elements.
 
-![Dialog with surface-container-high color and no scrim. An orbiter is at a higher elevation than the dialog.](../../../../assets/images/ddf84f7cca02-mox7nrut-03.png)
+![Dialog with surface-container-high color and no scrim. An orbiter is at a higher elevation than the dialog.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7nrut-03.png?alt=media&token=91aeb244-3d82-4210-bcfc-a4588dafbd4a>)
 
 _If a dialog’s color is surface container high, don’t use surface container highest for any other element_
 
@@ -68,11 +68,11 @@ _If a dialog’s color is surface container high, don’t use surface container 
 
 Only use [basic dialogs](../../../components/dialogs/guidelines.md#97ac3858-3932-4084-ae8e-73e42b7cb752) in XR. This keeps the required action in the person’s [field of view](https://developer.android.com/design/ui/xr/guides/spatial-ui#where-place).
 
-![Basic dialog in XR.](../../../../assets/images/0dfe9ac63e56-mox7s3sr-04.png)
+![Basic dialog in XR.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7s3sr-04.png?alt=media&token=5665a385-4ac8-4c18-a89d-7d3857645d09>)
 
 _A basic dialog elevated above an app in home space_
 
-![Full-screen dialog in XR.](../../../../assets/images/44649890a609-mox7ytt7-05.png)
+![Full-screen dialog in XR.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox7ytt7-05.png?alt=media&token=592b5c9f-8a12-46d1-9660-eae5205e2334>)
 
 _Avoid using full-screen dialogs in XR. Required actions could appear beyond a person’s field of view._
 
@@ -80,7 +80,7 @@ _Avoid using full-screen dialogs in XR. Required actions could appear beyond a p
 
 In full space, dialogs can be elevated spatially via [overrides](https://developer.android.com/develop/xr/jetpack-xr-sdk/material-design#use-enablexrcomponentoverrides). This helps dialogs stand out from their background in XR.
 
-![Side view of basic dialog showcasing spatial elevation.](../../../../assets/images/42964cde623f-mox83eps-06.png)
+![Side view of basic dialog showcasing spatial elevation.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmox83eps-06.png?alt=media&token=dda2abbf-f23a-4c77-bb5d-bd5e429707e1>)
 
 _Side view of a basic dialog with spatial elevation in full space_
 

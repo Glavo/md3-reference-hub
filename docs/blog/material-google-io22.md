@@ -2,7 +2,7 @@
 title: "Join Material Design at I/O ‘22"
 source_url: "https://m3.material.io/blog/material-google-io22"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/ab0dd3acc594-CEiAxXbUlIrCLml5_GClaHZArjTnCSbgYSNjg_JBB1sJ9S6Agng_bKd0hGdUg4zmX4t4gfIdKqsn5NwRMQjoxLuSMFe0Vwpq.png"
@@ -12,7 +12,7 @@ assets:
 
 Get the full download on what Material Design updates you can expect at I/O this year
 
-![Image](../../assets/images/ab0dd3acc594-CEiAxXbUlIrCLml5_GClaHZArjTnCSbgYSNjg_JBB1sJ9S6Agng_bKd0hGdUg4zmX4t4gfIdKqsn5NwRMQjoxLuSMFe0Vwpq.png)
+![Image](<https://lh3.googleusercontent.com/CEiAxXbUlIrCLml5_GClaHZArjTnCSbgYSNjg_JBB1sJ9S6Agng_bKd0hGdUg4zmX4t4gfIdKqsn5NwRMQjoxLuSMFe0Vwpqwcx-T4oN27EHw3oxyiE>)
 
 Published: 2022-05-11T08:00:00
 

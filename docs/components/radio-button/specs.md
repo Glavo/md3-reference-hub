@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/specs"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/be3b2c0d46fc-md8jp5v6-01-3P.png"
@@ -18,7 +18,7 @@ Radio buttons let people select one option from a set of options
 
 ## Specs
 
-![Diagram of enabled radio button.](../../../assets/images/be3b2c0d46fc-md8jp5v6-01-3P.png)
+![Diagram of enabled radio button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jp5v6-01-3P.png?alt=media&token=be9d2b02-1a2a-447a-99ad-3374eda8cc04>)
 
 _Radio button icon_
 
@@ -38,7 +38,7 @@ Component: Radio button
 
 Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](../../foundations/design-tokens/overview.md)
 
-![Diagram of selected and unselected radio button colors.](../../../assets/images/7ad7a0a2f710-md8jpn14-02-3P.png)
+![Diagram of selected and unselected radio button colors.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jpn14-02-3P.png?alt=media&token=07b7a3f4-c11b-4a24-b356-9b7665723560>)
 
 _Radio button color roles used for light and dark themes: Primary; On surface variant; /_
 
@@ -46,7 +46,7 @@ _Radio button color roles used for light and dark themes: Primary; On surface va
 
 Use the color role **on surface** for adjacent text labels. This remains the same even if interacting with the label or component.
 
-![Radio buttons with labels. The labels are the same color for both selected and unselected radio buttons.](../../../assets/images/ed806f993259-md8jq2c4-03-3P.png)
+![Radio buttons with labels. The labels are the same color for both selected and unselected radio buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jq2c4-03-3P.png?alt=media&token=5139c7bd-b6b7-482a-8ec7-6f0ab70be705>)
 
 _The text color remains the same regardless if the button is selected or not_
 
@@ -54,7 +54,7 @@ _The text color remains the same regardless if the button is selected or not_
 
 States are visual representations used to communicate the status of a component or interactive element. [Learn more about interaction states](https://m3.material.io/m3/pages/interaction-states/overview)
 
-![Diagram of radio button states including enabled, hover, focus, pressed, and disabled.](../../../assets/images/6a5dc5a66fbf-md8jqfvs-04-3P.png)
+![Diagram of radio button states including enabled, hover, focus, pressed, and disabled.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8jqfvs-04-3P.png?alt=media&token=1b0973c2-4f09-49a9-8d23-17c22fa18ead>)
 
 _Enabled; Hover; Focus; Pressed; Disabled_
 
@@ -62,7 +62,7 @@ _Enabled; Hover; Focus; Pressed; Disabled_
 
 ## Measurements
 
-![Diagram of radio button layout values.](../../../assets/images/6b77551cb8ae-md8juo16-05-3P.png)
+![Diagram of radio button layout values.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmd8juo16-05-3P.png?alt=media&token=9241a630-7ef4-4e04-8741-21d6ea679187>)
 
 _Radio button size measurements_
 

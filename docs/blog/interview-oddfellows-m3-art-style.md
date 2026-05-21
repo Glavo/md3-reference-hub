@@ -2,7 +2,7 @@
 title: "How Oddfellows Illustrated Material You"
 source_url: "https://m3.material.io/blog/interview-oddfellows-m3-art-style"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/f89ec02208d6-Xnu_XzomsPU4COc9S-WeIoG4NGSt9WQTZpqV7DdPOX6uhx8F2_-V74HslS_bdTpBXIbretlJxpORHkv8qTYcu6nb35VpA4yW.png"
@@ -19,7 +19,7 @@ assets:
 
 Explore (and download) the new illustrations that bring the Material Design 3 site to life
 
-![Abstract illustration of flowers and geometric shapes](../../assets/images/f89ec02208d6-Xnu_XzomsPU4COc9S-WeIoG4NGSt9WQTZpqV7DdPOX6uhx8F2_-V74HslS_bdTpBXIbretlJxpORHkv8qTYcu6nb35VpA4yW.png)
+![Abstract illustration of flowers and geometric shapes](<https://lh3.googleusercontent.com/Xnu_XzomsPU4COc9S-WeIoG4NGSt9WQTZpqV7DdPOX6uhx8F2_--V74HslS_bdTpBXIbretlJxpORHkv8qTYcu6nb35VpA4yW-Ts80CexWJxIxVe_uA>)
 
 Published: 2022-01-27T13:00:00
 
@@ -31,7 +31,7 @@ Recently, I had the chance to chat with the folks from Oddfellows who led the pr
 
 Material You was a “permission slip to create art that was a little weird and unconventional,” according to Oddfellows Creative Director Jarratt Moody. “People are complex and varied in their taste and expression and Material You is intended to be accepting and inviting to everyone. Instead of aiming for a one style fits all universal appeal, we found that personal and original work connects at an emotional level.”
 
-![Four illustrations, cropped to different shaped containers](../../assets/images/a116e903dbc7-N-5QnqY_UschybHZy41sAgJV5CM0VytAvVK-moEM1O60AOQ49a63i1WOjrqelR9XAMCEHcNhgLRqrimGJelv8bbeGRsfZVtZ.png)
+![Four illustrations, cropped to different shaped containers](<https://lh3.googleusercontent.com/N-5QnqY_UschybHZy41sAgJV5CM0VytAvVK-moEM1O60AOQ49a63i1WOjrqelR9XAMCEHcNhgLRqrimGJelv8bbeGRsfZVtZD4VUCwLyamug2kjKlS0>)
 
 Four distinct styles comprise the Material Design 3 illustration system
 
@@ -39,13 +39,13 @@ To that end, the illustrative system is actually comprised of four distinct styl
 
 When tasked with harmonizing such a diverse set of styles into one system, Art Director Yuki Yamada explains, “there was a struggle at first to unify the styles, especially when they all came together in one page. Each style could live on its own very nicely but started to fight once brought together. The solve was with color unification and simplification. Once we switched over to the … Material Design palettes, things were starting to harmonize. And then it was a matter of simplifying object count and details until they all clicked in place.”
 
-![Four sets of example color swatches](../../assets/images/fd79fce9fd22-qCqVQZQzukWsBchIRK8paIe7sP1TSgKQNFmUWoy6NjvSXG1I4q1gmSmLAsU4s8P-QftnKjJttns2gQ82tPCC6HCtbkJ5ebFO.png)
+![Four sets of example color swatches](<https://lh3.googleusercontent.com/qCqVQZQzukWsBchIRK8paIe7sP1TSgKQNFmUWoy6NjvSXG1I4q1gmSmLAsU4s8P-QftnKjJttns2gQ82tPCC6HCtbkJ5ebFOEbH-Uw4xtVWBhfxe_w>)
 
 Example color swatches
 
 The colors Yamada mentioned, that served as the basis for the illustrative system, reflect a set of color palettes developed alongside the [Material You approach](https://m3.material.io/libraries/mdc-android/color-theming) to color extraction and palette creation for interfaces seen in Android 12. The color palettes, which – along with others – were used in mockups and test interfaces internally, left their mark on the Oddfellows illustrations, proving the durability of Material’s nuanced, algorithmic approach to palette generation.
 
-![Screenshot from Material Design 3 spec, showing text over an illustration](../../assets/images/49b206206801-_FwuB3_l2MwfkXNfNrK-SJmxlJ078o19ZD0dpyeGuCaxr537oUHuP4TeA7jmUIZPY36ux3QGe_gZdBtD5xPaJPSjMqQQkw59.png)
+![Screenshot from Material Design 3 spec, showing text over an illustration](<https://lh3.googleusercontent.com/_FwuB3_l2MwfkXNfNrK-SJmxlJ078o19ZD0dpyeGuCaxr537oUHuP4TeA7jmUIZPY36ux3QGe_gZdBtD5xPaJPSjMqQQkw59agGX8FgN3hzHVC0bUWQ3>)
 
 Illustrations used for header backgrounds support the contrast requirements for black text
 
@@ -63,18 +63,18 @@ For Creative Director Jarratt Moody, “It’s exciting to let the work go at th
 
 The new illustrations Oddfellows developed for the Material Design 3 site will feel at home on your own device, and with Android 12 you can experience the color palettes that inspired them. Download your favorite images to use as a wallpaper below.
 
-![Illustration from the "Handmade" collection](../../assets/images/ee78c5f0a8b9-HfnbiwLsPZ9ewa_PhEQh4a5PJx3xp3uMYizBjL4dknNr_F-dlejmfTgARYv2TDAme-0NN2mKlSRXeZriGqza3un4Kvr__Ib5.png)
+![Illustration from the "Handmade" collection](<https://lh3.googleusercontent.com/HfnbiwLsPZ9ewa_PhEQh4a5PJx3xp3uMYizBjL4dknNr_F-dlejmfTgARYv2TDAme-0NN2mKlSRXeZriGqza3un4Kvr__Ib5nblEoKGj6JPQvbVAjTM>)
 
 [Desktop](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_Handmade-GreenDesktop.png) | [Mobile](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_Handmade-GreenMobile.png)
 
-![Illustration from the "Handmade" collection](../../assets/images/0df5d22a05d9-9ixuaapFyVYUiDR-cFmRDpcfespY7ZYjknz2wpZTKLPSu0zdipXy4ieOF9YRVb-E6DCjffUblD8U9kn_WiRQ-AkR1FjJc58T.png)
+![Illustration from the "Handmade" collection](<https://lh3.googleusercontent.com/9ixuaapFyVYUiDR-cFmRDpcfespY7ZYjknz2wpZTKLPSu0zdipXy4ieOF9YRVb-E6DCjffUblD8U9kn_WiRQ-AkR1FjJc58Tr14QSVjq9hR_KtLI7g>)
 
 [Desktop](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_Handmade-Yellow_Desktop.png) | [Mobile](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_Handmade-Yellow_Mobile.png)
 
-![Illustration from the "Modern Folk" collection](../../assets/images/263a915c0d71-IRs_xtAG8TDlyXFRJiuJvcviONO1BXhj_ozT328ctmsewApkdLncPJMmizDJpXXbFUuDaJH-4jnRP9Tek0-M0SBXy7pUo5ej.png)
+![Illustration from the "Modern Folk" collection](<https://lh3.googleusercontent.com/IRs_xtAG8TDlyXFRJiuJvcviONO1BXhj_ozT328ctmsewApkdLncPJMmizDJpXXbFUuDaJH-4jnRP9Tek0-M0SBXy7pUo5ej3mpHZbg3zbC_sag4d1E>)
 
 [Desktop](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_ModernFolkDesktop.png) | [Mobile](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_ModernfolkMobile.png)
 
-![Illustration from the "Sci-Fi" collection](../../assets/images/d86bb5f9de3b-9kq1UNUjO1F86J4xvya2O-4mcUo24djjcqqoNiiL6Gtn59yoIUjWF8qMuUti1xXNbkY0MjZAu5vnSA4Ah0Df0Sbu2p42GVvi.png)
+![Illustration from the "Sci-Fi" collection](<https://lh3.googleusercontent.com/9kq1UNUjO1F86J4xvya2O-4mcUo24djjcqqoNiiL6Gtn59yoIUjWF8qMuUti1xXNbkY0MjZAu5vnSA4Ah0Df0Sbu2p42GVvivnX-yj6jS8uGOOjowMg>)
 
 [Desktop](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_SciFiDesktop.png) | [Mobile](https://storage.googleapis.com/gd-misc/MaterialYouWallpapers/Oddfellows_SciFiMobile.png)

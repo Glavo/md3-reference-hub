@@ -2,7 +2,7 @@
 title: "Designing Text for the People Who Read It"
 source_url: "https://m3.material.io/blog/designing-text-visual-acuity-research"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/2e16c46f44a9-1lNY69iZ1beIzMdKwc5WOX7GpCR0PMsp93A1F_jF_kcEVJNqKy0YH-glyLtzr8uqrNbqhLjr63iCGWmg7VMiYRjMsqvXMc3h.png"
@@ -19,7 +19,7 @@ assets:
 
 The science behind visual acuity, legibility, and text size
 
-![Abstract illustration of an eye and variously sized orbs floating in space](../../assets/images/2e16c46f44a9-1lNY69iZ1beIzMdKwc5WOX7GpCR0PMsp93A1F_jF_kcEVJNqKy0YH-glyLtzr8uqrNbqhLjr63iCGWmg7VMiYRjMsqvXMc3h.png)
+![Abstract illustration of an eye and variously sized orbs floating in space](<https://lh3.googleusercontent.com/1lNY69iZ1beIzMdKwc5WOX7GpCR0PMsp93A1F_jF_kcEVJNqKy0YH-glyLtzr8uqrNbqhLjr63iCGWmg7VMiYRjMsqvXMc3hlubxgv1IGMVIGXCwcNU>)
 
 Published: 2021-03-11T13:00:00
 
@@ -27,7 +27,7 @@ Published: 2021-03-11T13:00:00
 
 As a long-time wearer of glasses and contacts, I’ve been familiar with the chart shown below from a pretty young age. If you’ve never taken an eye exam with one of these, it generally goes something like this: first, the eye doctor would have you sit across the room from this chart. You would be asked to cover one eye and then read each line, from top to bottom, until you couldn’t make out the letters anymore. After one eye, you would test the other. The lowest line you could read in this chart with either eye would provide you with a measure of your visual acuity. In the US, this is commonly expressed as a fraction like 20/20, 20/40, etc. A nice high level overview of this process is available in this (very brief!) presentation from the National Institute of Health: [Testing distance vision using a Snellen chart](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2040251/02/2020) \[1\].
 
-![Snellen chart](../../assets/images/eeaf6405daae-PEaL0VkabtclfgJfLmgDNVkBl6lC97HCGv8Pmt5U_Go01DkLKaBkkjtH0L0J0qAzc1mL4UAKTOnvNdG2U6R8R9LOZ6mElJtp.png)
+![Snellen chart](<https://lh3.googleusercontent.com/PEaL0VkabtclfgJfLmgDNVkBl6lC97HCGv8Pmt5U_Go01DkLKaBkkjtH0L0J0qAzc1mL4UAKTOnvNdG2U6R8R9LOZ6mElJtpMNMTF2y5SABQh_zoIkM>)
 
 Figure 1: Snellen chart. Image source: https://commons.wikimedia.org/wiki/File:Snellen\_chart.svg. This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
 
@@ -35,13 +35,13 @@ There are two points to call out here. First, the size of the chart matters. If 
 
 ## Observation #1: Visual acuity is a measure of an angle over a distance
 
-![Abstract illustration of colored orbs, now arranged in a straight line through space](../../assets/images/a7659c3ec409-YGu41ttwa4JWpsftlsjM_-DTJoh9y-H_Uansbb9xHZU2v8cLjr8sauM54xH8jDPLazFFNAdumvm4tfbY39TDUGLLANLNtwE6.png)
+![Abstract illustration of colored orbs, now arranged in a straight line through space](<https://lh3.googleusercontent.com/YGu41ttwa4JWpsftlsjM_-DTJoh9y-H_Uansbb9xHZU2v8cLjr8sauM54xH8jDPLazFFNAdumvm4tfbY39TDUGLLANLNtwE60hVT_YMqaMNto6_bNA>)
 
 Or, if we want to be more precise, we can consult The Organization of the Retina and Visual System \[2\]: “visual acuity is the spatial resolving capacity of the visual system. This may be thought of as the ability of the eye to see fine detail.” Generally, as the subtended angle (you can think of this as the distance your eye travels to see from the top to the bottom of an object) required to observe any specific artifact decreases – for example, when the artifact moves away from the observer — the amount of visual acuity required to distinguish characteristics of that artifact increases.
 
 An example might make this more concrete. Consider the image below, where a specific artifact (in this image, a banana, for scale) is perceived by a viewer at two different distances.
 
-![Illustration showing angle and distance of viewing a bunch of bananas](../../assets/images/3025c9dc8370-Zq8nrMBYeHbsamMFWhUeOMVCyVOG33eSmaXff_qT5Td26UCkMFC6fLKBo9pIogLSdqrXjqIzfhw52lQtodKxhsZy9zlzV29d.png)
+![Illustration showing angle and distance of viewing a bunch of bananas](<https://lh3.googleusercontent.com/Zq8nrMBYeHbsamMFWhUeOMVCyVOG33eSmaXff_qT5Td26UCkMFC6fLKBo9pIogLSdqrXjqIzfhw52lQtodKxhsZy9zlzV29d93sQh-lnO3WVu3wWpus>)
 
 Figure 2: Illustrating how the angle required to perceive this object changes as a function of distance. Image source for the bananas: http://www.freestockphotos.biz/stockphoto/15909. This image is licensed under Public Domain. Released to the Public Domain by its author.
 
@@ -61,7 +61,7 @@ Step 3: Place your head about an arms-width in the other direction from the firs
 
 When you’re done, it should look like Figure 3 below. The stacked post-its at right, at exactly twice the distance, will appear to be exactly the same height as the single post-it closer to you.
 
-![Illustration showing viewing distance for an arrangement of post-it notes](../../assets/images/7a59f8c1d681-kYorLIW25QGPeqQHCBKhggDN5iHzWRszxpGb3eqzzQR0imbn87H2H4uD2rpfUC5DzCIjKV1ITQ5f0zN0smoFWtPNqHHp4cYD.png)
+![Illustration showing viewing distance for an arrangement of post-it notes](<https://lh3.googleusercontent.com/kYorLIW25QGPeqQHCBKhggDN5iHzWRszxpGb3eqzzQR0imbn87H2H4uD2rpfUC5DzCIjKV1ITQ5f0zN0smoFWtPNqHHp4cYD0qLOkBfNuj2nUaxLd8Q>)
 
 Figure 3: Illustrating how if you double the distance between you and an object, you need to double the actual height of that object to match the perceived height. Grab some post-it’s and give it a try! Image source: The image above was created in Google Presentations by the author for use in this article
 
@@ -69,7 +69,7 @@ Figure 3: Illustrating how if you double the distance between you and an object,
 
 Once again quoting The Organization of the Retina and Visual System \[2\], “Visual Acuity (VA) in Snellen notation is given by the relation: VA = D’/D where D’ is the standard viewing distance (usually 6 metres) and D is the distance at which each letter of this line subtends 5 minutes of arc (each stroke of the letter subtending 1 minute; figure 4).”
 
-![Illustration demonstrating the Snellen fraction](../../assets/images/56b72e3ce497-sW0FLvro-78dKeXIp4yX9aDKF2ozbzxMISu0HbSl_ZROTxp_9HtoxT1BcfilfqyGu3Knzz_vY9QbWjtcZUBGuHhV4Je-EqEP.png)
+![Illustration demonstrating the Snellen fraction](<https://lh3.googleusercontent.com/sW0FLvro--78dKeXIp4yX9aDKF2ozbzxMISu0HbSl_ZROTxp_9HtoxT1BcfilfqyGu3Knzz_vY9QbWjtcZUBGuHhV4Je--EqEP9OBCviJRt0eESiPts>)
 
 Figure 4: Illustrating how we can arrive at a Snellen fraction (e.g., 20/20) given the ability to resolve detail (the features of the “E”) at a specific distance (subtending 5 minutes of arc, or 5/60ths of a degree). Image source: This image is from a publicly accessible blog post, linked at \[2\]. License unknown.
 
@@ -77,7 +77,7 @@ Ultimately this means that it’s possible to estimate the visual acuity of any 
 
 ## Observation #2: Text can be scaled over multiple distances
 
-![abstract illustration of colored orbs](../../assets/images/f653e1d3a8ae-vUOhn7KPnv9d-RECVO2SAU_ZU_Bq8u_Xv1ivLZXbxvmKVQnTfNPPWCL20-UwW_uwlsWJbRJdxb0EwWw7iDMxoMY2xUs45A-9.png)
+![abstract illustration of colored orbs](<https://lh3.googleusercontent.com/vUOhn7KPnv9d-RECVO2SAU_ZU_Bq8u_Xv1ivLZXbxvmKVQnTfNPPWCL20-UwW_uwlsWJbRJdxb0EwWw7iDMxoMY2xUs45A-9DRl7iaGn352-4DlEocg>)
 
 The prior observation really boils down to two main things. First, one way to understand how we perceive objects is by measuring the angle it takes to subtend that object. If you move the object farther away from the observer, the angle decreases as the perceived size of the object also decreases. The math involved here is probably already familiar to you if you remember high school trigonometry (oh, those happy days!), but don’t worry if you don’t remember – we’ll cover what you need to know next. And second, that visual acuity (generally speaking) is a metric that describes how any individual perceives objects that subtend a specific angle.
 
@@ -137,7 +137,7 @@ We’ll wrap up this section with a hopefully straightforward recommendation: wh
 
 ## Observation #3: Text size can be expressed as a measure of visual acuity
 
-![Abstract illustration of colored orbs with magnified letters behind them](../../assets/images/5667b56a640b-G5Swupweu3VoBK5tKRvLePKBn1T-JiGAg_-2f0hT66od7aPL9ILj43zNzBUJTNRYZlOYxCeF3LgTsmbFTXi4Mvn0OYj6hkZX.png)
+![Abstract illustration of colored orbs with magnified letters behind them](<https://lh3.googleusercontent.com/G5Swupweu3VoBK5tKRvLePKBn1T-JiGAg_-2f0hT66od7aPL9ILj43zNzBUJTNRYZlOYxCeF3LgTsmbFTXi4Mvn0OYj6hkZXCaX6yvUJ8y09TFmajfQj>)
 
 If you’ve managed to stick with me this far, well done! But before we wrap up I wanted to share one last observation that builds on the first two that may allow you to express or understand text sizes in a slightly new way. Specifically, by being sensitive to things like expected viewing distance (e.g., Observation 2) and how visual acuity is understood and calculated (e.g., Observation 1), _we can express text size as a measure of visual acuity._
 

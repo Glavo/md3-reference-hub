@@ -2,7 +2,7 @@
 title: "Dialogs"
 source_url: "https://m3.material.io/components/dialogs/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/ab5c82b2661e-ml9yk7iw-01.png"
@@ -25,7 +25,7 @@ Dialogs provide important prompts in a user flow
 
 -   Commonly used to confirm high-risk actions like deleting progress
 
-![Basic and full-screen dialog.](../../../assets/images/ab5c82b2661e-ml9yk7iw-01.png)
+![Basic and full-screen dialog.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fml9yk7iw-01.png?alt=media&token=50a39047-4d06-477e-a9d8-84dd6a5afae9>)
 
 _Basic dialog; Full-screen dialog_
 
@@ -49,6 +49,6 @@ _Basic dialog; Full-screen dialog_
 -   Shape: Increased corner-radius
 -   Typography: Larger and darker headline
 
-![Basic dialog with rounded corner, larger headline.](../../../assets/images/1d5d6a44a88e-ml9ykeuk-02.png)
+![Basic dialog with rounded corner, larger headline.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fml9ykeuk-02.png?alt=media&token=02244cb3-7889-4321-9a65-aa3040bbadc1>)
 
 _New updates to color, layout, position, shape, and typography_

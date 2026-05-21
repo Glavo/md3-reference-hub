@@ -2,7 +2,7 @@
 title: "Why We Recommend Material Components for Android"
 source_url: "https://m3.material.io/blog/why-we-recommend-material-design-components-android"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/2120829d4f6a-m79E6A7AVxB-mJ5yzx1aPqxbo2QyiEoAzMJhpbmyIGU9brgB0d4hZUDdXIt6suQFDOB6g7RcBcXAq8H_jfwTOhbTd3-yZ2MC.png"
@@ -18,7 +18,7 @@ assets:
 
 Ensuring that patterns learned in one app can be used in another
 
-![Image](../../assets/images/2120829d4f6a-m79E6A7AVxB-mJ5yzx1aPqxbo2QyiEoAzMJhpbmyIGU9brgB0d4hZUDdXIt6suQFDOB6g7RcBcXAq8H_jfwTOhbTd3-yZ2MC.png)
+![Image](<https://lh3.googleusercontent.com/m79E6A7AVxB-mJ5yzx1aPqxbo2QyiEoAzMJhpbmyIGU9brgB0d4hZUDdXIt6suQFDOB6g7RcBcXAq8H_jfwTOhbTd3-yZ2MCcyuvC5k>)
 
 Published: 2020-08-25T13:00:00
 
@@ -31,7 +31,7 @@ To implement this, you can use the [Material Components for Android](https://git
 
 ## Widgets
 
-![Grid of baseline purple Material Components including banners, bottom navigation, buttons, floating action buttons, card, and chips.](../../assets/images/ab34da16a17f-Y0bNV0tJr9AbuQGzOHwb4dJcesUxg0YY0ZL21f4gcVi09N1ikkUUsRBe6ZdLeoqQHj_Na0RKC27q_4-5EATlG2DmdpMPrHz4.png)
+![Grid of baseline purple Material Components including banners, bottom navigation, buttons, floating action buttons, card, and chips.](<https://lh3.googleusercontent.com/Y0bNV0tJr9AbuQGzOHwb4dJcesUxg0YY0ZL21f4gcVi09N1ikkUUsRBe6ZdLeoqQHj_Na0RKC27q_4-5EATlG2DmdpMPrHz4gs-UHA>)
 
 MDC provides styled versions of standard widgets making it easy to implement Material styling. For example Material offers styled versions of `[Button](https://material.io/develop/android/components/buttons)`s, `[Toolbar](https://material.io/develop/android/components/app-bars-top)`s, `[CheckBox](https://material.io/develop/android/components/checkboxes)`es and more. If you use a `MaterialComponents` theme, then Material widgets will be instantiated instead of the stock components when you inflate a layout (by MDC’s [View Inflater](https://developer.android.com/reference/com/google/android/material/theme/MaterialComponentsViewInflater)) so it’s easy to achieve Material styling without having to make large updates to your layouts:
 
@@ -39,19 +39,19 @@ All Material widgets extend their relevant `AppCompat` counterparts so they bene
 
 Material widgets offer extra styling and functionality over their platform or `AppCompat` counterparts, for example [`MaterialButton`](https://material.io/develop/android/components/buttons) offers a number of different display styles:
 
-![Three baseline purple Material buttons with a filled style, text style and outlined style.](../../assets/images/06fc23a32333-X_GpLf-IrLScJgm3zTMe_KyFHPyZklfGXZ0vMVxojNV0tUHYD1e8HHS-E7ow0iyeuDrvE-1XLqVKf_0CdERMNmHxM3ZWm-nc.png)
+![Three baseline purple Material buttons with a filled style, text style and outlined style.](<https://lh3.googleusercontent.com/X_GpLf-IrLScJgm3zTMe_KyFHPyZklfGXZ0vMVxojNV0tUHYD1e8HHS-E7ow0iyeuDrvE-1XLqVKf_0CdERMNmHxM3ZWm-nc-B86>)
 
 One of my favorite additions is `TextView`s being replaced with [`MaterialTextView`](https://material.io/develop/android/components/material-text-view)s which add support for specifying line heights in `TextAppearance`s. Handy.
 
 As well as adding to existing widgets, MDC offers a number of new widgets, not available in the platform or `AppCompat`. You’ve likely seen [Bottom Navigation](https://material.io/develop/android/components/bottom-navigation-view/), [Bottom Sheet](https://material.io/develop/android/components/bottom-sheet-behavior/) and [Floating Action Buttons](https://material.io/develop/android/components/floating-action-button/) but might not have come across [Chips](https://material.io/develop/android/components/chip/), [Date Picker](https://material.io/develop/android/components/picker) or [Time Picker](https://github.com/material-components/material-components-android/blob/master/docs/components/TimePicker.md).
 
-![Material Time Picker with a digital clock showing 07:00, an AM/PM toggle, and a circular time picker.](../../assets/images/04b99dd165c6-ckPw0BqCjpOW5-YqRDf2WVP9twTlL82mMCOQ1Xu7JYQyvao1WDCsTp8xW-mEhYOiYSNHIf68vKhNSSja8ANmcYLxRxQuw-LO.png)
+![Material Time Picker with a digital clock showing 07:00, an AM/PM toggle, and a circular time picker.](<https://lh3.googleusercontent.com/ckPw0BqCjpOW5-YqRDf2WVP9twTlL82mMCOQ1Xu7JYQyvao1WDCsTp8xW-mEhYOiYSNHIf68vKhNSSja8ANmcYLxRxQuw-LOxjogpYw>)
 
 For a complete list of components offered by the library, see the [components section](https://material.io/components).
 
 ## Material Theming
 
-![Various apps demonstrating Material Theming, including a purple baseline app, a pink “Shrine” shopping app, a dark purple and red “Crane” travel app, and a grey and orange “Reply” inbox app.](../../assets/images/6133cd85f49a-JFBeD_3tKAJescoKiWBDW3SS2ZBIY7UKEMVknQWCLSswP9iXbTiU78PdJMz1wIC5giWqT0OkX9FTp8WxCQHJA_rnqPcDfxeC.png)
+![Various apps demonstrating Material Theming, including a purple baseline app, a pink “Shrine” shopping app, a dark purple and red “Crane” travel app, and a grey and orange “Reply” inbox app.](<https://lh3.googleusercontent.com/JFBeD_3tKAJescoKiWBDW3SS2ZBIY7UKEMVknQWCLSswP9iXbTiU78PdJMz1wIC5giWqT0OkX9FTp8WxCQHJA_rnqPcDfxeCEEAH>)
 
 [Material Theming](https://material.io/design/material-theming/) is a systematic way to customize Material Design to reflect your product’s brand. A Material Theme comprises [color](https://material.io/design/color/), [typography](https://material.io/design/typography/) and [shape](https://material.io/design/shape/) attributes. Customizing these will be automatically reflected in the components you use to build your app.
 
@@ -65,7 +65,7 @@ Nick Rout goes in depth into each of the three sub-systems in the following post
 
 ## Dark Theme
 
-![Light and dark versions of a stats app using baseline Material purple.](../../assets/images/a076375af1c4-9Y1NM2YQyI9p_tx4bzGuQr-bAGxfGbQJM7vzV3Ah2C82si22V8BisTafAXkex6hKxzPMQZorwJ207dxeny6MyWNkgDlebH1X.png)
+![Light and dark versions of a stats app using baseline Material purple.](<https://lh3.googleusercontent.com/9Y1NM2YQyI9p_tx4bzGuQr-bAGxfGbQJM7vzV3Ah2C82si22V8BisTafAXkex6hKxzPMQZorwJ207dxeny6MyWNkgDlebH1XvjwO>)
 
 MDC widgets implement Material’s [dark theme guidance](https://material.io/design/color/dark-theme.html), with many widgets adapting their colors to dark themes and offering elevation overlays to communicate elevation when shadows don’t read.
 
@@ -73,7 +73,7 @@ Chris Banes goes in depth about MDC's dark theme support in [another post](https
 
 ## Material Motion
 
-![Various screens showing grids, lists and details, each animating to demonstrate container transform, shared axis, fade through, and fade transitions.](../../assets/images/34a959555efa-HcUay0xLeUoYBEDScQ61lMuC9bTlWCPWagTZHqtH_0vyobpouF_yZAgb-T_LAwMpNir1oSmIjMXQI4ChGfEM6eNdyFCvmY9T.png)
+![Various screens showing grids, lists and details, each animating to demonstrate container transform, shared axis, fade through, and fade transitions.](<https://lh3.googleusercontent.com/HcUay0xLeUoYBEDScQ61lMuC9bTlWCPWagTZHqtH_0vyobpouF_yZAgb-T_LAwMpNir1oSmIjMXQI4ChGfEM6eNdyFCvmY9ThZSA>)
 
 Material Design provides [guidance](https://material.io/design/motion/the-motion-system.html) for screen transitions. Better than guidance alone, MDC now implements these patterns as Transitions ready to be dropped into your app. Hunter Stich introduces you to the material motion library in [this post](https://material.io/blog/android-material-motion).
 

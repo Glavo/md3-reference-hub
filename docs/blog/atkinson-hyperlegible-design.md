@@ -2,7 +2,7 @@
 title: "From Rebranding to Readability with Atkinson Hyperlegible"
 source_url: "https://m3.material.io/blog/atkinson-hyperlegible-design"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/4fb6dd2543a8-ZVYXhlo26gl0P89xfOKYaxj5fK6O0Gnqje9qeX8j1FKUWsGWHoXhoYHIM24wYyVPUCNKRvXKppo5c3zEnFeJn-3QEixiWw4O.png"
@@ -18,7 +18,7 @@ assets:
 
 Distinct and modern, the Atkinson Hyperlegible typeface aims to deliver both legibility and readability
 
-![4 styles, 27 languages supported, clear and blurry versions of letters and numbers](../../assets/images/4fb6dd2543a8-ZVYXhlo26gl0P89xfOKYaxj5fK6O0Gnqje9qeX8j1FKUWsGWHoXhoYHIM24wYyVPUCNKRvXKppo5c3zEnFeJn-3QEixiWw4O.png)
+![4 styles, 27 languages supported, clear and blurry versions of letters and numbers](<https://lh3.googleusercontent.com/ZVYXhlo26gl0P89xfOKYaxj5fK6O0Gnqje9qeX8j1FKUWsGWHoXhoYHIM24wYyVPUCNKRvXKppo5c3zEnFeJn-3QEixiWw4OS9qbbg9sI1yKYaWg0n0>)
 
 Published: 2022-06-09T13:00:00
 
@@ -26,13 +26,13 @@ According to the [World Health Organization](https://www.who.int/news-room/fact-
 
 When Braille Institute hired [Applied Design Works](http://helloapplied.com/people#whoweare) to create a new brand identity and branding strategy to coincide with their 2019 centennial anniversary, the firm looked for a beautiful and functional font specifically designed for improved [legibility and readability](https://fonts.google.com/knowledge/glossary/legibility_readability). Brad Scott and Elliott Scott of Applied Design Works were concerned about typefaces that look a little like old ransom notes, where each letter and number were dramatically different from each other. They wondered if, despite designers’ intentions, these typefaces could actually be more difficult to read for some people. They decided that no existing typeface met their legibility, readability, and branding goals. So they endeavored to create a new typeface called Atkinson Hyperlegible, named after the organization’s founder J. Robert Atkinson. The work would go on to be recognized with a [2019 Fast Company ‘Innovation by Design’ Award](https://www.fastcompany.com/90389166/innovation-by-design-2019-winners).
 
-![8, i, a with circle on top, e with two dots on top, question mark, and period](../../assets/images/9325ab2fad9d-FQYpk2TLTaPMNdZOTjz3NXlYsmIYuUtxXaNzpPM37ojqZYsZ54kCe_zTKvoAxgd1oD6Am5xH5nM9X-v7uH-kAzvoEWYz5OIo.png)
+![8, i, a with circle on top, e with two dots on top, question mark, and period](<https://lh3.googleusercontent.com/FQYpk2TLTaPMNdZOTjz3NXlYsmIYuUtxXaNzpPM37ojqZYsZ54kCe_zTKvoAxgd1oD6Am5xH5nM9X-v7uH-kAzvoEWYz5OIozlIRBULLNFw-qWZRyA>)
 
 Atkinson Hyperlegible uses circular shapes to reference Braille dots.
 
 The typeface’s circular elements evoke the dot shapes that are the basis of the Braille writing system. In addition to the Braille reference, the designers thought the [typeface](https://fonts.google.com/knowledge/glossary/typeface) should resemble some of the physical qualities of the Braille Institute building, which was made in the brutalist architecture style with hard edges and straight lines. They determined that a mid-century modernist and [neo-grotesque](https://fonts.google.com/knowledge/glossary/grotesque_neo_grotesque) typeface was suitable. However, modernist fonts posed a problem since they have uniform [letterforms](https://fonts.google.com/knowledge/glossary/letterform), and the designers’ goal was the opposite of uniformity; they wanted the letterforms to be in the same style, yet distinct enough so low-vision readers could differentiate the letterforms. Applied Design Works compared each letter, number, symbol, and punctuation mark, and found ways to make each of them visually distinct from each other.
 
-![Beige building with Braille Institute sign, cars parked in front. Image courtesy of Braille Institute](../../assets/images/e06671dd26ef-ZHRf5kDwfQ9DOFG4c5JnGo0ML5kr-2AEAhYvnk-Rygp1LD3FfZzD-zuU-jseBeY1E4faatZTa9nlQWK2js3YLegknuhP6IK_.png)
+![Beige building with Braille Institute sign, cars parked in front. Image courtesy of Braille Institute](<https://lh3.googleusercontent.com/ZHRf5kDwfQ9DOFG4c5JnGo0ML5kr-2AEAhYvnk-Rygp1LD3FfZzD-zuU-jseBeY1E4faatZTa9nlQWK2js3YLegknuhP6IK_v--xv3fVyP-inQWg9w>)
 
 Brutalist architecture style of the Braille Institute
 
@@ -42,7 +42,7 @@ Here are some examples of what Applied Design Works did to reduce confusion betw
 
 To prevent readers from confusing the uppercase “B” and number 8, Applied Design Works made sure to use different geometric shapes.
 
-![Light blue background, B and 8 in black](../../assets/images/c2b89d786f0a-OjhTmljJxuKEJrkpxc_Pn6arQu-6kAKFNK6qOMUgcJVnqQD-R2MolyjwRZ_Qrp-_YEuHIAcVUmuCcNIzh3jAkTW3rCDlkkdo.png)
+![Light blue background, B and 8 in black](<https://lh3.googleusercontent.com/OjhTmljJxuKEJrkpxc_Pn6arQu-6kAKFNK6qOMUgcJVnqQD-R2MolyjwRZ_Qrp-_YEuHIAcVUmuCcNIzh3jAkTW3rCDlkkdo6JIuDObhiObh9KVIi1o>)
 
 The number 8 has a small circle on top of an oval, making it look very different from the uppercase “B” with its two bowl shapes.
 
@@ -54,7 +54,7 @@ Atkinson Hyperlegible is a [sans-serif](https://fonts.google.com/knowledge/gloss
 
 Increased spaces prevent forms from bleeding together.
 
-![Light blue background, blue dotted circles around parts of letters, number, and punctuation mark](../../assets/images/219d2f8548ae-TF4oM2HSSypwGVQ9xB1FchZrC3eYzsVM8vyK5XZ1TUfH6TSVehJZW9Qx6-Ms-MwvII2f0_hSiV6fywFIxLPLjKlDOS-aXSlA.png)
+![Light blue background, blue dotted circles around parts of letters, number, and punctuation mark](<https://lh3.googleusercontent.com/TF4oM2HSSypwGVQ9xB1FchZrC3eYzsVM8vyK5XZ1TUfH6TSVehJZW9Qx6-Ms-MwvII2f0_hSiV6fywFIxLPLjKlDOS-aXSlAaFigOYy6KSUklcp_NbI>)
 
 The lowercase “j” has an exaggerated tail, the uppercase “I” has serifs. The lowercase “i” has a spur on the top left of the stem. The lowercase “l” has a curved terminal at the bottom right. There is more space than usual between the bottom of the exclamation mark and the dot.
 
@@ -62,7 +62,7 @@ The lowercase “j” has an exaggerated tail, the uppercase “I” has serifs.
 
 Lowercase b, d, p, and q are commonly confused letters because people can flip the letters in their heads. To increase letter recognition and define a distinctive style, Atkinson Hyperlegible has asymmetrical spurs. The typeface’s exaggerated descenders help distinguish letterforms from one another.
 
-![Blue dotted circles on black letters, explanatory text in blue](../../assets/images/6644b5a9d4bc-gKrkr4ZmxREMEojEgZjsUSpZz1rL62S_qAE8NKknrQJ5VnFthYw4JvQMl5Zq2olUkmvjDxrtGEfB-EkX0fwuiwRAIGyI0KIi.png)
+![Blue dotted circles on black letters, explanatory text in blue](<https://lh3.googleusercontent.com/gKrkr4ZmxREMEojEgZjsUSpZz1rL62S_qAE8NKknrQJ5VnFthYw4JvQMl5Zq2olUkmvjDxrtGEfB-EkX0fwuiwRAIGyI0KIiMaY5tbENBJc6RYpj-Q>)
 
 To differentiate between the lowercase b and d, Atkinson Hyperlegible has an asymmetric spur on the “d”. To make the lowercase “p” and “q” distinct, the lowercase “q” has an exaggerated descender.
 
@@ -85,7 +85,7 @@ To reduce crowding between letters and diacritics, the designers used these four
 3.  Making the marks larger than usual
 4.  Increasing the contrast between the letter and mark
 
-![The letters a, e, s, and u with diacritic marks](../../assets/images/a98ce0600c94-zXUhMfTlqCuQEGKyuVk5bepCUa98CWvfB1hXUGj0WxehCsz08krlyMMoCSevOH6V_4qgM3lfUNeqq7mhf4Zb7cs-CVHDHRDX.png)
+![The letters a, e, s, and u with diacritic marks](<https://lh3.googleusercontent.com/zXUhMfTlqCuQEGKyuVk5bepCUa98CWvfB1hXUGj0WxehCsz08krlyMMoCSevOH6V_4qgM3lfUNeqq7mhf4Zb7cs-CVHDHRDXb8wOPzMwcg5chD85GNY>)
 
 For extended Latin, the typeface uses large diacritic marks, circles to reflect the Braille origins of the font, increased space, and high contrast between the letter and diacritic mark.
 

@@ -2,7 +2,7 @@
 title: "Menus"
 source_url: "https://m3.material.io/components/menus/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/2ab9b671715b-mhkajj6i-01.png"
@@ -19,7 +19,7 @@ assets:
 -   Menus can open from many components, including icon buttons, split buttons, and text fields
 -   **Context menus** provide actions for a specific element, like an image or highlighted text, and usually open with a secondary click
 
-![1 vertical menu with vibrant colors opens from a split button, and 1 vertical menu with a submenu.](../../../assets/images/2ab9b671715b-mhkajj6i-01.png)
+![1 vertical menu with vibrant colors opens from a split button, and 1 vertical menu with a submenu.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhkajj6i-01.png?alt=media&token=b7e5017f-ef26-4526-8d0c-759c47445705>)
 
 _Vertical menus can include vibrant colors, gaps, dividers, and submenus to organize a list of choices_
 
@@ -54,7 +54,7 @@ Color styles: 
 -   Standard
 -   Vibrant
 
-![A vertical menu using shape and vibrant color to show a selected state.](../../../assets/images/52a9b7732473-mhk9jsmw-02.png)
+![A vertical menu using shape and vibrant color to show a selected state.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhk9jsmw-02.png?alt=media&token=3e48c83b-95fa-49ff-b870-925785fb4a04>)
 
 _Vibrant colors help selected menu items stand out_
 
@@ -63,10 +63,10 @@ _Vibrant colors help selected menu items stand out_
 -   **Color**: New color mappings and compatibility with dynamic color
 -   **Variants**: Dropdown menu and exposed dropdown menu are now both referred to as menu, since they differ only in the element which opens the menu surface
 
-![Menu with gray color.](../../../assets/images/aacd90920af6-mi5n1krh-4.png)
+![Menu with gray color.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmi5n1krh-4.png?alt=media&token=64d1bd04-5d8f-4ac4-9ed8-83081bf03bc8>)
 
 _M2: Former menu colors don’t contrast with the background_
 
-![Menu with purple background and outline.](../../../assets/images/43cb3ceeeb2d-mhlt7xid-04.png)
+![Menu with purple background and outline.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmhlt7xid-04.png?alt=media&token=10f6b199-9664-4a24-b811-2980270f499c>)
 
 _M3: Menus feature new color mappings and dynamic color_

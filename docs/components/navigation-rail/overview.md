@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/22ed6df490f4-mbs2h57x-GM3_Expressive_Nav-Rail_Overview_01_IA_v02.mp4"
@@ -75,7 +75,7 @@ Configurations:
 
     -   Active label on vertical items changed from **on surface variant** to **secondary**
 
-![A collapsed and expanded navigation rail.](../../../assets/images/1c72669471a5-m0fsz2c4-2.png)
+![A collapsed and expanded navigation rail.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fsz2c4-2.png?alt=media&token=e1cbb29b-89b7-4662-9465-2c39f2bd9edd>)
 
 _The collapsed and expanded navigation rails match visually and can transition into each other_
 
@@ -85,10 +85,10 @@ _The collapsed and expanded navigation rails match visually and can transition i
 -   Color: New color mappings and compatibility with dynamic color
 -   States: The active destination can be indicated with a pill shape in a contrasting color
 
-![M2 navigation rail with 1 colored and filled icon showing the active state and 3 inactive icons.](../../../assets/images/f3adc7fbdba9-m0dtdapc-3.png)
+![M2 navigation rail with 1 colored and filled icon showing the active state and 3 inactive icons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dtdapc-3.png?alt=media&token=643d52f9-213d-4aed-90fd-029c44fce678>)
 
 _M2: The navigation rail uses icon color, weight, and fill to communicate which destination is active_
 
-![M3 navigation rail with 1 icon surrounded by a pill shape in contrasting color to show the active state.](../../../assets/images/bb1c71bb0544-m0fszcgl-4.png)
+![M3 navigation rail with 1 icon surrounded by a pill shape in contrasting color to show the active state.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fszcgl-4.png?alt=media&token=8b26ebe5-396b-4148-b571-247ef9634f50>)
 
 _M3: The navigation rail uses a pill-shaped active indicator to communicate which destination is active_

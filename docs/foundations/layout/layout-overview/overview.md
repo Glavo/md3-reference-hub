@@ -2,7 +2,7 @@
 title: "Layout overview"
 source_url: "https://m3.material.io/foundations/layout/layout-overview/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/b340bf4b5a76-mp3ukjvm-01.png"
@@ -27,7 +27,7 @@ Layout is the visual and strategic arrangement of elements on a screen
 
 -   Material layout guidance is implemented on Android and applies to web
 
-![7 elements of layout.](../../../../assets/images/b340bf4b5a76-mp3ukjvm-01.png)
+![7 elements of layout.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3ukjvm-01.png?alt=media&token=6f4fdd25-559d-4ed3-964a-ffb0c5f7b5f7>)
 
 _Column; Fold; Margin; Bar; Drag handle; Pane; Rail_
 
@@ -64,7 +64,7 @@ Naming:
 
 -   Responsive layout renamed to [adaptive design](adaptive-design.md)
 
-![Compact and expanded layouts for differently sized screens.](../../../../assets/images/0294b76da611-mp3uxdvt-02.png)
+![Compact and expanded layouts for differently sized screens.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmp3uxdvt-02.png?alt=media&token=a4cf0742-9a81-4697-8963-46b936eeb5f3>)
 
 _The Material layout scaffold enables layouts to adapt across different screen sizes_
 

@@ -2,7 +2,7 @@
 title: "The designer’s toolbox"
 source_url: "https://m3.material.io/blog/designer-toolbox-figma-android-studio-relay"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/6f05739525a5-Z0IATfRw5STUP_pa6UUh0hGJ5jaRuJuXSzuqVJHsxav2rAWFKMaZGrvqb5NJBjRO5D2ykfLKuKt3Zrzq95YW6bBKWt__FEg0.png"
@@ -25,7 +25,7 @@ assets:
 
 How Material resources work together, from customizing the design kit to Android Studio and Relay
 
-![illustrated pencils rolling off a flat surface](../../assets/images/6f05739525a5-Z0IATfRw5STUP_pa6UUh0hGJ5jaRuJuXSzuqVJHsxav2rAWFKMaZGrvqb5NJBjRO5D2ykfLKuKt3Zrzq95YW6bBKWt__FEg0.png)
+![illustrated pencils rolling off a flat surface](<https://lh3.googleusercontent.com/Z0IATfRw5STUP_pa6UUh0hGJ5jaRuJuXSzuqVJHsxav2rAWFKMaZGrvqb5NJBjRO5D2ykfLKuKt3Zrzq95YW6bBKWt__FEg0OyvzVOYq2QSuK2F0ag>)
 
 Published: 2023-05-26T13:00:00
 
@@ -37,12 +37,12 @@ The M3 Figma design kit is a comprehensive tool for getting started with Materia
 
 The Material Design system is adaptable in use, from a foundation to your own system to only the needed components. So the design kit can be utilized in the same manner: duplicate or remix it for what your product needs. Here are some more ways to utilize the design kit effectively:
 
-![Collection of components in figma](../../assets/images/7b9a377be6f6-DjAGFd3wUQ3E4FTdyJ3-4gjbgCIDamNLFR9QLiQn9ImGsNJJE-Nsd1gnWuqbHfEwJ-cuoZBTdcyrjidPCp8qyhqdmpyOXdRu.png)
+![Collection of components in figma](<https://lh3.googleusercontent.com/DjAGFd3wUQ3E4FTdyJ3-4gjbgCIDamNLFR9QLiQn9ImGsNJJE-Nsd1gnWuqbHfEwJ-cuoZBTdcyrjidPCp8qyhqdmpyOXdRuy0Y-lMg-kBthNoVbGTtd>)
 
 -   Copy components out of the kit as needed for your app to use as local components.
 -   Start ideating within the kit, then curate as needed. This will enable you to spin up and test product ideas quickly and more realistically.
 
-![Themed components in figma](../../assets/images/dc08685e4f6b-L9OuEcB_6tnysmGUZ6351SjlX_4dUf8acOKDN2L2d3EYhKz5XN0Yawky2_wjUu7QJmL3GkAF8mNgjDiI9Zv736vyXY0S721q.png)
+![Themed components in figma](<https://lh3.googleusercontent.com/L9OuEcB_6tnysmGUZ6351SjlX_4dUf8acOKDN2L2d3EYhKz5XN0Yawky2_wjUu7QJmL3GkAF8mNgjDiI9Zv736vyXY0S721qL5sqGSa57wsYOIlhKZY>)
 
 -   Duplicate the M3 kit file and publish to your team as a component and style library.
 -   Theming or updating the styles can dramatically shift the look and feel!
@@ -56,19 +56,19 @@ The design kit is a great place to dive in to learn about M3 components or start
 
 Whether starting within the M3 design kit or starting fresh, you’ll need to first set up your frames to start designing.
 
-![example figma boards](../../assets/images/3f4a750fa509-ZLKf1slz9qJt1iSYAwPKCXeBVRUZgHijbR2e6KzZJ0-qW1PteS_LP7emw547lh3AI0o0MQlYucrO28l83zpgvOWfitbwZ4ga.png)
+![example figma boards](<https://lh3.googleusercontent.com/ZLKf1slz9qJt1iSYAwPKCXeBVRUZgHijbR2e6KzZJ0-qW1PteS_LP7emw547lh3AI0o0MQlYucrO28l83zpgvOWfitbwZ4ga7_xJh9UJEaYHCPsCyA>)
 
 From here, you can use the kit to start blocking in features along with content. Building up from rough sketches to higher fidelity mockups swapping for real components as you go.
 
-![low-fi wireframes](../../assets/images/9fedb33c8668-jDHQUi7hAL24hPlOGliTU2uowOut3MO7N6eJOhQBzY284_dgor5qpvYL2w7UOBAb-NhyJAKlED2itA8KbBy4gPWco6P6WZum.png)
+![low-fi wireframes](<https://lh3.googleusercontent.com/jDHQUi7hAL24hPlOGliTU2uowOut3MO7N6eJOhQBzY284_dgor5qpvYL2w7UOBAb-NhyJAKlED2itA8KbBy4gPWco6P6WZum57XSMFLpmGDNLBvXkg>)
 
-![mockups with the theme editor overlaid](../../assets/images/d1c18e67bf67-VAon-2ZWRxlHeAfZ0Yv6nasuEHt2X72cDEoXPDmrWhdL56qEyHiRob13XngENl6iLqF2dt4-qZEemAQn4Q0xO0Uyx8aGmFie.png)
+![mockups with the theme editor overlaid](<https://lh3.googleusercontent.com/VAon-2ZWRxlHeAfZ0Yv6nasuEHt2X72cDEoXPDmrWhdL56qEyHiRob13XngENl6iLqF2dt4-qZEemAQn4Q0xO0Uyx8aGmFie3XjRshxWCwtSHnpVGA>)
 
-![animated prototype](../../assets/images/6d6690879b29-_z3TLw15gPoDKdOzjQk6bY88WGzDS0emXyVVjNXNro3JmfXcZUF7GWYYljn83A0oQNrvQuGAAbKkeVC_YdzdLtckZpF1qdSn.png)
+![animated prototype](<https://lh3.googleusercontent.com/_z3TLw15gPoDKdOzjQk6bY88WGzDS0emXyVVjNXNro3JmfXcZUF7GWYYljn83A0oQNrvQuGAAbKkeVC_YdzdLtckZpF1qdSnK46YAvVBd0sUpVsw7ME>)
 
 The design kit and [Material Theme Builder](https://goo.gle/material-theme-builder-figma) (MTB) work together to help you efficiently design and build products, so you can focus on your users and features. By duplicating the design kit to your own Figma account, you get ready-to-use design components set up with Material tokens, and quickly customizable with the Theme Builder.
 
-![themebuilder workflow](../../assets/images/5faa2db204f0-khCX7ry7Jm2PSqm7zzOymNpaEFbvKDai6nRINGISp9YVYDCDOzZMw0R-pLDjRqghsvrGEpgmRxONuxaIITSB_-6Dlufr92DB.png)
+![themebuilder workflow](<https://lh3.googleusercontent.com/khCX7ry7Jm2PSqm7zzOymNpaEFbvKDai6nRINGISp9YVYDCDOzZMw0R-pLDjRqghsvrGEpgmRxONuxaIITSB_-6Dlufr92DBHSgc__lWklg1ucqiTgM>)
 
 **Tips and tricks for working with Material Theme Builder and the design kit**
 
@@ -76,20 +76,20 @@ The design kit and [Material Theme Builder](https://goo.gle/material-theme-build
 -   You can select all the components on the components page to swap them to your custom palette as it generates – two birds, one plugin operation
 -   Certain generation features are off by default to speed up performance. Turn on features like state layer and surface updating within settings to fully customize everything in the design kit.
 
-![theme builder settings](../../assets/images/e2930ceb28ae-iEFFX3N15r35ojS5hl20acxLGQkRxE4wDdEIbKWm7eaN9wZTRukfAedsO8EDFPIlDOVrpnapxSyGrsdaZx2IIEubpqYA93eG.png)
+![theme builder settings](<https://lh3.googleusercontent.com/iEFFX3N15r35ojS5hl20acxLGQkRxE4wDdEIbKWm7eaN9wZTRukfAedsO8EDFPIlDOVrpnapxSyGrsdaZx2IIEubpqYA93eGoAiz3UtbGmQKLGQwz7c>)
 
 -   Take advantage of the strengths of both: utilize the already existing elements (like the color schematic) and styles of the design kit, and use the Theme Builder to create and swap new styles and swap
 -   If you find the Theme Builder isn’t operating as expected, here are some common ways to troubleshoot:
     -   If swapping doesn’t seem to be working, try selecting smaller groups or layers. The design kit and plugin have a lot of pieces to them! Sometimes Figma takes a little bit longer to load.
     -   Close the plugin if it times out, styles are generated first and needed to swap.
 
-![cover for the customizing material color design lab](../../assets/images/05cda851f864-pefQAIqxzUpiXBR2VXSPN2kQd5g2P3jSFBrPqTP2FkoYTUFRg_0pBaTvx66exHE-NYsKkASpGpIQJwA8TiynCkn1vcj3HHRh.png)
+![cover for the customizing material color design lab](<https://lh3.googleusercontent.com/pefQAIqxzUpiXBR2VXSPN2kQd5g2P3jSFBrPqTP2FkoYTUFRg_0pBaTvx66exHE-NYsKkASpGpIQJwA8TiynCkn1vcj3HHRh6OlN5UpU-BOsfuOosQ>)
 
 For a more in-depth tutorial on using the Material Theme Builder to create a custom theme and apply it to Material components, dive into the [Customizing Material color lab](https://goo.gle/customizing-material-color-figma) on Figma. With this Figma project, you’ll learn how to create a custom theme with the Material Theme Builder and apply that theme to design mockups.
 
 ## Need inspiration?
 
-![](../../assets/images/cb621d3cb359-K0DQFSjCjGKbc6gSTOH9fDDLLk7rqh9Y0jPorTMtupF23GxoNSEsVyHPV5UZiTnO_5TvbWfMKm_72RUgTxiiYz2czALid21b.png)
+![Image](<https://lh3.googleusercontent.com/K0DQFSjCjGKbc6gSTOH9fDDLLk7rqh9Y0jPorTMtupF23GxoNSEsVyHPV5UZiTnO_5TvbWfMKm_72RUgTxiiYz2czALid21bquoyeusQAd3snHZMaeg>)
 
 If you are looking for some more inspiration and samples, check out some sample projects. Like [Now in Android](https://www.figma.com/community/file/1164313362327941158), which is the Figma file for the published Now in Android app and gives a thorough view of the app in multiple form factors and themes. Or [Pesto](https://www.figma.com/community/file/1199784060037728858), a study for advanced theming in Flutter.
 
@@ -97,11 +97,11 @@ Many of the samples are built with common layout patterns in mind, which can be 
 
 For a more guided approach, try out one of the design labs, they come with sample screens and a walk through of various topics, including dynamic color and variable fonts.
 
-![pesto sample screenshots](../../assets/images/1a7be5a6cf1f-1fm_V6P2s0KRBZcP6yHFOzjHO7uN48e9P7T1I6k9m1wUs4A4rVVpxA9Lc0l_psAPN2xUOhVYltiKZD9NuLVgqw9rvhPo_6XX.png)
+![pesto sample screenshots](<https://lh3.googleusercontent.com/1fm_V6P2s0KRBZcP6yHFOzjHO7uN48e9P7T1I6k9m1wUs4A4rVVpxA9Lc0l_psAPN2xUOhVYltiKZD9NuLVgqw9rvhPo_6XX2DRKALw-ZaDsnxx6JA>)
 
 ## Outside the design system
 
-![Android UI kit](../../assets/images/bb1afabdb595-cD4aoWLgjtUDc6a6ItDVsCkgg8_unBsxULzyOp3YPqE66VmcJ6i0qmf7YwOwh6kgOpvq1UoGD8veu2hoBTMZS300AEN5zJM3.png)
+![Android UI kit](<https://lh3.googleusercontent.com/cD4aoWLgjtUDc6a6ItDVsCkgg8_unBsxULzyOp3YPqE66VmcJ6i0qmf7YwOwh6kgOpvq1UoGD8veu2hoBTMZS300AEN5zJM3XSLEXZ2qu_0iVBPwH4g>)
 
 Of course any product will extend past the app with app icons, notifications, and other home screen experiences. The newly released [Android UI Kit](https://www.figma.com/community/file/1237551184114564748) helps you craft your app’s full user journey.
 
@@ -124,7 +124,7 @@ Some tips to use Relay effectively:
 -   Talk to your developer about implementing Relay style and component mapping. These features transform your Figma styles and design system components into custom Compose code.
 -   Work with your developer to make sure your packages have the parameters they need. This is a great way to get on the same page about UI components!
 
-![Relay settings](../../assets/images/c4491316ca7a-gCMFXIINbG11W0GjBW_TjWXpyFbRc6WBupjUqCKjJk9vaKrQKBqCMh69KU4CnLcHeZ7lz6zVV292xt1zu4xumXcPKPLBOtBL.png)
+![Relay settings](<https://lh3.googleusercontent.com/gCMFXIINbG11W0GjBW_TjWXpyFbRc6WBupjUqCKjJk9vaKrQKBqCMh69KU4CnLcHeZ7lz6zVV292xt1zu4xumXcPKPLBOtBL4yKC1Z_odgGjl6LTJHM>)
 
 We’re evolving the Material tools and resources to help you create beautiful products with your input. If you have any questions, feedback, or bugs please let us know [@MaterialDesign](https://twitter.com/materialdesign) on Twitter, or link for DK, or [goo.gle/MTB-submit-issue](https://goo.gle/MTB-submit-issue) for MTB.
 

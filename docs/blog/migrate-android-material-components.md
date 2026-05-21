@@ -2,7 +2,7 @@
 title: "Migrating to Material Components for Android"
 source_url: "https://m3.material.io/blog/migrate-android-material-components"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/425fe177aa42-Vrmz8X7tAk7W7ghz6oQ9Ik2Z95UtS6LPPR1mUYWjtTNcdMDJvelHxTgfVeWj5hRMa1iVriE0vTp3HHKNfRC8CzObwSLwGS14.png"
@@ -28,7 +28,7 @@ assets:
 
 From Design Support Library 👉 MDC 1.0.0 👉 MDC 1.1.0 and beyond
 
-![Image](../../assets/images/425fe177aa42-Vrmz8X7tAk7W7ghz6oQ9Ik2Z95UtS6LPPR1mUYWjtTNcdMDJvelHxTgfVeWj5hRMa1iVriE0vTp3HHKNfRC8CzObwSLwGS14.png)
+![Image](<https://lh3.googleusercontent.com/Vrmz8X7tAk7W7ghz6oQ9Ik2Z95UtS6LPPR1mUYWjtTNcdMDJvelHxTgfVeWj5hRMa1iVriE0vTp3HHKNfRC8CzObwSLwGS14WPw87g>)
 
 Published: 2020-04-16T13:00:00
 
@@ -40,13 +40,13 @@ MDC replaces the Design Support Library. This guide will show you how to migrate
 
 This guide uses a simplified app to demonstrate the migration process. It uses an AppCompat theme, widgets from the Design Support Library (including a button with a custom background), and various other elements that require migration. We’ll start with an app theme which uses the traditional AppCompat template:
 
-![](../../assets/images/64001a7386bd-jxABbUblfF9Rxp7z1FEac9e0wTryA4MdWjX8dRBwHgzwgDiTP7W5Eb_Ub478o-6jqW5xZEF3_VOwJE8fDDHIZ9E6Z7rW46om.png)
+![Image](<https://lh3.googleusercontent.com/jxABbUblfF9Rxp7z1FEac9e0wTryA4MdWjX8dRBwHgzwgDiTP7W5Eb_Ub478o-6jqW5xZEF3_VOwJE8fDDHIZ9E6Z7rW46omj8UjE-o>)
 
 Example app using AppCompat and the Design Support Library
 
 ## Migrating from the Support Library to Jetpack
 
-![Jetpack logo](../../assets/images/cc098f2bccdf-nNZ1ajOjy9BGfdfTKwrM0egjOx81LgSORYnHlDR8ZjbATkd_dYz5_SkMkzGKJeSe07Nm4NKX0uLvOgdP_PyB0mjJhn9yhCHx.png)
+![Jetpack logo](<https://lh3.googleusercontent.com/nNZ1ajOjy9BGfdfTKwrM0egjOx81LgSORYnHlDR8ZjbATkd_dYz5_SkMkzGKJeSe07Nm4NKX0uLvOgdP_PyB0mjJhn9yhCHxRWEIVw>)
 
 Before you can use MDC, you need to migrate from the Support Library to [Android Jetpack](https://developer.android.com/jetpack/). Jetpack uses the new `androidx.*` namespace and splits the previous Support Library packages into separately maintained, semantically versioned libraries, providing feature parity as well as new libraries. MDC is built with AndroidX libraries so migration is mandatory.
 
@@ -56,7 +56,7 @@ _Note: Jetpack and MDC artifacts with version_ `_1.0.0_` _are binary compatible
 
 ## Updating to MDC 1.0.0
 
-![MDC logo](../../assets/images/2e09f1d950ee-3JffhgWoz4JlxhhurL2HmqlSsQy5wKiMcoF6QPr4zVodXEiIPCjgpPvVVCLSlCah4DaaOJdfsvz1ws1azDTkqoPJ3MCT6_6n.png)
+![MDC logo](<https://lh3.googleusercontent.com/3JffhgWoz4JlxhhurL2HmqlSsQy5wKiMcoF6QPr4zVodXEiIPCjgpPvVVCLSlCah4DaaOJdfsvz1ws1azDTkqoPJ3MCT6_6nWUr-Rg>)
 
 If you used the Android Studio ‘Refactor > Migrate to AndroidX’ tool during Jetpack migration, your Design Support Library dependency should have mapped to MDC `1.0.0` and you can skip this section.
 
@@ -74,7 +74,7 @@ See the full theme and theme overlay mapping tables below:
 
 ## Example updates
 
-![](../../assets/images/28c45d293772-Q9hXH0ygdl3uD1BrIrm3ixD9lM7ZrzOkvcI8B52KHsVEpxdPbGI9EFlPEdxQFwareZSYOvANO2VVyJgwygkqDmUyvI09sTGK.png)
+![Image](<https://lh3.googleusercontent.com/Q9hXH0ygdl3uD1BrIrm3ixD9lM7ZrzOkvcI8B52KHsVEpxdPbGI9EFlPEdxQFwareZSYOvANO2VVyJgwygkqDmUyvI09sTGKzL5OsA>)
 
 Example app using MDC 1.0.0 and Theme.MaterialComponents.\* theme
 
@@ -82,7 +82,7 @@ Example app using MDC 1.0.0 and Theme.MaterialComponents.\* theme
 
 Having changed our dependency to MDC `1.0.0` and our app theme to inherit from `Theme.MaterialComponents.*`, we can observe some unexpected changes to buttons in our example app. We have lost our custom background! They now mostly make use of the green accent color and have wider letter spacing in their text labels.
 
-![Contained button with green background and text button with green label made in MDC 1.0.0](../../assets/images/58ce16b9d8eb-y_sKWqyO_3CUA5mubek7cGCxTsl3mZcO4tTo4OllRjGWY5FlTe_XXiHenj0O9fqvW3X8ZP9-Xnjl35Yf4KvBt_A5Y3ciXQQX.png)
+![Contained button with green background and text button with green label made in MDC 1.0.0](<https://lh3.googleusercontent.com/y_sKWqyO_3CUA5mubek7cGCxTsl3mZcO4tTo4OllRjGWY5FlTe_XXiHenj0O9fqvW3X8ZP9-Xnjl35Yf4KvBt_A5Y3ciXQQXEQphlw>)
 
 Buttons in MDC 1.0.0
 
@@ -122,7 +122,7 @@ _Note:_ _Some AndroidX dependencies, such as AppCompat, may also need updating 
 
 MDC `1.1.0` changes some default widget styling to better comply with the Material Design guidelines. After upgrading you may, however, notice some unexpected changes to certain widget colors and other attributes.
 
-![](../../assets/images/34ed2d58e643-rGX4_Mg4_J45bBPtx8UyFoA0xt2W-joljwic8DC_uiZGZAzlNSDiiDlxsYpgwWSirEfxBX9x_uxboyL4nctSOR1vVaPKnZIl.png)
+![Image](<https://lh3.googleusercontent.com/rGX4_Mg4_J45bBPtx8UyFoA0xt2W-joljwic8DC_uiZGZAzlNSDiiDlxsYpgwWSirEfxBX9x_uxboyL4nctSOR1vVaPKnZIlnEHF8A>)
 
 Example app using MDC 1.1.0
 
@@ -132,7 +132,7 @@ In our example above, buttons have changed once again, the colors of text and ic
 
 The default style for text fields has changed in MDC to a new, improved version backed by [user research](https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03).
 
-![Filled text field with a light grey background and dark grey label and underline](../../assets/images/1fce0cd3499b-dlAnwSNxiU_7rrRsauKLpy2_96iCHId9g06ytGv_8GY2iGzwjMDFhf1YdOrwS1cUL059lIZAMdzenTAxWlyiqV8E-M1d3b1V.png)
+![Filled text field with a light grey background and dark grey label and underline](<https://lh3.googleusercontent.com/dlAnwSNxiU_7rrRsauKLpy2_96iCHId9g06ytGv_8GY2iGzwjMDFhf1YdOrwS1cUL059lIZAMdzenTAxWlyiqV8E-M1d3b1VnYGSww>)
 
 Text fields in MDC 1.1.0+
 
@@ -142,7 +142,7 @@ To revert back to the legacy text field, adjust the style in your layout to use 
 
 Alternatively, you can make this the default style for all text fields in your theme(s):
 
-![Text field with no background and light green label and underline](../../assets/images/a124395652eb-pu46z5fYoMF3F4_pOMmHz8P8XU3VVtlBw53BBbsjdofhQ3vbJPzHxmAXH7HdWrJHoQKd3nVsqnjfsIQR8dp52Hc1HNeSoEVk.png)
+![Text field with no background and light green label and underline](<https://lh3.googleusercontent.com/pu46z5fYoMF3F4_pOMmHz8P8XU3VVtlBw53BBbsjdofhQ3vbJPzHxmAXH7HdWrJHoQKd3nVsqnjfsIQR8dp52Hc1HNeSoEVkEXRHe3A>)
 
 Legacy Design Support Library text field
 
@@ -180,11 +180,11 @@ As a result of the shared history between MDC-Android, AppCompat and the framewo
 -   Existing attributes from AppCompat that are appropriately named (eg. `colorPrimary` and `colorError`)
 -   New attributes introduced by MDC (eg. `colorSurface`, `colorOnPrimary`, etc.)
 
-![](../../assets/images/65b1a1cef688-TPxpuz8VekaDIBXt82KPR5CINvorOwyWeHZqtS8vYBukNd3U55yb3Y94xhyl5ccCvkOXiyqVF_zmTiK_KCB2HLP8gDvLCCua.png)
+![Image](<https://lh3.googleusercontent.com/-TPxpuz8VekaDIBXt82KPR5CINvorOwyWeHZqtS8vYBukNd3U55yb3Y94xhyl5ccCvkOXiyqVF_zmTiK_KCB2HLP8gDvLCCuaZF8xQ>)
 
 MDC color attributes with baseline light theme values
 
-![](../../assets/images/68835a8ddd30-pzC7LmlBrPCRI8-fLVWfDBfE5JcHU7EJSB6Mz3TuXxv87EZ15xRn2IrsOIfETOhNj1t0RnqGvZX_yzpQ0OzwSh4cvS5SfbkA.png)
+![Image](<https://lh3.googleusercontent.com/pzC7LmlBrPCRI8-fLVWfDBfE5JcHU7EJSB6Mz3TuXxv87EZ15xRn2IrsOIfETOhNj1t0RnqGvZX_yzpQ0OzwSh4cvS5SfbkAVzglakM>)
 
 MDC color attributes with baseline dark theme values
 
@@ -208,7 +208,7 @@ Use “on” color attributes where appropriate
 
 We should also switch from using an `@color` to one of the new “on” color attributes for our contained button text color:
 
-![](../../assets/images/e06a7d9120de-3LXtutEHAlEMDvFc6jirulQem42q2tr9Y3NvHDrFdcrCaqPhrOh7t2f-22dV-T2ehEYM_TkFvsXQwZqgB0jPgD5QjFJMg4hT.png)
+![Image](<https://lh3.googleusercontent.com/3LXtutEHAlEMDvFc6jirulQem42q2tr9Y3NvHDrFdcrCaqPhrOh7t2f-22dV-T2ehEYM_TkFvsXQwZqgB0jPgD5QjFJMg4hTeWqcciU>)
 
 Example app with updated MDC color attributes (fixed FAB color)
 
@@ -220,7 +220,7 @@ The MDC type scales draw directly from the [Material Design type system](https:
 
 A new set of `TextAppearance.MaterialComponents.*` styles and corresponding `textAppearance*` theme attributes have been introduced, which replace existing AppCompat / framework styles.
 
-![](../../assets/images/7d79285cf91a-CccIZ19u-AdYm0qSTZtMRW9usB69oGOaMajZacWp3ghDrr3088o5ctMEFODJ3YjiMrzNTt-v-zIK43W6ER3iWv0cb7k-RNXg.png)
+![Image](<https://lh3.googleusercontent.com/CccIZ19u-AdYm0qSTZtMRW9usB69oGOaMajZacWp3ghDrr3088o5ctMEFODJ3YjiMrzNTt-v-zIK43W6ER3iWv0cb7k-RNXgfkwRkQ>)
 
 MDC type attributes
 
@@ -240,7 +240,7 @@ We can also optionally override type scales in our app theme to use a custom fon
 
 _Note: For this example, we have only overridden some of the type scales. If you’re using a custom font, we recommend overriding [all of the type scales](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/typography/res/values/attrs.xml) for brand consistency._
 
-![](../../assets/images/cba9db6fd47c-SKKJ6Z-FW5-qYfJg-8K4micBec0wq6CW9Oy4YcQ95SNXlx6r4jPMjpOzvAZLG5lC5BagJuWx-I6XfDqQHxTsaVDf69muopIa.png)
+![Image](<https://lh3.googleusercontent.com/SKKJ6Z-FW5-qYfJg-8K4micBec0wq6CW9Oy4YcQ95SNXlx6r4jPMjpOzvAZLG5lC5BagJuWx-I6XfDqQHxTsaVDf69muopIaHHdy>)
 
 Example app with updated MDC type attributes (updated font family)
 
@@ -252,7 +252,7 @@ The [Material Design shape system](https://material.io/design/shape/) is a way
 
 This takes the form of Android `ShapeAppearance.*` styles with corresponding theme attributes. They include a `cornerFamily` — `rounded` or `cut` — and `cornerSize*` as a dimension.
 
-![ShapeAppearanceSmallComponent with rounded, 4 dp corners. ShapeAppearanceMediumComponent with rounded, 4 dp corners. ShapeAppearanceLargeComponent with rounded, 0 dp corners.](../../assets/images/1082062b0cd9-Q6wRjWraO35KbX5fgislPpxWQMjMjI4e3tJdHdcvYraxGHXzQz-8uBrYlB8AnegN9g4GVt0LSw6ggUtvwtC7gTtKnI2_zUcU.png)
+![ShapeAppearanceSmallComponent with rounded, 4 dp corners. ShapeAppearanceMediumComponent with rounded, 4 dp corners. ShapeAppearanceLargeComponent with rounded, 0 dp corners.](<https://lh3.googleusercontent.com/Q6wRjWraO35KbX5fgislPpxWQMjMjI4e3tJdHdcvYraxGHXzQz-8uBrYlB8AnegN9g4GVt0LSw6ggUtvwtC7gTtKnI2_zUcU5rDQ>)
 
 MDC shape attributes
 
@@ -281,7 +281,7 @@ In our example, we can remove some widget attributes that are now handled by sha
 
 We can also optionally override shape styles in our app theme to express our brand:
 
-![](../../assets/images/a726a37cb4a0-CSyt6ZqTdbRHoco1mvb_RIbqVmCkNB6Ztk3T3LChL4sxNVN3HtVjyo2So0KFKjl6EZ0Wph1qhwB2Uw2m2FMGttEk0HCTQ62V.png)
+![Image](<https://lh3.googleusercontent.com/CSyt6ZqTdbRHoco1mvb_RIbqVmCkNB6Ztk3T3LChL4sxNVN3HtVjyo2So0KFKjl6EZ0Wph1qhwB2Uw2m2FMGttEk0HCTQ62VybAF>)
 
 Example app with updated MDC shape attributes (updated corner radii)
 
@@ -291,7 +291,7 @@ Finally, here’s how to restore our button’s custom gradient background by ex
 
 If you’re using MDC-Android `1.2.0-alpha-06` (or later) then you can rely on `MaterialButton` respecting `android:background`. Keep in mind that you may need to clear the `backgroundTint` (which is set to `colorPrimary` in the `Widget.MaterialComponents.Button` default style):
 
-![](../../assets/images/f2e3ee491e68-SpnQk5TWuwxkVnE-1LdiXgVGvSxrClOHXH4gf9PW5i5iz9SCzgeSuJLjQCsrlKnoCo0MrMUqXF2cZQI3sJZN4jmS_1Rf28N_.png)
+![Image](<https://lh3.googleusercontent.com/SpnQk5TWuwxkVnE-1LdiXgVGvSxrClOHXH4gf9PW5i5iz9SCzgeSuJLjQCsrlKnoCo0MrMUqXF2cZQI3sJZN4jmS_1Rf28N__7_awHU>)
 
 Button with restored custom gradient background
 

@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/guidelines"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/b7b18e2ec836-m37ri5xn-Progress-Indicator-A_1.mp4"
@@ -89,7 +89,7 @@ There are two variants of progress indicators:
 
 A process should be represented by the same variant of progress indicator throughout the product. For example, if refreshing uses a circular indicator in one place, it should use circular indicators everywhere.
 
-![1. A primary colored horizontal line fills a contrasting track from left to right. 2. A circle appears from 0 to 360 degrees.](../../../assets/images/8c7fca1f0044-mlep5ivu-07.png)
+![1. A primary colored horizontal line fills a contrasting track from left to right. 2. A circle appears from 0 to 360 degrees.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep5ivu-07.png?alt=media&token=4c51b00b-6b08-4638-a331-1e6340c7d5ea>)
 
 _Linear indicator; Circular indicator; / /_
 
@@ -130,7 +130,7 @@ In indeterminate processes, it grows and shrinks along the track repeatedly.
 
 The active indicator appears as soon as progress begins. At low percentages where space is limited, this should appear as a dot to help people understand that there’s progress underway.
 
-![A linear and circular progress indicator at 1% progress, where the active indicator has only just appeared.](../../../assets/images/b0eefcd82a25-mlep6b3j-12.png)
+![A linear and circular progress indicator at 1% progress, where the active indicator has only just appeared.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep6b3j-12.png?alt=media&token=8aa71e47-95c1-48b7-9949-1b12b43093f6>)
 
 _When progress first begins, the active indicator appears as a dot_
 
@@ -152,11 +152,11 @@ It's not used for indeterminate or circular progress indicators.
 
 The stop indicator is required if the track has a contrast below 3:1 with its container or the surface behind the container.
 
-![A primary colored horizontal  line fills a contrasting line from left to right.](../../../assets/images/c012959ed0d1-mlep7pxt-16.png)
+![A primary colored horizontal  line fills a contrasting line from left to right.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep7pxt-16.png?alt=media&token=9f8c2fcb-6249-4ff4-bd3c-d8ee67658bf7>)
 
 _Use a stop indicator when placing the progress indicator inside a container with low contrast_
 
-![An invisible circular track fills with color from 0 to 360 degrees.](../../../assets/images/dcefdad972bc-mlep87pn-17.png)
+![An invisible circular track fills with color from 0 to 360 degrees.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep87pn-17.png?alt=media&token=c35ef411-e39f-4bc4-abe8-f4372b570d19>)
 
 _Only remove the end stop indicator if there's a visual contrast of at least 3:1 with surrounding surfaces_
 
@@ -217,7 +217,7 @@ Linear progress indicators should be mirrored horizontally for products using ri
 
 Circular progress indicators don’t need to be mirrored.
 
-![Mirrored right-to-left progress indicator.](../../../assets/images/7e3b449ef86e-mlep96rs-25.png)
+![Mirrored right-to-left progress indicator.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep96rs-25.png?alt=media&token=75581f65-e1d4-4ac1-99a3-e8c371691127>)
 
 _Linear progress indicators can flow from right to left in right-to-left (RTL) languages_
 
@@ -227,7 +227,7 @@ Circular progress indicators have flexible sizes. They can range from 24dp to 24
 
 Reserve very large progress indicators for large and extra-large windows, such as desktop.
 
-![Circular progress indicators can range in size from 24dps to 240dps.](../../../assets/images/a0906f93d9c7-mlep9qg1-26.png)
+![Circular progress indicators can range in size from 24dps to 240dps.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlep9qg1-26.png?alt=media&token=3406dfaa-947f-4dec-8e16-66b6c3da848f>)
 
 _The waveform should scale with the size so the proportions look the same across sizes_
 
@@ -235,6 +235,6 @@ Linear progress indicators dynamically adjust to fit the width of the window or 
 
 The padding on each end should be 4dp minimum, but can be modified.
 
-![Linear progress indicators can dynamically adjust to any width.](../../../assets/images/b5e6a7871bae-mlepa8w9-27.png)
+![Linear progress indicators can dynamically adjust to any width.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlepa8w9-27.png?alt=media&token=b5dada5d-07ab-408a-a520-1eee7956020e>)
 
 _The linear progress indicator should always span the width of the UI element it’s placed within_

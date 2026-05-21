@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/a07de0722807-mlb0x4f4-GM3-Search-Bar-Overview-01-v2.mp4"
@@ -87,10 +87,10 @@ Supported platforms:
 
 -   Variants: Two official variants of search components: search bar and search view
 
-![M2 open search bar.](../../../assets/images/c48e5ac4dad1-mlb1gn7s-04.png)
+![M2 open search bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb1gn7s-04.png?alt=media&token=dc445e20-469e-40b2-9175-8d198effc998>)
 
 _M2 open search bars were square and elevated_
 
-![M3 search bar.](../../../assets/images/3964f838fd78-mlb1hcrs-05.png)
+![M3 search bar.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmlb1hcrs-05.png?alt=media&token=ae55f13c-75fb-4b39-bc09-f503ea5b156a>)
 
 _M3 search bars are rounded, use tonal surface, and support dynamic color_

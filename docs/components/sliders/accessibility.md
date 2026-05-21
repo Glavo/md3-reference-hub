@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/accessibility"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/49270f5c3c90-lx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4"
@@ -57,13 +57,13 @@ The slider value can then be adjusted using the arrow keys or other keyboard nav
 
 Use visual anchors so the end of the slider’s inactive track has at least 3:1 contrast with the background. The stop indicator makes the end easily visible on most backgrounds.
 
-![The inactive track has contrast below 3:1 with the background. The stop indicator is above 3:1. Slider is accessible.](../../../assets/images/d9f05f8d228f-lx1s6sg3-3.png)
+![The inactive track has contrast below 3:1 with the background. The stop indicator is above 3:1. Slider is accessible.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx1s6sg3-3.png?alt=media&token=fe50b51b-a15f-496e-b0ff-7b65ef7598f4>)
 
 _A stop indicator on the inactive track makes it easier to identify the end of the slider on a low-contrast background_
 
 Alternatively, icons or other elements that have a 3:1 contrast with the background can be used to indicate the ends of the slider’s inactive track.
 
-![The inactive track has contrast ratio below 3:1 with the background. The icon is above 3:1. The slider is accessible.](../../../assets/images/2a6b00f6382e-lx1s73wl-4.png)
+![The inactive track has contrast ratio below 3:1 with the background. The icon is above 3:1. The slider is accessible.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx1s73wl-4.png?alt=media&token=f00826a6-95c4-46d0-aa63-2da4e4b7759c>)
 
 _Icons make it easier to identify the ends of the slider on a low-contrast background_
 
@@ -80,12 +80,12 @@ _Icons make it easier to identify the ends of the slider on a low-contrast backg
 
 The accessibility label for a slider is typically the same as the slider's adjacent text label. It should have the **slider** role.
 
-![Annotated aria tags of a slider.](../../../assets/images/2b9d038dfe5b-m0o6wp1l-5.png)
+![Annotated aria tags of a slider.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0o6wp1l-5.png?alt=media&token=99be26c8-7f4d-4336-8b83-f50fbf4f56b3>)
 
 _A slider’s accessibility label should match the adjacent UI text_
 
 If the UI text is correctly linked to the slider, assistive tech (such as a screenreader) will read the UI text followed by the component’s role.
 
-![Annotated aria tags of a slider with stepper icons.](../../../assets/images/b77f00b0dcfa-m3601h6w-6.png)
+![Annotated aria tags of a slider with stepper icons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm3601h6w-6.png?alt=media&token=9855912f-4437-40d5-aa5a-6662501a6d06>)
 
 _Icon buttons placed outside the slider should have the button role_

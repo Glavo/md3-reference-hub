@@ -2,7 +2,7 @@
 title: "Text fields"
 source_url: "https://m3.material.io/components/text-fields/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/c824c9a88536-lx2u2h3p-1.png"
@@ -25,7 +25,7 @@ Text fields let users enter text into a UI
 
 -   Text fields commonly appear in forms and dialogs
 
-![2 variants of text fields, filled and outlined.](../../../assets/images/c824c9a88536-lx2u2h3p-1.png)
+![2 variants of text fields, filled and outlined.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2u2h3p-1.png?alt=media&token=71a990c4-03bd-4c34-afc6-130018ed186e>)
 
 _Filled text field; Outlined text field_
 
@@ -45,6 +45,6 @@ _Filled text field; Outlined text field_
 
 -   Color: New color mappings and compatibility with dynamic color
 
-![A filled and outlined text field with M3 color mappings.](../../../assets/images/456962116732-lx2u3e4d-2.png)
+![A filled and outlined text field with M3 color mappings.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flx2u3e4d-2.png?alt=media&token=896d9b04-c327-4904-9c1b-368bb684d53c>)
 
 _Text fields have new color mappings_

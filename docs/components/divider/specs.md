@@ -2,7 +2,7 @@
 title: "Divider"
 source_url: "https://m3.material.io/components/divider/specs"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/816bad015123-lvdgvb10-1.png"
@@ -16,7 +16,7 @@ Dividers are thin lines that group content in lists or other containers
 
 ## Specs
 
-![Diagram of divider set on horizontal line](../../../assets/images/816bad015123-lvdgvb10-1.png)
+![Diagram of divider set on horizontal line](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvdgvb10-1.png?alt=media&token=33e2a703-65c2-43ed-9d28-0debf4306507>)
 
 _Divider_
 
@@ -36,13 +36,13 @@ Component: Divider
 
 Color values are implemented through design tokens. For design, this means working with color values that correspond with tokens. For implementation, a color value will be a token that references a value. [Learn more about design tokens](https://m3.material.io/m3/pages/design-tokens/overview/825906c9-6eed-47d1-8812-450910c1356e)
 
-![Divider on light background and dark background.](../../../assets/images/5b99431ce070-lvdgvshh-2.png)
+![Divider on light background and dark background.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvdgvshh-2.png?alt=media&token=12a3db31-a65a-4668-94bf-7be61e0eeb33>)
 
 _Divider color roles used for light and dark schemes: Outline variant_
 
 ## Measurements
 
-![Divider's measurement.](../../../assets/images/4adc1228b5a3-lvdgwerz-3.png)
+![Divider's measurement.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flvdgwerz-3.png?alt=media&token=3897448c-4415-4e21-985e-3fbe9b50f072>)
 
 _Measurements_
 

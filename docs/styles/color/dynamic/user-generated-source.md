@@ -2,7 +2,7 @@
 title: "Dynamic color schemes"
 source_url: "https://m3.material.io/styles/color/dynamic/user-generated-source"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/09d92a4521f4-m4k2c1o5-4.png"
@@ -23,15 +23,15 @@ Dynamic color can change a color palette to match user settings, like wallpapers
 -   Their apps and system UI change to a color pulled from their device wallpaper
 -   A product that looks personalized
 
-![Mobile screenshot of Google Photos](../../../../assets/images/09d92a4521f4-m4k2c1o5-4.png)
+![Mobile screenshot of Google Photos](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4k2c1o5-4.png?alt=media&token=45415733-2a53-4946-af98-4a70dc3686b4>)
 
 _Dynamic color in a work app_
 
-![Mobile screenshot of Gmail in light theme.](../../../../assets/images/047b7d5e098c-m4k2c5u0-5.png)
+![Mobile screenshot of Gmail in light theme.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4k2c5u0-5.png?alt=media&token=5d7250df-9fc3-4ded-b9d9-182b09ad2fdf>)
 
 _Dynamic color in a work app_
 
-![Mobile screenshot of Gmail.](../../../../assets/images/e6219d3d8bf5-m4k2caip-6.png)
+![Mobile screenshot of Gmail.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4k2caip-6.png?alt=media&token=74e73df8-b55e-48d2-9b70-202bb5d89a53>)
 
 _Dynamic color in a work app_
 

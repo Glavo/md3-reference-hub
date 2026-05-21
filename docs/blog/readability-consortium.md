@@ -2,7 +2,7 @@
 title: "Teaming Up to Improve Reading Research"
 source_url: "https://m3.material.io/blog/readability-consortium"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/6063c55820ea-KpTtrkjuTI1f9o-iEJ58ptwlW-J2BD4jAmTWM_TcTISSmejow0f9RZYEUSk0HCdC6iuiJpwRSQgxeGlInIVh84zTaETzhTph.png"
@@ -12,7 +12,7 @@ assets:
 
 Google co-sponsors The Readability Consortium
 
-![Image](../../assets/images/6063c55820ea-KpTtrkjuTI1f9o-iEJ58ptwlW-J2BD4jAmTWM_TcTISSmejow0f9RZYEUSk0HCdC6iuiJpwRSQgxeGlInIVh84zTaETzhTph.png)
+![Image](<https://lh3.googleusercontent.com/KpTtrkjuTI1f9o-iEJ58ptwlW-J2BD4jAmTWM_TcTISSmejow0f9RZYEUSk0HCdC6iuiJpwRSQgxeGlInIVh84zTaETzhTphT4-McSd7vCODSI-e760U>)
 
 Published: 2022-02-15T10:00:00
 

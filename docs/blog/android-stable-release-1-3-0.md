@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.3.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-3-0"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/453f0804fe69-jYzl7MY0Jk0KTZuzu9TCyH7c_5exgEQhOSUqDtfy2jiwHgDoR3oL1BuBOxeoGlblrsRdWnEnZexFyxeVOzD4eeKxMoi-zCLg.png"
@@ -14,7 +14,7 @@ assets:
 
 ProgressIndicator, MaterialTimePicker, i18n / l10n, and more
 
-![illustration showing Material time picker and app bar](../../assets/images/453f0804fe69-jYzl7MY0Jk0KTZuzu9TCyH7c_5exgEQhOSUqDtfy2jiwHgDoR3oL1BuBOxeoGlblrsRdWnEnZexFyxeVOzD4eeKxMoi-zCLg.png)
+![illustration showing Material time picker and app bar](<https://lh3.googleusercontent.com/jYzl7MY0Jk0KTZuzu9TCyH7c_5exgEQhOSUqDtfy2jiwHgDoR3oL1BuBOxeoGlblrsRdWnEnZexFyxeVOzD4eeKxMoi-zCLgFUN2QQ>)
 
 Published: 2021-02-18T13:00:00
 
@@ -26,7 +26,7 @@ Be sure to check out the [release notes](https://github.com/material-components
 
 A fair bit has changed since we launched [1.2.1](https://material.io/blog/android-stable-release-1-2) in September last year – we added the progress indicator and time picker components, made extensive internationalization and localization string updates, and more. The things you loved from the alpha, beta, and RC releases of 1.3.0 are now officially stable. If you haven’t yet started using 1.3.0 of MDC, there’s never been a better time to update.
 
-![GIF of linear and circular progress indicators](../../assets/images/0e3ceea80a98-Nvg43GoQdU1BBQh9PPTDaCqb3-XzbzCqvYvVDekL_d3NekjQLvQXZhqavPKqRZoEbyAr7GZt5qPZ33VS9kd_z33OLgl7v6L1.png)
+![GIF of linear and circular progress indicators](<https://lh3.googleusercontent.com/Nvg43GoQdU1BBQh9PPTDaCqb3-XzbzCqvYvVDekL_d3NekjQLvQXZhqavPKqRZoEbyAr7GZt5qPZ33VS9kd_z33OLgl7v6L1qfHG-g>)
 
 ## ProgressIndicator
 
@@ -36,7 +36,7 @@ MDC 1.3.0 allows you to use progress indicators in your Android app with the `[
 
 Learn more about how to implement progress indicators in [our documentation](https://material.io/components/progress-indicators/android).
 
-![Illustration of a Material time picker](../../assets/images/06e545d75ba1-D18QEw8kvf3p30wikbp6QbOFAUH7_Evlf-fa1YdutNgNRUfFveQEr9lIIcaKX-rWdUnl2PL_p8tygMlXXL7yJSHDK-fg9oIf.png)
+![Illustration of a Material time picker](<https://lh3.googleusercontent.com/D18QEw8kvf3p30wikbp6QbOFAUH7_Evlf-fa1YdutNgNRUfFveQEr9lIIcaKX-rWdUnl2PL_p8tygMlXXL7yJSHDK-fg9oIfGPI0OXU>)
 
 ## MaterialTimePicker
 

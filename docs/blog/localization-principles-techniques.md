@@ -2,7 +2,7 @@
 title: "Principles and Techniques for Effective Localization"
 source_url: "https://m3.material.io/blog/localization-principles-techniques"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/68c15071f532-JyAlIoZ7WIdN6N61L5CMHMWcMmKzO51edjGN1oiNHMRaXhlpZlpXEXPI8lXnhX8MLSD_WDvKQ0_W-veWXqk3iNZNSYWEuBZ5.png"
@@ -25,7 +25,7 @@ assets:
 
 Going beyond translation to create more inclusive experiences
 
-![Image](../../assets/images/68c15071f532-JyAlIoZ7WIdN6N61L5CMHMWcMmKzO51edjGN1oiNHMRaXhlpZlpXEXPI8lXnhX8MLSD_WDvKQ0_W-veWXqk3iNZNSYWEuBZ5.png)
+![Image](<https://lh3.googleusercontent.com/JyAlIoZ7WIdN6N61L5CMHMWcMmKzO51edjGN1oiNHMRaXhlpZlpXEXPI8lXnhX8MLSD_WDvKQ0_W-veWXqk3iNZNSYWEuBZ5EvuiluCDWis8yLC0qNBG>)
 
 Published: 2021-08-30T09:00:00
 
@@ -49,11 +49,11 @@ If you already know the languages that your product will be translated into, it 
 
 Leave open space around condensed UI components, such as buttons and tabs. Consider building extra room or a buffer into your design to accommodate the overflow of text. For longer text, establish a component’s maximum width that allows lengthier passages to wrap.
 
-![](../../assets/images/73796e5e54f7-2c32JY8yN6CPHad12GIjOyicpSZJF_zEdjpu2YN6gCr8aIi_u72a-r8CsaPEG9C-LlED3IZduosC7zWeKwnzDQ6belonZ9sl.png)
+![Image](<https://lh3.googleusercontent.com/2c32JY8yN6CPHad12GIjOyicpSZJF_zEdjpu2YN6gCr8aIi_u72a-r8CsaPEG9C-LlED3IZduosC7zWeKwnzDQ6belonZ9slh0C9J50mtqx3IBewt3be>)
 
 The height of the “Accept terms and conditions” button in English (1) is only one-line, and is increased to fit two lines of text in Malayalam (2).
 
-![](../../assets/images/01d4263b0031-ppomeRpFhsjEKU2tadCYE_TM0kcetR1CuoiLBFLXd744xqUGScmcM_Iz_PLJF0pEZaSLvFZb4yqfEOnHcB2OqwQv_EeDUCBk.png)
+![Image](<https://lh3.googleusercontent.com/ppomeRpFhsjEKU2tadCYE_TM0kcetR1CuoiLBFLXd744xqUGScmcM_Iz_PLJF0pEZaSLvFZb4yqfEOnHcB2OqwQv_EeDUCBkzXGMabqhWdPE7S4uzltm>)
 
 The text in Bulgarian (2) is cut off after being translated from English (1).
 
@@ -65,11 +65,11 @@ When designing for many cultures, use imagery and avatars that display various c
 
 Avoid imagery and avatars that represent a single culture, gender, or demographic characteristic.
 
-![Image with text 'Last active users', a search bar and 20 diverse avatars. Each avatar contains a small dot in the lower right corner indicating their activity status.](../../assets/images/466ef5137ae2-HGq7Z9Gjyj3Sh44lxpi_ZTAfk0Nqo9XgrTCoDlSS7hIrQYWtBSUba3XfmBbp143nFCXy7lg1iV-XkyTC6ruRauaBLgX5CfPw.png)
+![Image with text 'Last active users', a search bar and 20 diverse avatars. Each avatar contains a small dot in the lower right corner indicating their activity status.](<https://lh3.googleusercontent.com/HGq7Z9Gjyj3Sh44lxpi_ZTAfk0Nqo9XgrTCoDlSS7hIrQYWtBSUba3XfmBbp143nFCXy7lg1iV-XkyTC6ruRauaBLgX5CfPw3_3zfqYclEjiNmzSpg>)
 
 Use diverse avatars in imagery
 
-![Image with text 'Last active users' , a search bar and 20 avatars who appear to be white. Each avatar contains a small dot in the lower right corner indicating their activity status.](../../assets/images/fad2c00f9c92-9oYgU8K4qB_dN9BzIBhEP1HhpW1K_XD5V1648h1PZ-C5mWr54mLrdcyvuNfZCZDtktFixdben3q-B8qoon7ayIhCP4y3JEZ-.png)
+![Image with text 'Last active users' , a search bar and 20 avatars who appear to be white. Each avatar contains a small dot in the lower right corner indicating their activity status.](<https://lh3.googleusercontent.com/9oYgU8K4qB_dN9BzIBhEP1HhpW1K_XD5V1648h1PZ-C5mWr54mLrdcyvuNfZCZDtktFixdben3q-B8qoon7ayIhCP4y3JEZ-LxHhP6OxThuk0M3Xw6c>)
 
 Use avatars and images of just one gender or race.
 
@@ -87,11 +87,11 @@ For example, in the United States the icons that look like a flame or fire 🔥 
 
 When words are replaced with many emoji in a single line, it increases the difficulty for someone from a different culture with a different mental model to interpret the meaning. The translation effort becomes more challenging as well. As a result, users may get something that deviates from the original intention of the emoji. Additionally, multiple emoji in a single line can appear cluttered and visually distracting.
 
-![Photos of cat overlaid with text and open trunk of station wagon](../../assets/images/c6da7a620ad9-h-JG_Z38wxYLrKQ4jhJ-Tm7vmsFv4zLcs5UhpfEysikULJqYhuubaVuAZmnSXxNyH_NWvxVIQkw5yj36Ic4tv5NbMMgEL63h.png)
+![Photos of cat overlaid with text and open trunk of station wagon](<https://lh3.googleusercontent.com/h-JG_Z38wxYLrKQ4jhJ-Tm7vmsFv4zLcs5UhpfEysikULJqYhuubaVuAZmnSXxNyH_NWvxVIQkw5yj36Ic4tv5NbMMgEL63h0wyO_gSVrVh-fE5wSw>)
 
 By combining the flame icon with “Trending Posts,” the symbol is more likely to be understood.
 
-![Photos of cat overlaid with text and open trunk of station wagon](../../assets/images/37dd5d76ab18-PkUNbE2Gtxc6xEILVQGRGCtwELhTIJx8DKV5a_ZLm-kJHC8EN08En3lqTkJnyvJ2jJfaDXKmiJ1p2BQCvGRAEIpWK8f-6FPo.png)
+![Photos of cat overlaid with text and open trunk of station wagon](<https://lh3.googleusercontent.com/PkUNbE2Gtxc6xEILVQGRGCtwELhTIJx8DKV5a_ZLm-kJHC8EN08En3lqTkJnyvJ2jJfaDXKmiJ1p2BQCvGRAEIpWK8f-6FPoX5FQ4RlMs3jp8aPJ_IA>)
 
 Replace words in a sentence with emoji.
 
@@ -105,11 +105,11 @@ It’s recommended to use [Google’s Noto fonts](https://www.google.com/get/not
 
 _Learn more about [Noto fonts](https://blog.google/outreach-initiatives/accessibility/preserving-endangered-languages-noto-fonts/)._ 
 
-![Google in Latin text and Japanese characters](../../assets/images/73c7e835b95a-G7N0Dntib78CqzLKcq0L4iyKPqVaV4dl827NPr_JtJvrOJEQmj8h0Hb_3nYYQsYU0qx-BDJD8iDkIw2I-yODlE-1CBMjlxBG.png)
+![Google in Latin text and Japanese characters](<https://lh3.googleusercontent.com/G7N0Dntib78CqzLKcq0L4iyKPqVaV4dl827NPr_JtJvrOJEQmj8h0Hb_3nYYQsYU0qx-BDJD8iDkIw2I-yODlE-1CBMjlxBGmivBBhTI_FMGoVRZIJ0_>)
 
 With Noto fonts, both the Latin and Japanese text have the same weight.
 
-![Google in Latin text and Japanese characters](../../assets/images/d8eee79d8fd2-WChAxtWkiiOW10vR7AaP5WPyh9nBrTUeDCknCP8HEVg2Yj4v4n5aHpQAVTVQ8d8bWFLed0hAAo_3k7uHCj1HM27gF1uqv3_b.png)
+![Google in Latin text and Japanese characters](<https://lh3.googleusercontent.com/WChAxtWkiiOW10vR7AaP5WPyh9nBrTUeDCknCP8HEVg2Yj4v4n5aHpQAVTVQ8d8bWFLed0hAAo_3k7uHCj1HM27gF1uqv3_bHHA9c9m_fH1ep63L8Q>)
 
 Avoid mixing font weights in the same sentence. The Latin type used for “Google” is rendered in a thin font weight, while the Japanese characters are rendered in a bolder weight.
 
@@ -119,11 +119,11 @@ Line breaks can appear incorrectly in languages that do not use spaces between w
 
 [Budou](https://github.com/google/budou) is an open-source tool that automatically creates line breaks for CJK languages, which improves text readability.
 
-![dialog in Japanese on top of photos and text in Japanese](../../assets/images/ab426013ca67-5EZBwjROoA5MBrpwkxIzOOp6HSasji0g45byIROc7rOziSuve1hPkAoRwtSCG11BQmwoSpwfNwM9wQuNLXmtcSeXYV-pugop.png)
+![dialog in Japanese on top of photos and text in Japanese](<https://lh3.googleusercontent.com/5EZBwjROoA5MBrpwkxIzOOp6HSasji0g45byIROc7rOziSuve1hPkAoRwtSCG11BQmwoSpwfNwM9wQuNLXmtcSeXYV-pugop75GbsSJy1Pv2eayjQR0>)
 
 Budou makes correct line breaks in Japanese. The first line says “Chatter Privacy” and the second line says “Policy.”
 
-![dialog in Japanese on top of photos and text in Japanese](../../assets/images/75fe362440e7-zgRec7Z9t7Kxs2fxUKe2604zYFAM38I2gEzpm6kNsOp_3e1BZXQngWck6iPREIoo0R2GYwjdKI6E2gtCIMOQXAfDpZNT8yZU.png)
+![dialog in Japanese on top of photos and text in Japanese](<https://lh3.googleusercontent.com/zgRec7Z9t7Kxs2fxUKe2604zYFAM38I2gEzpm6kNsOp_3e1BZXQngWck6iPREIoo0R2GYwjdKI6E2gtCIMOQXAfDpZNT8yZUm9_LULpwfzEAxidtyA>)
 
 Don’t break words. The Japanese word for “policy” is split in half across the line break.
 
@@ -141,11 +141,11 @@ Learn more about applying color in the [Material Design color guidelines](https:
 
 Preferences for information density and design styles vary across regions and cultures. Density and style preferences can be explored with help from a localization specialist or expert in the culture. Within the same product or brand, designs may be changed to better serve audiences with different backgrounds or needs.
 
-![9 photos with text in Japanese](../../assets/images/e6afb29e706c-zVyfuwg8pl8uGXorg9te6J5fmn9eGBcaBC24EV4xAt4pR_O5uY8Bj4N-3Y5Oq17SYeWb9DsOUCKo4Gaf4bZLrJyYFjFdeRl_.png)
+![9 photos with text in Japanese](<https://lh3.googleusercontent.com/zVyfuwg8pl8uGXorg9te6J5fmn9eGBcaBC24EV4xAt4pR_O5uY8Bj4N-3Y5Oq17SYeWb9DsOUCKo4Gaf4bZLrJyYFjFdeRl_v9f2UtL3ez5Up2GlP1s>)
 
 This page in Japanese uses a dense UI,small photos, and a text menu on the right side of the page.
 
-![6 photos with Trending posts title at the top](../../assets/images/c90696519587-EigP05Ra3PUo30vDwbmlzcAvSpc8FMf-Rskm-2krDFcqpY4UTEPgox1iLbwJzJAOars4fJRpv9skJ1Q3Jq0RiIqeN2YKDBrn.png)
+![6 photos with Trending posts title at the top](<https://lh3.googleusercontent.com/EigP05Ra3PUo30vDwbmlzcAvSpc8FMf-Rskm-2krDFcqpY4UTEPgox1iLbwJzJAOars4fJRpv9skJ1Q3Jq0RiIqeN2YKDBrn8N_V3F_F9xHlQBTcJw>)
 
 The same car page in English uses medium-sized photos, no text, and a menu icon for more information.
 
@@ -157,7 +157,7 @@ Languages such as Arabic, Hebrew, and Farsi are read from right-to-left (RTL). I
 
 Different regions have varying conventions for data formats, including addresses, phone numbers, names, calendars, measurements, currencies, payment methods, and more.
 
-![contact form with name, address](../../assets/images/0ea67e580200-ttq1s7H521wkNAtkgCI7NQTyd34sYIJqfXyeUount8zdm9BapvCGTeKIr4Q02trFOlgckBXcOKjrim7tdAqszO060wOZpjUg.png)
+![contact form with name, address](<https://lh3.googleusercontent.com/ttq1s7H521wkNAtkgCI7NQTyd34sYIJqfXyeUount8zdm9BapvCGTeKIr4Q02trFOlgckBXcOKjrim7tdAqszO060wOZpjUgZZn50NaBfTs000ftzOc>)
 
 Canadian and French address forms are formatted differently to conform with regional norms.
 

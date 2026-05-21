@@ -2,7 +2,7 @@
 title: "Choosing a scheme"
 source_url: "https://m3.material.io/styles/color/choosing-a-scheme"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/videos/00e446880719-linbzkgu-MAT020.05-v2-Internal.mp4"
@@ -31,7 +31,7 @@ Working with static color will be the most like other color workflows you may ha
 
 Material provides a static baseline color scheme including default color assignments and mappings.
 
-![Email UI in blue baseline scheme, shown in dark and light theme.](../../../assets/images/5ba572bb44bd-m4ad7ppb-2.png)
+![Email UI in blue baseline scheme, shown in dark and light theme.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4ad7ppb-2.png?alt=media&token=b81f3e1b-604f-4ccf-9e1e-0ef80a8a0afe>)
 
 _Colors are static in the baseline color scheme_
 
@@ -64,7 +64,7 @@ Dynamic color will automatically create an accessible color scheme based on a sp
 
 Because the UI could end up with any number of different source colors, it's best to initially design it using the baseline color scheme so you can ensure the right color roles are mapped to the right components in your product. You'll use the Material Theme Builder to see how your UI mocks look across a range of source colors and adjust it as-needed.
 
-![Email UI changing from yellow, to red, to green color schemes,  shown in light and dark theme.](../../../assets/images/fd32e176ad65-lmb3ofmk-dynamic-color-animation.gif)
+![Email UI changing from yellow, to red, to green color schemes,  shown in light and dark theme.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Flmb3ofmk-dynamic-color-animation.gif?alt=media&token=0a8efcba-e2a6-4424-836a-f1f1f2850c06>)
 
 _While the actual colors may change, the color role mappings remain the same across dynamic color schemes_
 

@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/layout"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -25,7 +25,7 @@ assets:
 
 Resources and guidance for immersive extended reality (XR) devices
 
-![Design for immersive XR](../../../../assets/images/c96d3c3a1421-mp6oo483-hero-image.png)
+![Design for immersive XR](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6oo483-hero%20image.png?alt=media&token=e98832ea-27a5-45b3-8e22-8838005536d6>)
 
 ## Layout
 
@@ -83,15 +83,15 @@ In full space, panels have no minimum size. The maximum panel size is 2560x1800d
 
 When people switch from full space to home space, spatial panels usually stay in the same predictable position.
 
-![A visualization of a spatial panel 1.75 meters from a person.](../../../../assets/images/362e493e17b1-mowrftn5-03-option-b.png)
+![A visualization of a spatial panel 1.75 meters from a person.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrftn5-03%20-%20option%20b.png?alt=media&token=1f3732d6-989b-4088-9455-f3efcc39daf3>)
 
 _At a 1.75 meter launch distance, a spatial panel's size is 1024x720dp_
 
-![A diagram of a person looking at a spatial panel 5 degrees below eye level.](../../../../assets/images/1eb7b9cc2a1a-mowrhano-04.png)
+![A diagram of a person looking at a spatial panel 5 degrees below eye level.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrhano-04.png?alt=media&token=4b0bb7c9-da66-4534-aeef-a7c200c02007>)
 
 _Place the panel's vertical center 5° below eye level to maximize comfort_
 
-![An XR panel in the center 41 degrees of a person’s field of view.](../../../../assets/images/6d70a985218b-mowrjlzr-05.png)
+![An XR panel in the center 41 degrees of a person’s field of view.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrjlzr-05.png?alt=media&token=e68916cf-d679-4c5b-9e6d-3207c9df61a2>)
 
 _Place primary content in the center 41° of a person’s field of view_
 
@@ -115,15 +115,15 @@ To avoid system UI conflicts, stay within default movement limits:
 
 In full space, an app can be broken up into multiple spatial panels, arranged in a flat, curved, or arbitrary layout.
 
-![3 spatial panels in a flat, straight line in front of a person.](../../../../assets/images/fa3d48514cdb-mowrvz0k-07.png)
+![3 spatial panels in a flat, straight line in front of a person.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrvz0k-07.png?alt=media&token=a61aac7d-85ca-4e64-a9f4-be1553a2c20b>)
 
 _Flat layout: Panels are arranged in a straight line. Best for comparing information side by side._
 
-![3 spatial panels curved around a person.](../../../../assets/images/bd75e4e47211-mowrwm48-08.png)
+![3 spatial panels curved around a person.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowrwm48-08.png?alt=media&token=fd4b727a-4796-44cf-a2a8-6388301f3804>)
 
 _Curved layout: Panels curve around the person. Best for immersive media or wide-format dashboards._
 
-![3 spatial panels, each in a unique position, angle, and size.](../../../../assets/images/02722cf478b0-mows5o73-09.png)
+![3 spatial panels, each in a unique position, angle, and size.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmows5o73-09.png?alt=media&token=8c874ac9-1f81-4aed-87d6-ec9d0f035285>)
 
 _Arbitrary layout: Panels are placed freely in space. Best for multi-tasking._
 

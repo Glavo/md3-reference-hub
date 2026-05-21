@@ -2,7 +2,7 @@
 title: "Button groups"
 source_url: "https://m3.material.io/components/button-groups/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/7bc21ce78aaa-m34lmgn1-Button-Group-Hero-alt-2.mp4"
@@ -46,7 +46,7 @@ There are two variants of button groups: **standard** and **connected**. 
 
 -   Adjacent buttons move and temporarily change width
 
-![A welcome screen with a colorful standard button group. 2 pink icon buttons are narrow, and 1 purple button is labelled “Get started".](../../../assets/images/83f6bcddaacc-m0di4v84-1.png)
+![A welcome screen with a colorful standard button group. 2 pink icon buttons are narrow, and 1 purple button is labelled “Get started".](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0di4v84-1.png?alt=media&token=7d455507-7409-4e76-96b8-78173e2a9533>)
 
 _Button groups add more expression to a product_
 
@@ -60,11 +60,11 @@ By default, all buttons in a standard group should be the same size (XS to XL) a
 
 -   Only use a different shape in a group when a button is selected, or to add meaning or contrast
 
-![A standard button group with 3 buttons of different colors but the same square shape.](../../../assets/images/ec696a673de5-m0diaau3-same-shapes.png)
+![A standard button group with 3 buttons of different colors but the same square shape.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0diaau3-same%20shapes.png?alt=media&token=816c3216-da8f-40f8-8de5-6fa595fca914>)
 
 _Use the same shapes for buttons in a group, but change other properties like width and color_
 
-![A standard button group with 3 buttons, including a round primary button. A square button is used to add items.](../../../assets/images/41942a4c6940-m0dibcom-different-shapes.png)
+![A standard button group with 3 buttons, including a round primary button. A square button is used to add items.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dibcom-different%20shapes.png?alt=media&token=15528a66-dde7-4db9-bd01-29fc012f8257>)
 
 _Reserve shape differences in button groups for key interactions_
 
@@ -80,7 +80,7 @@ Connected groups should replace the baseline segmented button, which is no long
 
 Use connected button groups when the button content is related, and buttons can be selected.
 
-![A shopping app with an option to choose the volume of an item using a connected button group.](../../../assets/images/3a8d3cab4c26-m0dijxcq-16.png)
+![A shopping app with an option to choose the volume of an item using a connected button group.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dijxcq-16.png?alt=media&token=21003592-8d64-4c4f-a6b8-dd87c18ee5b5>)
 
 _Closely related actions work well in a connected button group_
 
@@ -88,7 +88,7 @@ Connected button groups should be used for single or multi-select patterns that 
 
 Avoid using a connected group when none of the buttons can be toggled.
 
-![2 filters using connected button groups of 2 and 4 items. The group with 4 items has multiple buttons selected.](../../../assets/images/82e4474e6cb6-m0diog82-18.png)
+![2 filters using connected button groups of 2 and 4 items. The group with 4 items has multiple buttons selected.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0diog82-18.png?alt=media&token=4dfe1ecc-7909-4b3f-acea-4d079824514d>)
 
 _Use the connected button group with single or multi-select patterns_
 
@@ -96,13 +96,13 @@ _Use the connected button group with single or multi-select patterns_
 
 Avoid mixing color styles in connected button groups; it can make selection and emphasis unclear.
 
-![Selecting a button in a connected button group labelled “My files,” “Shared,” and “Computers.”](../../../assets/images/97aa9e737d98-mk2jyzbl-04.png)
+![Selecting a button in a connected button group labelled “My files,” “Shared,” and “Computers.”](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmk2jyzbl-04.png?alt=media&token=41ad5b46-9144-48cf-8f23-3c2201b8155c>)
 
 _Don’t mix color styles in connected button groups_
 
 ## Anatomy
 
-![1 element of a button group.](../../../assets/images/e1d7003fb915-m4sznpeh-5.png)
+![1 element of a button group.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm4sznpeh-5.png?alt=media&token=89308e1d-b40f-438e-a738-144e5a1e5f91>)
 
 _Container_
 
@@ -112,7 +112,7 @@ The standard button group container has padding between buttons so they can anim
 
 The standard button group hugs the width of the buttons inside.
 
-![The container hugs the buttons. Inner padding is highlighted.](../../../assets/images/3df510a84ebb-m0diztnf-6.png)
+![The container hugs the buttons. Inner padding is highlighted.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0diztnf-6.png?alt=media&token=28a3ff83-8514-4da3-89e5-3b58ad18da74>)
 
 _Button groups can animate without affecting their surroundings_
 
@@ -120,7 +120,7 @@ The connected button group should span the width of the page or surface it’s p
 
 In larger windows, consider adding a maximum width to the connected group to avoid it growing too wide.
 
-![2 connected button groups, with 2 and 4 buttons respectively, spanning the same width on a screen, with margins from the edge.](../../../assets/images/af0ade68dc19-m0dj3wcm-18-1.png)
+![2 connected button groups, with 2 and 4 buttons respectively, spanning the same width on a screen, with margins from the edge.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0dj3wcm-18-1.png?alt=media&token=5a3129d6-827b-4c8c-afe0-9a65aab4c44e>)
 
 _Connected button groups increase the widths of each button inside and expand to their container width_
 
@@ -140,7 +140,7 @@ Button groups and individual buttons can be set to **fixed** or **flexible** res
 
 If adjusting button width manually, avoid stretching icon buttons beyond the wide setting.
 
-![Two button groups, each with distinct width, size, and padding adjusted to fit two different window sizes.](../../../assets/images/e355234879f5-m0djrht4-1.png)
+![Two button groups, each with distinct width, size, and padding adjusted to fit two different window sizes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0djrht4-1.png?alt=media&token=07fada8f-eb2c-4d1a-a7f9-6e3bc8568a6e>)
 
 _Buttons can have width, size, and padding manually adjusted to fit different window sizes_
 

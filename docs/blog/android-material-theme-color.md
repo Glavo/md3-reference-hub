@@ -2,7 +2,7 @@
 title: "Building a Material Theme on Android: Color"
 source_url: "https://m3.material.io/blog/android-material-theme-color"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/a47b4728bf09-1xWolfPsT-609CJjfZQkU0YpR69DVltAb4IL4NVbcxNKbnya_LvQmo4csc_tQjbyUBw6JKLiMX82veLqYzDq7IC06UJE48kA.png"
@@ -21,13 +21,13 @@ assets:
 
 Color theming on Android using the MDC library
 
-![Image](../../assets/images/a47b4728bf09-1xWolfPsT-609CJjfZQkU0YpR69DVltAb4IL4NVbcxNKbnya_LvQmo4csc_tQjbyUBw6JKLiMX82veLqYzDq7IC06UJE48kA.png)
+![Image](<https://lh3.googleusercontent.com/1xWolfPsT-609CJjfZQkU0YpR69DVltAb4IL4NVbcxNKbnya_LvQmo4csc_tQjbyUBw6JKLiMX82veLqYzDq7IC06UJE48kAZBJ-HIk>)
 
 Published: 2020-09-01T13:07:00
 
 [Material Theming](https://material.io/design/material-theming/overview.html#material-theming) is a way to customize [Material Components](https://material.io/components) to align with your brand. A Material theme includes [color](https://material.io/design/color/), [typography](https://material.io/design/typography/) and [shape](https://material.io/design/shape/) parameters which you can adjust to get near-infinite variations of the components – all while maintaining their core anatomy and usability.
 
-![Material button transforming from baseline style to show off different options for color, shape, typography, and label](../../assets/images/76aff2153f34-WSEx_H0IQA9vu59OUeW2-5rKvdBPip6FGPBQwIPFgGMnmrtAnCKG_1MILDjOzIEvUW-y9O4AwAVfx27ox-cyq2yTuMQ6P-uF.png)
+![Material button transforming from baseline style to show off different options for color, shape, typography, and label](<https://lh3.googleusercontent.com/WSEx_H0IQA9vu59OUeW2-5rKvdBPip6FGPBQwIPFgGMnmrtAnCKG_1MILDjOzIEvUW-y9O4AwAVfx27ox-cyq2yTuMQ6P-uFwrL0ZQ>)
 
 On Android, Material Theming can be implemented using the [Material Components (MDC) library](https://github.com/material-components/material-components-android), from version `1.1.0` onwards. If you’re looking to migrate from the Design Support Library or MDC `1.0.0`, take a look at [our migration guide](https://medium.com/androiddevelopers/migrating-to-material-components-for-android-ec6757795351).
 
@@ -37,17 +37,17 @@ This article will be focusing on **color** theming.
 
 Material Design provides 12 color “slots” that make up the overall palette of your app. Each of these have a design term (eg. “Primary”) along with a corresponding color attribute that can be overridden in your app theme (eg. `colorPrimary`). There are default “baseline” values for both your light theme and dark theme.
 
-![](../../assets/images/d35f841fee5e-c6rSVlgF6wR6ziI6Xv1fkik7yJ7-P_2F7XoV9yj4gf9y8lMz0iSgKxSbO3PM7i8QqRb1ywWlzl4_5CdMgzUbTY3zkUmp0kPj.png)
+![Image](<https://lh3.googleusercontent.com/c6rSVlgF6wR6ziI6Xv1fkik7yJ7-P_2F7XoV9yj4gf9y8lMz0iSgKxSbO3PM7i8QqRb1ywWlzl4_5CdMgzUbTY3zkUmp0kPjwTpfDfE>)
 
 MDC color attributes with light baseline values
 
-![](../../assets/images/cd446775b2d3-AqxNVkIrZ5zZfOBclmWoilz62CVP3slvtf9sxXO1GorK-P4omr2w2VsiQFQqZMqAhYY3ZMzo7vArP25a4jrzcR7O5q9Yx5K3.png)
+![Image](<https://lh3.googleusercontent.com/AqxNVkIrZ5zZfOBclmWoilz62CVP3slvtf9sxXO1GorK-P4omr2w2VsiQFQqZMqAhYY3ZMzo7vArP25a4jrzcR7O5q9Yx5K33j_WFA>)
 
 MDC color attributes with dark baseline values
 
 Material Components use these color attributes to tint elements of the widgets.
 
-![Button color attributes: ?attr/colorOnPrimary for + icon and button text, ?attr/textAppearanceButton for button text, ?attr/shapeAppearanceSmallComponent for button shape, ?attr/colorPrimary for background color](../../assets/images/b1c682949d87-9rKRhZ0G1kkjF4zHDhdQOEV96itrBYsek1aiudofB72zqDSLL9-AtrIWZ7_HFTmwT4t2N2l4soobdSukX1jqWfAZvkKACZNT.png)
+![Button color attributes: ?attr/colorOnPrimary for + icon and button text, ?attr/textAppearanceButton for button text, ?attr/shapeAppearanceSmallComponent for button shape, ?attr/colorPrimary for background color](<https://lh3.googleusercontent.com/9rKRhZ0G1kkjF4zHDhdQOEV96itrBYsek1aiudofB72zqDSLL9-AtrIWZ7_HFTmwT4t2N2l4soobdSukX1jqWfAZvkKACZNTRBCodA>)
 
 Color attributes used by a button
 
@@ -73,7 +73,7 @@ Material Design provides useful tools for previewing colors and determining suit
 -   [Material color tool](https://material.io/resources/color/): Get light/dark variants of your primary and secondary colors as well as the appropriate “On” color. Preview how these will look in sample screens.
 -   [Material palette generator](https://material.io/design/color/the-color-system.html#tools-for-picking-colors): Generate a full tonal palette (shade 50 - 900) of a color. Get suggestions for complementary, analogous, and triadic colors.
 
-![](../../assets/images/214d54c4bb7d-MAmKwjV4z13vVbNGNeW3XgegBXDDAGJzC6OUDWgINp9LSKziWM90NwmzA46ox3Zd3cc7JnHaUkDzyGN_ehqFKRSjPBTtNVb8.png)
+![Image](<https://lh3.googleusercontent.com/MAmKwjV4z13vVbNGNeW3XgegBXDDAGJzC6OUDWgINp9LSKziWM90NwmzA46ox3Zd3cc7JnHaUkDzyGN_ehqFKRSjPBTtNVb8HuMaeQ>)
 
 Material color tool (left) and Material palette generator (right)
 
@@ -108,7 +108,7 @@ Once set up, override the color attributes you wish to change in your light and 
 
 Material Components will respond to theme-level color overrides:
 
-![UI components changing from baseline colors to navy and dark green](../../assets/images/3c4a1b4be54e-COT53HX7UojIhPnhJQG4tnsFmooxO9OoYXP1uQmhFI1JY6wxNqyz_jVH-7FgAy3lnHJhmNOtvrEpu1r7WbxfaCI6Y9hU7lOd.png)
+![UI components changing from baseline colors to navy and dark green](<https://lh3.googleusercontent.com/COT53HX7UojIhPnhJQG4tnsFmooxO9OoYXP1uQmhFI1JY6wxNqyz_jVH-7FgAy3lnHJhmNOtvrEpu1r7WbxfaCI6Y9hU7lOd75pWzxM>)
 
 ## Color reusability and best practice
 
@@ -138,7 +138,7 @@ Using these might cause you to raise an eyebrow – they’re referenced with th
 
 Keeping with the button example, suppose you want to change the main background tint from primary to secondary:
 
-![Primary button with green background and black text. An arrow points to a secondary button with navy background and white text](../../assets/images/c71ecfbb41a4-jjQy3wbrigJjqel0UJVAh3OcgM-MfUQ-a0H7uS1t9sI6QMeW_RI3Kp1mclZ-4m0DIywAlKNMyTkXBpNGLsdjomH8I6pnDq8G.png)
+![Primary button with green background and black text. An arrow points to a secondary button with navy background and white text](<https://lh3.googleusercontent.com/jjQy3wbrigJjqel0UJVAh3OcgM-MfUQ-a0H7uS1t9sI6QMeW_RI3Kp1mclZ-4m0DIywAlKNMyTkXBpNGLsdjomH8I6pnDq8G8elP7g>)
 
 Primary button (left) and secondary button (right)
 
@@ -167,7 +167,7 @@ Earlier we said that MDC widgets respond to overrides of theme level color attri
 
 The MDC developer docs have recently been refreshed. As part of this we’ve included attribute tables which include design terminology and default values used in the library. For example, check out the “Anatomy and key properties” sections of the updated [buttons doc](https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md).
 
-![](../../assets/images/48d5798dc873-k4xePGofQjSnzipMkSXxc2lz6WhETD-wMhAkF7Yid__0nj7kNy4ggdzsyyLMSwANGJv1IZRMYFI1VXIEr4KuDezTY1CJOfbj.png)
+![Image](<https://lh3.googleusercontent.com/k4xePGofQjSnzipMkSXxc2lz6WhETD-wMhAkF7Yid__0nj7kNy4ggdzsyyLMSwANGJv1IZRMYFI1VXIEr4KuDezTY1CJOfbj84cvYQ>)
 
 MDC button dev doc attribute table with default color values
 
@@ -175,7 +175,7 @@ MDC button dev doc attribute table with default color values
 
 Inspecting the MDC source code is arguably the most reliable approach. MDC uses default styles to achieve Material Theming so it’s a good idea to look at these as well as any styleable attrs and the java file(s). For example, check out the [styles](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/res/values/styles.xml), [attrs](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/res/values/attrs.xml) and [java file](https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/button/MaterialButton.java) for `MaterialButton`.
 
-![](../../assets/images/bfa6bb17bcfb-d5qv8fRyb6QuacMZ-3DzdnjXqOF8wgVgrDouJS5dDCyu01h3WeutmL5QlyZ86xvOr0SFY8oOADKnS5HsDE2Sp4_uKMJ6diEL.png)
+![Image](<https://lh3.googleusercontent.com/d5qv8fRyb6QuacMZ-3DzdnjXqOF8wgVgrDouJS5dDCyu01h3WeutmL5QlyZ86xvOr0SFY8oOADKnS5HsDE2Sp4_uKMJ6diEL10hAJQ>)
 
 MDC button default style with color values
 

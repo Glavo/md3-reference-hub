@@ -2,7 +2,7 @@
 title: "Top Tips for Data Accessibility"
 source_url: "https://m3.material.io/blog/data-visualization-accessibility"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/a37873dce3be-mtoOMJ1gebE6i4qXKxXgi4Cyn-Qt8FinbBZGk_Jhha-NhJGvd9AX71JUmgGLIzXc1NkxLSbEjNqx4QvcIbtO5CZG5-H_yxHw.png"
@@ -18,7 +18,7 @@ assets:
 
 Six strategies for making your data visualization accessible, scalable, and helpful
 
-![Abstract illustration of various charts](../../assets/images/a37873dce3be-mtoOMJ1gebE6i4qXKxXgi4Cyn-Qt8FinbBZGk_Jhha-NhJGvd9AX71JUmgGLIzXc1NkxLSbEjNqx4QvcIbtO5CZG5-H_yxHw.png)
+![Abstract illustration of various charts](<https://lh3.googleusercontent.com/mtoOMJ1gebE6i4qXKxXgi4Cyn-Qt8FinbBZGk_Jhha-NhJGvd9AX71JUmgGLIzXc1NkxLSbEjNqx4QvcIbtO5CZG5-H_yxHwDUIeBIwBF6baeFpY8so>)
 
 Published: 2022-11-08T13:00:00
 
@@ -30,7 +30,7 @@ See the Material Design [data visualization principles](https://material.io/desi
 
 Arrange or convey your data so that it’s easy to compare data sets or data points across multisensory experiences including audio, haptic, and visual representations.
 
-![Abstract example of how comparisons are facilitated through visual encodings and sonification.](../../assets/images/6abdf63a8c1e-xSf4_TQ6-6mmp3Lr39LA8h_ACxzmOI9reyXxaE9xgRUF0UORkjZDH5tCpY8M7WzdSpAkeBw9rSrPdl5XFdWEyeKbBgSZDl4p.png)
+![Abstract example of how comparisons are facilitated through visual encodings and sonification.](<https://lh3.googleusercontent.com/xSf4_TQ6-6mmp3Lr39LA8h_ACxzmOI9reyXxaE9xgRUF0UORkjZDH5tCpY8M7WzdSpAkeBw9rSrPdl5XFdWEyeKbBgSZDl4pHe9J6ku5HNP-xIRCuA>)
 
 **In practice:**
 
@@ -42,7 +42,7 @@ Arrange or convey your data so that it’s easy to compare data sets or data poi
 
 Provide the right context at the right time. Build affordances that prioritize data comprehension, exploration, and navigation.
 
-![An example of how text, data ink, and data set navigation can work together to guide the user to take necessary actions.](../../assets/images/6b657b130241-6Lr_nGKyo1qB_Dm2C5w51eOcoUfHlAqIQWkSvsRTXJlbcWvcdC13c0SlXyN880i1tV6KSM4Nt4AxuHUSOfKtG2ygWPtUGakb.png)
+![An example of how text, data ink, and data set navigation can work together to guide the user to take necessary actions.](<https://lh3.googleusercontent.com/6Lr_nGKyo1qB_Dm2C5w51eOcoUfHlAqIQWkSvsRTXJlbcWvcdC13c0SlXyN880i1tV6KSM4Nt4AxuHUSOfKtG2ygWPtUGakbXeeEpMrjMyRXEeiX1A>)
 
 **In practice:**
 
@@ -55,7 +55,7 @@ Provide the right context at the right time. Build affordances that prioritize d
 
 Always prioritize data accuracy, integrity, and simplicity. Every action, color, haptic, and audio element should support data insights, build understanding, and reduce cognitive load.
 
-![A categorical chart sketch that uses outlines and fills to draw focus.](../../assets/images/43492618862e-n2L87evsGnVgnHWzJ5ZNZpSmzgrPOtpFUTP1lTUsxD3Uk0t_1gNU_kUq0k-tZRM0efdgFUvQznn5nSbM1kArJhLwSwSwnW0n.png)
+![A categorical chart sketch that uses outlines and fills to draw focus.](<https://lh3.googleusercontent.com/n2L87evsGnVgnHWzJ5ZNZpSmzgrPOtpFUTP1lTUsxD3Uk0t_1gNU_kUq0k-tZRM0efdgFUvQznn5nSbM1kArJhLwSwSwnW0nKMZzO9O9ighnEZ-Cz2Y>)
 
 **In practice:**
 
@@ -67,7 +67,7 @@ Always prioritize data accuracy, integrity, and simplicity. Every action, color,
 
 Hierarchy and structure make it easy to understand what the chart is for and what its elements represent. Appropriate structure can help users navigate your visualization.
 
-![A representation of keyboard navigation patterns and ARIA roles and landmarks for charts.](../../assets/images/1c69ef02f801-tBesw7PNqbmp6fMlwDI8pTAmqTb69Et1VOiI2tzK0FhFriTrmgMeWUQYLdd2r4_j_iacWNwKi1ZMDIDAzRSQhJERDhAq2b0y.png)
+![A representation of keyboard navigation patterns and ARIA roles and landmarks for charts.](<https://lh3.googleusercontent.com/tBesw7PNqbmp6fMlwDI8pTAmqTb69Et1VOiI2tzK0FhFriTrmgMeWUQYLdd2r4_j_iacWNwKi1ZMDIDAzRSQhJERDhAq2b0y831FO-aNyRiuGZbnmg>)
 
 **In practice:**
 
@@ -79,7 +79,7 @@ Hierarchy and structure make it easy to understand what the chart is for and wha
 
 Respect different needs on data depth, complexity, and modality. Allow your data visualizations to extend and adapt over time.
 
-![Sketch showing how a chart can be displayed on multiple devices and surfaces.](../../assets/images/3ef38e6e26cf-7YMcseoC0F5r14hOYRhxx5REP9efZb8urY_juQ6M0NvQnUV-IMWpqyjCgHz71d-mhMR4_Mfi9NhU_N24t4h5z3Iq4XtaSPnP.png)
+![Sketch showing how a chart can be displayed on multiple devices and surfaces.](<https://lh3.googleusercontent.com/7YMcseoC0F5r14hOYRhxx5REP9efZb8urY_juQ6M0NvQnUV-IMWpqyjCgHz71d-mhMR4_Mfi9NhU_N24t4h5z3Iq4XtaSPnPplIGJtOBmyJv0hFg4Q>)
 
 **In practice:**
 
@@ -90,7 +90,7 @@ Respect different needs on data depth, complexity, and modality. Allow your data
 
 Embrace dynamic, smart, and clever experiences that overdeliver for your audience.
 
-![Example of how data trends can be represented by combining text, audio, and haptic feedback.](../../assets/images/b593bb854e17-yBmnmPX96Chf-7bBAMqIHibgC1F_Ts19CB6jg5_JT6sh0aN38RDQj29tHH01BftEFRNcsiglLAqNRv5dj56HfFqUbzfABjWN.png)
+![Example of how data trends can be represented by combining text, audio, and haptic feedback.](<https://lh3.googleusercontent.com/yBmnmPX96Chf-7bBAMqIHibgC1F_Ts19CB6jg5_JT6sh0aN38RDQj29tHH01BftEFRNcsiglLAqNRv5dj56HfFqUbzfABjWNxLvu2vEfUxC_sUg2hFY>)
 
 **In practice:** 
 

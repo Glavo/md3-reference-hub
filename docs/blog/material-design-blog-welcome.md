@@ -2,7 +2,7 @@
 title: "Welcome to the Material Blog—Letter from the Editor"
 source_url: "https://m3.material.io/blog/material-design-blog-welcome"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/15b2c7084cc3-jEnGSii1ALI3l2mLtobU8e0uIfdkf8eg8ic3koughUw5N38UAwe6rLrmIaZo9ee3RmJ50pU8hTSClYXjEJdAtuiFCjiUoDd6.png"
@@ -12,7 +12,7 @@ assets:
 
 Material Design, beyond guidelines and code
 
-![Illustration showing the outline of an eye and a floating action button, surrounded by abstract shapes.](../../assets/images/15b2c7084cc3-jEnGSii1ALI3l2mLtobU8e0uIfdkf8eg8ic3koughUw5N38UAwe6rLrmIaZo9ee3RmJ50pU8hTSClYXjEJdAtuiFCjiUoDd6.png)
+![Illustration showing the outline of an eye and a floating action button, surrounded by abstract shapes.](<https://lh3.googleusercontent.com/jEnGSii1ALI3l2mLtobU8e0uIfdkf8eg8ic3koughUw5N38UAwe6rLrmIaZo9ee3RmJ50pU8hTSClYXjEJdAtuiFCjiUoDd66aEfSA>)
 
 Published: 2020-09-01T13:00:00
 

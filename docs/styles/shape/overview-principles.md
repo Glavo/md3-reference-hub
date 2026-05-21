@@ -2,7 +2,7 @@
 title: "Shape"
 source_url: "https://m3.material.io/styles/shape/overview-principles"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/3a2d77d7eb18-m0c35amt-1.png"
@@ -29,7 +29,7 @@ The M3 shape system includes original shapes, a corner radius scale, and built-i
 -   Rectangular shapes are fully rounded in all corners by default
 -   Individual corners can be adjusted to create asymmetrical rectangular shapes
 
-![Illustration of range of irregular shapes.](../../../assets/images/3a2d77d7eb18-m0c35amt-1.png)
+![Illustration of range of irregular shapes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c35amt-1.png?alt=media&token=ab563092-217d-4d71-986d-1b4d87b5ba3e>)
 
 _Abstract shapes can help people express themselves_
 
@@ -64,7 +64,7 @@ Added corner radii tokens:
 
 ## Shape library
 
-![35 shapes in the shape set.](../../../assets/images/6e6621719e02-m0c3rf47-3.png)
+![35 shapes in the shape set.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c3rf47-3.png?alt=media&token=1a6cef2c-83d4-4855-9b91-8121f8a8a0ae>)
 
 _M3 has 35 shapes to easily apply to designs_
 
@@ -74,7 +74,7 @@ Shapes are expressive elements of Material 3 that echo key visual attributes of 
 
 Use shape and type together for products to feel cohesive and polished.
 
-![Fonts and mock UI screens showing a wide range of square, round, thin, and thick shapes.](../../../assets/images/3e5a2f906b31-m7pa01q8-4.png)
+![Fonts and mock UI screens showing a wide range of square, round, thin, and thick shapes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm7pa01q8-4.png?alt=media&token=2bd24982-183f-4d94-8da0-d14252f165c4>)
 
 _M3 shapes and Google Sans Flex share roundness visual attributes_
 
@@ -100,7 +100,7 @@ Material historically focused on rounded shapes. However, using sharp shapes, th
 
 This tension can be used in many ways, like conveying states, drawing attention to an element, or to improve the visual aesthetic.
 
-![Round and square shape side-by-side.](../../../assets/images/2e88dee8d6cc-m0fc4dnp-6.png)
+![Round and square shape side-by-side.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0fc4dnp-6.png?alt=media&token=41b40132-0d83-4de4-9c1b-8b49902356e2>)
 
 _Create tension by using a combination of round and square shapes_
 
@@ -122,7 +122,7 @@ Be intentional when using shapes in product UI. Don’t compromise clarity for t
 
 When incorporating diverse shapes, think about how they fit into the overall design and consider how they balance with the entire composition. Ensure that shapes resonate with the product's narrative. Consider the 'why' behind their inclusion and the value they contribute to the overall user experience.
 
-![8 shapes with icons.](../../../assets/images/2d7cf36857be-m0c73wle-8.png)
+![8 shapes with icons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm0c73wle-8.png?alt=media&token=f1bf9874-6d8e-43c4-ae44-c0d4912ca58b>)
 
 _Shapes without clear meaning behind why they’re different can add more visual clutter than delight_
 

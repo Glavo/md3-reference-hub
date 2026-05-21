@@ -2,7 +2,7 @@
 title: "FABs"
 source_url: "https://m3.material.io/components/floating-action-button/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/e1f1bece813d-mkap9gay-01.png"
@@ -23,7 +23,7 @@ assets:
 
 -   Three variants: FAB, medium FAB, large FAB
 
-![The 3 sizes of floating action buttons.](../../../assets/images/e1f1bece813d-mkap9gay-01.png)
+![The 3 sizes of floating action buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmkap9gay-01.png?alt=media&token=e8e925f7-45d2-4db6-8bfb-31ea3248ae1e>)
 
 _FAB; Medium FAB; Large FAB_
 
@@ -81,16 +81,16 @@ Color:
 
 -   Surface color FABs are no longer recommended
 
-![4 FABs showing the colors available after the expressive update.](../../../assets/images/34408369174c-mkc68z96-02.png)
+![4 FABs showing the colors available after the expressive update.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc68z96-02.png?alt=media&token=7cf55ab6-acc3-44b1-8c1d-1291e0357739>)
 
 _FABs have updated colors and sizes_
 
 ## Differences from M2
 
-![M2 circular FAB with a plus icon.](../../../assets/images/2985725d7e6e-mkc69mae-03-3P.png)
+![M2 circular FAB with a plus icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc69mae-03-3P.png?alt=media&token=afcabba4-1475-4c47-9bbe-1270d37b9a5b>)
 
 _M2: FABs are circles and always have a drop shadow_
 
-![M3 rounded corner square FAB with an artist’s palette icon.](../../../assets/images/1782506e2b87-mkc6a5yd-04.png)
+![M3 rounded corner square FAB with an artist’s palette icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmkc6a5yd-04.png?alt=media&token=c710942d-d229-4b16-8eb1-f72cd22c8753>)
 
 _M3: FABs have a boxier shape, can use dynamic color, and include a new large FAB variation_

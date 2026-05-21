@@ -2,7 +2,7 @@
 title: "2021 Material Design Awards"
 source_url: "https://m3.material.io/blog/material-design-awards-2021"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/0a0e4c6ee8a5-JPNMdbYQZr2AbTU8uRRXr4C47-NH_rVELRckR_o1-rp7j1JNeAg1OeNoIZhjAS3UvmGBs7IIDyypCODFBT7u_XfGi81Mwv1o.png"
@@ -15,7 +15,7 @@ assets:
 
 Nominate your product and help us showcase the expressive capability of Material Design
 
-![Image](../../assets/images/0a0e4c6ee8a5-JPNMdbYQZr2AbTU8uRRXr4C47-NH_rVELRckR_o1-rp7j1JNeAg1OeNoIZhjAS3UvmGBs7IIDyypCODFBT7u_XfGi81Mwv1o.png)
+![Image](<https://lh3.googleusercontent.com/JPNMdbYQZr2AbTU8uRRXr4C47-NH_rVELRckR_o1-rp7j1JNeAg1OeNoIZhjAS3UvmGBs7IIDyypCODFBT7u_XfGi81Mwv1oyk3tiqkuwQiqvusrvbw>)
 
 Published: 2021-09-16T10:00:00
 
@@ -29,7 +29,7 @@ The annual Material Design Awards help us celebrate the best in design from our 
 
 ## Dark Theme
 
-![](../../assets/images/7af66e82bbbb-J7OscYVORyVdqzhXAH6lOBBxt_xZP18yrltb3gv4tQ5nEmoWzS71Zu8XwhdfEFfICGWYEA2BjgtLyh5zBKqC-gYbY3iu4p32.png)
+![Image](<https://lh3.googleusercontent.com/J7OscYVORyVdqzhXAH6lOBBxt_xZP18yrltb3gv4tQ5nEmoWzS71Zu8XwhdfEFfICGWYEA2BjgtLyh5zBKqC-gYbY3iu4p3234ksT_c8YqxKhGBAbcY>)
 
 Dark themes offer new ways of fulfilling user needs, whether it’s by tailoring their experience for low-light environments, extending battery life to meet the demands of a busy day, or—in the words of Mike Scopino, design lead of [2020 winner KAYAK](https://material.io/blog/mda-2020-winners)— reacting “to \[user\] needs and preferences.”
 
@@ -49,7 +49,7 @@ See how four Google products go “[into the dark](https://bit.ly/3h5DUJb)” wi
 
 ## Large Screen
 
-![](../../assets/images/73ad6249af02-MLOiGPlLABkwmGMCKCJzaw2GYqI2XOwTF1PdLZ0ROqGF-GR5pzscnqUJxTcKtVUqHmYi5KFebJno2W-KGLdsgNseG5MF66PS.png)
+![Image](<https://lh3.googleusercontent.com/MLOiGPlLABkwmGMCKCJzaw2GYqI2XOwTF1PdLZ0ROqGF-GR5pzscnqUJxTcKtVUqHmYi5KFebJno2W-KGLdsgNseG5MF66PSF0s1W7ngxdazoByPwg>)
 
 How your design adapts is just as important as what’s adapting: we’re looking for products whose interfaces embody adaptability—from layouts to components— across device types and screen sizes, while staying true to their unique identity, personality, and functionality.
 
@@ -63,7 +63,7 @@ Learn how to build an adaptive layout in this [step-by-step tutorial](https://co
 
 ## Motion
 
-![](../../assets/images/2fde5d8ffb57-CI6MC6h8gCJIKDYRMlSFJGH8lozAtbQbuLiCMbDMmFXoGF73DSs9bDG0-Unsh_OcFq1E1njBqmWBAbx33Sy4QsRMTKbqa-fP.png)
+![Image](<https://lh3.googleusercontent.com/CI6MC6h8gCJIKDYRMlSFJGH8lozAtbQbuLiCMbDMmFXoGF73DSs9bDG0-Unsh_OcFq1E1njBqmWBAbx33Sy4QsRMTKbqa-fPv0987SLlXvytHGTURrfA>)
 
 Used well, motion forges a natural link between users and their devices. Motion can communicate energy, and responds to touch with precision and personality. It can tell a story that guides a user forward by revealing information at just the right moment. This year, we’re looking for products that come to life through elegant animations that make the complex feel simple and express style and brand effortlessly.
 

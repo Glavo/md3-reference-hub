@@ -2,7 +2,7 @@
 title: "Adding Motion Physics with Jetpack Compose"
 source_url: "https://m3.material.io/blog/m3-expressive-motion-theming"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/1ded508971c3-Jq3O_D_spnxd-2_CxeWYFAgtXFYlUS-FT4FUiLdPzRa2pnXVq8IllmGem9q4q1lY1YaLkGRTST_fIPpbuCr40sI987QAmJD1.png"
@@ -27,7 +27,7 @@ assets:
 
 Supercharge your Android transitions and animations with the new M3 Expressive motion theming system.
 
-![Image](../../assets/images/1ded508971c3-Jq3O_D_spnxd-2_CxeWYFAgtXFYlUS-FT4FUiLdPzRa2pnXVq8IllmGem9q4q1lY1YaLkGRTST_fIPpbuCr40sI987QAmJD1.png)
+![Image](<https://lh3.googleusercontent.com/Jq3O_D_spnxd-2_CxeWYFAgtXFYlUS-FT4FUiLdPzRa2pnXVq8IllmGem9q4q1lY1YaLkGRTST_fIPpbuCr40sI987QAmJD13DqpdFV7VUc3vkwaDA>)
 
 Published: 2025-05-20T08:00:00
 
@@ -51,7 +51,7 @@ As a product developer, you know that motion can significantly enhance the user 
 
 -   **Adaptive animations**: Ensure that movement feels fast in the context of the device and adjusts based on user input since animations are not based on predefined time sets.
 
-![](../../assets/images/4ec49be76949-nr4Lzg90Pi43VPk19ydsKZogx59MyiQ29sO0PK7DUhD6g7npr2PYQQ3wN7CMQH4x5lk12Y0dSBpTdNsTam05eJKKR3Pt8RCI.png)
+![Image](<https://lh3.googleusercontent.com/nr4Lzg90Pi43VPk19ydsKZogx59MyiQ29sO0PK7DUhD6g7npr2PYQQ3wN7CMQH4x5lk12Y0dSBpTdNsTam05eJKKR3Pt8RCIF8ETqUs0U3hk3DLFnw>)
 
 ## Getting setup
 
@@ -82,21 +82,21 @@ Two distinct kinds of specifications make up the motion scheme: **Spatial** anim
 
 **Spatial** specs are used to animate changes in an object's position, orientation, size, and shape. The spring overshoots the final value and bounces into place.
 
-![Spatial springs applied to movement](../../assets/images/8088ccbd4359-UvAI0qHlQhpz1tV9K0xAnalQMay8smnTOrGJAVUPG3oDxcGEVJPht01G-4OLy_0YzcddIPEnnvmVmh5DmOgPYoF3wpskglbw.png)
+![Spatial springs applied to movement](<https://lh3.googleusercontent.com/UvAI0qHlQhpz1tV9K0xAnalQMay8smnTOrGJAVUPG3oDxcGEVJPht01G-4OLy_0YzcddIPEnnvmVmh5DmOgPYoF3wpskglbwSsp10Gnz79cTXYYBdZ0>)
 
 Spatial springs applied to movement.
 
-![Spatial springs applied to rotation](../../assets/images/36767ab4c104-3zyb7Zu4E4U17JPWpN2XB5iExsTn67ovGkBG4o8_H40q7ZxgoWbozkaDVakbPWYtUHT-_rFbi5sZGTjbTuwNk5NrwCFgcvLT.png)
+![Spatial springs applied to rotation](<https://lh3.googleusercontent.com/3zyb7Zu4E4U17JPWpN2XB5iExsTn67ovGkBG4o8_H40q7ZxgoWbozkaDVakbPWYtUHT-_rFbi5sZGTjbTuwNk5NrwCFgcvLTD2peC-m7xCOuR59epQ>)
 
 Spatial springs applied to rotation.
 
 **Effect** specs are used to animate an object’s properties such as color and opacity, where there shouldn’t be any overshoot.
 
-![Effects springs applied to opacity](../../assets/images/9c2d9b4fc56d-N8Th_8EIKMq-xMouwQQ2tjtbO2XdY1U-yDojksW9rYgzx3segowuOv492aKXtpaOtTnGtmfGFkw7PGYVNi9A0dfwiDk3ZRf3.png)
+![Effects springs applied to opacity](<https://lh3.googleusercontent.com/N8Th_8EIKMq-xMouwQQ2tjtbO2XdY1U-yDojksW9rYgzx3segowuOv492aKXtpaOtTnGtmfGFkw7PGYVNi9A0dfwiDk3ZRf3NdNK5qyQB95W2MDo9b0>)
 
 Effects springs applied to opacity.
 
-![Effects springs applied to color](../../assets/images/ff305a9e857f-l56ZHFumvW8u3zLLBExCxaTeFCYIiALm2-Tgp7gxQJgkY_YcUdeJWCFK3ahROWwkUkKbASY_-TiZwezM34pCaKyqo6wtMhbt.png)
+![Effects springs applied to color](<https://lh3.googleusercontent.com/l56ZHFumvW8u3zLLBExCxaTeFCYIiALm2-Tgp7gxQJgkY_YcUdeJWCFK3ahROWwkUkKbASY_--TiZwezM34pCaKyqo6wtMhbtxG3qrfkcRXitIQ3F8c>)
 
 Effects springs applied to color.
 
@@ -116,7 +116,7 @@ Each animation can also have one of three speeds: **default**, **fast**, and **s
 
 Notice that the Expressive and Standard schemes are presets of opinionated motion values. This makes it easier to swap schemes without changing the underlying property names.
 
-![Expressive and Standard MotionScheme](../../assets/images/46937504787d-biWfMF0JCrTW9s3TaFGTBmRGsvdRH_Y2scaa6In-W7lNKF_YaAozCEl5qS03zYQ-FnORST43I32tg1YmOCCVCTbfd2oNQYCa.png)
+![Expressive and Standard MotionScheme](<https://lh3.googleusercontent.com/biWfMF0JCrTW9s3TaFGTBmRGsvdRH_Y2scaa6In-W7lNKF_YaAozCEl5qS03zYQ-FnORST43I32tg1YmOCCVCTbfd2oNQYCaDQeMC1bDLc834dwf0Go>)
 
 Expressive and Standard MotionScheme
 

@@ -2,7 +2,7 @@
 title: "Customizing Material"
 source_url: "https://m3.material.io/foundations/customization"
 lastmod: "2025-01-07"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/08229445dd00-kufh2yi0-3p-brand-hero.png"
@@ -17,7 +17,7 @@ assets:
 
 Customization creates unique branded products with familiar patterns and accessible interactions
 
-![Examples of 4 identical mobile UI screens using 4 different color sets](../../assets/images/08229445dd00-kufh2yi0-3p-brand-hero.png)
+![Examples of 4 identical mobile UI screens using 4 different color sets](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fkufh2yi0-3p-brand-hero.png?alt=media&token=4dda1819-bf06-4c5a-8dc4-dd83c05ef6f9>)
 
 ## Dynamic color makes personal devices feel personal
 
@@ -33,7 +33,7 @@ M3 supports systematic applications of custom parameters to help define and main
 
 The color system automatically handles critical adjustments that provide accessible color contrast, legibility, interaction states, and component structure. Dynamic color also works for custom (non-Material) components.
 
-![Animation showing 3 different source colors cascading through a UI to recolor elements on the screen](../../assets/images/f34689683759-kuob4wl9-m3_Color-hiRes.gif)
+![Animation showing 3 different source colors cascading through a UI to recolor elements on the screen](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fkuob4wl9-m3_Color-hiRes.gif?alt=media&token=1cd5b57b-ab91-4dca-9fe9-43011d9f2cde>)
 
 _Apps can take on an array of colors from baseline schemes, user-generated dynamic colors, or custom colors_
 
@@ -45,7 +45,7 @@ In order for your app to respect a user's device and app-level settings, **you'l
 
 Additionally, using a custom theme ensures that your app has a fallback color scheme available for users who don't enable dynamic color.
 
-![collage of views of a mobile UI that show a user's setting and preference for a green primary color flows through system UI harmoniously](../../assets/images/569318d38266-kufholeg-3p-brand_using-dynamic.png)
+![collage of views of a mobile UI that show a user's setting and preference for a green primary color flows through system UI harmoniously](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fkufholeg-3p-brand_using-dynamic.png?alt=media&token=0861098c-24ec-4c53-be0b-5c11bbc572cc>)
 
 _A user-generated color scheme can flow through apps that use a custom theme_
 
@@ -70,7 +70,7 @@ The Material Theme Builder creates **color and type tokens** that can be exporte
 
 [Material tokens](https://github.com/material-foundation/material-tokens) are ready to use in formatted theme files, including [Design System Package (DSP)](https://github.com/AdobeXD/design-system-package-dsp). A DSP is a cross-platform file format that represents design system information. [Learn more about design tokens](design-tokens/overview.md).
 
-![Example of the start screen for the Material Theme Builder Figma plugin. The plugin UI is shown alongside a range of purple tones as an example of a color palette that can be generated.](../../assets/images/41655e8d1150-kufi1pz4-3p-brand_Material-theme-builder.png)
+![Example of the start screen for the Material Theme Builder Figma plugin. The plugin UI is shown alongside a range of purple tones as an example of a color palette that can be generated.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fkufi1pz4-3p-brand_Material-theme-builder.png?alt=media&token=77f5a522-d7ce-4bff-9626-2da427e28f7a>)
 
 _The Material Theme Builder Figma plugin helps you create custom color schemes and export to multiple code formats_
 
@@ -86,7 +86,7 @@ Mapping your app colors to the custom scheme's source colors aligns the roles an
 
 If your app uses a single brand color or a limited brand palette, you can input your primary brand color as your custom color scheme's source color. The input color will be used to generate a scheme that provides you with complementary tones to round out a scheme.
 
-![Four color swatches are seen first in isolation and then as inputs to the material theme builder UI. Then, the color inspiration and typeface combine in a final UI for a plant brand app.](../../assets/images/b5fd1cb360f4-kufimufa-3p-brand_custom.png)
+![Four color swatches are seen first in isolation and then as inputs to the material theme builder UI. Then, the color inspiration and typeface combine in a final UI for a plant brand app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fkufimufa-3p-brand_custom.png?alt=media&token=c7d79eca-5240-49f5-a6ab-fece2e065074>)
 
 _Examples of brand attributes (left) that can be used to generate and apply a dynamic color scheme (right)_
 
@@ -102,6 +102,6 @@ Depending on the purpose in a UI, key colors are assigned roles that map to elem
 
 An input color generates a tonal palette that's used to fill the range of color roles needed, such as primary, on-primary, and primary container. [Learn more about using color roles](https://m3.material.io/m3/pages/color-roles/)
 
-![A mobile UI is seen with diagram labels showing where specifc elements have been mapped to specific colors, such as on-surface, or primary.](../../assets/images/33b0e18f6f86-kufivgty-3p-brand_color-mapping.png)
+![A mobile UI is seen with diagram labels showing where specifc elements have been mapped to specific colors, such as on-surface, or primary.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fkufivgty-3p-brand_color-mapping.png?alt=media&token=0e59e0ca-f5b1-4bdf-ad17-42382f54d227>)
 
 _Examples of color roles in the Plant Care UI mapped to design tokens_

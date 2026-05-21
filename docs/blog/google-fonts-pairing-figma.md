@@ -2,7 +2,7 @@
 title: "You Asked for it—Here Are Some of Our Favorite Font Pairings"
 source_url: "https://m3.material.io/blog/google-fonts-pairing-figma"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/43aa5d86ac3e-aOqlMj5iSZShiCMopuwUDpII-EnwQ3oimUohubInd9SDEvq6iI8dzy5LapX_yHJj-WknQsCRhirTB7fnC59LNBVg8PXW7cmB.png"
@@ -14,7 +14,7 @@ assets:
 
 See our handpicked Google Fonts pairings in use, and start using them now in Figma
 
-![Screenshot of Google Fonts Figma templates showing an array of pairings](../../assets/images/43aa5d86ac3e-aOqlMj5iSZShiCMopuwUDpII-EnwQ3oimUohubInd9SDEvq6iI8dzy5LapX_yHJj-WknQsCRhirTB7fnC59LNBVg8PXW7cmB.png)
+![Screenshot of Google Fonts Figma templates showing an array of pairings](<https://lh3.googleusercontent.com/aOqlMj5iSZShiCMopuwUDpII-EnwQ3oimUohubInd9SDEvq6iI8dzy5LapX_yHJj-WknQsCRhirTB7fnC59LNBVg8PXW7cmBUuGRmaBTVq5S2Bnpcms>)
 
 Published: 2022-06-02T13:00:00
 
@@ -32,7 +32,7 @@ For inspiration, check out the Google Fonts Pairings [templates](https://www.fig
 
 [Sehee Lee](https://material.io/blog/material-icons-sehee-lee-interview), Senior designer at Google Fonts, handpicked the nine pairings to demonstrate a variety of use cases in different contexts. All in all, it’s important for font pairings to make sense for what you’re trying to achieve, and these pairings help give you a glimpse of what’s possible. For example, for apps that need to deliver accurate information, you need fonts that are easily legible and offer various weights and styles. On the other hand, for a book cover design, you might look for more expressive fonts with interesting alternate [glyphs](https://fonts.google.com/knowledge/glossary/glyph). You may also ask questions like, “does the font support multiple languages?” or even, “what does the font make you feel?” On top of all this, a good font pairing will ensure that type is readable and harmonious at every scale.
 
-![Screenshot of articles showing an array of knowledge cards](../../assets/images/ad5b319c4ec6-iXlDF6n5E1SY-2UOIN3wYkHGzco4TOXfqnKdyqehxuroTlrYLmiFFwuz2nPzhQwECmjJi7pY-MZ4XT54naV-QTDcF_kDJGJ3.png)
+![Screenshot of articles showing an array of knowledge cards](<https://lh3.googleusercontent.com/iXlDF6n5E1SY-2UOIN3wYkHGzco4TOXfqnKdyqehxuroTlrYLmiFFwuz2nPzhQwECmjJi7pY-MZ4XT54naV-QTDcF_kDJGJ3RrEomororquGplgIEw>)
 
 Included with each Pairing are extra resources, such as information on the individual typefaces and links to Google Fonts Knowledge articles on typography that might be helpful.
 
@@ -40,7 +40,7 @@ Included with each Pairing are extra resources, such as information on the indiv
 
 Most of the digital mocks used in the templates were made from the [Material 3 Design Kit](https://www.figma.com/community/file/1035203688168086460) (which includes a comprehensive introduction to the design system, with styles and components to help you get started) and [Material Theme Builder](https://www.figma.com/community/plugin/1034969338659738588/Material-Theme-Builder) (which helps you explore dynamic color, brand colors, and type scale).
 
-![Screenshot of Material theme builder plugin](../../assets/images/a17c0f961f74-WX21Zrq6KSQ3Wg9t80MO0a-saeS9-JpZWlSyKAi5w5c3TLEsoIyOt3Qu9jKumIOeGU8W3NdC_C8pjg94KR5_tcvxCstcwAkJ.png)
+![Screenshot of Material theme builder plugin](<https://lh3.googleusercontent.com/WX21Zrq6KSQ3Wg9t80MO0a-saeS9-JpZWlSyKAi5w5c3TLEsoIyOt3Qu9jKumIOeGU8W3NdC_C8pjg94KR5_tcvxCstcwAkJiOIgdgGgeg2q1mouV9o>)
 
 Material Theme Builder Figma plugin
 

@@ -2,7 +2,7 @@
 title: "Divider"
 source_url: "https://m3.material.io/components/divider/overview"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/3f5d3216d8cd-lv6aebbf-1.png"
@@ -19,7 +19,7 @@ Dividers are thin lines that group content in lists or other containers
 -   Only use dividers if items can’t be grouped with open space
 -   Use dividers to group things, not separate individual items
 
-![Screen shot of five stacked dividers](../../../assets/images/3f5d3216d8cd-lv6aebbf-1.png)
+![Screen shot of five stacked dividers](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flv6aebbf-1.png?alt=media&token=00e7e89b-a308-4fed-9e37-e08af6dfd8a6>)
 
 _Dividers separating items in a list_
 
@@ -40,6 +40,6 @@ _Dividers separating items in a list_
 -   Color: New color mappings and compatibility with dynamic color
 -   Configurations: Ability to have vertical dividers
 
-![Screen shot of three dividers](../../../assets/images/e30a4946bd00-lv6afl2u-2.png)
+![Screen shot of three dividers](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flv6afl2u-2.png?alt=media&token=47c716a5-f6e6-4018-bc89-6fd9e7fb5260>)
 
 _Dividers have new color mappings_

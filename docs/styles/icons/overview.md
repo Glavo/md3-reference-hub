@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/videos/9610029ff525-m15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4"
@@ -42,7 +42,7 @@ Icons are small symbols to easily identify actions and categories
 
 You can now copy and paste icons from [Google Fonts](http://fonts.google.com/icons). Once you search for and select the desired icon, options will appear in the right-hand panel to resize, recolor, and copy the customized icon to clipboard.
 
-![Panel showing options to size, recolor, and copy selected icon.](../../../assets/images/e020dd3835e5-mltc6k61-01.png)
+![Panel showing options to size, recolor, and copy selected icon.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmltc6k61-01.png?alt=media&token=bad80b42-03e8-49b5-b789-8b6ebab3a62c>)
 
 _Icons can now be copied with a single click_
 
@@ -50,7 +50,7 @@ _Icons can now be copied with a single click_
 
 The new variable icon font set supports three styles: **outlined**, **rounded**, and **sharp**. All Material Symbols are newly drawn to be pixel-crisp and modernized.
 
-![Twelve icons depicted in three styles: outlined, with rounded corners, and sharp.](../../../assets/images/9904a53208b8-mltc9xz0-3p-overview-lg.png)
+![Twelve icons depicted in three styles: outlined, with rounded corners, and sharp.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmltc9xz0-3p-overview-lg.png?alt=media&token=3737bd22-91b3-4151-93c8-1b16c6407564>)
 
 _Outlined; Rounded; Sharp_
 
@@ -66,6 +66,6 @@ Material Symbols have four adjustable stylistic variable font attributes called 
 
 Easily [incorporate Material Symbols](http://goo.gle/material-symbols-figma) into your latest designs on Figma.
 
-![Screenshot of Material Symbols plugin in Figma.](../../../assets/images/e3e7ce97164e-mltcduhy-3p-figma-lg.png)
+![Screenshot of Material Symbols plugin in Figma.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmltcduhy-3p-figma-lg.png?alt=media&token=a1c84384-eb21-4e70-a169-394e7bda6b98>)
 
 _Figma Symbols plugin_

@@ -2,7 +2,7 @@
 title: "Announcing Relay Alpha"
 source_url: "https://m3.material.io/blog/relay-in-alpha"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/ede0503690b9-QyoYgJkRYvwl5nPx8Nlg1b1aNjlaJyiyGhVJ988jvjY8jAEzeXkOhmx67JaRl-oR_hKA5hVUK5f5Aa-xOBumxs2_JaPX4uXB.png"
@@ -12,7 +12,7 @@ assets:
 
 A new design-to-code workflow for Android UI
 
-![Image](../../assets/images/ede0503690b9-QyoYgJkRYvwl5nPx8Nlg1b1aNjlaJyiyGhVJ988jvjY8jAEzeXkOhmx67JaRl-oR_hKA5hVUK5f5Aa-xOBumxs2_JaPX4uXB.png)
+![Image](<https://lh3.googleusercontent.com/QyoYgJkRYvwl5nPx8Nlg1b1aNjlaJyiyGhVJ988jvjY8jAEzeXkOhmx67JaRl-oR_hKA5hVUK5f5Aa-xOBumxs2_JaPX4uXBfr5jkK0L9hSgF5ITcw>)
 
 Published: 2022-10-24T09:00:00
 

@@ -2,7 +2,7 @@
 title: "Motion physics system"
 source_url: "https://m3.material.io/styles/motion/overview/how-it-works"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/videos/b55508eddab1-m9d3dbjl-00_Hero-Expressive-New_Export.mp4"
@@ -92,7 +92,7 @@ For example, to apply fast, spatial, expressive motion, call the "expressive" mo
 
 Notice that the "expressive" scheme isn't part of the token itself. Rather, it's called at the product level and applied to all tokens. This makes it easier to swap schemes without changing assigned tokens.
 
-![A chart of the token structure. A scheme has 3 speeds. Each speed has a spatial token and an effects token.](../../../../assets/images/198549f58e52-m8or28vc-5.png)
+![A chart of the token structure. A scheme has 3 speeds. Each speed has a spatial token and an effects token.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fm8or28vc-5.png?alt=media&token=12806c6a-d624-4706-87bf-91cc61506aa1>)
 
 _Each scheme (expressive, standard) has three speeds (fast, default, slow) for two types of movement (spatial, effects)_
 

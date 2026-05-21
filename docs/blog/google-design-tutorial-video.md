@@ -2,7 +2,7 @@
 title: "Video: Google Design Tutorials"
 source_url: "https://m3.material.io/blog/google-design-tutorial-video"
 lastmod: "2024-06-04"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/896d2ad1c361-BaImr1pw4sYYzHmW0M7U8eLZVRf7z8dZSxvM61m9oNa0ZeycaVAdqXZ-72-sZe4q5miQj3pcTeqivf8ZQ0dtRS_FPzeSQnRF.png"
@@ -12,7 +12,7 @@ assets:
 
 A series of hands-on tutorial videos covering design, tooling, and implementation
 
-![Image](../../assets/images/896d2ad1c361-BaImr1pw4sYYzHmW0M7U8eLZVRf7z8dZSxvM61m9oNa0ZeycaVAdqXZ-72-sZe4q5miQj3pcTeqivf8ZQ0dtRS_FPzeSQnRF.png)
+![Image](<https://lh3.googleusercontent.com/BaImr1pw4sYYzHmW0M7U8eLZVRf7z8dZSxvM61m9oNa0ZeycaVAdqXZ-72-sZe4q5miQj3pcTeqivf8ZQ0dtRS_FPzeSQnRF_x4K5zUWzc-bIMwud4Q>)
 
 Published: 2019-09-01T13:01:00
 

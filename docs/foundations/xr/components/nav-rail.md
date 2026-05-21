@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/nav-rail"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -28,7 +28,7 @@ assets:
 
 Learn how Material 3 Expressive components adapt to extended reality devices
 
-![XR components](../../../../assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png)
+![XR components](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6grqe5-hero%20image.png?alt=media&token=77848b44-f2d9-4c6e-a51a-d4807d7ea9e4>)
 
 ## Nav rail
 
@@ -44,13 +44,13 @@ Extended reality (XR) interfaces have special design requirements, like showing 
 
 There are two variants of navigation rail orbiters: the contained FAB and spatialized FAB navigation rails.
 
-![Navigation bar orbiters with a contained FAB and a spatialized FAB.](../../../../assets/images/042d8ac85fee-mp5sirou-01-3P.png)
+![Navigation bar orbiters with a contained FAB and a spatialized FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5sirou-01-3P.png?alt=media&token=9e7d6650-d675-40ff-9598-318041a54cc4>)
 
 _Contained FAB rail; Spatialized FAB rail_
 
 ## Anatomy
 
-![Diagram of navigation rail orbiter identifying 9 internal elements of the component.](../../../../assets/images/678e989df20a-mp5sjxq7-02-3P.png)
+![Diagram of navigation rail orbiter identifying 9 internal elements of the component.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5sjxq7-02-3P.png?alt=media&token=fdcd5c66-8926-47f1-8b1b-713fea02f3e4>)
 
 _Container; Active indicator; Large badge (optional); Badge (optional); Large badge label (optional); Label text; Icon; Embedded or spatialized FAB (optional); Menu icon (optional)_
 
@@ -58,17 +58,17 @@ _Container; Active indicator; Large badge (optional); Badge (optional); Large ba
 
 On XR, color is used to highlight elevated UI elements and orbiters. With [spatial elevation](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-elevation), the navigation bar displays above the [spatial panel](https://developer.android.com/design/ui/xr/guides/spatial-ui#spatial-panels), on the Z-axis. Color communicates elevation on UI elements and orbiters. Elevated nav rails can use any of these color options:
 
-![4 versions of elevation color strategy.](../../../../assets/images/162f45d3c74e-mp5smtp2-03-3P.png)
+![4 versions of elevation color strategy.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5smtp2-03-3P.png?alt=media&token=d455db2e-29cb-48be-9f31-8e8f60bb8956>)
 
 _Surface container with tertiary FAB; Surface container high with tertiary fixed dim FAB; Surface container highest with tertiary fixed dim FAB; Tertiary container with primary FAB_
 
 ## Measurements
 
-![Measurements and padding for navigation rail orbiter with contained FAB.](../../../../assets/images/80a8ce289daf-mp5sl333-04-3P.png)
+![Measurements and padding for navigation rail orbiter with contained FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5sl333-04-3P.png?alt=media&token=c4c50bc2-0f1f-4955-9b4d-1fdfb6eb3d9a>)
 
 _Navigation rail orbiter padding and measurements with contained FAB_
 
-![Measurements and padding for navigation rail orbiter with spatialized FAB.](../../../../assets/images/93f54ff4fec0-mp5slo7l-05-3P.png)
+![Measurements and padding for navigation rail orbiter with spatialized FAB.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp5slo7l-05-3P.png?alt=media&token=431aeed3-0cb7-4811-b04f-c759f09bb4af>)
 
 _Navigation rail orbiter padding and measurements with spatialized FAB_
 

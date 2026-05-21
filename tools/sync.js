@@ -44,6 +44,15 @@ turndown.addRule("video", {
   },
 });
 
+turndown.addRule("image", {
+  filter: "img",
+  replacement: (_content, node) => {
+    const src = node.getAttribute("src") || "";
+    const alt = node.getAttribute("alt") || "Image";
+    return src ? `![${alt}](${markdownDestination(src)})` : "";
+  },
+});
+
 turndown.addRule("table", {
   filter: "table",
   replacement: (_content, node) => {
@@ -61,6 +70,7 @@ function parseArgs(argv) {
     concurrency: 4,
     skipAssets: false,
     forceAssets: false,
+    imageLinks: "remote",
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -77,6 +87,10 @@ function parseArgs(argv) {
       args.skipAssets = true;
     } else if (arg === "--force-assets") {
       args.forceAssets = true;
+    } else if (arg === "--image-links") {
+      args.imageLinks = normalizeImageLinkMode(argv[++i]);
+    } else if (arg.startsWith("--image-links=")) {
+      args.imageLinks = normalizeImageLinkMode(arg.slice("--image-links=".length));
     } else if (/^\d+$/u.test(arg) && args.limit === null) {
       args.limit = Number(arg);
     } else {
@@ -92,6 +106,17 @@ function parseArgs(argv) {
   }
 
   return args;
+}
+
+function normalizeImageLinkMode(value) {
+  const normalized = String(value || "").trim().toLowerCase();
+  if (normalized === "remote" || normalized === "direct") {
+    return "remote";
+  }
+  if (normalized === "local") {
+    return "local";
+  }
+  throw new Error("--image-links must be remote or local.");
 }
 
 function toPosix(value) {
@@ -354,7 +379,8 @@ class HttpClient {
 }
 
 class AssetRegistry {
-  constructor() {
+  constructor(imageLinks = "remote") {
+    this.imageLinks = imageLinks;
     this.assets = new Map();
   }
 
@@ -817,7 +843,7 @@ function htmlToMarkdown(html, context) {
       alt: node.attr("alt") || "",
     });
     if (asset) {
-      node.attr("src", context.assets.relativePath(asset, context.outputPath));
+      node.attr("src", imageReference(asset, context.outputPath, context.assets));
     }
   });
 
@@ -889,12 +915,20 @@ function renderFrontmatter(page, assets) {
 }
 
 function renderImage(asset, alt, caption, outputPath, assets) {
-  const relative = assets.relativePath(asset, outputPath);
-  const lines = [`![${alt || "Image"}](${relative})`];
+  const href = imageReference(asset, outputPath, assets);
+  const lines = [`![${alt || "Image"}](${markdownDestination(href)})`];
   if (caption) {
     lines.push("", `_${plainText(caption)}_`);
   }
   return lines.join("\n");
+}
+
+function markdownDestination(value) {
+  return `<${String(value || "").replace(/>/gu, "%3E")}>`;
+}
+
+function imageReference(asset, outputPath, assets) {
+  return assets.imageLinks === "local" ? assets.relativePath(asset, outputPath) : asset.source_url;
 }
 
 function renderVideo(asset, label, outputPath, assets) {
@@ -963,7 +997,7 @@ function replaceBlogPlaceholders(html, block, context, pageAssets) {
     }
     const asset = context.assets.register(image.url, "images", image);
     pageAssets.add(asset.source_url);
-    node.replaceWith(`<figure><img src="${escapeHtml(context.assets.relativePath(asset, context.outputPath))}" alt="${escapeHtml(image.alt)}"><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`);
+    node.replaceWith(`<figure><img src="${escapeHtml(imageReference(asset, context.outputPath, context.assets))}" alt="${escapeHtml(image.alt)}"><figcaption>${escapeHtml(image.caption)}</figcaption></figure>`);
   });
 
   $("mio-video").each((_index, element) => {
@@ -1494,7 +1528,7 @@ async function main() {
   const { allowed, skipped } = filterEntries(sitemapEntries, disallows);
   const selected = selectEntries(allowed, args.limit, routeIndex);
   const urlOutputMap = buildUrlOutputMap(selected, routeIndex);
-  const assets = new AssetRegistry();
+  const assets = new AssetRegistry(args.imageLinks);
   const snapshotAt = new Date().toISOString();
 
   const manifest = {
@@ -1502,6 +1536,7 @@ async function main() {
     snapshot_at: snapshotAt,
     carbon_version: carbonVersion,
     main_bundle_url: mainBundleUrl,
+    image_links: args.imageLinks,
     limited: Boolean(args.limit),
     limit: args.limit,
     totals: {

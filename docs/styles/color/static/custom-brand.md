@@ -2,7 +2,7 @@
 title: "Static color schemes"
 source_url: "https://m3.material.io/styles/color/static/custom-brand"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/ec2f59139e5d-ln4ilrfy-brand-baseline.png"
@@ -21,7 +21,7 @@ In a brand-based static scheme, the colors are hand-picked by your team to align
 -   An accessible UI with static colors
 -   A product that "looks like its brand"
 
-![Left: A swirling red, magenta and green sphere representing a meditation app logo. Center: A color scheme created from the three brand colors in the sphere. Right: A screen of the meditation app colored in red, magenta, and green UI.](../../../../assets/images/ec2f59139e5d-ln4ilrfy-brand-baseline.png)
+![Left: A swirling red, magenta and green sphere representing a meditation app logo. Center: A color scheme created from the three brand colors in the sphere. Right: A screen of the meditation app colored in red, magenta, and green UI.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Fln4ilrfy-brand-baseline.png?alt=media&token=7831c3fc-1a36-4aa2-a583-65474ec97d3d>)
 
 _This example meditation app uses a static scheme created from its brand colors._
 

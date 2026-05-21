@@ -2,7 +2,7 @@
 title: "Building Beautiful Transitions with Material Motion for Android"
 source_url: "https://m3.material.io/blog/android-material-motion"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/fd8aab0a2a96-dS_AmHPhlU7QlWQB8Ra69FyHf8_7rO8BdTBkOlp2sE0_MUYTqvdAXj7oy4dDIpbNTSosYjyHvH91lpo0wO5WoRccqfIGCBO0.png"
@@ -15,7 +15,7 @@ assets:
 
 Introducing four transition patterns and how to add them to your app
 
-![Image](../../assets/images/fd8aab0a2a96-dS_AmHPhlU7QlWQB8Ra69FyHf8_7rO8BdTBkOlp2sE0_MUYTqvdAXj7oy4dDIpbNTSosYjyHvH91lpo0wO5WoRccqfIGCBO0.png)
+![Image](<https://lh3.googleusercontent.com/dS_AmHPhlU7QlWQB8Ra69FyHf8_7rO8BdTBkOlp2sE0_MUYTqvdAXj7oy4dDIpbNTSosYjyHvH91lpo0wO5WoRccqfIGCBO0l3efAw>)
 
 Published: 2020-09-01T13:02:00
 
@@ -34,7 +34,7 @@ If you’re more of a hands-on learner and want to get right into the code, then
 
 ## Container transform: Opening an email
 
-![](../../assets/images/d8cf70569c87-AnhVnJUJrCtLcWWWn6T8ZKSfClW20_1oSGc1eNtTEgAJdGiy2xlhkyjpuALSrhZhDKkojVyGc1sGjBIXd7HsxRJE7OXqbKMI.png)
+![Image](<https://lh3.googleusercontent.com/AnhVnJUJrCtLcWWWn6T8ZKSfClW20_1oSGc1eNtTEgAJdGiy2xlhkyjpuALSrhZhDKkojVyGc1sGjBIXd7HsxRJE7OXqbKMIkaHQUw>)
 
 The “hero” of transitions, container transform is used when one thing turns into another thing. Examples include a list item that expands into a details page, a [FAB](https://material.io/components/buttons-floating-action-button) that morphs into a toolbar, or a [chip](https://material.io/components/chips) that expands into a floating [card](https://material.io/components/cards). In each case there is one component transforming into another, maintaining a shared “outer” container while animating a swap of “inner” content. Using a container transform to animate between views can help reinforce their relationship and maintain a user’s [navigational context](https://material.io/design/navigation/navigation-transitions.html#hierarchical-transitions).
 
@@ -62,7 +62,7 @@ Moving on to our search screen!
 
 ## Shared Axis: Opening the search page
 
-![](../../assets/images/f9399960fbaa-RZWkyHEl4Gd7-6ay5-RtpEmT4KuQZM1iHx-C_q4XOtkU6qHInwzGP3cUbkhpzE2igDuvaityQQXAy17ETtqcF8M6ht37quar.png)
+![Image](<https://lh3.googleusercontent.com/RZWkyHEl4Gd7-6ay5-RtpEmT4KuQZM1iHx-C_q4XOtkU6qHInwzGP3cUbkhpzE2igDuvaityQQXAy17ETtqcF8M6ht37quartcwEVw>)
 
 The shared axis pattern is used for transitions between UI elements that have a spatial or navigational relationship. In Reply, opening search takes the user to a new page that sits on top of the list of emails. To illustrate this 3-dimensional model, we can use a shared z-axis transition between the list of emails (`[HomeFragment](https://github.com/material-components/material-components-android-examples/blob/develop/Reply/app/src/main/java/com/materialstudies/reply/ui/home/HomeFragment.kt)`) and the search page (`[SearchFragment](https://github.com/material-components/material-components-android-examples/blob/develop/Reply/app/src/main/java/com/materialstudies/reply/ui/search/SearchFragment.kt)`).
 
@@ -87,7 +87,7 @@ With that, we should have a nice shared z-axis transition to and from our search
 
 ## Fade Through: Switching mailboxes
 
-![](../../assets/images/c49633af9c94-cHY9pZOafRsr48xcMbF5Z5C97ikL_EQVay4jHafJy6wsPL9o3Xoa4wOErBjlmg371UOBGvCaDCMh3aEDhZwlLLdYrKmebb6J.png)
+![Image](<https://lh3.googleusercontent.com/cHY9pZOafRsr48xcMbF5Z5C97ikL_EQVay4jHafJy6wsPL9o3Xoa4wOErBjlmg371UOBGvCaDCMh3aEDhZwlLLdYrKmebb6JjKQNY-8>)
 
 The last pattern we’ll cover is the fade through pattern. A fade through can be used to transition between UI elements that do not have a strong relationship. When transitioning between mailboxes, we don’t want the user to think their sent emails are navigationally related to their inbox. Since each mailbox is a top-level destination, fade through is an appropriate choice. In Reply, we’ll be replacing the list of emails ([`HomeFragment`](https://github.com/material-components/material-components-android-examples/blob/develop/Reply/app/src/main/java/com/materialstudies/reply/ui/home/HomeFragment.kt)) with a different list of emails ([`HomeFragment`](https://github.com/material-components/material-components-android-examples/blob/develop/Reply/app/src/main/java/com/materialstudies/reply/ui/home/HomeFragment.kt) with new arguments).
 

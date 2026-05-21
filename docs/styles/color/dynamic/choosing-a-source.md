@@ -2,7 +2,7 @@
 title: "Dynamic color schemes"
 source_url: "https://m3.material.io/styles/color/dynamic/choosing-a-source"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/5825ec311011-lnc8u840-01.png"
@@ -34,7 +34,7 @@ Choose a user-generated color source if:
 
 [**Get started with user-generated color**](user-generated-source.md)
 
-![Thumbnail of a floral red wallpaper with a line pointing to an app screen with a red color scheme.](../../../../assets/images/5825ec311011-lnc8u840-01.png)
+![Thumbnail of a floral red wallpaper with a line pointing to an app screen with a red color scheme.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flnc8u840-01.png?alt=media&token=2a28a37a-c566-4ebf-a20f-5b92b16e5b66>)
 
 _An app colored with a dynamic user-generated scheme sourced from the user's red wallpaper._
 
@@ -49,7 +49,7 @@ Choose a content-based color source if:
 
 [**Get started with content-based color**](content-based-source.md)
 
-![A thumbnail of a teal album art with a line pointing to an app screen with a teal color scheme.](../../../../assets/images/552d13583b2d-ln4j2i04-02.png)
+![A thumbnail of a teal album art with a line pointing to an app screen with a teal color scheme.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Fln4j2i04-02.png?alt=media&token=ef023ff4-6763-48d9-bab6-9ec0aa078ca0>)
 
 _An app colored with a dynamic content-based scheme sourced from the in-app album art._
 
@@ -64,6 +64,6 @@ Choose to use multiple color sources if:
 
 ![Thumbnail of green plants with a line (1) indicating green edit buttons in a photo app.
 Thumbnail of red wallpaper with a line (2) indicating red share buttons in the same photo app.
-](../../../../assets/images/0c556dedddd2-ln4j3qu9-03.png)
+](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgm3sandbox%2Fimages%2Fln4j3qu9-03.png?alt=media&token=e06645b9-aa5e-4cf7-9ecc-e04edc9de657>)
 
 _An app colored with schemes from multiple sources. Content-based color sourced from the in-app photo; User-generated color sourced from the user's wallpaper_

@@ -2,7 +2,7 @@
 title: "Say hello to Roboto Serif"
 source_url: "https://m3.material.io/blog/roboto-serif"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/7dc5c417ad44-c9g6hmATZbh4zbNGJzTheQB5xSMAb5V-5qScScebsPru-oXmtXtV5QCEqA1qfA71riID46K_UQBOWlsDflXtC57JTEOossFT.png"
@@ -16,7 +16,7 @@ assets:
 
 The newest member of the Roboto superfamily is designed to make reading more comfortable at any size, in any format.
 
-![Image](../../assets/images/7dc5c417ad44-c9g6hmATZbh4zbNGJzTheQB5xSMAb5V-5qScScebsPru-oXmtXtV5QCEqA1qfA71riID46K_UQBOWlsDflXtC57JTEOossFT.png)
+![Image](<https://lh3.googleusercontent.com/c9g6hmATZbh4zbNGJzTheQB5xSMAb5V-5qScScebsPru-oXmtXtV5QCEqA1qfA71riID46K_UQBOWlsDflXtC57JTEOossFTfFZ71JbxKri945OqvA>)
 
 Published: 2022-02-16T10:00:00
 
@@ -31,13 +31,13 @@ Thankfully, reading on-screen has gotten a lot more comfortable since the 90’s
 
 Roboto Serif joins the functional Roboto [superfamily](https://fonts.google.com/knowledge/glossary/superfamily) alongside [Roboto (sans serif), Mono, Slab, and Condensed](https://fonts.google.com/?query=roboto). But unlike Roboto Slab, the design of which was derived directly from Roboto, this newest serif brings its own identity to the collection. “We wanted it to feel comfortable next to a [sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif), and not to feel cluttered. It doesn't need to have serifs everywhere to drive home the point that, ‘I am a serif and have serifs in all the places serifs go,” said Rob Giampietro (formerly of Google Fonts, now a UX manager at Google). Giampietro initiated and guided the early development of the typeface with [Greg Gazdowicz](https://commercialtype.com/about/greg_gazdowicz) of [Commercial Type](https://commercialtype.com/). With their extensive experience in developing typefaces for longform publications (The Guardian, Vanity Fair, Helsingin Sanomat et al.), Commercial Type was a natural fit for the Google Fonts project.
 
-![Illustration of a dog holding a tablet with Roboto Serif characters](../../assets/images/ec539bab9914-6soF1BF8ULbAzsfhih9SwLqWrgIAs1JieK8Ibndo6Q0PxfgkHqEk9N8VxjQ0n1rzln-e_HJsykS-miFAcREO62hX-xFC4iM0.png)
+![Illustration of a dog holding a tablet with Roboto Serif characters](<https://lh3.googleusercontent.com/6soF1BF8ULbAzsfhih9SwLqWrgIAs1JieK8Ibndo6Q0PxfgkHqEk9N8VxjQ0n1rzln-e_HJsykS-miFAcREO62hX-xFC4iM0T8wZoufP4ObPejBtzOg>)
 
 Roboto Serif is a minimal workhorse for comfortable reading by Commercial Type and Google Fonts.
 
 Gazdowicz and his team took an unconventional approach to type design with Roboto Serif. Instead of building off of an existing or historical typeface, they “atomized” the letterforms, breaking down the serif typeface to its elemental parts. Then they built them back up by experimenting with various [proportions](https://fonts.google.com/knowledge/glossary/typeface), [contrast](https://fonts.google.com/knowledge/glossary/contrast) types, [terminal](https://fonts.google.com/knowledge/glossary/terminal) shapes, and serif shapes to find out what was most [legible](https://fonts.google.com/knowledge/glossary/legibility_readability) for each character. “It was really a matter of stripping out subtleties to find very deliberate shapes—and make deliberate decisions,” said Gazdowicz.
 
-![Illustration of a person chiseling the Roboto Serif “M” in their workshop](../../assets/images/5a2848bf9c0d-ZY4sGHWIrCdia7ZFAHbuk6_KEjsbTqa8w3fYrs3kFQTEqV6rLnrny2Tl4J6SNSsY9pE8W5ICbYibKylU3J1_Jsky_FybQ2Jj.png)
+![Illustration of a person chiseling the Roboto Serif “M” in their workshop](<https://lh3.googleusercontent.com/ZY4sGHWIrCdia7ZFAHbuk6_KEjsbTqa8w3fYrs3kFQTEqV6rLnrny2Tl4J6SNSsY9pE8W5ICbYibKylU3J1_Jsky_FybQ2JjkSEnAUrB-Dw7yKLGmwg>)
 
 Roboto Serif was created by experimenting with different shapes and proportions to find out what was most readable.
 
@@ -52,13 +52,13 @@ The resulting aesthetic harmonizes with the rest of the Roboto superfamily inste
 
 In addition to its minimal design that works well at any scale, Roboto Serif was created as a variable font with [weight](https://fonts.google.com/knowledge/glossary/weight), [width](https://fonts.google.com/knowledge/glossary/width), [grade](https://variablefonts.typenetwork.com/topics/grades/variations), and [optical size axes](https://fonts.google.com/knowledge/glossary/optical_sizes).
 
-![](../../assets/images/a225d90bfc94-Dz59C55hWNn7bUef2BZEXwSb08sJFbga7jM1WU3W8fu9JvTkP9JLW3hfoVricvTiaYHumh6cewgSCS4OMHFKN-GToZOasag3.png)
+![Image](<https://lh3.googleusercontent.com/Dz59C55hWNn7bUef2BZEXwSb08sJFbga7jM1WU3W8fu9JvTkP9JLW3hfoVricvTiaYHumh6cewgSCS4OMHFKN-GToZOasag3KtL2VZHatN8qvl5j5UQ>)
 
 Roboto Serif automatically optimizes to be most legible for the point size you choose.
 
 Roboto Serif’s Optical Size axis is especially noteworthy. Optical sizes are different versions of a typeface optimized for use at specific sizes or size ranges. In order to include an optical size axis in a variable font, type designers draw the typeface at least twice—once for small applications (e.g. [body](https://fonts.google.com/knowledge/glossary/body) text) and another for large applications (e.g. [display](https://fonts.google.com/knowledge/glossary/display) text). Then the user can designate any point in between those two extremes to optimize the design for the size of their text.
 
-![144pt “optical size” set in both 144pt optical size (left) and 8pt optical size (right), with illustrations](../../assets/images/8195e6234830-OKyWtrS86ncDFSlBN2mW9pYxV3CMDclNNp32KfUPZ_CnJQPeN-kvzRuFKBX0OpS8Q5dnor_5PcdgdUL6_gEnN2xIzP_PAYLy.png)
+![144pt “optical size” set in both 144pt optical size (left) and 8pt optical size (right), with illustrations](<https://lh3.googleusercontent.com/OKyWtrS86ncDFSlBN2mW9pYxV3CMDclNNp32KfUPZ_CnJQPeN-kvzRuFKBX0OpS8Q5dnor_5PcdgdUL6_gEnN2xIzP_PAYLyMV3GW20nEttqcGTySl26>)
 
 144pt Roboto Serif set in 144pt optical size (left) and 8pt optical size (right)
 

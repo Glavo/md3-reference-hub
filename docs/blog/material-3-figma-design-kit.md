@@ -2,7 +2,7 @@
 title: "Introducing the M3 design kit for Figma"
 source_url: "https://m3.material.io/blog/material-3-figma-design-kit"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/2bc614b90413-njAw6ZMF6WzfvQoirrfVNMbSc8LHXMTawSd1zvMQRxnPhEzWKBG_POU_Gi5fCeB5ftB00co0V-52Fj2gqv9LWX6RRagds2Sn.png"
@@ -15,7 +15,7 @@ assets:
 
 Jumpstart your designs with ready-to-use components and styles in Figma
 
-![Decorative collage of Material Components](../../assets/images/2bc614b90413-njAw6ZMF6WzfvQoirrfVNMbSc8LHXMTawSd1zvMQRxnPhEzWKBG_POU_Gi5fCeB5ftB00co0V-52Fj2gqv9LWX6RRagds2Sn.png)
+![Decorative collage of Material Components](<https://lh3.googleusercontent.com/njAw6ZMF6WzfvQoirrfVNMbSc8LHXMTawSd1zvMQRxnPhEzWKBG_POU_Gi5fCeB5ftB00co0V-52Fj2gqv9LWX6RRagds2SnYYorUZY5B5Glr8NWaw>)
 
 _Illustration by Reed Hollett_
 
@@ -48,13 +48,13 @@ Beyond components, variants, and interaction states, the M3 design kit lets you 
 
 The new design kit **uses Figma's most advanced features** – we’ve added metadata showing accessibility, color values, token names, robust variants, and interaction state details.
 
-![A time picker component and its variants can be viewed alongside the inspection panel, which shows the selected region’s color role.](../../assets/images/dc634e1b86cc-KiYkMv-Cyvi80oHQbYORznWWfaAx8mKtZye6OIgmCvAu-VpZUspSvKxi8GgEITK0O-YdYJRadEN6PBkjMxCG2jgzyAERZ-qQ.png)
+![A time picker component and its variants can be viewed alongside the inspection panel, which shows the selected region’s color role.](<https://lh3.googleusercontent.com/KiYkMv-Cyvi80oHQbYORznWWfaAx8mKtZye6OIgmCvAu-VpZUspSvKxi8GgEITK0O-YdYJRadEN6PBkjMxCG2jgzyAERZ-qQYoy8TEaJex2Ef91MEB4>)
 
 Inspect elements to identify Material component specs within your Figma workflow
 
 ## Get started
 
-![](../../assets/images/769143132903-dK1tZdUUt-VXxIcZU6_pQWTPwIVr7L7JhlAKJPqBdsGsbzxF6UlDtQPtQD9og7iGFCTZlXbcwHD8HRWiG-kLcwgISCPPoKV5.png)
+![Image](<https://lh3.googleusercontent.com/dK1tZdUUt-VXxIcZU6_pQWTPwIVr7L7JhlAKJPqBdsGsbzxF6UlDtQPtQD9og7iGFCTZlXbcwHD8HRWiG-kLcwgISCPPoKV5ciGeDcASp61EJ-aa3g>)
 
 To start using the design kit, visit the Figma Community page for Material 3 Design Kit and select Get a copy.
 

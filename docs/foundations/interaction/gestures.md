@@ -2,7 +2,7 @@
 title: "Gestures"
 source_url: "https://m3.material.io/foundations/interaction/gestures"
 lastmod: "2026-01-09"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/videos/cef768e47ec3-lx1faal8-1P-Tap-2_NewSize.mp4"
@@ -63,7 +63,7 @@ People can access additional functionality by pressing on elements for an extend
 
 People can slide surfaces vertically, horizontally, or in any direction to move through content.
 
-![Scrolling a feed.Scrolling up and down in a photo feed.](../../../assets/images/7a633d4bc2a4-lfspc3ip-Frame-1321316884.png)
+![Scrolling a feed.Scrolling up and down in a photo feed.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flfspc3ip-Frame%201321316884.png?alt=media&token=b441d0e3-4be2-4893-bb70-0dad4009f2fd>)
 
 _Vertical scrolling reveals more content_
 
@@ -113,7 +113,7 @@ People can move elements around and slide surfaces in and out of view.
 
 A long press and drag allows people to reorder content.
 
-![Picking up and moving a calendar event to a new time.](../../../assets/images/15b6cf9fda06-lfspfq2u-Frame-1321316884.png)
+![Picking up and moving a calendar event to a new time.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flfspfq2u-Frame%201321316884.png?alt=media&token=7826053f-c367-4de0-bfe5-360152375e90>)
 
 _A calendar event can be picked up and moved to a new time_
 
@@ -121,7 +121,7 @@ _A calendar event can be picked up and moved to a new time_
 
 People can scale surfaces to navigate between screens.
 
-![Dragging two points apart opens photo to full screen, dragging them towards each other collapses the photo.](../../../assets/images/9402af8212ef-lfspfz4b-Frame-1321316884.png)
+![Dragging two points apart opens photo to full screen, dragging them towards each other collapses the photo.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flfspfz4b-Frame%201321316884.png?alt=media&token=11ef608d-a1db-47e3-a91b-a9c9a2316b72>)
 
 _A photo can be pinched outward to a full screen view_
 
@@ -129,6 +129,6 @@ _A photo can be pinched outward to a full screen view_
 
 People can fluidly transition between various gestures, like panning and pinching in a map view.
 
-![Pan gesture moves map, then pinch gesture is used to zoom out then in.](../../../assets/images/d943e95d255e-lfspgde2-Frame-1321316884.png)
+![Pan gesture moves map, then pinch gesture is used to zoom out then in.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flfspgde2-Frame%201321316884.png?alt=media&token=325102a5-744b-4ac4-bcaa-8353bab5298f>)
 
 _A map UI can be navigated through a combination of pan and pinch_

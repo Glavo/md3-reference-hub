@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/5dd9c8412960-mg0vkh7s-1.png"
@@ -30,7 +30,7 @@ People should be able to use assistive technology to:
 
 Users should be able to select either the text label or the checkbox to select an option.
 
-![In a list, checkboxes for 2 items are selected via their text labels.](../../../assets/images/5dd9c8412960-mg0vkh7s-1.png)
+![In a list, checkboxes for 2 items are selected via their text labels.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vkh7s-1.png?alt=media&token=7e1977e6-bb1a-4a66-b82b-3e0fddb18e2f>)
 
 _A checkbox selected via the text label_
 
@@ -40,7 +40,7 @@ Checkboxes can be selected or unselected regardless of the state of the other ch
 
 If some, but not all, child checkboxes are checked, the parent checkbox becomes indeterminate. Selecting an indeterminate parent checkbox will check all of its child checkboxes.
 
-![In a list, a child checkbox for 1 item is selected and the parent checkbox is in indeterminate state.](../../../assets/images/b8f750f0d780-mcyq4z51-2.png)
+![In a list, a child checkbox for 1 item is selected and the parent checkbox is in indeterminate state.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmcyq4z51-2.png?alt=media&token=e2bf5c82-a9b2-403d-a5cd-fe09f708969a>)
 
 _An indeterminate selection indicating that at least one checkbox is selected within a group_
 
@@ -65,6 +65,6 @@ If the UI text is correctly linked to the checkbox, assistive tech (such as a sc
 
 The accessibility label for an individual checkbox is typically the same as its adjacent text label.
 
-![Accessibility labels of a checkbox.](../../../assets/images/c3c3f254950d-mg0vlqi0-3.png)
+![Accessibility labels of a checkbox.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmg0vlqi0-3.png?alt=media&token=991b19e5-257d-4db0-9f2b-bc0ab092eeda>)
 
 _The accessibility label clearly states the text label of the checkbox_

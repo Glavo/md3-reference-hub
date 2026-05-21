@@ -2,7 +2,7 @@
 title: "Static color schemes"
 source_url: "https://m3.material.io/styles/color/static/baseline"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "styles"
 assets:
   - "assets/images/5af3367e4d72-m4k1tpg9-5.png"
@@ -23,11 +23,11 @@ Static color schemes are ideal for branded products that should have a consisten
 
 -   An accessible UI with static colors
 
-![Mobile screenshot of music app.](../../../../assets/images/5af3367e4d72-m4k1tpg9-5.png)
+![Mobile screenshot of music app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fm4k1tpg9-5.png?alt=media&token=dda9b25f-bc8f-4e00-9f58-9ab6ce13992b>)
 
 _Music app with the static baseline color scheme_
 
-![Tablet screenshot of a news app.](../../../../assets/images/bcb7d45b5696-mlikbtg5-6.png)
+![Tablet screenshot of a news app.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmlikbtg5-6.png?alt=media&token=de29864e-b470-478d-9e1a-fcc5a71efab2>)
 
 _News app with the static baseline color scheme_
 
@@ -35,11 +35,11 @@ _News app with the static baseline color scheme_
 
 Get baseline colors in Figma using the Material Theme Builder.
 
-![Color swatches showing the entire baseline color scheme and derivative accent colors.](../../../../assets/images/02eba760291c-lnomy8pz-static-baseline-colors-lt.png)
+![Color swatches showing the entire baseline color scheme and derivative accent colors.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flnomy8pz-static-baseline-colors-lt.png?alt=media&token=20375678-67a0-456b-9253-ae2962e98fbe>)
 
 _Baseline scheme colors in light theme_
 
-![Color swatches showing the entire baseline color scheme and derivative accent colors.](../../../../assets/images/5d000a4ec743-lnomz44y-static-baseline-colors-lt-1.png)
+![Color swatches showing the entire baseline color scheme and derivative accent colors.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Flnomz44y-static-baseline-colors-lt-1.png?alt=media&token=16d4a7f3-64a6-477f-8c18-e1f05033550f>)
 
 _Baseline scheme colors in dark theme_
 

@@ -2,7 +2,7 @@
 title: "Buttons"
 source_url: "https://m3.material.io/components/buttons/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/images/69237f19b6c4-mnhhn4lk-01-3P.png"
@@ -33,7 +33,7 @@ Buttons prompt most actions in a UI
 
 ## Variants
 
-![Diagram comparing buttons with toggle buttons.](../../../assets/images/69237f19b6c4-mnhhn4lk-01-3P.png)
+![Diagram comparing buttons with toggle buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmnhhn4lk-01-3P.png?alt=media&token=f2e9d292-4cc2-48bc-89c5-91fedff0ecf1>)
 
 _Default button; Toggle button_
 
@@ -44,7 +44,7 @@ _Default button; Toggle button_
 
 ## Configurations
 
-![Diagram showing configurations of buttons.](../../../assets/images/8b8c280373e7-mmneq41m-02-3P.png)
+![Diagram showing configurations of buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmneq41m-02-3P.png?alt=media&token=505244df-55c9-4406-83ef-9af3c370fb89>)
 
 _Size; Shape; Color; Small button padding_
 
@@ -87,7 +87,7 @@ Component: Buttons
 
 ## Anatomy
 
-![Diagram labeling 3 parts of a button.](../../../assets/images/cef051a7a748-mmneqix9-03-3P.png)
+![Diagram labeling 3 parts of a button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmneqix9-03-3P.png?alt=media&token=05fc9372-a4d6-4e91-9f86-8d2959be78b3>)
 
 _Container; Label text; Icon (optional)_
 
@@ -107,7 +107,7 @@ Note:
 
 These color roles were chosen to create design coherence and familiarity. Other color roles can be used as long as the container and text have a 3:1 contrast ratio. For example, tertiary and on tertiary.
 
-![Diagram shows dark and light color schemes for buttons.](../../../assets/images/541937492a23-mmner6e7-04-3P.png)
+![Diagram shows dark and light color schemes for buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmner6e7-04-3P.png?alt=media&token=ea59a3bb-f3fc-43ca-af7d-6cc7898c378d>)
 
 _A. Elevated, B. Filled, C. Tonal, D. Outlined, E. Text Default; Toggle: unselected; Toggle: selected_
 
@@ -129,13 +129,13 @@ The elevated button style has an elevation of 1 by default and 0 when disabled.
 
 #### Default
 
-![Elevated button states.](../../../assets/images/3ce412947ae2-mmnesmjm-06-3P.png)
+![Elevated button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnesmjm-06-3P.png?alt=media&token=96e8c029-e1e8-472e-b4a1-767a8d9b9e1b>)
 
 _Enabled; Disabled; Hovered; Focused; Pressed_
 
 #### Toggle
 
-![Toggle elevated button states.](../../../assets/images/fcbd5765614b-mmnet1qn-07-3P.png)
+![Toggle elevated button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnet1qn-07-3P.png?alt=media&token=d0320826-723d-4e6b-bce8-36f026c997d1>)
 
 _A. Unselected, B. Selected Enabled; Disabled; Hovered; Focused; Pressed_
 
@@ -143,13 +143,13 @@ _A. Unselected, B. Selected Enabled; Disabled; Hovered; Focused; Pressed_
 
 #### Default
 
-![Filled button states.](../../../assets/images/4ccc8ece1219-mmneu2zl-08-3P.png)
+![Filled button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmneu2zl-08-3P.png?alt=media&token=85a9b3f6-81d7-45b9-8355-882a776b1004>)
 
 _Enabled; Disabled; Hovered; Focused; Pressed_
 
 #### Toggle
 
-![Toggle filled button states.](../../../assets/images/f37fd3b5febd-mnhkhbya-09-3P.png)
+![Toggle filled button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmnhkhbya-09-3P.png?alt=media&token=4d91d61b-742a-4cb2-b1c3-bb91c30d7c37>)
 
 _A. Unselected, B. Selected Enabled; Disabled; Hovered; Focused; Pressed_
 
@@ -157,13 +157,13 @@ _A. Unselected, B. Selected Enabled; Disabled; Hovered; Focused; Pressed_
 
 #### Default
 
-![Tonal button states.](../../../assets/images/667a6d930f94-mmneuv7c-10-3P.png)
+![Tonal button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmneuv7c-10-3P.png?alt=media&token=72439eb0-b173-49bb-9e6f-05bbc05fcce6>)
 
 _Enabled; Disabled; Hovered; Focused; Pressed_
 
 #### Toggle
 
-![Toggle tonal button states.](../../../assets/images/39c5568fe0b1-mmnevsol-11-3P.png)
+![Toggle tonal button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnevsol-11-3P.png?alt=media&token=98ef1d74-1ea3-4dfa-8eb8-423776f5a91f>)
 
 _A. Unselected, B. Selected Enabled; Disabled; Hovered; Focused; Pressed_
 
@@ -173,13 +173,13 @@ The outlined button’s container fill is invisible at rest, but the opacity and
 
 #### Default
 
-![Outlined button states.](../../../assets/images/db8ffb04e721-mmnewg2s-12-3P.png)
+![Outlined button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnewg2s-12-3P.png?alt=media&token=704b2a67-f91b-4d45-83b5-518b79385ac6>)
 
 _Enabled; Disabled; Hovered; Focused; Pressed_
 
 #### Toggle
 
-![Outlined button states.](../../../assets/images/4c1d06a35bc0-mmnexggd-13-3P.png)
+![Outlined button states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnexggd-13-3P.png?alt=media&token=105359d5-1b67-45b7-a585-a901da09aeef>)
 
 _Enabled; Disabled; Hovered; Focused; Pressed_
 
@@ -187,7 +187,7 @@ _Enabled; Disabled; Hovered; Focused; Pressed_
 
 The text button’s container is invisible at rest, but the opacity and state layers behave the same as other button styles when disabled, hovered, focused, or pressed. There is no toggle text button.
 
-![Default text button style states.](../../../assets/images/7449244fafbc-mmneyf25-14-3P.png)
+![Default text button style states.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmneyf25-14-3P.png?alt=media&token=02800d8d-417f-4612-8e0e-3f9edf30f1a6>)
 
 _Enabled; Disabled; Hovered; Focused; Pressed_
 
@@ -199,7 +199,7 @@ When pressed, buttons can morph to become more square. Both round and square but
 
 The corner radius value differs for each button size. [See full button corner measurements](specs.md#b1f39738-6f3a-409b-8f08-4cab6d78d756)
 
-![Shape changes of a button.](../../../assets/images/66b7aed7ffc0-mmneyrwe-15-3P.png)
+![Shape changes of a button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmneyrwe-15-3P.png?alt=media&token=32fe38c8-aa3d-4e9a-b907-b24fa1862a48>)
 
 _A. Round button, B. Square button Enabled; Hovered; Pressed_
 
@@ -209,13 +209,13 @@ In addition to changing shape when pressed, toggle buttons also change the resti
 
 If the resting unselected shape is square, the selected shape should be round.
 
-![Shape changes of a toggle button.](../../../assets/images/6183600d7529-mmnezbyl-16-3P.png)
+![Shape changes of a toggle button.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnezbyl-16-3P.png?alt=media&token=c47d2dc2-5f00-4ff1-b616-6617d140d79f>)
 
 _A. Round button, B. Square button Enabled; Hovered; Pressed; Selected_
 
 ## Measurements
 
-![Diagram of measurements of all button sizes.](../../../assets/images/020667773421-mmnf0bsj-17-3P.png)
+![Diagram of measurements of all button sizes.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnf0bsj-17-3P.png?alt=media&token=4c91ef4a-b41f-4b3a-8797-04d9a810c2ef>)
 
 _Padding and size measurements of each button size Extra small; Small; Medium; Large; Extra large_
 
@@ -223,13 +223,13 @@ _Padding and size measurements of each button size Extra small; Small; Medium; L
 
 Extra small and small icon buttons must have a target size of 48x48dp or larger to be accessible.
 
-![Diagram of small button target areas.](../../../assets/images/4d1260e9c76b-mmnf0o8e-18-3P.png)
+![Diagram of small button target areas.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnf0o8e-18-3P.png?alt=media&token=7107e16a-9ec0-4cd3-ad00-ba2e2bb75514>)
 
 _A. Extra small B. Small Round button; Button with icon; Square button_
 
 ### Corner sizes
 
-![Diagram of corner radii of buttons.](../../../assets/images/6897638d4a1f-mmnf14u5-19-3P.png)
+![Diagram of corner radii of buttons.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmmnf14u5-19-3P.png?alt=media&token=8caa9040-a710-4f1f-a6a4-d0bfd85fe7b5>)
 
 _/_
 

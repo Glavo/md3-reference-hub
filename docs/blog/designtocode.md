@@ -2,7 +2,7 @@
 title: "Design to Code: Turning Handoffs Into High-fives"
 source_url: "https://m3.material.io/blog/designtocode"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/f4c9b7f34f0e-qpnv-ci_KsPIo_qayXp3E8Tv4xKUIYA-JAgJdiOdmjLD_UuGP7875Lg65YqmBysrvbMBmTP0rM7jknOXrWd2ZZ1BVN-sY-B2.png"
@@ -14,7 +14,7 @@ assets:
 
 Teaming up with Figma to bring great UI from design to code
 
-![Image](../../assets/images/f4c9b7f34f0e-qpnv-ci_KsPIo_qayXp3E8Tv4xKUIYA-JAgJdiOdmjLD_UuGP7875Lg65YqmBysrvbMBmTP0rM7jknOXrWd2ZZ1BVN-sY-B2.png)
+![Image](<https://lh3.googleusercontent.com/qpnv-ci_KsPIo_qayXp3E8Tv4xKUIYA-JAgJdiOdmjLD_UuGP7875Lg65YqmBysrvbMBmTP0rM7jknOXrWd2ZZ1BVN-sY-B2avEOdsV4xeqcPSewItI>)
 
 Published: 2021-10-27T09:05:00
 
@@ -22,7 +22,7 @@ Design systems like Material have profoundly changed the way teams build digital
 
 ## The handoff problem
 
-![UI handoff remains one of the biggest pain points for teams building digital products](../../assets/images/ddc743002cb2-i6AGtN52tZIPNjmWc8k-VU_EVfS7-0Nc7jZS4qnKT12SRpn1CprTmu7Ml3LX8xqpUt8z4Ehw_AwHa3e39YWubsIHJqj7U_M5.png)
+![UI handoff remains one of the biggest pain points for teams building digital products](<https://lh3.googleusercontent.com/i6AGtN52tZIPNjmWc8k-VU_EVfS7-0Nc7jZS4qnKT12SRpn1CprTmu7Ml3LX8xqpUt8z4Ehw_AwHa3e39YWubsIHJqj7U_M5pnc3rjgC3V801Qcg5NoE>)
 
 UI handoff remains one of the biggest pain points for teams building digital products
 
@@ -30,7 +30,7 @@ Despite those improvements, design systems have yet to address one major frictio
 
 ## Design to code with Figma and Android Studio
 
-![Our design to code workflow preview allows teams to package UI components in Figma for Jetpack Compose Android projects](../../assets/images/9d9409837804-Gli8S2kChMQ1mGgVDqs7fTlT6j9Rm1vZY5C7se6_ZjaKjIEldtnMdhNlZa_Rmrz0Sv2OOQv0hcvN1L5VTlqCGeSyPo0L84j7.png)
+![Our design to code workflow preview allows teams to package UI components in Figma for Jetpack Compose Android projects](<https://lh3.googleusercontent.com/Gli8S2kChMQ1mGgVDqs7fTlT6j9Rm1vZY5C7se6_ZjaKjIEldtnMdhNlZa_Rmrz0Sv2OOQv0hcvN1L5VTlqCGeSyPo0L84j7MxtNzo8fVpR-iDlaoIUN>)
 
 Our design to code workflow preview allows teams to package UI components in Figma for Jetpack Compose Android projects
 

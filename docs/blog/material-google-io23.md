@@ -2,7 +2,7 @@
 title: "Material Design at I/O ‘23"
 source_url: "https://m3.material.io/blog/material-google-io23"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "blog"
 assets:
   - "assets/images/85c338a35fa3-_mruGfyg4GvStbvd4jmO36feG6f_f9a1uleCaw5V0EurPd9iyTFFal6ypXEc5v6vXF_fFl-6AQDj9at442qvFBGQEoFh2OrM.png"
@@ -12,7 +12,7 @@ assets:
 
 Get the latest Material 3 updates and online content at Google’s annual developer conference
 
-![Image](../../assets/images/85c338a35fa3-_mruGfyg4GvStbvd4jmO36feG6f_f9a1uleCaw5V0EurPd9iyTFFal6ypXEc5v6vXF_fFl-6AQDj9at442qvFBGQEoFh2OrM.png)
+![Image](<https://lh3.googleusercontent.com/_mruGfyg4GvStbvd4jmO36feG6f_f9a1uleCaw5V0EurPd9iyTFFal6ypXEc5v6vXF_fFl-6AQDj9at442qvFBGQEoFh2OrMFIEL1Mnxaaea9kfqAwc>)
 
 Published: 2023-05-01T10:00:00
 

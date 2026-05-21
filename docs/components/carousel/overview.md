@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "components"
 assets:
   - "assets/videos/322edda5b3f4-lwuthdnj-GM3-Components-Carousel-Overview-1-v01.mp4"
@@ -65,7 +65,7 @@ Additional layouts and configurations:
 
 -   Multi-browse layout
 
-![Items of different widths in an uncontained multi-aspect ratio layout.](../../../assets/images/ad8f3620137a-mljue787-02.png)
+![Items of different widths in an uncontained multi-aspect ratio layout.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmljue787-02.png?alt=media&token=995bfea7-ba9d-4d3a-b922-96ed26cf7de6>)
 
 _New carousel layout: uncontained multi-aspect ratio_
 
@@ -77,7 +77,7 @@ This component is new in Material 3.
 -   **Motion**: Carousel items move at a different speed than their content, creating a parallax effect
 -   **Interaction**: When scrolled, carousel items snap into place to maintain the same layout. Hero carousels swipe through one item at a time. Multi-browse carousels scroll through many items at once.
 
-![Carousel in a contained layout with a large item and a small item.](../../../assets/images/b90f5744a72b-lwur4ddz-3.png)
+![Carousel in a contained layout with a large item and a small item.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Flwur4ddz-3.png?alt=media&token=a42f76c5-c4fd-46fd-89a1-04b492638986>)
 
 _Hero carousels scroll through one large item at a time_
 

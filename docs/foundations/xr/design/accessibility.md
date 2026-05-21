@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/accessibility"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:20:48.794Z"
+snapshot_at: "2026-05-21T02:27:03.936Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"
@@ -15,7 +15,7 @@ assets:
 
 Resources and guidance for immersive extended reality (XR) devices
 
-![Design for immersive XR](../../../../assets/images/c96d3c3a1421-mp6oo483-hero-image.png)
+![Design for immersive XR](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fm3%2Fimages%2Fmp6oo483-hero%20image.png?alt=media&token=e98832ea-27a5-45b3-8e22-8838005536d6>)
 
 ## Accessibility
 
@@ -91,6 +91,6 @@ Don’t overlap targets of different elements.
 
 Targets and icons should scale with their parent container or label text.
 
-![A gear icon with a 56dp target size and 4dp offset.](../../../../assets/images/ab4134681d7e-mowvwpjp-04.png)
+![A gear icon with a 56dp target size and 4dp offset.](<https://firebasestorage.googleapis.com/v0/b/design-spec/o/projects%2Fgoogle-material-3%2Fimages%2Fmowvwpjp-04.png?alt=media&token=63476ba4-7831-4848-9433-7b86f7f99e1e>)
 
 _Use 56dp or larger target sizes for interactive elements_
