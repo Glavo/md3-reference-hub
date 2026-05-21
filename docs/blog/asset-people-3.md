@@ -2,7 +2,7 @@
 title: "Looking for What’s Missing"
 source_url: "https://m3.material.io/blog/asset-people-3"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/1894e621fb15-xuAQngD7mW3Ay_UFZEMhnqlx52Jn0J6whGNAWG7j_fNp1-NyI10G2ObYzSe3W3rJOjXpYxwhneuCLNryBty_WTIXuGZAaxkC.png"

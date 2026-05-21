@@ -2,7 +2,7 @@
 title: "Scaffold"
 source_url: "https://m3.material.io/foundations/layout/scaffold/bars"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "foundations"
 assets:
   - "assets/images/1ee7d60cfd68-mp3nck82-01.png"

@@ -2,7 +2,7 @@
 title: "Say hello to Roboto Serif"
 source_url: "https://m3.material.io/blog/roboto-serif"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/7dc5c417ad44-c9g6hmATZbh4zbNGJzTheQB5xSMAb5V-5qScScebsPru-oXmtXtV5QCEqA1qfA71riID46K_UQBOWlsDflXtC57JTEOossFT.png"

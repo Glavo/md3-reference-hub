@@ -2,7 +2,7 @@
 title: "Bottom sheets"
 source_url: "https://m3.material.io/components/bottom-sheets/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/df25caa58914-lvutved1-1.png"
@@ -30,9 +30,33 @@ Browse the component elements, attributes, tokens, and their values. [Learn mor
 
 Component: Bottom sheets
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Sheets - Bottom | md.comp.sheet.bottom | COMPONENT | For bottom sheets. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Sheets - Bottom | md.comp.sheet.bottom | COMPONENT | 13 | For bottom sheets. |
+
+#### Sheets - Bottom (md.comp.sheet.bottom)
+
+For bottom sheets.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.sheet.bottom.docked.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-low` |  |  |
+| md.comp.sheet.bottom.docked.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.sheet.bottom.docked.modal.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.sheet.bottom.docked.standard.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.sheet.bottom.docked.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-large.top` |  |  |
+| md.comp.sheet.bottom.docked.minimized.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.sheet.bottom.docked.drag-handle.color | COLOR | Enabled / Drag handle | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.sheet.bottom.docked.drag-handle.opacity | OPACITY | Enabled / Drag handle | 0.4 |  | Deprecated per b/278783477 |
+| md.comp.sheet.bottom.docked.drag-handle.width | LENGTH | Enabled / Drag handle | 32dp |  |  |
+| md.comp.sheet.bottom.docked.drag-handle.height | LENGTH | Enabled / Drag handle | 4dp |  |  |
+| md.comp.sheet.bottom.focus.indicator.color | COLOR | Enabled / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.sheet.bottom.focus.indicator.thickness | LENGTH | Enabled / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.sheet.bottom.focus.indicator.outline.offset | LENGTH | Enabled / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
 
 ## Color
 

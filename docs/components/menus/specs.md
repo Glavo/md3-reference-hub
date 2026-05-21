@@ -2,7 +2,7 @@
 title: "Menus"
 source_url: "https://m3.material.io/components/menus/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/545fcc0e9973-mhp3tuy7-01-3P.png"
@@ -72,12 +72,249 @@ Browse the component elements, attributes, tokens, and their values. [Learn abou
 
 Component: Menus
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Menus - Color - Standard | md.comp.menus.standard | COMPONENT | Color tokens for the standard expressive menu. |
-| Menus - Color - Vibrant | md.comp.menus.vibrant | COMPONENT | Color tokens for the vibrant expressive menu. |
-| Menus - Common | md.comp.menus | COMPONENT | Common tokens for expressive menus. For baseline menus, use "Menu (baseline)" tokens `md.comp.menu`. |
-| Menu (baseline) | md.comp.menu | COMPONENT | Tokens for baseline GM3 menus. For expressive menus, use `md.comp.menus` instead. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Menus - Common | md.comp.menus | COMPONENT | 59 | Common tokens for expressive menus. For baseline menus, use "Menu (baseline)" tokens `md.comp.menu`. |
+| Menus - Color - Vibrant | md.comp.menus.vibrant | COMPONENT | 70 | Color tokens for the vibrant expressive menu. |
+| Menus - Color - Standard | md.comp.menus.standard | COMPONENT | 84 | Color tokens for the standard expressive menu. |
+
+#### Menus - Common (md.comp.menus)
+
+Common tokens for expressive menus. For baseline menus, use "Menu (baseline)" tokens `md.comp.menu`.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.menus.menu-item.label-text.font | FONT_NAMES | Typography | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.menus.menu-item.label-text.line-height | LINE_HEIGHT | Typography | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.menus.menu-item.label-text.size | FONT_SIZE | Typography | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.menus.menu-item.label-text.tracking | FONT_TRACKING | Typography | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.menus.menu-item.label-text.weight | FONT_WEIGHT | Typography | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.menus.menu-item.supporting-text.font | FONT_NAMES | Typography | `md.sys.typescale.body-small.font` |  |  |
+| md.comp.menus.menu-item.supporting-text.line-height | LINE_HEIGHT | Typography | `md.sys.typescale.body-small.line-height` |  |  |
+| md.comp.menus.menu-item.supporting-text.size | FONT_SIZE | Typography | `md.sys.typescale.body-small.size` |  |  |
+| md.comp.menus.menu-item.supporting-text.tracking | FONT_TRACKING | Typography | `md.sys.typescale.body-small.tracking` |  |  |
+| md.comp.menus.menu-item.supporting-text.weight | FONT_WEIGHT | Typography | `md.sys.typescale.body-small.weight` |  |  |
+| md.comp.menus.menu-item.trailing-supporting-text.font | FONT_NAMES | Typography | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.menus.menu-item.trailing-supporting-text.line-height | LINE_HEIGHT | Typography | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.menus.menu-item.trailing-supporting-text.size | FONT_SIZE | Typography | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.menus.menu-item.trailing-supporting-text.tracking | FONT_TRACKING | Typography | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.menus.menu-item.trailing-supporting-text.weight | FONT_WEIGHT | Typography | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.menus.menu-item.selected.shape | SHAPE | Shape / Selected | `md.sys.shape.corner.medium` |  |  |
+| md.comp.menus.horizontal.container.shape | SHAPE | Shape / Horizontal, Default | `md.sys.shape.corner.full` |  |  |
+| md.comp.menus.horizontal.menu-item.hovered.shape | SHAPE | Shape / Horizontal, Default | `md.sys.shape.corner.medium` |  |  |
+| md.comp.menus.horizontal.menu-item.focused.shape | SHAPE | Shape / Horizontal, Default | `md.sys.shape.corner.medium` |  |  |
+| md.comp.menus.horizontal.menu-item.pressed.shape | SHAPE | Shape / Horizontal, Default | `md.sys.shape.corner.medium` |  |  |
+| md.comp.menus.horizontal.menu-item.selected.hovered.shape | SHAPE | Shape / Horizontal, Selected | `md.sys.shape.corner.full` |  |  |
+| md.comp.menus.horizontal.menu-item.selected.focused.shape | SHAPE | Shape / Horizontal, Selected | `md.sys.shape.corner.full` |  |  |
+| md.comp.menus.horizontal.menu-item.selected.pressed.shape | SHAPE | Shape / Horizontal, Selected | `md.sys.shape.corner.full` |  |  |
+| md.comp.menus.horizontal.icon-only.menu-item.selected.shape | SHAPE | Shape / Horizontal icon-only, selected | `md.sys.shape.corner.full` |  |  |
+| md.comp.menus.container.shape | SHAPE | Shape / Default | `md.sys.shape.corner.large` |  |  |
+| md.comp.menus.active.container.shape | LENGTH | Shape / Default | `md.sys.shape.corner.large` |  |  |
+| md.comp.menus.inactive.container.shape | SHAPE | Shape / Default | `md.sys.shape.corner.small` |  |  |
+| md.comp.menus.group.shape | SHAPE | Shape / Default | `md.sys.shape.corner.small` |  |  |
+| md.comp.menus.menu-item.shape | SHAPE | Shape / Default | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.menus.menu-item.first-child.shape | SHAPE | Shape / Default | `md.sys.shape.corner.medium` |  |  |
+| md.comp.menus.menu-item.first-child.inner-corner.corner-size | SHAPE | Shape / Default | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.menus.menu-item.last-child.shape | SHAPE | Shape / Default | `md.sys.shape.corner.medium` |  |  |
+| md.comp.menus.menu-item.last-child.inner-corner.corner-size | SHAPE | Shape / Default | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.menus.horizontal.container.top-space | LENGTH | Layout / Horizontal | 8dp |  |  |
+| md.comp.menus.horizontal.container.bottom-space | LENGTH | Layout / Horizontal | 8dp |  |  |
+| md.comp.menus.horizontal.menu-item.leading-space | LENGTH | Layout / Horizontal | 12dp |  |  |
+| md.comp.menus.horizontal.menu-item.trailing-space | LENGTH | Layout / Horizontal | 12dp |  |  |
+| md.comp.menus.horizontal.menu-item.between-space | LENGTH | Layout / Horizontal | 12dp |  |  |
+| md.comp.menus.horizontal.menu-item.top-space | LENGTH | Layout / Horizontal | 6dp |  |  |
+| md.comp.menus.horizontal.menu-item.bottom-space | LENGTH | Layout / Horizontal | 6dp |  |  |
+| md.comp.menus.horizontal.icon-only.menu-item.leading-space | LENGTH | Layout / Horizontal icon-only | 16dp |  |  |
+| md.comp.menus.horizontal.icon-only.menu-item.trailing-space | LENGTH | Layout / Horizontal icon-only | 16dp |  |  |
+| md.comp.menus.horizontal.icon-only.menu-item.top-space | LENGTH | Layout / Horizontal icon-only | 16dp |  |  |
+| md.comp.menus.horizontal.icon-only.menu-item.bottom-space | LENGTH | Layout / Horizontal icon-only | 16dp |  |  |
+| md.comp.menus.horizontal.icon-only.gap | LENGTH | Layout / Horizontal icon-only | 4dp |  |  |
+| md.comp.menus.gap | LENGTH | Layout / Default | 2dp |  |  |
+| md.comp.menus.group.padding | LENGTH | Layout / Default | 2dp |  |  |
+| md.comp.menus.container.elevation | ELEVATION | Layout / Default | `md.sys.elevation.level2` |  |  |
+| md.comp.menus.menu-item.height | LENGTH | Layout / Default | 44dp |  |  |
+| md.comp.menus.menu-item.top-space | LENGTH | Layout / Default | 8dp |  |  |
+| md.comp.menus.menu-item.bottom-space | LENGTH | Layout / Default | 8dp |  |  |
+| md.comp.menus.menu-item.leading-space | LENGTH | Layout / Default | 16dp |  |  |
+| md.comp.menus.menu-item.trailing-space | LENGTH | Layout / Default | 16dp |  |  |
+| md.comp.menus.menu-item.between-space | LENGTH | Layout / Default | 12dp |  |  |
+| md.comp.menus.menu-item.leading-icon.size | LENGTH | Layout / Default | 20dp |  |  |
+| md.comp.menus.menu-item.trailing-icon.size | LENGTH | Layout / Default | 20dp |  |  |
+| md.comp.menus.menu-item.focus.indicator.color | COLOR | Focus ring | `md.sys.color.secondary` |  |  |
+| md.comp.menus.menu-item.focus.indicator.thickness | LENGTH | Focus ring | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.menus.menu-item.focus.indicator.outline.offset | LENGTH | Focus ring | `md.sys.state.focus-indicator.inner-offset` |  |  |
+
+#### Menus - Color - Vibrant (md.comp.menus.vibrant)
+
+Color tokens for the vibrant expressive menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.menus.vibrant.container.color | COLOR | Enabled | `md.sys.color.tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.color | COLOR | Enabled | `md.sys.color.tertiary-container` |  |  |
+| md.comp.menus.vibrant.section-label-text.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.label-text.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.supporting-text.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.trailing-supporting-text.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.leading-icon.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.trailing-icon.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.icon-button.container.color | COLOR | Enabled | `md.sys.color.tertiary-container` |  |  |
+| md.comp.menus.vibrant.icon-button.icon.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.label-text.color | COLOR | Disabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.label-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.supporting-text.color | COLOR | Disabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.supporting-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.trailing-supporting-text.color | COLOR | Disabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.trailing-supporting-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.leading-icon.color | COLOR | Disabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.leading-icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.trailing-icon.color | COLOR | Disabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.disabled.trailing-icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.vibrant.icon-button.disabled.icon.color | COLOR | Disabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.menus.vibrant.menu-item.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.hovered.supporting-text.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.hovered.trailing-supporting-text.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.hovered.leading-icon.color | COLOR | Hovered | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.hovered.trailing-icon.color | COLOR | Hovered | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.icon-button.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.menus.vibrant.menu-item.focused.label-text.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.focused.supporting-text.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.focused.trailing-supporting-text.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.focused.leading-icon.color | COLOR | Focused | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.focused.trailing-icon.color | COLOR | Focused | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.icon-button.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.menus.vibrant.menu-item.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.pressed.supporting-text.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.pressed.trailing-supporting-text.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.pressed.leading-icon.color | COLOR | Pressed | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.pressed.trailing-icon.color | COLOR | Pressed | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.icon-button.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.active.state-layer.color | COLOR | Enabled, Active | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.vibrant.menu-item.active.state-layer.opacity | OPACITY | Enabled, Active | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.container.color | COLOR | Enabled, Selected | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.supporting-text.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.trailing-supporting-text.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.label-text.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.leading-icon.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.trailing-icon.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.icon-button.selected.container.color | COLOR | Enabled, Selected | `md.sys.color.tertiary` |  |  |
+| md.comp.menus.vibrant.icon-button.selected.icon.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.disabled.label-text.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.selected.disabled.supporting-text.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.selected.disabled.trailing-supporting-text.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.selected.disabled.leading-icon.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.vibrant.menu-item.selected.disabled.trailing-icon.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.vibrant.icon-button.selected.disabled.icon.color | COLOR | Disabled, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.hovered.state-layer.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.hovered.state-layer.opacity | OPACITY | Hovered, Selected | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.hovered.label-text.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.focused.state-layer.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.focused.state-layer.opacity | OPACITY | Focused, Selected | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.focused.label-text.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.pressed.state-layer.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.pressed.state-layer.opacity | OPACITY | Pressed, Selected | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.menus.vibrant.menu-item.selected.pressed.label-text.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary` |  |  |
+
+#### Menus - Color - Standard (md.comp.menus.standard)
+
+Color tokens for the standard expressive menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.menus.standard.container.color | COLOR | Enabled | `md.sys.color.surface-container-low` |  |  |
+| md.comp.menus.standard.section-label-text.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.menu-item.container.color | COLOR | Enabled | `md.sys.color.surface-container-low` |  |  |
+| md.comp.menus.standard.menu-item.label-text.color | COLOR | Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.supporting-text.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.menus.standard.menu-item.leading-icon.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.menu-item.trailing-icon.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.menu-item.trailing-supporting-text.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.icon-button.container.color | COLOR | Enabled | `md.sys.color.surface-container-low` |  |  |
+| md.comp.menus.standard.icon-button.icon.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.menu-item.disabled.label-text.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.disabled.label-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.disabled.supporting-text.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.disabled.supporting-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.disabled.trailing-supporting-text.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.disabled.trailing-supporting-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.disabled.leading-icon.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.disabled.leading-icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.disabled.trailing-icon.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.disabled.trailing-icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.menus.standard.disabled.icon-button.icon.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.menus.standard.menu-item.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.hovered.leading-icon.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.menu-item.hovered.trailing-icon.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.icon-button.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.menus.standard.menu-item.focused.label-text.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.focused.leading-icon.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.menu-item.focused.trailing-icon.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.icon-button.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.menus.standard.menu-item.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.pressed.leading-icon.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.menu-item.pressed.trailing-icon.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.menus.standard.icon-button.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.active.state-layer.color | COLOR | Enabled, Active | `md.sys.color.on-surface` |  |  |
+| md.comp.menus.standard.menu-item.active.state-layer.opacity | OPACITY | Enabled, Active | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.menus.standard.menu-item.selected.container.color | COLOR | Enabled, Selected | `md.sys.color.tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.label-text.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.supporting-text.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.leading-icon.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.trailing-icon.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.trailing-supporting-text.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.icon-button.selected.container.color | COLOR | Enabled, Selected | `md.sys.color.tertiary-container` |  |  |
+| md.comp.menus.standard.icon-button.selected.icon.color | COLOR | Enabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.container.color | COLOR | Disabled, Selected | `md.sys.color.tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.container.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.label-text.color | COLOR | Disabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.label-text.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.leading-icon.color | COLOR | Disabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.leading-icon.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.trailing-icon.color | COLOR | Disabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.trailing-icon.opacity | OPACITY | Disabled, Selected | 0.38 |  |  |
+| md.comp.menus.standard.menu-item.selected.disabled.trailing-supporting-text.color | COLOR | Disabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.icon-button.disabled.icon.color | COLOR | Disabled, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.hovered.state-layer.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.hovered.state-layer.opacity | OPACITY | Hovered, Selected | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.menus.standard.menu-item.selected.hovered.label-text.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.hovered.supporting-text.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.hovered.trailing-supporting-text.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.hovered.leading-icon.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.hovered.trailing-icon.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.icon-button.selected.hovered.state-layer.color | COLOR | Hovered, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.focused.state-layer.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.focused.state-layer.opacity | OPACITY | Focused, Selected | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.menus.standard.menu-item.selected.focused.label-text.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.focused.supporting-text.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.focused.trailing-supporting-text.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.focused.leading-icon.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.focused.trailing-icon.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.icon-button.selected.focused.state-layer.color | COLOR | Focused, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.pressed.state-layer.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.pressed.state-layer.opacity | OPACITY | Pressed, Selected | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.menus.standard.menu-item.selected.pressed.label-text.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.pressed.supporting-text.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.pressed.trailing-supporting-text.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.pressed.leading-icon.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.menu-item.selected.pressed.trailing-icon.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.menus.standard.icon-button.selected.pressed.state-layer.color | COLOR | Pressed, Selected | `md.sys.color.on-tertiary-container` |  |  |
 
 ## Anatomy
 
@@ -142,12 +379,69 @@ Browse the component elements, attributes, tokens, and their values. [Learn abou
 
 Component: Menus
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Menus - Color - Standard | md.comp.menus.standard | COMPONENT | Color tokens for the standard expressive menu. |
-| Menus - Color - Vibrant | md.comp.menus.vibrant | COMPONENT | Color tokens for the vibrant expressive menu. |
-| Menus - Common | md.comp.menus | COMPONENT | Common tokens for expressive menus. For baseline menus, use "Menu (baseline)" tokens `md.comp.menu`. |
-| Menu (baseline) | md.comp.menu | COMPONENT | Tokens for baseline GM3 menus. For expressive menus, use `md.comp.menus` instead. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Menu (baseline) | md.comp.menu | COMPONENT | 49 | Tokens for baseline GM3 menus. For expressive menus, use `md.comp.menus` instead. |
+
+#### Menu (baseline) (md.comp.menu)
+
+Tokens for baseline GM3 menus. For expressive menus, use `md.comp.menus` instead.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.menu.container.color | COLOR | Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.menu.container.shape | SHAPE | Enabled | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.menu.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.menu.container.elevation | ELEVATION | Enabled | `md.sys.elevation.level2` |  |  |
+| md.comp.menu.list-item.selected.label-text.color | COLOR | Enabled / Container | `md.sys.color.on-secondary-container` |  | Deprecated to remove nested tokens |
+| md.comp.menu.list-item.selected.with-leading-icon.leading-icon.color | COLOR | Enabled / Container | `md.sys.color.on-secondary-container` |  | Deprecated to remove nested tokens |
+| md.comp.menu.list-item.selected.with-leading-icon.trailing-icon.color | COLOR | Enabled / Container | `md.sys.color.on-secondary-container` |  | Deprecated to remove nested tokens |
+| md.comp.menu.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.menu.list-item.container.height | LENGTH | Enabled / Container | 48dp |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.selected.container.color | COLOR | Enabled / Container | `md.sys.color.secondary-container` |  | Deprecated to remove nested tokens |
+| md.comp.menu.list-item.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.menu.list-item.label-text.font`, font weight: `md.comp.menu.list-item.label-text.weight`, font size: `md.comp.menu.list-item.label-text.size`, font tracking: `md.comp.menu.list-item.label-text.tracking`, line height: `md.comp.menu.list-item.label-text.line-height` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.cascading-menu-indicator.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.cascading-menu-indicator.icon.size | LENGTH | Enabled / Icon | 24dp |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-leading-icon.leading-icon.size | LENGTH | Enabled / Leading icon | 24dp |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-leading-icon.leading-icon.color | COLOR | Enabled / Leading icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-trailing-icon.trailing-icon.size | LENGTH | Enabled / Trailing icon | 24dp |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-trailing-icon.trailing-icon.color | COLOR | Enabled / Trailing icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.divider.color | COLOR | Enabled / Divider | `md.sys.color.surface-variant` |  | Depcrecating all divider tokens nested across components. Please use the standalone divider component token md.comp.divider.color as a replacement |
+| md.comp.menu.divider.height | LENGTH | Enabled / Divider | 1dp |  | Depcrecating all divider tokens nested across components. Please use the standalone divider component token md.comp.divider.thickness as a replacement |
+| md.comp.menu.list-item.with-leading-icon.disabled.leading-icon.color | COLOR | Disabled / Leading icon | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-leading-icon.disabled.leading-icon.opacity | OPACITY | Disabled / Leading icon | 0.38 |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-trailing-icon.disabled.trailing-icon.color | COLOR | Disabled / Trailing icon | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-trailing-icon.disabled.trailing-icon.opacity | OPACITY | Disabled / Trailing icon | 0.38 |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-leading-icon.hover.icon.color | COLOR | Hover / Leading icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-trailing-icon.hover.icon.color | COLOR | Hover / Trailing icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.hover.state-layer.color | COLOR | Hover / State layer | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.hover.state-layer.opacity | OPACITY | Hover / State layer | `md.sys.state.hover.state-layer-opacity` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.hover.label-text.color | COLOR | Hover / Label text | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-leading-icon.focus.icon.color | COLOR | Focus / Leading icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.list-item.with-trailing-icon.focus.icon.color | COLOR | Focus / Trailing icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.list-item.focus.label-text.color | COLOR | Focus / Label text | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.list-item.focus.state-layer.color | COLOR | Focus / State layer | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.focus.state-layer.opacity | OPACITY | Focus / State layer | `md.sys.state.focus.state-layer-opacity` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead. |
+| md.comp.menu.list-item.with-leading-icon.pressed.icon.color | COLOR | Pressed / Leading icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.list-item.pressed.label-text.color | COLOR | Pressed / Label text | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.list-item.with-trailing-icon.pressed.icon.color | COLOR | Pressed / Trailing icon | `md.sys.color.on-surface-variant` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.list-item.pressed.state-layer.color | COLOR | Pressed / State layer | `md.sys.color.on-surface` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.list-item.pressed.state-layer.opacity | OPACITY | Pressed / State layer | `md.sys.state.pressed.state-layer-opacity` |  | Deprecated to reduce reliance on embedded component tokens. Please use standalone list component tokens instead |
+| md.comp.menu.focus.indicator.color | COLOR | Focus indicator | `md.sys.color.secondary` |  | Updating to include menu item |
+| md.comp.menu.focus.indicator.thickness | LENGTH | Focus indicator | `md.sys.state.focus-indicator.thickness` |  | Updating to include menu item |
+| md.comp.menu.focus.indicator.outline.offset | LENGTH | Focus indicator | `md.sys.state.focus-indicator.inner-offset` |  | Updating to include menu item |
 
 ### Anatomy
 

@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/specs"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/9253b2648ce8-mloz0082-01-3P.png"
@@ -53,13 +53,74 @@ Browse the component elements, attributes, tokens, and their values. [View basel
 
 Component: Progress indicators
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Progress indicator - Circular | md.comp.progress-indicator.circular | COMPONENT | For circular progress indicators. |
-| Progress Indicator - Common | md.comp.progress-indicator | COMPONENT | Common tokens for circular and linear progress indicators. |
-| Progress indicator - Linear | md.comp.progress-indicator.linear | COMPONENT | For linear progress indicators. |
-| [Deprecated] Progress indicator - Circular | md.comp.circular-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.circular` instead. Original tokens for the circular progress indicator. |
-| [Deprecated] Progress indicator - Linear | md.comp.linear-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.linear` instead. Original tokens for the linear progress indicator. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Progress Indicator - Common | md.comp.progress-indicator | COMPONENT | 10 | Common tokens for circular and linear progress indicators. |
+| Progress indicator - Linear | md.comp.progress-indicator.linear | COMPONENT | 17 | For linear progress indicators. |
+| Progress indicator - Circular | md.comp.progress-indicator.circular | COMPONENT | 11 | For circular progress indicators. |
+
+#### Progress Indicator - Common (md.comp.progress-indicator)
+
+Common tokens for circular and linear progress indicators.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.progress-indicator.active-indicator.color | COLOR | Color | `md.sys.color.primary` |  |  |
+| md.comp.progress-indicator.track.color | COLOR | Color | `md.sys.color.secondary-container` |  |  |
+| md.comp.progress-indicator.stop-indicator.color | COLOR | Color | `md.sys.color.primary` |  |  |
+| md.comp.progress-indicator.active-indicator.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
+| md.comp.progress-indicator.track.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
+| md.comp.progress-indicator.stop-indicator.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
+| md.comp.progress-indicator.active-indicator.thickness | LENGTH | [Deprecated] Enabled / [Deprecated] Active Indicator | 4dp |  | Token is deprecated. |
+| md.comp.progress-indicator.track.thickness | LENGTH | [Deprecated] Enabled / [Deprecated] Track | 4dp |  | Token is deprecated. |
+| md.comp.progress-indicator.stop-indicator.size | LENGTH | [Deprecated] Enabled / [Deprecated] Stop indicator | 4dp |  | Token is deprecated. |
+| md.comp.progress-indicator.active-indicator-track-space | LENGTH | [Deprecated] Enabled / [Deprecated] Spacing | 4dp |  | Token is deprecated. |
+
+#### Progress indicator - Linear (md.comp.progress-indicator.linear)
+
+For linear progress indicators.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.progress-indicator.linear.height | LENGTH | Linear - baseline | 4dp |  |  |
+| md.comp.progress-indicator.linear.with-wave.height | LENGTH | Linear - baseline | 10dp |  |  |
+| md.comp.progress-indicator.linear.active-indicator.thickness | LENGTH | Linear - baseline | 4dp |  |  |
+| md.comp.progress-indicator.linear.track.thickness | LENGTH | Linear - baseline | 4dp |  |  |
+| md.comp.progress-indicator.linear.stop-indicator.size | LENGTH | Linear - baseline | 4dp |  |  |
+| md.comp.progress-indicator.linear.track-active-indicator-space | LENGTH | Linear - baseline | 4dp |  |  |
+| md.comp.progress-indicator.linear.stop-indicator.trailing-space | LENGTH | Linear - baseline | 0dp |  |  |
+| md.comp.progress-indicator.linear.active-indicator.wave.amplitude | LENGTH | Linear - baseline | 3dp |  |  |
+| md.comp.progress-indicator.linear.active-indicator.wave.wavelength | LENGTH | Linear - baseline | 40dp |  |  |
+| md.comp.progress-indicator.linear.indeterminate.active-indicator.wave.wavelength | LENGTH | Linear - baseline | 20dp |  |  |
+| md.comp.progress-indicator.linear.thick.height | LENGTH | [Deprecated] Linear - thick | 8dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.linear.thick.active-indicator.thickness | LENGTH | [Deprecated] Linear - thick | 8dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.linear.thick.with-wave.height | LENGTH | [Deprecated] Linear - thick | 14dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.linear.thick.track.thickness | LENGTH | [Deprecated] Linear - thick | 8dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.linear.thick.stop-indicator.size | LENGTH | [Deprecated] Linear - thick | 4dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.linear.thick.track-active-indicator-space | LENGTH | [Deprecated] Linear - thick | 4dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.linear.thick.stop-indicator.trailing-space | LENGTH | [Deprecated] Linear - thick | 2dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+
+#### Progress indicator - Circular (md.comp.progress-indicator.circular)
+
+For circular progress indicators.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.progress-indicator.circular.size | LENGTH | Circular - baseline | 40dp |  |  |
+| md.comp.progress-indicator.circular.with-wave.size | LENGTH | Circular - baseline | 48dp |  |  |
+| md.comp.progress-indicator.circular.active-indicator.thickness | LENGTH | Circular - baseline | 4dp |  |  |
+| md.comp.progress-indicator.circular.track.thickness | LENGTH | Circular - baseline | 4dp |  |  |
+| md.comp.progress-indicator.circular.track-active-indicator-space | LENGTH | Circular - baseline | 4dp |  |  |
+| md.comp.progress-indicator.circular.active-indicator.wave.amplitude | LENGTH | Circular - baseline | 1.6dp |  |  |
+| md.comp.progress-indicator.circular.active-indicator.wave.wavelength | LENGTH | Circular - baseline | 15dp |  |  |
+| md.comp.progress-indicator.circular.thick.size | LENGTH | [Deprecated] Circular - thick | 52dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.circular.thick.active-indicator.thickness | LENGTH | [Deprecated] Circular - thick | 8dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.circular.thick.track.thickness | LENGTH | [Deprecated] Circular - thick | 8dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
+| md.comp.progress-indicator.circular.thick.track-active-indicator-space | LENGTH | [Deprecated] Circular - thick | 4dp |  | No longer tokenized as a variant, but rather a sample configuration in code |
 
 ## Anatomy
 
@@ -105,10 +166,43 @@ The circular and linear progress indicator had separate token sets. These are no
 
 Component: Progress indicators
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Progress indicator - Circular | md.comp.progress-indicator.circular | COMPONENT | For circular progress indicators. |
-| Progress Indicator - Common | md.comp.progress-indicator | COMPONENT | Common tokens for circular and linear progress indicators. |
-| Progress indicator - Linear | md.comp.progress-indicator.linear | COMPONENT | For linear progress indicators. |
-| [Deprecated] Progress indicator - Circular | md.comp.circular-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.circular` instead. Original tokens for the circular progress indicator. |
-| [Deprecated] Progress indicator - Linear | md.comp.linear-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.linear` instead. Original tokens for the linear progress indicator. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| [Deprecated] Progress indicator - Circular | md.comp.circular-progress-indicator | COMPONENT | 8 | This token set is deprecated. Use `md.comp.progress-indicator.circular` instead. Original tokens for the circular progress indicator. |
+| [Deprecated] Progress indicator - Linear | md.comp.linear-progress-indicator | COMPONENT | 10 | This token set is deprecated. Use `md.comp.progress-indicator.linear` instead. Original tokens for the linear progress indicator. |
+
+#### [Deprecated] Progress indicator - Circular (md.comp.circular-progress-indicator)
+
+This token set is deprecated. Use `md.comp.progress-indicator.circular` instead. Original tokens for the circular progress indicator.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.circular-progress-indicator.size | LENGTH | [Deprecated] Enabled / [Deprecated] Active indicator | 48dp |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.circular-progress-indicator.active-indicator.width | LENGTH | [Deprecated] Enabled / [Deprecated] Active indicator | 4dp |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.circular-progress-indicator.active-indicator.shape | SHAPE | [Deprecated] Enabled / [Deprecated] Active indicator | `md.sys.shape.corner.none` |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.circular-progress-indicator.active-indicator.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `md.sys.color.primary` |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.circular-progress-indicator.four-color.active-indicator.one.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.blue` | Audience: 3P: `md.sys.color.primary` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.circular-progress-indicator.four-color.active-indicator.two.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.red` | Audience: 3P: `md.sys.color.primary-container` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.circular-progress-indicator.four-color.active-indicator.three.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.yellow` | Audience: 3P: `md.sys.color.tertiary` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.circular-progress-indicator.four-color.active-indicator.four.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.green` | Audience: 3P: `md.sys.color.tertiary-container` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+
+#### [Deprecated] Progress indicator - Linear (md.comp.linear-progress-indicator)
+
+This token set is deprecated. Use `md.comp.progress-indicator.linear` instead. Original tokens for the linear progress indicator.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.linear-progress-indicator.track.height | LENGTH | [Deprecated] Enabled / [Deprecated] Track | 4dp |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.track.shape | SHAPE | [Deprecated] Enabled / [Deprecated] Track | `md.sys.shape.corner.none` |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.track.color | COLOR | [Deprecated] Enabled / [Deprecated] Track | `md.sys.color.surface-container-highest` |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.active-indicator.height | LENGTH | [Deprecated] Enabled / [Deprecated] Active indicator | 4dp |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.active-indicator.shape | SHAPE | [Deprecated] Enabled / [Deprecated] Active indicator | `md.sys.shape.corner.none` |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.active-indicator.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `md.sys.color.primary` |  | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.four-color.active-indicator.one.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.blue` | Audience: 3P: `md.sys.color.primary` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.four-color.active-indicator.two.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.red` | Audience: 3P: `md.sys.color.primary-container` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.four-color.active-indicator.three.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.yellow` | Audience: 3P: `md.sys.color.tertiary` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |
+| md.comp.linear-progress-indicator.four-color.active-indicator.four.color | COLOR | [Deprecated] Enabled / [Deprecated] Active indicator | `goog.ref.brand-color.green` | Audience: 3P: `md.sys.color.tertiary-container` | Token set deprecated in favour of a merged token set which combines the circular and linear progress indicator. Please use "md.com.progress-indicator" tokens instead. |

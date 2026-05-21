@@ -2,7 +2,7 @@
 title: "Adding Motion Physics with Jetpack Compose"
 source_url: "https://m3.material.io/blog/m3-expressive-motion-theming"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/1ded508971c3-Jq3O_D_spnxd-2_CxeWYFAgtXFYlUS-FT4FUiLdPzRa2pnXVq8IllmGem9q4q1lY1YaLkGRTST_fIPpbuCr40sI987QAmJD1.png"

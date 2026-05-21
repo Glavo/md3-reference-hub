@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/53fe40f8defa-mal9f2lt-01-3P.png"
@@ -69,15 +69,113 @@ Browse the component elements, attributes, tokens, and their values. [Learn abou
 
 Component: Navigation rail
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Nav rail - Collapsed | md.comp.nav-rail.collapsed | COMPONENT | For collapsed nav rail. |
-| Nav rail - Common | md.comp.nav-rail | COMPONENT | Common tokens for nav rail. |
-| Nav rail - Expanded | md.comp.nav-rail.expanded | COMPONENT | For expanded nav rail. |
-| Nav rail item - Common | md.comp.nav-rail.item | COMPONENT | Common tokens for all nav items. |
-| Nav rail item - Horizontal | md.comp.nav-rail.item.horizontal | COMPONENT | For horizontal nav rail items, where elements are side-by-side. |
-| Nav rail item - Vertical | md.comp.nav-rail.item.vertical | COMPONENT | For vertical nav rail items, where elements are stacked. |
-| Navigation rail (baseline) | md.comp.navigation-rail | COMPONENT | For baseline navigation rails. For expressive, use all nav rail token sets`md.comp.nav-rail` and corresponding `.collapsed` and `.item` token sets. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Nav rail - Common | md.comp.nav-rail | COMPONENT | 14 | Common tokens for nav rail. |
+| Nav rail - Collapsed | md.comp.nav-rail.collapsed | COMPONENT | 7 | For collapsed nav rail. |
+| Nav rail - Expanded | md.comp.nav-rail.expanded | COMPONENT | 11 | For expanded nav rail. |
+| Nav rail item - Common | md.comp.nav-rail.item | COMPONENT | 10 | Common tokens for all nav items. |
+| Nav rail item - Vertical | md.comp.nav-rail.item.vertical | COMPONENT | 6 | For vertical nav rail items, where elements are stacked. |
+| Nav rail item - Horizontal | md.comp.nav-rail.item.horizontal | COMPONENT | 5 | For horizontal nav rail items, where elements are side-by-side. |
+
+#### Nav rail - Common (md.comp.nav-rail)
+
+Common tokens for nav rail.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.active.indicator.color | COLOR | Enabled | `md.sys.color.secondary-container` |  |  |
+| md.comp.nav-rail.item.active.label-text.color | COLOR | Enabled | `md.sys.color.secondary` |  |  |
+| md.comp.nav-rail.item.inactive.label-text.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-rail.item.active.icon.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.inactive.icon.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-rail.item.active.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.nav-rail.item.inactive.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.nav-rail.item.inactive.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.nav-rail.item.inactive.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+
+#### Nav rail - Collapsed (md.comp.nav-rail.collapsed)
+
+For collapsed nav rail.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.collapsed.container.width | LENGTH |  | 96dp |  |  |
+| md.comp.nav-rail.collapsed.narrow.container.width | LENGTH |  | 80dp |  |  |
+| md.comp.nav-rail.collapsed.container.elevation | ELEVATION |  | `md.sys.elevation.level0` |  |  |
+| md.comp.nav-rail.collapsed.container.shape | SHAPE |  | `md.sys.shape.corner.none` |  |  |
+| md.comp.nav-rail.collapsed.container.color | COLOR |  | `md.sys.color.surface` |  |  |
+| md.comp.nav-rail.collapsed.item.vertical-space | LENGTH |  | 4dp |  |  |
+| md.comp.nav-rail.collapsed.top-space | LENGTH |  | 44dp |  |  |
+
+#### Nav rail - Expanded (md.comp.nav-rail.expanded)
+
+For expanded nav rail.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.expanded.container.width.minimum | LENGTH |  | 220dp |  |  |
+| md.comp.nav-rail.expanded.container.width.maximum | LENGTH |  | 360dp |  |  |
+| md.comp.nav-rail.expanded.top-space | LENGTH |  | 44dp |  |  |
+| md.comp.nav-rail.expanded.container.elevation | ELEVATION |  | `md.sys.elevation.level0` |  |  |
+| md.comp.nav-rail.expanded.modal.container.elevation | ELEVATION |  | `md.sys.elevation.level2` |  |  |
+| md.comp.nav-rail.expanded.container.color | COLOR |  | `md.sys.color.surface` |  |  |
+| md.comp.nav-rail.expanded.modal.container.color | COLOR |  | `md.sys.color.surface-container` |  |  |
+| md.comp.nav-rail.expanded.container.shape | SHAPE |  | `md.sys.shape.corner.none` |  |  |
+| md.comp.nav-rail.expanded.modal.container.shape | SHAPE |  | `md.sys.shape.corner.large` |  |  |
+| md.comp.nav-rail.expanded.between-item-space | LENGTH |  | 0dp |  | Token not needed as value is "0dp" |
+| md.comp.nav-rail.expanded.vertical.trailing-space | LENGTH |  | 20dp |  | Token moved to nav rail item horizontal set |
+
+#### Nav rail item - Common (md.comp.nav-rail.item)
+
+Common tokens for all nav items.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.icon.size | LENGTH |  | 24dp |  |  |
+| md.comp.nav-rail.item.active-indicator.shape | SHAPE |  | `md.sys.shape.corner.full` |  |  |
+| md.comp.nav-rail.item.active-indicator.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.active-indicator.icon-label-space | LENGTH |  | 8dp |  |  |
+| md.comp.nav-rail.item.active-indicator.trailing-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.container.height | LENGTH |  | 64dp |  |  |
+| md.comp.nav-rail.item.short.container.height | LENGTH |  | 56dp |  |  |
+| md.comp.nav-rail.item.container.shape | SHAPE |  | `md.sys.shape.corner.none` |  |  |
+| md.comp.nav-rail.item.container.vertical-space | LENGTH |  | 6dp |  |  |
+| md.comp.nav-rail.item.header-space-minimum | LENGTH |  | 40dp |  |  |
+
+#### Nav rail item - Vertical (md.comp.nav-rail.item.vertical)
+
+For vertical nav rail items, where elements are stacked.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.vertical.active-indicator.height | LENGTH |  | 32dp |  |  |
+| md.comp.nav-rail.item.vertical.active-indicator.width | LENGTH |  | 56dp |  |  |
+| md.comp.nav-rail.item.vertical.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-medium` |  |  |
+| md.comp.nav-rail.item.vertical.icon-label-space | LENGTH |  | 4dp |  |  |
+| md.comp.nav-rail.item.vertical.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.vertical.trailing-space | LENGTH |  | 16dp |  |  |
+
+#### Nav rail item - Horizontal (md.comp.nav-rail.item.horizontal)
+
+For horizontal nav rail items, where elements are side-by-side.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.horizontal.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-large` |  |  |
+| md.comp.nav-rail.item.horizontal.active-indicator.height | LENGTH |  | 56dp |  |  |
+| md.comp.nav-rail.item.horizontal.full-width.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.horizontal.full-width.trailing-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.horizontal.icon-label-space | LENGTH |  | 8dp |  |  |
 
 ## Anatomy
 
@@ -135,15 +233,190 @@ _Container; Menu icon (optional); Icon; Active indicator; Label text; Large badg
 
 Component: Navigation rail
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Nav rail - Collapsed | md.comp.nav-rail.collapsed | COMPONENT | For collapsed nav rail. |
-| Nav rail - Common | md.comp.nav-rail | COMPONENT | Common tokens for nav rail. |
-| Nav rail - Expanded | md.comp.nav-rail.expanded | COMPONENT | For expanded nav rail. |
-| Nav rail item - Common | md.comp.nav-rail.item | COMPONENT | Common tokens for all nav items. |
-| Nav rail item - Horizontal | md.comp.nav-rail.item.horizontal | COMPONENT | For horizontal nav rail items, where elements are side-by-side. |
-| Nav rail item - Vertical | md.comp.nav-rail.item.vertical | COMPONENT | For vertical nav rail items, where elements are stacked. |
-| Navigation rail (baseline) | md.comp.navigation-rail | COMPONENT | For baseline navigation rails. For expressive, use all nav rail token sets`md.comp.nav-rail` and corresponding `.collapsed` and `.item` token sets. |
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Navigation rail (baseline) | md.comp.navigation-rail | COMPONENT | 71 | For baseline navigation rails. For expressive, use all nav rail token sets`md.comp.nav-rail` and corresponding `.collapsed` and `.item` token sets. |
+| Nav rail item - Horizontal | md.comp.nav-rail.item.horizontal | COMPONENT | 5 | For horizontal nav rail items, where elements are side-by-side. |
+| Nav rail item - Common | md.comp.nav-rail.item | COMPONENT | 10 | Common tokens for all nav items. |
+| Nav rail - Common | md.comp.nav-rail | COMPONENT | 14 | Common tokens for nav rail. |
+| Nav rail - Collapsed | md.comp.nav-rail.collapsed | COMPONENT | 7 | For collapsed nav rail. |
+| Nav rail - Expanded | md.comp.nav-rail.expanded | COMPONENT | 11 | For expanded nav rail. |
+| Nav rail item - Vertical | md.comp.nav-rail.item.vertical | COMPONENT | 6 | For vertical nav rail items, where elements are stacked. |
+
+#### Navigation rail (baseline) (md.comp.navigation-rail)
+
+For baseline navigation rails. For expressive, use all nav rail token sets`md.comp.nav-rail` and corresponding `.collapsed` and `.item` token sets.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.navigation-rail.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.navigation-rail.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.navigation-rail.container.width | LENGTH | Enabled / Container | 80dp |  |  |
+| md.comp.navigation-rail.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.navigation-rail.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-medium.font` |  |  |
+| md.comp.navigation-rail.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-medium.line-height` |  |  |
+| md.comp.navigation-rail.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-medium.size` |  |  |
+| md.comp.navigation-rail.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-medium.weight` |  |  |
+| md.comp.navigation-rail.active.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-medium.weight.prominent` |  |  |
+| md.comp.navigation-rail.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-medium.tracking` |  |  |
+| md.comp.navigation-rail.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.navigation-rail.label-text.font`, font weight: `md.comp.navigation-rail.label-text.weight`, font size: `md.comp.navigation-rail.label-text.size`, font tracking: `md.comp.navigation-rail.label-text.tracking`, line height: `md.comp.navigation-rail.label-text.line-height` |  |  |
+| md.comp.navigation-rail.active.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.inactive.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-rail.label-text.font-family | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-medium.font` |  | For consistency, we have standardized typography naming. Replace usage with the suggested token. |
+| md.comp.navigation-rail.label-text.font-size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-medium.size` |  | For consistency, we have standardized typography naming. Replace usage with the suggested token. |
+| md.comp.navigation-rail.label-text.letter-spacing | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-medium.tracking` |  | For consistency, we have standardized typography naming. Replace usage with the suggested token. |
+| md.comp.navigation-rail.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.navigation-rail.active.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-rail.inactive.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-rail.menu.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.menu.icon.size | LENGTH | Enabled / Icon | 24dp |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.badge.color | COLOR | Enabled / [Deprecated] Badge | `md.sys.color.error` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.*` tokens. |
+| md.comp.navigation-rail.badge.size | LENGTH | Enabled / [Deprecated] Badge | 6dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.*` tokens. |
+| md.comp.navigation-rail.badge.shape | SHAPE | Enabled / [Deprecated] Badge | rounded corners 3dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.*` tokens. |
+| md.comp.navigation-rail.active-indicator.color | COLOR | Enabled / Active indicator | `md.sys.color.secondary-container` |  |  |
+| md.comp.navigation-rail.active-indicator.height | LENGTH | Enabled / Active indicator | 32dp |  |  |
+| md.comp.navigation-rail.no-label.active-indicator.height | LENGTH | Enabled / Active indicator | 56dp |  |  |
+| md.comp.navigation-rail.active-indicator.shape | SHAPE | Enabled / Active indicator | `md.sys.shape.corner.full` |  |  |
+| md.comp.navigation-rail.no-label.active-indicator.shape | SHAPE | Enabled / Active indicator | `md.sys.shape.corner.full` |  |  |
+| md.comp.navigation-rail.active-indicator.width | LENGTH | Enabled / Active indicator | 56dp |  |  |
+| md.comp.navigation-rail.large-badge.size | LENGTH | Enabled / [Deprecated] Large badge | 16dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge.shape | SHAPE | Enabled / [Deprecated] Large badge | rounded corners 8dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge.color | COLOR | Enabled / [Deprecated] Large badge | `md.sys.color.error` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge-label.font-family | FONT_NAMES | Enabled / [Deprecated] Large badge label | `md.sys.typescale.label-small.font` |  | For consistency, we have standardized typography naming. Replace usage with the suggested token. |
+| md.comp.navigation-rail.large-badge-label.font | FONT_NAMES | Enabled / [Deprecated] Large badge label | `md.sys.typescale.label-small.font` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge-label.line-height | LINE_HEIGHT | Enabled / [Deprecated] Large badge label | `md.sys.typescale.label-small.line-height` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge-label.size | FONT_SIZE | Enabled / [Deprecated] Large badge label | `md.sys.typescale.label-small.size` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge-label.weight | FONT_WEIGHT | Enabled / [Deprecated] Large badge label | `md.sys.typescale.label-small.weight` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge-label.tracking | FONT_TRACKING | Enabled / [Deprecated] Large badge label | `md.sys.typescale.label-small.tracking` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge-label.type | TYPOGRAPHY | Enabled / [Deprecated] Large badge label | font name: `md.comp.navigation-rail.large-badge-label.font`, font weight: `md.comp.navigation-rail.large-badge-label.weight`, font size: `md.comp.navigation-rail.large-badge-label.size`, font tracking: `md.comp.navigation-rail.large-badge-label.tracking`, line height: `md.comp.navigation-rail.large-badge-label.line-height` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.large-badge-label.color | COLOR | Enabled / [Deprecated] Large badge label | `md.sys.color.on-error` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-rail.active.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.inactive.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.active.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.inactive.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.navigation-rail.menu.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.menu.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.active.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-rail.inactive.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.menu.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.active.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.inactive.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.active.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.inactive.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.navigation-rail.menu.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.menu.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.active.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-rail.inactive.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.menu.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.active.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.inactive.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.active.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.inactive.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.navigation-rail.menu.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.menu.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  | Using menu button token instead, this token no longer needed. |
+| md.comp.navigation-rail.active.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-rail.inactive.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-rail.menu.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface` |  | Using menu button token instead, this token no longer needed. |
+
+#### Nav rail item - Horizontal (md.comp.nav-rail.item.horizontal)
+
+For horizontal nav rail items, where elements are side-by-side.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.horizontal.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-large` |  |  |
+| md.comp.nav-rail.item.horizontal.active-indicator.height | LENGTH |  | 56dp |  |  |
+| md.comp.nav-rail.item.horizontal.full-width.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.horizontal.full-width.trailing-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.horizontal.icon-label-space | LENGTH |  | 8dp |  |  |
+
+#### Nav rail item - Common (md.comp.nav-rail.item)
+
+Common tokens for all nav items.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.icon.size | LENGTH |  | 24dp |  |  |
+| md.comp.nav-rail.item.active-indicator.shape | SHAPE |  | `md.sys.shape.corner.full` |  |  |
+| md.comp.nav-rail.item.active-indicator.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.active-indicator.icon-label-space | LENGTH |  | 8dp |  |  |
+| md.comp.nav-rail.item.active-indicator.trailing-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.container.height | LENGTH |  | 64dp |  |  |
+| md.comp.nav-rail.item.short.container.height | LENGTH |  | 56dp |  |  |
+| md.comp.nav-rail.item.container.shape | SHAPE |  | `md.sys.shape.corner.none` |  |  |
+| md.comp.nav-rail.item.container.vertical-space | LENGTH |  | 6dp |  |  |
+| md.comp.nav-rail.item.header-space-minimum | LENGTH |  | 40dp |  |  |
+
+#### Nav rail - Common (md.comp.nav-rail)
+
+Common tokens for nav rail.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.active.indicator.color | COLOR | Enabled | `md.sys.color.secondary-container` |  |  |
+| md.comp.nav-rail.item.active.label-text.color | COLOR | Enabled | `md.sys.color.secondary` |  |  |
+| md.comp.nav-rail.item.inactive.label-text.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-rail.item.active.icon.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.inactive.icon.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-rail.item.active.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.nav-rail.item.inactive.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.nav-rail.item.inactive.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-rail.item.active.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.nav-rail.item.inactive.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+
+#### Nav rail - Collapsed (md.comp.nav-rail.collapsed)
+
+For collapsed nav rail.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.collapsed.container.width | LENGTH |  | 96dp |  |  |
+| md.comp.nav-rail.collapsed.narrow.container.width | LENGTH |  | 80dp |  |  |
+| md.comp.nav-rail.collapsed.container.elevation | ELEVATION |  | `md.sys.elevation.level0` |  |  |
+| md.comp.nav-rail.collapsed.container.shape | SHAPE |  | `md.sys.shape.corner.none` |  |  |
+| md.comp.nav-rail.collapsed.container.color | COLOR |  | `md.sys.color.surface` |  |  |
+| md.comp.nav-rail.collapsed.item.vertical-space | LENGTH |  | 4dp |  |  |
+| md.comp.nav-rail.collapsed.top-space | LENGTH |  | 44dp |  |  |
+
+#### Nav rail - Expanded (md.comp.nav-rail.expanded)
+
+For expanded nav rail.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.expanded.container.width.minimum | LENGTH |  | 220dp |  |  |
+| md.comp.nav-rail.expanded.container.width.maximum | LENGTH |  | 360dp |  |  |
+| md.comp.nav-rail.expanded.top-space | LENGTH |  | 44dp |  |  |
+| md.comp.nav-rail.expanded.container.elevation | ELEVATION |  | `md.sys.elevation.level0` |  |  |
+| md.comp.nav-rail.expanded.modal.container.elevation | ELEVATION |  | `md.sys.elevation.level2` |  |  |
+| md.comp.nav-rail.expanded.container.color | COLOR |  | `md.sys.color.surface` |  |  |
+| md.comp.nav-rail.expanded.modal.container.color | COLOR |  | `md.sys.color.surface-container` |  |  |
+| md.comp.nav-rail.expanded.container.shape | SHAPE |  | `md.sys.shape.corner.none` |  |  |
+| md.comp.nav-rail.expanded.modal.container.shape | SHAPE |  | `md.sys.shape.corner.large` |  |  |
+| md.comp.nav-rail.expanded.between-item-space | LENGTH |  | 0dp |  | Token not needed as value is "0dp" |
+| md.comp.nav-rail.expanded.vertical.trailing-space | LENGTH |  | 20dp |  | Token moved to nav rail item horizontal set |
+
+#### Nav rail item - Vertical (md.comp.nav-rail.item.vertical)
+
+For vertical nav rail items, where elements are stacked.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-rail.item.vertical.active-indicator.height | LENGTH |  | 32dp |  |  |
+| md.comp.nav-rail.item.vertical.active-indicator.width | LENGTH |  | 56dp |  |  |
+| md.comp.nav-rail.item.vertical.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-medium` |  |  |
+| md.comp.nav-rail.item.vertical.icon-label-space | LENGTH |  | 4dp |  |  |
+| md.comp.nav-rail.item.vertical.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-rail.item.vertical.trailing-space | LENGTH |  | 16dp |  |  |
 
 ### Color
 

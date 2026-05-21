@@ -2,7 +2,7 @@
 title: "Designing Harmony into Dynamic Color"
 source_url: "https://m3.material.io/blog/dynamic-color-harmony"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/0038c02dc35d-ce6R6ZY8tPoPCPEVZ8hIbL3I7998wYzOC3abZSdYWbVnHPu5ASQoO7DbEHT5cnHdzLdn-nsMrLE5l8DpY8J2UwBAcv-8Rmlw.png"

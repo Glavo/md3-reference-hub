@@ -2,7 +2,7 @@
 title: "Top Tips for Data Accessibility"
 source_url: "https://m3.material.io/blog/data-visualization-accessibility"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/a37873dce3be-mtoOMJ1gebE6i4qXKxXgi4Cyn-Qt8FinbBZGk_Jhha-NhJGvd9AX71JUmgGLIzXc1NkxLSbEjNqx4QvcIbtO5CZG5-H_yxHw.png"

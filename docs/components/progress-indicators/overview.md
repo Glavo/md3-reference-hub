@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/overview"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/0586462c6a91-mleotj2q-01.png"

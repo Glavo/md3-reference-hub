@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/63c55e59d127-ma23ultc-01-3P.png"
@@ -83,14 +83,158 @@ Browse the component elements, attributes, tokens, and their values. [Jump to ba
 
 Component: Toolbars
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Toolbar - Color - Standard | md.comp.toolbar.standard | COMPONENT | For standard docked and floating toolbars. |
-| Toolbar - Color - Vibrant | md.comp.toolbar.vibrant | COMPONENT | For vibrant docked and floating toolbars. |
-| Toolbar - Docked | md.comp.toolbar.docked | COMPONENT | For docked toolbars. |
-| Toolbar - Floating | md.comp.toolbar.floating | COMPONENT | For floating toolbars. |
-| Toolbar - Floating - FAB | md.comp.toolbar.floating.fab | COMPONENT | For floating toolbars with a FAB in them. |
-| Bottom app bar (baseline) | md.comp.bottom-app-bar | COMPONENT | Baseline bottom app bar container tokens. For expressive, use `md.comp.toolbar.docked` and `md.comp.toolbar.standard` instead. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Toolbar - Color - Standard | md.comp.toolbar.standard | COMPONENT | 33 | For standard docked and floating toolbars. |
+| Toolbar - Color - Vibrant | md.comp.toolbar.vibrant | COMPONENT | 33 | For vibrant docked and floating toolbars. |
+| Toolbar - Docked | md.comp.toolbar.docked | COMPONENT | 7 | For docked toolbars. |
+| Toolbar - Floating | md.comp.toolbar.floating | COMPONENT | 18 | For floating toolbars. |
+| Toolbar - Floating - FAB | md.comp.toolbar.floating.fab | COMPONENT | 15 | For floating toolbars with a FAB in them. |
+
+#### Toolbar - Color - Standard (md.comp.toolbar.standard)
+
+For standard docked and floating toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.standard.container.color | COLOR | Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.toolbar.standard.button.container.color | COLOR | Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.toolbar.standard.selected.button.container.color | COLOR | Enabled | `md.sys.color.secondary-container` |  |  |
+| md.comp.toolbar.standard.icon.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.icon.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.label-text.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.label-text.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.container.shape | SHAPE | Enabled | `md.sys.shape.corner.full` |  |  |
+| md.comp.toolbar.standard.disabled.icon.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.standard.disabled.icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.standard.disabled.label-text.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.standard.disabled.label-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.standard.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.toolbar.standard.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.toolbar.standard.focused.icon.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.focused.icon.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.focused.label-text.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.focused.label-text.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.toolbar.standard.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+
+#### Toolbar - Color - Vibrant (md.comp.toolbar.vibrant)
+
+For vibrant docked and floating toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.vibrant.container.color | COLOR | Enabled | `md.sys.color.primary-container` |  |  |
+| md.comp.toolbar.vibrant.button.container.color | COLOR | Enabled | `md.sys.color.primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.button.container.color | COLOR | Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.toolbar.vibrant.icon.color | COLOR | Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.icon.color | COLOR | Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.label-text.color | COLOR | Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.label-text.color | COLOR | Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.container.shape | SHAPE | Enabled | `md.sys.shape.corner.full` |  |  |
+| md.comp.toolbar.vibrant.disabled.icon.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.disabled.icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.vibrant.disabled.label-text.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.disabled.label-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.vibrant.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.toolbar.vibrant.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.toolbar.vibrant.focused.icon.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.focused.icon.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.focused.label-text.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.focused.label-text.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.toolbar.vibrant.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+
+#### Toolbar - Docked (md.comp.toolbar.docked)
+
+For docked toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.docked.container.color | COLOR | Color | `md.sys.color.surface-container` |  | Moving this token to the color token set |
+| md.comp.toolbar.docked.container.height | LENGTH | Size | 64dp |  |  |
+| md.comp.toolbar.docked.container.leading-space | LENGTH | Size | 16dp |  |  |
+| md.comp.toolbar.docked.container.trailing-space | LENGTH | Size | 16dp |  |  |
+| md.comp.toolbar.docked.container.max-spacing | LENGTH | Size | 32dp |  |  |
+| md.comp.toolbar.docked.container.min-spacing | LENGTH | Size | 4dp |  |  |
+| md.comp.toolbar.docked.container.shape | SHAPE | Shape | `md.sys.shape.corner.none` |  |  |
+
+#### Toolbar - Floating (md.comp.toolbar.floating)
+
+For floating toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.floating.standard.container.color | COLOR | Color | `md.sys.color.surface-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.container.color | COLOR | Color | `md.sys.color.primary-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.unselected.icon.color | COLOR | Color | `md.sys.color.on-primary-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.unselected.text.color | COLOR | Color | `md.sys.color.on-primary-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.selected.icon.color | COLOR | Color | `md.sys.color.on-surface` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.selected.text.color | COLOR | Color | `md.sys.color.on-surface` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.selected.container.color | COLOR | Color | `md.sys.color.surface-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.container.height | LENGTH | Size | 64dp |  | Deprecating this for a vertical and horizontal variant |
+| md.comp.toolbar.floating.horizontal.container.height | LENGTH | Size | 64dp |  |  |
+| md.comp.toolbar.floating.vertical.container.width | LENGTH | Size | 64dp |  |  |
+| md.comp.toolbar.floating.container.leading-space | LENGTH | Size | 8dp |  |  |
+| md.comp.toolbar.floating.container.trailing-space | LENGTH | Size | 8dp |  |  |
+| md.comp.toolbar.floating.container.external-padding | LENGTH | Size | 16dp |  | Deprecating for a vertical and horizontal option |
+| md.comp.toolbar.floating.horizontal.container.external-space | LENGTH | Size | 16dp |  |  |
+| md.comp.toolbar.floating.vertical.container.external-space | LENGTH | Size | 24dp |  |  |
+| md.comp.toolbar.floating.container.between-space | LENGTH | Size | 4dp |  |  |
+| md.comp.toolbar.floating.container.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
+| md.comp.toolbar.floating.container.elevation | ELEVATION | Elevation | `md.sys.elevation.level3` |  |  |
+
+#### Toolbar - Floating - FAB (md.comp.toolbar.floating.fab)
+
+For floating toolbars with a FAB in them.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.floating.fab.between-space | LENGTH |  | 8dp |  |  |
+| md.comp.toolbar.floating.fab.standard.container.color | COLOR |  | `md.sys.color.secondary-container` |  |  |
+| md.comp.toolbar.floating.fab.standard.icon.color | COLOR |  | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.floating.fab.vibrant.container.color | COLOR |  | `md.sys.color.tertiary-container` |  |  |
+| md.comp.toolbar.floating.fab.vibrant.icon.color | COLOR |  | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.toolbar.floating.fab.container.height | LENGTH | Expanded | 56dp |  |  |
+| md.comp.toolbar.floating.fab.container.width | LENGTH | Expanded | 56dp |  |  |
+| md.comp.toolbar.floating.fab.icon.size | LENGTH | Expanded | 24dp |  |  |
+| md.comp.toolbar.floating.fab.container.shape | SHAPE | Expanded | `md.sys.shape.corner.large` |  |  |
+| md.comp.toolbar.floating.fab.container.elevation | ELEVATION | Expanded | `md.sys.elevation.level1` |  |  |
+| md.comp.toolbar.floating.fab.medium.container.height | LENGTH | Collapsed | 80dp |  |  |
+| md.comp.toolbar.floating.fab.medium.container.width | LENGTH | Collapsed | 80dp |  |  |
+| md.comp.toolbar.floating.fab.medium.icon.size | LENGTH | Collapsed | 28dp |  |  |
+| md.comp.toolbar.floating.fab.medium.container.shape | SHAPE | Collapsed | `md.sys.shape.corner.large-increased` |  |  |
+| md.comp.toolbar.floating.fab.medium.container.elevation | ELEVATION | Collapsed | `md.sys.elevation.level2` |  |  |
 
 ## Anatomy
 
@@ -168,14 +312,170 @@ Bottom app bar tokens are in one token set.
 
 Component: Toolbars
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Toolbar - Color - Standard | md.comp.toolbar.standard | COMPONENT | For standard docked and floating toolbars. |
-| Toolbar - Color - Vibrant | md.comp.toolbar.vibrant | COMPONENT | For vibrant docked and floating toolbars. |
-| Toolbar - Docked | md.comp.toolbar.docked | COMPONENT | For docked toolbars. |
-| Toolbar - Floating | md.comp.toolbar.floating | COMPONENT | For floating toolbars. |
-| Toolbar - Floating - FAB | md.comp.toolbar.floating.fab | COMPONENT | For floating toolbars with a FAB in them. |
-| Bottom app bar (baseline) | md.comp.bottom-app-bar | COMPONENT | Baseline bottom app bar container tokens. For expressive, use `md.comp.toolbar.docked` and `md.comp.toolbar.standard` instead. |
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Bottom app bar (baseline) | md.comp.bottom-app-bar | COMPONENT | 6 | Baseline bottom app bar container tokens. For expressive, use `md.comp.toolbar.docked` and `md.comp.toolbar.standard` instead. |
+| Toolbar - Docked | md.comp.toolbar.docked | COMPONENT | 7 | For docked toolbars. |
+| Toolbar - Floating | md.comp.toolbar.floating | COMPONENT | 18 | For floating toolbars. |
+| Toolbar - Color - Standard | md.comp.toolbar.standard | COMPONENT | 33 | For standard docked and floating toolbars. |
+| Toolbar - Color - Vibrant | md.comp.toolbar.vibrant | COMPONENT | 33 | For vibrant docked and floating toolbars. |
+| Toolbar - Floating - FAB | md.comp.toolbar.floating.fab | COMPONENT | 15 | For floating toolbars with a FAB in them. |
+
+#### Bottom app bar (baseline) (md.comp.bottom-app-bar)
+
+Baseline bottom app bar container tokens. For expressive, use `md.comp.toolbar.docked` and `md.comp.toolbar.standard` instead.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.bottom-app-bar.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container` |  |  |
+| md.comp.bottom-app-bar.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.bottom-app-bar.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level2` |  |  |
+| md.comp.bottom-app-bar.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.bottom-app-bar.container.height | LENGTH | Enabled / Container | 80dp |  |  |
+| md.comp.bottom-app-bar.with-fab.container.height | LENGTH | Enabled / Container | 72dp |  | Bottom app bar design updated to use a single height for all configurations, with vertically centered content. Please use md.comp.bottom-app-bar.container.height instead |
+
+#### Toolbar - Docked (md.comp.toolbar.docked)
+
+For docked toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.docked.container.color | COLOR | Color | `md.sys.color.surface-container` |  | Moving this token to the color token set |
+| md.comp.toolbar.docked.container.height | LENGTH | Size | 64dp |  |  |
+| md.comp.toolbar.docked.container.leading-space | LENGTH | Size | 16dp |  |  |
+| md.comp.toolbar.docked.container.trailing-space | LENGTH | Size | 16dp |  |  |
+| md.comp.toolbar.docked.container.max-spacing | LENGTH | Size | 32dp |  |  |
+| md.comp.toolbar.docked.container.min-spacing | LENGTH | Size | 4dp |  |  |
+| md.comp.toolbar.docked.container.shape | SHAPE | Shape | `md.sys.shape.corner.none` |  |  |
+
+#### Toolbar - Floating (md.comp.toolbar.floating)
+
+For floating toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.floating.standard.container.color | COLOR | Color | `md.sys.color.surface-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.container.color | COLOR | Color | `md.sys.color.primary-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.unselected.icon.color | COLOR | Color | `md.sys.color.on-primary-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.unselected.text.color | COLOR | Color | `md.sys.color.on-primary-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.selected.icon.color | COLOR | Color | `md.sys.color.on-surface` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.selected.text.color | COLOR | Color | `md.sys.color.on-surface` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.vibrant.button.selected.container.color | COLOR | Color | `md.sys.color.surface-container` |  | Deprecating this token here and putting it into the color token set |
+| md.comp.toolbar.floating.container.height | LENGTH | Size | 64dp |  | Deprecating this for a vertical and horizontal variant |
+| md.comp.toolbar.floating.horizontal.container.height | LENGTH | Size | 64dp |  |  |
+| md.comp.toolbar.floating.vertical.container.width | LENGTH | Size | 64dp |  |  |
+| md.comp.toolbar.floating.container.leading-space | LENGTH | Size | 8dp |  |  |
+| md.comp.toolbar.floating.container.trailing-space | LENGTH | Size | 8dp |  |  |
+| md.comp.toolbar.floating.container.external-padding | LENGTH | Size | 16dp |  | Deprecating for a vertical and horizontal option |
+| md.comp.toolbar.floating.horizontal.container.external-space | LENGTH | Size | 16dp |  |  |
+| md.comp.toolbar.floating.vertical.container.external-space | LENGTH | Size | 24dp |  |  |
+| md.comp.toolbar.floating.container.between-space | LENGTH | Size | 4dp |  |  |
+| md.comp.toolbar.floating.container.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
+| md.comp.toolbar.floating.container.elevation | ELEVATION | Elevation | `md.sys.elevation.level3` |  |  |
+
+#### Toolbar - Color - Standard (md.comp.toolbar.standard)
+
+For standard docked and floating toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.standard.container.color | COLOR | Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.toolbar.standard.button.container.color | COLOR | Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.toolbar.standard.selected.button.container.color | COLOR | Enabled | `md.sys.color.secondary-container` |  |  |
+| md.comp.toolbar.standard.icon.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.icon.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.label-text.color | COLOR | Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.label-text.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.container.shape | SHAPE | Enabled | `md.sys.shape.corner.full` |  |  |
+| md.comp.toolbar.standard.disabled.icon.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.standard.disabled.icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.standard.disabled.label-text.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.standard.disabled.label-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.standard.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.toolbar.standard.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.toolbar.standard.focused.icon.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.focused.icon.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.focused.label-text.color | COLOR | Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.focused.label-text.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.toolbar.standard.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.standard.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.toolbar.standard.selected.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+
+#### Toolbar - Color - Vibrant (md.comp.toolbar.vibrant)
+
+For vibrant docked and floating toolbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.vibrant.container.color | COLOR | Enabled | `md.sys.color.primary-container` |  |  |
+| md.comp.toolbar.vibrant.button.container.color | COLOR | Enabled | `md.sys.color.primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.button.container.color | COLOR | Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.toolbar.vibrant.icon.color | COLOR | Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.icon.color | COLOR | Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.label-text.color | COLOR | Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.label-text.color | COLOR | Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.container.shape | SHAPE | Enabled | `md.sys.shape.corner.full` |  |  |
+| md.comp.toolbar.vibrant.disabled.icon.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.disabled.icon.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.vibrant.disabled.label-text.color | COLOR | Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.disabled.label-text.opacity | OPACITY | Disabled | 0.38 |  |  |
+| md.comp.toolbar.vibrant.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.toolbar.vibrant.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.toolbar.vibrant.focused.icon.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.focused.icon.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.focused.label-text.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.focused.label-text.color | COLOR | Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.toolbar.vibrant.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.toolbar.vibrant.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.toolbar.vibrant.selected.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-surface` |  |  |
+
+#### Toolbar - Floating - FAB (md.comp.toolbar.floating.fab)
+
+For floating toolbars with a FAB in them.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.toolbar.floating.fab.between-space | LENGTH |  | 8dp |  |  |
+| md.comp.toolbar.floating.fab.standard.container.color | COLOR |  | `md.sys.color.secondary-container` |  |  |
+| md.comp.toolbar.floating.fab.standard.icon.color | COLOR |  | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.toolbar.floating.fab.vibrant.container.color | COLOR |  | `md.sys.color.tertiary-container` |  |  |
+| md.comp.toolbar.floating.fab.vibrant.icon.color | COLOR |  | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.toolbar.floating.fab.container.height | LENGTH | Expanded | 56dp |  |  |
+| md.comp.toolbar.floating.fab.container.width | LENGTH | Expanded | 56dp |  |  |
+| md.comp.toolbar.floating.fab.icon.size | LENGTH | Expanded | 24dp |  |  |
+| md.comp.toolbar.floating.fab.container.shape | SHAPE | Expanded | `md.sys.shape.corner.large` |  |  |
+| md.comp.toolbar.floating.fab.container.elevation | ELEVATION | Expanded | `md.sys.elevation.level1` |  |  |
+| md.comp.toolbar.floating.fab.medium.container.height | LENGTH | Collapsed | 80dp |  |  |
+| md.comp.toolbar.floating.fab.medium.container.width | LENGTH | Collapsed | 80dp |  |  |
+| md.comp.toolbar.floating.fab.medium.icon.size | LENGTH | Collapsed | 28dp |  |  |
+| md.comp.toolbar.floating.fab.medium.container.shape | SHAPE | Collapsed | `md.sys.shape.corner.large-increased` |  |  |
+| md.comp.toolbar.floating.fab.medium.container.elevation | ELEVATION | Collapsed | `md.sys.elevation.level2` |  |  |
 
 ### Color
 

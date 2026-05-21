@@ -2,7 +2,7 @@
 title: "From Rebranding to Readability with Atkinson Hyperlegible"
 source_url: "https://m3.material.io/blog/atkinson-hyperlegible-design"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/4fb6dd2543a8-ZVYXhlo26gl0P89xfOKYaxj5fK6O0Gnqje9qeX8j1FKUWsGWHoXhoYHIM24wYyVPUCNKRvXKppo5c3zEnFeJn-3QEixiWw4O.png"

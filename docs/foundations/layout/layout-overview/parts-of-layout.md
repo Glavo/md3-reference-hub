@@ -2,7 +2,7 @@
 title: "Layout overview"
 source_url: "https://m3.material.io/foundations/layout/layout-overview/parts-of-layout"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "foundations"
 assets:
   - "assets/images/014ba3740cfc-mp3yuwss-01.png"

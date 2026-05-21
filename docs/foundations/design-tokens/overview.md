@@ -2,7 +2,7 @@
 title: "Design tokens"
 source_url: "https://m3.material.io/foundations/design-tokens/overview"
 lastmod: "2025-11-27"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "foundations"
 assets:
   - "assets/images/37994385a52c-mihjfljt-tokens-overview-01-3P.png"

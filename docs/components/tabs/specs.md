@@ -2,7 +2,7 @@
 title: "Tabs"
 source_url: "https://m3.material.io/components/tabs/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/660c6e1f3847-m2lequcy-1.png"
@@ -29,10 +29,111 @@ Select a component variant below to see its elements, attributes, tokens, and th
 
 Component: Tabs
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Tabs - Primary navigation | md.comp.primary-navigation-tab | COMPONENT | For primary tabs. |
-| Tabs - Secondary navigation | md.comp.secondary-navigation-tab | COMPONENT | For secondary tabs. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Tabs - Primary navigation | md.comp.primary-navigation-tab | COMPONENT | 48 | For primary tabs. |
+| Tabs - Secondary navigation | md.comp.secondary-navigation-tab | COMPONENT | 35 | For secondary tabs. |
+
+#### Tabs - Primary navigation (md.comp.primary-navigation-tab)
+
+For primary tabs.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.primary-navigation-tab.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.primary-navigation-tab.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.primary-navigation-tab.container.height | LENGTH | Enabled / Container | 48dp |  |  |
+| md.comp.primary-navigation-tab.with-icon-and-label-text.container.height | LENGTH | Enabled / Container | 64dp |  |  |
+| md.comp.primary-navigation-tab.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.title-small.font` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.title-small.line-height` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.title-small.size` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.title-small.weight` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.title-small.tracking` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.primary-navigation-tab.with-label-text.label-text.font`, font weight: `md.comp.primary-navigation-tab.with-label-text.label-text.weight`, font size: `md.comp.primary-navigation-tab.with-label-text.label-text.size`, font tracking: `md.comp.primary-navigation-tab.with-label-text.label-text.tracking`, line height: `md.comp.primary-navigation-tab.with-label-text.label-text.line-height` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.active.label-text.color | COLOR | Enabled / Label text | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.inactive.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.primary-navigation-tab.with-icon.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.primary-navigation-tab.with-icon.active.icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-icon.inactive.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.primary-navigation-tab.divider.color | COLOR | Enabled / Divider | `md.sys.color.surface-variant` |  | Use standalone divider component instead of nested tokens. |
+| md.comp.primary-navigation-tab.divider.height | LENGTH | Enabled / Divider | 1dp |  | Use standalone divider component instead of nested tokens. |
+| md.comp.primary-navigation-tab.active-indicator.color | COLOR | Enabled / Active indicator | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.active-indicator.height | LENGTH | Enabled / Active indicator | 3dp |  |  |
+| md.comp.primary-navigation-tab.active-indicator.shape | SHAPE | Enabled / Active indicator | rounded corners 3dp |  |  |
+| md.comp.primary-navigation-tab.with-label-text.active.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.inactive.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.primary-navigation-tab.active.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.active.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.primary-navigation-tab.inactive.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.primary-navigation-tab.inactive.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.primary-navigation-tab.with-icon.active.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-icon.inactive.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.primary-navigation-tab.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.primary-navigation-tab.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.primary-navigation-tab.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.inner-offset` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.active.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.inactive.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.primary-navigation-tab.active.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.active.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.primary-navigation-tab.inactive.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.primary-navigation-tab.inactive.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.primary-navigation-tab.with-icon.active.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-icon.inactive.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.active.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-label-text.inactive.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.primary-navigation-tab.active.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.active.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.primary-navigation-tab.inactive.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.inactive.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.primary-navigation-tab.with-icon.active.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.primary` |  |  |
+| md.comp.primary-navigation-tab.with-icon.inactive.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface` |  |  |
+
+#### Tabs - Secondary navigation (md.comp.secondary-navigation-tab)
+
+For secondary tabs.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.secondary-navigation-tab.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.secondary-navigation-tab.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.secondary-navigation-tab.container.height | LENGTH | Enabled / Container | 48dp |  |  |
+| md.comp.secondary-navigation-tab.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.secondary-navigation-tab.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.secondary-navigation-tab.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.title-small.font` |  |  |
+| md.comp.secondary-navigation-tab.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.title-small.line-height` |  |  |
+| md.comp.secondary-navigation-tab.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.title-small.size` |  |  |
+| md.comp.secondary-navigation-tab.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.title-small.weight` |  |  |
+| md.comp.secondary-navigation-tab.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.title-small.tracking` |  |  |
+| md.comp.secondary-navigation-tab.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.secondary-navigation-tab.label-text.font`, font weight: `md.comp.secondary-navigation-tab.label-text.weight`, font size: `md.comp.secondary-navigation-tab.label-text.size`, font tracking: `md.comp.secondary-navigation-tab.label-text.tracking`, line height: `md.comp.secondary-navigation-tab.label-text.line-height` |  |  |
+| md.comp.secondary-navigation-tab.active.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.inactive.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.secondary-navigation-tab.with-icon.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.secondary-navigation-tab.with-icon.active.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.with-icon.inactive.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.secondary-navigation-tab.divider.color | COLOR | Enabled / Divider | `md.sys.color.surface-variant` |  | Please use standalone divider component tokens instead |
+| md.comp.secondary-navigation-tab.divider.height | LENGTH | Enabled / Divider | 1dp |  | Please use standalone divider component tokens instead |
+| md.comp.secondary-navigation-tab.active-indicator.color | COLOR | Enabled / Active indicator | `md.sys.color.primary` |  |  |
+| md.comp.secondary-navigation-tab.active-indicator.height | LENGTH | Enabled / Active indicator | 2dp |  |  |
+| md.comp.secondary-navigation-tab.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.secondary-navigation-tab.with-icon.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.secondary-navigation-tab.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.secondary-navigation-tab.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.inner-offset` |  |  |
+| md.comp.secondary-navigation-tab.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.secondary-navigation-tab.with-icon.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.secondary-navigation-tab.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.secondary-navigation-tab.with-icon.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface` |  |  |
 
 ## Primary tabs
 

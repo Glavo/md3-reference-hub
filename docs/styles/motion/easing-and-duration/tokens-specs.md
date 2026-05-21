@@ -2,7 +2,7 @@
 title: "Easing and duration"
 source_url: "https://m3.material.io/styles/motion/easing-and-duration/tokens-specs"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "styles"
 assets:
   - "assets/videos/5c43e3ea7901-lxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4"
@@ -36,6 +36,8 @@ Motion easing and duration can be implemented using easing and duration tokens. 
 ### TOKEN_TYPE_UNSPECIFIED
 
 Component: Sliders
+
+Configured context tags: Standard, Expressive, Compose, Web, Android
 
 ## Easing
 

@@ -2,7 +2,7 @@
 title: "Designing"
 source_url: "https://m3.material.io/foundations/designing/overview"
 lastmod: "2025-10-08"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "foundations"
 assets:
   - "assets/images/411f00b5774d-lwj3q0f4-1.png"

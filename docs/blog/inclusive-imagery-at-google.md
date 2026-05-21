@@ -2,7 +2,7 @@
 title: "Adjusting the Focus"
 source_url: "https://m3.material.io/blog/inclusive-imagery-at-google"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/82b8e71f40ef-mA0FbEuoQeXaghl9kh_J1U25rKcxv82rnodYNZzQa3MVPMHbdHvaqgoxdPMR-sd2ElL4ZZDLI1CPQH2uegXjtNdt5QHiLWEO.png"

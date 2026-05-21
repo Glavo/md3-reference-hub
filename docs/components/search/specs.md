@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/videos/cc13cedade94-mm28azl5-GM3-Search-Bar-Specs-01-3P-v02.mp4"
@@ -96,10 +96,113 @@ Use the table's menu to select a token set. The **search bar** set only contains
 
 Component: Search
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Search - Bar | md.comp.search-bar | COMPONENT | For baseline search bar and expressive search. |
-| Search - View | md.comp.search-view | COMPONENT | For baseline search view and expressive search when activated. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, Compose, 3P, Web, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Search - Bar | md.comp.search-bar | COMPONENT | 49 | For baseline search bar and expressive search. |
+| Search - View | md.comp.search-view | COMPONENT | 36 | For baseline search view and expressive search when activated. |
+
+#### Search - Bar (md.comp.search-bar)
+
+For baseline search bar and expressive search.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.search-bar.hover.state-layer.color | COLOR | Color / Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.search-bar.hover.state-layer.opacity | OPACITY | Color / Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.search-bar.hover.supporting-text.color | COLOR | Color / Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.search-bar.pressed.state-layer.color | COLOR | Color / Pressed | `md.sys.color.on-surface` |  |  |
+| md.comp.search-bar.container.color | COLOR | Color / Enabled | `md.sys.color.surface-container-high` |  |  |
+| md.comp.search-bar.pressed.state-layer.opacity | OPACITY | Color / Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.search-bar.container.elevation | ELEVATION | Color / Enabled | `md.sys.elevation.level3` |  |  |
+| md.comp.search-bar.pressed.supporting-text.color | COLOR | Color / Pressed | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.search-bar.leading-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.search-bar.trailing-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.search-bar.supporting-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.search-bar.input-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.search-bar.focus.indicator.color | COLOR | Color / Focused | `md.sys.color.secondary` |  |  |
+| md.comp.search-bar.focus.indicator.thickness | LENGTH | Color / Focused | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.search-bar.focus.indicator.outline.offset | LENGTH | Color / Focused | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.search-bar.leading-space | LENGTH | Layout and Text / Baseline | 16dp |  |  |
+| md.comp.search-bar.trailing-space | LENGTH | Layout and Text / Baseline | 16dp |  |  |
+| md.comp.search-bar.leading-icon.leading-icon-label-space | LENGTH | Layout and Text / Baseline | 16dp |  |  |
+| md.comp.search-bar.trailing-icon.label-trailing-icon-space | LENGTH | Layout and Text / Baseline | 16dp |  |  |
+| md.comp.search-bar.contained.leading-margin | LENGTH | Layout and Text / Contained (expressive) | 24dp |  |  |
+| md.comp.search-bar.contained.trailing-margin | LENGTH | Layout and Text / Contained (expressive) | 24dp |  |  |
+| md.comp.search-bar.container.height | LENGTH | Layout and Text / Common tokens | 56dp |  |  |
+| md.comp.search-bar.contained.motion.spring | CUSTOM_COMPOSITE | Layout and Text / Contained (expressive) | `md.sys.motion.spring.fast.spatial` |  |  |
+| md.comp.search-bar.container.shape | SHAPE | Layout and Text / Common tokens | `md.sys.shape.corner.full` |  |  |
+| md.comp.search-bar.contained.leading-space | LENGTH | Layout and Text / Contained (expressive) | 4dp |  |  |
+| md.comp.search-bar.avatar.size | LENGTH | Layout and Text / Common tokens | 30dp |  |  |
+| md.comp.search-bar.contained.trailing-space | LENGTH | Layout and Text / Contained (expressive) | 4dp |  |  |
+| md.comp.search-bar.avatar.shape | SHAPE | Layout and Text / Common tokens | `md.sys.shape.corner.full` |  |  |
+| md.comp.search-bar.contained.no-actions.leading-space | LENGTH | Layout and Text / Contained (expressive) | 16dp |  |  |
+| md.comp.search-bar.contained.no-actions.trailing-space | LENGTH | Layout and Text / Contained (expressive) | 16dp |  |  |
+| md.comp.search-bar.icon.size | LENGTH | Layout and Text / Common tokens | 24dp |  |  |
+| md.comp.search-bar.contained.icon-label.gap | LENGTH | Layout and Text / Contained (expressive) | 4dp |  |  |
+| md.comp.search-bar.supporting-text.type | TYPOGRAPHY | Layout and Text / Common tokens | font name: `md.comp.search-bar.supporting-text.font`, font weight: `md.comp.search-bar.supporting-text.weight`, font size: `md.comp.search-bar.supporting-text.size`, font tracking: `md.comp.search-bar.supporting-text.tracking`, line height: `md.comp.search-bar.supporting-text.line-height` |  |  |
+| md.comp.search-bar.contained.avatar.target-size | LENGTH | Layout and Text / Contained (expressive) | 48dp |  |  |
+| md.comp.search-bar.supporting-text.font | FONT_NAMES | Layout and Text / Common tokens | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.search-bar.contained.trailing-actions.gap | LENGTH | Layout and Text / Contained (expressive) | 0dp |  |  |
+| md.comp.search-bar.supporting-text.line-height | LINE_HEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.search-bar.contained.trailing-actions.leading-space | LENGTH | Layout and Text / Contained (expressive) | 4dp |  |  |
+| md.comp.search-bar.supporting-text.size | FONT_SIZE | Layout and Text / Common tokens | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.search-bar.contained.trailing-actions.trailing-space | LENGTH | Layout and Text / Contained (expressive) | 4dp |  |  |
+| md.comp.search-bar.supporting-text.weight | FONT_WEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.search-bar.supporting-text.tracking | FONT_TRACKING | Layout and Text / Common tokens | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.search-bar.input-text.type | TYPOGRAPHY | Layout and Text / Common tokens | font name: `md.comp.search-bar.input-text.font`, font weight: `md.comp.search-bar.input-text.weight`, font size: `md.comp.search-bar.input-text.size`, font tracking: `md.comp.search-bar.input-text.tracking`, line height: `md.comp.search-bar.input-text.line-height` |  |  |
+| md.comp.search-bar.input-text.font | FONT_NAMES | Layout and Text / Common tokens | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.search-bar.input-text.line-height | LINE_HEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.search-bar.input-text.size | FONT_SIZE | Layout and Text / Common tokens | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.search-bar.input-text.weight | FONT_WEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.search-bar.input-text.tracking | FONT_TRACKING | Layout and Text / Common tokens | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.search-bar.container.surface-tint-layer.color | COLOR | Layout and Text / Common tokens | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+
+#### Search - View (md.comp.search-view)
+
+For baseline search view and expressive search when activated.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.search-view.container.surface-tint-layer.color | COLOR |  | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.search-view.container.color | COLOR | Color | `md.sys.color.surface-container-high` |  |  |
+| md.comp.search-view.contained.background.color | COLOR | Color | `md.sys.color.surface-container-low` |  |  |
+| md.comp.search-view.container.elevation | ELEVATION | Color | `md.sys.elevation.level3` |  |  |
+| md.comp.search-view.header.supporting-text.color | COLOR | Color | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.search-view.header.input-text.color | COLOR | Color | `md.sys.color.on-surface` |  |  |
+| md.comp.search-view.header.leading-icon.color | COLOR | Color | `md.sys.color.on-surface` |  |  |
+| md.comp.search-view.header.trailing-icon.color | COLOR | Color | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.search-view.divider.color | COLOR | Color | `md.sys.color.outline` |  |  |
+| md.comp.search-view.docked.container.shape | SHAPE | Layout and Text / Divided (baseline) | `md.sys.shape.corner.extra-large` |  |  |
+| md.comp.search-view.full-screen.header.container.height | LENGTH | Layout and Text / Divided (baseline) | 72dp |  |  |
+| md.comp.search-view.docked.header.container.height | LENGTH | Layout and Text / Divided (baseline) | 56dp |  |  |
+| md.comp.search-view.leading-space | LENGTH | Layout and Text / Divided (baseline) | 16dp |  |  |
+| md.comp.search-view.trailing-space | LENGTH | Layout and Text / Divided (baseline) | 16dp |  |  |
+| md.comp.search-view.leading-icon.leading-icon-label-space | LENGTH | Layout and Text / Divided (baseline) | 16dp |  |  |
+| md.comp.search-view.trailing-icon.label-trailing-icon-space | LENGTH | Layout and Text / Divided (baseline) | 16dp |  |  |
+| md.comp.search-view.full-screen.container.shape | SHAPE | Layout and Text / Common tokens | `md.sys.shape.corner.none` |  |  |
+| md.comp.search-view.header.supporting-text.type | TYPOGRAPHY | Layout and Text / Common tokens | font name: `md.comp.search-view.header.supporting-text.font`, font weight: `md.comp.search-view.header.supporting-text.weight`, font size: `md.comp.search-view.header.supporting-text.size`, font tracking: `md.comp.search-view.header.supporting-text.tracking`, line height: `md.comp.search-view.header.supporting-text.line-height` |  |  |
+| md.comp.search-view.header.supporting-text.font | FONT_NAMES | Layout and Text / Common tokens | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.search-view.header.supporting-text.line-height | LINE_HEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.search-view.header.supporting-text.size | FONT_SIZE | Layout and Text / Common tokens | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.search-view.header.supporting-text.weight | FONT_WEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.search-view.header.supporting-text.tracking | FONT_TRACKING | Layout and Text / Common tokens | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.search-view.header.input-text.type | TYPOGRAPHY | Layout and Text / Common tokens | font name: `md.comp.search-view.header.input-text.font`, font weight: `md.comp.search-view.header.input-text.weight`, font size: `md.comp.search-view.header.input-text.size`, font tracking: `md.comp.search-view.header.input-text.tracking`, line height: `md.comp.search-view.header.input-text.line-height` |  |  |
+| md.comp.search-view.header.input-text.font | FONT_NAMES | Layout and Text / Common tokens | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.search-view.header.input-text.line-height | LINE_HEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.search-view.header.input-text.size | FONT_SIZE | Layout and Text / Common tokens | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.search-view.header.input-text.weight | FONT_WEIGHT | Layout and Text / Common tokens | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.search-view.header.input-text.tracking | FONT_TRACKING | Layout and Text / Common tokens | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.search-view.contained.leading-margin | LENGTH | Layout and Text / Contained (expressive) | 12dp |  |  |
+| md.comp.search-view.contained.trailing-margin | LENGTH | Layout and Text / Contained (expressive) | 12dp |  |  |
+| md.comp.search-view.contained.docked.bar-results.gap | LENGTH | Layout and Text / Contained (expressive) | 2dp |  |  |
+| md.comp.search-view.contained.docked.results.shape | SHAPE | Layout and Text / Contained (expressive) | `md.sys.shape.corner.medium` |  |  |
+| md.comp.search-view.contained.docked.bar.shape | SHAPE | Layout and Text / Contained (expressive) | `md.sys.shape.corner.full` |  |  |
+| md.comp.search-view.contained.full-screen.bar.container.height | LENGTH | Layout and Text / Contained (expressive) | 56dp |  |  |
+| md.comp.search-view.contained.icon-label.gap | LENGTH | Layout and Text / Contained (expressive) | 4dp |  |  |
 
 ## Anatomy
 

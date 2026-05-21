@@ -2,7 +2,7 @@
 title: "Elevation"
 source_url: "https://m3.material.io/styles/elevation/tokens"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "styles"
 assets: []
 ---
@@ -20,6 +20,8 @@ Elevation levels can be implemented with tokens. Surface tint color is deprecate
 ### ELEVATION
 
 Component: Sliders
+
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
 
 ## Component elevation
 

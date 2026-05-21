@@ -2,7 +2,7 @@
 title: "Content design"
 source_url: "https://m3.material.io/foundations/content-design/overview"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "foundations"
 assets:
   - "assets/images/a114d0b549c2-lvxen940-1p-Content-design.png"

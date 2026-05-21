@@ -2,7 +2,7 @@
 title: "Welcome to the Material Blog—Letter from the Editor"
 source_url: "https://m3.material.io/blog/material-design-blog-welcome"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/15b2c7084cc3-jEnGSii1ALI3l2mLtobU8e0uIfdkf8eg8ic3koughUw5N38UAwe6rLrmIaZo9ee3RmJ50pU8hTSClYXjEJdAtuiFCjiUoDd6.png"

@@ -2,7 +2,7 @@
 title: "Spacing"
 source_url: "https://m3.material.io/styles/spacing/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "styles"
 assets:
   - "assets/images/a612533a0c03-mp45pjnu-01.png"

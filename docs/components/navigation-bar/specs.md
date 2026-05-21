@@ -2,7 +2,7 @@
 title: "Navigation bar"
 source_url: "https://m3.material.io/components/navigation-bar/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/7a35a73c3a4d-ma3onczd-01.png"
@@ -67,12 +67,69 @@ Use the table's menu to switch between token sets for the navigation bar and the
 
 Component: Navigation bar
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Nav bar - Common | md.comp.nav-bar | COMPONENT | Common tokens for navigation bars. |
-| Nav bar - Item - Horizontal | md.comp.nav-bar.item.horizontal | COMPONENT | For horizontal nav items, where elements are side-by-side. |
-| Nav bar - Item - Vertical | md.comp.nav-bar.item.vertical | COMPONENT | For vertical nav items, where elements are stacked. |
-| Navigation bar (baseline) | md.comp.navigation-bar | COMPONENT | For baseline navigation bar. For expressive, use `md.comp.nav-bar` and corresponding `.item` token sets instead. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Nav bar - Common | md.comp.nav-bar | COMPONENT | 23 | Common tokens for navigation bars. |
+| Nav bar - Item - Horizontal | md.comp.nav-bar.item.horizontal | COMPONENT | 5 | For horizontal nav items, where elements are side-by-side. |
+| Nav bar - Item - Vertical | md.comp.nav-bar.item.vertical | COMPONENT | 5 | For vertical nav items, where elements are stacked. |
+
+#### Nav bar - Common (md.comp.nav-bar)
+
+Common tokens for navigation bars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-bar.item.active.hovered.state-layer.color | COLOR | Color / Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.hovered.state-layer.opacity | OPACITY | Color / Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.nav-bar.item.inactive.hovered.state-layer.color | COLOR | Color / Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.focused.state-layer.color | COLOR | Color / Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.focused.state-layer.opacity | OPACITY | Color / Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.nav-bar.item.inactive.focused.state-layer.color | COLOR | Color / Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.pressed.state-layer.color | COLOR | Color / Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.pressed.state-layer.opacity | OPACITY | Color / Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.nav-bar.item.inactive.pressed.state-layer.color | COLOR | Color / Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.container.elevation | ELEVATION | Color / Enabled | `md.sys.elevation.level2` |  |  |
+| md.comp.nav-bar.container.shadow-color | COLOR | Color / Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.nav-bar.container.color | COLOR | Color / Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.nav-bar.item.active.indicator.color | COLOR | Color / Enabled | `md.sys.color.secondary-container` |  |  |
+| md.comp.nav-bar.item.active.label-text.color | COLOR | Color / Enabled | `md.sys.color.secondary` |  |  |
+| md.comp.nav-bar.item.inactive.label-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-bar.item.active.icon.color | COLOR | Color / Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.inactive.icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-bar.item.between-space | LENGTH | Nav item | 0dp |  |  |
+| md.comp.nav-bar.item.active-indicator.shape | SHAPE | Nav item | `md.sys.shape.corner.full` |  |  |
+| md.comp.nav-bar.item.active-indicator.icon-label-space | LENGTH | Nav item | 4dp |  |  |
+| md.comp.nav-bar.item.icon.size | LENGTH | Nav item | 24dp |  |  |
+| md.comp.nav-bar.container.height | LENGTH | Container | 64dp |  |  |
+| md.comp.nav-bar.container.shape | SHAPE | Container | `md.sys.shape.corner.none` |  |  |
+
+#### Nav bar - Item - Horizontal (md.comp.nav-bar.item.horizontal)
+
+For horizontal nav items, where elements are side-by-side.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-bar.item.horizontal.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-medium` |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.height | LENGTH |  | 40dp |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.trailing-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.icon-label-space | LENGTH |  | 4dp |  |  |
+
+#### Nav bar - Item - Vertical (md.comp.nav-bar.item.vertical)
+
+For vertical nav items, where elements are stacked.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-bar.item.vertical.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-medium` |  |  |
+| md.comp.nav-bar.item.vertical.active-indicator.height | LENGTH |  | 32dp |  |  |
+| md.comp.nav-bar.item.vertical.active-indicator.width | LENGTH |  | 56dp |  |  |
+| md.comp.nav-bar.item.vertical.container.between-space | LENGTH |  | 6dp |  |  |
+| md.comp.nav-bar.item.vertical.active-indicator.icon-label-space | LENGTH |  | 4dp |  |  |
 
 ## Anatomy
 
@@ -128,12 +185,129 @@ These tokens are for the baseline navigation bar.
 
 Component: Navigation bar
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Nav bar - Common | md.comp.nav-bar | COMPONENT | Common tokens for navigation bars. |
-| Nav bar - Item - Horizontal | md.comp.nav-bar.item.horizontal | COMPONENT | For horizontal nav items, where elements are side-by-side. |
-| Nav bar - Item - Vertical | md.comp.nav-bar.item.vertical | COMPONENT | For vertical nav items, where elements are stacked. |
-| Navigation bar (baseline) | md.comp.navigation-bar | COMPONENT | For baseline navigation bar. For expressive, use `md.comp.nav-bar` and corresponding `.item` token sets instead. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Navigation bar (baseline) | md.comp.navigation-bar | COMPONENT | 52 | For baseline navigation bar. For expressive, use `md.comp.nav-bar` and corresponding `.item` token sets instead. |
+| Nav bar - Common | md.comp.nav-bar | COMPONENT | 23 | Common tokens for navigation bars. |
+| Nav bar - Item - Vertical | md.comp.nav-bar.item.vertical | COMPONENT | 5 | For vertical nav items, where elements are stacked. |
+| Nav bar - Item - Horizontal | md.comp.nav-bar.item.horizontal | COMPONENT | 5 | For horizontal nav items, where elements are side-by-side. |
+
+#### Navigation bar (baseline) (md.comp.navigation-bar)
+
+For baseline navigation bar. For expressive, use `md.comp.nav-bar` and corresponding `.item` token sets instead.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.navigation-bar.focus.indicator.color | COLOR | Enabled / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.navigation-bar.focus.indicator.thickness | LENGTH | Enabled / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.navigation-bar.focus.indicator.outline.offset | LENGTH | Enabled / Focus indicator | `md.sys.state.focus-indicator.inner-offset` |  |  |
+| md.comp.navigation-bar.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container` |  |  |
+| md.comp.navigation-bar.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.navigation-bar.container.height | LENGTH | Enabled / Container | 80dp |  |  |
+| md.comp.navigation-bar.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level2` |  |  |
+| md.comp.navigation-bar.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.navigation-bar.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  | Bug: should not have been created. Remove any shadows on navigation bars. |
+| md.comp.navigation-bar.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-medium.font` |  |  |
+| md.comp.navigation-bar.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-medium.line-height` |  |  |
+| md.comp.navigation-bar.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-medium.size` |  |  |
+| md.comp.navigation-bar.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-medium.weight` |  |  |
+| md.comp.navigation-bar.active.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-medium.weight.prominent` |  |  |
+| md.comp.navigation-bar.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-medium.tracking` |  |  |
+| md.comp.navigation-bar.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.navigation-bar.label-text.font`, font weight: `md.comp.navigation-bar.label-text.weight`, font size: `md.comp.navigation-bar.label-text.size`, font tracking: `md.comp.navigation-bar.label-text.tracking`, line height: `md.comp.navigation-bar.label-text.line-height` |  |  |
+| md.comp.navigation-bar.active.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.inactive.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-bar.active.hover.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.inactive.hover.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.active.focus.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.inactive.focus.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.active.pressed.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.inactive.pressed.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.navigation-bar.active.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-bar.inactive.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-bar.active.hover.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-bar.inactive.hover.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.active.focus.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-bar.inactive.focus.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.active.pressed.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-bar.inactive.pressed.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.badge.color | COLOR | Enabled / [Deprecated] Badge | `md.sys.color.error` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.*` tokens. |
+| md.comp.navigation-bar.badge.size | LENGTH | Enabled / [Deprecated] Badge | 6dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.*` tokens. |
+| md.comp.navigation-bar.badge.shape | SHAPE | Enabled / [Deprecated] Badge | rounded corners 3dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.*` tokens. |
+| md.comp.navigation-bar.active-indicator.color | COLOR | Enabled / Active indicator | `md.sys.color.secondary-container` |  |  |
+| md.comp.navigation-bar.active-indicator.height | LENGTH | Enabled / Active indicator | 32dp |  |  |
+| md.comp.navigation-bar.active-indicator.width | LENGTH | Enabled / Active indicator | 64dp |  |  |
+| md.comp.navigation-bar.active-indicator.shape | SHAPE | Enabled / Active indicator | `md.sys.shape.corner.full` |  |  |
+| md.comp.navigation-bar.active.hover.state-layer.color | COLOR | Enabled / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.inactive.hover.state-layer.color | COLOR | Enabled / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.hover.state-layer.opacity | OPACITY | Enabled / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.navigation-bar.active.focus.state-layer.color | COLOR | Enabled / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.inactive.focus.state-layer.color | COLOR | Enabled / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.focus.state-layer.opacity | OPACITY | Enabled / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.navigation-bar.active.pressed.state-layer.color | COLOR | Enabled / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.inactive.pressed.state-layer.color | COLOR | Enabled / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-bar.pressed.state-layer.opacity | OPACITY | Enabled / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.navigation-bar.large-badge.size | LENGTH | Enabled / [Deprecated] Large badge | 16dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-bar.large-badge.shape | SHAPE | Enabled / [Deprecated] Large badge | rounded corners 8dp |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+| md.comp.navigation-bar.large-badge.color | COLOR | Enabled / [Deprecated] Large badge | `md.sys.color.error` |  | Badge values were refactored out into their own token set. Replace usage with the equivalent `md.comp.badge.large.*` tokens. |
+
+#### Nav bar - Common (md.comp.nav-bar)
+
+Common tokens for navigation bars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-bar.item.active.hovered.state-layer.color | COLOR | Color / Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.hovered.state-layer.opacity | OPACITY | Color / Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.nav-bar.item.inactive.hovered.state-layer.color | COLOR | Color / Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.focused.state-layer.color | COLOR | Color / Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.focused.state-layer.opacity | OPACITY | Color / Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.nav-bar.item.inactive.focused.state-layer.color | COLOR | Color / Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.pressed.state-layer.color | COLOR | Color / Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.active.pressed.state-layer.opacity | OPACITY | Color / Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.nav-bar.item.inactive.pressed.state-layer.color | COLOR | Color / Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.container.elevation | ELEVATION | Color / Enabled | `md.sys.elevation.level2` |  |  |
+| md.comp.nav-bar.container.shadow-color | COLOR | Color / Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.nav-bar.container.color | COLOR | Color / Enabled | `md.sys.color.surface-container` |  |  |
+| md.comp.nav-bar.item.active.indicator.color | COLOR | Color / Enabled | `md.sys.color.secondary-container` |  |  |
+| md.comp.nav-bar.item.active.label-text.color | COLOR | Color / Enabled | `md.sys.color.secondary` |  |  |
+| md.comp.nav-bar.item.inactive.label-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-bar.item.active.icon.color | COLOR | Color / Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.nav-bar.item.inactive.icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.nav-bar.item.between-space | LENGTH | Nav item | 0dp |  |  |
+| md.comp.nav-bar.item.active-indicator.shape | SHAPE | Nav item | `md.sys.shape.corner.full` |  |  |
+| md.comp.nav-bar.item.active-indicator.icon-label-space | LENGTH | Nav item | 4dp |  |  |
+| md.comp.nav-bar.item.icon.size | LENGTH | Nav item | 24dp |  |  |
+| md.comp.nav-bar.container.height | LENGTH | Container | 64dp |  |  |
+| md.comp.nav-bar.container.shape | SHAPE | Container | `md.sys.shape.corner.none` |  |  |
+
+#### Nav bar - Item - Vertical (md.comp.nav-bar.item.vertical)
+
+For vertical nav items, where elements are stacked.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-bar.item.vertical.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-medium` |  |  |
+| md.comp.nav-bar.item.vertical.active-indicator.height | LENGTH |  | 32dp |  |  |
+| md.comp.nav-bar.item.vertical.active-indicator.width | LENGTH |  | 56dp |  |  |
+| md.comp.nav-bar.item.vertical.container.between-space | LENGTH |  | 6dp |  |  |
+| md.comp.nav-bar.item.vertical.active-indicator.icon-label-space | LENGTH |  | 4dp |  |  |
+
+#### Nav bar - Item - Horizontal (md.comp.nav-bar.item.horizontal)
+
+For horizontal nav items, where elements are side-by-side.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.nav-bar.item.horizontal.label-text.font | TYPOGRAPHY |  | `md.sys.typescale.label-medium` |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.height | LENGTH |  | 40dp |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.leading-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.trailing-space | LENGTH |  | 16dp |  |  |
+| md.comp.nav-bar.item.horizontal.active-indicator.icon-label-space | LENGTH |  | 4dp |  |  |
 
 ### Color
 

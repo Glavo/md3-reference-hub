@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -129,12 +129,207 @@ Use the table's menu to select a token set. The **common** set combines baseline
 
 Component: Lists
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| List - Expand | md.comp.list.expand | COMPONENT | For list items that can expand and collapse. |
-| List - Reorder | md.comp.list.reorder | COMPONENT | For reordering a list item using a drag handle or accessible alternative. Only use for Expressive lists. For baseline lists, use `md.comp.list.list-item.dragged` tokens. |
-| List - Reveal | md.comp.list.reveal | COMPONENT | For list items that can be swiped or tapped to reveal more actions as buttons. Only use for expressive lists. |
-| List - Common | md.comp.list | COMPONENT | Common baseline and expressive list tokens. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| List - Common | md.comp.list | COMPONENT | 171 | Common baseline and expressive list tokens. |
+| List - Expand | md.comp.list.expand | COMPONENT | 8 | For list items that can expand and collapse. |
+
+#### List - Common (md.comp.list)
+
+Common baseline and expressive list tokens.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.list.list-item.container.color | COLOR | Color / Enabled | `md.sys.color.surface` |  |  |
+| md.comp.list.list-item.segmented.container.color | COLOR | Color / Enabled | `md.sys.color.surface` |  |  |
+| md.comp.list.list-item.label-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.supporting-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.overline.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.divider.color | COLOR | Color / Enabled | `md.sys.color.outline` |  | Depcrecating all divider tokens nested across components. Please use the standalone divider component token md.comp.divider.color as a replacement |
+| md.comp.list.divider.height | LENGTH | Color / Enabled | 1dp |  | Depcrecating all divider tokens nested across components. Please use the standalone divider component token md.comp.divider.thickness as a replacement |
+| md.comp.list.list-item.container.height | LENGTH | Color / Enabled | 56dp |  | Removing single height value in favor of distinct height values for 1, 2, or 3 line list items. |
+| md.comp.list.md.comp.list.list-item.one-line.container.height | LENGTH | Color / Enabled | 56dp |  | Typo in token name. Please use `md.comp.list.list-item.one-line.container.height `. |
+| md.comp.list.md.comp.list.list-item.three-line.container.height | LENGTH | Color / Enabled | 88dp |  | Typo in token name. Please use `md.comp.list.list-item.three-line.container.height`. |
+| md.comp.list.md.comp.list.list-item.two-line.container.height | LENGTH | Color / Enabled | 72dp |  | Typo in token name. Please use `md.comp.list.md.comp.list.list-item.two-line.container.height`. |
+| md.comp.list.list-item.leading-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.trailing-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.unselected.trailing-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.leading-avatar.color | COLOR | Color / Enabled | `md.sys.color.primary-container` |  |  |
+| md.comp.list.list-item.leading-avatar-label.color | COLOR | Color / Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.list.list-item.container.elevation | ELEVATION | Color / Enabled | `md.sys.elevation.level0` |  |  |
+| md.comp.list.list-item.selected.container.color | COLOR | Color / Enabled - Selected | `md.sys.color.secondary-container` |  |  |
+| md.comp.list.list-item.selected.label-text.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.supporting-text.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.trailing-supporting-text.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.leading-icon.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.trailing-icon.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.overline.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.disabled.state-layer.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.state-layer.opacity | OPACITY | Color / Disabled | 0.1 |  |  |
+| md.comp.list.list-item.disabled.label-text.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.label-text.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.supporting-text.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.supporting-text.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.overline.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.overline.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.leading-icon.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.leading-icon.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.trailing-icon.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.trailing-icon.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.container.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.container.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.label-text.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.label-text.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.supporting-text.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.supporting-text.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-supporting-text.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-supporting-text.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.overline.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.overline.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.state-layer.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.state-layer.opacity | OPACITY | Color / Disabled - Selected | 0.1 |  |  |
+| md.comp.list.list-item.selected.disabled.leading-icon.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.leading-icon.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-icon.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-icon.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.hover.state-layer.color | COLOR | Color / Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.hover.state-layer.opacity | OPACITY | Color / Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.list.list-item.hover.label-text.color | COLOR | Color / Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.hover.leading-icon.icon.color | COLOR | Color / Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.hover.trailing-icon.icon.color | COLOR | Color / Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.hover.state-layer.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.hover.state-layer.opacity | OPACITY | Color / Hovered - Selected | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.hover.label-text.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.hover.leading-icon.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.hover.trailing-icon.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.focus.state-layer.color | COLOR | Color / Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.focus.state-layer.opacity | OPACITY | Color / Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.list.list-item.focus.label-text.color | COLOR | Color / Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.focus.leading-icon.icon.color | COLOR | Color / Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.focus.trailing-icon.icon.color | COLOR | Color / Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.focus.indicator.color | COLOR | Color / Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.list.focus.indicator.thickness | LENGTH | Color / Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.list.focus.indicator.outline.offset | LENGTH | Color / Focused / Focus indicator | `md.sys.state.focus-indicator.inner-offset` |  |  |
+| md.comp.list.list-item.selected.focus.state-layer.color | COLOR | Color / Focused - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.focus.state-layer.opacity | OPACITY | Color / Focused - Selected | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.focus.label-text.color | COLOR | Color / Focused - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.focus.leading-icon.color | COLOR | Color / Focused - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.focus.trailing-icon.color | COLOR | Color / Focused - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.pressed.state-layer.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.pressed.state-layer.opacity | OPACITY | Color / Pressed (ripple) | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.list.list-item.pressed.label-text.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.pressed.leading-icon.icon.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.pressed.trailing-icon.icon.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.pressed.state-layer.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.pressed.state-layer.opacity | OPACITY | Color / Pressed - Selected | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.pressed.label-text.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.pressed.trailing-icon.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.pressed.leading-icon.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.dragged.container.elevation | ELEVATION | Color / Dragged (baseline only) | `md.sys.elevation.level4` |  |  |
+| md.comp.list.list-item.dragged.label-text.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.dragged.label-text.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.dragged.state-layer.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.dragged.state-layer.opacity | OPACITY | Color / Dragged (baseline only) | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.dragged.state-layer.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.dragged.state-layer.opacity | OPACITY | Color / Dragged (baseline only) | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.list.list-item.dragged.leading-icon.icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.dragged.leading-icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.dragged.trailing-icon.icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.dragged.trailing-icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.leading-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.list-item.trailing-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.list-item.top-space | LENGTH | Spacing | 10dp |  |  |
+| md.comp.list.list-item.bottom-space | LENGTH | Spacing | 10dp |  |  |
+| md.comp.list.list-item.between-space | LENGTH | Spacing | 12dp |  |  |
+| md.comp.list.divider.leading-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.divider.trailing-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.divider.top-space | LENGTH | Spacing | 0dp |  |  |
+| md.comp.list.divider.bottom-space | LENGTH | Spacing | 0dp |  |  |
+| md.comp.list.segmented.gap | LENGTH | Spacing | 2dp |  |  |
+| md.comp.list.container.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.container.shape | SHAPE | Shape | `md.sys.shape.corner.none` |  |  |
+| md.comp.list.list-item.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.list.list-item.disabled.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.list.list-item.hovered.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.medium` |  |  |
+| md.comp.list.list-item.focused.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.pressed.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.dragged.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.disabled.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.hovered.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.focused.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.pressed.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.dragged.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.leading-avatar.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
+| md.comp.list.list-item.leading-video.shape | SHAPE | Shape | `md.sys.shape.corner.small` |  |  |
+| md.comp.list.list-item.leading-image.shape | SHAPE | Shape | `md.sys.shape.corner.none` |  |  |
+| md.comp.list.list-item.leading-image.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.small` |  |  |
+| md.comp.list.list-item.selected.container.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.leading-avatar-label.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.leading-avatar-label.font`, font weight: `md.comp.list.list-item.leading-avatar-label.weight`, font size: `md.comp.list.list-item.leading-avatar-label.size`, font tracking: `md.comp.list.list-item.leading-avatar-label.tracking`, line height: `md.comp.list.list-item.leading-avatar-label.line-height` |  |  |
+| md.comp.list.list-item.leading-avatar.size | LENGTH | Size and typography | 40dp |  |  |
+| md.comp.list.list-item.leading-avatar-label.font | FONT_NAMES | Size and typography | `md.sys.typescale.title-medium.font` |  |  |
+| md.comp.list.list-item.leading-avatar-label.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.title-medium.line-height` |  |  |
+| md.comp.list.list-item.leading-avatar-label.size | FONT_SIZE | Size and typography | `md.sys.typescale.title-medium.size` |  |  |
+| md.comp.list.list-item.leading-avatar-label.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.title-medium.tracking` |  |  |
+| md.comp.list.list-item.leading-avatar-label.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.title-medium.weight` |  |  |
+| md.comp.list.list-item.leading-icon.size | LENGTH | Size and typography | 24dp |  |  |
+| md.comp.list.list-item.leading-icon.expressive.size | LENGTH | Size and typography | 20dp |  |  |
+| md.comp.list.list-item.leading-image.width | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.leading-image.height | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.leading-video.width | LENGTH | Size and typography | 100dp |  |  |
+| md.comp.list.list-item.small.leading-video.width | LENGTH | Size and typography | 100dp |  |  |
+| md.comp.list.list-item.small.leading-video.height | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.large.leading-video.width | LENGTH | Size and typography | 114dp |  |  |
+| md.comp.list.list-item.large.leading-video.height | LENGTH | Size and typography | 64dp |  |  |
+| md.comp.list.list-item.one-line.container.height | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.two-line.container.height | LENGTH | Size and typography | 72dp |  |  |
+| md.comp.list.list-item.three-line.container.height | LENGTH | Size and typography | 88dp |  |  |
+| md.comp.list.list-item.trailing-icon.size | LENGTH | Size and typography | 24dp |  |  |
+| md.comp.list.list-item.trailing-icon.expressive.size | LENGTH | Size and typography | 20dp |  |  |
+| md.comp.list.list-item.label-text.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.label-text.font`, font weight: `md.comp.list.list-item.label-text.weight`, font size: `md.comp.list.list-item.label-text.size`, font tracking: `md.comp.list.list-item.label-text.tracking`, line height: `md.comp.list.list-item.label-text.line-height` |  |  |
+| md.comp.list.list-item.label-text.font | FONT_NAMES | Size and typography | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.list.list-item.label-text.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.list.list-item.label-text.size | FONT_SIZE | Size and typography | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.list.list-item.label-text.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.list.list-item.label-text.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.trailing-supporting-text.font`, font weight: `md.comp.list.list-item.trailing-supporting-text.weight`, font size: `md.comp.list.list-item.trailing-supporting-text.size`, font tracking: `md.comp.list.list-item.trailing-supporting-text.tracking`, line height: `md.comp.list.list-item.trailing-supporting-text.line-height` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.font | FONT_NAMES | Size and typography | `md.sys.typescale.label-small.font` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.label-small.line-height` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.size | FONT_SIZE | Size and typography | `md.sys.typescale.label-small.size` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.label-small.tracking` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.label-small.weight` |  |  |
+| md.comp.list.list-item.supporting-text.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.supporting-text.font`, font weight: `md.comp.list.list-item.supporting-text.weight`, font size: `md.comp.list.list-item.supporting-text.size`, font tracking: `md.comp.list.list-item.supporting-text.tracking`, line height: `md.comp.list.list-item.supporting-text.line-height` |  |  |
+| md.comp.list.list-item.supporting-text.font | FONT_NAMES | Size and typography | `md.sys.typescale.body-medium.font` |  |  |
+| md.comp.list.list-item.supporting-text.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.body-medium.line-height` |  |  |
+| md.comp.list.list-item.supporting-text.size | FONT_SIZE | Size and typography | `md.sys.typescale.body-medium.size` |  |  |
+| md.comp.list.list-item.supporting-text.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.body-medium.tracking` |  |  |
+| md.comp.list.list-item.supporting-text.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.body-medium.weight` |  |  |
+| md.comp.list.list-item.overline.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.overline.font`, font weight: `md.comp.list.list-item.overline.weight`, font size: `md.comp.list.list-item.overline.size`, font tracking: `md.comp.list.list-item.overline.tracking`, line height: `md.comp.list.list-item.overline.line-height` |  |  |
+| md.comp.list.list-item.overline.font | FONT_NAMES | Size and typography | `md.sys.typescale.label-small.font` |  |  |
+| md.comp.list.list-item.overline.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.label-small.line-height` |  |  |
+| md.comp.list.list-item.overline.size | FONT_SIZE | Size and typography | `md.sys.typescale.label-small.size` |  |  |
+| md.comp.list.list-item.overline.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.label-small.tracking` |  |  |
+| md.comp.list.list-item.overline.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.label-small.weight` |  |  |
+
+#### List - Expand (md.comp.list.expand)
+
+For list items that can expand and collapse.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.list.expand.expanded.list-item.container.color | COLOR | Color | `md.sys.color.surface` |  |  |
+| md.comp.list.expand.expanded.list-item.segmented.container.color | COLOR | Color | `md.sys.color.surface` |  |  |
+| md.comp.list.expand.collapsed.list-item.trailing-icon.container.color | COLOR | Color | `md.sys.color.surface` |  |  |
+| md.comp.list.expand.collapsed.list-item.trailing-icon.icon.color | COLOR | Color | `md.sys.color.on-surface` |  |  |
+| md.comp.list.expand.expanded.list-item.trailing-icon.container.color | COLOR | Color | `md.sys.color.surface-container` |  |  |
+| md.comp.list.expand.expanded.list-item.trailing-icon.icon.color | COLOR | Color | `md.sys.color.on-surface` |  |  |
+| md.comp.list.expand.container.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.expand.trailing-icon.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
 
 ## Anatomy
 
@@ -255,12 +450,191 @@ Baseline list tokens are in the **common** token set. Note: This set also inclu
 
 Component: Lists
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| List - Expand | md.comp.list.expand | COMPONENT | For list items that can expand and collapse. |
-| List - Reorder | md.comp.list.reorder | COMPONENT | For reordering a list item using a drag handle or accessible alternative. Only use for Expressive lists. For baseline lists, use `md.comp.list.list-item.dragged` tokens. |
-| List - Reveal | md.comp.list.reveal | COMPONENT | For list items that can be swiped or tapped to reveal more actions as buttons. Only use for expressive lists. |
-| List - Common | md.comp.list | COMPONENT | Common baseline and expressive list tokens. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| List - Common | md.comp.list | COMPONENT | 171 | Common baseline and expressive list tokens. |
+
+#### List - Common (md.comp.list)
+
+Common baseline and expressive list tokens.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.list.list-item.container.color | COLOR | Color / Enabled | `md.sys.color.surface` |  |  |
+| md.comp.list.list-item.segmented.container.color | COLOR | Color / Enabled | `md.sys.color.surface` |  |  |
+| md.comp.list.list-item.label-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.supporting-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.overline.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.divider.color | COLOR | Color / Enabled | `md.sys.color.outline` |  | Depcrecating all divider tokens nested across components. Please use the standalone divider component token md.comp.divider.color as a replacement |
+| md.comp.list.divider.height | LENGTH | Color / Enabled | 1dp |  | Depcrecating all divider tokens nested across components. Please use the standalone divider component token md.comp.divider.thickness as a replacement |
+| md.comp.list.list-item.container.height | LENGTH | Color / Enabled | 56dp |  | Removing single height value in favor of distinct height values for 1, 2, or 3 line list items. |
+| md.comp.list.md.comp.list.list-item.one-line.container.height | LENGTH | Color / Enabled | 56dp |  | Typo in token name. Please use `md.comp.list.list-item.one-line.container.height `. |
+| md.comp.list.md.comp.list.list-item.three-line.container.height | LENGTH | Color / Enabled | 88dp |  | Typo in token name. Please use `md.comp.list.list-item.three-line.container.height`. |
+| md.comp.list.md.comp.list.list-item.two-line.container.height | LENGTH | Color / Enabled | 72dp |  | Typo in token name. Please use `md.comp.list.md.comp.list.list-item.two-line.container.height`. |
+| md.comp.list.list-item.leading-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.trailing-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.unselected.trailing-icon.color | COLOR | Color / Enabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.color | COLOR | Color / Enabled | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.leading-avatar.color | COLOR | Color / Enabled | `md.sys.color.primary-container` |  |  |
+| md.comp.list.list-item.leading-avatar-label.color | COLOR | Color / Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.list.list-item.container.elevation | ELEVATION | Color / Enabled | `md.sys.elevation.level0` |  |  |
+| md.comp.list.list-item.selected.container.color | COLOR | Color / Enabled - Selected | `md.sys.color.secondary-container` |  |  |
+| md.comp.list.list-item.selected.label-text.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.supporting-text.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.trailing-supporting-text.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.leading-icon.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.trailing-icon.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.overline.color | COLOR | Color / Enabled - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.disabled.state-layer.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.state-layer.opacity | OPACITY | Color / Disabled | 0.1 |  |  |
+| md.comp.list.list-item.disabled.label-text.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.label-text.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.supporting-text.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.supporting-text.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.overline.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.overline.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.leading-icon.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.leading-icon.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.disabled.trailing-icon.color | COLOR | Color / Disabled | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.disabled.trailing-icon.opacity | OPACITY | Color / Disabled | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.container.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.container.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.label-text.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.label-text.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.supporting-text.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.supporting-text.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-supporting-text.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-supporting-text.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.overline.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.overline.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.state-layer.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.state-layer.opacity | OPACITY | Color / Disabled - Selected | 0.1 |  |  |
+| md.comp.list.list-item.selected.disabled.leading-icon.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.leading-icon.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-icon.color | COLOR | Color / Disabled - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.disabled.trailing-icon.opacity | OPACITY | Color / Disabled - Selected | 0.38 |  |  |
+| md.comp.list.list-item.hover.state-layer.color | COLOR | Color / Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.hover.state-layer.opacity | OPACITY | Color / Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.list.list-item.hover.label-text.color | COLOR | Color / Hovered | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.hover.leading-icon.icon.color | COLOR | Color / Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.hover.trailing-icon.icon.color | COLOR | Color / Hovered | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.hover.state-layer.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.hover.state-layer.opacity | OPACITY | Color / Hovered - Selected | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.hover.label-text.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.hover.leading-icon.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.hover.trailing-icon.color | COLOR | Color / Hovered - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.focus.state-layer.color | COLOR | Color / Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.focus.state-layer.opacity | OPACITY | Color / Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.list.list-item.focus.label-text.color | COLOR | Color / Focused | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.focus.leading-icon.icon.color | COLOR | Color / Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.focus.trailing-icon.icon.color | COLOR | Color / Focused | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.focus.indicator.color | COLOR | Color / Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.list.focus.indicator.thickness | LENGTH | Color / Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.list.focus.indicator.outline.offset | LENGTH | Color / Focused / Focus indicator | `md.sys.state.focus-indicator.inner-offset` |  |  |
+| md.comp.list.list-item.selected.focus.state-layer.color | COLOR | Color / Focused - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.focus.state-layer.opacity | OPACITY | Color / Focused - Selected | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.focus.label-text.color | COLOR | Color / Focused - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.focus.leading-icon.color | COLOR | Color / Focused - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.focus.trailing-icon.color | COLOR | Color / Focused - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.pressed.state-layer.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.pressed.state-layer.opacity | OPACITY | Color / Pressed (ripple) | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.list.list-item.pressed.label-text.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.pressed.leading-icon.icon.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.pressed.trailing-icon.icon.color | COLOR | Color / Pressed (ripple) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.pressed.state-layer.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.pressed.state-layer.opacity | OPACITY | Color / Pressed - Selected | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.pressed.label-text.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.selected.pressed.trailing-icon.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.pressed.leading-icon.color | COLOR | Color / Pressed - Selected | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.dragged.container.elevation | ELEVATION | Color / Dragged (baseline only) | `md.sys.elevation.level4` |  |  |
+| md.comp.list.list-item.dragged.label-text.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.dragged.label-text.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.list.list-item.dragged.state-layer.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.dragged.state-layer.opacity | OPACITY | Color / Dragged (baseline only) | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.list.list-item.selected.dragged.state-layer.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.selected.dragged.state-layer.opacity | OPACITY | Color / Dragged (baseline only) | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.list.list-item.dragged.leading-icon.icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.dragged.leading-icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.dragged.trailing-icon.icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.list.list-item.selected.dragged.trailing-icon.color | COLOR | Color / Dragged (baseline only) | `md.sys.color.on-surface` |  |  |
+| md.comp.list.list-item.leading-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.list-item.trailing-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.list-item.top-space | LENGTH | Spacing | 10dp |  |  |
+| md.comp.list.list-item.bottom-space | LENGTH | Spacing | 10dp |  |  |
+| md.comp.list.list-item.between-space | LENGTH | Spacing | 12dp |  |  |
+| md.comp.list.divider.leading-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.divider.trailing-space | LENGTH | Spacing | 16dp |  |  |
+| md.comp.list.divider.top-space | LENGTH | Spacing | 0dp |  |  |
+| md.comp.list.divider.bottom-space | LENGTH | Spacing | 0dp |  |  |
+| md.comp.list.segmented.gap | LENGTH | Spacing | 2dp |  |  |
+| md.comp.list.container.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.container.shape | SHAPE | Shape | `md.sys.shape.corner.none` |  |  |
+| md.comp.list.list-item.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.list.list-item.disabled.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.list.list-item.hovered.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.medium` |  |  |
+| md.comp.list.list-item.focused.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.pressed.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.dragged.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.disabled.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.hovered.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.focused.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.pressed.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.selected.dragged.container.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.leading-avatar.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
+| md.comp.list.list-item.leading-video.shape | SHAPE | Shape | `md.sys.shape.corner.small` |  |  |
+| md.comp.list.list-item.leading-image.shape | SHAPE | Shape | `md.sys.shape.corner.none` |  |  |
+| md.comp.list.list-item.leading-image.expressive.shape | SHAPE | Shape | `md.sys.shape.corner.small` |  |  |
+| md.comp.list.list-item.selected.container.shape | SHAPE | Shape | `md.sys.shape.corner.large` |  |  |
+| md.comp.list.list-item.leading-avatar-label.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.leading-avatar-label.font`, font weight: `md.comp.list.list-item.leading-avatar-label.weight`, font size: `md.comp.list.list-item.leading-avatar-label.size`, font tracking: `md.comp.list.list-item.leading-avatar-label.tracking`, line height: `md.comp.list.list-item.leading-avatar-label.line-height` |  |  |
+| md.comp.list.list-item.leading-avatar.size | LENGTH | Size and typography | 40dp |  |  |
+| md.comp.list.list-item.leading-avatar-label.font | FONT_NAMES | Size and typography | `md.sys.typescale.title-medium.font` |  |  |
+| md.comp.list.list-item.leading-avatar-label.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.title-medium.line-height` |  |  |
+| md.comp.list.list-item.leading-avatar-label.size | FONT_SIZE | Size and typography | `md.sys.typescale.title-medium.size` |  |  |
+| md.comp.list.list-item.leading-avatar-label.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.title-medium.tracking` |  |  |
+| md.comp.list.list-item.leading-avatar-label.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.title-medium.weight` |  |  |
+| md.comp.list.list-item.leading-icon.size | LENGTH | Size and typography | 24dp |  |  |
+| md.comp.list.list-item.leading-icon.expressive.size | LENGTH | Size and typography | 20dp |  |  |
+| md.comp.list.list-item.leading-image.width | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.leading-image.height | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.leading-video.width | LENGTH | Size and typography | 100dp |  |  |
+| md.comp.list.list-item.small.leading-video.width | LENGTH | Size and typography | 100dp |  |  |
+| md.comp.list.list-item.small.leading-video.height | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.large.leading-video.width | LENGTH | Size and typography | 114dp |  |  |
+| md.comp.list.list-item.large.leading-video.height | LENGTH | Size and typography | 64dp |  |  |
+| md.comp.list.list-item.one-line.container.height | LENGTH | Size and typography | 56dp |  |  |
+| md.comp.list.list-item.two-line.container.height | LENGTH | Size and typography | 72dp |  |  |
+| md.comp.list.list-item.three-line.container.height | LENGTH | Size and typography | 88dp |  |  |
+| md.comp.list.list-item.trailing-icon.size | LENGTH | Size and typography | 24dp |  |  |
+| md.comp.list.list-item.trailing-icon.expressive.size | LENGTH | Size and typography | 20dp |  |  |
+| md.comp.list.list-item.label-text.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.label-text.font`, font weight: `md.comp.list.list-item.label-text.weight`, font size: `md.comp.list.list-item.label-text.size`, font tracking: `md.comp.list.list-item.label-text.tracking`, line height: `md.comp.list.list-item.label-text.line-height` |  |  |
+| md.comp.list.list-item.label-text.font | FONT_NAMES | Size and typography | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.list.list-item.label-text.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.list.list-item.label-text.size | FONT_SIZE | Size and typography | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.list.list-item.label-text.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.list.list-item.label-text.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.trailing-supporting-text.font`, font weight: `md.comp.list.list-item.trailing-supporting-text.weight`, font size: `md.comp.list.list-item.trailing-supporting-text.size`, font tracking: `md.comp.list.list-item.trailing-supporting-text.tracking`, line height: `md.comp.list.list-item.trailing-supporting-text.line-height` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.font | FONT_NAMES | Size and typography | `md.sys.typescale.label-small.font` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.label-small.line-height` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.size | FONT_SIZE | Size and typography | `md.sys.typescale.label-small.size` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.label-small.tracking` |  |  |
+| md.comp.list.list-item.trailing-supporting-text.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.label-small.weight` |  |  |
+| md.comp.list.list-item.supporting-text.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.supporting-text.font`, font weight: `md.comp.list.list-item.supporting-text.weight`, font size: `md.comp.list.list-item.supporting-text.size`, font tracking: `md.comp.list.list-item.supporting-text.tracking`, line height: `md.comp.list.list-item.supporting-text.line-height` |  |  |
+| md.comp.list.list-item.supporting-text.font | FONT_NAMES | Size and typography | `md.sys.typescale.body-medium.font` |  |  |
+| md.comp.list.list-item.supporting-text.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.body-medium.line-height` |  |  |
+| md.comp.list.list-item.supporting-text.size | FONT_SIZE | Size and typography | `md.sys.typescale.body-medium.size` |  |  |
+| md.comp.list.list-item.supporting-text.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.body-medium.tracking` |  |  |
+| md.comp.list.list-item.supporting-text.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.body-medium.weight` |  |  |
+| md.comp.list.list-item.overline.type | TYPOGRAPHY | Size and typography | font name: `md.comp.list.list-item.overline.font`, font weight: `md.comp.list.list-item.overline.weight`, font size: `md.comp.list.list-item.overline.size`, font tracking: `md.comp.list.list-item.overline.tracking`, line height: `md.comp.list.list-item.overline.line-height` |  |  |
+| md.comp.list.list-item.overline.font | FONT_NAMES | Size and typography | `md.sys.typescale.label-small.font` |  |  |
+| md.comp.list.list-item.overline.line-height | LINE_HEIGHT | Size and typography | `md.sys.typescale.label-small.line-height` |  |  |
+| md.comp.list.list-item.overline.size | FONT_SIZE | Size and typography | `md.sys.typescale.label-small.size` |  |  |
+| md.comp.list.list-item.overline.tracking | FONT_TRACKING | Size and typography | `md.sys.typescale.label-small.tracking` |  |  |
+| md.comp.list.list-item.overline.weight | FONT_WEIGHT | Size and typography | `md.sys.typescale.label-small.weight` |  |  |
 
 ### Color
 

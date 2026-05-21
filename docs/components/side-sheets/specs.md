@@ -2,7 +2,7 @@
 title: "Side sheets"
 source_url: "https://m3.material.io/components/side-sheets/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/865a0fa70296-mgam1q2e-01-3P.png"
@@ -27,9 +27,51 @@ Browse the component elements, attributes, tokens, and their values. [Learn more
 
 Component: Side sheets
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Sheets - Side | md.comp.sheet.side | COMPONENT | For side sheets. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Sheets - Side | md.comp.sheet.side | COMPONENT | 31 | For side sheets. |
+
+#### Sheets - Side (md.comp.sheet.side)
+
+For side sheets.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.sheet.side.docked.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Use “md.comp.sheet.side.docked.modal.container.color” or “md.comp.sheet.side.docked.standard.container.color” depending on intended configuration. |
+| md.comp.sheet.side.docked.modal.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-low` |  |  |
+| md.comp.sheet.side.docked.standard.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.sheet.side.docked.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.sheet.side.docked.modal.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.sheet.side.docked.standard.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.sheet.side.docked.container.height | LENGTH | Enabled / Container | 100 percent |  |  |
+| md.comp.sheet.side.docked.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.sheet.side.detached.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.large` |  |  |
+| md.comp.sheet.side.docked.container.width | LENGTH | Enabled / Container | 256dp |  |  |
+| md.comp.sheet.side.docked.modal.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.large.start` |  |  |
+| md.comp.sheet.side.docked.headline.color | COLOR | Enabled / Headline | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.sheet.side.docked.headline.font | FONT_NAMES | Enabled / Headline | `md.sys.typescale.title-large.font` |  |  |
+| md.comp.sheet.side.docked.headline.line-height | LINE_HEIGHT | Enabled / Headline | `md.sys.typescale.title-large.line-height` |  |  |
+| md.comp.sheet.side.docked.headline.size | FONT_SIZE | Enabled / Headline | `md.sys.typescale.title-large.size` |  |  |
+| md.comp.sheet.side.docked.headline.tracking | FONT_TRACKING | Enabled / Headline | `md.sys.typescale.title-large.tracking` |  |  |
+| md.comp.sheet.side.docked.headline.weight | FONT_WEIGHT | Enabled / Headline | `md.sys.typescale.title-large.weight` |  |  |
+| md.comp.sheet.side.docked.headline.type | TYPOGRAPHY | Enabled / Headline | font name: `md.comp.sheet.side.docked.headline.font`, font weight: `md.comp.sheet.side.docked.headline.weight`, font size: `md.comp.sheet.side.docked.headline.size`, font tracking: `md.comp.sheet.side.docked.headline.tracking`, line height: `md.comp.sheet.side.docked.headline.line-height` |  |  |
+| md.comp.sheet.side.docked.divider.color | COLOR | Enabled / Divider | `md.sys.color.outline` |  |  |
+| md.comp.sheet.side.docked.action.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.primary` |  |  |
+| md.comp.sheet.side.docked.action.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.primary` |  |  |
+| md.comp.sheet.side.docked.action.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.sheet.side.docked.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.sheet.side.docked.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.sheet.side.docked.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.sheet.side.docked.action.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.primary` |  |  |
+| md.comp.sheet.side.docked.action.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.primary` |  |  |
+| md.comp.sheet.side.docked.action.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.sheet.side.docked.action.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.primary` |  |  |
+| md.comp.sheet.side.docked.action.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.primary` |  |  |
+| md.comp.sheet.side.docked.action.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
 
 ## Standard side sheet
 

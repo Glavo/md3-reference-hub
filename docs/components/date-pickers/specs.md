@@ -2,7 +2,7 @@
 title: "Date pickers"
 source_url: "https://m3.material.io/components/date-pickers/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/2106679f8d6e-me6vnbm5-01-3P.png"
@@ -43,11 +43,265 @@ Select a component variant below to see its elements, attributes, tokens, and th
 
 Component: Date pickers
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Date picker - Modal input | md.comp.date-input.modal | COMPONENT | For modal input date pickers. |
-| Date picker - Modal | md.comp.date-picker.modal | COMPONENT | For modal calendar date pickers. |
-| Date picker - Docked | md.comp.date-picker.docked | COMPONENT | For docked date pickers. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Date picker - Docked | md.comp.date-picker.docked | COMPONENT | 96 | For docked date pickers. |
+| Date picker - Modal | md.comp.date-picker.modal | COMPONENT | 111 | For modal calendar date pickers. |
+| Date picker - Modal input | md.comp.date-input.modal | COMPONENT | 22 | For modal input date pickers. |
+
+#### Date picker - Docked (md.comp.date-picker.docked)
+
+For docked date pickers.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.date-picker.docked.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-high` |  |  |
+| md.comp.date-picker.docked.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.date-picker.docked.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.date-picker.docked.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.large` |  |  |
+| md.comp.date-picker.docked.date.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.date-picker.docked.date.today.container.outline.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.docked.date.today.container.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.date-picker.docked.date.selected.container.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.docked.menu-button.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.date-picker.docked.menu.list-item.selected.container.color | COLOR | Enabled / Container | `md.sys.color.surface-variant` |  |  |
+| md.comp.date-picker.docked.container.width | LENGTH | Enabled / Container | 360dp |  |  |
+| md.comp.date-picker.docked.container.height | LENGTH | Enabled / Container | 456dp |  |  |
+| md.comp.date-picker.docked.date.container.width | LENGTH | Enabled / Container | 48dp |  |  |
+| md.comp.date-picker.docked.date.container.height | LENGTH | Enabled / Container | 48dp |  |  |
+| md.comp.date-picker.docked.menu-button.container.height | LENGTH | Enabled / Container | 40dp |  |  |
+| md.comp.date-picker.docked.menu.list-item.container.height | LENGTH | Enabled / Container | 48dp |  |  |
+| md.comp.date-picker.docked.weekdays.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.weekdays.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.date-picker.docked.weekdays.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.date-picker.docked.weekdays.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.date-picker.docked.weekdays.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.date-picker.docked.weekdays.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.date-picker.docked.weekdays.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.date-picker.docked.weekdays.label-text.font`, font weight: `md.comp.date-picker.docked.weekdays.label-text.weight`, font size: `md.comp.date-picker.docked.weekdays.label-text.size`, font tracking: `md.comp.date-picker.docked.weekdays.label-text.tracking`, line height: `md.comp.date-picker.docked.weekdays.label-text.line-height` |  |  |
+| md.comp.date-picker.docked.date.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.date-picker.docked.date.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.date-picker.docked.date.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.date-picker.docked.date.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.date-picker.docked.date.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.date-picker.docked.date.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.date-picker.docked.date.label-text.font`, font weight: `md.comp.date-picker.docked.date.label-text.weight`, font size: `md.comp.date-picker.docked.date.label-text.size`, font tracking: `md.comp.date-picker.docked.date.label-text.tracking`, line height: `md.comp.date-picker.docked.date.label-text.line-height` |  |  |
+| md.comp.date-picker.docked.date.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.date.unselected.outside-month.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.date.unselected.outside-month.label-text.opacity | OPACITY | Enabled / Label text | 0.38 |  |  |
+| md.comp.date-picker.docked.date.today.label-text.color | COLOR | Enabled / Label text | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.docked.date.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.docked.menu-button.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu-button.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.date-picker.docked.menu-button.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.date-picker.docked.menu-button.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.date-picker.docked.menu-button.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.date-picker.docked.menu-button.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.date-picker.docked.menu-button.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.date-picker.docked.menu-button.label-text.font`, font weight: `md.comp.date-picker.docked.menu-button.label-text.weight`, font size: `md.comp.date-picker.docked.menu-button.label-text.size`, font tracking: `md.comp.date-picker.docked.menu-button.label-text.tracking`, line height: `md.comp.date-picker.docked.menu-button.label-text.line-height` |  |  |
+| md.comp.date-picker.docked.menu.list-item.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.menu.list-item.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.date-picker.docked.menu.list-item.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.date-picker.docked.menu.list-item.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.date-picker.docked.menu.list-item.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.date-picker.docked.menu.list-item.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.date-picker.docked.menu.list-item.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.date-picker.docked.menu.list-item.label-text.font`, font weight: `md.comp.date-picker.docked.menu.list-item.label-text.weight`, font size: `md.comp.date-picker.docked.menu.list-item.label-text.size`, font tracking: `md.comp.date-picker.docked.menu.list-item.label-text.tracking`, line height: `md.comp.date-picker.docked.menu.list-item.label-text.line-height` |  |  |
+| md.comp.date-picker.docked.menu-button.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu-button.icon.size | LENGTH | Enabled / Icon | 18dp |  |  |
+| md.comp.date-picker.docked.menu.list-item.selected.leading-icon.color | COLOR | Enabled / Leading icon | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.menu.list-item.selected.leading-icon.size | LENGTH | Enabled / Leading icon | 24dp |  |  |
+| md.comp.date-picker.docked.date.state-layer.shape | SHAPE | Enabled / State layer | `md.sys.shape.corner.full` |  |  |
+| md.comp.date-picker.docked.date.state-layer.width | LENGTH | Enabled / State layer | 40dp |  |  |
+| md.comp.date-picker.docked.date.state-layer.height | LENGTH | Enabled / State layer | 40dp |  |  |
+| md.comp.date-picker.docked.header.height | LENGTH | Enabled / Header | 64dp |  |  |
+| md.comp.date-picker.docked.menu-button.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.menu-button.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.date-picker.docked.menu-button.disabled.icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.menu-button.disabled.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.date-picker.docked.menu-button.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu.list-item.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.date.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.date.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.docked.date.today.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.docked.date.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu-button.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu-button.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu.list-item.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.menu.list-item.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu-button.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu.list-item.selected.hover.leading-icon.color | COLOR | Hovered / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu-button.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu.list-item.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.date.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.date.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.docked.date.today.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.docked.date.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu-button.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu-button.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu.list-item.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.menu.list-item.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu-button.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu.list-item.selected.focus.leading-icon.color | COLOR | Focused / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu-button.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu.list-item.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.date.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.date.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.docked.date.today.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.docked.date.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu-button.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu-button.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu.list-item.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.docked.menu.list-item.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.date-picker.docked.menu-button.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.docked.menu.list-item.selected.pressed.leading-icon.color | COLOR | Pressed (ripple) / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+
+#### Date picker - Modal (md.comp.date-picker.modal)
+
+For modal calendar date pickers.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.date-picker.modal.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-high` |  |  |
+| md.comp.date-picker.modal.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.date-picker.modal.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.date-picker.modal.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-large` |  |  |
+| md.comp.date-picker.modal.range-selection.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.date-picker.modal.range-selection.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.none` |  |  |
+| md.comp.date-picker.modal.date.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.date-picker.modal.date.today.container.outline.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.modal.date.today.container.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.date-picker.modal.date.selected.container.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.modal.range-selection.active-indicator.container.color | COLOR | Enabled / Container | `md.sys.color.secondary-container` |  |  |
+| md.comp.date-picker.modal.range-selection.active-indicator.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.date-picker.modal.year-selection.year.selected.container.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.modal.container.width | LENGTH | Enabled / Container | 360dp |  |  |
+| md.comp.date-picker.modal.container.height | LENGTH | Enabled / Container | 524dp |  |  |
+| md.comp.date-picker.modal.header.container.width | LENGTH | Enabled / Container | 360dp |  |  |
+| md.comp.date-picker.modal.header.container.height | LENGTH | Enabled / Container | 120dp |  |  |
+| md.comp.date-picker.modal.range-selection.header.container.height | LENGTH | Enabled / Container | 128dp |  |  |
+| md.comp.date-picker.modal.date.container.width | LENGTH | Enabled / Container | 40dp |  |  |
+| md.comp.date-picker.modal.date.container.height | LENGTH | Enabled / Container | 40dp |  |  |
+| md.comp.date-picker.modal.year-selection.year.container.width | LENGTH | Enabled / Container | 72dp |  |  |
+| md.comp.date-picker.modal.year-selection.year.container.height | LENGTH | Enabled / Container | 36dp |  |  |
+| md.comp.date-picker.modal.range-selection.active-indicator.container.height | LENGTH | Enabled / Container | 40dp |  |  |
+| md.comp.date-picker.modal.weekdays.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.modal.weekdays.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.date-picker.modal.weekdays.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.date-picker.modal.weekdays.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.date-picker.modal.weekdays.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.date-picker.modal.weekdays.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.date-picker.modal.weekdays.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.date-picker.modal.weekdays.label-text.font`, font weight: `md.comp.date-picker.modal.weekdays.label-text.weight`, font size: `md.comp.date-picker.modal.weekdays.label-text.size`, font tracking: `md.comp.date-picker.modal.weekdays.label-text.tracking`, line height: `md.comp.date-picker.modal.weekdays.label-text.line-height` |  |  |
+| md.comp.date-picker.modal.date.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.date-picker.modal.date.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.date-picker.modal.date.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.date-picker.modal.date.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.date-picker.modal.date.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.date-picker.modal.date.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.date-picker.modal.date.label-text.font`, font weight: `md.comp.date-picker.modal.date.label-text.weight`, font size: `md.comp.date-picker.modal.date.label-text.size`, font tracking: `md.comp.date-picker.modal.date.label-text.tracking`, line height: `md.comp.date-picker.modal.date.label-text.line-height` |  |  |
+| md.comp.date-picker.modal.date.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.date-picker.modal.date.today.label-text.color | COLOR | Enabled / Label text | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.modal.date.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.date-picker.modal.year-selection.year.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.date-picker.modal.year-selection.year.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.date-picker.modal.year-selection.year.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.date-picker.modal.year-selection.year.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.date-picker.modal.year-selection.year.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.date-picker.modal.year-selection.year.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.date-picker.modal.year-selection.year.label-text.font`, font weight: `md.comp.date-picker.modal.year-selection.year.label-text.weight`, font size: `md.comp.date-picker.modal.year-selection.year.label-text.size`, font tracking: `md.comp.date-picker.modal.year-selection.year.label-text.tracking`, line height: `md.comp.date-picker.modal.year-selection.year.label-text.line-height` |  |  |
+| md.comp.date-picker.modal.year-selection.year.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.year-selection.year.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.range-selection.month.subhead.color | COLOR | Enabled / Subhead | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.range-selection.month.subhead.font | FONT_NAMES | Enabled / Subhead | `md.sys.typescale.title-small.font` |  |  |
+| md.comp.date-picker.modal.range-selection.month.subhead.line-height | LINE_HEIGHT | Enabled / Subhead | `md.sys.typescale.title-small.line-height` |  |  |
+| md.comp.date-picker.modal.range-selection.month.subhead.size | FONT_SIZE | Enabled / Subhead | `md.sys.typescale.title-small.size` |  |  |
+| md.comp.date-picker.modal.range-selection.month.subhead.weight | FONT_WEIGHT | Enabled / Subhead | `md.sys.typescale.title-small.weight` |  |  |
+| md.comp.date-picker.modal.range-selection.month.subhead.tracking | FONT_TRACKING | Enabled / Subhead | `md.sys.typescale.title-small.tracking` |  |  |
+| md.comp.date-picker.modal.range-selection.month.subhead.type | TYPOGRAPHY | Enabled / Subhead | font name: `md.comp.date-picker.modal.range-selection.month.subhead.font`, font weight: `md.comp.date-picker.modal.range-selection.month.subhead.weight`, font size: `md.comp.date-picker.modal.range-selection.month.subhead.size`, font tracking: `md.comp.date-picker.modal.range-selection.month.subhead.tracking`, line height: `md.comp.date-picker.modal.range-selection.month.subhead.line-height` |  |  |
+| md.comp.date-picker.modal.header.headline.color | COLOR | Enabled / Headline | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.header.headline.font | FONT_NAMES | Enabled / Headline | `md.sys.typescale.headline-large.font` |  |  |
+| md.comp.date-picker.modal.header.headline.line-height | LINE_HEIGHT | Enabled / Headline | `md.sys.typescale.headline-large.line-height` |  |  |
+| md.comp.date-picker.modal.header.headline.size | FONT_SIZE | Enabled / Headline | `md.sys.typescale.headline-large.size` |  |  |
+| md.comp.date-picker.modal.header.headline.weight | FONT_WEIGHT | Enabled / Headline | `md.sys.typescale.headline-large.weight` |  |  |
+| md.comp.date-picker.modal.header.headline.tracking | FONT_TRACKING | Enabled / Headline | `md.sys.typescale.headline-large.tracking` |  |  |
+| md.comp.date-picker.modal.header.headline.type | TYPOGRAPHY | Enabled / Headline | font name: `md.comp.date-picker.modal.header.headline.font`, font weight: `md.comp.date-picker.modal.header.headline.weight`, font size: `md.comp.date-picker.modal.header.headline.size`, font tracking: `md.comp.date-picker.modal.header.headline.tracking`, line height: `md.comp.date-picker.modal.header.headline.line-height` |  |  |
+| md.comp.date-picker.modal.range-selection.header.headline.font | FONT_NAMES | Enabled / Headline | `md.sys.typescale.title-large.font` |  |  |
+| md.comp.date-picker.modal.range-selection.header.headline.line-height | LINE_HEIGHT | Enabled / Headline | `md.sys.typescale.title-large.line-height` |  |  |
+| md.comp.date-picker.modal.range-selection.header.headline.size | FONT_SIZE | Enabled / Headline | `md.sys.typescale.title-large.size` |  |  |
+| md.comp.date-picker.modal.range-selection.header.headline.weight | FONT_WEIGHT | Enabled / Headline | `md.sys.typescale.title-large.weight` |  |  |
+| md.comp.date-picker.modal.range-selection.header.headline.tracking | FONT_TRACKING | Enabled / Headline | `md.sys.typescale.title-large.tracking` |  |  |
+| md.comp.date-picker.modal.range-selection.header.headline.type | TYPOGRAPHY | Enabled / Headline | font name: `md.comp.date-picker.modal.range-selection.header.headline.font`, font weight: `md.comp.date-picker.modal.range-selection.header.headline.weight`, font size: `md.comp.date-picker.modal.range-selection.header.headline.size`, font tracking: `md.comp.date-picker.modal.range-selection.header.headline.tracking`, line height: `md.comp.date-picker.modal.range-selection.header.headline.line-height` |  |  |
+| md.comp.date-picker.modal.header.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.date-picker.modal.header.supporting-text.font`, font weight: `md.comp.date-picker.modal.header.supporting-text.weight`, font size: `md.comp.date-picker.modal.header.supporting-text.size`, font tracking: `md.comp.date-picker.modal.header.supporting-text.tracking`, line height: `md.comp.date-picker.modal.header.supporting-text.line-height` |  |  |
+| md.comp.date-picker.modal.date.state-layer.shape | SHAPE | Enabled / State layer | `md.sys.shape.corner.full` |  |  |
+| md.comp.date-picker.modal.year-selection.year.state-layer.shape | SHAPE | Enabled / State layer | `md.sys.shape.corner.full` |  |  |
+| md.comp.date-picker.modal.date.state-layer.width | LENGTH | Enabled / State layer | 40dp |  |  |
+| md.comp.date-picker.modal.date.state-layer.height | LENGTH | Enabled / State layer | 40dp |  |  |
+| md.comp.date-picker.modal.year-selection.year.state-layer.width | LENGTH | Enabled / State layer | 72dp |  |  |
+| md.comp.date-picker.modal.year-selection.year.state-layer.height | LENGTH | Enabled / State layer | 36dp |  |  |
+| md.comp.date-picker.modal.header.supporting-text.color | COLOR | Enabled / Header | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.header.supporting-text.font | FONT_NAMES | Enabled / Header | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.date-picker.modal.header.supporting-text.line-height | LINE_HEIGHT | Enabled / Header | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.date-picker.modal.header.supporting-text.size | FONT_SIZE | Enabled / Header | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.date-picker.modal.header.supporting-text.weight | FONT_WEIGHT | Enabled / Header | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.date-picker.modal.header.supporting-text.tracking | FONT_TRACKING | Enabled / Header | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.date-picker.modal.date.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.date.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.date.today.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.modal.date.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-primary-container` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.hover.state-layer.opcaity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  | Fixed spelling (was ".opcaity" should be ".opacity") |
+| md.comp.date-picker.modal.year-selection.year.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.year-selection.year.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.year-selection.year.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.date.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.date.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.date.today.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.modal.date.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-primary-container` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.focus.state-layer.opcaity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  | Fixed spelling (was ".opcaity" should be ".opacity") |
+| md.comp.date-picker.modal.year-selection.year.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.year-selection.year.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.year-selection.year.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.date.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.date.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.date.today.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.primary` |  |  |
+| md.comp.date-picker.modal.date.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-primary-container` |  |  |
+| md.comp.date-picker.modal.range-selection.date.in-range.pressed.state-layer.opcaity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  | Fixed spelling (was ".opcaity" should be ".opacity") |
+| md.comp.date-picker.modal.year-selection.year.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-picker.modal.year-selection.year.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-primary` |  |  |
+| md.comp.date-picker.modal.year-selection.year.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+
+#### Date picker - Modal input (md.comp.date-input.modal)
+
+For modal input date pickers.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.date-input.modal.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-high` |  |  |
+| md.comp.date-input.modal.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.date-input.modal.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.date-input.modal.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-large` |  |  |
+| md.comp.date-input.modal.container.width | LENGTH | Enabled / Container | 328dp |  |  |
+| md.comp.date-input.modal.container.height | LENGTH | Enabled / Container | 512dp |  |  |
+| md.comp.date-input.modal.header.container.width | LENGTH | Enabled / Container | 328dp |  |  |
+| md.comp.date-input.modal.header.container.height | LENGTH | Enabled / Container | 120dp |  |  |
+| md.comp.date-input.modal.header.headline.color | COLOR | Enabled / Headline | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-input.modal.header.headline.font | FONT_NAMES | Enabled / Headline | `md.sys.typescale.headline-large.font` |  |  |
+| md.comp.date-input.modal.header.headline.line-height | LINE_HEIGHT | Enabled / Headline | `md.sys.typescale.headline-large.line-height` |  |  |
+| md.comp.date-input.modal.header.headline.size | FONT_SIZE | Enabled / Headline | `md.sys.typescale.headline-large.size` |  |  |
+| md.comp.date-input.modal.header.headline.weight | FONT_WEIGHT | Enabled / Headline | `md.sys.typescale.headline-large.weight` |  |  |
+| md.comp.date-input.modal.header.headline.tracking | FONT_TRACKING | Enabled / Headline | `md.sys.typescale.headline-large.tracking` |  |  |
+| md.comp.date-input.modal.header.headline.type | TYPOGRAPHY | Enabled / Headline | font name: `md.comp.date-input.modal.header.headline.font`, font weight: `md.comp.date-input.modal.header.headline.weight`, font size: `md.comp.date-input.modal.header.headline.size`, font tracking: `md.comp.date-input.modal.header.headline.tracking`, line height: `md.comp.date-input.modal.header.headline.line-height` |  |  |
+| md.comp.date-input.modal.header.supporting-text.color | COLOR | Enabled / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.date-input.modal.header.supporting-text.font | FONT_NAMES | Enabled / Supporting text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.date-input.modal.header.supporting-text.line-height | LINE_HEIGHT | Enabled / Supporting text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.date-input.modal.header.supporting-text.size | FONT_SIZE | Enabled / Supporting text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.date-input.modal.header.supporting-text.weight | FONT_WEIGHT | Enabled / Supporting text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.date-input.modal.header.supporting-text.tracking | FONT_TRACKING | Enabled / Supporting text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.date-input.modal.header.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.date-input.modal.header.supporting-text.font`, font weight: `md.comp.date-input.modal.header.supporting-text.weight`, font size: `md.comp.date-input.modal.header.supporting-text.size`, font tracking: `md.comp.date-input.modal.header.supporting-text.tracking`, line height: `md.comp.date-input.modal.header.supporting-text.line-height` |  |  |
 
 ## Docked date picker
 

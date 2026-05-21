@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/specs"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/afa30094eb0f-ma6gd1jj-1-3P.png"
@@ -48,9 +48,28 @@ Loading indicators have a single token set.
 
 Component: Loading indicator
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Loading indicator | md.comp.loading-indicator | COMPONENT | For loading indicators. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Loading indicator | md.comp.loading-indicator | COMPONENT | 8 | For loading indicators. |
+
+#### Loading indicator (md.comp.loading-indicator)
+
+For loading indicators.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.loading-indicator.active-indicator.color | COLOR | Color | `md.sys.color.primary` |  |  |
+| md.comp.loading-indicator.container.color | COLOR | Color | `md.sys.color.secondary-container` |  | Deprecated in favor of a distinct variant which uses a different color mapping with, and without container. |
+| md.comp.loading-indicator.contained.container.color | COLOR | Color | `md.sys.color.primary-container` |  |  |
+| md.comp.loading-indicator.contained.active-indicator.color | COLOR | Color | `md.sys.color.on-primary-container` |  |  |
+| md.comp.loading-indicator.active-indicator.size | LENGTH | Size | 38dp |  |  |
+| md.comp.loading-indicator.container.height | LENGTH | Size | 48dp |  |  |
+| md.comp.loading-indicator.container.width | LENGTH | Size | 48dp |  |  |
+| md.comp.loading-indicator.container.shape | SHAPE | Shape | `md.sys.shape.corner.full` |  |  |
 
 ## Anatomy
 

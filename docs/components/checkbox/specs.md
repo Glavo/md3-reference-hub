@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/adec38612545-memmstmc-1-3P.png"
@@ -26,9 +26,101 @@ Browse the component elements, attributes, tokens, and their values.
 
 Component: Checkbox
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Checkbox | md.comp.checkbox | COMPONENT | For checkboxes. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Checkbox | md.comp.checkbox | COMPONENT | 81 | For checkboxes. |
+
+#### Checkbox (md.comp.checkbox)
+
+For checkboxes.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.checkbox.container.width | LENGTH | Enabled / Container | 18dp |  | Combining height and width into a single size token |
+| md.comp.checkbox.container.height | LENGTH | Enabled / Container | 18dp |  | Combining height and width into a single size token |
+| md.comp.checkbox.container.size | LENGTH | Enabled / Container | 18dp |  |  |
+| md.comp.checkbox.container.shape | SHAPE | Enabled / Container | rounded corners 2dp |  |  |
+| md.comp.checkbox.unselected.outline.color | COLOR | Enabled / Container | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.checkbox.unselected.outline.width | LENGTH | Enabled / Container | 2dp |  |  |
+| md.comp.checkbox.selected.container.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.checkbox.selected.outline.width | LENGTH | Enabled / Container | 0dp |  |  |
+| md.comp.checkbox.unselected.error.outline.color | COLOR | Enabled / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.selected.error.container.color | COLOR | Enabled / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.icon.size | LENGTH | Enabled / Icon | 18dp |  |  |
+| md.comp.checkbox.selected.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-primary` |  |  |
+| md.comp.checkbox.selected.error.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-error` |  |  |
+| md.comp.checkbox.unselected.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface` |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
+| md.comp.checkbox.state-layer.size | LENGTH | Enabled / State layer | 40dp |  |  |
+| md.comp.checkbox.state-layer.shape | SHAPE | Enabled / State layer | `md.sys.shape.corner.full` |  |  |
+| md.comp.checkbox.unselected.disabled.outline.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.unselected.disabled.outline.width | LENGTH | Disabled / Container | 2dp |  |  |
+| md.comp.checkbox.unselected.disabled.container.opacity | OPACITY | Disabled / Container | 0.38 |  |  |
+| md.comp.checkbox.selected.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.selected.disabled.container.opacity | OPACITY | Disabled / Container | 0.38 |  |  |
+| md.comp.checkbox.selected.disabled.container.outline.width | LENGTH | Disabled / Container | 0dp |  |  |
+| md.comp.checkbox.selected.disabled.icon.color | COLOR | Disabled / Icon | `md.sys.color.surface` |  |  |
+| md.comp.checkbox.disabled.selected.icon.color | COLOR | Disabled / Icon | `md.sys.color.primary` |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
+| md.comp.checkbox.disabled.selected.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
+| md.comp.checkbox.disabled.unselected.icon.color | COLOR | Disabled / Icon | `md.sys.color.primary` |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
+| md.comp.checkbox.disabled.unselected.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
+| md.comp.checkbox.unselected.hover.outline.color | COLOR | Hovered / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.unselected.hover.outline.width | LENGTH | Hovered / Container | 2dp |  |  |
+| md.comp.checkbox.selected.hover.container.color | COLOR | Hovered / Container | `md.sys.color.primary` |  |  |
+| md.comp.checkbox.selected.hover.outline.width | LENGTH | Hovered / Container | 0dp |  |  |
+| md.comp.checkbox.unselected.error.hover.outline.color | COLOR | Hovered / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.unselected.error.hover.outline.width | LENGTH | Hovered / Container | 2dp |  | Redundant values. Please use md.comp.checkbox.unselected.outline.width or md.comp.checkbox.selected.outline.width tokens instead. |
+| md.comp.checkbox.selected.error.hover.container.color | COLOR | Hovered / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.selected.error.hover.outline.width | LENGTH | Hovered / Container | 0dp |  | Redundant values. Please use md.comp.checkbox.unselected.outline.width or md.comp.checkbox.selected.outline.width tokens instead. |
+| md.comp.checkbox.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.primary` |  |  |
+| md.comp.checkbox.selected.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.checkbox.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.unselected.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.checkbox.error.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.error` |  |  |
+| md.comp.checkbox.error.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.checkbox.selected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-primary` |  |  |
+| md.comp.checkbox.selected.error.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-error` |  |  |
+| md.comp.checkbox.unselected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface` |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
+| md.comp.checkbox.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.checkbox.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.checkbox.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.checkbox.unselected.focus.outline.color | COLOR | Focused / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.unselected.focus.outline.width | LENGTH | Focused / Container | 2dp |  |  |
+| md.comp.checkbox.selected.focus.container.color | COLOR | Focused / Container | `md.sys.color.primary` |  |  |
+| md.comp.checkbox.selected.focus.outline.width | LENGTH | Focused / Container | 0dp |  |  |
+| md.comp.checkbox.unselected.error.focus.outline.color | COLOR | Focused / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.unselected.error.focus.outline.width | LENGTH | Focused / Container | 2dp |  | Redundant values. Please use md.comp.checkbox.unselected.outline.width or md.comp.checkbox.selected.outline.width tokens instead. |
+| md.comp.checkbox.selected.error.focus.container.color | COLOR | Focused / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.selected.error.focus.outline.width | LENGTH | Focused / Container | 0dp |  | Redundant values. Please use md.comp.checkbox.unselected.outline.width or md.comp.checkbox.selected.outline.width tokens instead. |
+| md.comp.checkbox.error.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.checkbox.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.primary` |  |  |
+| md.comp.checkbox.selected.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.checkbox.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.unselected.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.checkbox.error.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.error` |  |  |
+| md.comp.checkbox.selected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-primary` |  |  |
+| md.comp.checkbox.selected.error.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-error` |  |  |
+| md.comp.checkbox.unselected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface` |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
+| md.comp.checkbox.unselected.pressed.outline.color | COLOR | Pressed (ripple) / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.unselected.pressed.outline.width | LENGTH | Pressed (ripple) / Container | 2dp |  |  |
+| md.comp.checkbox.selected.pressed.container.color | COLOR | Pressed (ripple) / Container | `md.sys.color.primary` |  |  |
+| md.comp.checkbox.selected.pressed.outline.width | LENGTH | Pressed (ripple) / Container | 0dp |  |  |
+| md.comp.checkbox.unselected.error.pressed.outline.color | COLOR | Pressed (ripple) / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.unselected.error.pressed.outline.width | LENGTH | Pressed (ripple) / Container | 2dp |  | Redundant values. Please use md.comp.checkbox.unselected.outline.width or md.comp.checkbox.selected.outline.width tokens instead. |
+| md.comp.checkbox.selected.error.pressed.container.color | COLOR | Pressed (ripple) / Container | `md.sys.color.error` |  |  |
+| md.comp.checkbox.selected.error.pressed.outline.width | LENGTH | Pressed (ripple) / Container | 0dp |  | Redundant values. Please use md.comp.checkbox.unselected.outline.width or md.comp.checkbox.selected.outline.width tokens instead. |
+| md.comp.checkbox.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.primary` |  |  |
+| md.comp.checkbox.unselected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.checkbox.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.checkbox.selected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.checkbox.error.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.error` |  |  |
+| md.comp.checkbox.error.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.checkbox.selected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-primary` |  |  |
+| md.comp.checkbox.selected.error.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-error` |  |  |
+| md.comp.checkbox.unselected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface` |  | Checkbox changed how rendering was specified, if these are needed, copy to your own tokens. |
 
 ## Checkbox
 

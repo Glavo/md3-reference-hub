@@ -2,7 +2,7 @@
 title: "Segmented buttons"
 source_url: "https://m3.material.io/components/segmented-buttons/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/a5c87cac171f-ma6l9syf-1.png"
@@ -37,9 +37,66 @@ Browse the component elements, attributes, tokens, and their values. [Learn more
 
 Component: Segmented buttons
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Segmented button - Outlined | md.comp.outlined-segmented-button | COMPONENT | This component is not recommended. Use connected button groups instead. For outlined segmented buttons. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Segmented button - Outlined | md.comp.outlined-segmented-button | COMPONENT | 46 | This component is not recommended. Use connected button groups instead. For outlined segmented buttons. |
+
+#### Segmented button - Outlined (md.comp.outlined-segmented-button)
+
+This component is not recommended. Use connected button groups instead. For outlined segmented buttons.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.outlined-segmented-button.outline.color | COLOR | Enabled / Container | `md.sys.color.outline` |  |  |
+| md.comp.outlined-segmented-button.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.outlined-segmented-button.container.height | LENGTH | Enabled / Container | 40dp |  |  |
+| md.comp.outlined-segmented-button.selected.container.color | COLOR | Enabled / Container | `md.sys.color.secondary-container` |  |  |
+| md.comp.outlined-segmented-button.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.outlined-segmented-button.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.outlined-segmented-button.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.outlined-segmented-button.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.outlined-segmented-button.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.outlined-segmented-button.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.outlined-segmented-button.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.outlined-segmented-button.label-text.font`, font weight: `md.comp.outlined-segmented-button.label-text.weight`, font size: `md.comp.outlined-segmented-button.label-text.size`, font tracking: `md.comp.outlined-segmented-button.label-text.tracking`, line height: `md.comp.outlined-segmented-button.label-text.line-height` |  |  |
+| md.comp.outlined-segmented-button.unselected.with-icon.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.with-icon.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.with-icon.icon.size | LENGTH | Enabled / Icon | 18dp |  |  |
+| md.comp.outlined-segmented-button.disabled.outline.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.disabled.outline.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.outlined-segmented-button.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.outlined-segmented-button.disabled.icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.disabled.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.outlined-segmented-button.unselected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.outlined-segmented-button.unselected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.outlined-segmented-button.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.outlined-segmented-button.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.outlined-segmented-button.unselected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.outlined-segmented-button.unselected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.unselected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.outlined-segmented-button.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.outlined-segmented-button.unselected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-segmented-button.selected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-secondary-container` |  |  |
 
 ## Color
 

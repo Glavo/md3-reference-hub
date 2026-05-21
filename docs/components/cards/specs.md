@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/d3b65a742fa5-lx8i6cjo-1.png"
@@ -31,11 +31,117 @@ Select a component variant below to see its elements, attributes, tokens, and th
 
 Component: Cards
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Card - Filled | md.comp.filled-card | COMPONENT | For filled cards. |
-| Card - Elevated | md.comp.elevated-card | COMPONENT | For elevated cards. |
-| Card - Outlined | md.comp.outlined-card | COMPONENT | For outlined cards. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Card - Filled | md.comp.filled-card | COMPONENT | 25 | For filled cards. |
+| Card - Elevated | md.comp.elevated-card | COMPONENT | 25 | For elevated cards. |
+| Card - Outlined | md.comp.outlined-card | COMPONENT | 31 | For outlined cards. |
+
+#### Card - Filled (md.comp.filled-card)
+
+For filled cards.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.filled-card.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.filled-card.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filled-card.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.medium` |  |  |
+| md.comp.filled-card.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.filled-card.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Bug fix. Removing surface-tint token, since the tint does not apply to components using surface-variant as container color. |
+| md.comp.filled-card.icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.filled-card.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.filled-card.disabled.container.elevation | ELEVATION | Disabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filled-card.disabled.container.opacity | OPACITY | Disabled / Container | 0.38 |  |  |
+| md.comp.filled-card.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.surface-variant` |  |  |
+| md.comp.filled-card.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.filled-card.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-card.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.filled-card.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.filled-card.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.filled-card.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.filled-card.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filled-card.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-card.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.filled-card.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filled-card.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-card.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.filled-card.dragged.container.elevation | ELEVATION | Dragged / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.filled-card.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-card.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+
+#### Card - Elevated (md.comp.elevated-card)
+
+For elevated cards.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.elevated-card.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-low` |  |  |
+| md.comp.elevated-card.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.elevated-card.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.elevated-card.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.medium` |  |  |
+| md.comp.elevated-card.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.elevated-card.icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.elevated-card.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.elevated-card.disabled.container.elevation | ELEVATION | Disabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.elevated-card.disabled.container.opacity | OPACITY | Disabled / Container | 0.38 |  |  |
+| md.comp.elevated-card.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.elevated-card.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level2` |  |  |
+| md.comp.elevated-card.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.elevated-card.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.elevated-card.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.elevated-card.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.elevated-card.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.elevated-card.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.elevated-card.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.elevated-card.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.elevated-card.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.elevated-card.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.elevated-card.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.elevated-card.dragged.container.elevation | ELEVATION | Dragged / Container | `md.sys.elevation.level4` |  |  |
+| md.comp.elevated-card.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.elevated-card.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+
+#### Card - Outlined (md.comp.outlined-card)
+
+For outlined cards.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.outlined-card.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.outlined-card.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.outlined-card.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.outlined-card.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.medium` |  |  |
+| md.comp.outlined-card.container.shadow-color | COLOR | Enabled / Outline | `md.sys.color.shadow` |  |  |
+| md.comp.outlined-card.outline.width | LENGTH | Enabled / Outline | 1dp |  |  |
+| md.comp.outlined-card.outline.color | COLOR | Enabled / Outline | `md.sys.color.outline-variant` |  |  |
+| md.comp.outlined-card.icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.outlined-card.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.outlined-card.disabled.container.elevation | ELEVATION | Disabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.outlined-card.disabled.outline.color | COLOR | Disabled / Outline | `md.sys.color.outline` |  |  |
+| md.comp.outlined-card.disabled.outline.opacity | OPACITY | Disabled / Outline | 0.12 |  |  |
+| md.comp.outlined-card.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.outlined-card.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-card.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.outlined-card.hover.outline.color | COLOR | Hovered / Outline | `md.sys.color.outline-variant` |  |  |
+| md.comp.outlined-card.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.outlined-card.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.outlined-card.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.outlined-card.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.outlined-card.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-card.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.outlined-card.focus.outline.color | COLOR | Focused / Outline | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-card.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.outlined-card.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-card.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.outlined-card.pressed.outline.color | COLOR | Pressed (ripple) / Outline | `md.sys.color.outline-variant` |  |  |
+| md.comp.outlined-card.dragged.container.elevation | ELEVATION | Dragged / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.outlined-card.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-card.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.outlined-card.dragged.outline.color | COLOR | Dragged / Outline | `md.sys.color.outline-variant` |  |  |
 
 ## Elevated card
 

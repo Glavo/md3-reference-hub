@@ -2,7 +2,7 @@
 title: "Google Fonts ❤️ Material Icons"
 source_url: "https://m3.material.io/blog/google-fonts-material-icons"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/780b1de0118d-yEbaWsvWlhTunAz7_PFJGI76FEAJhGpreHNQvnX0Yrn6DcfsrMksATOiSDqRoyPsTPTH-zkFv-yRw8QTG2c9VdYLBYuylw5Q.png"

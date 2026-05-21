@@ -2,7 +2,7 @@
 title: "Divider"
 source_url: "https://m3.material.io/components/divider/specs"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/816bad015123-lvdgvb10-1.png"
@@ -28,9 +28,22 @@ Browse the component elements, attributes, tokens, and their values.
 
 Component: Divider
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Divider | md.comp.divider | COMPONENT | For dividers. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Divider | md.comp.divider | COMPONENT | 2 | For dividers. |
+
+#### Divider (md.comp.divider)
+
+For dividers.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.divider.thickness | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.divider.color | COLOR | Enabled / Container | `md.sys.color.outline-variant` |  |  |
 
 ## Color
 

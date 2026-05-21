@@ -2,7 +2,7 @@
 title: "Time pickers"
 source_url: "https://m3.material.io/components/time-pickers/specs"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/225b19b4773b-mdcxf11n-01-3P.png"
@@ -30,10 +30,202 @@ Select a component variant below to see its elements, attributes, tokens, and th
 
 Component: Time pickers
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Time picker - Dial | md.comp.time-picker | COMPONENT | For dial time pickers. |
-| Time picker - Input | md.comp.time-input | COMPONENT | For input time pickers. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Time picker - Dial | md.comp.time-picker | COMPONENT | 99 | For dial time pickers. |
+| Time picker - Input | md.comp.time-input | COMPONENT | 75 | For input time pickers. |
+
+#### Time picker - Dial (md.comp.time-picker)
+
+For dial time pickers.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.time-picker.clock-dial.color | COLOR | Enabled / Container | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.time-picker.clock-dial.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.time-picker.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-high` |  |  |
+| md.comp.time-picker.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.time-picker.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.time-picker.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-large` |  |  |
+| md.comp.time-picker.time-selector.selected.container.color | COLOR | Enabled / Container | `md.sys.color.primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.time-picker.time-selector.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.time-picker.period-selector.selected.container.color | COLOR | Enabled / Container | `md.sys.color.tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.time-picker.period-selector.outline.color | COLOR | Enabled / Container | `md.sys.color.outline` |  |  |
+| md.comp.time-picker.period-selector.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.time-picker.clock-dial.color.ignore | COLOR | Enabled / Container | `md.sys.color.on-surface-variant` |  | Deprecating token due to typo in name. Please use md.comp.time-picker.clock-dial.color instead" |
+| md.comp.time-picker.clock-dial.shape.ignore | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  | Deprecating token due to typo in name. Please use md.comp.time-picker.clock-dial.shape instead |
+| md.comp.time-picker.clock-dial.selector.handle.container.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.time-picker.clock-dial.selector.handle.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.time-picker.clock-dial.selector.center.container.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.time-picker.clock-dial.selector.center.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.time-picker.clock-dial.selector.track.container.color | COLOR | Enabled / Container | `md.sys.color.primary` |  |  |
+| md.comp.time-picker.time-selector.container.width | LENGTH | Enabled / Container | 96dp |  |  |
+| md.comp.time-picker.time-selector.24h-vertical.container.width | LENGTH | Enabled / Container | 114dp |  |  |
+| md.comp.time-picker.time-selector.container.height | LENGTH | Enabled / Container | 80dp |  |  |
+| md.comp.time-picker.period-selector.vertical.container.width | LENGTH | Enabled / Container | 52dp |  |  |
+| md.comp.time-picker.period-selector.vertical.container.height | LENGTH | Enabled / Container | 80dp |  |  |
+| md.comp.time-picker.period-selector.horizontal.container.width | LENGTH | Enabled / Container | 216dp |  |  |
+| md.comp.time-picker.period-selector.horizontal.container.height | LENGTH | Enabled / Container | 38dp |  |  |
+| md.comp.time-picker.clock-dial.container.size | LENGTH | Enabled / Container | 256dp |  |  |
+| md.comp.time-picker.clock-dial.selector.handle.container.size | LENGTH | Enabled / Container | 48dp |  |  |
+| md.comp.time-picker.clock-dial.selector.center.container.size | LENGTH | Enabled / Container | 8dp |  |  |
+| md.comp.time-picker.clock-dial.selector.track.container.width | LENGTH | Enabled / Container | 2dp |  |  |
+| md.comp.time-picker.time-selector.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.time-selector.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.display-large.font` |  |  |
+| md.comp.time-picker.time-selector.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.display-large.line-height` |  |  |
+| md.comp.time-picker.time-selector.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.display-large.size` |  |  |
+| md.comp.time-picker.time-selector.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.display-large.weight` |  |  |
+| md.comp.time-picker.time-selector.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.display-large.tracking` |  |  |
+| md.comp.time-picker.time-selector.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.time-picker.time-selector.label-text.font`, font weight: `md.comp.time-picker.time-selector.label-text.weight`, font size: `md.comp.time-picker.time-selector.label-text.size`, font tracking: `md.comp.time-picker.time-selector.label-text.tracking`, line height: `md.comp.time-picker.time-selector.label-text.line-height` |  |  |
+| md.comp.time-picker.period-selector.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.period-selector.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.title-medium.font` |  |  |
+| md.comp.time-picker.period-selector.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.title-medium.line-height` |  |  |
+| md.comp.time-picker.period-selector.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.title-medium.size` |  |  |
+| md.comp.time-picker.period-selector.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.title-medium.weight` |  |  |
+| md.comp.time-picker.period-selector.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.title-medium.tracking` |  |  |
+| md.comp.time-picker.period-selector.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.time-picker.period-selector.label-text.font`, font weight: `md.comp.time-picker.period-selector.label-text.weight`, font size: `md.comp.time-picker.period-selector.label-text.size`, font tracking: `md.comp.time-picker.period-selector.label-text.tracking`, line height: `md.comp.time-picker.period-selector.label-text.line-height` |  |  |
+| md.comp.time-picker.clock-dial.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-primary` |  |  |
+| md.comp.time-picker.clock-dial.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.clock-dial.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.time-picker.clock-dial.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.time-picker.clock-dial.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.time-picker.clock-dial.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.time-picker.clock-dial.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.time-picker.clock-dial.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.time-picker.clock-dial.label-text.font`, font weight: `md.comp.time-picker.clock-dial.label-text.weight`, font size: `md.comp.time-picker.clock-dial.label-text.size`, font tracking: `md.comp.time-picker.clock-dial.label-text.tracking`, line height: `md.comp.time-picker.clock-dial.label-text.line-height` |  |  |
+| md.comp.time-picker.headline.color | COLOR | Enabled / Headline | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.headline.font | FONT_NAMES | Enabled / Headline | `md.sys.typescale.label-medium.font` |  |  |
+| md.comp.time-picker.headline.line-height | LINE_HEIGHT | Enabled / Headline | `md.sys.typescale.label-medium.line-height` |  |  |
+| md.comp.time-picker.headline.size | FONT_SIZE | Enabled / Headline | `md.sys.typescale.label-medium.size` |  |  |
+| md.comp.time-picker.headline.weight | FONT_WEIGHT | Enabled / Headline | `md.sys.typescale.label-medium.weight` |  |  |
+| md.comp.time-picker.headline.tracking | FONT_TRACKING | Enabled / Headline | `md.sys.typescale.label-medium.tracking` |  |  |
+| md.comp.time-picker.headline.type | TYPOGRAPHY | Enabled / Headline | font name: `md.comp.time-picker.headline.font`, font weight: `md.comp.time-picker.headline.weight`, font size: `md.comp.time-picker.headline.size`, font tracking: `md.comp.time-picker.headline.tracking`, line height: `md.comp.time-picker.headline.line-height` |  |  |
+| md.comp.time-picker.time-selector.separator.color | COLOR | Enabled / Separator | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.time-selector.separator.font | FONT_NAMES | Enabled / Separator | `md.sys.typescale.display-large.font` |  |  |
+| md.comp.time-picker.time-selector.separator.line-height | LINE_HEIGHT | Enabled / Separator | `md.sys.typescale.display-large.line-height` |  |  |
+| md.comp.time-picker.time-selector.separator.size | FONT_SIZE | Enabled / Separator | `md.sys.typescale.display-large.size` |  |  |
+| md.comp.time-picker.time-selector.separator.weight | FONT_WEIGHT | Enabled / Separator | `md.sys.typescale.display-large.weight` |  |  |
+| md.comp.time-picker.time-selector.separator.tracking | FONT_TRACKING | Enabled / Separator | `md.sys.typescale.display-large.tracking` |  |  |
+| md.comp.time-picker.time-selector.separator.type | TYPOGRAPHY | Enabled / Separator | font name: `md.comp.time-picker.time-selector.separator.font`, font weight: `md.comp.time-picker.time-selector.separator.weight`, font size: `md.comp.time-picker.time-selector.separator.size`, font tracking: `md.comp.time-picker.time-selector.separator.tracking`, line height: `md.comp.time-picker.time-selector.separator.line-height` |  |  |
+| md.comp.time-picker.time-selector.selected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.period-selector.selected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.unselected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.time-selector.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.time-selector.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.time-picker.period-selector.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.period-selector.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.time-picker.time-selector.selected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.period-selector.selected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.unselected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.time-selector.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.time-selector.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.time-picker.period-selector.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.period-selector.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.time-picker.time-selector.selected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.period-selector.selected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.unselected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.time-selector.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-picker.time-selector.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.time-picker.time-selector.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.time-picker.period-selector.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-picker.period-selector.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-picker.period-selector.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+
+#### Time picker - Input (md.comp.time-input)
+
+For input time pickers.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.time-input.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-high` |  |  |
+| md.comp.time-input.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.time-input.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.time-input.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-large` |  |  |
+| md.comp.time-input.time-input-field.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.time-input.time-input-field.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.time-input.period-selector.selected.container.color | COLOR | Enabled / Container | `md.sys.color.tertiary-container` |  |  |
+| md.comp.time-input.period-selector.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.time-input.period-selector.outline.color | COLOR | Enabled / Container | `md.sys.color.outline` |  |  |
+| md.comp.time-input.period-selector.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.time-input.time-input-field.container.width | LENGTH | Enabled / Container | 96dp |  |  |
+| md.comp.time-input.time-input-field.container.height | LENGTH | Enabled / Container | 72dp |  |  |
+| md.comp.time-input.period-selector.container.width | LENGTH | Enabled / Container | 52dp |  |  |
+| md.comp.time-input.period-selector.container.height | LENGTH | Enabled / Container | 72dp |  |  |
+| md.comp.time-input.time-input-field.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.time-input.time-input-field.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.display-medium.font` |  |  |
+| md.comp.time-input.time-input-field.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.display-medium.line-height` |  |  |
+| md.comp.time-input.time-input-field.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.display-medium.size` |  |  |
+| md.comp.time-input.time-input-field.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.display-medium.weight` |  |  |
+| md.comp.time-input.time-input-field.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.display-medium.tracking` |  |  |
+| md.comp.time-input.time-input-field.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.time-input.time-input-field.label-text.font`, font weight: `md.comp.time-input.time-input-field.label-text.weight`, font size: `md.comp.time-input.time-input-field.label-text.size`, font tracking: `md.comp.time-input.time-input-field.label-text.tracking`, line height: `md.comp.time-input.time-input-field.label-text.line-height` |  |  |
+| md.comp.time-input.period-selector.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-input.period-selector.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.period-selector.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.title-medium.font` |  |  |
+| md.comp.time-input.period-selector.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.title-medium.line-height` |  |  |
+| md.comp.time-input.period-selector.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.title-medium.size` |  |  |
+| md.comp.time-input.period-selector.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.title-medium.weight` |  |  |
+| md.comp.time-input.period-selector.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.title-medium.tracking` |  |  |
+| md.comp.time-input.period-selector.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.time-input.period-selector.label-text.font`, font weight: `md.comp.time-input.period-selector.label-text.weight`, font size: `md.comp.time-input.period-selector.label-text.size`, font tracking: `md.comp.time-input.period-selector.label-text.tracking`, line height: `md.comp.time-input.period-selector.label-text.line-height` |  |  |
+| md.comp.time-input.headline.color | COLOR | Enabled / Headline | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.headline.font | FONT_NAMES | Enabled / Headline | `md.sys.typescale.label-medium.font` |  |  |
+| md.comp.time-input.headline.line-height | LINE_HEIGHT | Enabled / Headline | `md.sys.typescale.label-medium.line-height` |  |  |
+| md.comp.time-input.headline.size | FONT_SIZE | Enabled / Headline | `md.sys.typescale.label-medium.size` |  |  |
+| md.comp.time-input.headline.weight | FONT_WEIGHT | Enabled / Headline | `md.sys.typescale.label-medium.weight` |  |  |
+| md.comp.time-input.headline.tracking | FONT_TRACKING | Enabled / Headline | `md.sys.typescale.label-medium.tracking` |  |  |
+| md.comp.time-input.headline.type | TYPOGRAPHY | Enabled / Headline | font name: `md.comp.time-input.headline.font`, font weight: `md.comp.time-input.headline.weight`, font size: `md.comp.time-input.headline.size`, font tracking: `md.comp.time-input.headline.tracking`, line height: `md.comp.time-input.headline.line-height` |  |  |
+| md.comp.time-input.time-input-field.supporting-text.color | COLOR | Enabled / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.time-input-field.supporting-text.font | FONT_NAMES | Enabled / Supporting text | `md.sys.typescale.body-small.font` |  |  |
+| md.comp.time-input.time-input-field.supporting-text.line-height | LINE_HEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.line-height` |  |  |
+| md.comp.time-input.time-input-field.supporting-text.size | FONT_SIZE | Enabled / Supporting text | `md.sys.typescale.body-small.size` |  |  |
+| md.comp.time-input.time-input-field.supporting-text.weight | FONT_WEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.weight` |  |  |
+| md.comp.time-input.time-input-field.supporting-text.tracking | FONT_TRACKING | Enabled / Supporting text | `md.sys.typescale.body-small.tracking` |  |  |
+| md.comp.time-input.time-input-field.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.time-input.time-input-field.supporting-text.font`, font weight: `md.comp.time-input.time-input-field.supporting-text.weight`, font size: `md.comp.time-input.time-input-field.supporting-text.size`, font tracking: `md.comp.time-input.time-input-field.supporting-text.tracking`, line height: `md.comp.time-input.time-input-field.supporting-text.line-height` |  |  |
+| md.comp.time-input.time-input-field.separator.color | COLOR | Enabled / Separator | `md.sys.color.on-surface` |  |  |
+| md.comp.time-input.time-input-field.separator.font | FONT_NAMES | Enabled / Separator | `md.sys.typescale.display-large.font` |  |  |
+| md.comp.time-input.time-input-field.separator.line-height | LINE_HEIGHT | Enabled / Separator | `md.sys.typescale.display-large.line-height` |  |  |
+| md.comp.time-input.time-input-field.separator.size | FONT_SIZE | Enabled / Separator | `md.sys.typescale.display-large.size` |  |  |
+| md.comp.time-input.time-input-field.separator.weight | FONT_WEIGHT | Enabled / Separator | `md.sys.typescale.display-large.weight` |  |  |
+| md.comp.time-input.time-input-field.separator.tracking | FONT_TRACKING | Enabled / Separator | `md.sys.typescale.display-large.tracking` |  |  |
+| md.comp.time-input.time-input-field.separator.type | TYPOGRAPHY | Enabled / Separator | font name: `md.comp.time-input.time-input-field.separator.font`, font weight: `md.comp.time-input.time-input-field.separator.weight`, font size: `md.comp.time-input.time-input-field.separator.size`, font tracking: `md.comp.time-input.time-input-field.separator.tracking`, line height: `md.comp.time-input.time-input-field.separator.line-height` |  |  |
+| md.comp.time-input.time-input-field.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.time-input.period-selector.selected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-input.period-selector.unselected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.time-input-field.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.time-input.time-input-field.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.time-input.period-selector.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-input.period-selector.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.period-selector.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.time-input.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.time-input.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.time-input.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.time-input.time-input-field.focus.container.color | COLOR | Focused / Container | `md.sys.color.primary-container` |  |  |
+| md.comp.time-input.time-input-field.focus.outline.color | COLOR | Focused / Container | `md.sys.color.primary` |  |  |
+| md.comp.time-input.time-input-field.focus.outline.width | LENGTH | Focused / Container | 2dp |  |  |
+| md.comp.time-input.time-input-field.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-primary-container` |  |  |
+| md.comp.time-input.period-selector.selected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-input.period-selector.unselected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.period-selector.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-input.period-selector.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.period-selector.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.time-input.period-selector.selected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-input.period-selector.unselected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.period-selector.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.time-input.period-selector.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.time-input.period-selector.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
 
 ## Anatomy
 

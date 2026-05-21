@@ -2,7 +2,7 @@
 title: "Typography"
 source_url: "https://m3.material.io/styles/typography/type-scale-tokens"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "styles"
 assets:
   - "assets/images/038eba240c40-macb26zl-1.png"
@@ -46,6 +46,8 @@ Each of the 30 styles has a single token that captures all the default propertie
 
 Component: Sliders
 
+Configured context tags: Static, 3P, Android
+
 ## Emphasized type styles
 
 The M3 type scale has 15 emphasized type styles. Use both baseline and emphasized type styles together to achieve expressive experiences. Material recommends using emphasized styles for selection, actions, headlines, and other [editorial treatments](editorial-treatments.md#19e5796e-9db8-4687-b20c-c6cee77e7df8).
@@ -55,6 +57,8 @@ The M3 type scale has 15 emphasized type styles. Use both baseline and emphasize
 ### TYPOGRAPHY
 
 Component: Sliders
+
+Configured context tags: Static, 3P, Android
 
 ## Where emphasized styles can be used
 
@@ -106,6 +110,8 @@ _Roboto can be replaced with another font, like Roboto Flex_
 ### TYPOGRAPHY
 
 Component: Sliders
+
+Configured context tags: Static, 3P, Android
 
 ## Customizing type styles
 

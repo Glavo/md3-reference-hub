@@ -1180,20 +1180,20 @@ async function renderResourceChunk(chunk, context) {
 
   try {
     const resourceData = await context.http.fetchJson(url);
-    const summary = summarizeResourceData(resourceData);
+    const summary = summarizeResourceData(resourceData, chunk.moduleConfigurationOverrides);
     return summary ? `### ${type}\n\n${summary}` : `### ${type}\n\nResource data: ${url}`;
   } catch (error) {
     return `### ${type}\n\nResource data unavailable locally during sync: ${url}\n\nError: ${error.message}`;
   }
 }
 
-function summarizeResourceData(resourceData) {
+function summarizeResourceData(resourceData, config = null) {
   if (!resourceData || typeof resourceData !== "object") {
     return "";
   }
 
   if (resourceData.system?.components && resourceData.system?.tokenSets) {
-    return summarizeTokenSystem(resourceData.system);
+    return renderTokenSystem(resourceData.system, config);
   }
 
   if (Array.isArray(resourceData)) {
@@ -1210,30 +1210,298 @@ function summarizeResourceData(resourceData) {
   }
 
   if (Array.isArray(resourceData.tokens)) {
-    return tableFromObjects(resourceData.tokens.slice(0, 100));
+    return tableFromObjects(resourceData.tokens);
   }
 
   const keys = Object.keys(resourceData).slice(0, 12);
   return keys.map((key) => `- **${key}:** ${formatScalar(resourceData[key])}`).join("\n");
 }
 
-function summarizeTokenSystem(system) {
+function renderTokenSystem(system, config = null) {
   const component = ensureArray(system.components)[0];
   const tokenSets = ensureArray(system.tokenSets);
   const componentTokenSetNames = new Set(ensureArray(component?.tokenSets));
-  const rows = tokenSets
+  const selectedNames = new Set(ensureArray(config?.tokenSets).map(normalizeTokenSetLabel));
+  const orderNames = ensureArray(config?.tokenSetOrder).map(normalizeTokenSetLabel);
+  const context = buildTokenRenderContext(system);
+  const selectedTokenSets = tokenSets
     .filter((tokenSet) => !componentTokenSetNames.size || componentTokenSetNames.has(tokenSet.name))
-    .sort((a, b) => (a.order || 0) - (b.order || 0) || String(a.displayName || "").localeCompare(String(b.displayName || "")))
-    .map((tokenSet) => ({
-      "Token set": tokenSet.displayName || tokenSet.tokenSetName || "",
-      Name: tokenSet.tokenSetName || "",
-      Type: tokenSet.tokenType || tokenSet.custom?.token_class || "",
-      Description: tokenSet.description || "",
-    }));
+    .filter((tokenSet) => !selectedNames.size || tokenSetLabelKeys(tokenSet).some((key) => selectedNames.has(key)))
+    .sort((a, b) => tokenSetSortKey(a, orderNames) - tokenSetSortKey(b, orderNames) || String(a.displayName || "").localeCompare(String(b.displayName || "")));
 
   const heading = component?.displayName ? `Component: ${component.displayName}` : "";
-  const table = tableFromObjects(rows.slice(0, 100));
-  return [heading, table].filter(Boolean).join("\n\n");
+  const lines = heading ? [heading] : [];
+  const configuredContextTags = ensureArray(config?.contextTags).filter(Boolean);
+  if (configuredContextTags.length) {
+    lines.push(`Configured context tags: ${configuredContextTags.join(", ")}`);
+  }
+
+  const summaryRows = selectedTokenSets.map((tokenSet) => ({
+    "Token set": tokenSet.displayName || tokenSet.tokenSetName || "",
+    Name: tokenSet.tokenSetName || "",
+    Type: tokenSet.tokenType || tokenSet.custom?.token_class || "",
+    Tokens: tokensForTokenSet(system, tokenSet).length,
+    Description: tokenSet.description || "",
+  }));
+  const summaryTable = tableFromObjects(summaryRows);
+  if (summaryTable) {
+    lines.push("#### Token sets", summaryTable);
+  }
+
+  for (const tokenSet of selectedTokenSets) {
+    const tokenSetHeading = tokenSet.tokenSetName
+      ? `${tokenSet.displayName || tokenSet.tokenSetName} (${tokenSet.tokenSetName})`
+      : tokenSet.displayName || tokenSet.name;
+    lines.push(`#### ${tokenSetHeading}`);
+    if (tokenSet.description) {
+      lines.push(plainText(tokenSet.description));
+    }
+    const tokenTable = renderTokenSetTable(system, tokenSet, context);
+    if (tokenTable) {
+      lines.push(tokenTable);
+    }
+  }
+
+  return lines.filter(Boolean).join("\n\n");
+}
+
+function normalizeTokenSetLabel(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .replace(/[–—]/gu, "-")
+    .replace(/\s+/gu, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function tokenSetLabelKeys(tokenSet) {
+  return [
+    tokenSet.name,
+    tokenSet.displayName,
+    tokenSet.tokenSetName,
+    tokenSet.tokenSetNameSuffix,
+  ].map(normalizeTokenSetLabel).filter(Boolean);
+}
+
+function tokenSetSortKey(tokenSet, orderNames) {
+  const labels = tokenSetLabelKeys(tokenSet);
+  const orderIndex = labels.reduce((best, label) => {
+    const index = orderNames.indexOf(label);
+    return index >= 0 ? Math.min(best, index) : best;
+  }, Number.MAX_SAFE_INTEGER);
+  if (orderIndex !== Number.MAX_SAFE_INTEGER) {
+    return orderIndex;
+  }
+  return Number.isFinite(Number(tokenSet.order)) ? Number(tokenSet.order) : Number.MAX_SAFE_INTEGER;
+}
+
+function buildTokenRenderContext(system) {
+  return {
+    displayGroupByName: new Map(ensureArray(system.displayGroups).map((group) => [group.name, group])),
+    tagByName: new Map(ensureArray(system.tags).map((tag) => [tag.name, tag])),
+    contextGroupByName: new Map(ensureArray(system.contextTagGroups).map((group) => [group.name, group])),
+    valuesByTokenName: groupBy(ensureArray(system.values), (value) => value.name.split("/values/")[0]),
+  };
+}
+
+function groupBy(items, keyFn) {
+  const grouped = new Map();
+  for (const item of items) {
+    const key = keyFn(item);
+    if (!grouped.has(key)) {
+      grouped.set(key, []);
+    }
+    grouped.get(key).push(item);
+  }
+  return grouped;
+}
+
+function tokensForTokenSet(system, tokenSet) {
+  const prefix = `${tokenSet.name}/tokens/`;
+  return ensureArray(system.tokens).filter((token) => token.name?.startsWith(prefix));
+}
+
+function renderTokenSetTable(system, tokenSet, context) {
+  const tokens = tokensForTokenSet(system, tokenSet)
+    .sort((a, b) => compareTokenOrder(a, b, context));
+  const rows = tokens.map((token) => {
+    const values = context.valuesByTokenName.get(token.name) || [];
+    return {
+      Token: token.tokenName || token.displayName || "",
+      Type: token.tokenValueType || "",
+      Group: displayGroupPath(token.displayGroup, context.displayGroupByName),
+      Value: formatDefaultTokenValues(values),
+      "Context values": formatContextTokenValues(values, context),
+      Description: plainText(token.description || token.deprecationMessage?.message || ""),
+    };
+  });
+  return tableFromObjects(rows);
+}
+
+function compareTokenOrder(a, b, context) {
+  const groupOrder = compareNumberArrays(displayGroupOrderPath(a.displayGroup, context.displayGroupByName), displayGroupOrderPath(b.displayGroup, context.displayGroupByName));
+  if (groupOrder) {
+    return groupOrder;
+  }
+  return orderNumber(a.orderInDisplayGroup) - orderNumber(b.orderInDisplayGroup) || String(a.tokenName || "").localeCompare(String(b.tokenName || ""));
+}
+
+function displayGroupOrderPath(groupName, displayGroupByName) {
+  const pathParts = [];
+  const seen = new Set();
+  let group = displayGroupByName.get(groupName);
+  while (group && !seen.has(group.name)) {
+    seen.add(group.name);
+    pathParts.unshift(orderNumber(group.orderInParentDisplayGroup ?? group.orderInParentTokenSet));
+    group = displayGroupByName.get(group.parentGroup);
+  }
+  return pathParts;
+}
+
+function compareNumberArrays(a, b) {
+  const length = Math.max(a.length, b.length);
+  for (let index = 0; index < length; index += 1) {
+    const difference = (a[index] ?? 0) - (b[index] ?? 0);
+    if (difference) {
+      return difference;
+    }
+  }
+  return 0;
+}
+
+function orderNumber(value) {
+  return Number.isFinite(Number(value)) ? Number(value) : 0;
+}
+
+function displayGroupPath(groupName, displayGroupByName) {
+  const labels = [];
+  const seen = new Set();
+  let group = displayGroupByName.get(groupName);
+  while (group && !seen.has(group.name)) {
+    seen.add(group.name);
+    if (group.displayName) {
+      labels.unshift(group.displayName);
+    }
+    group = displayGroupByName.get(group.parentGroup);
+  }
+  return labels.join(" / ");
+}
+
+function formatDefaultTokenValues(values) {
+  return values
+    .filter((value) => !ensureArray(value.contextTags).length)
+    .map(formatTokenValue)
+    .filter(Boolean)
+    .join("<br>");
+}
+
+function formatContextTokenValues(values, context) {
+  return values
+    .filter((value) => ensureArray(value.contextTags).length)
+    .map((value) => {
+      const label = formatContextTags(value.contextTags, context);
+      const tokenValue = formatTokenValue(value);
+      return tokenValue ? `${label}: ${tokenValue}` : label;
+    })
+    .filter(Boolean)
+    .join("<br>");
+}
+
+function formatContextTags(contextTags, context) {
+  return ensureArray(contextTags)
+    .map((tagName) => {
+      const tag = context.tagByName.get(tagName);
+      const groupName = String(tagName).split("/tags/")[0];
+      const group = context.contextGroupByName.get(groupName);
+      const tagLabel = tag?.displayName || tag?.tagName || String(tagName).split("/").pop();
+      return group?.displayName ? `${group.displayName}: ${tagLabel}` : tagLabel;
+    })
+    .join(", ");
+}
+
+function formatTokenValue(value) {
+  if (!value || typeof value !== "object") {
+    return "";
+  }
+  if (value.undefined) {
+    return "undefined";
+  }
+  if (value.tokenName) {
+    return `\`${value.tokenName}\``;
+  }
+  if (value.color) {
+    return formatColorValue(value.color);
+  }
+  if (value.length) {
+    return formatUnitValue(value.length);
+  }
+  if (value.shape) {
+    return formatShapeValue(value.shape);
+  }
+  if (value.elevation) {
+    return formatUnitValue(value.elevation);
+  }
+  if (value.type) {
+    return Object.entries(value.type)
+      .map(([key, tokenName]) => `${humanizeTokenValueKey(key)}: \`${tokenName}\``)
+      .join(", ");
+  }
+  if (value.fontNames) {
+    return ensureArray(value.fontNames.values).join(", ");
+  }
+  if (value.axisValue) {
+    return [value.axisValue.tag, value.axisValue.value].filter((part) => part !== undefined && part !== null).join(" ");
+  }
+  for (const key of ["opacity", "fontWeight", "fontSize", "lineHeight", "fontTracking", "numeric"]) {
+    if (value[key] !== undefined) {
+      return typeof value[key] === "object" ? formatUnitValue(value[key]) : String(value[key]);
+    }
+  }
+  return "";
+}
+
+function humanizeTokenValueKey(key) {
+  return String(key).replace(/TokenName$/u, "").replace(/([a-z])([A-Z])/gu, "$1 $2").toLowerCase();
+}
+
+function formatColorValue(color) {
+  const red = Math.round((color.red ?? 0) * 255);
+  const green = Math.round((color.green ?? 0) * 255);
+  const blue = Math.round((color.blue ?? 0) * 255);
+  const alpha = color.alpha ?? 1;
+  if (alpha === 1) {
+    return `#${[red, green, blue].map((part) => part.toString(16).padStart(2, "0")).join("")}`;
+  }
+  return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
+}
+
+function formatUnitValue(value) {
+  const amount = value.value ?? 0;
+  return `${amount}${formatUnit(value.unit)}`;
+}
+
+function formatUnit(unit) {
+  const normalized = String(unit || "").toUpperCase();
+  if (normalized === "DIPS") {
+    return "dp";
+  }
+  if (normalized === "POINTS") {
+    return "pt";
+  }
+  if (normalized === "MILLISECONDS") {
+    return "ms";
+  }
+  return unit ? ` ${String(unit).toLowerCase()}` : "";
+}
+
+function formatShapeValue(shape) {
+  if (shape.family === "SHAPE_FAMILY_CIRCULAR") {
+    return "circular";
+  }
+  if (shape.family === "SHAPE_FAMILY_ROUNDED_CORNERS") {
+    return `rounded corners ${formatUnitValue(shape.defaultSize || {})}`;
+  }
+  return shape.family || "";
 }
 
 function tableFromObjects(rows) {

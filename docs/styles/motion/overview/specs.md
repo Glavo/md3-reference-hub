@@ -2,7 +2,7 @@
 title: "Motion physics system"
 source_url: "https://m3.material.io/styles/motion/overview/specs"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "styles"
 assets: []
 ---
@@ -30,6 +30,8 @@ The **spring composite** tokens are used in the motion physics system. These co
 ### TOKEN_TYPE_UNSPECIFIED
 
 Component: Sliders
+
+Configured context tags: Standard, Expressive, Compose, Web, Android
 
 ## Web: Convert springs to curves
 

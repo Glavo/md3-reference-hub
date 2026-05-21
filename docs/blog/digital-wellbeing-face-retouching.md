@@ -2,7 +2,7 @@
 title: "Finding Wellbeing in Filters and Selfies"
 source_url: "https://m3.material.io/blog/digital-wellbeing-face-retouching"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/25b1f30fbf7c-AXB1fhH9jYf_dF4Kh2ZTbavlutQ4bw8lGbOJR38Go3Sjdv9AGbs9vrMK86lXnCoEe9Z2rHqVgJa1Eyh33KP9bxtGYOGY-uLY.png"

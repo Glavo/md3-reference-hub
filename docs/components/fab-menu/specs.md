@@ -2,7 +2,7 @@
 title: "FAB menu"
 source_url: "https://m3.material.io/components/fab-menu/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/d0bd754269cd-ma3q0apv-01-3p.png"
@@ -56,15 +56,185 @@ Use the table's menu to switch token sets. The FAB menu has a common token set a
 
 Component: FAB menu
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| FAB menu - Common | md.comp.fab-menu | COMPONENT | Common tokens for all FAB menus. |
-| FAB menu close button - Color - Primary | md.comp.fab-menu.primary.close-button | COMPONENT | Primary color tokens for the close button in the FAB menu. |
-| FAB menu close button - Color - Secondary | md.comp.fab-menu.secondary.close-button | COMPONENT | Secondary color tokens for the close button in the FAB menu. |
-| FAB menu close button - Color - Tertiary | md.comp.fab-menu.tertiary.close-button | COMPONENT | Tertiary color tokens for the close button in the FAB menu. |
-| FAB menu list items - Color - Primary | md.comp.fab-menu.primary-container | COMPONENT | Primary container color tokens for the items in the FAB menu. |
-| FAB menu list items - Color - Secondary | md.comp.fab-menu.secondary-container | COMPONENT | Secondary container color tokens for the items in the FAB menu. |
-| FAB menu list items - Color - Tertiary | md.comp.fab-menu.tertiary-container | COMPONENT | Tertiary container color tokens for the items in the FAB menu. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| FAB menu - Common | md.comp.fab-menu | COMPONENT | 15 | Common tokens for all FAB menus. |
+| FAB menu close button - Color - Primary | md.comp.fab-menu.primary.close-button | COMPONENT | 15 | Primary color tokens for the close button in the FAB menu. |
+| FAB menu close button - Color - Secondary | md.comp.fab-menu.secondary.close-button | COMPONENT | 15 | Secondary color tokens for the close button in the FAB menu. |
+| FAB menu close button - Color - Tertiary | md.comp.fab-menu.tertiary.close-button | COMPONENT | 15 | Tertiary color tokens for the close button in the FAB menu. |
+| FAB menu list items - Color - Primary | md.comp.fab-menu.primary-container | COMPONENT | 19 | Primary container color tokens for the items in the FAB menu. |
+| FAB menu list items - Color - Secondary | md.comp.fab-menu.secondary-container | COMPONENT | 19 | Secondary container color tokens for the items in the FAB menu. |
+| FAB menu list items - Color - Tertiary | md.comp.fab-menu.tertiary-container | COMPONENT | 19 | Tertiary container color tokens for the items in the FAB menu. |
+
+#### FAB menu - Common (md.comp.fab-menu)
+
+Common tokens for all FAB menus.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.fab-menu.close-button.container.height | LENGTH | Close button | 56dp |  |  |
+| md.comp.fab-menu.close-button.container.width | LENGTH | Close button | 56dp |  |  |
+| md.comp.fab-menu.close-button.icon.size | LENGTH | Close button | 20dp |  |  |
+| md.comp.fab-menu.close-button.container.elevation | ELEVATION | Close button | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.close-button.container.shape | SHAPE | Close button | `md.sys.shape.corner.full` |  |  |
+| md.comp.fab-menu.close-button.between-space | LENGTH | Close button | 8dp |  |  |
+| md.comp.fab-menu.menu-item.container.height | LENGTH | List item | 56dp |  |  |
+| md.comp.fab-menu.menu-item.label-text | TYPOGRAPHY | List item | `md.sys.typescale.title-medium` |  |  |
+| md.comp.fab-menu.menu-item.icon.size | LENGTH | List item | 24dp |  |  |
+| md.comp.fab-menu.menu-item.container.elevation | ELEVATION | List item | `md.sys.elevation.level0` |  |  |
+| md.comp.fab-menu.menu-item.container.shape | SHAPE | List item | `md.sys.shape.corner.full` |  |  |
+| md.comp.fab-menu.menu-item.leading-space | LENGTH | List item | 24dp |  |  |
+| md.comp.fab-menu.menu-item.icon-label-space | LENGTH | List item | 8dp |  |  |
+| md.comp.fab-menu.menu-item.trailing-space | LENGTH | List item | 24dp |  |  |
+| md.comp.fab-menu.menu-item.between-space | LENGTH | List item | 4dp |  |  |
+
+#### FAB menu close button - Color - Primary (md.comp.fab-menu.primary.close-button)
+
+Primary color tokens for the close button in the FAB menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.fab-menu.primary.close-button.container.color | COLOR | Enabled | `md.sys.color.primary` |  |  |
+| md.comp.fab-menu.primary.close-button.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.fab-menu.primary.close-button.icon.color | COLOR | Enabled | `md.sys.color.on-primary` |  |  |
+| md.comp.fab-menu.primary.close-button.hovered.container.elevation | ELEVATION | Hovered | `md.sys.elevation.level4` |  |  |
+| md.comp.fab-menu.primary.close-button.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-primary` |  |  |
+| md.comp.fab-menu.primary.close-button.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.fab-menu.primary.close-button.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-primary` |  |  |
+| md.comp.fab-menu.primary.close-button.focused.container.elevation | ELEVATION | Focused | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.primary.close-button.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-primary` |  |  |
+| md.comp.fab-menu.primary.close-button.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.fab-menu.primary.close-button.focused.icon.color | COLOR | Focused | `md.sys.color.on-primary` |  |  |
+| md.comp.fab-menu.primary.close-button.pressed.container.elevation | ELEVATION | Pressed | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.primary.close-button.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-primary` |  |  |
+| md.comp.fab-menu.primary.close-button.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.fab-menu.primary.close-button.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-primary` |  |  |
+
+#### FAB menu close button - Color - Secondary (md.comp.fab-menu.secondary.close-button)
+
+Secondary color tokens for the close button in the FAB menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.fab-menu.secondary.close-button.container.color | COLOR | Enabled | `md.sys.color.secondary` |  |  |
+| md.comp.fab-menu.secondary.close-button.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.fab-menu.secondary.close-button.icon.color | COLOR | Enabled | `md.sys.color.on-secondary` |  |  |
+| md.comp.fab-menu.secondary.close-button.hovered.container.elevation | ELEVATION | Hovered | `md.sys.elevation.level4` |  |  |
+| md.comp.fab-menu.secondary.close-button.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary` |  |  |
+| md.comp.fab-menu.secondary.close-button.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.fab-menu.secondary.close-button.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-secondary` |  |  |
+| md.comp.fab-menu.secondary.close-button.focused.container.elevation | ELEVATION | Focused | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.secondary.close-button.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary` |  |  |
+| md.comp.fab-menu.secondary.close-button.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.fab-menu.secondary.close-button.focused.icon.color | COLOR | Focused | `md.sys.color.on-secondary` |  |  |
+| md.comp.fab-menu.secondary.close-button.pressed.container.elevation | ELEVATION | Pressed | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.secondary.close-button.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary` |  |  |
+| md.comp.fab-menu.secondary.close-button.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.fab-menu.secondary.close-button.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-secondary` |  |  |
+
+#### FAB menu close button - Color - Tertiary (md.comp.fab-menu.tertiary.close-button)
+
+Tertiary color tokens for the close button in the FAB menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.fab-menu.tertiary.close-button.container.color | COLOR | Enabled | `md.sys.color.tertiary` |  |  |
+| md.comp.fab-menu.tertiary.close-button.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.fab-menu.tertiary.close-button.icon.color | COLOR | Enabled | `md.sys.color.on-tertiary` |  |  |
+| md.comp.fab-menu.tertiary.close-button.hovered.container.elevation | ELEVATION | Hovered | `md.sys.elevation.level4` |  |  |
+| md.comp.fab-menu.tertiary.close-button.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-tertiary` |  |  |
+| md.comp.fab-menu.tertiary.close-button.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.fab-menu.tertiary.close-button.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-tertiary` |  |  |
+| md.comp.fab-menu.tertiary.close-button.focused.container.elevation | ELEVATION | Focused | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.tertiary.close-button.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-tertiary` |  |  |
+| md.comp.fab-menu.tertiary.close-button.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.fab-menu.tertiary.close-button.focused.icon.color | COLOR | Focused | `md.sys.color.on-tertiary` |  |  |
+| md.comp.fab-menu.tertiary.close-button.pressed.container.elevation | ELEVATION | Pressed | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.tertiary.close-button.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-tertiary` |  |  |
+| md.comp.fab-menu.tertiary.close-button.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.fab-menu.tertiary.close-button.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-tertiary` |  |  |
+
+#### FAB menu list items - Color - Primary (md.comp.fab-menu.primary-container)
+
+Primary container color tokens for the items in the FAB menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.fab-menu.primary-container.list-item.container.color | COLOR | Enabled | `md.sys.color.primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.fab-menu.primary-container.list-item.icon.color | COLOR | Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.label-text.color | COLOR | Enabled | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.hovered.container.elevation | ELEVATION | Hovered | `md.sys.elevation.level4` |  |  |
+| md.comp.fab-menu.primary-container.list-item.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.fab-menu.primary-container.list-item.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.focused.container.elevation | ELEVATION | Focused | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.primary-container.list-item.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.fab-menu.primary-container.list-item.focused.icon.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.focused.label-text.color | COLOR | Focused | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.pressed.container.elevation | ELEVATION | Pressed | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.primary-container.list-item.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.fab-menu.primary-container.list-item.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+| md.comp.fab-menu.primary-container.list-item.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-primary-container` |  |  |
+
+#### FAB menu list items - Color - Secondary (md.comp.fab-menu.secondary-container)
+
+Secondary container color tokens for the items in the FAB menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.fab-menu.secondary-container.list-item.container.color | COLOR | Enabled | `md.sys.color.secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.icon.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.label-text.color | COLOR | Enabled | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.hovered.container.elevation | ELEVATION | Hovered | `md.sys.elevation.level4` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.focused.container.elevation | ELEVATION | Focused | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.focused.icon.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.focused.label-text.color | COLOR | Focused | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.pressed.container.elevation | ELEVATION | Pressed | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.fab-menu.secondary-container.list-item.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-secondary-container` |  |  |
+
+#### FAB menu list items - Color - Tertiary (md.comp.fab-menu.tertiary-container)
+
+Tertiary container color tokens for the items in the FAB menu.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.fab-menu.tertiary-container.list-item.container.color | COLOR | Enabled | `md.sys.color.tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.container.shadow-color | COLOR | Enabled | `md.sys.color.shadow` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.icon.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.label-text.color | COLOR | Enabled | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.hovered.container.elevation | ELEVATION | Hovered | `md.sys.elevation.level4` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.hovered.state-layer.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.hovered.state-layer.opacity | OPACITY | Hovered | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.hovered.icon.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.hovered.label-text.color | COLOR | Hovered | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.focused.container.elevation | ELEVATION | Focused | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.focused.state-layer.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.focused.state-layer.opacity | OPACITY | Focused | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.focused.icon.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.focused.label-text.color | COLOR | Focused | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.pressed.container.elevation | ELEVATION | Pressed | `md.sys.elevation.level3` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.pressed.state-layer.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.pressed.state-layer.opacity | OPACITY | Pressed | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.pressed.icon.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
+| md.comp.fab-menu.tertiary-container.list-item.pressed.label-text.color | COLOR | Pressed | `md.sys.color.on-tertiary-container` |  |  |
 
 ## Anatomy
 

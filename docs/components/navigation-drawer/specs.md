@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/39e28301e737-mobm461s-1-3P-3p.png"
@@ -38,9 +38,87 @@ The navigation drawer has one token set. [Learn about design tokens](https://m3.
 
 Component: Navigation drawer
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Navigation drawers (baseline) | md.comp.navigation-drawer | COMPONENT | For the baseline navigation drawer. For expressive, use the expanded nav rail instead `md.comp.nav-rail.expanded`. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Navigation drawers (baseline) | md.comp.navigation-drawer | COMPONENT | 67 | For the baseline navigation drawer. For expressive, use the expanded nav rail instead `md.comp.nav-rail.expanded`. |
+
+#### Navigation drawers (baseline) (md.comp.navigation-drawer)
+
+For the baseline navigation drawer. For expressive, use the expanded nav rail instead `md.comp.nav-rail.expanded`.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.navigation-drawer.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Use "md.comp.navigation-drawer.modal.container.color" or "md.comp.navigation-drawer.standard.container.color" instead depending on desired configuration. |
+| md.comp.navigation-drawer.modal.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-low` |  |  |
+| md.comp.navigation-drawer.standard.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.navigation-drawer.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.navigation-drawer.modal.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.navigation-drawer.standard.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.navigation-drawer.container.height | LENGTH | Enabled / Container | 100 percent |  |  |
+| md.comp.navigation-drawer.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.large.end` |  |  |
+| md.comp.navigation-drawer.bottom.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.large.top` |  |  |
+| md.comp.navigation-drawer.container.width | LENGTH | Enabled / Container | 360dp |  |  |
+| md.comp.navigation-drawer.active.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-drawer.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.navigation-drawer.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.navigation-drawer.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.navigation-drawer.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.navigation-drawer.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.navigation-drawer.active.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight.prominent` |  |  |
+| md.comp.navigation-drawer.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.navigation-drawer.label-text.font`, font weight: `md.comp.navigation-drawer.label-text.weight`, font size: `md.comp.navigation-drawer.label-text.size`, font tracking: `md.comp.navigation-drawer.label-text.tracking`, line height: `md.comp.navigation-drawer.label-text.line-height` |  |  |
+| md.comp.navigation-drawer.active.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-drawer.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.navigation-drawer.headline.color | COLOR | Enabled / Headline | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-drawer.headline.font | FONT_NAMES | Enabled / Headline | `md.sys.typescale.title-small.font` |  |  |
+| md.comp.navigation-drawer.headline.line-height | LINE_HEIGHT | Enabled / Headline | `md.sys.typescale.title-small.line-height` |  |  |
+| md.comp.navigation-drawer.headline.size | FONT_SIZE | Enabled / Headline | `md.sys.typescale.title-small.size` |  |  |
+| md.comp.navigation-drawer.headline.tracking | FONT_TRACKING | Enabled / Headline | `md.sys.typescale.title-small.tracking` |  |  |
+| md.comp.navigation-drawer.headline.weight | FONT_WEIGHT | Enabled / Headline | `md.sys.typescale.title-small.weight` |  |  |
+| md.comp.navigation-drawer.headline.type | TYPOGRAPHY | Enabled / Headline | font name: `md.comp.navigation-drawer.headline.font`, font weight: `md.comp.navigation-drawer.headline.weight`, font size: `md.comp.navigation-drawer.headline.size`, font tracking: `md.comp.navigation-drawer.headline.tracking`, line height: `md.comp.navigation-drawer.headline.line-height` |  |  |
+| md.comp.navigation-drawer.divider.color | COLOR | Enabled / Divider | `md.sys.color.outline` |  | Depcrecating all divider tokens nested across components. Please use the standalone divider component token md.comp.divider.color as a replacement |
+| md.comp.navigation-drawer.active-indicator.color | COLOR | Enabled / Active indicator | `md.sys.color.secondary-container` |  |  |
+| md.comp.navigation-drawer.active-indicator.height | LENGTH | Enabled / Active indicator | 56dp |  |  |
+| md.comp.navigation-drawer.active-indicator.shape | SHAPE | Enabled / Active indicator | `md.sys.shape.corner.full` |  |  |
+| md.comp.navigation-drawer.active-indicator.width | LENGTH | Enabled / Active indicator | 336dp |  |  |
+| md.comp.navigation-drawer.large-badge-label.color | COLOR | Enabled / Large badge label | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.navigation-drawer.large-badge-label.font | FONT_NAMES | Enabled / Large badge label | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.navigation-drawer.large-badge-label.line-height | LINE_HEIGHT | Enabled / Large badge label | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.navigation-drawer.large-badge-label.size | FONT_SIZE | Enabled / Large badge label | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.navigation-drawer.large-badge-label.tracking | FONT_TRACKING | Enabled / Large badge label | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.navigation-drawer.large-badge-label.weight | FONT_WEIGHT | Enabled / Large badge label | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.navigation-drawer.large-badge-label.type | TYPOGRAPHY | Enabled / Large badge label | font name: `md.comp.navigation-drawer.large-badge-label.font`, font weight: `md.comp.navigation-drawer.large-badge-label.weight`, font size: `md.comp.navigation-drawer.large-badge-label.size`, font tracking: `md.comp.navigation-drawer.large-badge-label.tracking`, line height: `md.comp.navigation-drawer.large-badge-label.line-height` |  |  |
+| md.comp.navigation-drawer.scrim.color | COLOR | Enabled / [Deprecated] Scrim | `md.ref.palette.neutral-variant20` |  | Bug fix. Token does not represent M3 design intent. Use Neutral-Variant10 at 50% for scrims instead. |
+| md.comp.navigation-drawer.scrim.opacity | OPACITY | Enabled / [Deprecated] Scrim | 0.4 |  | Bug fix. Token does not represent M3 design intent. Use Neutral-Variant10 at 50% for scrims instead. |
+| md.comp.navigation-drawer.active.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-drawer.active.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-drawer.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.navigation-drawer.active.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-drawer.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.navigation-drawer.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.navigation-drawer.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.inner-offset` |  |  |
+| md.comp.navigation-drawer.active.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-drawer.active.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-drawer.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.navigation-drawer.active.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-drawer.active.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.navigation-drawer.active.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.navigation-drawer.active.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.navigation-drawer.inactive.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface` |  |  |
 
 ## Color
 

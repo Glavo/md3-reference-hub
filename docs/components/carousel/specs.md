@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/f0e518717353-lyr7cydt-1.png"
@@ -41,9 +41,47 @@ Browse the component elements, attributes, tokens, and their values.
 
 Component: Carousel
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Carousel item | md.comp.carousel-item | COMPONENT | For carousel items. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Carousel item | md.comp.carousel-item | COMPONENT | 27 | For carousel items. |
+
+#### Carousel item (md.comp.carousel-item)
+
+For carousel items.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.carousel-item.with-outline.outline.color | COLOR | Enabled / Outline | `md.sys.color.outline` |  |  |
+| md.comp.carousel-item.with-outline.outline.width | ELEVATION | Enabled / Outline | 1dp |  |  |
+| md.comp.carousel-item.container.color | COLOR | Enabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.carousel-item.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.carousel-item.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.carousel-item.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.carousel-item.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-large` |  |  |
+| md.comp.carousel-item.hover.container.elevation | ELEVATION | Hover / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.carousel-item.hover.state-layer.color | COLOR | Hover / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.carousel-item.hover.state-layer.opacity | OPACITY | Hover / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.carousel-item.with-outline.hover.outline.color | COLOR | Hover / Outline | `md.sys.color.outline` |  |  |
+| md.comp.carousel-item.with-outline.focus.outline.color | COLOR | Focus / Outline | `md.sys.color.on-surface` |  |  |
+| md.comp.carousel-item.focus.indicator.color | COLOR | Focus / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.carousel-item.focus.indicator.thickness | LENGTH | Focus / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.carousel-item.focus.indicator.outline.offset | LENGTH | Focus / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.carousel-item.focus.container.elevation | ELEVATION | Focus / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.carousel-item.focus.state-layer.color | COLOR | Focus / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.carousel-item.focus.state-layer.opacity | OPACITY | Focus / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.carousel-item.with-outline.pressed.outline.color | COLOR | Pressed (ripple) / Outline | `md.sys.color.outline` |  |  |
+| md.comp.carousel-item.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.carousel-item.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.carousel-item.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.carousel-item.disabled.container.elevation | ELEVATION | Disabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.carousel-item.disabled.container.opacity | OPACITY | Disabled / Container | 0.38 |  |  |
+| md.comp.carousel-item.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.surface` |  |  |
+| md.comp.carousel-item.with-outline.disabled.outline.color | COLOR | Disabled / Outline | `md.sys.color.outline` |  |  |
+| md.comp.carousel-item.with-outline.disabled.outline.opacity | OPACITY | Disabled / Outline | 0.12 |  |  |
 
 ## Color
 

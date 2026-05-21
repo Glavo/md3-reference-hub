@@ -2,7 +2,7 @@
 title: "Switch"
 source_url: "https://m3.material.io/components/switch/specs"
 lastmod: "2026-01-06"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/6f5d06fe436f-mg66415n-01-3P.png"
@@ -34,9 +34,98 @@ Browse the component elements, attributes, tokens, and their values. [Learn more
 
 Component: Switch
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Switch | md.comp.switch | COMPONENT | For switches. |
+Configured context tags: None, Medium contrast, Default, High contrast, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Switch | md.comp.switch | COMPONENT | 78 | For switches. |
+
+#### Switch (md.comp.switch)
+
+For switches.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.switch.selected.icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.switch.selected.icon.size | LENGTH | Enabled / Icon | 16dp |  |  |
+| md.comp.switch.unselected.icon.color | COLOR | Enabled / Icon | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.unselected.icon.size | LENGTH | Enabled / Icon | 16dp |  |  |
+| md.comp.switch.track.height | LENGTH | Enabled / Track | 32dp |  |  |
+| md.comp.switch.track.width | LENGTH | Enabled / Track | 52dp |  |  |
+| md.comp.switch.unselected.track.outline.color | COLOR | Enabled / Track | `md.sys.color.outline` |  |  |
+| md.comp.switch.track.outline.width | LENGTH | Enabled / Track | 2dp |  |  |
+| md.comp.switch.track.shape | SHAPE | Enabled / Track | `md.sys.shape.corner.full` |  |  |
+| md.comp.switch.selected.track.color | COLOR | Enabled / Track | `md.sys.color.primary` | Theme: Dark, Platform: iOS, Contrast: Medium contrast: `md.ref.palette.primary60`<br>Theme: Dark, Platform: iOS, Contrast: Default: `md.ref.palette.primary50` |  |
+| md.comp.switch.unselected.track.color | COLOR | Enabled / Track | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.unselected.handle.height | LENGTH | Enabled / Handle | 16dp |  |  |
+| md.comp.switch.with-icon.handle.height | LENGTH | Enabled / Handle | 24dp |  |  |
+| md.comp.switch.selected.handle.height | LENGTH | Enabled / Handle | 24dp |  |  |
+| md.comp.switch.pressed.handle.height | LENGTH | Enabled / Handle | 28dp |  |  |
+| md.comp.switch.unselected.handle.width | LENGTH | Enabled / Handle | 16dp |  |  |
+| md.comp.switch.with-icon.handle.width | LENGTH | Enabled / Handle | 24dp |  |  |
+| md.comp.switch.selected.handle.width | LENGTH | Enabled / Handle | 24dp |  |  |
+| md.comp.switch.pressed.handle.width | LENGTH | Enabled / Handle | 28dp |  |  |
+| md.comp.switch.handle.shape | SHAPE | Enabled / Handle | `md.sys.shape.corner.full` |  |  |
+| md.comp.switch.selected.handle.color | COLOR | Enabled / Handle | `md.sys.color.on-primary` |  |  |
+| md.comp.switch.unselected.handle.color | COLOR | Enabled / Handle | `md.sys.color.outline` |  |  |
+| md.comp.switch.handle.shadow-color | COLOR | Enabled / Handle | `md.sys.color.shadow` |  | The Material Switch component has been updated to a new design. Deprecated tokens are no longer required, new tokens have been added and token values updated. The new tokens only correspond to the new design |
+| md.comp.switch.handle.elevation | ELEVATION | Enabled / Handle | `md.sys.elevation.level1` |  | The Material Switch component has been updated to a new design. Deprecated tokens are no longer required, new tokens have been added and token values updated. The new tokens only correspond to the new design |
+| md.comp.switch.handle.height | LENGTH | Enabled / Handle | 20dp |  | The Material Switch component has been updated to a new design. Deprecated tokens are no longer required, new tokens have been added and token values updated. The new tokens only correspond to the new design |
+| md.comp.switch.handle.width | LENGTH | Enabled / Handle | 20dp |  | The Material Switch component has been updated to a new design. Deprecated tokens are no longer required, new tokens have been added and token values updated. The new tokens only correspond to the new design |
+| md.comp.switch.state-layer.size | LENGTH | Enabled / State layer | 40dp |  |  |
+| md.comp.switch.state-layer.shape | SHAPE | Enabled / State layer | `md.sys.shape.corner.full` |  |  |
+| md.comp.switch.disabled.selected.icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.switch.disabled.selected.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.switch.disabled.unselected.icon.color | COLOR | Disabled / Icon | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.disabled.unselected.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.switch.disabled.track.opacity | OPACITY | Disabled / Track | 0.12 |  |  |
+| md.comp.switch.disabled.selected.track.color | COLOR | Disabled / Track | `md.sys.color.on-surface` |  |  |
+| md.comp.switch.disabled.unselected.track.color | COLOR | Disabled / Track | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.disabled.unselected.track.outline.color | COLOR | Disabled / Track | `md.sys.color.on-surface` |  |  |
+| md.comp.switch.disabled.unselected.handle.opacity | OPACITY | Disabled / Handle | 0.38 |  |  |
+| md.comp.switch.disabled.selected.handle.opacity | OPACITY | Disabled / Handle | 1 |  |  |
+| md.comp.switch.disabled.selected.handle.color | COLOR | Disabled / Handle | `md.sys.color.surface` |  |  |
+| md.comp.switch.disabled.unselected.handle.color | COLOR | Disabled / Handle | `md.sys.color.on-surface` |  |  |
+| md.comp.switch.disabled.handle.opacity | OPACITY | Disabled / Handle | 0.38 |  | The Material Switch component has been updated to a new design. Deprecated tokens are no longer required, new tokens have been added and token values updated. The new tokens only correspond to the new design |
+| md.comp.switch.disabled.handle.elevation | ELEVATION | Disabled / Handle | `md.sys.elevation.level0` |  | The Material Switch component has been updated to a new design. Deprecated tokens are no longer required, new tokens have been added and token values updated. The new tokens only correspond to the new design |
+| md.comp.switch.selected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.primary` |  |  |
+| md.comp.switch.unselected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.selected.hover.track.color | COLOR | Hovered / Track | `md.sys.color.primary` |  |  |
+| md.comp.switch.selected.hover.state-layer.color | COLOR | Hovered / Track | `md.sys.color.primary` |  |  |
+| md.comp.switch.selected.hover.state-layer.opacity | OPACITY | Hovered / Track | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.switch.unselected.hover.track.color | COLOR | Hovered / Track | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.unselected.hover.track.outline.color | COLOR | Hovered / Track | `md.sys.color.outline` |  |  |
+| md.comp.switch.unselected.hover.state-layer.color | COLOR | Hovered / Track | `md.sys.color.on-surface` |  |  |
+| md.comp.switch.unselected.hover.state-layer.opacity | OPACITY | Hovered / Track | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.switch.selected.hover.handle.color | COLOR | Hovered / Handle | `md.sys.color.primary-container` |  |  |
+| md.comp.switch.unselected.hover.handle.color | COLOR | Hovered / Handle | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.switch.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.switch.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.switch.focus.indicator.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.switch.selected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.primary` |  |  |
+| md.comp.switch.unselected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.selected.focus.track.color | COLOR | Focused / Track | `md.sys.color.primary` |  |  |
+| md.comp.switch.selected.focus.state-layer.color | COLOR | Focused / Track | `md.sys.color.primary` |  |  |
+| md.comp.switch.selected.focus.state-layer.opacity | OPACITY | Focused / Track | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.switch.unselected.focus.track.color | COLOR | Focused / Track | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.unselected.focus.track.outline.color | COLOR | Focused / Track | `md.sys.color.outline` |  |  |
+| md.comp.switch.unselected.focus.state-layer.color | COLOR | Focused / Track | `md.sys.color.on-surface` |  |  |
+| md.comp.switch.unselected.focus.state-layer.opacity | OPACITY | Focused / Track | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.switch.selected.focus.handle.color | COLOR | Focused / Handle | `md.sys.color.primary-container` |  |  |
+| md.comp.switch.unselected.focus.handle.color | COLOR | Focused / Handle | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.switch.selected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.primary` |  |  |
+| md.comp.switch.unselected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.selected.pressed.track.color | COLOR | Pressed (ripple) / Track | `md.sys.color.primary` |  |  |
+| md.comp.switch.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / Track | `md.sys.color.primary` |  |  |
+| md.comp.switch.selected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / Track | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.switch.unselected.pressed.track.color | COLOR | Pressed (ripple) / Track | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.switch.unselected.pressed.track.outline.color | COLOR | Pressed (ripple) / Track | `md.sys.color.outline` |  |  |
+| md.comp.switch.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / Track | `md.sys.color.on-surface` |  |  |
+| md.comp.switch.unselected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / Track | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.switch.selected.pressed.handle.color | COLOR | Pressed (ripple) / Handle | `md.sys.color.primary-container` |  |  |
+| md.comp.switch.unselected.pressed.handle.color | COLOR | Pressed (ripple) / Handle | `md.sys.color.on-surface-variant` |  |  |
 
 ## Color
 

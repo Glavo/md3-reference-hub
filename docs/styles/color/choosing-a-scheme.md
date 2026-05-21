@@ -2,7 +2,7 @@
 title: "Choosing a scheme"
 source_url: "https://m3.material.io/styles/color/choosing-a-scheme"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "styles"
 assets:
   - "assets/videos/00e446880719-linbzkgu-MAT020.05-v2-Internal.mp4"

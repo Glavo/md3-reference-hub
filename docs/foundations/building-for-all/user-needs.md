@@ -2,7 +2,7 @@
 title: "Building for all"
 source_url: "https://m3.material.io/foundations/building-for-all/user-needs"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "foundations"
 assets:
   - "assets/images/811ec8c09e6f-mlauyj9q-1.png"

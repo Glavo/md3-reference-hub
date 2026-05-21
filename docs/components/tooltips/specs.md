@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/specs"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/6317ea202a25-mg6beegk-01-3P.png"
@@ -28,10 +28,72 @@ Select a component variant below to see its attributes, tokens, and values.
 
 Component: Tooltips
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Tooltip - Plain | md.comp.plain-tooltip | COMPONENT | For plain tooltips. |
-| Tooltip - Rich | md.comp.rich-tooltip | COMPONENT | For rich tooltips. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Tooltip - Plain | md.comp.plain-tooltip | COMPONENT | 9 | For plain tooltips. |
+| Tooltip - Rich | md.comp.rich-tooltip | COMPONENT | 35 | For rich tooltips. |
+
+#### Tooltip - Plain (md.comp.plain-tooltip)
+
+For plain tooltips.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.plain-tooltip.container.color | COLOR | Enabled / Container | `md.sys.color.inverse-surface` |  |  |
+| md.comp.plain-tooltip.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.plain-tooltip.supporting-text.font | FONT_NAMES | Enabled / Supporting text | `md.sys.typescale.body-small.font` |  |  |
+| md.comp.plain-tooltip.supporting-text.line-height | LINE_HEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.line-height` |  |  |
+| md.comp.plain-tooltip.supporting-text.size | FONT_SIZE | Enabled / Supporting text | `md.sys.typescale.body-small.size` |  |  |
+| md.comp.plain-tooltip.supporting-text.weight | FONT_WEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.weight` |  |  |
+| md.comp.plain-tooltip.supporting-text.tracking | FONT_TRACKING | Enabled / Supporting text | `md.sys.typescale.body-small.tracking` |  |  |
+| md.comp.plain-tooltip.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.plain-tooltip.supporting-text.font`, font weight: `md.comp.plain-tooltip.supporting-text.weight`, font size: `md.comp.plain-tooltip.supporting-text.size`, font tracking: `md.comp.plain-tooltip.supporting-text.tracking`, line height: `md.comp.plain-tooltip.supporting-text.line-height` |  |  |
+| md.comp.plain-tooltip.supporting-text.color | COLOR | Enabled / Supporting text | `md.sys.color.inverse-on-surface` |  |  |
+
+#### Tooltip - Rich (md.comp.rich-tooltip)
+
+For rich tooltips.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.rich-tooltip.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container` |  |  |
+| md.comp.rich-tooltip.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level2` |  |  |
+| md.comp.rich-tooltip.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.rich-tooltip.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.rich-tooltip.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.medium` |  |  |
+| md.comp.rich-tooltip.action.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.rich-tooltip.action.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.rich-tooltip.action.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.rich-tooltip.action.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.rich-tooltip.action.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.rich-tooltip.action.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.rich-tooltip.action.label-text.font`, font weight: `md.comp.rich-tooltip.action.label-text.weight`, font size: `md.comp.rich-tooltip.action.label-text.size`, font tracking: `md.comp.rich-tooltip.action.label-text.tracking`, line height: `md.comp.rich-tooltip.action.label-text.line-height` |  |  |
+| md.comp.rich-tooltip.action.label-text.color | COLOR | Enabled / Label text | `md.sys.color.primary` |  |  |
+| md.comp.rich-tooltip.subhead.font | FONT_NAMES | Enabled / Subhead | `md.sys.typescale.title-small.font` |  |  |
+| md.comp.rich-tooltip.subhead.line-height | LINE_HEIGHT | Enabled / Subhead | `md.sys.typescale.title-small.line-height` |  |  |
+| md.comp.rich-tooltip.subhead.size | FONT_SIZE | Enabled / Subhead | `md.sys.typescale.title-small.size` |  |  |
+| md.comp.rich-tooltip.subhead.weight | FONT_WEIGHT | Enabled / Subhead | `md.sys.typescale.title-small.weight` |  |  |
+| md.comp.rich-tooltip.subhead.tracking | FONT_TRACKING | Enabled / Subhead | `md.sys.typescale.title-small.tracking` |  |  |
+| md.comp.rich-tooltip.subhead.type | TYPOGRAPHY | Enabled / Subhead | font name: `md.comp.rich-tooltip.subhead.font`, font weight: `md.comp.rich-tooltip.subhead.weight`, font size: `md.comp.rich-tooltip.subhead.size`, font tracking: `md.comp.rich-tooltip.subhead.tracking`, line height: `md.comp.rich-tooltip.subhead.line-height` |  |  |
+| md.comp.rich-tooltip.subhead.color | COLOR | Enabled / Subhead | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.rich-tooltip.supporting-text.font | FONT_NAMES | Enabled / Supporting text | `md.sys.typescale.body-medium.font` |  |  |
+| md.comp.rich-tooltip.supporting-text.line-height | LINE_HEIGHT | Enabled / Supporting text | `md.sys.typescale.body-medium.line-height` |  |  |
+| md.comp.rich-tooltip.supporting-text.size | FONT_SIZE | Enabled / Supporting text | `md.sys.typescale.body-medium.size` |  |  |
+| md.comp.rich-tooltip.supporting-text.weight | FONT_WEIGHT | Enabled / Supporting text | `md.sys.typescale.body-medium.weight` |  |  |
+| md.comp.rich-tooltip.supporting-text.tracking | FONT_TRACKING | Enabled / Supporting text | `md.sys.typescale.body-medium.tracking` |  |  |
+| md.comp.rich-tooltip.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.rich-tooltip.supporting-text.font`, font weight: `md.comp.rich-tooltip.supporting-text.weight`, font size: `md.comp.rich-tooltip.supporting-text.size`, font tracking: `md.comp.rich-tooltip.supporting-text.tracking`, line height: `md.comp.rich-tooltip.supporting-text.line-height` |  |  |
+| md.comp.rich-tooltip.supporting-text.color | COLOR | Enabled / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.rich-tooltip.action.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.primary` |  |  |
+| md.comp.rich-tooltip.action.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.primary` |  |  |
+| md.comp.rich-tooltip.action.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.rich-tooltip.action.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.primary` |  |  |
+| md.comp.rich-tooltip.action.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.primary` |  |  |
+| md.comp.rich-tooltip.action.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.rich-tooltip.action.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.primary` |  |  |
+| md.comp.rich-tooltip.action.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.primary` |  |  |
+| md.comp.rich-tooltip.action.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
 
 ## Plain tooltip
 

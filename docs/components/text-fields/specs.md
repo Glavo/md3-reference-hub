@@ -2,7 +2,7 @@
 title: "Text fields"
 source_url: "https://m3.material.io/components/text-fields/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/4a67db93abb5-m2j3wjd6-1.png"
@@ -37,14 +37,201 @@ Browse the component elements, attributes, tokens, and their values. [Learn abo
 
 Component: Text fields
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Text field - Select, outlined | md.comp.outlined-select | COMPONENT | For outlined select text fields. |
-| Text field - Autocomplete, filled | md.comp.filled-autocomplete | COMPONENT | For filled autocomplete text fields. |
-| Text field - Autocomplete, outlined | md.comp.outlined-autocomplete | COMPONENT | For outlined autocomplete text fields. |
-| Text field - Select, filled | md.comp.filled-select | COMPONENT | For filled select text fields. |
-| Text field - Filled | md.comp.filled-text-field | COMPONENT | For filled text fields. |
-| Text field - Outlined | md.comp.outlined-text-field | COMPONENT | For outlined text fields. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Text field - Filled | md.comp.filled-text-field | COMPONENT | 89 | For filled text fields. |
+| Text field - Outlined | md.comp.outlined-text-field | COMPONENT | 84 | For outlined text fields. |
+
+#### Text field - Filled (md.comp.filled-text-field)
+
+For filled text fields.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.filled-text-field.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-highest` |  |  |
+| md.comp.filled-text-field.container.height | LENGTH | Enabled / Container | 56dp |  | Removing fixed height token due to conflicts with text fields variants requiring dynamic height (multi-line, text area). Use height of internal elements and paddings to control component height. |
+| md.comp.filled-text-field.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-small.top` |  |  |
+| md.comp.filled-text-field.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.filled-text-field.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.filled-text-field.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.filled-text-field.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.filled-text-field.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.filled-text-field.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.filled-text-field.label-text.font`, font weight: `md.comp.filled-text-field.label-text.weight`, font size: `md.comp.filled-text-field.label-text.size`, font tracking: `md.comp.filled-text-field.label-text.tracking`, line height: `md.comp.filled-text-field.label-text.line-height` |  |  |
+| md.comp.filled-text-field.label-text.populated.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-small.line-height` |  |  |
+| md.comp.filled-text-field.label-text.populated.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-small.size` |  |  |
+| md.comp.filled-text-field.leading-icon.color | COLOR | Enabled / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.leading-icon.size | LENGTH | Enabled / Leading icon | 24dp |  |  |
+| md.comp.filled-text-field.trailing-icon.color | COLOR | Enabled / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.trailing-icon.size | LENGTH | Enabled / Trailing icon | 24dp |  |  |
+| md.comp.filled-text-field.active-indicator.height | LENGTH | Enabled / Active indicator | 1dp |  |  |
+| md.comp.filled-text-field.active-indicator.color | COLOR | Enabled / Active indicator | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.filled-text-field.supporting-text.font`, font weight: `md.comp.filled-text-field.supporting-text.weight`, font size: `md.comp.filled-text-field.supporting-text.size`, font tracking: `md.comp.filled-text-field.supporting-text.tracking`, line height: `md.comp.filled-text-field.supporting-text.line-height` |  |  |
+| md.comp.filled-text-field.supporting-text.color | COLOR | Enabled / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.supporting-text.font | FONT_NAMES | Enabled / Supporting text | `md.sys.typescale.body-small.font` |  |  |
+| md.comp.filled-text-field.supporting-text.line-height | LINE_HEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.line-height` |  |  |
+| md.comp.filled-text-field.supporting-text.size | FONT_SIZE | Enabled / Supporting text | `md.sys.typescale.body-small.size` |  |  |
+| md.comp.filled-text-field.supporting-text.weight | FONT_WEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.weight` |  |  |
+| md.comp.filled-text-field.supporting-text.tracking | FONT_TRACKING | Enabled / Supporting text | `md.sys.typescale.body-small.tracking` |  |  |
+| md.comp.filled-text-field.input-text.color | COLOR | Enabled / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.input-text.font | FONT_NAMES | Enabled / Input text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.filled-text-field.input-text.line-height | LINE_HEIGHT | Enabled / Input text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.filled-text-field.input-text.size | FONT_SIZE | Enabled / Input text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.filled-text-field.input-text.weight | FONT_WEIGHT | Enabled / Input text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.filled-text-field.input-text.tracking | FONT_TRACKING | Enabled / Input text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.filled-text-field.input-text.type | TYPOGRAPHY | Enabled / Input text | font name: `md.comp.filled-text-field.input-text.font`, font weight: `md.comp.filled-text-field.input-text.weight`, font size: `md.comp.filled-text-field.input-text.size`, font tracking: `md.comp.filled-text-field.input-text.tracking`, line height: `md.comp.filled-text-field.input-text.line-height` |  |  |
+| md.comp.filled-text-field.input-text.prefix.color | COLOR | Enabled / Input text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.input-text.suffix.color | COLOR | Enabled / Input text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.input-text.placeholder.color | COLOR | Enabled / Input text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.caret.color | COLOR | Enabled / Caret | `md.sys.color.primary` |  |  |
+| md.comp.filled-text-field.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.disabled.container.opacity | OPACITY | Disabled / Container | 0.04 |  |  |
+| md.comp.filled-text-field.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.filled-text-field.disabled.leading-icon.color | COLOR | Disabled / Leading icon | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.disabled.leading-icon.opacity | OPACITY | Disabled / Leading icon | 0.38 |  |  |
+| md.comp.filled-text-field.disabled.trailing-icon.color | COLOR | Disabled / Trailing icon | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.disabled.trailing-icon.opacity | OPACITY | Disabled / Trailing icon | 0.38 |  |  |
+| md.comp.filled-text-field.disabled.supporting-text.color | COLOR | Disabled / Supporting text | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.disabled.supporting-text.opacity | OPACITY | Disabled / Supporting text | 0.38 |  |  |
+| md.comp.filled-text-field.disabled.input-text.color | COLOR | Disabled / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.disabled.input-text.opacity | OPACITY | Disabled / Input text | 0.38 |  |  |
+| md.comp.filled-text-field.disabled.active-indicator.height | LENGTH | Disabled / Active indicator | 1dp |  |  |
+| md.comp.filled-text-field.disabled.active-indicator.color | COLOR | Disabled / Active indicator | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.disabled.active-indicator.opacity | OPACITY | Disabled / Active indicator | 0.38 |  |  |
+| md.comp.filled-text-field.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.filled-text-field.hover.leading-icon.color | COLOR | Hovered / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.hover.trailing-icon.color | COLOR | Hovered / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.hover.input-text.color | COLOR | Hovered / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.hover.supporting-text.color | COLOR | Hovered / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.hover.active-indicator.height | LENGTH | Hovered / Active indicator | 1dp |  |  |
+| md.comp.filled-text-field.hover.active-indicator.color | COLOR | Hovered / Active indicator | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.primary` |  |  |
+| md.comp.filled-text-field.focus.leading-icon.color | COLOR | Focused / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.focus.trailing-icon.color | COLOR | Focused / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.focus.input-text.color | COLOR | Focused / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.focus.supporting-text.color | COLOR | Focused / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.focus.active-indicator.height | LENGTH | Focused / Active indicator | 2dp |  |  |
+| md.comp.filled-text-field.focus.active-indicator.color | COLOR | Focused / Active indicator | `md.sys.color.primary` |  |  |
+| md.comp.filled-text-field.focus.active-indicator.thickness | LENGTH | Focused / Active indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.filled-text-field.error.active-indicator.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.label-text.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.input-text.color | COLOR | Error | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.error.supporting-text.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.leading-icon.color | COLOR | Error | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.error.trailing-icon.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.focus.active-indicator.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.focus.label-text.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.focus.input-text.color | COLOR | Error / Focus | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.error.focus.supporting-text.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.focus.leading-icon.color | COLOR | Error / Focus | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.error.focus.trailing-icon.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.focus.caret.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.hover.active-indicator.color | COLOR | Error / Hover | `md.sys.color.on-error-container` |  |  |
+| md.comp.filled-text-field.error.hover.label-text.color | COLOR | Error / Hover | `md.sys.color.on-error-container` |  |  |
+| md.comp.filled-text-field.error.hover.input-text.color | COLOR | Error / Hover | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.error.hover.supporting-text.color | COLOR | Error / Hover | `md.sys.color.error` |  |  |
+| md.comp.filled-text-field.error.hover.leading-icon.color | COLOR | Error / Hover | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filled-text-field.error.hover.trailing-icon.color | COLOR | Error / Hover | `md.sys.color.on-error-container` |  |  |
+| md.comp.filled-text-field.error.hover.state-layer.color | COLOR | Error / Hover | `md.sys.color.on-surface` |  |  |
+| md.comp.filled-text-field.error.hover.state-layer.opacity | OPACITY | Error / Hover | `md.sys.state.hover.state-layer-opacity` |  |  |
+
+#### Text field - Outlined (md.comp.outlined-text-field)
+
+For outlined text fields.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.outlined-text-field.container.height | LENGTH | Enabled / Container | 56dp |  | Removing fixed height token due to conflicts with text fields variants requiring dynamic height (multi-line, text area). Use height of internal elements and paddings to control component height. |
+| md.comp.outlined-text-field.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.outlined-text-field.outline.width | LENGTH | Enabled / Outline | 1dp |  |  |
+| md.comp.outlined-text-field.outline.color | COLOR | Enabled / Outline | `md.sys.color.outline` |  |  |
+| md.comp.outlined-text-field.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.outlined-text-field.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.outlined-text-field.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.outlined-text-field.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.outlined-text-field.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.outlined-text-field.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.outlined-text-field.label-text.font`, font weight: `md.comp.outlined-text-field.label-text.weight`, font size: `md.comp.outlined-text-field.label-text.size`, font tracking: `md.comp.outlined-text-field.label-text.tracking`, line height: `md.comp.outlined-text-field.label-text.line-height` |  |  |
+| md.comp.outlined-text-field.label-text.populated.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.body-small.line-height` |  |  |
+| md.comp.outlined-text-field.label-text.populated.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.body-small.size` |  |  |
+| md.comp.outlined-text-field.leading-icon.color | COLOR | Enabled / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.leading-icon.size | LENGTH | Enabled / Leading icon | 24dp |  |  |
+| md.comp.outlined-text-field.trailing-icon.color | COLOR | Enabled / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.trailing-icon.size | LENGTH | Enabled / Trailing icon | 24dp |  |  |
+| md.comp.outlined-text-field.supporting-text.color | COLOR | Enabled / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.supporting-text.font | FONT_NAMES | Enabled / Supporting text | `md.sys.typescale.body-small.font` |  |  |
+| md.comp.outlined-text-field.supporting-text.line-height | LINE_HEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.line-height` |  |  |
+| md.comp.outlined-text-field.supporting-text.size | FONT_SIZE | Enabled / Supporting text | `md.sys.typescale.body-small.size` |  |  |
+| md.comp.outlined-text-field.supporting-text.weight | FONT_WEIGHT | Enabled / Supporting text | `md.sys.typescale.body-small.weight` |  |  |
+| md.comp.outlined-text-field.supporting-text.tracking | FONT_TRACKING | Enabled / Supporting text | `md.sys.typescale.body-small.tracking` |  |  |
+| md.comp.outlined-text-field.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.outlined-text-field.supporting-text.font`, font weight: `md.comp.outlined-text-field.supporting-text.weight`, font size: `md.comp.outlined-text-field.supporting-text.size`, font tracking: `md.comp.outlined-text-field.supporting-text.tracking`, line height: `md.comp.outlined-text-field.supporting-text.line-height` |  |  |
+| md.comp.outlined-text-field.input-text.color | COLOR | Enabled / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.input-text.font | FONT_NAMES | Enabled / Input text | `md.sys.typescale.body-large.font` |  |  |
+| md.comp.outlined-text-field.input-text.line-height | LINE_HEIGHT | Enabled / Input text | `md.sys.typescale.body-large.line-height` |  |  |
+| md.comp.outlined-text-field.input-text.size | FONT_SIZE | Enabled / Input text | `md.sys.typescale.body-large.size` |  |  |
+| md.comp.outlined-text-field.input-text.weight | FONT_WEIGHT | Enabled / Input text | `md.sys.typescale.body-large.weight` |  |  |
+| md.comp.outlined-text-field.input-text.tracking | FONT_TRACKING | Enabled / Input text | `md.sys.typescale.body-large.tracking` |  |  |
+| md.comp.outlined-text-field.input-text.type | TYPOGRAPHY | Enabled / Input text | font name: `md.comp.outlined-text-field.input-text.font`, font weight: `md.comp.outlined-text-field.input-text.weight`, font size: `md.comp.outlined-text-field.input-text.size`, font tracking: `md.comp.outlined-text-field.input-text.tracking`, line height: `md.comp.outlined-text-field.input-text.line-height` |  |  |
+| md.comp.outlined-text-field.input-text.suffix.color | COLOR | Enabled / Input text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.input-text.prefix.color | COLOR | Enabled / Input text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.input-text.placeholder.color | COLOR | Enabled / Input text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.caret.color | COLOR | Enabled / Caret | `md.sys.color.primary` |  |  |
+| md.comp.outlined-text-field.error.focus.caret.color | COLOR | Enabled / Caret | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.outlined-text-field.disabled.leading-icon.color | COLOR | Disabled / Leading icon | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.disabled.leading-icon.opacity | OPACITY | Disabled / Leading icon | 0.38 |  |  |
+| md.comp.outlined-text-field.disabled.trailing-icon.color | COLOR | Disabled / Trailing icon | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.disabled.trailing-icon.opacity | OPACITY | Disabled / Trailing icon | 0.38 |  |  |
+| md.comp.outlined-text-field.disabled.outline.width | LENGTH | Disabled / Outline | 1dp |  |  |
+| md.comp.outlined-text-field.disabled.outline.color | COLOR | Disabled / Outline | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.disabled.outline.opacity | OPACITY | Disabled / Outline | 0.12 |  |  |
+| md.comp.outlined-text-field.disabled.supporting-text.color | COLOR | Disabled / Supporting text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.disabled.supporting-text.opacity | OPACITY | Disabled / Supporting text | 0.38 |  |  |
+| md.comp.outlined-text-field.disabled.input-text.color | COLOR | Disabled / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.disabled.input-text.opacity | OPACITY | Disabled / Input text | 0.38 |  |  |
+| md.comp.outlined-text-field.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.hover.leading-icon.color | COLOR | Hovered / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.hover.trailing-icon.color | COLOR | Hovered / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.hover.outline.width | LENGTH | Hovered / Outline | 1dp |  |  |
+| md.comp.outlined-text-field.hover.outline.color | COLOR | Hovered / Outline | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.hover.input-text.color | COLOR | Hovered / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.hover.supporting-text.color | COLOR | Hovered / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.primary` |  |  |
+| md.comp.outlined-text-field.focus.leading-icon.color | COLOR | Focused / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.focus.trailing-icon.color | COLOR | Focused / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.focus.outline.width | LENGTH | Focused / Outline | 3dp |  |  |
+| md.comp.outlined-text-field.focus.outline.color | COLOR | Focused / Outline | `md.sys.color.primary` |  |  |
+| md.comp.outlined-text-field.focus.input-text.color | COLOR | Focused / Input text | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.focus.supporting-text.color | COLOR | Focused / Supporting text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.focus.indicator.outline.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  | Deprecating - instead use focus outline tokens |
+| md.comp.outlined-text-field.error.focus.indicator.outline.color | COLOR | Focused / Focus indicator | `md.sys.color.error` |  | Deprecating - instead use focus outline tokens |
+| md.comp.outlined-text-field.focus.indicator.outline.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  | Deprecating - instead use focus outline tokens |
+| md.comp.outlined-text-field.error.outline.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.label-text.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.input-text.color | COLOR | Error | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.error.supporting-text.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.leading-icon.color | COLOR | Error | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.error.trailing-icon.color | COLOR | Error | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.focus.outline.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.focus.label-text.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.focus.input-text.color | COLOR | Error / Focus | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.error.focus.supporting-text.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.focus.leading-icon.color | COLOR | Error / Focus | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.error.focus.trailing-icon.color | COLOR | Error / Focus | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.hover.outline.color | COLOR | Error / Hover | `md.sys.color.on-error-container` |  |  |
+| md.comp.outlined-text-field.error.hover.label-text.color | COLOR | Error / Hover | `md.sys.color.on-error-container` |  |  |
+| md.comp.outlined-text-field.error.hover.input-text.color | COLOR | Error / Hover | `md.sys.color.on-surface` |  |  |
+| md.comp.outlined-text-field.error.hover.supporting-text.color | COLOR | Error / Hover | `md.sys.color.error` |  |  |
+| md.comp.outlined-text-field.error.hover.leading-icon.color | COLOR | Error / Hover | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.outlined-text-field.error.hover.trailing-icon.color | COLOR | Error / Hover | `md.sys.color.on-error-container` |  |  |
 
 ## Filled text field
 

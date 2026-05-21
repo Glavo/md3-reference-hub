@@ -4,7 +4,7 @@ This repository stores a local Markdown copy of the public Material Design 3 web
 
 # Material Design 3 Reference
 
-Snapshot: 2026-05-21T03:22:19.498Z
+Snapshot: 2026-05-21T03:29:14.331Z
 
 Source: https://m3.material.io/
 

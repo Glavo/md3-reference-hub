@@ -2,7 +2,7 @@
 title: "Chips"
 source_url: "https://m3.material.io/components/chips/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/54bfc07dcff0-m01dv1nz-1.png"
@@ -37,12 +37,360 @@ Select a component variant below to see its elements, attributes, tokens, and va
 
 Component: Chips
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Chip - Input | md.comp.input-chip | COMPONENT | For input chips. |
-| Chip - Assist | md.comp.assist-chip | COMPONENT | For assist chips. |
-| Chip - Suggestion | md.comp.suggestion-chip | COMPONENT | For suggestion chips. |
-| Chip - Filter | md.comp.filter-chip | COMPONENT | For filter chips. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Chip - Assist | md.comp.assist-chip | COMPONENT | 51 | For assist chips. |
+| Chip - Filter | md.comp.filter-chip | COMPONENT | 107 | For filter chips. |
+| Chip - Input | md.comp.input-chip | COMPONENT | 107 | For input chips. |
+| Chip - Suggestion | md.comp.suggestion-chip | COMPONENT | 51 | For suggestion chips. |
+
+#### Chip - Assist (md.comp.assist-chip)
+
+For assist chips.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.assist-chip.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.assist-chip.container.height | LENGTH | Enabled / Container | 32dp |  |  |
+| md.comp.assist-chip.flat.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.assist-chip.flat.outline.color | COLOR | Enabled / Container | `md.sys.color.outline-variant` |  |  |
+| md.comp.assist-chip.flat.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.assist-chip.elevated.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.assist-chip.elevated.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-low` |  |  |
+| md.comp.assist-chip.elevated.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.assist-chip.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.assist-chip.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.assist-chip.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.assist-chip.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.assist-chip.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.assist-chip.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.assist-chip.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.assist-chip.label-text.font`, font weight: `md.comp.assist-chip.label-text.weight`, font size: `md.comp.assist-chip.label-text.size`, font tracking: `md.comp.assist-chip.label-text.tracking`, line height: `md.comp.assist-chip.label-text.line-height` |  |  |
+| md.comp.assist-chip.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.with-icon.icon.size | LENGTH | Enabled / Icon | 18dp |  |  |
+| md.comp.assist-chip.with-icon.icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.assist-chip.flat.disabled.outline.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.flat.disabled.outline.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.assist-chip.elevated.disabled.container.elevation | ELEVATION | Disabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.assist-chip.elevated.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.elevated.disabled.container.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.assist-chip.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.assist-chip.with-icon.disabled.icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.with-icon.disabled.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.assist-chip.elevated.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level2` |  |  |
+| md.comp.assist-chip.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.assist-chip.with-icon.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.primary` |  |  |
+| md.comp.assist-chip.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.assist-chip.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.assist-chip.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.assist-chip.flat.focus.outline.color | COLOR | Focused / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.elevated.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.assist-chip.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.assist-chip.with-icon.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.primary` |  |  |
+| md.comp.assist-chip.elevated.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.assist-chip.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.assist-chip.with-icon.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.primary` |  |  |
+| md.comp.assist-chip.dragged.container.elevation | ELEVATION | Dragged / Container | `md.sys.elevation.level4` |  |  |
+| md.comp.assist-chip.dragged.label-text.color | COLOR | Dragged / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface` |  |  |
+| md.comp.assist-chip.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.assist-chip.with-icon.dragged.icon.color | COLOR | Dragged / Icon | `md.sys.color.primary` |  |  |
+
+#### Chip - Filter (md.comp.filter-chip)
+
+For filter chips.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.filter-chip.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.filter-chip.container.height | LENGTH | Enabled / Container | 32dp |  |  |
+| md.comp.filter-chip.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  | Replaced with new token md.comp.filter-chip.elevated.container.shadow-color to include the "elevated" designation in the token name. |
+| md.comp.filter-chip.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.filter-chip.flat.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filter-chip.flat.unselected.outline.color | COLOR | Enabled / Container | `md.sys.color.outline-variant` |  |  |
+| md.comp.filter-chip.flat.unselected.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.filter-chip.flat.selected.container.color | COLOR | Enabled / Container | `md.sys.color.secondary-container` |  |  |
+| md.comp.filter-chip.flat.selected.outline.width | LENGTH | Enabled / Container | 0dp |  |  |
+| md.comp.filter-chip.elevated.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.filter-chip.elevated.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.filter-chip.elevated.unselected.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-low` |  |  |
+| md.comp.filter-chip.elevated.selected.container.color | COLOR | Enabled / Container | `md.sys.color.secondary-container` |  |  |
+| md.comp.filter-chip.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.filter-chip.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.filter-chip.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.filter-chip.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.filter-chip.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.filter-chip.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.filter-chip.label-text.font`, font weight: `md.comp.filter-chip.label-text.weight`, font size: `md.comp.filter-chip.label-text.size`, font tracking: `md.comp.filter-chip.label-text.tracking`, line height: `md.comp.filter-chip.label-text.line-height` |  |  |
+| md.comp.filter-chip.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-icon.icon.size | LENGTH | Enabled / Icon | 18dp |  |  |
+| md.comp.filter-chip.with-leading-icon.selected.leading-icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-leading-icon.unselected.leading-icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.filter-chip.with-trailing-icon.selected.trailing-icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-trailing-icon.unselected.trailing-icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.with-icon.unselected.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.with-icon.selected.icon.color | COLOR | Enabled / Icon | `md.sys.color.on-secondary-container` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.with-trailing-icon.trailing-icon.unselected.color | COLOR | Enabled / Icon | `md.sys.color.on-surface-variant` |  | Wrongly named token. Please use this token instead: md.comp.filter-chip.with-trailing-icon.unselected.trailing-icon.color |
+| md.comp.filter-chip.with-leading-icon.leading-icon.unselected.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  | Wrongly named token. Please use this token instead: md.comp.filter-chip.with-leading-icon.selected.leading-icon.color |
+| md.comp.filter-chip.flat.disabled.unselected.outline.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.filter-chip.flat.disabled.unselected.outline.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.filter-chip.flat.disabled.selected.container.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.filter-chip.flat.disabled.selected.container.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.filter-chip.elevated.disabled.container.elevation | ELEVATION | Disabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filter-chip.elevated.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.filter-chip.elevated.disabled.container.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.filter-chip.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.filter-chip.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.filter-chip.with-leading-icon.disabled.leading-icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.filter-chip.with-leading-icon.disabled.leading-icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.filter-chip.with-trailing-icon.disabled.trailing-icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.filter-chip.with-trailing-icon.disabled.trailing-icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.filter-chip.with-icon.disabled.icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.with-icon.disabled.icon.opacity | OPACITY | Disabled / Icon | 0.38 |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.filter-chip.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.filter-chip.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.filter-chip.flat.unselected.focus.outline.color | COLOR | Focused / Container | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.elevated.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.filter-chip.flat.selected.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filter-chip.flat.unselected.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filter-chip.unselected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.selected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.unselected.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.filter-chip.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.selected.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.filter-chip.with-leading-icon.selected.focus.leading-icon.color | COLOR | Focused / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-leading-icon.unselected.focus.leading-icon.color | COLOR | Focused / Icon | `md.sys.color.primary` |  |  |
+| md.comp.filter-chip.with-trailing-icon.selected.focus.trailing-icon.color | COLOR | Focused / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-trailing-icon.unselected.focus.trailing-icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.with-icon.unselected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-surface-variant` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.with-icon.selected.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.on-secondary-container` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.elevated.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level2` |  |  |
+| md.comp.filter-chip.flat.selected.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.filter-chip.flat.unselected.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filter-chip.unselected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.selected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.unselected.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.filter-chip.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.selected.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.filter-chip.with-leading-icon.selected.hover.leading-icon.color | COLOR | Hovered / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-leading-icon.unselected.hover.leading-icon.color | COLOR | Hovered / Icon | `md.sys.color.primary` |  |  |
+| md.comp.filter-chip.with-trailing-icon.selected.hover.trailing-icon.color | COLOR | Hovered / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-trailing-icon.unselected.hover.trailing-icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.with-icon.unselected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-surface-variant` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.with-icon.selected.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.on-secondary-container` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.elevated.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.filter-chip.flat.selected.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filter-chip.flat.unselected.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.filter-chip.unselected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.selected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.unselected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.filter-chip.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.selected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.filter-chip.with-leading-icon.selected.pressed.leading-icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-leading-icon.unselected.pressed.leading-icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.primary` |  |  |
+| md.comp.filter-chip.with-trailing-icon.selected.pressed.trailing-icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-trailing-icon.unselected.pressed.trailing-icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.with-icon.unselected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-surface-variant` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.with-icon.selected.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.on-secondary-container` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.dragged.container.elevation | ELEVATION | Dragged / Container | `md.sys.elevation.level4` |  |  |
+| md.comp.filter-chip.unselected.dragged.label-text.color | COLOR | Dragged / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.selected.dragged.label-text.color | COLOR | Dragged / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.unselected.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.unselected.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.filter-chip.selected.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.selected.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.filter-chip.with-leading-icon.selected.dragged.leading-icon.color | COLOR | Dragged / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-leading-icon.unselected.dragged.leading-icon.color | COLOR | Dragged / Icon | `md.sys.color.primary` |  |  |
+| md.comp.filter-chip.with-trailing-icon.selected.dragged.trailing-icon.color | COLOR | Dragged / Icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.filter-chip.with-trailing-icon.unselected.dragged.trailing-icon.color | COLOR | Dragged / Icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.filter-chip.with-icon.unselected.dragged.icon.color | COLOR | Dragged / Icon | `md.sys.color.on-surface-variant` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+| md.comp.filter-chip.with-icon.selected.dragged.icon.color | COLOR | Dragged / Icon | `md.sys.color.on-secondary-container` |  | Established distinct leading and trailing icon tokens for filter chips. Please use corresponding token added for leading and trailing instead. |
+
+#### Chip - Input (md.comp.input-chip)
+
+For input chips.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.input-chip.with-avatar.avatar.size | LENGTH | Enabled / Avatar | 24dp |  |  |
+| md.comp.input-chip.with-avatar.avatar.shape | SHAPE | Enabled / Avatar | `md.sys.shape.corner.full` |  |  |
+| md.comp.input-chip.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.input-chip.container.height | LENGTH | Enabled / Container | 32dp |  |  |
+| md.comp.input-chip.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.input-chip.unselected.outline.color | COLOR | Enabled / Container | `md.sys.color.outline-variant` |  |  |
+| md.comp.input-chip.unselected.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.input-chip.selected.container.color | COLOR | Enabled / Container | `md.sys.color.secondary-container` |  |  |
+| md.comp.input-chip.selected.outline.width | LENGTH | Enabled / Container | 0dp |  |  |
+| md.comp.input-chip.outline.color | COLOR | Enabled / Container | `md.sys.color.outline` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.outline.width | LENGTH | Enabled / Container | 1dp |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.input-chip.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.input-chip.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.input-chip.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.input-chip.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.input-chip.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.input-chip.label-text.font`, font weight: `md.comp.input-chip.label-text.weight`, font size: `md.comp.input-chip.label-text.size`, font tracking: `md.comp.input-chip.label-text.tracking`, line height: `md.comp.input-chip.label-text.line-height` |  |  |
+| md.comp.input-chip.selected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.unselected.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-leading-icon.leading-icon.size | LENGTH | Enabled / Leading icon | 18dp |  |  |
+| md.comp.input-chip.with-leading-icon.selected.leading-icon.color | COLOR | Enabled / Leading icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-leading-icon.unselected.leading-icon.color | COLOR | Enabled / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.with-leading-icon.leading-icon.color | COLOR | Enabled / Leading icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-leading-icon.selected.…" or "md.comp.input-chip.with-leading-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-trailing-icon.trailing-icon.size | LENGTH | Enabled / Trailing icon | 18dp |  |  |
+| md.comp.input-chip.with-trailing-icon.selected.trailing-icon.color | COLOR | Enabled / Trailing icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.with-trailing-icon.unselected.trailing-icon.color | COLOR | Enabled / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.with-trailing-icon.trailing-icon.color | COLOR | Enabled / Trailing icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-trailing-icon.selected.…" or "md.comp.input-chip.with-trailing-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.disabled.unselected.outline.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.input-chip.disabled.unselected.outline.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.input-chip.disabled.selected.container.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.input-chip.disabled.selected.container.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.input-chip.disabled.outline.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.disabled.outline.opacity | OPACITY | Disabled / Container | 0.12 |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.input-chip.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.input-chip.with-leading-icon.disabled.leading-icon.color | COLOR | Disabled / Leading icon | `md.sys.color.on-surface` |  |  |
+| md.comp.input-chip.with-leading-icon.disabled.leading-icon.opacity | OPACITY | Disabled / Leading icon | 0.38 |  |  |
+| md.comp.input-chip.with-trailing-icon.disabled.trailing-icon.color | COLOR | Disabled / Trailing icon | `md.sys.color.on-surface` |  |  |
+| md.comp.input-chip.with-trailing-icon.disabled.trailing-icon.opacity | OPACITY | Disabled / Trailing icon | 0.38 |  |  |
+| md.comp.input-chip.with-avatar.disabled.avatar.opacity | OPACITY | Disabled / Avatar | 0.38 |  |  |
+| md.comp.input-chip.unselected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.selected.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.unselected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.unselected.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.input-chip.selected.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.selected.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.input-chip.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-leading-icon.unselected.hover.leading-icon.color | COLOR | Hovered / Leading icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-leading-icon.selected.hover.leading-icon.color | COLOR | Hovered / Leading icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-leading-icon.hover.leading-icon.color | COLOR | Hovered / Leading icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-leading-icon.selected.…" or "md.comp.input-chip.with-leading-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-trailing-icon.unselected.hover.trailing-icon.color | COLOR | Hovered / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.with-trailing-icon.selected.hover.trailing-icon.color | COLOR | Hovered / Trailing icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.with-trailing-icon.hover.trailing-icon.color | COLOR | Hovered / Trailing icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-trailing-icon.selected.…" or "md.comp.input-chip.with-trailing-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.input-chip.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.input-chip.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.input-chip.unselected.focus.outline.color | COLOR | Focused / Container | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.focus.outline.color | COLOR | Focused / Container | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.unselected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.selected.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.unselected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.unselected.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.input-chip.selected.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.selected.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.input-chip.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-leading-icon.unselected.focus.leading-icon.color | COLOR | Focused / Leading icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-leading-icon.selected.focus.leading-icon.color | COLOR | Focused / Leading icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-leading-icon.focus.leading-icon.color | COLOR | Focused / Leading icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-leading-icon.selected.…" or "md.comp.input-chip.with-leading-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-trailing-icon.unselected.focus.trailing-icon.color | COLOR | Focused / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.with-trailing-icon.selected.focus.trailing-icon.color | COLOR | Focused / Trailing icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.with-trailing-icon.focus.trailing-icon.color | COLOR | Focused / Trailing icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-trailing-icon.selected.…" or "md.comp.input-chip.with-trailing-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.unselected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.selected.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.unselected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.unselected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.input-chip.selected.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.selected.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.input-chip.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-leading-icon.unselected.pressed.leading-icon.color | COLOR | Pressed (ripple) / Leading icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-leading-icon.selected.pressed.leading-icon.color | COLOR | Pressed (ripple) / Leading icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-leading-icon.pressed.leading-icon.color | COLOR | Pressed (ripple) / Leading icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-leading-icon.selected.…" or "md.comp.input-chip.with-leading-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-trailing-icon.unselected.pressed.trailing-icon.color | COLOR | Pressed (ripple) / Trailing icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.with-trailing-icon.selected.pressed.trailing-icon.color | COLOR | Pressed (ripple) / Trailing icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.with-trailing-icon.pressed.trailing-icon.color | COLOR | Pressed (ripple) / Trailing icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-trailing-icon.selected.…" or "md.comp.input-chip.with-trailing-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.dragged.container.elevation | ELEVATION | Dragged / Container | `md.sys.elevation.level4` |  |  |
+| md.comp.input-chip.unselected.dragged.label-text.color | COLOR | Dragged / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.selected.dragged.label-text.color | COLOR | Dragged / Label text | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.dragged.label-text.color | COLOR | Dragged / Label text | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.unselected.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.unselected.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.input-chip.selected.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.selected.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
+| md.comp.input-chip.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.selected.…" or "md.comp.input-chip.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-trailing-icon.unselected.dragged.trailing-icon.color | COLOR | Dragged / Trailing icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-trailing-icon.selected.dragged.trailing-icon.color | COLOR | Dragged / Trailing icon | `md.sys.color.primary` |  |  |
+| md.comp.input-chip.with-trailing-icon.dragged.trailing-icon.color | COLOR | Dragged / Trailing icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-trailing-icon.selected.…" or "md.comp.input-chip.with-trailing-icon.unselected.…" tokens depending on component status. |
+| md.comp.input-chip.with-leading-icon.unselected.dragged.leading-icon.color | COLOR | Dragged / Leading icon | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.input-chip.with-leading-icon.selected.dragged.leading-icon.color | COLOR | Dragged / Leading icon | `md.sys.color.on-secondary-container` |  |  |
+| md.comp.input-chip.with-leading-icon.dragged.leading-icon.color | COLOR | Dragged / Leading icon | `md.sys.color.on-surface-variant` |  | With this update we are introducing selected and unselected state tokens for input chips. Please replace these tokens with the newly added and equivalent "md.comp.input-chip.with-leading-icon.selected.…" or "md.comp.input-chip.with-leading-icon.unselected.…" tokens depending on component status. |
+
+#### Chip - Suggestion (md.comp.suggestion-chip)
+
+For suggestion chips.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.suggestion-chip.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.small` |  |  |
+| md.comp.suggestion-chip.container.height | LENGTH | Enabled / Container | 32dp |  |  |
+| md.comp.suggestion-chip.flat.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.suggestion-chip.flat.outline.color | COLOR | Enabled / Container | `md.sys.color.outline-variant` |  |  |
+| md.comp.suggestion-chip.flat.outline.width | LENGTH | Enabled / Container | 1dp |  |  |
+| md.comp.suggestion-chip.elevated.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.suggestion-chip.elevated.container.color | COLOR | Enabled / Container | `md.sys.color.surface-container-low` |  |  |
+| md.comp.suggestion-chip.elevated.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.suggestion-chip.container.surface-tint-layer.color | COLOR | Enabled / Container | `md.sys.color.surface-tint` |  | Deprecated as part of the update from opacity based surfaces to tonal surfaces. Surfaces no longer use surface-tint layers for tinting, please use the desired surface role directly as the container color. |
+| md.comp.suggestion-chip.with-leading-icon.leading-icon.color | COLOR | Enabled / Icon | `md.sys.color.primary` |  |  |
+| md.comp.suggestion-chip.with-leading-icon.leading-icon.size | LENGTH | Enabled / Icon | 18dp |  |  |
+| md.comp.suggestion-chip.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.suggestion-chip.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.suggestion-chip.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.suggestion-chip.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.suggestion-chip.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.suggestion-chip.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.suggestion-chip.label-text.font`, font weight: `md.comp.suggestion-chip.label-text.weight`, font size: `md.comp.suggestion-chip.label-text.size`, font tracking: `md.comp.suggestion-chip.label-text.tracking`, line height: `md.comp.suggestion-chip.label-text.line-height` |  |  |
+| md.comp.suggestion-chip.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.flat.disabled.outline.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.suggestion-chip.flat.disabled.outline.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.suggestion-chip.elevated.disabled.container.elevation | ELEVATION | Disabled / Container | `md.sys.elevation.level0` |  |  |
+| md.comp.suggestion-chip.elevated.disabled.container.color | COLOR | Disabled / Container | `md.sys.color.on-surface` |  |  |
+| md.comp.suggestion-chip.elevated.disabled.container.opacity | OPACITY | Disabled / Container | 0.12 |  |  |
+| md.comp.suggestion-chip.with-leading-icon.disabled.leading-icon.color | COLOR | Disabled / Icon | `md.sys.color.on-surface` |  |  |
+| md.comp.suggestion-chip.with-leading-icon.disabled.leading-icon.opacity | OPACITY | Disabled / Icon | 0.38 |  |  |
+| md.comp.suggestion-chip.disabled.label-text.color | COLOR | Disabled / Label text | `md.sys.color.on-surface` |  |  |
+| md.comp.suggestion-chip.disabled.label-text.opacity | OPACITY | Disabled / Label text | 0.38 |  |  |
+| md.comp.suggestion-chip.elevated.hover.container.elevation | ELEVATION | Hovered / Container | `md.sys.elevation.level2` |  |  |
+| md.comp.suggestion-chip.with-leading-icon.hover.leading-icon.color | COLOR | Hovered / Icon | `md.sys.color.primary` |  |  |
+| md.comp.suggestion-chip.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.suggestion-chip.focus.indicator.color | COLOR | Focused / Focus indicator | `md.sys.color.secondary` |  |  |
+| md.comp.suggestion-chip.focus.indicator.thickness | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.thickness` |  |  |
+| md.comp.suggestion-chip.focus.indicator.outline.offset | LENGTH | Focused / Focus indicator | `md.sys.state.focus-indicator.outer-offset` |  |  |
+| md.comp.suggestion-chip.flat.focus.outline.color | COLOR | Focused / Container | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.elevated.focus.container.elevation | ELEVATION | Focused / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.suggestion-chip.with-leading-icon.focus.leading-icon.color | COLOR | Focused / Icon | `md.sys.color.primary` |  |  |
+| md.comp.suggestion-chip.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.suggestion-chip.elevated.pressed.container.elevation | ELEVATION | Pressed (ripple) / Container | `md.sys.elevation.level1` |  |  |
+| md.comp.suggestion-chip.with-leading-icon.pressed.leading-icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.primary` |  |  |
+| md.comp.suggestion-chip.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.suggestion-chip.dragged.container.elevation | ELEVATION | Dragged / Container | `md.sys.elevation.level4` |  |  |
+| md.comp.suggestion-chip.with-leading-icon.dragged.leading-icon.color | COLOR | Dragged / Icon | `md.sys.color.primary` |  |  |
+| md.comp.suggestion-chip.dragged.label-text.color | COLOR | Dragged / Label text | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.dragged.state-layer.color | COLOR | Dragged / State layer | `md.sys.color.on-surface-variant` |  |  |
+| md.comp.suggestion-chip.dragged.state-layer.opacity | OPACITY | Dragged / State layer | `md.sys.state.dragged.state-layer-opacity` |  |  |
 
 ## Assist chip
 

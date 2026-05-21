@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/specs"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/827879794a3d-mamlcpos-1-3P.png"
@@ -35,9 +35,33 @@ Browse the component elements, attributes, tokens, and their values.
 
 Component: Badges
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Badges | md.comp.badge | COMPONENT | For badges. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Badges | md.comp.badge | COMPONENT | 13 | For badges. |
+
+#### Badges (md.comp.badge)
+
+For badges.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.badge.color | COLOR | Enabled / Container | `md.sys.color.error` |  |  |
+| md.comp.badge.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.badge.size | LENGTH | Enabled / Container | 6dp |  |  |
+| md.comp.badge.large.color | COLOR | Enabled / Container | `md.sys.color.error` |  |  |
+| md.comp.badge.large.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.full` |  |  |
+| md.comp.badge.large.size | LENGTH | Enabled / Container | 16dp |  |  |
+| md.comp.badge.large.label-text.color | COLOR | Enabled / Label text | `md.sys.color.on-error` |  |  |
+| md.comp.badge.large.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-small.font` |  |  |
+| md.comp.badge.large.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-small.line-height` |  |  |
+| md.comp.badge.large.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-small.size` |  |  |
+| md.comp.badge.large.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-small.tracking` |  |  |
+| md.comp.badge.large.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-small.weight` |  |  |
+| md.comp.badge.large.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.badge.large.label-text.font`, font weight: `md.comp.badge.large.label-text.weight`, font size: `md.comp.badge.large.label-text.size`, font tracking: `md.comp.badge.large.label-text.tracking`, line height: `md.comp.badge.large.label-text.line-height` |  |  |
 
 ## Color
 

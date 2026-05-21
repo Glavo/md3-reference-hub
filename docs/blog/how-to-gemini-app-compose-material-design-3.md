@@ -2,7 +2,7 @@
 title: "Using the Gemini app with Material Design 3"
 source_url: "https://m3.material.io/blog/how-to-gemini-app-compose-material-design-3"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/79d8bab656a2-_GAV0tea_Vg-fwl92xjOoBHoZDyxl01gNGKMZJdDgPBkEIfJfkjvDGgLRmIQhDXkRyh3vfhhkznA7Zx74IFqADVf1nQoSAa5.png"

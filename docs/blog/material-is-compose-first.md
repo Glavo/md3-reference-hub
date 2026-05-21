@@ -2,7 +2,7 @@
 title: "Material Android is Compose-first"
 source_url: "https://m3.material.io/blog/material-is-compose-first"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/b19104129b5f-Hu5ftqOU8SihIUjv8_X9Zq85GX32Q2OgWziCcMjxoMTeXtrAfbj8TyDlwRij01gjSL6D3G-o5KNPnoDUswrG7s0hn4SCyBpj.png"

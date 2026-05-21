@@ -2,7 +2,7 @@
 title: "Snackbar"
 source_url: "https://m3.material.io/components/snackbar/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/images/39ac29782370-mkvpjhzt-01-3P.png"
@@ -29,9 +29,60 @@ Browse the component elements, attributes, tokens, and their values. [Learn more
 
 Component: Snackbar
 
-| Token set | Name | Type | Description |
-| --- | --- | --- | --- |
-| Snackbars | md.comp.snackbar | COMPONENT | For snackbars. |
+Configured context tags: None, Medium contrast, Default, High contrast, Static, 3P, Android, Dark, Light
+
+#### Token sets
+
+| Token set | Name | Type | Tokens | Description |
+| --- | --- | --- | --- | --- |
+| Snackbars | md.comp.snackbar | COMPONENT | 40 | For snackbars. |
+
+#### Snackbars (md.comp.snackbar)
+
+For snackbars.
+
+| Token | Type | Group | Value | Context values | Description |
+| --- | --- | --- | --- | --- | --- |
+| md.comp.snackbar.container.color | COLOR | Enabled / Container | `md.sys.color.inverse-surface` |  |  |
+| md.comp.snackbar.container.shadow-color | COLOR | Enabled / Container | `md.sys.color.shadow` |  |  |
+| md.comp.snackbar.container.elevation | ELEVATION | Enabled / Container | `md.sys.elevation.level3` |  |  |
+| md.comp.snackbar.container.shape | SHAPE | Enabled / Container | `md.sys.shape.corner.extra-small` |  |  |
+| md.comp.snackbar.with-single-line.container.height | LENGTH | Enabled / Container | 48dp |  |  |
+| md.comp.snackbar.with-two-lines.container.height | LENGTH | Enabled / Container | 68dp |  |  |
+| md.comp.snackbar.action.label-text.type | TYPOGRAPHY | Enabled / Label text | font name: `md.comp.snackbar.action.label-text.font`, font weight: `md.comp.snackbar.action.label-text.weight`, font size: `md.comp.snackbar.action.label-text.size`, font tracking: `md.comp.snackbar.action.label-text.tracking`, line height: `md.comp.snackbar.action.label-text.line-height` |  |  |
+| md.comp.snackbar.action.label-text.color | COLOR | Enabled / Label text | `md.sys.color.inverse-primary` |  |  |
+| md.comp.snackbar.action.label-text.font | FONT_NAMES | Enabled / Label text | `md.sys.typescale.label-large.font` |  |  |
+| md.comp.snackbar.action.label-text.line-height | LINE_HEIGHT | Enabled / Label text | `md.sys.typescale.label-large.line-height` |  |  |
+| md.comp.snackbar.action.label-text.size | FONT_SIZE | Enabled / Label text | `md.sys.typescale.label-large.size` |  |  |
+| md.comp.snackbar.action.label-text.tracking | FONT_TRACKING | Enabled / Label text | `md.sys.typescale.label-large.tracking` |  |  |
+| md.comp.snackbar.action.label-text.weight | FONT_WEIGHT | Enabled / Label text | `md.sys.typescale.label-large.weight` |  |  |
+| md.comp.snackbar.icon.color | COLOR | Enabled / Icon | `md.sys.color.inverse-on-surface` |  |  |
+| md.comp.snackbar.icon.size | LENGTH | Enabled / Icon | 24dp |  |  |
+| md.comp.snackbar.supporting-text.type | TYPOGRAPHY | Enabled / Supporting text | font name: `md.comp.snackbar.supporting-text.font`, font weight: `md.comp.snackbar.supporting-text.weight`, font size: `md.comp.snackbar.supporting-text.size`, font tracking: `md.comp.snackbar.supporting-text.tracking`, line height: `md.comp.snackbar.supporting-text.line-height` |  |  |
+| md.comp.snackbar.supporting-text.color | COLOR | Enabled / Supporting text | `md.sys.color.inverse-on-surface` |  |  |
+| md.comp.snackbar.supporting-text.font | FONT_NAMES | Enabled / Supporting text | `md.sys.typescale.body-medium.font` |  |  |
+| md.comp.snackbar.supporting-text.line-height | LINE_HEIGHT | Enabled / Supporting text | `md.sys.typescale.body-medium.line-height` |  |  |
+| md.comp.snackbar.supporting-text.size | FONT_SIZE | Enabled / Supporting text | `md.sys.typescale.body-medium.size` |  |  |
+| md.comp.snackbar.supporting-text.tracking | FONT_TRACKING | Enabled / Supporting text | `md.sys.typescale.body-medium.tracking` |  |  |
+| md.comp.snackbar.supporting-text.weight | FONT_WEIGHT | Enabled / Supporting text | `md.sys.typescale.body-medium.weight` |  |  |
+| md.comp.snackbar.action.hover.label-text.color | COLOR | Hovered / Label text | `md.sys.color.inverse-primary` |  |  |
+| md.comp.snackbar.action.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.inverse-primary` |  |  |
+| md.comp.snackbar.action.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.snackbar.icon.hover.state-layer.color | COLOR | Hovered / State layer | `md.sys.color.inverse-on-surface` |  |  |
+| md.comp.snackbar.icon.hover.state-layer.opacity | OPACITY | Hovered / State layer | `md.sys.state.hover.state-layer-opacity` |  |  |
+| md.comp.snackbar.icon.hover.icon.color | COLOR | Hovered / Icon | `md.sys.color.inverse-on-surface` |  |  |
+| md.comp.snackbar.action.focus.label-text.color | COLOR | Focused / Label text | `md.sys.color.inverse-primary` |  |  |
+| md.comp.snackbar.action.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.inverse-primary` |  |  |
+| md.comp.snackbar.action.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.snackbar.icon.focus.state-layer.color | COLOR | Focused / State layer | `md.sys.color.inverse-on-surface` |  |  |
+| md.comp.snackbar.icon.focus.state-layer.opacity | OPACITY | Focused / State layer | `md.sys.state.focus.state-layer-opacity` |  |  |
+| md.comp.snackbar.icon.focus.icon.color | COLOR | Focused / Icon | `md.sys.color.inverse-on-surface` |  |  |
+| md.comp.snackbar.action.pressed.label-text.color | COLOR | Pressed (ripple) / Label text | `md.sys.color.inverse-primary` |  |  |
+| md.comp.snackbar.action.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.inverse-primary` |  |  |
+| md.comp.snackbar.action.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.snackbar.icon.pressed.state-layer.color | COLOR | Pressed (ripple) / State layer | `md.sys.color.inverse-on-surface` |  |  |
+| md.comp.snackbar.icon.pressed.state-layer.opacity | OPACITY | Pressed (ripple) / State layer | `md.sys.state.pressed.state-layer-opacity` |  |  |
+| md.comp.snackbar.icon.pressed.icon.color | COLOR | Pressed (ripple) / Icon | `md.sys.color.inverse-on-surface` |  |  |
 
 ## Color
 

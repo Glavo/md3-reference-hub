@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/overview"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "components"
 assets:
   - "assets/videos/b2681e7e2460-m7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4"

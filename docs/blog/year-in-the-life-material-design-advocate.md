@@ -2,7 +2,7 @@
 title: "A Year in the Life of a Material Design Advocate"
 source_url: "https://m3.material.io/blog/year-in-the-life-material-design-advocate"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T03:22:19.498Z"
+snapshot_at: "2026-05-21T03:29:14.331Z"
 section: "blog"
 assets:
   - "assets/images/9b66697ec15d-GiyAzCTKMUUBXFlSqaZpTEQp8sh_qIbLAo3WpJ_rPb13W0dP6L7ldckTYCIU2V0ZGc4iCLFxZDlrjVVW_yO4_BepiN5lBmGY.png"
