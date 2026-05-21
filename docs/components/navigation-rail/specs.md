@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/53fe40f8defa-mal9f2lt-01-3P.png"
@@ -33,7 +33,7 @@ Navigation rails let people switch between UI views on mid-sized devices
 
 ![2 variants of navigation rails.](../../../assets/images/53fe40f8defa-mal9f2lt-01-3P.png)
 
-_Collapsed navigation railExpanded navigation rail_
+_Collapsed navigation rail; Expanded navigation rail_
 
 ### Baseline variants
 
@@ -43,67 +43,23 @@ The baseline navigation rail is no longer recommended, and should be replaced by
 
 _The baseline navigation rail is no longer recommended_
 
-Variant
-
-M3
-
-M3 Expressive
-
-Collapsed navigation rail
-
-\--
-
-Available
-
-Expanded navigation rail 
-
-\--
-
-Available
-
-Navigation rail (baseline)
-
-Available
-
-Not recommended.
-
-Use **collapsed navigation rail**.
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| Collapsed navigation rail | \-- | Available |
+| Expanded navigation rail | \-- | Available |
+| Navigation rail (baseline) | Available | Not recommended. Use **collapsed navigation rail**. |
 
 ## Configurations
 
 ![Standard and modal layouts of navigation rail.](../../../assets/images/5d576a0c2aef-mal9fbzs-03-3P.png)
 
-_Expanded layout: standardExpanded layout: modal_
+_Expanded layout: standard; Expanded layout: modal_
 
-Category
-
-Configuration
-
-M3
-
-      M3 Expressive
-
-Expanded layout
-
-Standard (default)
-
-Available as navigation drawer
-
-Available
-
-Modal
-
-Available as navigation drawer
-
-Available
-
-Expanded behavior
-
-Hide when collapsed
-
-\--
-
-Available
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Expanded layout | Standard (default) | Available as navigation drawer | Available |
+| Modal | Available as navigation drawer | Available |  |
+| Expanded behavior | Hide when collapsed | \-- | Available |
 
 ## Tokens & specs
 
@@ -111,13 +67,23 @@ Browse the component elements, attributes, tokens, and their values. [Learn abou
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Navigation rail
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Nav rail - Collapsed | md.comp.nav-rail.collapsed | COMPONENT | For collapsed nav rail. |
+| Nav rail - Common | md.comp.nav-rail | COMPONENT | Common tokens for nav rail. |
+| Nav rail - Expanded | md.comp.nav-rail.expanded | COMPONENT | For expanded nav rail. |
+| Nav rail item - Common | md.comp.nav-rail.item | COMPONENT | Common tokens for all nav items. |
+| Nav rail item - Horizontal | md.comp.nav-rail.item.horizontal | COMPONENT | For horizontal nav rail items, where elements are side-by-side. |
+| Nav rail item - Vertical | md.comp.nav-rail.item.vertical | COMPONENT | For vertical nav rail items, where elements are stacked. |
+| Navigation rail (baseline) | md.comp.navigation-rail | COMPONENT | For baseline navigation rails. For expressive, use all nav rail token sets`md.comp.nav-rail` and corresponding `.collapsed` and `.item` token sets. |
 
 ## Anatomy
 
 ![9 elements of collapsed and expanded navigation rails.](../../../assets/images/90c385738ea6-mg0uznol-04-3P.png)
 
-_Collapsed and expanded navigation rail elements:ContainerMenu (optional)FAB or Extended FAB (optional)IconActive indicatorLabel textLarge badge (optional)Large badge label (optional)Small badge (optional)_
+_Collapsed and expanded navigation rail elements: Container; Menu (optional); FAB or Extended FAB (optional); Icon; Active indicator; Label text; Large badge (optional); Large badge label (optional); Small badge (optional)_
 
 ## Color
 
@@ -125,7 +91,7 @@ Color values are implemented through design tokens. For designers, this means wo
 
 ![Color roles of 9 elements of collapsed and expanded navigation rails in light and dark color schemes.](../../../assets/images/5dc4b25d7fee-mmyzgq71-05-3P.png)
 
-_Navigation rail color roles used for light and dark schemes:Surface container (optional)On secondary containerSecondary containerSecondary (vertical), On secondary container (horizontal)On surface variantOn surface variantErrorOn errorError_
+_Navigation rail color roles used for light and dark schemes: Surface container (optional); On secondary container; Secondary container; Secondary (vertical), On secondary container (horizontal); On surface variant; On surface variant; Error; On error; Error_
 
 ## States
 
@@ -139,7 +105,7 @@ __
 
 ![4 states of expanded navigation rails.](../../../assets/images/cf3c6f95c227-mal9sbiq-07-3P.png)
 
-_EnabledHoveredFocusedPressed_
+_Enabled; Hovered; Focused; Pressed_
 
 ## Measurements
 
@@ -153,7 +119,7 @@ _Navigation rail padding and size measurements_
 
 ![4 common layouts of expanded navigation rail.](../../../assets/images/53268226c34c-mal9u2w3-10-3P.png)
 
-_Three navigation items Three navigation items with a menuThree navigation items with a FABThree navigation items with a menu and FAB_
+_Three navigation items; Three navigation items with a menu; Three navigation items with a FAB; Three navigation items with a menu and FAB_
 
 * * *
 
@@ -161,13 +127,23 @@ _Three navigation items Three navigation items with a menuThree navigation items
 
 ![8 elements of baseline navigation rail.](../../../assets/images/6cbbb9848915-mal9uv1q-11-3P.png)
 
-_ContainerMenu icon (optional)IconActive indicatorLabel textLarge badge label (optional)Large badge (optional)Badge (optional)_
+_Container; Menu icon (optional); Icon; Active indicator; Label text; Large badge label (optional); Large badge (optional); Badge (optional)_
 
 ### Tokens & specs
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Navigation rail
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Nav rail - Collapsed | md.comp.nav-rail.collapsed | COMPONENT | For collapsed nav rail. |
+| Nav rail - Common | md.comp.nav-rail | COMPONENT | Common tokens for nav rail. |
+| Nav rail - Expanded | md.comp.nav-rail.expanded | COMPONENT | For expanded nav rail. |
+| Nav rail item - Common | md.comp.nav-rail.item | COMPONENT | Common tokens for all nav items. |
+| Nav rail item - Horizontal | md.comp.nav-rail.item.horizontal | COMPONENT | For horizontal nav rail items, where elements are side-by-side. |
+| Nav rail item - Vertical | md.comp.nav-rail.item.vertical | COMPONENT | For vertical nav rail items, where elements are stacked. |
+| Navigation rail (baseline) | md.comp.navigation-rail | COMPONENT | For baseline navigation rails. For expressive, use all nav rail token sets`md.comp.nav-rail` and corresponding `.collapsed` and `.item` token sets. |
 
 ### Color
 
@@ -175,7 +151,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![8 color roles of baseline navigation rail.](../../../assets/images/cf91569e8a84-mal9vzs8-12-3P.png)
 
-_Navigation rail color roles used for light and dark themes:On secondary containerSecondary containerOn surfaceOn surface variantOn surface variantErrorOn errorError_
+_Navigation rail color roles used for light and dark themes: On secondary container; Secondary container; On surface; On surface variant; On surface variant; Error; On error; Error_
 
 ### States
 
@@ -183,7 +159,7 @@ States are visual representations used to communicate the status of a component 
 
 ![8 states of baseline navigation rail.](../../../assets/images/2d86b7af4cbb-mal9x9ol-13-3P.png)
 
-_Navigation rail states:Enabled (on active destination)Hovered (on active destination)Focused (on active destination)Pressed (on active destination)Enabled (on inactive destination)Hovered (on inactive destination)Focused (on inactive destination)Pressed (on inactive destination)_
+_Navigation rail states: Enabled (on active destination); Hovered (on active destination); Focused (on active destination); Pressed (on active destination); Enabled (on inactive destination); Hovered (on inactive destination); Focused (on inactive destination); Pressed (on inactive destination)_
 
 ### Measurements
 
@@ -201,4 +177,4 @@ Common arrangements of elements within a navigation rail.
 
 ![5 configurations of the baseline navigation rail.](../../../assets/images/4e222d13a79d-mal9yote-16-3P.png)
 
-_With a menuWith a FABWith menu and FAB, without labelsAll destinations with text labelsWith menu, FAB, and label text for all destinations_
+_With a menu; With a FAB; With menu and FAB, without labels; All destinations with text labels; With menu, FAB, and label text for all destinations_

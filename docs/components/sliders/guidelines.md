@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/guidelines"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/c2ee114ad7a2-m7m4gc9t-slider-motion.mp4"
@@ -102,7 +102,7 @@ _Because of the additional cognitive load of a range slider, avoid using it in v
 
 ![6 elements of a slider.](../../../assets/images/ae12298d12c3-m7m553sk-04-1.png)
 
-_Value indicator (optional)Stop indicators (optional)Active trackHandleInactive trackInset icon (optional)_
+_Value indicator (optional); Stop indicators (optional); Active track; Handle; Inactive track; Inset icon (optional)_
 
 ### Track
 
@@ -225,7 +225,7 @@ The active and inactive tracks should always be the same size.
 
 ![5 sizes of sliders.](../../../assets/images/2cb7c46a91b8-m7lkolpk-24.png)
 
-_XS: 16dpS: 24dpM: 40dpL: 56dpXL: 96dp_
+_XS: 16dp; S: 24dp; M: 40dp; L: 56dp; XL: 96dp_
 
 XL sliders should be reserved for hero moments, where the slider itself is the most important element on the page.
 

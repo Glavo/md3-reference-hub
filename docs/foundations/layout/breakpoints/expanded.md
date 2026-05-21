@@ -2,7 +2,7 @@
 title: "Breakpoints"
 source_url: "https://m3.material.io/foundations/layout/breakpoints/expanded"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/7ecd7c73eea6-mp41hvbo-01.png"
@@ -36,7 +36,7 @@ For sorting, filtering, or secondary navigation, use tabs or other components di
 
 ![The navigation area is a vertical bar at the left of the screen. To its right, the body pane fills the rest of the window.](../../../../assets/images/666ff5fdf6a7-mp41iro5-02.png)
 
-_Navigation areaSingle pane_
+_Navigation area; Single pane_
 
 ## Panes
 

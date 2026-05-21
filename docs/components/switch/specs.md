@@ -2,7 +2,7 @@
 title: "Switch"
 source_url: "https://m3.material.io/components/switch/specs"
 lastmod: "2026-01-06"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/6f5d06fe436f-mg66415n-01-3P.png"
@@ -24,7 +24,7 @@ Switches toggle the selection of an item on or off
 
 ![3 elements of a switch.](../../../assets/images/6f5d06fe436f-mg66415n-01-3P.png)
 
-_Track Handle (formerly "thumb")Icon_
+_Track; Handle (formerly "thumb"); Icon_
 
 ## Tokens & specs
 
@@ -32,7 +32,11 @@ Browse the component elements, attributes, tokens, and their values. [Learn more
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Switch
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Switch | md.comp.switch | COMPONENT | For switches. |
 
 ## Color
 
@@ -40,7 +44,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![6 color roles of a switch in light and dark themes.](../../../assets/images/91d6f68e8e51-mg66ckmz-02-3P.png)
 
-_Switch color roles used for light and dark themes:Surface container highestOutlineOutlinePrimaryOn primaryOn primary container_
+_Switch color roles used for light and dark themes: Surface container highest; Outline; Outline; Primary; On primary; On primary container_
 
 ### Adjacent text label color
 
@@ -56,7 +60,7 @@ States are visual representations used to communicate the status of a component 
 
 ![5 states of a switch shown in light and dark themes.](../../../assets/images/0b2419a2bd7c-mg66iwsh-04-3P.png)
 
-_Enabled Hovered Focused Pressed Disabled_
+_Enabled; Hovered; Focused; Pressed; Disabled_
 
 [State specs are in the token module above](specs.md#3708644e-b4d7-4237-bb0a-7afeeae4a9b0)
 
@@ -78,95 +82,26 @@ _Switches with icons_
 
 _Pressed switches with icons_
 
-Element
-
-Attribute
-
-Value
-
-Track
-
-Height
-
-32dp
-
-Width
-
-52dp
-
-Outline width
-
-2dp
-
-Shape
-
-[md.sys.shape.corner.full](../../styles/shape/corner-radius-scale.md#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e)
-
-Handle
-
-Height (unselected)
-
-16dp
-
-Height - with icon
-
-24dp
-
-Height (selected)
-
-24dp
-
-Height (pressed)
-
-28dp
-
-Width (unselected)
-
-16dp
-
-Width - with icon
-
-24dp
-
-Width (selected)
-
-24dp
-
-Width (pressed)
-
-28dp
-
-Shape
-
-[md.sys.shape.corner.full](../../styles/shape/corner-radius-scale.md#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e)
-
-State layer
-
-Size
-
-40dp
-
-Shape
-
-[md.sys.shape.corner.full](../../styles/shape/corner-radius-scale.md#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e)
-
-Target
-
-Size
-
-48dp
-
-Icon
-
-Size (selected)
-
-16dp
-
-Icon
-
-Size (unselected)
-
-16dp
+| Element | Attribute | Value |
+| --- | --- | --- |
+| Track | Height | 32dp |
+| Width | 52dp |  |
+| Outline width | 2dp |  |
+| Shape | [md.sys.shape.corner.full](../../styles/shape/corner-radius-scale.md#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e) |  |
+| Handle | Height (unselected) | 16dp |
+| Height - with icon | 24dp |  |
+| Height (selected) | 24dp |  |
+| Height (pressed) | 28dp |  |
+| Width (unselected) | 16dp |  |
+| Width - with icon | 24dp |  |
+| Width (selected) | 24dp |  |
+| Width (pressed) | 28dp |  |
+| Shape | [md.sys.shape.corner.full](../../styles/shape/corner-radius-scale.md#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e) |  |
+| State layer | Size | 40dp |
+| Shape | [md.sys.shape.corner.full](../../styles/shape/corner-radius-scale.md#56e2bfb5-4bec-49bd-b3a3-bd822c8ab88e) |  |
+| Target | Size | 48dp |
+| Icon | Size (selected) | 16dp |
+| Icon | Size (unselected) | 16dp |
 
 ## Configurations
 

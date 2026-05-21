@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/bc469fcfd1c3-m41ke7ak-Loading_Indicator-A2.mp4"
@@ -54,21 +54,11 @@ Choose a loading or progress indicator that corresponds to the expected wait tim
 
 If the wait is very long, consider allowing users to navigate away from the page while the process finishes up.
 
-Expected wait time
-
-Recommendation
-
-Instant (under 200ms)
-
-No indicator
-
-Short (between 200ms and 5s)
-
-Loading indicator
-
-Long (Over 5s)
-
-Progress indicator
+| Expected wait time | Recommendation |
+| --- | --- |
+| Instant (under 200ms) | No indicator |
+| Short (between 200ms and 5s) | Loading indicator |
+| Long (Over 5s) | Progress indicator |
 
 <video controls src="../../../assets/videos/58c0ad50ddaf-m0fd16y4-Loading_Indicator-C.mp4" title="Content appearing on a screen quickly without a loading indicator."></video>
 
@@ -98,7 +88,7 @@ Don’t transition a loading indicator into a progress indicator.
 
 ![2 parts of an active indicator.](../../../assets/images/9d877e4c5479-m0cads86-7.png)
 
-_Active indicatorContainer (optional)_
+_Active indicator; Container (optional)_
 
 ### Active indicator
 

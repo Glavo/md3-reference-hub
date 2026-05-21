@@ -2,7 +2,7 @@
 title: "Designing"
 source_url: "https://m3.material.io/foundations/designing/structure"
 lastmod: "2025-10-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/7a0f4a6e0ac5-lwj3y443-1.png"
@@ -137,7 +137,7 @@ Note: iOS recommends 44 x 44dp targets.
 
 ![A row of four 24dp icons and one 40dp icon](../../../assets/images/f1a5ef9f2884-m0qv75bo-3-3p.png)
 
-_Icons: 24dpStar icon: 40dpTouch target on both: 48dp_
+_Icons: 24dp Star icon: 40dp Touch target on both: 48dp_
 
 ### Pointer targets
 
@@ -155,4 +155,4 @@ In most cases, targets separated by 8dp of space or more promote balanced inform
 
 ![Three icons in a row with 48dp touch target size and three icons in a row with 8dp padding between icons.](../../../assets/images/82f803c592d9-m0qv7efk-6.png)
 
-_Two groups of icons showing their overall spacing and the spacing between each otherTouch target size: 48dpPadding: 8dp_
+_Two groups of icons showing their overall spacing and the spacing between each other Touch target size: 48dp Padding: 8dp_

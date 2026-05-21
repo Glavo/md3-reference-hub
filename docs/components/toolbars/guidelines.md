@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/f04a97c90886-m7xi1w6d-01.png"
@@ -122,7 +122,7 @@ The toolbar and navigation bar are both placed at the bottom of the window, so s
 
 ![A navigation bar shown on the main email Inbox page, and a toolbar shown when reading the email.](../../../assets/images/57d91d52b3d2-m0al4vpg-08.png)
 
-_Navigation bar on a primary pageToolbar on a secondary page with contextual actions_
+_Navigation bar on a primary page; Toolbar on a secondary page with contextual actions_
 
 Floating toolbars can be used as tabs between related subsequent pages in the product hierarchy. 
 
@@ -144,7 +144,7 @@ _Don’t show a navigation bar and a toolbar with navigation controls at the sam
 
 ![Diagram of toolbar layouts.](../../../assets/images/a337b4208934-m7xiiwbe-11.png)
 
-_ContainerElements_
+_Container; Elements_
 
 ### Container
 

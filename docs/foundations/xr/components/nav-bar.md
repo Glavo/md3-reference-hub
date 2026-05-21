@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/nav-bar"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -38,7 +38,7 @@ Extended reality (XR) interfaces have special design requirements, like showing 
 
 ![Diagram of navigation bar orbiter identifying 7 internal elements of the component.](../../../../assets/images/67e75b360d9e-mp5rw7th-01-3P.png)
 
-_ContainerIconActive indicator Small badge (optional)Large badge (optional)Large badge label (optional)Label text_
+_Container; Icon; Active indicator; Small badge (optional); Large badge (optional); Large badge label (optional); Label text_
 
 ## Color & elevation
 
@@ -46,7 +46,7 @@ On XR, color is used to highlight elevated UI elements and orbiters. With [spat
 
 ![4 versions of elevation color strategy.](../../../../assets/images/bd87b5509390-mp5rwtar-02-3P.png)
 
-_Surface containerSurface container highSurface container highestTertiary container_
+_Surface container; Surface container high; Surface container highest; Tertiary container_
 
 ## Measurements
 

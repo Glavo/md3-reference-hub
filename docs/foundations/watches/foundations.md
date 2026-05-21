@@ -2,7 +2,7 @@
 title: "Design for watches"
 source_url: "https://m3.material.io/foundations/watches/foundations"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/73220fb87fb5-mp5bs5es-01.png"
@@ -24,23 +24,13 @@ Watches have special design considerations and interaction patterns
 
 ## Resources
 
-Type
-
-Resource
-
-Design
-
-[Get Started with M3 Expressive](../../get-started.md)
-
-[UI Design for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-for-wearables)
-
-[Figma Design Kits for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-kits)
-
-Implementation
-
-[Android Developers: Wear OS](https://developer.android.com/training/wearables)
-
-[Jetpack Compose for Wear OS](https://developer.android.com/training/wearables/compose?version=3)
+| Type | Resource |
+| --- | --- |
+| Design | [Get Started with M3 Expressive](../../get-started.md) |
+| [UI Design for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-for-wearables) |  |
+| [Figma Design Kits for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-kits) |  |
+| Implementation | [Android Developers: Wear OS](https://developer.android.com/training/wearables) |
+| [Jetpack Compose for Wear OS](https://developer.android.com/training/wearables/compose?version=3) |  |
 
 ## Anatomy
 
@@ -66,7 +56,7 @@ Wearable devices can have a variety input surfaces, which include physical butto
 
 ![3 watch faces with indications showing the locations of a rotating side button, system button, and multifuction button.](../../../assets/images/0c5f50f626e3-mp5btx3i-04.png)
 
-_Rotating side buttons: Used for volume control, or to scroll through options or listsSystem buttons: Dedicated to OS functions like powering on and off, and cannot be customizedMultifunction buttons: Used by apps for custom actions like starting and stopping a stopwatch_
+_Rotating side buttons: Used for volume control, or to scroll through options or lists; System buttons: Dedicated to OS functions like powering on and off, and cannot be customized; Multifunction buttons: Used by apps for custom actions like starting and stopping a stopwatch_
 
 ## Design principles
 
@@ -100,7 +90,7 @@ Design for slow connections and offline use, such as exercising and commuting.
 
 ![2 watches: 1 with offline music downloads list. 1 with a dialog about no internet connection with dismiss and accept buttons.](../../../assets/images/45f8a6f00680-mp5bxqx4-08.png)
 
-_The network state can be communicated through:An offline iconA dialog_
+_The network state can be communicated through: An offline icon; A dialog_
 
 ## Interaction patterns
 

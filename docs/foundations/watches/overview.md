@@ -2,7 +2,7 @@
 title: "Design for watches"
 source_url: "https://m3.material.io/foundations/watches/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/c8bfe5a8c92b-mp5c1r4k-01.png"
@@ -19,23 +19,13 @@ Watches have special design considerations and interaction patterns
 
 ## Resources
 
-Type
-
-Resource
-
-Design
-
-[About M3 Expressive](../../index.md)
-
-[M3 Expressive on Wear OS](https://developer.android.com/design/ui/wear/guides/get-started)
-
-[Figma Design Kits for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-kits)
-
-Implementation
-
-[Android Developers: Wear OS](https://developer.android.com/training/wearables)
-
-[Jetpack Compose for Wear OS](https://developer.android.com/training/wearables/compose?version=3)
+| Type | Resource |
+| --- | --- |
+| Design | [About M3 Expressive](../../index.md) |
+| [M3 Expressive on Wear OS](https://developer.android.com/design/ui/wear/guides/get-started) |  |
+| [Figma Design Kits for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/design-kits) |  |
+| Implementation | [Android Developers: Wear OS](https://developer.android.com/training/wearables) |
+| [Jetpack Compose for Wear OS](https://developer.android.com/training/wearables/compose?version=3) |  |
 
 ## New in M3 Expressive
 

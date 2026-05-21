@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/specs"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/9253b2648ce8-mloz0082-01-3P.png"
@@ -24,75 +24,26 @@ assets:
 
 ![2 variant of progress indicators.](../../../assets/images/9253b2648ce8-mloz0082-01-3P.png)
 
-_Linear progress indicatorCircular progress indicator_
+_Linear progress indicator; Circular progress indicator_
 
-Variant
-
-M3
-
-M3 Expressive
-
-Linear progress indicator
-
-Available
-
-Available
-
-Circular progress indicator
-
-Available
-
-Available
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| Linear progress indicator | Available | Available |
+| Circular progress indicator | Available | Available |
 
 ## Configurations
 
 ![4 configurations of the linear determinate progress indicator.](../../../assets/images/72638a16985d-mloz0zuq-02-3P.png)
 
-_Behavior: Determinate and indeterminateThickness: Default (4dp) and variableShape: Flat and wavy_
+_Behavior: Determinate and indeterminate; Thickness: Default (4dp) and variable; Shape: Flat and wavy_
 
-Category
-
-Configuration
-
-M3
-
-M3 Expressive
-
-Behavior
-
-Determinate (default), Indeterminate
-
-Available
-
-Available
-
-Track thickness
-
-Fixed (4dp) 
-
-Available
-
-Available
-
-Configurable
-
-\--
-
-Available
-
-Shape
-
-Flat (default)
-
-Available
-
-Available
-
-Wavy
-
-\--
-
-Available
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Behavior | Determinate (default), Indeterminate | Available | Available |
+| Track thickness | Fixed (4dp) | Available | Available |
+| Configurable | \-- | Available |  |
+| Shape | Flat (default) | Available | Available |
+| Wavy | \-- | Available |  |
 
 ## Tokens & specs
 
@@ -100,19 +51,27 @@ Browse the component elements, attributes, tokens, and their values. [View basel
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Progress indicators
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Progress indicator - Circular | md.comp.progress-indicator.circular | COMPONENT | For circular progress indicators. |
+| Progress Indicator - Common | md.comp.progress-indicator | COMPONENT | Common tokens for circular and linear progress indicators. |
+| Progress indicator - Linear | md.comp.progress-indicator.linear | COMPONENT | For linear progress indicators. |
+| [Deprecated] Progress indicator - Circular | md.comp.circular-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.circular` instead. Original tokens for the circular progress indicator. |
+| [Deprecated] Progress indicator - Linear | md.comp.linear-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.linear` instead. Original tokens for the linear progress indicator. |
 
 ## Anatomy
 
 ![3 elements of a progress indicator.](../../../assets/images/63bc8aec97fb-mloz1qik-03-3P.png)
 
-_Active indicatorTrackStop indicator_
+_Active indicator; Track; Stop indicator_
 
 ## Color
 
 ![2 color roles of a linear progress indicator in light and dark themes: the active indicator and stop indicator are primary and the track is secondary container.](../../../assets/images/cba7a19a73d2-mloz2lzv-04-3P.png)
 
-_Progress indicator color roles used for light and dark schemes:PrimarySecondary container_
+_Progress indicator color roles used for light and dark schemes: Primary; Secondary container_
 
 ## Measurements
 
@@ -144,4 +103,12 @@ The circular and linear progress indicator had separate token sets. These are no
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Progress indicators
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Progress indicator - Circular | md.comp.progress-indicator.circular | COMPONENT | For circular progress indicators. |
+| Progress Indicator - Common | md.comp.progress-indicator | COMPONENT | Common tokens for circular and linear progress indicators. |
+| Progress indicator - Linear | md.comp.progress-indicator.linear | COMPONENT | For linear progress indicators. |
+| [Deprecated] Progress indicator - Circular | md.comp.circular-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.circular` instead. Original tokens for the circular progress indicator. |
+| [Deprecated] Progress indicator - Linear | md.comp.linear-progress-indicator | COMPONENT | This token set is deprecated. Use `md.comp.progress-indicator.linear` instead. Original tokens for the linear progress indicator. |

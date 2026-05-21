@@ -2,7 +2,7 @@
 title: "Date pickers"
 source_url: "https://m3.material.io/components/date-pickers/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/8f1d06b15e8c-md5mxu7o-01.png"
@@ -26,14 +26,14 @@ Date pickers let people select a date, or a range of dates
 
 ![3 variants of date pickers side-by-side. The docked date picker has an outlined text field above a calendar view. The modal date picker allows people to select a date from a calendar view. The modal date input lets someone type in a date.](../../../assets/images/8f1d06b15e8c-md5mxu7o-01.png)
 
-_Docked date pickerModal date pickerModal date input_
+_Docked date picker; Modal date picker; Modal date input_
 
 ## Availability & resources
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/DatePicker.md |
 | LIT_IMPLEMENTATION | Web | UNAVAILABLE |  |
 | FLUTTER_IMPLEMENTATION | Flutter | AVAILABLE | https://api.flutter.dev/flutter/material/DatePickerDialog-class.html |

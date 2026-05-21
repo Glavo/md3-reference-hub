@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/33f4035768b1-lwopun3e-1.png"
@@ -135,7 +135,7 @@ Modal drawers can be dismissed by tapping the scrim or swiping the drawer toward
 
 ![2 modal navigations illustrating tapping the scrim or swiping to dismiss a modal drawer](../../../assets/images/1cec3bea4376-lwopyjta-9.png)
 
-_1. Dismiss by tapping the scrim2. Dismiss by swiping the drawer_
+_1. Dismiss by tapping the scrim / 2. Dismiss by swiping the drawer_
 
 ## Anatomy
 
@@ -143,7 +143,7 @@ Navigation drawers are essentially a list contained within a side sheet. They ca
 
 ![Navigation drawer diagram numbering 8 elements.](../../../assets/images/41b8c40fb315-lwopzqbr-10.png)
 
-_Navigation drawers can include headers, subheads, and dividers to organize longer listsActive IndicatorIconLabelBadge labelSheetDividerSection label (optional)Scrim_
+_Navigation drawers can include headers, subheads, and dividers to organize longer lists Active Indicator; Icon; Label; Badge label; Sheet; Divider; Section label (optional); Scrim_
 
 ### Sheet
 

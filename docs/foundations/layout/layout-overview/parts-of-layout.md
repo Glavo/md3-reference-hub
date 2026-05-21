@@ -2,7 +2,7 @@
 title: "Layout overview"
 source_url: "https://m3.material.io/foundations/layout/layout-overview/parts-of-layout"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/014ba3740cfc-mp3yuwss-01.png"
@@ -93,7 +93,7 @@ Rails are the next level in layout after bars, filling the perimeter space surro
 
 ![Mobile layout with a toolbar, and a desktop layout with a start-aligned navigation rail.](../../../../assets/images/7d558474b19d-mp45u0ar-05.png)
 
-_On mobile, the rail region can contain a toolbarOn desktop, the rail region can contain the navigation rail_
+_On mobile, the rail region can contain a toolbar; On desktop, the rail region can contain the navigation rail_
 
 ### Panes
 
@@ -107,7 +107,7 @@ People can navigate to or between panes. Presenting multiple panes at once can m
 
 ![2-pane layout on a tablet.](../../../../assets/images/58f0489ba28b-mp46vx4x-07.png)
 
-_First paneSecond pane_
+_First pane; Second pane_
 
 #### Containment
 

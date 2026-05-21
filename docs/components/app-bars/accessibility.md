@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/c99ac57b9b45-mlosdik1-GM3-App-bar-Accessibility-01-IA-v01.mp4"
@@ -93,17 +93,10 @@ _Avoid using custom color roles for the search bar container and search label te
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Tab
-
-Move focus to the next interactive element
-
-Space or Enter
-
-Activate the focused element
+| Keys | Actions |
+| --- | --- |
+| Tab | Move focus to the next interactive element |
+| Space or Enter | Activate the focused element |
 
 ## Labeling elements
 

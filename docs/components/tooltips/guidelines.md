@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/guidelines"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/fc4acead3529-me6qnzgx-01.png"
@@ -49,7 +49,7 @@ Rich tooltips are best used for longer text like definitions or explanations.
 
 ![2 variants of tooltips.](../../../assets/images/ea6a708d7ce6-me6qs96y-02.png)
 
-_Plain tooltipRich tooltip_
+_Plain tooltip; Rich tooltip_
 
 ![Plain tooltip labeling an icon-only button in Google Meet as "Present now".](../../../assets/images/a30e9e6b742c-me6qu5gx-03-do.png)
 
@@ -73,7 +73,7 @@ _Don't hide critical information within tooltips as it’s easy to miss. Use an 
 
 ![2 elements of a plain tooltip.](../../../assets/images/b73332c818aa-me6r0a08-07.png)
 
-_ContainerSupporting text_
+_Container; Supporting text_
 
 ### Supporting text
 
@@ -89,7 +89,7 @@ _Avoid wrapping text to multiple lines or including many pieces of information_
 
 ![4 elements of a rich tooltip.](../../../assets/images/62ec63018786-mk6kierd-10.png)
 
-_Subhead (optional)ContainerSupporting textText button (optional)_
+_Subhead (optional); Container; Supporting text; Text button (optional)_
 
 ### Subhead (optional)
 

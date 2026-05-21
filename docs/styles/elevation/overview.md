@@ -2,7 +2,7 @@
 title: "Elevation"
 source_url: "https://m3.material.io/styles/elevation/overview"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/6f55e88115bb-lwykafum-1.png"
@@ -30,37 +30,17 @@ Elevation is measured as the distance between components along the z-axis in den
 
 ![1 diagram shows a light purple square and a darker purple square. A second one shows a side view of the squares in elevation, showing that the light square is lower in elevation than the dark square.](../../../assets/images/6f55e88115bb-lwykafum-1.png)
 
-_Elevation represents the distance between elements. The product applies color to represent elevation.One surface at 1dp elevation and another surface at 8dp elevation, as viewed from the frontThe difference in elevation between the two surfaces is 7dp, as viewed from the side_
+_Elevation represents the distance between elements. The product applies color to represent elevation. One surface at 1dp elevation and another surface at 8dp elevation, as viewed from the front; The difference in elevation between the two surfaces is 7dp, as viewed from the side_
 
 ## Availability & resources
 
-Resource
-
-Status
-
-Design
-
-[Design Kit (Figma)](https://www.figma.com/community/file/1035203688168086460)
-
-Available
-
-Implementation
-
-[Flutter](https://api.flutter.dev/flutter/material/ElevationOverlay-class.html)
-
-Available
-
-[Jetpack Compose](https://developer.android.com/develop/ui/compose/designsystems/material3?_gl=1*zh4ff1*_up*MQ..*_ga*MTQ4NTEwOTIzLjE3NDA0MDY2Njk.*_ga_6HH9YJMN9M*MTc0MDQwNjY2OC4xLjAuMTc0MDQwNjY2OC4wLjAuNjU3NTAyNDY.#elevation)
-
-Available
-
-[MDC - Android](https://github.com/material-components/material-components-android/blob/d56070586102b66486f7f8697de077c3d7689922/docs/theming/Color.md#using-surface-colors)
-
-Available
-
-[MWC - Web](https://github.com/material-components/material-web/blob/919fe12badcfee4dcd72c390c0869dd8f996b51c/docs/components/elevation.md)
-
-Available
+|  | Resource | Status |
+| --- | --- | --- |
+| Design | [Design Kit (Figma)](https://www.figma.com/community/file/1035203688168086460) | Available |
+| Implementation | [Flutter](https://api.flutter.dev/flutter/material/ElevationOverlay-class.html) | Available |
+|  | [Jetpack Compose](https://developer.android.com/develop/ui/compose/designsystems/material3?_gl=1*zh4ff1*_up*MQ..*_ga*MTQ4NTEwOTIzLjE3NDA0MDY2Njk.*_ga_6HH9YJMN9M*MTc0MDQwNjY2OC4xLjAuMTc0MDQwNjY2OC4wLjAuNjU3NTAyNDY.#elevation) | Available |
+|  | [MDC - Android](https://github.com/material-components/material-components-android/blob/d56070586102b66486f7f8697de077c3d7689922/docs/theming/Color.md#using-surface-colors) | Available |
+|  | [MWC - Web](https://github.com/material-components/material-web/blob/919fe12badcfee4dcd72c390c0869dd8f996b51c/docs/components/elevation.md) | Available |
 
 ## Differences from M2
 

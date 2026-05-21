@@ -2,7 +2,7 @@
 title: "Navigation bar"
 source_url: "https://m3.material.io/components/navigation-bar/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/b3d9706bcad6-malqgvk7-01.png"
@@ -113,7 +113,7 @@ _Navigation bar destinations have fixed positions. Don’t scroll them or modify
 
 ![6 elements of the nav bar.](../../../assets/images/704c5e4362ec-m3t918of-10.png)
 
-_ContainerIconLabel textActive indicatorLarge badge (optional)Small badge (optional)_
+_Container; Icon; Label text; Active indicator; Large badge (optional); Small badge (optional)_
 
 ### Container
 

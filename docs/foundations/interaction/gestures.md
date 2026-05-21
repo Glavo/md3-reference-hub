@@ -2,7 +2,7 @@
 title: "Gestures"
 source_url: "https://m3.material.io/foundations/interaction/gestures"
 lastmod: "2026-01-09"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/videos/cef768e47ec3-lx1faal8-1P-Tap-2_NewSize.mp4"
@@ -29,17 +29,9 @@ Gestures are all the ways people interact with UI elements using touch
 
 ## Resources
 
-Type
-
-Link
-
-Status
-
-Design
-
-[Design Kit (Figma)](http://goo.gle/m3-design-kit)
-
-Available
+| Type | Link | Status |
+| --- | --- | --- |
+| Design | [Design Kit (Figma)](http://goo.gle/m3-design-kit) | Available |
 
 ## Types of gestures
 

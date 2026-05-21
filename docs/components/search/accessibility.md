@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/0f5ab2935961-mlgrjdxa-01.png"
@@ -57,21 +57,11 @@ _If there’s no leading icon, focus lands on the text field_
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-**Tab** or **Shift** + **Tab**
-
-Navigate between interactive elements
-
-**Space** or **Enter**
-
-Activate the search text field for input
-
-**Arrows**
-
-Navigate between search result items
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** or **Shift** + **Tab** | Navigate between interactive elements |
+| **Space** or **Enter** | Activate the search text field for input |
+| **Arrows** | Navigate between search result items |
 
 ## Labeling elements
 

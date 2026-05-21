@@ -2,7 +2,7 @@
 title: "Static color schemes"
 source_url: "https://m3.material.io/styles/color/static/baseline"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/5af3367e4d72-m4k1tpg9-5.png"
@@ -47,7 +47,7 @@ _Baseline scheme colors in dark theme_
 
 ### COLOR
 
-- **system:** Google Material 3
+Component: Sliders
 
 ## Design with baseline
 

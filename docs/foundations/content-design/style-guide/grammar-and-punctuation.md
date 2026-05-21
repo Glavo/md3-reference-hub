@@ -2,7 +2,7 @@
 title: "Style guide"
 source_url: "https://m3.material.io/foundations/content-design/style-guide/grammar-and-punctuation"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/d0cd1de02203-lvw1bx75-1_do.png"
@@ -190,55 +190,14 @@ Hyphens can help readers better understand how words relate to each other by bin
 
 Refer to the [Associated Press (AP) style guidelines](http://www.apstylebook.com) if you are unsure whether an adjective or noun phrase needs a hyphen.
 
-**Rule**
-
-**Examples**
-
-**Why**
-
-**Hyphenate adjective phrases
-**
-
-Case-by-case basis
-Best-in-class performance
-Once-in-a-lifetime opportunity
-
-When multiple words are used together as an adjective, they should be hyphenated 
-
-Cell phone number
-Chocolate chip cookie
-
-However, proper nouns and common, easily understood adjective phrases don't need to be, such as "cell phone number" or "chocolate chip cookie"
-
-**Hyphenate noun phrases**
-A noun phrase is two or more words acting as a noun. These phrases are hyphenated in certain cases:
-
-Sign-off
-Drive-through
-Go-ahead
-
-Hyphenate a noun phrase if it contains a verb followed by an adverb
-
-Higher-up
-Most-read
-
-Hyphenate an adjective phrase that is functioning as a noun
-
-Jack-of-all-trades
-Stick-in-the-mud
-
-Some noun phrases, especially long or complicated ones, are always hyphenated
-
-**Don't hyphenate verb phrases**
-A verb phrase is two or more words acting as a verb. These should not be hyphenated.
-
-Look out for falling rocks
-
-Please drive in and drop off your car
-
-Check in to the room when you arrive
-
-Don't hyphenate a verb followed by an adverb or preposition if it's functioning as a verb phrase. For example, "check in" would not need a hyphen when used as a verb, such as "check in to the room," rather than as a noun, like "the next check-in." Also, note that since "in" is a part of the verb, it can't be combined with "to" to form "into," since check into doesn't mean the same as check in to.
+| **Rule** | **Examples** | **Why** |
+| --- | --- | --- |
+| **Hyphenate adjective phrases ** | Case-by-case basis Best-in-class performance Once-in-a-lifetime opportunity | When multiple words are used together as an adjective, they should be hyphenated |
+| Cell phone number Chocolate chip cookie | However, proper nouns and common, easily understood adjective phrases don't need to be, such as "cell phone number" or "chocolate chip cookie" |  |
+| **Hyphenate noun phrases** A noun phrase is two or more words acting as a noun. These phrases are hyphenated in certain cases: | Sign-off Drive-through Go-ahead | Hyphenate a noun phrase if it contains a verb followed by an adverb |
+| Higher-up Most-read | Hyphenate an adjective phrase that is functioning as a noun |  |
+| Jack-of-all-trades Stick-in-the-mud | Some noun phrases, especially long or complicated ones, are always hyphenated |  |
+| **Don't hyphenate verb phrases** A verb phrase is two or more words acting as a verb. These should not be hyphenated. | Look out for falling rocks Please drive in and drop off your car Check in to the room when you arrive | Don't hyphenate a verb followed by an adverb or preposition if it's functioning as a verb phrase. For example, "check in" would not need a hyphen when used as a verb, such as "check in to the room," rather than as a noun, like "the next check-in." Also, note that since "in" is a part of the verb, it can't be combined with "to" to form "into," since check into doesn't mean the same as check in to. |
 
 ### Use italics sparingly
 

@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/videos/9610029ff525-m15hl4wg-m0zqu7hk-GM3-Styles-Icons-GoogleSymbols-1-v01.mp4"
@@ -30,25 +30,11 @@ Icons are small symbols to easily identify actions and categories
 
 ## Resources
 
-Type
-
-Link
-
-Status
-
-Design
-
-[Icons catalog](https://fonts.google.com/icons)
-
-Available
-
-[Material Symbols Figma plugin](http://goo.gle/material-symbols-figma)
-
-Available
-
-[Icon keyline template (ZIP)](https://storage.googleapis.com/material-io-design/downloads/gm_icon_template.ai.zip)
-
-Available
+| Type | Link | Status |
+| --- | --- | --- |
+| Design | [Icons catalog](https://fonts.google.com/icons) | Available |
+| [Material Symbols Figma plugin](http://goo.gle/material-symbols-figma) | Available |  |
+| [Icon keyline template (ZIP)](https://storage.googleapis.com/material-io-design/downloads/gm_icon_template.ai.zip) | Available |  |
 
 ## What's new
 
@@ -66,7 +52,7 @@ The new variable icon font set supports three styles: **outlined**, **rounded**,
 
 ![Twelve icons depicted in three styles: outlined, with rounded corners, and sharp.](../../../assets/images/9904a53208b8-mltc9xz0-3p-overview-lg.png)
 
-_Outlined Rounded Sharp_
+_Outlined; Rounded; Sharp_
 
 ### Adjustable axes
 

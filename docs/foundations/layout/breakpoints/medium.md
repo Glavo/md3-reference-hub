@@ -2,7 +2,7 @@
 title: "Breakpoints"
 source_url: "https://m3.material.io/foundations/layout/breakpoints/medium"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/f4f512d8e41d-mp413hn4-01.png"
@@ -41,7 +41,7 @@ The navigation rail can be hidden in secondary destinations as long as the prima
 
 ![The navigation area of a medium breakpoint is a vertical bar at the leading edge, beside a single pane.](../../../../assets/images/0410ec91f903-mp414ag3-02.png)
 
-_Navigation areaSingle pane_
+_Navigation area; Single pane_
 
 ## Panes
 
@@ -67,7 +67,7 @@ When adding navigation to a two-pane layout, use a navigation bar. This allows t
 
 ![A navigation bar extends over 2 panes at the bottom of a medium window.](../../../../assets/images/4698c38e898e-mp419dq9-05.png)
 
-_Two-pane layout with:Navigation bar_
+_Two-pane layout with: Navigation bar_
 
 ## Spacing
 
@@ -117,4 +117,4 @@ Specify interactions in a layout with these ergonomic regions in mind:
 
 ![The 3 ergonomic regions of a medium breakpoint.](../../../../assets/images/fbb506656f4e-mp41dv1l-09.png)
 
-_Medium breakpoint ergonomic regions: InconvenientComfortableChallenging_
+_Medium breakpoint ergonomic regions: Inconvenient; Comfortable; Challenging_

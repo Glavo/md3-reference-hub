@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/applying-m3-expressive"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/83efb4db933d-mhjgyvci-Core-Flow.png"
@@ -32,7 +32,7 @@ Usability focuses on making products intuitive and easy to understand for everyo
 
 ![Four key screens of the breathing app.](../../../assets/images/83efb4db933d-mhjgyvci-Core-Flow.png)
 
-_The four goals in the Aura breathing app:Start a breathing sessionExperience and complete a breathing sessionView the breathing session resultsCheck progress towards personal goals_
+_The four goals in the Aura breathing app: Start a breathing session; Experience and complete a breathing session; View the breathing session results; Check progress towards personal goals_
 
 Aura is a conceptual breathing app that illustrates how [Material 3 (M3) Expressive design tactics](../../blog/building-with-m3-expressive.md#what-rsquo-s-in-the-update) can make an app more usable and draw the user’s attention to the most important actions. It’s used with a smart watch to measure heart rate. It was created based on the [eye tracking and focus group research](https://design.google/library/expressive-material-design-google-research) that played a key role in the creation of M3 Expressive. Research showed that participants were able to spot key UI elements up to **four times faster** in the M3 Expressive designs compared to other designs.  
 
@@ -60,43 +60,19 @@ Expressive components used:
 
 ![3 elements of the landing page of a breathing app.](../../../assets/images/df02fe3e0013-mejir1iw-Visual-Hierarchy-(1).png)
 
-_App elements in order of emphasis:The Start breathing button is the primary goal of the app Breathing session settings Daily welcome message_
+_App elements in order of emphasis: The Start breathing button is the primary goal of the app; Breathing session settings; Daily welcome message_
 
 ### Usability design tactics
 
-Color & contrast
-
-The prominent dark purple **Start breathing** button (1) on a soft light purple background uses [Material primary color roles](../../styles/color/roles.md) to create high contrast, making the button easy to find and remember.
-
-Hierarchy
-
-The main goal is to tap the large **Start breathing** button (1). The daily message (3) and settings (2) are in lighter colors and in subtle containers because they are supportive actions, but not required.
-
-Placement
-
-The button (1) is close to the bottom so it’s easy to reach. It’s the final, most prominent element in the vertical flow, naturally guiding the eye down the screen without competing with other content.
-
-Shape
-
-The rounded button form reinforces it as a distinct, touchable control.
-
-Size
-
-The button (1) is extra large to make it the most emphasized element on the screen.
-
-Spacing
-
-Generous spacing separates the button (1) from the message (3) and settings (2).
-
-Typography
-
-The button (1) has larger text to emphasize the primary action.
-
-Visual harmony & hierarchy
-
-The daily message is placed at the top in a soft blue container with medium sized text, setting a reflective tone without drawing too much focus. 
-
-The hierarchy guides the user from the daily message (3) to settings (2) and finally to the **Start breathing** button (1).
+| Color & contrast | The prominent dark purple **Start breathing** button (1) on a soft light purple background uses [Material primary color roles](../../styles/color/roles.md) to create high contrast, making the button easy to find and remember. |
+| --- | --- |
+| Hierarchy | The main goal is to tap the large **Start breathing** button (1). The daily message (3) and settings (2) are in lighter colors and in subtle containers because they are supportive actions, but not required. |
+| Placement | The button (1) is close to the bottom so it’s easy to reach. It’s the final, most prominent element in the vertical flow, naturally guiding the eye down the screen without competing with other content. |
+| Shape | The rounded button form reinforces it as a distinct, touchable control. |
+| Size | The button (1) is extra large to make it the most emphasized element on the screen. |
+| Spacing | Generous spacing separates the button (1) from the message (3) and settings (2). |
+| Typography | The button (1) has larger text to emphasize the primary action. |
+| Visual harmony & hierarchy | The daily message is placed at the top in a soft blue container with medium sized text, setting a reflective tone without drawing too much focus. The hierarchy guides the user from the daily message (3) to settings (2) and finally to the **Start breathing** button (1). |
 
 ## Example 2: Breathing session (inhale & exhale)
 
@@ -116,29 +92,13 @@ Expressive components and styles used:
 
 ### Usability design tactics
 
-Color & contrast
-
-The vibrant yellow appears when inhaling to contrast the soft purple background and be obvious.
-
-Motion
-
-The flower expands and contracts to guide the pace of the breath. The motion uses [Material Spring Motion Tokens](http://figma.com/community/plugin/1397759704974764283/material-motion).
-
-Placement
-
-The **pause** and **stop** buttons are at the bottom, spaced away from the flower, but easy to reach. The navigation bar hides during the breathing journey.
-
-Shape
-
-The flower uses the “flower” and “sunny” [Material shapes](https://m3.material.io/google-material-3/pages/shape/overview-principles#76fb0225-57af-4497-83d0-2b8827505fba) to draw attention and clearly stand apart from the simple **pause** and **stop** buttons.
-
-Size
-
-The size of the animating, breathing flower dominates the screen to draw attention.
-
-Typography
-
-The countdown numbers are very large in comparison to the **inhale**, **hold**, and **exhale** text to focus attention on the exercise. This provides strong visual contrast, while still keeping the instructions associated with the countdown.
+| Color & contrast | The vibrant yellow appears when inhaling to contrast the soft purple background and be obvious. |
+| --- | --- |
+| Motion | The flower expands and contracts to guide the pace of the breath. The motion uses [Material Spring Motion Tokens](http://figma.com/community/plugin/1397759704974764283/material-motion). |
+| Placement | The **pause** and **stop** buttons are at the bottom, spaced away from the flower, but easy to reach. The navigation bar hides during the breathing journey. |
+| Shape | The flower uses the “flower” and “sunny” [Material shapes](https://m3.material.io/google-material-3/pages/shape/overview-principles#76fb0225-57af-4497-83d0-2b8827505fba) to draw attention and clearly stand apart from the simple **pause** and **stop** buttons. |
+| Size | The size of the animating, breathing flower dominates the screen to draw attention. |
+| Typography | The countdown numbers are very large in comparison to the **inhale**, **hold**, and **exhale** text to focus attention on the exercise. This provides strong visual contrast, while still keeping the instructions associated with the countdown. |
 
 ## Example 3: Breathing report
 
@@ -158,31 +118,12 @@ _Shapes and smaller sizes emphasize key information and draw attention down the 
 
 ### Usability design tactics
 
-Color & contrast
-
-Dark text on the light flower shapes creates a strong contrast, making each metric easy to read at a glance. 
-
-The solid, dark purple **Finish** button stands out clearly against the light purple background, guiding users to the next step.
-
-Placement
-
-The metrics are spread out across the screen in a loose cluster, guiding the user from one to the next. 
-
-The **Finish** button is centered at the bottom so it’s easy to reach.
-
-Shape
-
-The metrics are inside Material flower shapes, making achievements stand out. The use of flower shapes make the design look consistent.
-
-Size & typography
-
-Key numbers like **18** and **3min** are larger and use emphasized styles, making it easy to scan the most important data.
-
-Spacing & grouping
-
-Ample spacing around each metric avoids clutter, while making the layout tide any scannable. 
-
-Playful Material shapes serve as clear containers, making the grouping feel lively.
+| Color & contrast | Dark text on the light flower shapes creates a strong contrast, making each metric easy to read at a glance. The solid, dark purple **Finish** button stands out clearly against the light purple background, guiding users to the next step. |
+| --- | --- |
+| Placement | The metrics are spread out across the screen in a loose cluster, guiding the user from one to the next. The **Finish** button is centered at the bottom so it’s easy to reach. |
+| Shape | The metrics are inside Material flower shapes, making achievements stand out. The use of flower shapes make the design look consistent. |
+| Size & typography | Key numbers like **18** and **3min** are larger and use emphasized styles, making it easy to scan the most important data. |
+| Spacing & grouping | Ample spacing around each metric avoids clutter, while making the layout tide any scannable. Playful Material shapes serve as clear containers, making the grouping feel lively. |
 
 ## Example 4: Check progress
 
@@ -205,25 +146,11 @@ _Large text and colorful completed sessions draw attention to the key progress i
 
 ### Usability design tactics
 
-Color & contrast
-
-The data uses the **primary** role to be darker than all other elements and draw attention.
-
-The yellow accents on the daily goal bar and calendar use the **secondary** roles to highlight progress.
-
-Grouping & spacing
-
-The metrics (days, breaths, and minutes) are grouped together. The equal vertical spacing between elements makes it easy to scan data.
-
-Shape
-
-The rounded Material flower shape on the highlighted days in the calendar makes data more expressive. 
-
-The flower shapes remind the user of the breathing exercise visualization.
-
-Size
-
-Custom-scaled numbers for key statistics such as days, breaths, and minutes are large enough to scan, but they don’t dominate the screen.
+| Color & contrast | The data uses the **primary** role to be darker than all other elements and draw attention. The yellow accents on the daily goal bar and calendar use the **secondary** roles to highlight progress. |
+| --- | --- |
+| Grouping & spacing | The metrics (days, breaths, and minutes) are grouped together. The equal vertical spacing between elements makes it easy to scan data. |
+| Shape | The rounded Material flower shape on the highlighted days in the calendar makes data more expressive. The flower shapes remind the user of the breathing exercise visualization. |
+| Size | Custom-scaled numbers for key statistics such as days, breaths, and minutes are large enough to scan, but they don’t dominate the screen. |
 
 ## Testing & iteration improves the experience
 
@@ -249,11 +176,11 @@ Avoid crowding the screen with too many large or equally prominent elements. Sca
 
 ![The aura app home page with similar-sized elements competing for attention.](../../../assets/images/75e5e24e31a2-mejj6t5h-Home-Caution-Uglyfied-Deux.png)
 
-_All the elements were large and competed for attentionThe visual hierarchy was unclearThe settings weren’t grouped together_
+_All the elements were large and competed for attention; The visual hierarchy was unclear; The settings weren’t grouped together_
 
 ![The aura app home page with a clear visual hierarchy and appropriate emphasis per element.](../../../assets/images/9bff28e50fe6-mejj8ce1-Frame-2147228808.png)
 
-_The large Start breathing button is a strong visual focal pointThe supporting controls are clear, but less prominent than the Start breathing button_
+_The large Start breathing button is a strong visual focal point; The supporting controls are clear, but less prominent than the Start breathing button_
 
 ### Reinforce with consistent color roles
 
@@ -265,7 +192,7 @@ _The same color roles, primary (1, 2) and primary container (3), are used for al
 
 ![3 color roles used in the aura app.](../../../assets/images/280a459b44a5-mejjb7xf-AFTER-Primary-Secondary-roles.png)
 
-_The primary color role (1) makes the button clear and prominentThe secondary color on selected settings (2) and secondary container color on the dates (3) contrast with the background and primary colors_
+_The primary color role (1) makes the button clear and prominent; The secondary color on selected settings (2) and secondary container color on the dates (3) contrast with the background and primary colors_
 
 ### Create calm, balanced layouts
 
@@ -273,11 +200,11 @@ Use uniform shapes and sizes. Add space between shapes and data to make it simpl
 
 ![Breathing report statistics in containers that overlap each other.](../../../assets/images/8e29ab1598b4-mejjcz6i-Breathing-Report-Caution.png)
 
-_The shapes have different forms and sizes The shapes overlap_
+_The shapes have different forms and sizes; The shapes overlap_
 
 ![Breathing reports statistics in containers neatly organized on the page.](../../../assets/images/4db843849516-mejjk8lk-Breathing-Report-Do-(1).png)
 
-_There’s more even spacing between shapesThe shapes are uniform_
+_There’s more even spacing between shapes; The shapes are uniform_
 
 <video controls src="../../../assets/videos/835f25600fed-mhjhu4pj-GM3_Usability_Aura-app-Caution_IA_v01.mp4" title="Arrows, countdown numbers and text move along with the purple and yellow flower that opens and compresses. "></video>
 

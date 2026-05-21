@@ -2,7 +2,7 @@
 title: "Dynamic color schemes"
 source_url: "https://m3.material.io/styles/color/dynamic/choosing-a-source"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/5825ec311011-lnc8u840-01.png"
@@ -66,4 +66,4 @@ Choose to use multiple color sources if:
 Thumbnail of red wallpaper with a line (2) indicating red share buttons in the same photo app.
 ](../../../../assets/images/0c556dedddd2-ln4j3qu9-03.png)
 
-_An app colored with schemes from multiple sources.Content-based color sourced from the in-app photoUser-generated color sourced from the user's wallpaper_
+_An app colored with schemes from multiple sources. Content-based color sourced from the in-app photo; User-generated color sourced from the user's wallpaper_

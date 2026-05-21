@@ -2,7 +2,7 @@
 title: "Advanced customizations"
 source_url: "https://m3.material.io/styles/color/advanced/adjust-existing-colors"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/46586b0b0fba-lwt7zkg8-1.png"
@@ -52,7 +52,7 @@ Control the appearance of your app’s colors while respecting dynamic color. Fo
 
 ![Thumbnail of a red floral wallpaper with two arrows leading out of it, labeled 1 and 2. Arrow 1 leads to a set of red colors chips produced from the wallpaper. Arrow 2 points to another set of red color chips, which appear more vibrant than the first.](../../../../assets/images/ec4ab91ce275-lwt809t2-2.png)
 
-_You can define your own dynamic scheme to reflect a user's wallpaper but control other aspects such as the colors' vibrancy.Colors produced dynamically from a user's red wallpaper following default specsColors produced dynamically from the same wallpaper following custom-defined specs_
+_You can define your own dynamic scheme to reflect a user's wallpaper but control other aspects such as the colors' vibrancy. Colors produced dynamically from a user's red wallpaper following default specs; Colors produced dynamically from the same wallpaper following custom-defined specs_
 
 ### How
 
@@ -76,7 +76,7 @@ Material scheme colors are mapped to tones (lightness or darkness) to achieve vi
 ![Above, a dark purple circle with an arrow labeled 1 pointing to a set of color chips, whose colors appear similarly dark.
 Below, a dark purple circle with an arrow labeled 2 pointing to a set of color chips, whose colors appear lighter.](../../../../assets/images/4c04d8198d0c-lwt80nic-3.png)
 
-_Color fidelity adjusts tones in color roles to produce the closest match to your input color. In this example, colors are produced from a dark purple input with and without color fidelity.Color roles produced with color fidelityColor roles produced without color fidelity_
+_Color fidelity adjusts tones in color roles to produce the closest match to your input color. In this example, colors are produced from a dark purple input with and without color fidelity. Color roles produced with color fidelity; Color roles produced without color fidelity_
 
 ### How
 
@@ -100,7 +100,7 @@ Colors that are closer in hue appear more pleasing together than colors with hue
 
 ![Diagram comparing static colors in an app to harmonized static colors](../../../../assets/images/d750964423f0-lwt814il-4.png)
 
-_In this example, the color scheme has:Green as the primary colorStatic blue Static orangeWhen harmonized, those static colors change hue, moving closer to the primary color on the color wheel. The resulting colors appear more visually pleasing together because they are closer in hue._
+_In this example, the color scheme has:Green as the primary color; Static blue; Static orange;; When harmonized, those static colors change hue, moving closer to the primary color on the color wheel. The resulting colors appear more visually pleasing together because they are closer in hue._
 
 To preserve the semantic meaning of static colors (such as a red to communicate errors), harmonization limits the amount that a color’s hue can change. Harmonized colors will become warmer or cooler in hue without appearing like another type of color.
 

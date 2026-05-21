@@ -2,7 +2,7 @@
 title: "Typography"
 source_url: "https://m3.material.io/styles/typography/fonts"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/5dd14609290f-mac6ta60-1.png"
@@ -73,23 +73,11 @@ Each Noto Sans family is compatible with Roboto and Noto Sans supports more than
 
 _Several Noto Sans fonts for different writing systems_
 
-Variable font
-
-Available axes
-
-Roboto Flex
-
-Slant, Width, Weight, Grade, Optical Size. 
-
-**Advanced axes****:** Thick stroke (XOPQ), thin stroke (YOPQ), counter width (XTRA), uppercase height (YTUC), lowercase height (YTLC), ascender height (YTAS), descender depth (YTDE), figure height (YTFI)
-
-Roboto Mono
-
-Weight, Italic
-
-Noto Sans
-
-Width, Weight, Italic
+| Variable font | Available axes |
+| --- | --- |
+| Roboto Flex | Slant, Width, Weight, Grade, Optical Size. **Advanced axes****:** Thick stroke (XOPQ), thin stroke (YOPQ), counter width (XTRA), uppercase height (YTUC), lowercase height (YTLC), ascender height (YTAS), descender depth (YTDE), figure height (YTFI) |
+| Roboto Mono | Weight, Italic |
+| Noto Sans | Width, Weight, Italic |
 
 ## Fallback protection with variable fonts
 

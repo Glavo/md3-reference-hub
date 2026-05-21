@@ -2,7 +2,7 @@
 title: "Migrating to Material Design 3"
 source_url: "https://m3.material.io/blog/migrating-material-3"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/25e7d382cea8-KQ7Ul7smHbhue3rVhcE9xPIL7Dznf8eU7zEEnyevjyp39DBUPPNaI2kIAli81hdr3-f-jWH5O7N1zSvDh2rfVjHlwrmpLDpK.png"
@@ -51,125 +51,37 @@ Themes in Material You expand the color space of its predecessors, adding a Tert
 
 Full version:
 
-**MDC 1.4.0**
-
-**Material 3**
-
-android:backgroundColor
-
-android:backgroundColor
-
-colorPrimary
-
-colorPrimary
-
-colorOnPrimary
-
-colorOnPrimary
-
- 
-
-colorPrimaryContainer
-
- 
-
-colorOnPrimaryContainer
-
- 
-
-colorPrimaryInverse
-
-colorPrimaryVariant
-
-DEPRECATED
-
-colorPrimarySurface
-
-colorSurface
-
-colorOnPrimarySurface
-
-colorOnSurface
-
-colorSecondary
-
-colorSecondary
-
-colorOnSecondary
-
-colorOnSecondary
-
- 
-
-colorSecondaryContainer
-
- 
-
-colorOnSecondaryContainer
-
-colorSecondaryVariant
-
-DEPRECATED
-
- 
-
-colorTertiary
-
- 
-
-colorOnTertiary
-
- 
-
-colorTertiaryContainer
-
- 
-
-colorOnTertiaryContainer
-
-colorError
-
-colorError
-
-colorOnError
-
-colorOnError
-
- 
-
-colorErrorContainer
-
- 
-
-colorOnErrorContainer
-
-colorSurface
-
-colorSurface
-
-colorOnSurface
-
-colorOnSurface
-
- 
-
-colorSurfaceVariant
-
- 
-
-colorOnSurfaceVariant
-
- 
-
-colorSurfaceInverse
-
- 
-
-colorOnSurfaceInverse
-
- 
-
-colorOutline
+| **MDC 1.4.0** | **Material 3** |
+| --- | --- |
+| android:backgroundColor | android:backgroundColor |
+| colorPrimary | colorPrimary |
+| colorOnPrimary | colorOnPrimary |
+|  | colorPrimaryContainer |
+|  | colorOnPrimaryContainer |
+|  | colorPrimaryInverse |
+| colorPrimaryVariant | DEPRECATED |
+| colorPrimarySurface | colorSurface |
+| colorOnPrimarySurface | colorOnSurface |
+| colorSecondary | colorSecondary |
+| colorOnSecondary | colorOnSecondary |
+|  | colorSecondaryContainer |
+|  | colorOnSecondaryContainer |
+| colorSecondaryVariant | DEPRECATED |
+|  | colorTertiary |
+|  | colorOnTertiary |
+|  | colorTertiaryContainer |
+|  | colorOnTertiaryContainer |
+| colorError | colorError |
+| colorOnError | colorOnError |
+|  | colorErrorContainer |
+|  | colorOnErrorContainer |
+| colorSurface | colorSurface |
+| colorOnSurface | colorOnSurface |
+|  | colorSurfaceVariant |
+|  | colorOnSurfaceVariant |
+|  | colorSurfaceInverse |
+|  | colorOnSurfaceInverse |
+|  | colorOutline |
 
 These new color spaces enable dynamic color expression. We’ve made it easy to visualize dynamic color and migrate to our new color system with the [Material Theme Builder](http://material.io/material-theme-builder), available on the web and Figma. When generated via our tooling, these intermediate color values can be created by providing as little as one color.
 
@@ -225,69 +137,23 @@ M3 typescale
 
 Most of the new `TextAppearance` styles map directly to pre-Material 3 styles. The property names in MDC-Android are formed using a similar pattern: `textAppearance` + {Display, Headline, Title, Body, Label} + {Large, Medium, Small}
 
-**New Property**
-
-**Old Property**
-
-textAppearanceDisplayLarge
-
-textAppearanceDisplay2
-
-textAppearanceDisplayMedium
-
-textAppearanceDisplay3
-
-textAppearanceDisplaySmall
-
-textAppearanceHeadline1
-
-textAppearanceHeadlineLarge
-
-textAppearanceHeadline2
-
-textAppearanceHeadlineMedium
-
-textAppearanceHeadline3
-
-textAppearanceHeadlineSmall
-
-textAppearanceHeadline4
-
-textAppearanceTitleLarge
-
-textAppearanceHeadline5
-
-textAppearanceTitleMedium
-
-textAppearanceSubhead1/Subtitle1
-
-textAppearanceTitleSmall
-
-textAppearanceSubhead2/Subtitle2
-
-textAppearanceBodyLarge
-
-textAppearanceBody1
-
-textAppearanceBodyMedium
-
-textAppearanceBody2
-
-textAppearanceBodySmall
-
-textAppearanceCaption
-
-textAppearanceLabelLarge
-
-textAppearanceButton
-
-textAppearanceLabelMedium
-
-textAppearanceOverline
-
-textAppearanceLabelSmall
-
-N/A
+| **New Property** | **Old Property** |
+| --- | --- |
+| textAppearanceDisplayLarge | textAppearanceDisplay2 |
+| textAppearanceDisplayMedium | textAppearanceDisplay3 |
+| textAppearanceDisplaySmall | textAppearanceHeadline1 |
+| textAppearanceHeadlineLarge | textAppearanceHeadline2 |
+| textAppearanceHeadlineMedium | textAppearanceHeadline3 |
+| textAppearanceHeadlineSmall | textAppearanceHeadline4 |
+| textAppearanceTitleLarge | textAppearanceHeadline5 |
+| textAppearanceTitleMedium | textAppearanceSubhead1/Subtitle1 |
+| textAppearanceTitleSmall | textAppearanceSubhead2/Subtitle2 |
+| textAppearanceBodyLarge | textAppearanceBody1 |
+| textAppearanceBodyMedium | textAppearanceBody2 |
+| textAppearanceBodySmall | textAppearanceCaption |
+| textAppearanceLabelLarge | textAppearanceButton |
+| textAppearanceLabelMedium | textAppearanceOverline |
+| textAppearanceLabelSmall | N/A |
 
 Read more about [Typography](http://m3.material.io/libraries/mdc-android/typography-theming).
 

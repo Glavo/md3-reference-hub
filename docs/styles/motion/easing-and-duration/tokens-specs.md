@@ -2,7 +2,7 @@
 title: "Easing and duration"
 source_url: "https://m3.material.io/styles/motion/easing-and-duration/tokens-specs"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/videos/5c43e3ea7901-lxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4"
@@ -35,7 +35,7 @@ Motion easing and duration can be implemented using easing and duration tokens. 
 
 ### TOKEN_TYPE_UNSPECIFIED
 
-- **system:** Google Material 3
+Component: Sliders
 
 ## Easing
 
@@ -55,57 +55,14 @@ This set is the most common because it captures the expressive style of M3.
 
 [Open video](../../../../assets/videos/5d77b0339f64-lxo7v6ah-GM3-Styles-Motion-Easing_Duration-Tokens-1-3-v01.mp4)
 
-Info/Platform
-
-Emphasized
-
-Emphasized decelerate
-
-Emphasized accelerate
-
-Token
-
-md.sys.motion.easing.emphasized
-
-md.sys.motion.easing.emphasized.decelerate
-
-md.sys.motion.easing.emphasized.accelerate
-
-Android
-
-[pathInterpolator(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)](https://developer.android.com/reference/android/view/animation/PathInterpolator)
-
-[PathInterpolator(0.05f, 0.7f, 0.1f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator)
-
-[PathInterpolator(0.3f, 0f, 0.8f, 0.15f)](https://developer.android.com/reference/android/view/animation/PathInterpolator)
-
-CSS
-
-N/A (Use Standard as a fallback)
-
-[cubic-bezier(0.05, 0.7, 0.1, 1.0)](https://www.w3schools.com/cssref/func_cubic-bezier.asp)
-
-[cubic-bezier(0.3, 0.0, 0.8, 0.15)](https://www.w3schools.com/cssref/func_cubic-bezier.asp)
-
-Flutter
-
-[easeInOutCubicEmphasized](https://api.flutter.dev/flutter/animation/Curves/easeInOutCubicEmphasized-constant.html)
-
-[Cubic(0.05, 0.7, 0.1, 1.0);](https://api.flutter.dev/flutter/animation/Cubic-class.html)
-
-[Cubic(0.3, 0.0, 0.8, 0.15);](https://api.flutter.dev/flutter/animation/Cubic-class.html)
-
-iOS
-
-N/A (Use Standard as a fallback)
-
-[ControlPoints:0.05f:0.7f:0.1f:1.0f\];](https://developer.apple.com/documentation/quartzcore/camediatimingfunction)
-
-[ControlPoints:0.3f:0.0f:0.8f:0.15f\];](https://developer.apple.com/documentation/quartzcore/camediatimingfunction)
-
-After Effects
-
-Use [After Effects Easing Panel](https://storage.googleapis.com/material-io-static/resources/material-easing-1.1.3.zxp) (download)
+| Info/Platform | Emphasized | Emphasized decelerate | Emphasized accelerate |
+| --- | --- | --- | --- |
+| Token | md.sys.motion.easing.emphasized | md.sys.motion.easing.emphasized.decelerate | md.sys.motion.easing.emphasized.accelerate |
+| Android | [pathInterpolator(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)](https://developer.android.com/reference/android/view/animation/PathInterpolator) | [PathInterpolator(0.05f, 0.7f, 0.1f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator) | [PathInterpolator(0.3f, 0f, 0.8f, 0.15f)](https://developer.android.com/reference/android/view/animation/PathInterpolator) |
+| CSS | N/A (Use Standard as a fallback) | [cubic-bezier(0.05, 0.7, 0.1, 1.0)](https://www.w3schools.com/cssref/func_cubic-bezier.asp) | [cubic-bezier(0.3, 0.0, 0.8, 0.15)](https://www.w3schools.com/cssref/func_cubic-bezier.asp) |
+| Flutter | [easeInOutCubicEmphasized](https://api.flutter.dev/flutter/animation/Curves/easeInOutCubicEmphasized-constant.html) | [Cubic(0.05, 0.7, 0.1, 1.0);](https://api.flutter.dev/flutter/animation/Cubic-class.html) | [Cubic(0.3, 0.0, 0.8, 0.15);](https://api.flutter.dev/flutter/animation/Cubic-class.html) |
+| iOS | N/A (Use Standard as a fallback) | [ControlPoints:0.05f:0.7f:0.1f:1.0f\];](https://developer.apple.com/documentation/quartzcore/camediatimingfunction) | [ControlPoints:0.3f:0.0f:0.8f:0.15f\];](https://developer.apple.com/documentation/quartzcore/camediatimingfunction) |
+| After Effects | Use [After Effects Easing Panel](https://storage.googleapis.com/material-io-static/resources/material-easing-1.1.3.zxp) (download) |  |  |
 
 ### Standard easing set
 
@@ -123,55 +80,14 @@ This set is used for simple, small, or utility-focused transitions.
 
 [Open video](../../../../assets/videos/f359215507d5-lxo7wjde-GM3-Styles-Motion-Easing_Duration-Tokens-2-3-v01.mp4)
 
-Standard
-
-Standard decelerate
-
-Standard accelerate
-
-Token
-
-md.sys.motion.easing.standard
-
-md.sys.motion.easing.standard.decelerate
-
-md.sys.motion.easing.standard.accelerate
-
-Android
-
-[PathInterpolator(0.2f, 0f, 0f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator)
-
-[PathInterpolator(0f, 0f, 0f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator)
-
-[PathInterpolator(0.3f, 0f, 1f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator)
-
-CSS
-
-[cubic-bezier(0.2, 0.0, 0, 1.0);](https://www.w3schools.com/cssref/func_cubic-bezier.asp)
-
-[cubic-bezier(0, 0, 0, 1);](https://www.w3schools.com/cssref/func_cubic-bezier.asp)
-
-[cubic-bezier(0.3, 0, 1, 1);](https://www.w3schools.com/cssref/func_cubic-bezier.asp)
-
-Flutter
-
-[Cubic(0.2, 0.0, 0, 1.0);](https://api.flutter.dev/flutter/animation/Cubic-class.html)
-
-[Cubic(0, 0, 0, 1);](https://api.flutter.dev/flutter/animation/Cubic-class.html)
-
-[Cubic(0.3, 0, 1, 1);](https://api.flutter.dev/flutter/animation/Cubic-class.html)
-
-iOS
-
-[ControlPoints:0.2f:0.0f:0.0f:1.0f](https://developer.apple.com/documentation/quartzcore/camediatimingfunction)
-
-[ControlPoints:0.0f:0.0f:0.0f:1.0f](https://developer.apple.com/documentation/quartzcore/camediatimingfunction)
-
-[ControlPoints:0.3f:0.0f:1.0f:1.0f\];](https://developer.apple.com/documentation/quartzcore/camediatimingfunction)
-
-After Effects
-
-Use [After Effects Easing Panel](https://storage.googleapis.com/material-io-static/resources/material-easing-1.1.3.zxp) (download)
+|  | Standard | Standard decelerate | Standard accelerate |
+| --- | --- | --- | --- |
+| Token | md.sys.motion.easing.standard | md.sys.motion.easing.standard.decelerate | md.sys.motion.easing.standard.accelerate |
+| Android | [PathInterpolator(0.2f, 0f, 0f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator) | [PathInterpolator(0f, 0f, 0f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator) | [PathInterpolator(0.3f, 0f, 1f, 1f)](https://developer.android.com/reference/android/view/animation/PathInterpolator) |
+| CSS | [cubic-bezier(0.2, 0.0, 0, 1.0);](https://www.w3schools.com/cssref/func_cubic-bezier.asp) | [cubic-bezier(0, 0, 0, 1);](https://www.w3schools.com/cssref/func_cubic-bezier.asp) | [cubic-bezier(0.3, 0, 1, 1);](https://www.w3schools.com/cssref/func_cubic-bezier.asp) |
+| Flutter | [Cubic(0.2, 0.0, 0, 1.0);](https://api.flutter.dev/flutter/animation/Cubic-class.html) | [Cubic(0, 0, 0, 1);](https://api.flutter.dev/flutter/animation/Cubic-class.html) | [Cubic(0.3, 0, 1, 1);](https://api.flutter.dev/flutter/animation/Cubic-class.html) |
+| iOS | [ControlPoints:0.2f:0.0f:0.0f:1.0f](https://developer.apple.com/documentation/quartzcore/camediatimingfunction) | [ControlPoints:0.0f:0.0f:0.0f:1.0f](https://developer.apple.com/documentation/quartzcore/camediatimingfunction) | [ControlPoints:0.3f:0.0f:1.0f:1.0f\];](https://developer.apple.com/documentation/quartzcore/camediatimingfunction) |
+| After Effects | Use [After Effects Easing Panel](https://storage.googleapis.com/material-io-static/resources/material-easing-1.1.3.zxp) (download) |  |  |
 
 ## Duration
 
@@ -179,25 +95,12 @@ Use [After Effects Easing Panel](https://storage.googleapis.com/material-io-sta
 
 These are used for small utility-focused transitions.
 
-**Token**
-
-**Value**
-
-md.sys.motion.duration.short1
-
-50ms
-
-md.sys.motion.duration.short2
-
-100ms
-
-md.sys.motion.duration.short3
-
-150ms
-
-md.sys.motion.duration.short4
-
-200ms
+| **Token** | **Value** |
+| --- | --- |
+| md.sys.motion.duration.short1 | 50ms |
+| md.sys.motion.duration.short2 | 100ms |
+| md.sys.motion.duration.short3 | 150ms |
+| md.sys.motion.duration.short4 | 200ms |
 
 <video controls src="../../../../assets/videos/526401d689d3-lxo7xbhz-GM3-Styles-Motion-Easing_Duration-Tokens-3-v01.mp4" title="Animation showing a 200ms duration and standard easing curve applied to selection control interactions."></video>
 
@@ -207,25 +110,12 @@ md.sys.motion.duration.short4
 
 These are used for transitions that traverse a medium area of the screen.
 
-**Token**
-
-**Value**
-
-md.sys.motion.duration.medium1
-
-250ms
-
-md.sys.motion.duration.medium2
-
-300ms
-
-md.sys.motion.duration.medium3
-
-350ms
-
-md.sys.motion.duration.medium4
-
-400ms
+| **Token** | **Value** |
+| --- | --- |
+| md.sys.motion.duration.medium1 | 250ms |
+| md.sys.motion.duration.medium2 | 300ms |
+| md.sys.motion.duration.medium3 | 350ms |
+| md.sys.motion.duration.medium4 | 400ms |
 
 <video controls src="../../../../assets/videos/cffd887bce6b-lxo7xucu-GM3-Styles-Motion-Easing_Duration-Tokens-4-v01.mp4" title="Animation showing a FAB expanding into a sheet with a 400ms duration and Emphasized easing."></video>
 
@@ -235,25 +125,12 @@ md.sys.motion.duration.medium4
 
 These durations are often paired with Emphasized easing. They're used for large expressive transitions.
 
-**Token**
-
-**Value**
-
-md.sys.motion.duration.long1
-
-450ms
-
-md.sys.motion.duration.long2
-
-500ms
-
-md.sys.motion.duration.long3
-
-550ms
-
-md.sys.motion.duration.long4
-
-600ms
+| **Token** | **Value** |
+| --- | --- |
+| md.sys.motion.duration.long1 | 450ms |
+| md.sys.motion.duration.long2 | 500ms |
+| md.sys.motion.duration.long3 | 550ms |
+| md.sys.motion.duration.long4 | 600ms |
 
 <video controls src="../../../../assets/videos/06f4cb9c12d2-lxo7ysp0-GM3-Styles-Motion-Easing_Duration-Tokens-5-v01.mp4" title="Animation showing a card expanding into a full screen with a 500ms duration and emphasized easing."></video>
 
@@ -263,25 +140,12 @@ md.sys.motion.duration.long4
 
 Though rare, some transitions use durations above 600ms. These are usually used for ambient transitions that don't involve user input.
 
-**Token**
-
-**Value**
-
-md.sys.motion.duration.extra-long1
-
-700ms
-
-md.sys.motion.duration.extra-long2
-
-800ms
-
-md.sys.motion.duration.extra-long3
-
-900ms
-
-md.sys.motion.duration.extra-long4
-
-1000ms
+| **Token** | **Value** |
+| --- | --- |
+| md.sys.motion.duration.extra-long1 | 700ms |
+| md.sys.motion.duration.extra-long2 | 800ms |
+| md.sys.motion.duration.extra-long3 | 900ms |
+| md.sys.motion.duration.extra-long4 | 1000ms |
 
 <video controls src="../../../../assets/videos/42b850c565f7-lxo7z9jk-GM3-Styles-Motion-Easing_Duration-Tokens-6-v01.mp4" title="Animation showing the transition of an ambient carousel auto-advancing with a 1000ms duration and emphasized easing."></video>
 

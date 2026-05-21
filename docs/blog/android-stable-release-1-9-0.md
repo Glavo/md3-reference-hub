@@ -2,7 +2,7 @@
 title: "Material Design Components for Android 1.9.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-9-0"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/f440c627bc54-4lVyZj_pYByZSDxuL1o-us6nihWwgD9F5d6HjS6IyP4uxtSO-P3WNqA48hWSVq70q5riU9cJGXCGjbrmFp6KCk-G9MAXyZGe.png"
@@ -46,9 +46,8 @@ If you are using images in your Carousel with a custom image matrix or other com
 
 In the images below, at the start of the carousel, we can see two large items, a medium item and a small item. At the end of the carousel, the arrangement shifts to become one small item, followed by a medium item, and finally two large items.
 
-![screenshot of carousel in catalog app with scroll position at 0](../../assets/images/e4fb51d99f65-Q5PAFl0kJtvPGHel0TWAXN21Ym5Bal6SlaAkk33imuaKmDaQarDmkn6EgtPE31w0mMYFouo7R92edY5Iae_W81NHqWyv0rXF.png)
-
-![screenshot of carousel in catalog app with scroll position at 100](../../assets/images/29ab184b12a9-6vKpHerJbKyf8Xm_3u8Kzkg_LpA-AEjxDuzzkK5hhfqbIkqA_oqJlAZ5E1p14Sus8Y7mRRhb4f1MVM7GzlGj4VtV18PeSRd4.png)
+| ![screenshot of carousel in catalog app with scroll position at 0](../../assets/images/e4fb51d99f65-Q5PAFl0kJtvPGHel0TWAXN21Ym5Bal6SlaAkk33imuaKmDaQarDmkn6EgtPE31w0mMYFouo7R92edY5Iae_W81NHqWyv0rXF.png) | ![screenshot of carousel in catalog app with scroll position at 100](../../assets/images/29ab184b12a9-6vKpHerJbKyf8Xm_3u8Kzkg_LpA-AEjxDuzzkK5hhfqbIkqA_oqJlAZ5E1p14Sus8Y7mRRhb4f1MVM7GzlGj4VtV18PeSRd4.png) |
+| --- | --- |
 
 For more information on integrating the new Carousel component into your app, check out the full [developer documentation](https://github.com/material-components/material-components-android/blob/master/docs/components/Carousel.md).
 

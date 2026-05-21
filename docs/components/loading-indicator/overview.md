@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/929ee2bfca47-m0fcl84h-Loading-Indicator-Overview-A-Sync.mp4"
@@ -33,8 +33,8 @@ Loading indicators show the progress for a short wait time
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/LoadingIndicator.md |
 | LIT_IMPLEMENTATION | Web: Expressive | UNAVAILABLE |  |
 | JETPACK_IMPLEMENTATION | Jetpack Compose: Expressive | AVAILABLE | https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#LoadingIndicator(androidx.compose.ui.Modifier,androidx.compose.ui.graphics.Color,kotlin.collections.List) |

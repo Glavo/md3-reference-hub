@@ -2,7 +2,7 @@
 title: "Date pickers"
 source_url: "https://m3.material.io/components/date-pickers/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/6e5275896f1b-md5o0x3j-01.png"
@@ -61,7 +61,7 @@ Date pickers can be embedded into:
 
 ![2 date picker variations: a dialog on mobile and a dropdown within a text field on desktop.](../../../assets/images/fe524b8ae9fd-md5sha07-02.png)
 
-_Date picker dialog on mobile Date picker text field dropdown on desktop_
+_Date picker dialog on mobile; Date picker text field dropdown on desktop_
 
 There are three variants of date pickers:
 
@@ -89,33 +89,33 @@ _3. Modal date input_
 
 ![7 elements of a docked date picker.](../../../assets/images/0c59546a1867-md5skthv-06.png)
 
-_Text fieldMenu buttonIcon buttonLabel textMenuText buttonsContainer_
+_Text field; Menu button; Icon button; Label text; Menu; Text buttons; Container_
 
 ![3 elements of a docked date picker.](../../../assets/images/f17674d414f4-md5slanf-07.png)
 
-_1. Text field 2. Menu button 3. Menu_
+_1. Text field / 2. Menu button / 3. Menu /_
 
 ### Modal date picker
 
 ![12 elements of a modal date picker.](../../../assets/images/50d7b1cfd14b-md5sma00-08.png)
 
-_Headline Supporting textContainerIcon buttonPrevious/next month buttonsDay of week labelsToday’s date Unselected date Text buttonsSelected date Menu buttonDivider_
+_Headline; Supporting text; Container; Icon button; Previous/next month buttons; Day of week labels; Today’s date; Unselected date; Text buttons; Selected date; Menu button; Divider_
 
 ![9 elements of a modal date picker.](../../../assets/images/d75e9fbefc9e-md5smpl6-09.png)
 
-_HeadlineSupporting textContainerIcon buttonUnselected year Selected year Text buttonsDividerMenu button_
+_Headline; Supporting text; Container; Icon button; Unselected year; Selected year; Text buttons; Divider; Menu button_
 
 ### Modal date input
 
 ![7 elements of a modal date input.](../../../assets/images/548d3b96e577-md5sng56-10.png)
 
-_1. Headline 2. Supporting text3. Container4. Icon button5. Date input6. Text buttons7. Divider_
+_1. Headline / 2. Supporting text / 3. Container / 4. Icon button / 5. Date input / 6. Text buttons / 7. Divider_
 
 ### Full-screen date picker
 
 ![14 elements of a full-screen date picker.](../../../assets/images/a3949bbf44b7-md5srxxg-11.png)
 
-_1. Headline2. Supporting text3. Icon button4. Container5. Text button6. Icon button7. Divider8. Day of week labels9. Today’s date 10. Selected date range 11. Unselected date 12. Text buttons13. Selected date range start date 14. Month label_
+_1. Headline / 2. Supporting text / 3. Icon button / 4. Container / 5. Text button / 6. Icon button / 7. Divider / 8. Day of week labels / 9. Today’s date / 10. Selected date range / 11. Unselected date / 12. Text buttons / 13. Selected date range start date / 14. Month label_
 
 ## Docked date picker
 

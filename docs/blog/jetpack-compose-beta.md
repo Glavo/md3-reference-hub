@@ -2,7 +2,7 @@
 title: "Jetpack Compose: Now in Beta"
 source_url: "https://m3.material.io/blog/jetpack-compose-beta"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/8c410e1abc33-IGVvFnjHRRbphKVi5QL8VrdI1ou4bgUIdWpt0CCHXweVBIwydrpun88kL73-kFg0UeGL2mxwxv6K1EIVIBn4IYiV_2bWT-85.png"
@@ -39,137 +39,37 @@ Check out the [Theming in Compose guide](https://developer.android.com/jetpack/c
 
 Jetpack Compose offers implementations of [Material Components](https://material.io/components). See the table below for composables available in the beta release, or check out the full list in the [API reference](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary).
 
-[App bars: bottom](https://material.io/components/app-bars-bottom)
-
-[`BottomAppBar`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomappbar)
-
-[App bars: top](https://material.io/components/app-bars-top)
-
-[`TopAppBar`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#topappbar)
-
-[Backdrop](https://material.io/components/backdrop)
-
-[`Backdrop`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#backdropscaffold)
-
-[Banners](https://material.io/components/banners)
-
-_Not available yet_
-
-[Bottom navigation](https://material.io/components/bottom-navigation)
-
-[`BottomNavigation`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomnavigation)
-
-[Buttons](https://material.io/components/buttons)
-
-[`Button`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#button)
-[`OutlinedButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#outlinedbutton)
-[`TextButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#textbutton)
-
-[Buttons: floating action button](https://material.io/components/buttons-floating-action-button)
-
-[`FloatingActionButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#floatingactionbutton)
-[`ExtendedFloatingActionButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#extendedfloatingactionbutton)
-
-[Cards](https://material.io/components/cards)
-
-[`Card`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#card)
-
-[Checkboxes](https://material.io/components/checkboxes)
-
-[`Checkbox`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#checkbox)
-[`TriStateCheckbox`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#tristatecheckbox)
-
-[Chips](https://material.io/components/chips)
-
-_Not available yet_
-
-[Data tables](https://material.io/components/data-tables)
-
-_Not available yet_
-
-[Date pickers](https://material.io/components/date-pickers)
-
-_Not available yet_
-
-[Dialogs](https://material.io/components/dialogs)
-
-[`AlertDialog`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#alertdialog)
-
-[Dividers](https://material.io/components/dividers)
-
-[`Divider`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#divider)
-
-[Image lists](https://material.io/components/image-lists)
-
-_Not available yet_
-
-[Lists](https://material.io/components/lists)
-
-[`ListItem`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#listitem)
-
-[Menus](https://material.io/components/menus)
-
-[`DropdownMenu`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#dropdownmenu)
-[`DropdownMenuItem`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#dropdownmenuitem)
-
-[Navigation drawer](https://material.io/components/navigation-drawer)
-
-[`ModalDrawerLayout`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#modaldrawerlayout)
-[`BottomDrawerLayout`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomdrawerlayout)
-
-[Navigation rail](https://material.io/components/navigation-rail)
-
-_Not available yet_
-
-[Progress indicators](https://material.io/components/progress-indicators)
-
-[`CircularProgressIndicator`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#circularprogressindicator)
-[`LinearProgressIndicator`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#linearprogressindicator)
-
-[Radio buttons](https://material.io/components/radio-buttons)
-
-[`RadioButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#radiobutton)
-
-[Sheets: bottom](https://material.io/components/sheets-bottom)
-
-[`BottomSheetScaffold`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomsheetscaffold)
-[`ModalBottomSheetLayout`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#modalbottomsheetlayout)
-
-[Sheets: side](https://material.io/components/sheets-side)
-
-_Not available yet_
-
-[Sliders](https://material.io/components/sliders)
-
-[`Slider`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#slider)
-
-[Snackbars](https://material.io/components/snackbars)
-
-[`Snackbar`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#snackbar)
-[`Scaffold`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#scaffold)
-
-[Switches](https://material.io/components/switches)
-
-[`Switch`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#switch)
-
-[Tabs](https://material.io/components/tabs)
-
-`[Tab](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#tab)`
-[`TabRow`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#tabrow)
-[`ScrollableTabRow`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#scrollabletabrow)
-
-[Text fields](https://material.io/components/text-fields)
-
-[`TextField`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#textfield)
-[`OutlinedTextField`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#outlinedtextfield)
-
-[Time pickers](https://material.io/components/time-pickers)
-
-_Not available yet_
-
-[Tooltips](https://material.io/components/tooltips)
-
-_Not available yet_
+| [App bars: bottom](https://material.io/components/app-bars-bottom) | [`BottomAppBar`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomappbar) |
+| --- | --- |
+| [App bars: top](https://material.io/components/app-bars-top) | [`TopAppBar`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#topappbar) |
+| [Backdrop](https://material.io/components/backdrop) | [`Backdrop`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#backdropscaffold) |
+| [Banners](https://material.io/components/banners) | _Not available yet_ |
+| [Bottom navigation](https://material.io/components/bottom-navigation) | [`BottomNavigation`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomnavigation) |
+| [Buttons](https://material.io/components/buttons) | [`Button`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#button) [`OutlinedButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#outlinedbutton) [`TextButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#textbutton) |
+| [Buttons: floating action button](https://material.io/components/buttons-floating-action-button) | [`FloatingActionButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#floatingactionbutton) [`ExtendedFloatingActionButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#extendedfloatingactionbutton) |
+| [Cards](https://material.io/components/cards) | [`Card`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#card) |
+| [Checkboxes](https://material.io/components/checkboxes) | [`Checkbox`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#checkbox) [`TriStateCheckbox`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#tristatecheckbox) |
+| [Chips](https://material.io/components/chips) | _Not available yet_ |
+| [Data tables](https://material.io/components/data-tables) | _Not available yet_ |
+| [Date pickers](https://material.io/components/date-pickers) | _Not available yet_ |
+| [Dialogs](https://material.io/components/dialogs) | [`AlertDialog`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#alertdialog) |
+| [Dividers](https://material.io/components/dividers) | [`Divider`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#divider) |
+| [Image lists](https://material.io/components/image-lists) | _Not available yet_ |
+| [Lists](https://material.io/components/lists) | [`ListItem`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#listitem) |
+| [Menus](https://material.io/components/menus) | [`DropdownMenu`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#dropdownmenu) [`DropdownMenuItem`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#dropdownmenuitem) |
+| [Navigation drawer](https://material.io/components/navigation-drawer) | [`ModalDrawerLayout`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#modaldrawerlayout) [`BottomDrawerLayout`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomdrawerlayout) |
+| [Navigation rail](https://material.io/components/navigation-rail) | _Not available yet_ |
+| [Progress indicators](https://material.io/components/progress-indicators) | [`CircularProgressIndicator`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#circularprogressindicator) [`LinearProgressIndicator`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#linearprogressindicator) |
+| [Radio buttons](https://material.io/components/radio-buttons) | [`RadioButton`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#radiobutton) |
+| [Sheets: bottom](https://material.io/components/sheets-bottom) | [`BottomSheetScaffold`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#bottomsheetscaffold) [`ModalBottomSheetLayout`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#modalbottomsheetlayout) |
+| [Sheets: side](https://material.io/components/sheets-side) | _Not available yet_ |
+| [Sliders](https://material.io/components/sliders) | [`Slider`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#slider) |
+| [Snackbars](https://material.io/components/snackbars) | [`Snackbar`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#snackbar) [`Scaffold`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#scaffold) |
+| [Switches](https://material.io/components/switches) | [`Switch`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#switch) |
+| [Tabs](https://material.io/components/tabs) | `[Tab](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#tab)` [`TabRow`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#tabrow) [`ScrollableTabRow`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#scrollabletabrow) |
+| [Text fields](https://material.io/components/text-fields) | [`TextField`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#textfield) [`OutlinedTextField`](https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary#outlinedtextfield) |
+| [Time pickers](https://material.io/components/time-pickers) | _Not available yet_ |
+| [Tooltips](https://material.io/components/tooltips) | _Not available yet_ |
 
 These components can be combined—using layouts and composables like `Scaffold`—as the building blocks for beautiful UIs.
 

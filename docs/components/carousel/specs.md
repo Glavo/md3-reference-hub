@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/f0e518717353-lyr7cydt-1.png"
@@ -31,7 +31,7 @@ Carousels show a collection of items that can be scrolled on and off the screen
 
 ![4 elements of a carousel.](../../../assets/images/f0e518717353-lyr7cydt-1.png)
 
-_ContainerLarge carousel itemMedium carousel itemSmall carousel item_
+_Container; Large carousel item; Medium carousel item; Small carousel item_
 
 ## Tokens & specs
 
@@ -39,7 +39,11 @@ Browse the component elements, attributes, tokens, and their values.
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Carousel
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Carousel item | md.comp.carousel-item | COMPONENT | For carousel items. |
 
 ## Color
 
@@ -47,7 +51,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![2 color roles of a carousel.](../../../assets/images/2be75efbfb97-lyr7dtgs-2.png)
 
-_Carousel color roles used for light and dark schemes:ContainerSurface_
+_Carousel color roles used for light and dark schemes: Container; Surface_
 
 ## States
 
@@ -55,7 +59,7 @@ States are visual representations used to communicate the status of a component 
 
 ![5 states of a carousel in light and dark schemes.](../../../assets/images/3695dcfc51fd-m8tafq6c-3.png)
 
-_EnabledHoveredFocusedPressedDisabled_
+_Enabled; Hovered; Focused; Pressed; Disabled_
 
 ## Carousel item dynamic widths
 
@@ -77,7 +81,7 @@ The multi-browse layout shows at least one large, medium, and small carousel ite
 
 ![4 elements of a multi-browse carousel layout.](../../../assets/images/000adff82c57-lyr7hu8z-5.png)
 
-_ContainerLarge carousel itemMedium carousel itemSmall carousel item_
+_Container; Large carousel item; Medium carousel item; Small carousel item_
 
 ### Measurements
 
@@ -85,41 +89,16 @@ _ContainerLarge carousel itemMedium carousel itemSmall carousel item_
 
 _Multi-browse carousels have padding on both sides of the container_
 
-Attribute
-
-Value
-
-Alignment
-
-Vertically centered
-
-Leading/trailing padding
-
-16dp
-
-Top/bottom padding
-
-8dp
-
-Padding between elements
-
-8dp
-
-Large item width
-
-Dynamic, or user-set
-
-Medium item width
-
-Dynamic
-
-Small item width
-
-40–56dp, dynamic
-
-Item corner radius
-
-28dp
+| Attribute | Value |
+| --- | --- |
+| Alignment | Vertically centered |
+| Leading/trailing padding | 16dp |
+| Top/bottom padding | 8dp |
+| Padding between elements | 8dp |
+| Large item width | Dynamic, or user-set |
+| Medium item width | Dynamic |
+| Small item width | 40–56dp, dynamic |
+| Item corner radius | 28dp |
 
 ## Uncontained
 
@@ -127,7 +106,7 @@ The uncontained layout shows items that scroll to the edge of the container.
 
 ![4 elements of an uncontained carousel layout.](../../../assets/images/4a744f97bb28-lyr7jh4c-7.png)
 
-_ContainerLarge carousel item_
+_Container; Large carousel item_
 
 ### Measurements
 
@@ -135,29 +114,13 @@ _ContainerLarge carousel item_
 
 _Uncontained carousel items bleed over the padding on each side when scrolling_
 
-Attribute
-
-Value
-
-Alignment
-
-Vertically centered
-
-Leading padding
-
-16dp
-
-Top/bottom padding
-
-8dp
-
-Padding between elements
-
-8dp
-
-Item corner radius
-
-28dp
+| Attribute | Value |
+| --- | --- |
+| Alignment | Vertically centered |
+| Leading padding | 16dp |
+| Top/bottom padding | 8dp |
+| Padding between elements | 8dp |
+| Item corner radius | 28dp |
 
 ## Uncontained mutli-aspect ratio
 
@@ -165,7 +128,7 @@ The uncontained multi-aspect ratio layout shows carousel items of various widths
 
 ![4 elements of an uncontained carousel layout](../../../assets/images/c2fe72213218-mi9lyvnk-09-3P.png)
 
-_ContainerCarousel item (16:9)Carousel item (9:16)Carousel item (1:1)Carousel item (3:4)_
+_Container; Carousel item (16:9); Carousel item (9:16); Carousel item (1:1); Carousel item (3:4)_
 
 ### Measurements
 
@@ -173,29 +136,13 @@ _ContainerCarousel item (16:9)Carousel item (9:16)Carousel item (1:1)Carousel it
 
 _Uncontained multi-aspect ratio carousels only have leading padding, with 8dp of padding between items._
 
-Attribute
-
-Value
-
-Alignment
-
-Vertically centered
-
-Leading padding
-
-16dp
-
-Top/bottom padding
-
-8dp
-
-Padding between elements
-
-8dp
-
-Item corner radius
-
-28dp
+| Attribute | Value |
+| --- | --- |
+| Alignment | Vertically centered |
+| Leading padding | 16dp |
+| Top/bottom padding | 8dp |
+| Padding between elements | 8dp |
+| Item corner radius | 28dp |
 
 ## Hero
 
@@ -203,7 +150,7 @@ The hero layout shows at least one large item and one small item.
 
 ![3 elements of a hero carousel layout.](../../../assets/images/3eeefcd335c2-lyr7l425-9.png)
 
-_ContainerLarge carousel itemSmall carousel item_
+_Container; Large carousel item; Small carousel item_
 
 ### Measurements
 
@@ -211,37 +158,15 @@ _ContainerLarge carousel itemSmall carousel item_
 
 _Hero carousels have padding on both sides of the container_
 
-Attribute
-
-Value
-
-Alignment
-
-Vertically centered
-
-Leading/Trailing padding
-
-16dp
-
-Top/bottom padding
-
-8dp
-
-Padding between elements
-
-8dp
-
-Large item width
-
-Dynamic
-
-Small item width
-
-40-56dp, dynamic
-
-Item corner radius
-
-28dp
+| Attribute | Value |
+| --- | --- |
+| Alignment | Vertically centered |
+| Leading/Trailing padding | 16dp |
+| Top/bottom padding | 8dp |
+| Padding between elements | 8dp |
+| Large item width | Dynamic |
+| Small item width | 40-56dp, dynamic |
+| Item corner radius | 28dp |
 
 ## Center-aligned hero
 
@@ -249,7 +174,7 @@ The center-aligned hero layout shows at least one large item and two small items
 
 ![3 elements of a center-aligned hero carousel layout.](../../../assets/images/53b0df6870a5-lyr7mksj-11.png)
 
-_ContainerLarge carousel itemSmall carousel item_
+_Container; Large carousel item; Small carousel item_
 
 ### Measurements
 
@@ -257,37 +182,15 @@ _ContainerLarge carousel itemSmall carousel item_
 
 _Center-aligned hero carousels have padding on both sides of the container_
 
-Attribute
-
-Value
-
-Alignment
-
-Vertically centered
-
-Leading/Trailing padding
-
-16dp
-
-Top/bottom padding
-
-8dp
-
-Padding between elements
-
-8dp
-
-Large item width
-
-Dynamic
-
-Small item width
-
-40-56dp, dynamic
-
-Item corner radius
-
-28dp
+| Attribute | Value |
+| --- | --- |
+| Alignment | Vertically centered |
+| Leading/Trailing padding | 16dp |
+| Top/bottom padding | 8dp |
+| Padding between elements | 8dp |
+| Large item width | Dynamic |
+| Small item width | 40-56dp, dynamic |
+| Item corner radius | 28dp |
 
 ## Full-screen
 
@@ -295,7 +198,7 @@ The full-screen layout shows one edge-to-edge large item.
 
 ![2 elements of a full-screen carousel layout.](../../../assets/images/c7f20d827210-lyr7o850-13.png)
 
-_ContainerLarge carousel item_
+_Container; Large carousel item_
 
 ### Measurements
 
@@ -303,22 +206,9 @@ _ContainerLarge carousel item_
 
 _Full-screen carousels fill the window edge-to-edge_
 
-Attribute
-
-Value
-
-Alignment
-
-Centered
-
-Leading/Trailing padding
-
-0dp
-
-Top/bottom padding
-
-0dp
-
-Padding between elements
-
-16dp
+| Attribute | Value |
+| --- | --- |
+| Alignment | Centered |
+| Leading/Trailing padding | 0dp |
+| Top/bottom padding | 0dp |
+| Padding between elements | 16dp |

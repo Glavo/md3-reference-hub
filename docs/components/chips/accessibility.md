@@ -2,7 +2,7 @@
 title: "Chips"
 source_url: "https://m3.material.io/components/chips/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/42035becc577-m99z66s4-01.png"
@@ -68,89 +68,22 @@ To ensure that this density setting can be easily reverted when it's active, kee
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-**Tab**
-
-Moves focus to enabled chip or chip group
-
-**Space** or **Enter**
-
-Activates, selects, or deselects the focused chip
-
-**Backspace** or **Delete**
-
-Removes currently focused input chip
-
-**Arrows**
-
-Moves focus between chips
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Moves focus to enabled chip or chip group |
+| **Space** or **Enter** | Activates, selects, or deselects the focused chip |
+| **Backspace** or **Delete** | Removes currently focused input chip |
+| **Arrows** | Moves focus between chips |
 
 ## Labeling elements
 
-Element
-
-A11y label
-
-Role (Web)
-
-Role (Android Views (MDC-Android))
-
-Role (Jetpack Compose)
-
-Image / Icon within chip
-
-Hide image
-
-\-
-
-\-
-
-\-
-
-Basic chip (one action)
-
-“{chip content}”
-
-gridcell
-
-button
-
-button
-
-Selectable chip
-
-“{chip content}”
-
-gridcell
-
-radio button
-
-checkbox
-
-Remove icon (no other action)
-
-“Remove {chip content}”
-
-\-
-
-\-
-
-\-
-
-Two actions (e.g., select + remove)
-
-“{chip content}.” Then
-
-“Remove {chip content}”.
-
-button or checkbox
-
-button or checkbox
-
-button or checkbox
+| Element | A11y label | Role (Web) | Role (Android Views (MDC-Android)) | Role (Jetpack Compose) |
+| --- | --- | --- | --- | --- |
+| Image / Icon within chip | Hide image | \- | \- | \- |
+| Basic chip (one action) | “{chip content}” | gridcell | button | button |
+| Selectable chip | “{chip content}” | gridcell | radio button | checkbox |
+| Remove icon (no other action) | “Remove {chip content}” | \- | \- | \- |
+| Two actions (e.g., select + remove) | “{chip content}.” Then “Remove {chip content}”. | button or checkbox | button or checkbox | button or checkbox |
 
 The accessibility label for a chip is the chip's label text. Additional actions, like remove, are labeled separately.
 

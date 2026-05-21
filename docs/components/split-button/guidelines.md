@@ -2,7 +2,7 @@
 title: "Split buttons"
 source_url: "https://m3.material.io/components/split-button/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/99689c6aaafe-m36akp9w-1.png"
@@ -79,7 +79,7 @@ _Avoid modifying the menu in unusual ways_
 
 ![4 elements of a split button.](../../../assets/images/b374d3d8f992-m0dp22eb-8.png)
 
-_Leading buttonIconLabel textTrailing button_
+_Leading button; Icon; Label text; Trailing button_
 
 The leading button should be brief, just one or two words, with an icon that best matches the action.
 
@@ -125,4 +125,4 @@ The menu should be 4dp from the split button.
 
 ![6 other ways the menu can align to the split button.](../../../assets/images/ea54d7e3cfe7-m4iz4b9v-14.png)
 
-_Top aligned to trailing buttonBottom aligned to trailing buttonTop right-alignedTop left-alignedBottom right-aligned Bottom left-aligned_
+_Top aligned to trailing button; Bottom aligned to trailing button; Top right-aligned; Top left-aligned; Bottom right-aligned; Bottom left-aligned_

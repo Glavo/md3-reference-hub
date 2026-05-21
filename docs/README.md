@@ -1,6 +1,6 @@
 # Material Design 3 Reference
 
-Snapshot: 2026-05-21T00:38:04.260Z
+Snapshot: 2026-05-21T02:20:48.794Z
 
 Source: https://m3.material.io/
 

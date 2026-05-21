@@ -2,7 +2,7 @@
 title: "Snackbar"
 source_url: "https://m3.material.io/components/snackbar/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/fc6da0d2c294-m6a9x4e1-1.png"
@@ -81,23 +81,10 @@ _Dialogs require immediate action_
 **When to use snackbars**
 Snackbars communicate messages that are minimally interruptive and don’t require user action.
 
-Component
-
-Priority
-
-User action
-
-Snackbar
-
-Low priority
-
-Optional: Snackbars disappear automatically
-
-Dialog
-
-High priority
-
-Required: Dialogs block app usage until the user takes a dialog action or exits the dialog (if available)
+| Component | Priority | User action |
+| --- | --- | --- |
+| Snackbar | Low priority | Optional: Snackbars disappear automatically |
+| Dialog | High priority | Required: Dialogs block app usage until the user takes a dialog action or exits the dialog (if available) |
 
 ### Accessibility requirements for web
 
@@ -121,7 +108,7 @@ _Also communicate snackbar information near the action that triggered the snackb
 
 ![4 elements of a snackbar.](../../../assets/images/9214dba87d5e-lwoy0ibw-6.png)
 
-_ContainerSupporting textAction (optional)Close button (optional)_
+_Container; Supporting text; Action (optional); Close button (optional)_
 
 ### Text label
 

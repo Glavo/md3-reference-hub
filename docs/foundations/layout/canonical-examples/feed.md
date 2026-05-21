@@ -2,7 +2,7 @@
 title: "Canonical layout examples"
 source_url: "https://m3.material.io/foundations/layout/canonical-examples/feed"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/4aff0ee5d2bf-mp736am6-Feed-adapt-hero.png"
@@ -69,7 +69,7 @@ A feed layout should stack vertically, like a list of cards with individual ite
 
 ![Cards in 2 feed layouts, compact and expanded.](../../../../assets/images/54cdb724cafe-mp52hmfv-05.png)
 
-_In compact windows, the cards in a feed stack vertically, filling the full width: Compact breakpointExpanded breakpoint_
+_In compact windows, the cards in a feed stack vertically, filling the full width: Compact breakpoint; Expanded breakpoint_
 
 ### Medium
 

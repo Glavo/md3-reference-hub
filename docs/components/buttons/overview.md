@@ -2,7 +2,7 @@
 title: "Buttons"
 source_url: "https://m3.material.io/components/buttons/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/108b24f85d53-mmm1qv5u-01.png"
@@ -31,14 +31,14 @@ Buttons prompt most actions in a UI
 
 ![5 variants of buttons.](../../../assets/images/108b24f85d53-mmm1qv5u-01.png)
 
-_Elevated buttonFilled buttonFilled tonal buttonOutlined buttonText button_
+_Elevated button; Filled button; Filled tonal button; Outlined button; Text button_
 
 ## Availability & resources
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md |
 | JETPACK_IMPLEMENTATION | Jetpack Compose: Expressive | AVAILABLE | https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#Button(kotlin.Function0,androidx.compose.ui.Modifier,kotlin.Boolean,androidx.compose.ui.graphics.Shape,androidx.compose.material3.ButtonColors,androidx.compose.material3.ButtonElevation,androidx.compose.foundation.BorderStroke,androidx.compose.foundation.layout.PaddingValues,androidx.compose.foundation.interaction.MutableInteractionSource,kotlin.Function1) |
@@ -91,7 +91,7 @@ New padding for **small** buttons:
 
 ![4 button changes in the expressive update.](../../../assets/images/015c1315a60f-mmm1tos0-03.png)
 
-_Five sizesToggle (selection)Two shapesTwo small padding widths_
+_Five sizes; Toggle (selection); Two shapes; Two small padding widths_
 
 ## Differences from M2
 

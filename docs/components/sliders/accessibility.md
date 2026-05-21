@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/accessibility"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/49270f5c3c90-lx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4"
@@ -69,25 +69,12 @@ _Icons make it easier to identify the ends of the slider on a low-contrast backg
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Tab
-
-Moves focus to the slider handle
-
-Arrows
-
-Increase and decrease the value by one value or one stop indicator
-
-Space & Arrows
-
-Increase and decrease the value by one interval or one stop indicator
-
-Home or End
-
-Set the slider to the first and last values on the slider
+| Keys | Actions |
+| --- | --- |
+| Tab | Moves focus to the slider handle |
+| Arrows | Increase and decrease the value by one value or one stop indicator |
+| Space & Arrows | Increase and decrease the value by one interval or one stop indicator |
+| Home or End | Set the slider to the first and last values on the slider |
 
 ## Labeling elements
 

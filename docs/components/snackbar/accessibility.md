@@ -2,7 +2,7 @@
 title: "Snackbar"
 source_url: "https://m3.material.io/components/snackbar/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/3c5be3b0373c-lwp0j72d-1.png"
@@ -89,17 +89,10 @@ Focus exits the snackbar differently per platform:
 
 ### Keyboard navigation
 
-Keys
-
-Actions
-
-Tab
-
-Moves focus between interactive elements
-
-Esc
-
-Dismisses the snackbar when in focus
+| Keys | Actions |
+| --- | --- |
+| Tab | Moves focus between interactive elements |
+| Esc | Dismisses the snackbar when in focus |
 
 ### Labeling elements
 

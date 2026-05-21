@@ -2,7 +2,7 @@
 title: "Color system"
 source_url: "https://m3.material.io/styles/color/system/overview"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/videos/027437e043f5-linbli4g-MAT020.01-v4.mp4"
@@ -69,37 +69,13 @@ This provides:
 
 ## Resources
 
-Type
-
-Link
-
-Status
-
-Design
-
-[Design Kit](https://www.figma.com/community/file/1035203688168086460) (Figma)
-
-Available
-
-Implementation
-
-[Android Views (MDC-Android)](https://github.com/material-components/material-components-android/blob/master/docs/theming/Color.md)
-
-Available
-
-[Jetpack Compose](https://developer.android.com/develop/ui/compose/designsystems/material3#dynamic_color_schemes)
-
-Available
-
-[Flutter](https://pub.dev/packages/dynamic_color)
-
-Available
-
-Tools
-
-[Material Theme Builder](https://www.figma.com/community/plugin/1034969338659738588/material-theme-builder)
-
-Available
+| Type | Link | Status |
+| --- | --- | --- |
+| Design | [Design Kit](https://www.figma.com/community/file/1035203688168086460) (Figma) | Available |
+| Implementation | [Android Views (MDC-Android)](https://github.com/material-components/material-components-android/blob/master/docs/theming/Color.md) | Available |
+| [Jetpack Compose](https://developer.android.com/develop/ui/compose/designsystems/material3#dynamic_color_schemes) | Available |  |
+| [Flutter](https://pub.dev/packages/dynamic_color) | Available |  |
+| Tools | [Material Theme Builder](https://www.figma.com/community/plugin/1034969338659738588/material-theme-builder) | Available |
 
 ## What's new
 

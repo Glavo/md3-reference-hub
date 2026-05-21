@@ -2,7 +2,7 @@
 title: "Split buttons"
 source_url: "https://m3.material.io/components/split-button/accessibility"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/da661acec8ef-m0dpv69h-1.png"
@@ -31,7 +31,7 @@ Each button in the split button needs a minimum target area of 48x48dp. Extra sm
 
 ![Diagram showing extra small and small split buttons with visible 48x48dp target areas.](../../../assets/images/da661acec8ef-m0dpv69h-1.png)
 
-_Target areas should be at least 48x48dp Extra smallSmall_
+_Target areas should be at least 48x48dp / Extra small; Small_
 
 ## Initial focus
 
@@ -39,21 +39,14 @@ Focus should land on the leading button then move to the trailing button. This c
 
 ![Focus on the leading button and trailing button for both LTR and RTL languages.](../../../assets/images/a1eaffb236db-m0dpwfdp-2.png)
 
-_Left to rightRight to left_
+_Left to right; Right to left_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Tab
-
-Navigate between buttons
-
-Space or enter
-
-Activate focused button
+| Keys | Actions |
+| --- | --- |
+| Tab | Navigate between buttons |
+| Space or enter | Activate focused button |
 
 ## Labeling elements
 

@@ -2,7 +2,7 @@
 title: "Text fields"
 source_url: "https://m3.material.io/components/text-fields/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/91d75ba7bf80-lyqb5o7k-1-(1).png"
@@ -127,13 +127,13 @@ _When using both variants of text fields, don't use both next to each other or w
 
 ![Diagram of filled text field indicating the 10 parts of its anatomy.](../../../assets/images/0a5d141f151a-m2j3kn4a-9.png)
 
-_ContainerLeading icon (optional)Label text in empty fieldLabel text in populated fieldTrailing icon (optional)Focused active IndicatorCaretInput textSupporting text (optional)Enabled active Indicator_
+_Container; Leading icon (optional); Label text in empty field; Label text in populated field; Trailing icon (optional); Focused active Indicator; Caret; Input text; Supporting text (optional); Enabled active Indicator_
 
 ### Outlined text field
 
 ![Diagram of an outlined text field indicating the 9 parts of its anatomy.](../../../assets/images/9a41816dcf28-m2j3kqed-10.png)
 
-_Enabled container outlineLabel text in empty fieldLeading icon (optional)Label text in populated fieldTrailing icon (optional)Focused container outlineCaretInput textSupporting text (optional)_
+_Enabled container outline; Label text in empty field; Leading icon (optional); Label text in populated field; Trailing icon (optional); Focused container outline; Caret; Input text; Supporting text (optional)_
 
 ### Containers
 
@@ -251,7 +251,7 @@ If there is a character or word limit, include a character or word counter. They
 
 ![A side by side view of a text field with supporting text aligned with the trailing side, and a character counter aligned with the trailing side. ](../../../assets/images/a0c0d6b77a7d-lx324ofo-24.png)
 
-_Supporting textCharacter counter_
+_Supporting text; Character counter_
 
 ### Error text
 
@@ -308,7 +308,7 @@ Images that are 24dp in height can be placed inside of text fields. This image h
 
 ![Side by side view of text fields with different icons and images as trailing elements within the container. ](../../../assets/images/b20542ce399d-lx3270td-28.png)
 
-_Icon signifierValid or error icon Clear icon Voice input iconDropdown iconImage_
+_Icon signifier; Valid or error icon; Clear icon; Voice input icon; Dropdown icon; Image_
 
 ### Read-only fields
 

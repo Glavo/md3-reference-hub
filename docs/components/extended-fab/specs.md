@@ -2,7 +2,7 @@
 title: "Extended FABs"
 source_url: "https://m3.material.io/components/extended-fab/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/0a7a08bc5326-ma3rfc55-01-3P.png"
@@ -31,7 +31,7 @@ assets:
 
 ![3 variants of extended FABs.](../../../assets/images/0a7a08bc5326-ma3rfc55-01-3P.png)
 
-_Small extended FABMedium extended FABLarge extended FAB_
+_Small extended FAB; Medium extended FAB; Large extended FAB_
 
 ### Baseline variants
 
@@ -41,36 +41,12 @@ The baseline extended FAB is no longer recommended in the M3 expressive update. 
 
 _Extended FAB_
 
-Variant
-
-M3
-
-M3 Expressive
-
-Small extended FAB
-
-\--
-
-Available
-
-Medium extended FAB
-
-\--
-
-Available
-
-Large extended FAB
-
-\--
-
-Available
-
-Extended FAB (baseline) 
-
-Available
-
-Not recommended.
-Use **small extended FAB.**
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| Small extended FAB | \-- | Available |
+| Medium extended FAB | \-- | Available |
+| Large extended FAB | \-- | Available |
+| Extended FAB (baseline) | Available | Not recommended. Use **small extended FAB.** |
 
 ## Tokens & specs
 
@@ -78,13 +54,28 @@ Use the table's menu to select a token set. Extended FAB tokens are organized by
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Extended FAB
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Extended FAB - Color - Tonal primary | md.comp.extended-fab.primary-container | COMPONENT | For tonal primary container extended FABs. |
+| Extended FAB - Color - Tonal secondary | md.comp.extended-fab.secondary-container | COMPONENT | For tonal secondary container extended FABs. |
+| Extended FAB - Color - Tonal tertiary | md.comp.extended-fab.tertiary-container | COMPONENT | For tonal tertiary container extended FABs. |
+| Extended FAB - Size - Baseline | md.comp.extended-fab | COMPONENT | For baseline extended FABs. For expressive, use the small extended FAB token set `md.comp.extended-fab.small` instead. |
+| Extended FAB - Size - Large | md.comp.extended-fab.large | COMPONENT | For large extended FABs. |
+| Extended FAB - Size - Medium | md.comp.extended-fab.medium | COMPONENT | For medium extended FABs. |
+| Extended FAB - Size - Small | md.comp.extended-fab.small | COMPONENT | For expressive small extended FABs. |
+| Extended FAB - Color - Primary | md.comp.extended-fab.primary | COMPONENT | For primary color extended FABs. |
+| Extended FAB - Color - Surface | md.comp.extended-fab.surface | COMPONENT | For surface color extended FABs. Not recommended with expressive extended FABs. |
+| Extended FAB - Color - Secondary | md.comp.extended-fab.secondary | COMPONENT | For secondary color extended FABs. |
+| Extended FAB - Color - Tertiary | md.comp.extended-fab.tertiary | COMPONENT | For tertiary color extended FABs. |
+| Extended FAB - Color - Branded | md.comp.extended-fab.branded | COMPONENT | For branded color extended FABs. Not recommended with expressive extended FABs. |
 
 ## Anatomy
 
 ![3 elements of extended FABs.](../../../assets/images/6312ddb56a64-ma3rgmo9-03-3P.png)
 
-_ContainerLabel textIcon_
+_Container; Label text; Icon_
 
 ## Color
 
@@ -96,7 +87,7 @@ Extended FABs can use several combinations of **color** and **on color** styles,
 
 ![6 extended FAB color styles.](../../../assets/images/ce1f182a9511-ma3rha4a-04-3P.png)
 
-_Extended FAB color roles used for light and dark schemes:Primary container & on primary container (default)Secondary container & on secondary containerTertiary container & on tertiary containerPrimary & on primarySecondary & on secondaryTertiary & on tertiary_
+_Extended FAB color roles used for light and dark schemes: Primary container & on primary container (default); Secondary container & on secondary container; Tertiary container & on tertiary container; Primary & on primary; Secondary & on secondary; Tertiary & on tertiary_
 
 ### Baseline color styles
 
@@ -114,7 +105,7 @@ When using a non-default color mapping for extended FABs, make sure the state la
 
 ![4 states of extended FABs.](../../../assets/images/725545795226-maljqck5-06-3P.png)
 
-_Enabled Hovered - elevation 4Focused Pressed_
+_Enabled; Hovered - elevation 4; Focused; Pressed_
 
 ## Measurements
 
@@ -130,7 +121,7 @@ _Extended FABs should have margins of 16dp_
 
 ![3 elements of baseline extended FAB.](../../../assets/images/0ffeeca0fbb4-ma3rm9q3-10-3P.png)
 
-_ContainerLabel textIcon_
+_Container; Label text; Icon_
 
 ### Baseline configurations
 
@@ -148,7 +139,22 @@ Use the table's menu to select a token set. The baseline extended FAB token sets
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Extended FAB
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Extended FAB - Color - Tonal primary | md.comp.extended-fab.primary-container | COMPONENT | For tonal primary container extended FABs. |
+| Extended FAB - Color - Tonal secondary | md.comp.extended-fab.secondary-container | COMPONENT | For tonal secondary container extended FABs. |
+| Extended FAB - Color - Tonal tertiary | md.comp.extended-fab.tertiary-container | COMPONENT | For tonal tertiary container extended FABs. |
+| Extended FAB - Size - Baseline | md.comp.extended-fab | COMPONENT | For baseline extended FABs. For expressive, use the small extended FAB token set `md.comp.extended-fab.small` instead. |
+| Extended FAB - Size - Large | md.comp.extended-fab.large | COMPONENT | For large extended FABs. |
+| Extended FAB - Size - Medium | md.comp.extended-fab.medium | COMPONENT | For medium extended FABs. |
+| Extended FAB - Size - Small | md.comp.extended-fab.small | COMPONENT | For expressive small extended FABs. |
+| Extended FAB - Color - Primary | md.comp.extended-fab.primary | COMPONENT | For primary color extended FABs. |
+| Extended FAB - Color - Surface | md.comp.extended-fab.surface | COMPONENT | For surface color extended FABs. Not recommended with expressive extended FABs. |
+| Extended FAB - Color - Secondary | md.comp.extended-fab.secondary | COMPONENT | For secondary color extended FABs. |
+| Extended FAB - Color - Tertiary | md.comp.extended-fab.tertiary | COMPONENT | For tertiary color extended FABs. |
+| Extended FAB - Color - Branded | md.comp.extended-fab.branded | COMPONENT | For branded color extended FABs. Not recommended with expressive extended FABs. |
 
 ### Baseline colors
 
@@ -156,7 +162,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![3 baseline extended FAB color roles.](../../../assets/images/d1f6d27d7e5b-ma3rmvmo-11-3P.png)
 
-_Extended FAB color roles used for light and dark schemes:Primary container + shadowOn primary containerOn primary container_
+_Extended FAB color roles used for light and dark schemes: Primary container + shadow; On primary container; On primary container_
 
 #### Additional color mappings
 
@@ -172,7 +178,7 @@ States are visual representations used to communicate the status of a component 
 
 ![4 states of baseline extended FAB.](../../../assets/images/ea5474e7eeaf-maljrky7-13-3P.png)
 
-_Enabled Hovered Focused Pressed_
+_Enabled; Hovered; Focused; Pressed_
 
 ### Baseline measurements
 
@@ -184,26 +190,10 @@ _Extended FABs have a padding of 16dp_
 
 _Extended FAB height, width, and icon size_
 
-Attribute
-
-Value
-
-Container height
-
-56dp
-
-Container width
-
-Dynamic, 80dp min
-
-Container shape
-
-16dp corner radius
-
-Icon size
-
-24dp
-
-Padding
-
-16dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 56dp |
+| Container width | Dynamic, 80dp min |
+| Container shape | 16dp corner radius |
+| Icon size | 24dp |
+| Padding | 16dp |

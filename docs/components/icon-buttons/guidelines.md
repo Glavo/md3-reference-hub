@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/guidelines"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/f6089c53c42a-m34mdbc5-icon-buttons-A_2.mp4"
@@ -139,7 +139,7 @@ _When everything should have the same emphasis, use icon buttons that are the sa
 
 ![Diagram of anatomy of outlined, standard, and filled icon buttons. ](../../../assets/images/a698d92b9ac3-m0dw9g2n-11.png)
 
-_IconContainer_
+_Icon; Container_
 
 ### Icon
 

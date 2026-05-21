@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/overview"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/b2681e7e2460-m7ll9aj1-GM3_Expressive_Slider_Overview_01_IA_V01.mp4"
@@ -34,8 +34,8 @@ Sliders let users make selections from a range of values
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Slider.md |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Slider.md |
 | JETPACK_IMPLEMENTATION | Jetpack Compose: Expressive | AVAILABLE | https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#Slider(androidx.compose.material3.SliderState,androidx.compose.ui.Modifier,kotlin.Boolean,androidx.compose.material3.SliderColors,androidx.compose.foundation.interaction.MutableInteractionSource,kotlin.Function1,kotlin.Function1) |
@@ -70,7 +70,7 @@ New configurations: 
 
 ![3 M3 Expressive sliders.](../../../assets/images/34a17fb72cd2-m7lii3kv-02.png)
 
-_Standard sliderCentered sliderRange slider_
+_Standard slider; Centered slider; Range slider_
 
 ## Previous updates
 

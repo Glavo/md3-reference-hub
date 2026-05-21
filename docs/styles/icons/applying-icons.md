@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/applying-icons"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/0bb108f96569-mltewg4l-3p-icons-simple-sm.png"
@@ -167,7 +167,7 @@ Grade is also available in some text fonts. Grade levels between text and symbol
 
 ![Symbol thickness at grade 0 and at negative grade.](../../../assets/images/35cc17306cf4-mltfqxv6-12.png)
 
-_At grade 0, the thickness of the symbol does not changeAt negative grade, the thickness of the symbol appears lighter_
+_At grade 0, the thickness of the symbol does not change; At negative grade, the thickness of the symbol appears lighter_
 
 Grade can also compensate for **visual bleed**, which is when images can look bigger or smaller depending on the color contrast. To match the apparent icon size, the default grade for a dark icon on a light background is 0, and -25 for a light icon on a dark background.
 
@@ -275,7 +275,7 @@ Symbols of 24dp should have a target size of 48dp by default.
 
 ![1. 24dp add symbol inside 48dp red square, 2. mobile UI with attach, add, and more symbols.](../../../assets/images/8c932775ba6a-mlthiy3k-27.png)
 
-_MeasurementsPlacement_
+_Measurements; Placement_
 
 When a mouse and keyboard are the primary input methods, measurements may be condensed to accommodate denser layouts.
 
@@ -283,7 +283,7 @@ A 20dp size symbol can use a target size of 40dp.
 
 ![1. 24dp add symbol inside 48dp red square, 2. desktop UI with attach, add, and more symbols.](../../../assets/images/ec096a401106-mlthk52l-28.png)
 
-_MeasurementsPlacement_
+_Measurements; Placement_
 
 ## Localizing icons
 

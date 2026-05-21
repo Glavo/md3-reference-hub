@@ -2,7 +2,7 @@
 title: "Time pickers"
 source_url: "https://m3.material.io/components/time-pickers/accessibility"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/7f2c9604eb68-md2w3xxn-01.png"
@@ -45,17 +45,10 @@ _Dial selector targets should be 48x48dp_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-**Tab**
-
-Focus lands on (non-disabled) time slot
-
-**Space** or **Enter**
-
-Activates the (non-disabled) time slot
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Focus lands on (non-disabled) time slot |
+| **Space** or **Enter** | Activates the (non-disabled) time slot |
 
 ## Labeling elements
 
@@ -73,116 +66,22 @@ _A screen reader reads the text label of a dial selector_
 
 ### Dial selector
 
-Element
-
-Accessibility label
-
-Role (Wiz and Jetpack Compose)
-
-Role (Android Views)
-
-Hour input (input picker)
-
-Hour
-
-Text input
-
-\-
-
-Minutes input
-
-Minute
-
-Text input
-
-\-
-
-AM/PM selection 
-
-AM or PM
-
-Radio button (in list)
-
-Checkbox (in list)
-
-Keyboard button
-
-Toggle input picker
-
-Button
-
-Button
-
-Cancel button
-
-Cancel
-
-Button
-
-Button
-
-OK button
-
-OK
-
-Button
-
-Button
-
-Clock dial time selection (dial selector)
-
-{Value} Hours or minutes of {Total}
-
-Button
-
-\-
+| Element | Accessibility label | Role (Wiz and Jetpack Compose) | Role (Android Views) |
+| --- | --- | --- | --- |
+| Hour input (input picker) | Hour | Text input | \- |
+| Minutes input | Minute | Text input | \- |
+| AM/PM selection | AM or PM | Radio button (in list) | Checkbox (in list) |
+| Keyboard button | Toggle input picker | Button | Button |
+| Cancel button | Cancel | Button | Button |
+| OK button | OK | Button | Button |
+| Clock dial time selection (dial selector) | {Value} Hours or minutes of {Total} | Button | \- |
 
 ### Input selector
 
-Element
-
-Accessibility label
-
-Role (Wiz and Jetpack Compose)
-
-Role (Android Views)
-
-Hour input (input picker)
-
-Hour
-
-Text input
-
-\-
-
-Minutes input
-
-Minute
-
-Text input
-
-\-
-
-Clock button
-
-Toggle dial picker
-
-Button
-
-Button
-
-Cancel button
-
-Cancel
-
-Button
-
-Button
-
-OK button
-
-OK
-
-Button
-
-Button
+| Element | Accessibility label | Role (Wiz and Jetpack Compose) | Role (Android Views) |
+| --- | --- | --- | --- |
+| Hour input (input picker) | Hour | Text input | \- |
+| Minutes input | Minute | Text input | \- |
+| Clock button | Toggle dial picker | Button | Button |
+| Cancel button | Cancel | Button | Button |
+| OK button | OK | Button | Button |

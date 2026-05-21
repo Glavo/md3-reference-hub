@@ -2,7 +2,7 @@
 title: "Grids &amp; spacing"
 source_url: "https://m3.material.io/foundations/layout/grids-spacing/grids"
 lastmod: "2026-05-15"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/bc2847d8da88-mp54500h-03.png"
@@ -76,7 +76,7 @@ See the [canonical layout examples](../canonical-examples/feed.md) for ideas on 
 
 ![Mobile UI with 1 pane. Foldable UI with 2 panes in a supporting pane layout.](../../../../assets/images/12e546757c11-mp55yqda-08.png)
 
-_Primary paneSupporting pane_
+_Primary pane; Supporting pane_
 
 ## Rulers & alignment
 
@@ -86,7 +86,7 @@ Rulers are a set of recommended global alignment lines that help create consiste
 
 ![1 compact and 1 desktop UI mapping rulers.](../../../../assets/images/d0b9b7553bdd-mp56n0pg-09.png)
 
-_MarginBar or safety regionTitleContent 1Content 2Content 3Content 4Bar or safety regionRail_
+_Margin; Bar or safety region; Title; Content 1; Content 2; Content 3; Content 4; Bar or safety region; Rail_
 
 ### Bar & safety rulers
 

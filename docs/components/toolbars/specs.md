@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/63c55e59d127-ma23ultc-01-3P.png"
@@ -33,7 +33,7 @@ Toolbars display frequently used actions relevant to the current page
 
 ![2 variants of toolbars.](../../../assets/images/63c55e59d127-ma23ultc-01-3P.png)
 
-_Docked toolbarFloating toolbar_
+_Docked toolbar; Floating toolbar_
 
 ### Baseline variant
 
@@ -43,31 +43,11 @@ The baseline bottom app bar is no longer recommended. It should be replaced with
 
 _Bottom app bar (not recommended)_
 
-Variant
-
-M3
-
-M3 Expressive
-
-Docked toolbar
-
-\--
-
-Available
-
-Floating toolbar
-
-\--
-
-Available
-
-Bottom app bar
-
-Available
-
-Not recommended.  
-
-Use **docked toolbar**.
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| Docked toolbar | \-- | Available |
+| Floating toolbar | \-- | Available |
+| Bottom app bar | Available | Not recommended. Use **docked toolbar**. |
 
 star
 
@@ -79,51 +59,15 @@ Implementation differs per platform. On Jetpack Compose, the floating toolbar is
 
 ![Color configuration of toolbars.](../../../assets/images/09397b7ff3a1-ma24i061-02-3P.png)
 
-_Standard and vibrant toolbarsVertical floating toolbarFloating toolbar with FAB_
+_Standard and vibrant toolbars; Vertical floating toolbar; Floating toolbar with FAB_
 
-Category
-
-Configuration
-
-M3
-
-M3 Expressive
-
-Color
-
-Standard (default)
-
-Available as bottom app bar
-
-Available
-
-Vibrant
-
-\--
-
-Available
-
-Floating toolbar layout
-
-Horizontal (default)
-
-\--
-
-Available
-
-Vertical
-
-\--
-
-Available
-
-Other elements
-
-With FAB
-
-Available as bottom app bar
-
-Available\*
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Color | Standard (default) | Available as bottom app bar | Available |
+| Vibrant | \-- | Available |  |
+| Floating toolbar layout | Horizontal (default) | \-- | Available |
+| Vertical | \-- | Available |  |
+| Other elements | With FAB | Available as bottom app bar | Available\* |
 
 star
 
@@ -137,13 +81,22 @@ Browse the component elements, attributes, tokens, and their values. [Jump to ba
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Toolbars
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Toolbar - Color - Standard | md.comp.toolbar.standard | COMPONENT | For standard docked and floating toolbars. |
+| Toolbar - Color - Vibrant | md.comp.toolbar.vibrant | COMPONENT | For vibrant docked and floating toolbars. |
+| Toolbar - Docked | md.comp.toolbar.docked | COMPONENT | For docked toolbars. |
+| Toolbar - Floating | md.comp.toolbar.floating | COMPONENT | For floating toolbars. |
+| Toolbar - Floating - FAB | md.comp.toolbar.floating.fab | COMPONENT | For floating toolbars with a FAB in them. |
+| Bottom app bar (baseline) | md.comp.bottom-app-bar | COMPONENT | Baseline bottom app bar container tokens. For expressive, use `md.comp.toolbar.docked` and `md.comp.toolbar.standard` instead. |
 
 ## Anatomy
 
 ![2 elements of a toolbar.](../../../assets/images/2ef9fa86515b-ma24poz2-03-3P.png)
 
-_ContainerPlaced components_
+_Container; Placed components_
 
 ### Flexibility & slots
 
@@ -163,13 +116,13 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![4 color roles in the standard color scheme  of the floating toolbar in light and dark scheme.](../../../assets/images/e21e92c78fed-ma25fg6c-05-3P.png)
 
-_Standard color schemes and icon button types:Surface containerFilled button (Primary, On primary)Toggle tonal button (Secondary container, On secondary container)Standard button (Primary)_
+_Standard color schemes and icon button types: Surface container; Filled button (Primary, On primary); Toggle tonal button (Secondary container, On secondary container); Standard button (Primary)_
 
 ### Vibrant
 
 ![4 color roles in the vibrant color scheme of the floating toolbar in light and dark scheme.](../../../assets/images/4a6336729d96-ma25hban-06-3P.png)
 
-_Vibrant color scheme and icon button types:Primary containerFilled button (Primary, On primary)Toggle tonal button: (Surface container, On surface)Standard button (On primary container)_
+_Vibrant color scheme and icon button types: Primary container; Filled button (Primary, On primary); Toggle tonal button: (Surface container, On surface); Standard button (On primary container)_
 
 ## Measurements
 
@@ -179,11 +132,11 @@ By default all toolbars are 64dp high, center-aligned, have equal padding betwee
 
 ![Default internal padding of a docked toolbar.](../../../assets/images/4076d0948ab3-ma25j41t-07-3P.png)
 
-_Default margins and paddingMargins and padding with leading, middle, and trailing content_
+_Default margins and padding; Margins and padding with leading, middle, and trailing content_
 
 ![2 docked toolbars with different margins and alignment.](../../../assets/images/1ef0485d0e12-ma25jqfl-08-3P.png)
 
-_Alignment and padding can be configured to create unique layouts:Left and right alignmentCenter-aligned, 8dp padding between items_
+_Alignment and padding can be configured to create unique layouts: Left and right alignment; Center-aligned, 8dp padding between items_
 
 ### Floating toolbar
 
@@ -213,7 +166,16 @@ Bottom app bar tokens are in one token set.
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Toolbars
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Toolbar - Color - Standard | md.comp.toolbar.standard | COMPONENT | For standard docked and floating toolbars. |
+| Toolbar - Color - Vibrant | md.comp.toolbar.vibrant | COMPONENT | For vibrant docked and floating toolbars. |
+| Toolbar - Docked | md.comp.toolbar.docked | COMPONENT | For docked toolbars. |
+| Toolbar - Floating | md.comp.toolbar.floating | COMPONENT | For floating toolbars. |
+| Toolbar - Floating - FAB | md.comp.toolbar.floating.fab | COMPONENT | For floating toolbars with a FAB in them. |
+| Bottom app bar (baseline) | md.comp.bottom-app-bar | COMPONENT | Baseline bottom app bar container tokens. For expressive, use `md.comp.toolbar.docked` and `md.comp.toolbar.standard` instead. |
 
 ### Color
 
@@ -221,7 +183,7 @@ Color values are implemented through design tokens. For designers, this means wo
 
 ![Diagram of bottom app bar indicating its color mappings.](../../../assets/images/c2f04d3299d1-ma25vwtc-13-3P.png)
 
-_Bottom app bar color role used for light and dark themes:Surface container_
+_Bottom app bar color role used for light and dark themes: Surface container_
 
 ### Measurements
 
@@ -233,4 +195,4 @@ _Bottom app bar padding and size measurements_
 
 ![Side by side view of bottom app bars in different configurations.](../../../assets/images/3ccd13ffd70d-ma25xkg5-15-3P.png)
 
-_Icon buttons and FABIcon buttons and no FAB_
+_Icon buttons and FAB; Icon buttons and no FAB_

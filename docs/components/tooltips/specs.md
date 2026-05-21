@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/specs"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/6317ea202a25-mg6beegk-01-3P.png"
@@ -26,13 +26,18 @@ Select a component variant below to see its attributes, tokens, and values.
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Tooltips
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Tooltip - Plain | md.comp.plain-tooltip | COMPONENT | For plain tooltips. |
+| Tooltip - Rich | md.comp.rich-tooltip | COMPONENT | For rich tooltips. |
 
 ## Plain tooltip
 
 ![2 elements of a plain tooltip.](../../../assets/images/6317ea202a25-mg6beegk-01-3P.png)
 
-_Supporting textContainer_
+_Supporting text; Container_
 
 ### Plain tooltip colors
 
@@ -40,7 +45,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![2 color roles of a plain tooltip.](../../../assets/images/91ab4f2fd776-mg6bfggt-02-3P.png)
 
-_Plain tooltip color roles used for light and dark themes:Inverse on surfaceInverse surface_
+_Plain tooltip color roles used for light and dark themes: Inverse on surface; Inverse surface_
 
 ### Plain tooltip measurements
 
@@ -48,23 +53,16 @@ _Plain tooltip color roles used for light and dark themes:Inverse on surfaceInve
 
 _Plain tooltip padding and size measurements_
 
-Attribute
-
-Value
-
-Container height
-
-24dp
-
-Padding
-
-8dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 24dp |
+| Padding | 8dp |
 
 ## Rich tooltip
 
 ![4 elements of a rich tooltip.](../../../assets/images/730d115a0d28-mg6bgxay-04-3P.png)
 
-_SubheadContainerSupporting textText button_
+_Subhead; Container; Supporting text; Text button_
 
 ### Rich tooltip colors
 
@@ -72,7 +70,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![4 color roles of a rich tooltip.](../../../assets/images/51b8923b7d3f-mg6bi2oc-05-3P.png)
 
-_Rich tooltip color roles used for light and dark themes:On surface variant Surface containerOn surface variant Primary_
+_Rich tooltip color roles used for light and dark themes: On surface variant; Surface container; On surface variant; Primary_
 
 ### Rich tooltip measurements
 
@@ -80,21 +78,11 @@ _Rich tooltip color roles used for light and dark themes:On surface variant Surf
 
 _Rich tooltip padding and size measurements_
 
-Attribute
-
-Value
-
-Top padding
-
-12dp
-
-Bottom padding
-
-8dp
-
-Left and right padding
-
-16dp
+| Attribute | Value |
+| --- | --- |
+| Top padding | 12dp |
+| Bottom padding | 8dp |
+| Left and right padding | 16dp |
 
 ### Rich tooltip configurations
 
@@ -102,4 +90,4 @@ Rich tooltips can have a headline, body, and up to two buttons. The headline and
 
 ![5 common configurations of a rich tooltip.](../../../assets/images/70add244d28c-mg6biuoq-07-3P.png)
 
-_Subhead, supporting text, and two buttonsSubhead, supporting text, and one buttonSubhead and supporting textSupporting text and one buttonSupporting text and two buttons_
+_Subhead, supporting text, and two buttons; Subhead, supporting text, and one button; Subhead and supporting text; Supporting text and one button; Supporting text and two buttons_

@@ -2,7 +2,7 @@
 title: "Canonical layout examples"
 source_url: "https://m3.material.io/foundations/layout/canonical-examples/list-detail"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/6bef93607929-mp7394ub-LD-adapt-C.png"
@@ -42,7 +42,7 @@ Key use cases for this layout include parent-child pairings of information like:
 
 ![An email app in a list-detail layout at a medium breakpoint.](../../../../assets/images/6bef93607929-mp7394ub-LD-adapt-C.png)
 
-_List Detail_
+_List; Detail_
 
 ## Usage
 
@@ -58,7 +58,7 @@ Examples include:
 
 ![Several stacked cards make up the list area on the left pane, while the detail area is a single section on the right pane.](../../../../assets/images/b5a2a03c075d-mp52v68p-02.png)
 
-_Simplified diagram of:List areaDetail area_
+_Simplified diagram of: List area; Detail area_
 
 ### Dividing space
 
@@ -70,29 +70,13 @@ A list-detail layout uses two panes. Depending on the breakpoint, the two panes 
 
 List-detail layouts use the same pane guidance as all single and two-pane layouts, including special behavior for foldables.
 
-**Breakpoint (dp)**
-
-**Visible panes**
-
-Compact (0-599)
-
-1 pane
-
-Medium (600-839)
-
-1 (recommended) or 2 panes
-
-Expanded (840+)
-
-2 panes
-
-Large (1200-1599)
-
-2 panes
-
-Extra-large (1600+)
-
-2 panes
+| **Breakpoint (dp)** | **Visible panes** |
+| --- | --- |
+| Compact (0-599) | 1 pane |
+| Medium (600-839) | 1 (recommended) or 2 panes |
+| Expanded (840+) | 2 panes |
+| Large (1200-1599) | 2 panes |
+| Extra-large (1600+) | 2 panes |
 
 ## Across breakpoints
 
@@ -104,7 +88,7 @@ Extra-large (1600+)
 
 ![Single-pane layout on 3 devices at compact breakpoints.](../../../../assets/images/82b2d8142cf1-mp533vzf-04.png)
 
-_Phone in portrait orientationClosed foldableTablet in split-screen mode_
+_Phone in portrait orientation; Closed foldable; Tablet in split-screen mode_
 
 ### Medium
 
@@ -112,7 +96,7 @@ _Phone in portrait orientationClosed foldableTablet in split-screen mode_
 
 ![Single-pane layout on a foldable open flat and a tablet in portrait orientation.](../../../../assets/images/e4ea757937b9-mp535cbt-05.png)
 
-_Foldable open flatTablet in portrait orientation_
+_Foldable open flat; Tablet in portrait orientation_
 
 -   Use a two-pane layout to browse collections and switch between items quickly
 
@@ -120,7 +104,7 @@ _Foldable open flatTablet in portrait orientation_
 
 ![2-pane layout on a foldable open flat and a tablet in portrait orientation.](../../../../assets/images/32747cdc9058-mp537scf-06.png)
 
-_Foldable open flatTablet in portrait orientation_
+_Foldable open flat; Tablet in portrait orientation_
 
 ### Expanded, large, & extra-large
 
@@ -128,7 +112,7 @@ _Foldable open flatTablet in portrait orientation_
 
 ![2-pane layout on a phone and tablet, both in landscape orientation.](../../../../assets/images/2e9606795ed9-mp538uu5-07.png)
 
-_Phone in landscape orientationTablet in landscape orientation_
+_Phone in landscape orientation; Tablet in landscape orientation_
 
 ## Behavior
 
@@ -142,7 +126,7 @@ _Phone in landscape orientationTablet in landscape orientation_
 
 ![A 2-pane layout shows a selected list item. A single-pane layout uses a Back button to return to the list.](../../../../assets/images/168507122a3f-mp53b085-08.png)
 
-_Use a selection state in two-pane layouts onlyUse a back button in single-pane layouts only_
+_Use a selection state in two-pane layouts only; Use a back button in single-pane layouts only_
 
 ### Transitioning between layouts
 

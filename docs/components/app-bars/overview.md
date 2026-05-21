@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/3f91d2e3e3fd-mlktxqjf-01.png"
@@ -29,14 +29,14 @@ App bars are placed at the top of the screen to help people navigate through a p
 
 ![4 configurations of app bars stacked vertically to show differences.](../../../assets/images/3f91d2e3e3fd-mlktxqjf-01.png)
 
-_Search app barSmallMedium flexibleLarge flexible_
+_Search app bar; Small; Medium flexible; Large flexible_
 
 ## Availability & resources
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/TopAppBar.md |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/TopAppBar.md |
 | LIT_IMPLEMENTATION | Web | UNAVAILABLE |  |
@@ -87,7 +87,7 @@ Variants and naming:
 
 ![4 total app bar configurations.](../../../assets/images/53e994347ad3-mlku5356-05.png)
 
-_Search app barSmallMedium flexibleLarge flexible_
+_Search app bar; Small; Medium flexible; Large flexible_
 
 ## Differences from M2
 

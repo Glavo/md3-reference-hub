@@ -2,7 +2,7 @@
 title: "States"
 source_url: "https://m3.material.io/foundations/interaction/states/applying-states"
 lastmod: "2025-08-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/6cd1c2bf3bcf-ly2qpw4a-1.png"
@@ -49,7 +49,7 @@ An enabled state communicates an interactive component or element. Enabled state
 
 ![Enabled state of 4 components.](../../../../assets/images/6cd1c2bf3bcf-ly2qpw4a-1.png)
 
-_Enabled states for:ButtonFABSwitchText field_
+_Enabled states for: Button; FAB; Switch; Text field_
 
 ## Disabled
 
@@ -74,7 +74,7 @@ Disabled states **are** inherited by action, selection, and input components:
 
 ![Inoperable state of 4 components.](../../../../assets/images/370d0fee2cf4-ly2qtg0r-3.png)
 
-_Disabled states for:CheckboxIcon buttonRadio buttonSegmented button_
+_Disabled states for: Checkbox; Icon button; Radio button; Segmented button_
 
 Disabled states **aren't** inherited by communication, containment, navigation, and some actions components: 
 
@@ -104,7 +104,7 @@ There can be any number of disabled states in a layout.
 
 ![Disabled components on a screen.](../../../../assets/images/a88723f39ec0-lyml0ix7-6.png)
 
-_Disabled redo icon buttonDisabled checklist icon button_
+_Disabled redo icon button; Disabled checklist icon button_
 
 ## Hover
 
@@ -130,7 +130,7 @@ Hover states **are** inherited by action, selection, and input components:
 
 ![Hover state of 4 components.](../../../../assets/images/e13366e50df5-ly2vxl8i-8.png)
 
-_Hovered states for:FABIcon buttonChipSegmented buttons_
+_Hovered states for: FAB; Icon button; Chip; Segmented buttons_
 
 Hover states **aren’t** inherited by communication, containment, or navigation components: 
 
@@ -189,7 +189,7 @@ Focus states **are** inherited by action, selection, and input components:
 
 ![Focus state of 4 components.](../../../../assets/images/038aa3177299-ly2wb5y9-14.png)
 
-_Focused states for:FABIcon buttonChipSegmented buttons_
+_Focused states for: FAB; Icon button; Chip; Segmented buttons_
 
 Focus states **aren’t** inherited by most communication, containment, or navigation components:
 
@@ -262,7 +262,7 @@ Pressed states **are** inherited by action, selection, and some containment comp
 
 ![Four components shown in pressed state.](../../../../assets/images/bba5efb6a591-ly2wl23l-27.png)
 
-_Pressed states for:FABIcon buttonChipSegmented button_
+_Pressed states for: FAB; Icon button; Chip; Segmented button_
 
 Pressed states **aren’t** inherited by communication, navigation, or some containment components: 
 
@@ -319,7 +319,7 @@ Dragged states **are** inherited by some containment and selection components: 
 
 ![A chip and a card both shown in dragged state.](../../../../assets/images/1ec3ef560b9f-ly2wv77r-33.png)
 
-_Dragged states for:ChipCard_
+_Dragged states for: Chip; Card_
 
 Dragged states **aren’t** inherited by action, communication, navigation, or some containment components: 
 

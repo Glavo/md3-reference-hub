@@ -2,7 +2,7 @@
 title: "Roboto … But Make It Flex"
 source_url: "https://m3.material.io/blog/roboto-flex"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/dc142f88e6a9-oI4-7GlbR7x1YdY3PeStcXYDvyZsQ1Ve-aZvTPsbbq5M8i-cr9LikA1L5Rh5NozfyFIs2Rw6RMuWcPLPwb7dL3VYgXZVBDRP.png"
@@ -75,49 +75,14 @@ Unless you’ve tried out [Amstelvar Alpha](https://www.axis-praxis.org/specimen
 
 Flex has seven parametric axes that can be used individually or together. Here’s an overview of them:
 
-**1\. Parametric Counter Width** (XTRA in CSS)
-
-The Parametric Counter Width axis alters the transparent forms inside and around [glyphs](https://fonts.google.com/knowledge/glossary/glyph) in the X dimension. One application is in fine-tuning [justification](https://fonts.google.com/knowledge/glossary/alignment_justification), as it changes the number of characters per line.
-
-![Animated letter “O” character changing counter width using the Parametric Counter Width axis in Roboto Flex](../../assets/images/b8ae540e5645-H1YqKa0kwoR_oLz2CYgWLx68zNCuzIOcDvphFfLBjeGlhj9FdOafWxNypusgb8mEyzpvgrRgu_dUnh4e0x2pAuKSVmmikiW3.png)
-
-**2\. Parametric Thin Stroke** (YOPQ in CSS)
-
-The Parametric Thin Strokes axis alters stroke widths at their thinnest parts, typically in the Y dimension for the Latin script. One use-case is to improve legibility in very small sized text, because it can lower stroke [contrast](https://fonts.google.com/knowledge/glossary/contrast).
-
-![Animated letter “O” character changing the stroke width where it is thinner, using the Parametric Thin Stroke axis in Roboto Flex](../../assets/images/4f06afc92c56-HDnNW1zEZirOvs80PDSrnPLF5gW8g1uGCv5IswfDyy-6Vdx6k48tzmSjNJtl0SDuhmKvzdOJmxPOrwdWBmfgP56GQINbxOpL.png)
-
-**3\. Parametric Lowercase Height** (YTLC in CSS)
-
-The Parametric Lowercase Height axis alters the volume of all space within the [lowercase's](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) vertical alignment zone: the vertical space inside counters of glyphs and the space in their sidebearings. (This adds more space vertically instead of changing the side bearings like [tracking](https://fonts.google.com/knowledge/glossary/tracking_letter_spacing) does).
-
-This is not truly an “[x-height](https://fonts.google.com/knowledge/glossary/x_height) axis," since it only adjusts space vertically, and x-height proportions are formed by the relationships of uppercase, lowercase, ascenders and descenders, as well as horizontal forms. There are parametric axes for all of these.
-
-![Animated letter “o” character changing in height using the Parametric Lowercase Height axis in Roboto Flex](../../assets/images/ed6e8dcf1162-RMRvnTwCQ8bbqRe40eU9yJYP72xNBs6cEtKmh61zOWHzu3uZpceyIE7jzqp1g3RaddQnjWsiwzuD6D8a_sj1s3Q5c9QStQns.png)
-
-**4\. Parametric Uppercase Height** (YTUC in CSS)
-
-Similarly, the Parametric Uppercase Height axis alters the volume of all space within the [uppercase's](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) vertical alignment.
-
-![Animated letter “O” character changing in height using the Parametric Uppercase Counter Height axis in Roboto Flex](../../assets/images/e540e573ebac-IeXCS39GZRwXy3KZ0OaSumG0rKF3P7uUJc1lHRUk7Smi2bBQs-WVXMgUc1rVlkDpmgzDHJmMeyZdhxF7A_-dVV7l92m-3CN0.png)
-
-**5\. Parametric Ascender Height** (YTAS in CSS)
-
-The Parametric Ascender Height axis alters the volume of all space within the [ascenders’](https://fonts.google.com/knowledge/glossary/ascenders_descenders) vertical alignment zone.
-
-![Animated letter “d” character changing the height of its ascender using the Parametric Ascender Height axis in Roboto Flex](../../assets/images/752e09e5307f-KKAXwOm1lJWXyQZDxHwsYlFpNJoVZ8mX7qa93vK6AbcVb8V3v6DuX6fod5zVt27hWzD1leBq-zPeNJbs8dWku30dvvEA3rJW.png)
-
-**6\. Parametric Descender Depth** (YTDE in CSS)
-
-The Parametric Descender Depth axis alters the depth of the space within the [descenders’](https://fonts.google.com/knowledge/glossary/ascenders_descenders) vertical alignment zone, which has a negative value being below the [baseline](https://fonts.google.com/knowledge/glossary/baseline).
-
-![Animated letter “p” character changing the depth of its descender using the Parametric Descender Depth axis in Roboto Flex](../../assets/images/2f6d8b22bb1f-OmpJgih_N30hezHzmk2qttGOvss-Q63KbPld2Lr5vQUiuQjpqGEudqjqPZaFzO68Bfbzk19SNH9Rt5LiiiLMipF0U4XXapL7.png)
-
-**7\. Parametric Figure Height** (YTFI in CSS)
-
-The Parametric Figure Height axis alters the vertical space of [figures](https://fonts.google.com/knowledge/glossary/numerals_figures). It can be used for aligning figures to other vertical zones.
-
-![Animated number “8” character changing its height using the Parametric Figure Height axis in Roboto Flex](../../assets/images/3bc38b4b35eb-hPxRBaD6o0hhVdalzDLw8t42ekKqkIcIOJqEa9QfXI5nAvrsADUporHqtoVBGg1W1fslpR_dIW8FNkMLFFUBdJd3QuRaA5bQ.png)
+| **1\. Parametric Counter Width** (XTRA in CSS) The Parametric Counter Width axis alters the transparent forms inside and around [glyphs](https://fonts.google.com/knowledge/glossary/glyph) in the X dimension. One application is in fine-tuning [justification](https://fonts.google.com/knowledge/glossary/alignment_justification), as it changes the number of characters per line. | ![Animated letter “O” character changing counter width using the Parametric Counter Width axis in Roboto Flex](../../assets/images/b8ae540e5645-H1YqKa0kwoR_oLz2CYgWLx68zNCuzIOcDvphFfLBjeGlhj9FdOafWxNypusgb8mEyzpvgrRgu_dUnh4e0x2pAuKSVmmikiW3.png) |
+| --- | --- |
+| **2\. Parametric Thin Stroke** (YOPQ in CSS) The Parametric Thin Strokes axis alters stroke widths at their thinnest parts, typically in the Y dimension for the Latin script. One use-case is to improve legibility in very small sized text, because it can lower stroke [contrast](https://fonts.google.com/knowledge/glossary/contrast). | ![Animated letter “O” character changing the stroke width where it is thinner, using the Parametric Thin Stroke axis in Roboto Flex](../../assets/images/4f06afc92c56-HDnNW1zEZirOvs80PDSrnPLF5gW8g1uGCv5IswfDyy-6Vdx6k48tzmSjNJtl0SDuhmKvzdOJmxPOrwdWBmfgP56GQINbxOpL.png) |
+| **3\. Parametric Lowercase Height** (YTLC in CSS) The Parametric Lowercase Height axis alters the volume of all space within the [lowercase's](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) vertical alignment zone: the vertical space inside counters of glyphs and the space in their sidebearings. (This adds more space vertically instead of changing the side bearings like [tracking](https://fonts.google.com/knowledge/glossary/tracking_letter_spacing) does). This is not truly an “[x-height](https://fonts.google.com/knowledge/glossary/x_height) axis," since it only adjusts space vertically, and x-height proportions are formed by the relationships of uppercase, lowercase, ascenders and descenders, as well as horizontal forms. There are parametric axes for all of these. | ![Animated letter “o” character changing in height using the Parametric Lowercase Height axis in Roboto Flex](../../assets/images/ed6e8dcf1162-RMRvnTwCQ8bbqRe40eU9yJYP72xNBs6cEtKmh61zOWHzu3uZpceyIE7jzqp1g3RaddQnjWsiwzuD6D8a_sj1s3Q5c9QStQns.png) |
+| **4\. Parametric Uppercase Height** (YTUC in CSS) Similarly, the Parametric Uppercase Height axis alters the volume of all space within the [uppercase's](https://fonts.google.com/knowledge/glossary/uppercase_lowercase) vertical alignment. | ![Animated letter “O” character changing in height using the Parametric Uppercase Counter Height axis in Roboto Flex](../../assets/images/e540e573ebac-IeXCS39GZRwXy3KZ0OaSumG0rKF3P7uUJc1lHRUk7Smi2bBQs-WVXMgUc1rVlkDpmgzDHJmMeyZdhxF7A_-dVV7l92m-3CN0.png) |
+| **5\. Parametric Ascender Height** (YTAS in CSS) The Parametric Ascender Height axis alters the volume of all space within the [ascenders’](https://fonts.google.com/knowledge/glossary/ascenders_descenders) vertical alignment zone. | ![Animated letter “d” character changing the height of its ascender using the Parametric Ascender Height axis in Roboto Flex](../../assets/images/752e09e5307f-KKAXwOm1lJWXyQZDxHwsYlFpNJoVZ8mX7qa93vK6AbcVb8V3v6DuX6fod5zVt27hWzD1leBq-zPeNJbs8dWku30dvvEA3rJW.png) |
+| **6\. Parametric Descender Depth** (YTDE in CSS) The Parametric Descender Depth axis alters the depth of the space within the [descenders’](https://fonts.google.com/knowledge/glossary/ascenders_descenders) vertical alignment zone, which has a negative value being below the [baseline](https://fonts.google.com/knowledge/glossary/baseline). | ![Animated letter “p” character changing the depth of its descender using the Parametric Descender Depth axis in Roboto Flex](../../assets/images/2f6d8b22bb1f-OmpJgih_N30hezHzmk2qttGOvss-Q63KbPld2Lr5vQUiuQjpqGEudqjqPZaFzO68Bfbzk19SNH9Rt5LiiiLMipF0U4XXapL7.png) |
+| **7\. Parametric Figure Height** (YTFI in CSS) The Parametric Figure Height axis alters the vertical space of [figures](https://fonts.google.com/knowledge/glossary/numerals_figures). It can be used for aligning figures to other vertical zones. | ![Animated number “8” character changing its height using the Parametric Figure Height axis in Roboto Flex](../../assets/images/3bc38b4b35eb-hPxRBaD6o0hhVdalzDLw8t42ekKqkIcIOJqEa9QfXI5nAvrsADUporHqtoVBGg1W1fslpR_dIW8FNkMLFFUBdJd3QuRaA5bQ.png) |
 
 Together with Flex’s wide range of weights and widths across optical sizes, it’s this level of precision that makes it so adept at performing on—and switching between—the biggest wallscreen and the smallest handheld device.
 

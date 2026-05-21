@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/overview"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/df11b411f4a6-m0by1ftf-1.png"
@@ -34,8 +34,8 @@ _Standard, filled unselected, filled selected, filled tonal, and outlined icon b
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#icon-button |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#icon-button |
 | JETPACK_IMPLEMENTATION | Jetpack Compose | AVAILABLE | https://developer.android.com/develop/ui/compose/components/icon-button |
@@ -90,7 +90,7 @@ Widths: 
 
 ![Icon buttons can vary in size, shape, and width.](../../../assets/images/61f66c93a7bf-m0by3xdg-2.png)
 
-_Five sizesTwo shapesThree widths_
+_Five sizes; Two shapes; Three widths_
 
 ## Differences from M2
 
@@ -100,4 +100,4 @@ _Five sizesTwo shapesThree widths_
 
 ![Icon buttons were known as toggle buttons in M2.](../../../assets/images/0d9841ac47fc-m0by5hfz-3.png)
 
-_Default icon buttonsToggle icon buttons_
+_Default icon buttons; Toggle icon buttons_

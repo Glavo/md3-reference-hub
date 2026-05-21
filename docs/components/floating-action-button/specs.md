@@ -2,7 +2,7 @@
 title: "FABs"
 source_url: "https://m3.material.io/components/floating-action-button/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/decf24b70bcc-mkc6atia-01-3P.png"
@@ -27,7 +27,7 @@ assets:
 
 ![An icon on the container of a FAB, medium FAB, and large FAB.](../../../assets/images/decf24b70bcc-mkc6atia-01-3P.png)
 
-_FABMedium FABLarge FAB_
+_FAB; Medium FAB; Large FAB_
 
 ### Baseline variants
 
@@ -37,63 +37,21 @@ The small FAB is still available, but no longer recommended. [Jump to baseline s
 
 _1. Small FAB_
 
-Variant
-
-M3
-
-M3 Expressive
-
-FAB
-
-Available
-
-Available
-
-Medium FAB
-
-\--
-
-Available
-
-Large FAB
-
-Available
-
-Available
-
-Small FAB
-
-Available
-
-Not recommended.
-
-Use a larger size.
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| FAB | Available | Available |
+| Medium FAB | \-- | Available |
+| Large FAB | Available | Available |
+| Small FAB | Available | Not recommended. Use a larger size. |
 
 ## Configurations
 
 In the expressive update, the **primary**, **secondary**, and **tertiary** set colors were renamed to **primary container**, **secondary container**, and **tertiary container** to match the actual color roles used. New primary, secondary, and tertiary color styles were created to match the corresponding color roles. [View details in the color styles section](specs.md#67e71ec7-b520-405a-aa06-2decfa0b92a3)
 
-Category
-
-Configuration
-
-M3
-
-M3 Expressive
-
-Color
-
-Primary container, secondary container, tertiary container
-
-Available as primary, secondary, tertiary
-
-Available
-
-Primary. secondary, tertiary
-
-\--
-
-Available
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Color | Primary container, secondary container, tertiary container | Available as primary, secondary, tertiary | Available |
+| Primary. secondary, tertiary | \-- | Available |  |
 
 ## Tokens & specs
 
@@ -101,13 +59,37 @@ Use the table's menu to select a token set. FAB tokens are organized by size and
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Floating action buttons (FABs)
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| [Deprecated] FAB - Size - Small | md.comp.fab.small | COMPONENT | For small FABs. Not used in expressive FABs. |
+| FAB - Color - Tonal primary | md.comp.fab.primary-container | COMPONENT | For tonal primary container FABs. |
+| FAB - Color - Tonal secondary | md.comp.fab.secondary-container | COMPONENT | For tonal secondary container FABs. |
+| FAB - Color - Tonal tertiary | md.comp.fab.tertiary-container | COMPONENT | For tonal tertiary container FABs. |
+| FAB - Size - Large | md.comp.fab.large | COMPONENT | For large FABs. |
+| FAB - Size - Medium | md.comp.fab.medium | COMPONENT | For medium FABs. |
+| FAB - Size - Regular | md.comp.fab | COMPONENT | For the default, regular FAB size. |
+| [Deprecated] FAB - Primary, large | md.comp.fab.primary.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal primary container fab `md.comp.fab.primary-container` token sets instead. |
+| [Deprecated] FAB - Tertiary, small | md.comp.fab.tertiary.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal tertiary container fab `md.comp.fab.tertiary-container` token sets instead. |
+| [Deprecated] FAB - Secondary, large | md.comp.fab.secondary.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal secondary container fab `md.comp.fab.secondary-container` token sets instead. |
+| FAB - Color - Tertiary | md.comp.fab.tertiary | COMPONENT | For the tertiary style fab. |
+| FAB - Color - Primary | md.comp.fab.primary | COMPONENT | For primary color FABs. |
+| FAB - Color - Surface | md.comp.fab.surface | COMPONENT | For surface color FABs. Not recommended with expressive FABs. |
+| [Deprecated] FAB - Surface, large | md.comp.fab.surface.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and surface fab `md.comp.fab.surface` token sets instead. |
+| [Deprecated] FAB - Secondary, small | md.comp.fab.secondary.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal secondary container fab `md.comp.fab.secondary-container` token sets instead. |
+| [Deprecated] FAB - Tertiary, large | md.comp.fab.tertiary.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal tertiary container fab `md.comp.fab.tertiary-container` token sets instead. |
+| FAB - Color - Secondary | md.comp.fab.secondary | COMPONENT | For secondary color FABs. |
+| [Deprecated] FAB - Surface, small | md.fab.surface.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and surface fab `md.comp.fab.surface` token sets instead. |
+| [Deprecated] FAB - Primary, small | md.comp.fab.primary.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal primary container fab `md.comp.fab.primary-container` token sets instead. |
+| FAB - Color - Branded | md.comp.fab.branded | COMPONENT | For branded color FABs. Not recommended in expressive FABs. |
+| [Deprecated] FAB - Branded, large | md.comp.fab.branded.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and branded fab `md.comp.fab.branded` token sets instead. |
 
 ## Anatomy
 
 ![2 elements of the FAB.](../../../assets/images/5458bfd670a3-mkc6cml8-03-3P.png)
 
-_1. Container2. Icon_
+_1. Container 2. Icon_
 
 ## Color
 
@@ -119,7 +101,7 @@ FABs can use several combinations of **color** and **on-color** styles, such as 
 
 ![6 FAB color styles in light and dark themes. Each style has 2 color roles, 1 for the container and icon.](../../../assets/images/4806b1dfdb15-mkc6diiz-04-3P.png)
 
-_Primary container & On primary container (default)Secondary container & On secondary containerTertiary container & On tertiary containerPrimary & On primarySecondary & On secondaryTertiary & On tertiary_
+_Primary container & On primary container (default); Secondary container & On secondary container; Tertiary container & On tertiary container; Primary & On primary; Secondary & On secondary; Tertiary & On tertiary_
 
 ### Baseline color styles
 
@@ -137,7 +119,7 @@ When using a non-default color mapping for FABs, make sure the state layer color
 
 ![4 states of a FAB shown in light and dark themes.](../../../assets/images/2729476e3f5e-mkc6fdu1-06-3P.png)
 
-_EnabledHovered (8% state layer) - elevation 4Focused (10% state layer)Pressed (10% state layer)_
+_Enabled; Hovered (8% state layer) - elevation 4; Focused (10% state layer); Pressed (10% state layer)_
 
 ## Measurements
 
@@ -177,4 +159,28 @@ Use the table's menu to select a token set. This only includes tokens for small 
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Floating action buttons (FABs)
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| [Deprecated] FAB - Size - Small | md.comp.fab.small | COMPONENT | For small FABs. Not used in expressive FABs. |
+| FAB - Color - Tonal primary | md.comp.fab.primary-container | COMPONENT | For tonal primary container FABs. |
+| FAB - Color - Tonal secondary | md.comp.fab.secondary-container | COMPONENT | For tonal secondary container FABs. |
+| FAB - Color - Tonal tertiary | md.comp.fab.tertiary-container | COMPONENT | For tonal tertiary container FABs. |
+| FAB - Size - Large | md.comp.fab.large | COMPONENT | For large FABs. |
+| FAB - Size - Medium | md.comp.fab.medium | COMPONENT | For medium FABs. |
+| FAB - Size - Regular | md.comp.fab | COMPONENT | For the default, regular FAB size. |
+| [Deprecated] FAB - Primary, large | md.comp.fab.primary.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal primary container fab `md.comp.fab.primary-container` token sets instead. |
+| [Deprecated] FAB - Tertiary, small | md.comp.fab.tertiary.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal tertiary container fab `md.comp.fab.tertiary-container` token sets instead. |
+| [Deprecated] FAB - Secondary, large | md.comp.fab.secondary.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal secondary container fab `md.comp.fab.secondary-container` token sets instead. |
+| FAB - Color - Tertiary | md.comp.fab.tertiary | COMPONENT | For the tertiary style fab. |
+| FAB - Color - Primary | md.comp.fab.primary | COMPONENT | For primary color FABs. |
+| FAB - Color - Surface | md.comp.fab.surface | COMPONENT | For surface color FABs. Not recommended with expressive FABs. |
+| [Deprecated] FAB - Surface, large | md.comp.fab.surface.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and surface fab `md.comp.fab.surface` token sets instead. |
+| [Deprecated] FAB - Secondary, small | md.comp.fab.secondary.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal secondary container fab `md.comp.fab.secondary-container` token sets instead. |
+| [Deprecated] FAB - Tertiary, large | md.comp.fab.tertiary.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and tonal tertiary container fab `md.comp.fab.tertiary-container` token sets instead. |
+| FAB - Color - Secondary | md.comp.fab.secondary | COMPONENT | For secondary color FABs. |
+| [Deprecated] FAB - Surface, small | md.fab.surface.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and surface fab `md.comp.fab.surface` token sets instead. |
+| [Deprecated] FAB - Primary, small | md.comp.fab.primary.small | COMPONENT | This token set is deprecated. Use expressive small fab `md.comp.fab` or baseline small fab `md.comp.fab.small` and tonal primary container fab `md.comp.fab.primary-container` token sets instead. |
+| FAB - Color - Branded | md.comp.fab.branded | COMPONENT | For branded color FABs. Not recommended in expressive FABs. |
+| [Deprecated] FAB - Branded, large | md.comp.fab.branded.large | COMPONENT | This token set is deprecated. Use large fab size `md.comp.fab.large` and branded fab `md.comp.fab.branded` token sets instead. |

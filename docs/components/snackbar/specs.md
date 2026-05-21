@@ -2,7 +2,7 @@
 title: "Snackbar"
 source_url: "https://m3.material.io/components/snackbar/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/39ac29782370-mkvpjhzt-01-3P.png"
@@ -19,7 +19,7 @@ Snackbars show short updates about app processes at the bottom of the screen
 
 ![Diagram of snackbar indicating the four parts of its anatomy](../../../assets/images/39ac29782370-mkvpjhzt-01-3P.png)
 
-_ContainerIcon (optional close affordance)Action (optional)Supporting text_
+_Container; Icon (optional close affordance); Action (optional); Supporting text_
 
 ## Tokens and specs
 
@@ -27,7 +27,11 @@ Browse the component elements, attributes, tokens, and their values. [Learn more
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Snackbar
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Snackbars | md.comp.snackbar | COMPONENT | For snackbars. |
 
 ## Color
 
@@ -35,7 +39,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Diagram of snackbar indicating color and inverse text and labels](../../../assets/images/8290b59d221d-lxlhysf9-2.png)
 
-_Snackbar color roles used for light and dark schemes:Inverse surfaceInverse on surfaceInverse primaryInverse on surface_
+_Snackbar color roles used for light and dark schemes: Inverse surface; Inverse on surface; Inverse primary; Inverse on surface_
 
 ## Measurements
 
@@ -47,4 +51,4 @@ _Snackbar padding and size measurements_
 
 ![5 snackbar configurations.](../../../assets/images/b601f855e3f9-lxli48dd-5.png)
 
-_Single lineSingle line with actionTwo linesTwo lines with actionTwo lines with longer action_
+_Single line; Single line with action; Two lines; Two lines with action; Two lines with longer action_

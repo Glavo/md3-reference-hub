@@ -2,7 +2,7 @@
 title: "Motion physics system"
 source_url: "https://m3.material.io/styles/motion/overview/how-it-works"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/videos/b55508eddab1-m9d3dbjl-00_Hero-Expressive-New_Export.mp4"
@@ -45,29 +45,12 @@ The physics system is replacing the previous system based on [easing and duratio
 
 ## Availability & resources
 
-**Type**
-
-**Link**
-
-**Status**
-
-Implementation
-
-[Android Views (MDC-Android)](https://github.com/material-components/material-components-android/blob/master/docs/theming/Motion.md)
-
-Available. Not added to components. [See specs](specs.md)
-
-Flutter
-
-Unavailable
-
-[Jetpack Compose](https://developer.android.com/reference/kotlin/androidx/compose/material3/MotionScheme)
-
-Available
-
-Web
-
-Compatible with Compose springs. [See specs](specs.md)
+| **Type** | **Link** | **Status** |
+| --- | --- | --- |
+| Implementation | [Android Views (MDC-Android)](https://github.com/material-components/material-components-android/blob/master/docs/theming/Motion.md) | Available. Not added to components. [See specs](specs.md) |
+| Flutter | Unavailable |  |
+| [Jetpack Compose](https://developer.android.com/reference/kotlin/androidx/compose/material3/MotionScheme) | Available |  |
+| Web | Compatible with Compose springs. [See specs](specs.md) |  |
 
 ## The basics: Motion schemes
 
@@ -139,29 +122,11 @@ _Each scheme (expressive, standard) has three speeds (fast, default, slow) for t
 
 Spatial and effect spring tokens come in three speeds: **default**, **fast**, and **slow**. Most motion should use the default speed, while smaller elements may use fast and larger elements may use slow.
 
-Speed
-
-Spatial example
-
-Effects example
-
-Default
-
-Animations that partially cover the screen, such as bottom sheet and expanded navigation rail
-
-Opacity of the content within a navigation rail
-
-Fast
-
-Small components, such as switches and buttons
-
-Color change of the switch handle
-
-Slow
-
-Full-screen animations
-
-Full-screen content refresh
+| Speed | Spatial example | Effects example |
+| --- | --- | --- |
+| Default | Animations that partially cover the screen, such as bottom sheet and expanded navigation rail | Opacity of the content within a navigation rail |
+| Fast | Small components, such as switches and buttons | Color change of the switch handle |
+| Slow | Full-screen animations | Full-screen content refresh |
 
 <video controls src="../../../../assets/videos/f032e114eeb2-m0g8v98f-00_AllSpeeds_Expressive-Export.mp4" title="Effects motion in fast, default, and slow speeds"></video>
 

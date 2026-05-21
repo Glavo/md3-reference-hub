@@ -2,7 +2,7 @@
 title: "Segmented buttons"
 source_url: "https://m3.material.io/components/segmented-buttons/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/dfcf8e5e672c-lw7qvais-1.png"
@@ -31,14 +31,14 @@ Segmented buttons are no longer recommended in the Material 3 expressive update.
 
 ![Two variants of segmented buttons.](../../../assets/images/dfcf8e5e672c-lw7qvais-1.png)
 
-_Single-select segmented buttonMulti-select segmented button_
+_Single-select segmented button; Multi-select segmented button_
 
 ## Availability & resources
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#toggle-button |
 | LIT_IMPLEMENTATION | Web | UNAVAILABLE |  |
 | FLUTTER_IMPLEMENTATION | Flutter | AVAILABLE | https://api.flutter.dev/flutter/material/SegmentedButton-class.html |

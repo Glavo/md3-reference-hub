@@ -2,7 +2,7 @@
 title: "Typography"
 source_url: "https://m3.material.io/styles/typography/applying-type"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/19dd6838c7f9-macjmd1h-01.png"
@@ -185,7 +185,7 @@ Vertical alignment using padding and bounding boxes:
 
 ![Diagram of using padding and bounding boxes to measure line height, alignment, and spacing,](../../../assets/images/4613dac1d17f-macl7cnr-19.png)
 
-__
+_/_
 
 ### Using the baseline
 
@@ -216,7 +216,7 @@ Vertical alignment using the baseline: 
 
 ![Diagram of using distance to baseline to measure line height, alignment, and spacing.](../../../assets/images/05fe59ce5697-macln6jx-22.png)
 
-__
+_/_
 
 ## Ensuring readability
 
@@ -242,7 +242,7 @@ Use monospaced tabular numbers to keep values optically aligned for better scann
 
 ![Vertical view showing the spacing variation in proportional numbers versus monospacing of tabular numbers.](../../../assets/images/b430484b5259-macly990-25.png)
 
-_Proportional numbersMonospaced tabular numbers_
+_Proportional numbers; Monospaced tabular numbers; /_
 
 ![Times displayed in tabular numbers.](../../../assets/images/5bcbe1e14651-maclzivd-26.png)
 

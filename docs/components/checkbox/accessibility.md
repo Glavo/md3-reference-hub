@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/5dd9c8412960-mg0vkh7s-1.png"
@@ -52,25 +52,12 @@ To ensure that this density setting can be easily reverted when it's active, kee
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-**Tab**
-
-Moves focus to enabled chip or chip group
-
-**Space** or **Enter**
-
-Activates, selects, or deselects the focused chip
-
-**Backspace** or **Delete**
-
-Removes currently focused input chip
-
-**Arrows**
-
-Moves focus between chips
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Moves focus to enabled chip or chip group |
+| **Space** or **Enter** | Activates, selects, or deselects the focused chip |
+| **Backspace** or **Delete** | Removes currently focused input chip |
+| **Arrows** | Moves focus between chips |
 
 ## Labeling elements
 

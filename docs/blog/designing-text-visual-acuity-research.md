@@ -2,7 +2,7 @@
 title: "Designing Text for the People Who Read It"
 source_url: "https://m3.material.io/blog/designing-text-visual-acuity-research"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/2e16c46f44a9-1lNY69iZ1beIzMdKwc5WOX7GpCR0PMsp93A1F_jF_kcEVJNqKy0YH-glyLtzr8uqrNbqhLjr63iCGWmg7VMiYRjMsqvXMc3h.png"
@@ -117,19 +117,7 @@ _h = 14.11_
 
 Which means, if the text were 100cm away from you instead of 35cm, to maintain the same angular height that text would have to be 14.11mm tall. This is definitely something worth keeping in mind if you’re designing a menu that may be read from multiple distances (or, you know, if you’re designing products intended to be viewed on multiple devices)!
 
-**A shortcut**
-
-If you don’t need to calculate degrees or you’re trying to avoid arctan in everyday life (no judgement here), you can also calculate mathematically equivalent heights at multiple distances with a simple ratio. As mentioned above with the post-it note example, if you double the distance an object is from you, you’ll need to double the size of that object for it to be mathematically the same height – or, for the subtended angle required to observe the object to be the same.
-
-How does that work? From the above, we already know that the text size at 35cm (or 350mm) is 4.94mm – our baseline. We can calculate what the size would be at another distance with the following:
-
-_( 4.94 / 350 ) = ( size2 / distance2 )_
-
-If we wanted to see what the text size would need to be at 100cm (or 1000mm), we would solve for x in the following:
-
-_( 4.94 / 350 ) = ( x / 1000 )_
-
-Cross-multiplying gets us _x = 4,940 / 350_, which again yields a height of 14.11. Same as above!
+**A shortcut** If you don’t need to calculate degrees or you’re trying to avoid arctan in everyday life (no judgement here), you can also calculate mathematically equivalent heights at multiple distances with a simple ratio. As mentioned above with the post-it note example, if you double the distance an object is from you, you’ll need to double the size of that object for it to be mathematically the same height – or, for the subtended angle required to observe the object to be the same. How does that work? From the above, we already know that the text size at 35cm (or 350mm) is 4.94mm – our baseline. We can calculate what the size would be at another distance with the following: _( 4.94 / 350 ) = ( size2 / distance2 )_ If we wanted to see what the text size would need to be at 100cm (or 1000mm), we would solve for x in the following: _( 4.94 / 350 ) = ( x / 1000 )_ Cross-multiplying gets us _x = 4,940 / 350_, which again yields a height of 14.11. Same as above!
 
 And second, if the text size wasn’t increased like above, what would the perceived height of that text be?
 

@@ -2,7 +2,7 @@
 title: "How to make your text more accessible"
 source_url: "https://m3.material.io/blog/how-to-make-text-more-accessible"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/40896e6ecfe8-VfKcfwY0D55KIqGuq4dDDQcAHl4gQbVeE3BXx8R-qjSSwFIMJ9KFFCqw3g9LWYlajtQPML-mNdjMOYTHDbxm2BfD77Xq-eNW.png"
@@ -29,91 +29,16 @@ If you want to see the usage statistics for any of the fonts listed below, go to
 
 In alphabetical order:
 
-**Typeface**
-
-**Download link**
-
-**Resources**
-
-**Andika**
-
-SIL designed the Andika typeface to maximize legibility, especially for new readers of all ages.
-
-[Download Andika](https://fonts.google.com/specimen/Andika)
-
-[New SIL typefaces](https://material.io/blog/sil-typefaces)
-
-**Atkinson Hyperlegible**
-
-Atkinson Hyperlegible was developed specifically to increase legibility for readers with low vision, and to improve comprehension.
-
-[Download Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible)
-
-[From rebranding to readability with Atkinson Hyperlegible](https://material.io/blog/atkinson-hyperlegible-design)
-
-**Australian handwriting fonts**
-
-The five Australian Foundation Fonts exemplify proper handwriting styles that are aligned with regional Australian educational requirements. The fonts are used to teach writing in English and other languages using the Latin writing system and include common math symbols.
-
-[Edu VIC WA NT Beginner](https://fonts.google.com/specimen/Edu+VIC+WA+NT+Beginner) for Victoria, Western Australia and the Northern Territory
-
-[EDU NSW ACT Foundation](https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation) for New South Wales and the Australian Capital Territory
-
-[Edu SA Beginner](https://fonts.google.com/specimen/Edu+SA+Beginner) for South Australia
-
-[Edu TAS Beginner](https://fonts.google.com/specimen/Edu+TAS+Beginner) for Tasmania
-
-[Edu QLD Beginner](https://fonts.google.com/specimen/Edu+QLD+Beginner) for Queensland
-
-[The handwriting fonts that help Australian students learn how to read and write are now available in Google Workspace](https://fonts.googleblog.com/2022/08/the-handwriting-fonts-that-help.html)
-
-**Japanese Morisawa Universal Design fonts**
-
-The [Morisawa](https://en.morisawa.co.jp/) [BIZ Universal Design (UD) font families](https://fonts.google.com/?query=morisawa&subset=japanese) were developed using the [principles of universal design](https://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html) (UD) to ensure [legibility](https://fonts.google.com/knowledge/glossary/legibility_readability) and [readability](https://fonts.google.com/knowledge/glossary/legibility_readability). They are the most widely used fonts in education publishing in Japan​.
-
-[Download Morisawa fonts](https://fonts.google.com/?query=Morisawa+Inc.&subset=japanese&noto.script=Jpan)
-
-[Morisawa BIZ Universal Design (UD) Japanese fonts added to Google Fonts and Google Workspace](https://fonts.googleblog.com/2022/04/morisawa-biz-universal-design-ud.html)
-
-**Lexend**
-
-An educational therapist thinks one of the main factors in reading problems is hidden in plain sight. It’s the font! She made a font called Lexend to help people read better.
-
-[Download Lexend](https://fonts.google.com/specimen/Lexend)
-
-[Clean and clear: making reading easier with Lexend](https://design.google/library/lexend-readability/)
-
-[Partnering to change how the world reads: Expanding Lexend to different weights](https://fonts.googleblog.com/2022/07/lexend.html)
-
-[Eine Partnerschaft mit dem Ziel, das Leseerlebnis weltweit zu verändern: Erweiterung von Lexend um verschiedene Schriftstärken](https://fonts.googleblog.com/2022/07/lexend-deutsch.html) (German)
-
-**Noto**
-
-The Noto project has fonts for over 1,000 languages and over 150 writing systems and provides fonts for minority languages that didn’t previously have digital fonts. Without digital fonts, minority language communities had to scan printed materials for people to read online. These scanned images were not readable by screen readers and would often be hard to read when enlarged. With digital fonts, people can increase the type size and read more comfortably.
-
-[Download Noto](https://fonts.google.com/noto)
-
-[Preserving endangered languages with Noto fonts](https://blog.google/outreach-initiatives/accessibility/preserving-endangered-languages-noto-fonts/)
-
-[Noto Fonts: Preserving endangered languages & accessibility](https://www.youtube.com/watch?v=DnuDOlPkFag) (video)
-
-**Readex Pro**
-
-Readex Pro uses vision research to possibly make reading easier for Arabic readers suffering from visual impairments or dyslexia. The type designers created [Readex Pro](https://fonts.google.com/specimen/Readex+Pro#about) in Arabic using the methodology behind [Lexend](https://design.google/library/lexend-readability/), made for Latin.
-
-[Download Readex Pro](https://fonts.google.com/specimen/Readex+Pro#about)
-
-[The Design of Readex Pro: Exploring the boundaries of legibility in Arabic type](https://material.io/blog/readex-pro-legibility-arabic-type-design) (English)
-
-[‏خط ‏Readex Pro: استكشاف حدود سهولة قراءة النص من خلال خط عربي جديد](https://blog.google/intl/ar-mena/company-news/outreach-initiatives/readex-arabic-accessibility/) (Arabic)
-
-**Shantell Sans**
-
-Years after discovering she was dyslexic, artist and philosopher Shantell Martin partnered with Stephen Nixon and Anya Danilova to create Shantell Sans in Latin and Cyrillic to empower people to read and write, despite their relationship to words.
-
-[Download Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans/about?query=shantell+sans)
-
-[The Story of Shantell Sans: How an artist created a typeface in Latin and Cyrillic](https://material.io/blog/shantell-martin-variable-font) 
+| **Typeface** | **Download link** | **Resources** |
+| --- | --- | --- |
+| **Andika** SIL designed the Andika typeface to maximize legibility, especially for new readers of all ages. | [Download Andika](https://fonts.google.com/specimen/Andika) | [New SIL typefaces](https://material.io/blog/sil-typefaces) |
+| **Atkinson Hyperlegible** Atkinson Hyperlegible was developed specifically to increase legibility for readers with low vision, and to improve comprehension. | [Download Atkinson Hyperlegible](https://fonts.google.com/specimen/Atkinson+Hyperlegible) | [From rebranding to readability with Atkinson Hyperlegible](https://material.io/blog/atkinson-hyperlegible-design) |
+| **Australian handwriting fonts** The five Australian Foundation Fonts exemplify proper handwriting styles that are aligned with regional Australian educational requirements. The fonts are used to teach writing in English and other languages using the Latin writing system and include common math symbols. | [Edu VIC WA NT Beginner](https://fonts.google.com/specimen/Edu+VIC+WA+NT+Beginner) for Victoria, Western Australia and the Northern Territory [EDU NSW ACT Foundation](https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation) for New South Wales and the Australian Capital Territory [Edu SA Beginner](https://fonts.google.com/specimen/Edu+SA+Beginner) for South Australia [Edu TAS Beginner](https://fonts.google.com/specimen/Edu+TAS+Beginner) for Tasmania [Edu QLD Beginner](https://fonts.google.com/specimen/Edu+QLD+Beginner) for Queensland | [The handwriting fonts that help Australian students learn how to read and write are now available in Google Workspace](https://fonts.googleblog.com/2022/08/the-handwriting-fonts-that-help.html) |
+| **Japanese Morisawa Universal Design fonts** The [Morisawa](https://en.morisawa.co.jp/) [BIZ Universal Design (UD) font families](https://fonts.google.com/?query=morisawa&subset=japanese) were developed using the [principles of universal design](https://universaldesign.ie/what-is-universal-design/the-7-principles/the-7-principles.html) (UD) to ensure [legibility](https://fonts.google.com/knowledge/glossary/legibility_readability) and [readability](https://fonts.google.com/knowledge/glossary/legibility_readability). They are the most widely used fonts in education publishing in Japan​. | [Download Morisawa fonts](https://fonts.google.com/?query=Morisawa+Inc.&subset=japanese&noto.script=Jpan) | [Morisawa BIZ Universal Design (UD) Japanese fonts added to Google Fonts and Google Workspace](https://fonts.googleblog.com/2022/04/morisawa-biz-universal-design-ud.html) |
+| **Lexend** An educational therapist thinks one of the main factors in reading problems is hidden in plain sight. It’s the font! She made a font called Lexend to help people read better. | [Download Lexend](https://fonts.google.com/specimen/Lexend) | [Clean and clear: making reading easier with Lexend](https://design.google/library/lexend-readability/) [Partnering to change how the world reads: Expanding Lexend to different weights](https://fonts.googleblog.com/2022/07/lexend.html) [Eine Partnerschaft mit dem Ziel, das Leseerlebnis weltweit zu verändern: Erweiterung von Lexend um verschiedene Schriftstärken](https://fonts.googleblog.com/2022/07/lexend-deutsch.html) (German) |
+| **Noto** The Noto project has fonts for over 1,000 languages and over 150 writing systems and provides fonts for minority languages that didn’t previously have digital fonts. Without digital fonts, minority language communities had to scan printed materials for people to read online. These scanned images were not readable by screen readers and would often be hard to read when enlarged. With digital fonts, people can increase the type size and read more comfortably. | [Download Noto](https://fonts.google.com/noto) | [Preserving endangered languages with Noto fonts](https://blog.google/outreach-initiatives/accessibility/preserving-endangered-languages-noto-fonts/) [Noto Fonts: Preserving endangered languages & accessibility](https://www.youtube.com/watch?v=DnuDOlPkFag) (video) |
+| **Readex Pro** Readex Pro uses vision research to possibly make reading easier for Arabic readers suffering from visual impairments or dyslexia. The type designers created [Readex Pro](https://fonts.google.com/specimen/Readex+Pro#about) in Arabic using the methodology behind [Lexend](https://design.google/library/lexend-readability/), made for Latin. | [Download Readex Pro](https://fonts.google.com/specimen/Readex+Pro#about) | [The Design of Readex Pro: Exploring the boundaries of legibility in Arabic type](https://material.io/blog/readex-pro-legibility-arabic-type-design) (English) [‏خط ‏Readex Pro: استكشاف حدود سهولة قراءة النص من خلال خط عربي جديد](https://blog.google/intl/ar-mena/company-news/outreach-initiatives/readex-arabic-accessibility/) (Arabic) |
+| **Shantell Sans** Years after discovering she was dyslexic, artist and philosopher Shantell Martin partnered with Stephen Nixon and Anya Danilova to create Shantell Sans in Latin and Cyrillic to empower people to read and write, despite their relationship to words. | [Download Shantell Sans](https://fonts.google.com/specimen/Shantell+Sans/about?query=shantell+sans) | [The Story of Shantell Sans: How an artist created a typeface in Latin and Cyrillic](https://material.io/blog/shantell-martin-variable-font) |
 
 ## Optical Size variable fonts
 

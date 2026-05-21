@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/fa840541e836-mlfkefwf-GM3-Search-Bar-Guidelines-01-v02.mp4"
@@ -173,7 +173,7 @@ _Full-screen layout on mobile_
 
 ![6 elements of search.](../../../assets/images/1ea04606732a-mlgr3p93-11.png)
 
-_Search bar containerLeading iconSupporting textAvatar or trailing icon (optional)Input textContainer for search suggestions or results_
+_Search bar container; Leading icon; Supporting text; Avatar or trailing icon (optional); Input text; Container for search suggestions or results_
 
 ### Search bar container
 
@@ -292,7 +292,7 @@ When focused, search can switch between showing suggestions or results in a:
 
 ![Search suggestions in docked and full screen layouts.](../../../assets/images/4244901ebb6c-mlfnv4wh-25.png)
 
-_A docked layout on a large screenA full-screen layout, the default for compact screens_
+_A docked layout on a large screen; A full-screen layout, the default for compact screens_
 
 Search suggestions or results should swap from full-screen in compact windows to docked in larger window sizes.
 

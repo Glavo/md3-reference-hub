@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/specs"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/be3b2c0d46fc-md8jp5v6-01-3P.png"
@@ -28,7 +28,11 @@ _Radio button icon_
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Radio button
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Radio Button | md.comp.radio-button | COMPONENT | For radio buttons. |
 
 ## Color
 
@@ -36,7 +40,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Diagram of selected and unselected radio button colors.](../../../assets/images/7ad7a0a2f710-md8jpn14-02-3P.png)
 
-_Radio button color roles used for light and dark themes:PrimaryOn surface variant_
+_Radio button color roles used for light and dark themes: Primary; On surface variant; /_
 
 ### Adjacent text label color
 
@@ -52,7 +56,7 @@ States are visual representations used to communicate the status of a component 
 
 ![Diagram of radio button states including enabled, hover, focus, pressed, and disabled.](../../../assets/images/6a5dc5a66fbf-md8jqfvs-04-3P.png)
 
-_Enabled Hover Focus PressedDisabled_
+_Enabled; Hover; Focus; Pressed; Disabled_
 
 [State specs are in the token module above](specs.md#3eef19a6-cdcb-4ecf-b1af-2b8095d485ac)
 
@@ -62,18 +66,8 @@ _Enabled Hover Focus PressedDisabled_
 
 _Radio button size measurements_
 
-Attribute
-
-Value
-
-Icon size
-
-20dp
-
-State layer size
-
-40dp
-
-Target size
-
-48dp
+| Attribute | Value |
+| --- | --- |
+| Icon size | 20dp |
+| State layer size | 40dp |
+| Target size | 48dp |

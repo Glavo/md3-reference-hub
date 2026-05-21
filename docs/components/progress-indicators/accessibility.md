@@ -2,7 +2,7 @@
 title: "Progress indicators"
 source_url: "https://m3.material.io/components/progress-indicators/accessibility"
 lastmod: "2026-02-27"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/430185c65104-mlepc1r2-01.png"
@@ -31,7 +31,7 @@ The active indicator, which displays progress, provides visual contrast of at le
 
 ![Dark line of progress indicator stands out against the lighter colored track.](../../../assets/images/430185c65104-mlepc1r2-01.png)
 
-_The progress indicator and stop indicator provide visual contrast of at least 3:1 against most background colors_
+_The progress indicator and stop indicator provide visual contrast of at least 3:1 against most background colors /_
 
 When integrated into another component, such as a button, make sure that the active indicator provides visual contrast of at least 3:1 against the other component. 
 

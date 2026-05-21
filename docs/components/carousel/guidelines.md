@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/f1bf561ca3a6-lwusb1kq-1.png"
@@ -63,31 +63,13 @@ _A carousel can contain different sized items_
 
 Choose the best carousel layout for your product. Some layouts are more visual-focused, while others are more customizable.
 
-Layout
-
-Best used for
-
-[Multi-browse](guidelines.md#d95cefa4-53df-45e2-bbb2-3aeeecbe9639)
-
-Browsing many visual items at once (like photos), dynamic designs
-
-[Uncontained](guidelines.md#96c5c157-fe5b-4ee3-a9b4-72bf8efab7e9)
-
-Highly-customized or text-heavy carousels, stacked imaged and text, traditional carousel behavior
-
-[Hero](guidelines.md#5991f961-79aa-4955-b86e-3e15432108e6)
-
-Spotlighting very large visual items (like a movie or featured app)
-
-[Center-aligned hero
-](guidelines.md#a9f8dcde-e5c5-464f-b488-d9ded9ae4a4a)
-
-Centered, large visual items
-
-[Full-screen
-](guidelines.md#ae0f1566-a956-4c4b-b153-d50ee20c32e7)
-
-Vertically-scrolling video or image feeds, immersive experiences
+| Layout | Best used for |
+| --- | --- |
+| [Multi-browse](guidelines.md#d95cefa4-53df-45e2-bbb2-3aeeecbe9639) | Browsing many visual items at once (like photos), dynamic designs |
+| [Uncontained](guidelines.md#96c5c157-fe5b-4ee3-a9b4-72bf8efab7e9) | Highly-customized or text-heavy carousels, stacked imaged and text, traditional carousel behavior |
+| [Hero](guidelines.md#5991f961-79aa-4955-b86e-3e15432108e6) | Spotlighting very large visual items (like a movie or featured app) |
+| [Center-aligned hero ](guidelines.md#a9f8dcde-e5c5-464f-b488-d9ded9ae4a4a) | Centered, large visual items |
+| [Full-screen ](guidelines.md#ae0f1566-a956-4c4b-b153-d50ee20c32e7) | Vertically-scrolling video or image feeds, immersive experiences |
 
 Carousel items must be fully visible on-screen (except for the uncontained layout). When scrolled, items automatically change size and snap into place to maintain the same layout.
 
@@ -193,7 +175,7 @@ Use snap-scrolling for full-screen layouts. Don't use default scrolling.
 
 ![4 elements of a carousel.](../../../assets/images/cbee1502b7b5-lwushw0z-11.png)
 
-_Multi-browse carousel (left) and hero carousel (right):ContainerLarge carousel itemMedium carousel itemSmall carousel item_
+_Multi-browse carousel (left) and hero carousel (right): Container; Large carousel item; Medium carousel item; Small carousel item_
 
 ### Container
 
@@ -209,7 +191,7 @@ Carousel items hold content. A carousel item has no fixed width; it changes widt
 
 ![3 sizes of carousel items.](../../../assets/images/a072ecfff7b8-lwusj1ii-13.png)
 
-_Large carousel itemMedium carousel itemSmall carousel item_
+_Large carousel item; Medium carousel item; Small carousel item_
 
 Large items have a max width that can be adjusted. This changes how all other large, medium, and small carousel items fit on screen. Large items must remain big enough to be easy to understand and recognize.
 
@@ -219,13 +201,13 @@ Small items have a width range of 40–56dp.
 
 ![2 sizes of carousel items for hero layouts.](../../../assets/images/c9ca0e84ca44-lwusjjti-14.png)
 
-_Large itemSmall item_
+_Large item; Small item_
 
 When the large item's max width is narrow enough, more items can be shown on screen at once. In compact windows, this is only recommended for carousels with simple imagery.
 
 ![3 sizes of carousel items for multi-browse layouts. 2 large items are visible.](../../../assets/images/de103322d263-lwuslefr-15.png)
 
-_Large itemMedium itemSmall item_
+_Large item; Medium item; Small item_
 
 ### Item text (optional)
 
@@ -243,7 +225,7 @@ Text should always be understandable at each size. Consider adapting the text to
 
 ![A carousel item at 3 different sizes to show  how text changes at each size.](../../../assets/images/e19c4aa1ad31-lwusqbrm-17.png)
 
-_Large carousel item with the full title and label textMedium carousel item hiding the title textSmall carousel item abbreviating the label text_
+_Large carousel item with the full title and label text; Medium carousel item hiding the title text; Small carousel item abbreviating the label text_
 
 ## Responsive layout
 

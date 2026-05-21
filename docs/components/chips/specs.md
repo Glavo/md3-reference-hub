@@ -2,7 +2,7 @@
 title: "Chips"
 source_url: "https://m3.material.io/components/chips/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/54bfc07dcff0-m01dv1nz-1.png"
@@ -35,13 +35,20 @@ Select a component variant below to see its elements, attributes, tokens, and va
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Chips
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Chip - Input | md.comp.input-chip | COMPONENT | For input chips. |
+| Chip - Assist | md.comp.assist-chip | COMPONENT | For assist chips. |
+| Chip - Suggestion | md.comp.suggestion-chip | COMPONENT | For suggestion chips. |
+| Chip - Filter | md.comp.filter-chip | COMPONENT | For filter chips. |
 
 ## Assist chip
 
 ![Assist chip diagram numbering 3 elements.](../../../assets/images/54bfc07dcff0-m01dv1nz-1.png)
 
-_Container Label text Leading icon_
+_Container; Label text; Leading icon_
 
 ### Assist chip color
 
@@ -49,7 +56,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Assist chip diagram numbering 4 color elements.](../../../assets/images/f4bb9f661b0e-m01dv6ou-2.png)
 
-_Assist chip color roles used for light and dark themes:Surface container low (optional)On surfaceOutlinePrimary_
+_Assist chip color roles used for light and dark themes: Surface container low (optional); On surface; Outline; Primary_
 
 ### Assist chip states
 
@@ -57,7 +64,7 @@ States are visual representations used to communicate the status of a component 
 
 ![36 assist chips illustrating combinations of styles, selection and non-selection, and 6 interaction states.](../../../assets/images/ba865ad1bc7f-m8sg1d2r-03-3P.png)
 
-_Selected and unselected assist chip states:Enabled Disabled Hovered Focused Pressed Dragged_
+_Selected and unselected assist chip states: Enabled; Disabled; Hovered; Focused; Pressed; Dragged_
 
 ### Assist chip measurements
 
@@ -65,47 +72,22 @@ _Selected and unselected assist chip states:Enabled Disabled Hovered Focused Pre
 
 _Assist chip padding and size measurements_
 
-Attribute
-
-Value
-
-Height
-
-32dp
-
-Shape
-
-8dp corner radius
-
-Icon size
-
-18dp
-
-Vertical label text alignment
-
-Center-aligned
-
-Horizontal label text alignment
-
-Start-aligned
-
-Left/right padding
-
-16dp
-
-Left/right padding with icon
-
-8dp
-
-Padding between elements
-
-8dp
+| Attribute | Value |
+| --- | --- |
+| Height | 32dp |
+| Shape | 8dp corner radius |
+| Icon size | 18dp |
+| Vertical label text alignment | Center-aligned |
+| Horizontal label text alignment | Start-aligned |
+| Left/right padding | 16dp |
+| Left/right padding with icon | 8dp |
+| Padding between elements | 8dp |
 
 ## Filter chip
 
 ![Filter chip diagram numbering 4 elements.](../../../assets/images/1479dde443b5-m01dvpzm-5.png)
 
-_Container Label text Leading iconTrailing icon_
+_Container; Label text; Leading icon; Trailing icon_
 
 ### Filter chip color
 
@@ -113,7 +95,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Filter chip diagram numbering 4 color elements.](../../../assets/images/847ee1a5d814-mmp8q5ab-06-3P.png)
 
-_Filter chip color roles used for light and dark themes:On surface variantOn secondary containerSecondary containerOutline variantSurface container low (optional)_
+_Filter chip color roles used for light and dark themes: On surface variant; On secondary container; Secondary container; Outline variant; Surface container low (optional)_
 
 ### Filter chip states
 
@@ -121,7 +103,7 @@ States are visual representations used to communicate the status of a component 
 
 ![24 filter chips showing combinations of elevated, non-elevated, selected, and non-selected styles, and 6 interaction states.](../../../assets/images/35b44fea02b4-m8sg2d2t-07-3P.png)
 
-_Selected and unselected filter chip states:Enabled Disabled Hovered Focused Pressed Dragged_
+_Selected and unselected filter chip states: Enabled; Disabled; Hovered; Focused; Pressed; Dragged_
 
 ### Filter chip measurements
 
@@ -129,47 +111,22 @@ _Selected and unselected filter chip states:Enabled Disabled Hovered Focused Pre
 
 _Filter chip padding and size measurements_
 
-Attribute
-
-Value
-
-Container height
-
-32dp
-
-Container shape
-
-8dp corner radius
-
-Icon size
-
-18dp
-
-Vertical label text alignment
-
-Center-aligned
-
-Horizontal label text alignment
-
-Start-aligned
-
-Left/right padding
-
-16dp
-
-Left/right padding with icon
-
-8dp
-
-Padding between elements
-
-8dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 32dp |
+| Container shape | 8dp corner radius |
+| Icon size | 18dp |
+| Vertical label text alignment | Center-aligned |
+| Horizontal label text alignment | Start-aligned |
+| Left/right padding | 16dp |
+| Left/right padding with icon | 8dp |
+| Padding between elements | 8dp |
 
 ## Input chip
 
 ![Input chip diagram numbering 4 elements.](../../../assets/images/c62eef564280-m01dwxct-9.png)
 
-_Container Label text Trailing icon Leading icon_
+_Container; Label text; Trailing icon; Leading icon_
 
 ### Input chip color
 
@@ -177,7 +134,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Input chip diagram numbering 5 color elements.](../../../assets/images/ad2251e2f83a-m02q3wit-10-3p.png)
 
-_Input chip color roles used for light and dark themes:On surface variantSurface container low (optional)On surface variantOn surface variantOutline variantPrimarySecondary containerOn secondary containerOn secondary container_
+_Input chip color roles used for light and dark themes: On surface variant; Surface container low (optional); On surface variant; On surface variant; Outline variant; Primary; Secondary container; On secondary container; On secondary container_
 
 ### Input chip states
 
@@ -185,7 +142,7 @@ States are visual representations used to communicate the status of a component 
 
 ![33 input chips illustrating combinations of styles, selection and non-selection, and 6 interaction states.](../../../assets/images/c63dff074446-m8sg4m8e-11-3P.png)
 
-_Selected and unselected input chip states:Enabled Disabled Hovered Focused Pressed Dragged_
+_Selected and unselected input chip states: Enabled; Disabled; Hovered; Focused; Pressed; Dragged_
 
 ### Input chip measurements
 
@@ -193,63 +150,26 @@ _Selected and unselected input chip states:Enabled Disabled Hovered Focused Pres
 
 _Input chip padding and size measurements_
 
-Attribute
-
-Value
-
-Container height
-
-32dp
-
-Container shape
-
-8dp corner radius
-
-Icon size
-
-18dp
-
-Avatar shape
-
-12dp corner radius
-
-Avatar size
-
-24dp
-
-Vertical label text alignment
-
-Center-aligned
-
-Horizontal label text alignment
-
-Start-aligned
-
-Left padding for avatar
-
-4dp
-
-Right padding for avatar
-
-8dp
-
-Left/right padding for icon
-
-8dp
-
-Padding between elements
-
-8dp
-
-Target size for close icon
-
-Min 48dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 32dp |
+| Container shape | 8dp corner radius |
+| Icon size | 18dp |
+| Avatar shape | 12dp corner radius |
+| Avatar size | 24dp |
+| Vertical label text alignment | Center-aligned |
+| Horizontal label text alignment | Start-aligned |
+| Left padding for avatar | 4dp |
+| Right padding for avatar | 8dp |
+| Left/right padding for icon | 8dp |
+| Padding between elements | 8dp |
+| Target size for close icon | Min 48dp |
 
 ## Suggestion chip
 
 ![Suggestion chip diagram numbering 2 elements.](../../../assets/images/fe132d2470ef-m01dxq8p-13.png)
 
-_Container Label text_
+_Container; Label text_
 
 ### Suggestion chip color
 
@@ -257,7 +177,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Suggestion chip diagram numbering 3 color elements.](../../../assets/images/d296853652eb-m01dxxwr-14.png)
 
-_Suggestion chip color roles used for light and dark themes:OutlineSurface container low (optional)On surface variant_
+_Suggestion chip color roles used for light and dark themes: Outline; Surface container low (optional); On surface variant_
 
 ### Suggestion chip states
 
@@ -265,7 +185,7 @@ States are visual representations used to communicate the status of a component 
 
 ![24 suggestion chips illustrating combinations of styles across 6 interaction states.](../../../assets/images/e9892a50b458-m8sg5r6a-15-3P.png)
 
-_Selected and unselected suggestion chip states:EnabledDisabledHoveredFocusedPressedDragged_
+_Selected and unselected suggestion chip states: Enabled; Disabled; Hovered; Focused; Pressed; Dragged_
 
 ### Suggestion chip measurements
 
@@ -273,38 +193,13 @@ _Selected and unselected suggestion chip states:EnabledDisabledHoveredFocusedPre
 
 _Suggestion chip padding and size measurements_
 
-Attribute
-
-Value
-
-Container height
-
-32dp
-
-Container shape
-
-8dp corner radius
-
-Icon size
-
-18dp
-
-Vertical label text alignment
-
-Center-aligned
-
-Horizontal label text alignment
-
-Start-aligned
-
-Left/right padding without icon
-
-16dp
-
-Left/right padding with icon
-
-8dp
-
-Padding between elements
-
-8dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 32dp |
+| Container shape | 8dp corner radius |
+| Icon size | 18dp |
+| Vertical label text alignment | Center-aligned |
+| Horizontal label text alignment | Start-aligned |
+| Left/right padding without icon | 16dp |
+| Left/right padding with icon | 8dp |
+| Padding between elements | 8dp |

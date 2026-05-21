@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/guidelines"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/3615a1d5c5de-mc92xj30-01.png"
@@ -101,7 +101,7 @@ _Consider using a drop-down menu instead of radio buttons when space is constrai
 
 ![3 elements of a radio button.](../../../assets/images/99af089a08e6-mg0z4md9-12.png)
 
-_Selected iconAdjacent label textUnselected icon_
+_Selected icon; Adjacent label text; Unselected icon_
 
 ### Adjacent label text
 

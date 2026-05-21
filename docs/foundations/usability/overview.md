@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/overview"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/f2410487f3ca-mejie2v2-Hero-image.png"
@@ -35,29 +35,13 @@ Usability helps create digital products that are easy to use and engaging. By le
 
 The [Nielsen Norman Group](https://www.nngroup.com/articles/usability-101-introduction-to-usability/) defines usability by how effectively users interact with a product through five aspects:
 
-Aspect
-
-Definition
-
-Efficiency
-
-Users can efficiently complete tasks and goals
-
-Errors
-
-Proper design reduces the likelihood of mistakes, and users can easily correct any errors that do occur
-
-Learnability
-
-New users learn to use the product and complete tasks easily, even if it’s the first time they’re using it
-
-Memorability
-
-When users come back to a product, they remember how to use it
-
-Satisfaction
-
-Users are satisfied with the designed experience
+| Aspect | Definition |
+| --- | --- |
+| Efficiency | Users can efficiently complete tasks and goals |
+| Errors | Proper design reduces the likelihood of mistakes, and users can easily correct any errors that do occur |
+| Learnability | New users learn to use the product and complete tasks easily, even if it’s the first time they’re using it |
+| Memorability | When users come back to a product, they remember how to use it |
+| Satisfaction | Users are satisfied with the designed experience |
 
 ### How is usability different from accessibility?
 

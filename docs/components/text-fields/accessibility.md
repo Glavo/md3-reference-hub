@@ -2,7 +2,7 @@
 title: "Text fields"
 source_url: "https://m3.material.io/components/text-fields/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/2a1cbc7df27d-lx32f0bp-1.png"
@@ -51,7 +51,7 @@ In some contexts, outlined text fields can improve the perception of the fields 
 
 ![An outlined text field with label text that passes the minimum contrast of 3:1.](../../../assets/images/9280798ebe72-lx32k7wf-3.png)
 
-_Make sure the container outline has a minimum contrast of 3:1 to the background_
+_Make sure the container outline has a minimum contrast of 3:1 to the background / /_
 
 ![An outlined text field with label text fails the minimum 3:1 contrast.](../../../assets/images/1fa18834de38-lx32kef6-4.png)
 
@@ -59,13 +59,9 @@ _Don't choose colors that won't pass Material's minimum contrast of 3:1_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Tab
-
-Focus lands on (non-disabled) text field
+| Keys | Actions |
+| --- | --- |
+| Tab | Focus lands on (non-disabled) text field |
 
 ## Labeling elements
 

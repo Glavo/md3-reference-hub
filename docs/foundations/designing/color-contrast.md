@@ -2,7 +2,7 @@
 title: "Designing"
 source_url: "https://m3.material.io/foundations/designing/color-contrast"
 lastmod: "2025-10-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/e2ee549640f9-m0quwwby-1.png"
@@ -35,17 +35,10 @@ Contrast ratios represent how different one color is from another color, commonl
 
 **The W3C recommends the following contrasts for body text and image text**
 
-Text type
-
-Color contrast ratio
-
-Large text (at 14 pt bold/18 pt regular and up) and graphics
-
-At least 3:1 against the background
-
-Small text
-
-At least 4.5:1 against the background
+| Text type | Color contrast ratio |
+| --- | --- |
+| Large text (at 14 pt bold/18 pt regular and up) and graphics | At least 3:1 against the background |
+| Small text | At least 4.5:1 against the background |
 
 Disabled states do not need to meet contrast requirements.
 
@@ -77,8 +70,8 @@ When placing components together in a cluster, use components or types of compon
 
 ![A cluster of three buttons with the same container color that fails the minimum contrast of 3:1 with the UI surface.](../../../assets/images/0ba33edba99b-lwj3vo5t-5.png)
 
-_Each button's container color has less than Material's required minimum contrast of 3:1 against the UI background, leading to poor contrast support for users with low vision_
+_Each button's container color has less than Material's required minimum contrast of 3:1 against the UI background, leading to poor contrast support for users with low vision / /_
 
 ![A cluster of three buttons with the same container color that passes the minimum contrast of 3:1 with the UI surface.](../../../assets/images/074ce5c8932f-lwj3vxr1-6.png)
 
-_Each button's container color has contrast of at least 3:1 against the UI background, leading to better contrast support for users with low vision_
+_Each button's container color has contrast of at least 3:1 against the UI background, leading to better contrast support for users with low vision / /_

@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/overview"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/cb496c8bbfc0-me6q4295-01.png"
@@ -28,14 +28,14 @@ Tooltips display brief labels or messages
 
 ![2 variants of tooltips.](../../../assets/images/cb496c8bbfc0-me6q4295-01.png)
 
-_Plain tooltipRich tooltip_
+_Plain tooltip; Rich tooltip_
 
 ## Availability & resources
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | UNAVAILABLE |  |
 | FIGMA | Design Kit (Figma) | AVAILABLE | https://www.figma.com/community/file/1035203688168086460 |
 | JETPACK_IMPLEMENTATION | Jetpack Compose | AVAILABLE | https://developer.android.com/develop/ui/compose/components/tooltip |

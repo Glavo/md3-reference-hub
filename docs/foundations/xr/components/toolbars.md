@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/toolbars"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -48,13 +48,13 @@ There is one toolbar orbiter. It closely aligns with the floating toolbar. It ca
 
 ![Horizontal and vertical toolbar orbiters.](../../../../assets/images/bc90c052059c-mp5sscqe-01-1P.png)
 
-_Horizontal floating toolbarVertical floating toolbar_
+_Horizontal floating toolbar; Vertical floating toolbar_
 
 ## Anatomy
 
 ![2 elements of a toolbar orbiter: container and placed components. ](../../../../assets/images/fdd5cf39613e-mp5stimq-02-1P.png)
 
-_ContainerPlaced components_
+_Container; Placed components_
 
 ## Color & elevation
 
@@ -62,7 +62,7 @@ XR uses color to communicate the elevation of UI elements and orbiters. With [sp
 
 ![4 versions of toolbar elevation color strategy.](../../../../assets/images/f36166785aec-mp5sum97-03-1P.png)
 
-_Surface containerSurface container highSurface container highestTertiary container_
+_Surface container; Surface container high; Surface container highest; Tertiary container_
 
 ## Measurements
 
@@ -132,7 +132,7 @@ In full space, a toolbar orbiter can be positioned adjacent to or overlap a spat
 
 ![Toolbar orbiter with offset positioning.](../../../../assets/images/279e697bcf32-moxer5rt-11-do.png)
 
-_The recommended toolbar orbiter position from the spatial panel is: Offset by 20dp or Inset by 12dp_
+_The recommended toolbar orbiter position from the spatial panel is: Offset by 20dp or; Inset by 12dp; / /_
 
 ![Toolbar orbiter with inset positioning above 12dp that obstructs content on the spatial panel. ](../../../../assets/images/346a56ff90a0-moxetpx5-12-don't.png)
 

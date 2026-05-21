@@ -2,7 +2,7 @@
 title: "App bars"
 source_url: "https://m3.material.io/components/app-bars/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/6343539e762e-mmagk85x-01-3P.png"
@@ -38,7 +38,7 @@ App bars are placed at the top of the screen to help people navigate through a p
 
 ![4 variants of app bars.](../../../assets/images/6343539e762e-mmagk85x-01-3P.png)
 
-_Search app barSmallMedium flexibleLarge flexible_
+_Search app bar; Small; Medium flexible; Large flexible_
 
 ### Baseline variants
 
@@ -46,60 +46,17 @@ The baseline M3 **medium** and **large** app bars are no longer recommended in 
 
 ![2 baseline app bar variants, medium and large.](../../../assets/images/d717360d52dd-mmar0379-01-deprecated-3P.png)
 
-_Baseline variantsMediumLarge_
+_Baseline variants Medium; Large_
 
-Variant
-
-M3
-
-M3 Expressive
-
-Search app bar
-
-\--
-
-Available
-
-Small
-
-Available
-
-Available
-
-Center-aligned
-
-Available
-
-Merged into **small**. 
-Use centered-text configuration.
-
-Medium (baseline)
-
-Available
-
-Not recommended.
-
-Use **medium flexible**
-
-Medium flexible
-
-\--
-
-Available
-
-Large (baseline)
-
-Available
-
-Not recommended.
-
-Use **large flexible**
-
-Large flexible
-
-\--
-
-Available
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| Search app bar | \-- | Available |
+| Small | Available | Available |
+| Center-aligned | Available | Merged into **small**. Use centered-text configuration. |
+| Medium (baseline) | Available | Not recommended. Use **medium flexible** |
+| Medium flexible | \-- | Available |
+| Large (baseline) | Available | Not recommended. Use **large flexible** |
+| Large flexible | \-- | Available |
 
 ## Configurations
 
@@ -109,27 +66,10 @@ Available
 
 _Text labels, including supporting text, can be aligned to the leading edge or centered_
 
-Category
-
-Configuration
-
-M3
-
-M3 Expressive
-
-Text alignment
-
-Leading edge (default)
-
-Available
-
-Available
-
-Centered
-
-\--
-
-Available
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Text alignment | Leading edge (default) | Available | Available |
+| Centered | \-- | Available |  |
 
 ## Tokens & specs
 
@@ -137,7 +77,20 @@ Select a token set to view in the table's menu. App bar token sets are organized
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: App bars
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| App bar - Common | md.comp.app-bar | COMPONENT | Common tokens for all app bars. |
+| App bar - Size - Large (baseline) | md.comp.app-bar.large | COMPONENT | For the baseline large app bar. In expressive, consider using large flexible instead `md.comp.app-bar.large-flexible`. |
+| App bar - Size - Large Flexible | md.comp.app-bar.large-flexible | COMPONENT | For the large flexible app bar. |
+| App bar - Size - Medium (baseline) | md.comp.app-bar.medium | COMPONENT | For the baseline medium app bar. In expressive, consider using medium flexible instead `md.comp.app-bar.medium-flexible`. |
+| App bar - Size - Medium Flexible | md.comp.app-bar.medium-flexible | COMPONENT | For the medium flexible app bar. |
+| App bar - Size - Small | md.comp.app-bar.small | COMPONENT | For the expressive small app bar and search app bar. |
+| [Deprecated] Top app bar - Large | md.comp.top-app-bar.large | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.large` tokens instead. Original tokens for the large top app bar. |
+| [Deprecated] Top app bar - Medium | md.comp.top-app-bar.medium | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.medium` tokens instead. Original tokens for the medium top app bar. |
+| [Deprecated] Top app bar - Small, Center-aligned | md.comp.top-app-bar.small.centered | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.small` tokens instead. Original component tokens for the center-aligned top app bar. |
+| [Deprecated] Top app bar - Small | md.comp.top-app-bar.small | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.small` tokens instead. Original tokens for the small top app bar. |
 
 ### Search component tokens & specs
 
@@ -145,13 +98,18 @@ The default search component tokens are used in the search app bar.
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Search
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Search - Bar | md.comp.search-bar | COMPONENT | For baseline search bar and expressive search. |
+| Search - View | md.comp.search-view | COMPONENT | For baseline search view and expressive search when activated. |
 
 ## Anatomy
 
 ![5 elements of the component.](../../../assets/images/7f0e55e42469-mmahcxrn-03-3P.png)
 
-_ContainerLeading buttonTrailing elementsHeadlineSubtitle_
+_Container; Leading button; Trailing elements; Headline; Subtitle_
 
 App bars can be customized to include:
 
@@ -171,11 +129,11 @@ The search app bar can include trailing actions inside and outside the search ba
 
 ![5 elements of the search app bar.](../../../assets/images/94073505e16e-mmahnmz2-05-3P.png)
 
-_ContainerLeading icon buttonHinted search textTrailing icon or avatarSearch container_
+_Container; Leading icon button; Hinted search text; Trailing icon or avatar; Search container_
 
 ![3 layouts of icons in the search app bar.](../../../assets/images/85fea7ec36ba-mmahv36y-06-3P.png)
 
-_A leading element and a trailing element outside searchA leading element, a trailing element inside search, and a trailing element outside searchA leading element and two trailing elements outside search_
+_A leading element and a trailing element outside search; A leading element, a trailing element inside search, and a trailing element outside search; A leading element and two trailing elements outside search_
 
 ### Image 
 
@@ -197,7 +155,7 @@ _The trailing icons can be configured to be a single filled icon button_
 
 ![App bars configured with subtitles below their headlines.](../../../assets/images/83e6d853fb23-mmao48ka-09-3P.png)
 
-_The medium flexible and large flexible app bars hug the text contents, so they are taller when a subtitle is visibleSmallSmall with subtitleMedium flexibleMedium flexible with subtitleLarge flexibleLarge flexible with subtitle_
+_The medium flexible and large flexible app bars hug the text contents, so they are taller when a subtitle is visible Small; Small with subtitle; Medium flexible; Medium flexible with subtitle; Large flexible; Large flexible with subtitle_
 
 ## Color
 
@@ -207,17 +165,17 @@ All app bars share the same color roles. On scroll, the container changes color 
 
 ![4 color roles of the leading edge app bar in light and dark scheme.](../../../assets/images/190f1544e289-mmaoaorq-10-3P.png)
 
-_App bar color roles used for light and dark themes:SurfaceOn surfaceOn surface variantOn surfaceOn surface variantSurface container (on scroll)_
+_App bar color roles used for light and dark themes: Surface; On surface; On surface variant; On surface; On surface variant; Surface container (on scroll)_
 
 ![4 color roles of the center-aligned app bar in light and dark scheme.](../../../assets/images/f1b469aecfe9-mmaod25k-11-3P.png)
 
-_Search app bar color roles used for light and dark themes:Surface On surface variantOn surface variantOn surface variantSurface containerSurface containerSurface container highest_
+_Search app bar color roles used for light and dark themes: Surface; On surface variant; On surface variant; On surface variant; Surface container; Surface container; Surface container highest_
 
 ### Scroll states
 
 ![Color roles for app bars when flat and on scroll.](../../../assets/images/e3514b62891d-mmaof4ew-12-3P.png)
 
-_The app bar changes color when flat or on scroll. The search bar can also change color on scroll.FlatOn scroll_
+_The app bar changes color when flat or on scroll. The search bar can also change color on scroll. Flat; On scroll_
 
 ## Measurements
 
@@ -253,7 +211,7 @@ The **medium** and **large** app bars are no longer recommended in M3 Expressive
 
 ![4 elements of medium and large app bars.](../../../assets/images/6ab8e28aa8ed-mmaqk9ki-17-deprecated-3P.png)
 
-_Medium and large app bars have the same elements:ContainerLeading buttonTrailing iconsHeadline_
+_Medium and large app bars have the same elements: Container; Leading button; Trailing icons; Headline_
 
 ### Tokens & specs
 
@@ -261,7 +219,20 @@ Select a token set to view in the table's menu. Baseline app bar token sets are 
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: App bars
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| App bar - Common | md.comp.app-bar | COMPONENT | Common tokens for all app bars. |
+| App bar - Size - Large (baseline) | md.comp.app-bar.large | COMPONENT | For the baseline large app bar. In expressive, consider using large flexible instead `md.comp.app-bar.large-flexible`. |
+| App bar - Size - Large Flexible | md.comp.app-bar.large-flexible | COMPONENT | For the large flexible app bar. |
+| App bar - Size - Medium (baseline) | md.comp.app-bar.medium | COMPONENT | For the baseline medium app bar. In expressive, consider using medium flexible instead `md.comp.app-bar.medium-flexible`. |
+| App bar - Size - Medium Flexible | md.comp.app-bar.medium-flexible | COMPONENT | For the medium flexible app bar. |
+| App bar - Size - Small | md.comp.app-bar.small | COMPONENT | For the expressive small app bar and search app bar. |
+| [Deprecated] Top app bar - Large | md.comp.top-app-bar.large | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.large` tokens instead. Original tokens for the large top app bar. |
+| [Deprecated] Top app bar - Medium | md.comp.top-app-bar.medium | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.medium` tokens instead. Original tokens for the medium top app bar. |
+| [Deprecated] Top app bar - Small, Center-aligned | md.comp.top-app-bar.small.centered | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.small` tokens instead. Original component tokens for the center-aligned top app bar. |
+| [Deprecated] Top app bar - Small | md.comp.top-app-bar.small | COMPONENT | This token set is deprecated. Use `md.comp.app-bar` and `md.comp.app-bar.small` tokens instead. Original tokens for the small top app bar. |
 
 ### Color
 
@@ -269,7 +240,7 @@ Color values are implemented through design tokens. For designers, this means wo
 
 ![4 color roles of the medium top app bar in light and dark scheme.](../../../assets/images/109ad9f572b0-mmaqrta6-18-deprecated-3P.png)
 
-_Medium top app bar color roles used for light and dark schemes:SurfaceOn surfaceOn surfaceOn surface variant_
+_Medium top app bar color roles used for light and dark schemes: Surface; On surface; On surface; On surface variant_
 
 ### Measurements
 

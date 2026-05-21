@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose is now stable"
 source_url: "https://m3.material.io/blog/material-3-compose-stable"
 lastmod: "2025-03-11"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/69c1a8d9affd-yYfg__SGRj3ELVT3kcpto_hEBpyDEShR2HyKztmxiYxBIg2AKBokBC03XX8M72Zi2mX4bADa4pcg6PaWGJJ-qyDFAMK0rUJn.png"
@@ -53,13 +53,8 @@ Dynamic color derives from the user’s wallpaper. The colors can be applied to 
 
 Dynamic color is available on Android 12 (API level 31) and above. If dynamic color is available, you can set up a dynamic `ColorScheme`. If not, you should fall back to using a custom light or dark `ColorScheme`.
 
-![](../../assets/images/59ebb3411d91-isYinQaWjIX0jX1aZY4i0QWOaKF-EQur83BI6AezKaQVSZ2poPCQi2BPQPvSeSQxmu7Sr_k4iubDvoKARRLSAhY1O0c0jB7K.png)
-
-Reply Dynamic theming from wallpaper
-
-![](../../assets/images/02e76f49ddd6-WxI5lRgubhlav9dG6WU6-yeSe3lAWuJQ0xuo7l2fMm1HWfcrGhzEbXlGngr99mWaLfvffiAIhhF45KkoopvokP9jOlP0ZVj8.png)
-
-Default Reply app theming
+| ![](../../assets/images/59ebb3411d91-isYinQaWjIX0jX1aZY4i0QWOaKF-EQur83BI6AezKaQVSZ2poPCQi2BPQPvSeSQxmu7Sr_k4iubDvoKARRLSAhY1O0c0jB7K.png) Reply Dynamic theming from wallpaper | ![](../../assets/images/02e76f49ddd6-WxI5lRgubhlav9dG6WU6-yeSe3lAWuJQ0xuo7l2fMm1HWfcrGhzEbXlGngr99mWaLfvffiAIhhF45KkoopvokP9jOlP0ZVj8.png) Default Reply app theming |
+| --- | --- |
 
 The `ColorScheme` class provides builder functions to create both dynamic and custom [light](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#dynamiclightcolorscheme) and [dark](https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#dynamicdarkcolorscheme) color schemes:
 
@@ -77,21 +72,11 @@ Material 3 Switch thumb interaction
 
 Navigation drawer components now provide wrapper sheets for content to change colors, shapes, and elevation independently.
 
-**Navigation drawer component**
-
-**Content**
-
-ModalNavigationDrawer
-
-ModalDrawerSheet
-
-PermanentNavigationDrawer
-
-PermanentDrawerSheet
-
-DismissableNavigationDrawer
-
-DismissableDrawerSheet
+| **Navigation drawer component** | **Content** |
+| --- | --- |
+| ModalNavigationDrawer | ModalDrawerSheet |
+| PermanentNavigationDrawer | PermanentDrawerSheet |
+| DismissableNavigationDrawer | DismissableDrawerSheet |
 
 ![](../../assets/images/0ce3da010f66-7ZoGjkeViQgxDGkDzS0kzS5CofQ1RO1c0WL292JLfJE9Kk5Hqu_vCJ4tDGZ2W2opJj9CDJEqAV8kPVyfnlB_6n1l1NnIDnC3.png)
 

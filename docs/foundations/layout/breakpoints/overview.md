@@ -2,7 +2,7 @@
 title: "Breakpoints"
 source_url: "https://m3.material.io/foundations/layout/breakpoints/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/a2b539d17417-mp3zlnnl-01.png"
@@ -58,13 +58,13 @@ Rather than designing for an ever-increasing number of display states, focusing 
 
 ![3 breakpoints from small to expanded.](../../../../assets/images/a2b539d17417-mp3zlnnl-01.png)
 
-_CompactMediumExpanded_
+_Compact; Medium; Expanded_
 
 Large and extra-large breakpoints are used on devices like laptops, desktops, and external monitors.
 
 ![2 devices with large and extra-large breakpoints.](../../../../assets/images/e5482670e944-mp3zmg9g-02.png)
 
-_LargeExtra-large_
+_Large; Extra-large_
 
 **Design for breakpoints instead of specific devices because:**
 
@@ -72,51 +72,13 @@ _LargeExtra-large_
 
 -   Devices fall into different breakpoints based on orientation
 
-Breakpoint
-
-Width (dp)
-
-Common devices
-
-Compact
-
-Under 600dp
-
-Phone in portrait
-
-Medium
-
-600–839dp
-
-Tablet in portrait
-
-Foldable in portrait (unfolded)
-
-Expanded
-
-840–1199dp
-
-Phone in landscape
-
-Tablet in landscape
-
-Foldable in landscape (unfolded)
-
-Desktop
-
-Large
-
-1200–1599dp
-
-Desktop
-
-Extra-large
-
-1600dp+
-
-Desktop
-
-Ultra-wide monitors
+| Breakpoint | Width (dp) | Common devices |
+| --- | --- | --- |
+| Compact | Under 600dp | Phone in portrait |
+| Medium | 600–839dp | Tablet in portrait Foldable in portrait (unfolded) |
+| Expanded | 840–1199dp | Phone in landscape Tablet in landscape Foldable in landscape (unfolded) Desktop |
+| Large | 1200–1599dp | Desktop |
+| Extra-large | 1600dp+ | Desktop Ultra-wide monitors |
 
 ### Height breakpoints
 
@@ -136,77 +98,13 @@ Each product view should have a layout for the breakpoints most appropriate for 
 
 Different components are recommended for performing the same function across the five layouts.
 
-Breakpoint
-
-Panes
-
-Navigation
-
-Communication
-
-Action
-
-Compact
-
-1
-
-Navigation bar, modal expanded
-
-navigation rail
-
-Simple dialog
-
-Full-screen dialog
-
-Bottom sheet
-
-Medium
-
-1 (recommended) or 2
-
-Navigation bar, modal expanded
-
-navigation rail
-
-Simple dialog
-
-Menu
-
-Expanded
-
-1 or 2 (recommended)
-
-Modal or standard expanded
-
-navigation rail
-
-Simple dialog
-
-Menu
-
-Large
-
-1 or 2 (recommended)
-
-Modal or standard expanded
-
-navigation rail
-
-Simple dialog
-
-Menu
-
-Extra-large
-
-1 to 3 (recommended)
-
-Modal or standard expanded
-
-navigation rail
-
-Simple dialog
-
-Menu
+| Breakpoint | Panes | Navigation | Communication | Action |
+| --- | --- | --- | --- | --- |
+| Compact | 1 | Navigation bar, modal expanded navigation rail | Simple dialog Full-screen dialog | Bottom sheet |
+| Medium | 1 (recommended) or 2 | Navigation bar, modal expanded navigation rail | Simple dialog | Menu |
+| Expanded | 1 or 2 (recommended) | Modal or standard expanded navigation rail | Simple dialog | Menu |
+| Large | 1 or 2 (recommended) | Modal or standard expanded navigation rail | Simple dialog | Menu |
+| Extra-large | 1 to 3 (recommended) | Modal or standard expanded navigation rail | Simple dialog | Menu |
 
 Start by designing for one breakpoint, then adjust the layout for the next size by asking these five questions:
 
@@ -351,42 +249,9 @@ _Don’t arbitrarily swap components that aren’t functionally equivalent, such
 
 ### Common swappable components
 
-Component type
-
-Compact
-
-Medium
-
-Expanded
-
-Navigation
-
-Navigation bar
-
-Collapsed navigation rail
-
-Collapsed navigation rail
-
-Navigation
-
-Modal expanded navigation rail
-
-Modal expanded navigation rail
-
-Standard expanded navigation rail
-
-Communication
-
-Basic or full-screen dialog
-
-Basic dialog
-
-Basic dialog
-
-Supplemental selection
-
-Bottom sheet
-
-Menu
-
-Menu
+| Component type | Compact | Medium | Expanded |
+| --- | --- | --- | --- |
+| Navigation | Navigation bar | Collapsed navigation rail | Collapsed navigation rail |
+| Navigation | Modal expanded navigation rail | Modal expanded navigation rail | Standard expanded navigation rail |
+| Communication | Basic or full-screen dialog | Basic dialog | Basic dialog |
+| Supplemental selection | Bottom sheet | Menu | Menu |

@@ -2,7 +2,7 @@
 title: "Advanced customizations"
 source_url: "https://m3.material.io/styles/color/advanced/apply-colors"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/7c418a86c4b2-lwt7bogx-1.png"
@@ -26,7 +26,7 @@ Use multiple color schemes in the same app experience, such as a baseline scheme
 
 ![Smart home control screen showing media controls, light controls, and wifi and thermostat controls. Annotation 1 points to the media controls, which are colored in a teal scheme. Annotation 2 points to the remaining controls, colored in a red scheme.](../../../../assets/images/7c418a86c4b2-lwt7bogx-1.png)
 
-_This smart home control screen combines two color schemes:A teal content-based color scheme from the local album art, applied to media controlsA red user-generated color scheme from the user's wallpaper, applied to the rest of the UI_
+_This smart home control screen combines two color schemes: A teal content-based color scheme from the local album art, applied to media controls; A red user-generated color scheme from the user's wallpaper, applied to the rest of the UI_
 
 ### Why
 

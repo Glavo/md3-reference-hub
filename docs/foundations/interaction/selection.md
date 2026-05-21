@@ -2,7 +2,7 @@
 title: "Selection"
 source_url: "https://m3.material.io/foundations/interaction/selection"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/70fe9c1e77cf-m1qhf1tb-1.png"
@@ -24,17 +24,9 @@ Selection is how people interact with UI elements or choose which items to act o
 
 ## Resources
 
-Type
-
-Link
-
-Status
-
-Design
-
-[Design Kit (Figma)](http://goo.gle/m3-design-kit)
-
-Available
+| Type | Link | Status |
+| --- | --- | --- |
+| Design | [Design Kit (Figma)](http://goo.gle/m3-design-kit) | Available |
 
 ## Selection indicators
 
@@ -57,7 +49,7 @@ Selections are inherited by the following components: 
 
 ![Seven types of selected  components.](../../../assets/images/70fe9c1e77cf-m1qhf1tb-1.png)
 
-_Selected components:Segmented buttonsChipsList items CheckboxesRadio buttons SwitchSlider_
+_Selected components: Segmented buttons; Chips; List items; Checkboxes; Radio buttons; Switch; Slider_
 
 The following components use an active indicator to represent which item is currently selected:
 
@@ -70,7 +62,7 @@ The color and shape of the active indicator varies between components. In these 
 
 ![Tabs and navigation drawer with one destination item selected. Selection is identified with an active indicator.](../../../assets/images/0d94b318f636-lwvowprh-2.png)
 
-_Selected components with active indicators:TabNavigation drawer_
+_Selected components with active indicators: Tab; Navigation drawer_
 
 ## Types of selection
 

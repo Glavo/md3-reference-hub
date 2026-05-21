@@ -2,7 +2,7 @@
 title: "Menus"
 source_url: "https://m3.material.io/components/menus/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/4412148009be-mi5oa1gs-01.png"
@@ -72,41 +72,18 @@ Where focus is placed after closing the menu depends on the app.
 
 ![4 common keyboard navigation methods for menus on Android and web.](../../../assets/images/7924ccf0604d-mhkewf5t-03.png)
 
-_Keyboard navigation on Android and web:Tab to select a menu itemSpace or Enter to open a menuSpace or Enter to select a menu itemEscape to close a menu_
+_Keyboard navigation on Android and web: Tab to select a menu item; Space or Enter to open a menu; Space or Enter to select a menu item; Escape to close a menu_
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-**Tab**
-
-Focus lands on menu
-
-**Space** or **Enter**
-
-For closed menus: Opens menu or submenu
-
-For open menus: Selects a menu item
-
-**Up** and **Down** arrows
-
-For closed menus: Opens menu 
-
-For open menus: Moves focus to the next item
-
-**Left** and **Right** arrows
-
-Opens or closes a submenu
-
-**Letters**
-
-Focus moves to the next menu item starting with letter
-
-**Escape**
-
-Closes menu
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** | Focus lands on menu |
+| **Space** or **Enter** | For closed menus: Opens menu or submenu For open menus: Selects a menu item |
+| **Up** and **Down** arrows | For closed menus: Opens menu For open menus: Moves focus to the next item |
+| **Left** and **Right** arrows | Opens or closes a submenu |
+| **Letters** | Focus moves to the next menu item starting with letter |
+| **Escape** | Closes menu |
 
 ## Interactability
 
@@ -134,26 +111,9 @@ The role is [dependent on platform](accessibility.md#9c562e2c-da3a-4212-a2e3-ac9
 
 _The menu item’s accessibility label aligns with the UI text_
 
-**Element**
-
-**A11y label**
-
-**Role (Web)**
-
-**Role (Android Views)
-**
-
-**Role (Jetpack Compose)**
-
-Menu item text
-
-Preview
-
-Menu item
-
-Generic actionable element
-
-Generic actionable element
+| **Element** | **A11y label** | **Role (Web)** | **Role (Android Views) ** | **Role (Jetpack Compose)** |
+| --- | --- | --- | --- | --- |
+| Menu item text | Preview | Menu item | Generic actionable element | Generic actionable element |
 
 For menu items with text and an icon, the icon’s accessibility label should be marked as **decorative** to avoid redundant verbalizations.
 

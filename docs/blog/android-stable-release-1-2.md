@@ -2,7 +2,7 @@
 title: "Material Components for Android 1.2.0"
 source_url: "https://m3.material.io/blog/android-stable-release-1-2"
 lastmod: "2024-04-16"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/e0e7d39cfd3f-kMVUmItZ96jyShlKNdRVPf3Xpt9BKDRMxc919C2imRjLozwk8fWO4jaAoe4_fAGzDZ0gyP5tZaNSqr-IKQbBwzShHyKR2BD2.png"

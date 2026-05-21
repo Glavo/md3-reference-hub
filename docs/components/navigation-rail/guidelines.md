@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/8bf7ead408fd-m0fueyh1-01.png"
@@ -92,7 +92,7 @@ _The expanded navigation rail can also be hidden, appearing only when the menu i
 
 ![10 elements of expanded and collapsed navigation rails.](../../../assets/images/e65395badf22-m0fug0sy-05.png)
 
-_ContainerMenu (optional)Floating action button (FAB) (optional)Icon - activeLabel text - activeActive indicatorIcon - inactiveLarge badge (optional)Large badge labelSmall badgeLabel text - inactive_
+_Container; Menu (optional); Floating action button (FAB) (optional); Icon - active; Label text - active; Active indicator; Icon - inactive; Large badge (optional); Large badge label; Small badge; Label text - inactive_
 
 ### Container
 
@@ -226,7 +226,7 @@ In compact nav rails, the badge is placed in the upper right corner of the icon.
 
 ![Navigation rail with badges on each icon.](../../../assets/images/25befbe27d6c-m0fuomdi-23.png)
 
-_1. Small badge on a rail destination 2. Large badge with a number3. Large badge with a maximum character count_
+_1. Small badge on a rail destination / 2. Large badge with a number / 3. Large badge with a maximum character count_
 
 ### Divider (optional)
 

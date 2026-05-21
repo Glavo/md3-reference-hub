@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -38,8 +38,8 @@ _A list item's label text, supporting text, image, and trailing icon can be cust
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/List.md#m3-expressive |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://developer.android.com/develop/ui/views/layout/recyclerview |
 | JETPACK_IMPLEMENTATION | Jetpack Compose: Expressive | AVAILABLE | https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#ListItem%28kotlin.Function0,androidx.compose.ui.Modifier,kotlin.Function0,kotlin.Function0,kotlin.Function0,kotlin.Function0,androidx.compose.material3.ListItemColors,androidx.compose.ui.unit.Dp,androidx.compose.ui.unit.Dp%29 |

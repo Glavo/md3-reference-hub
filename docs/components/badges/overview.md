@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/4fb26523ffd8-me8hopxl-01.png"
@@ -27,14 +27,14 @@ Badges show notifications, counts, or status information on navigation items and
 
 ![3 icons with badges. 1 is a small dot. 2 is a larger circle with a 1 digit number. 3 is an oval with a 4 digit number.](../../../assets/images/4fb26523ffd8-me8hopxl-01.png)
 
-_Small badge on a navigation itemLarge badge on a navigation itemLarge badge with max characters on a navigation item_
+_Small badge on a navigation item; Large badge on a navigation item; Large badge with max characters on a navigation item_
 
 ## Availability & resources
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/BadgeDrawable.md |
 | FIGMA | Design Kit (Figma) | AVAILABLE | https://www.figma.com/community/file/1035203688168086460 |
 | LIT_IMPLEMENTATION | Web | UNAVAILABLE |  |

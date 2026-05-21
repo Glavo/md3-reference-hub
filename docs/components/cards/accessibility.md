@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/05253f4916f8-lwuobzmz-1.png"
@@ -35,7 +35,7 @@ A card can be a non-actionable container that holds actions like buttons and lin
 
 ![2 possible card interaction behaviors.](../../../assets/images/05253f4916f8-lwuobzmz-1.png)
 
-_Non-actionable card with buttonsDirectly actionable card with no buttons_
+_Non-actionable card with buttons; Directly actionable card with no buttons_
 
 ### Touch
 
@@ -103,22 +103,10 @@ _Card layouts can change on different devices_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-**Tab**
-
-Move to the next actionable element
-
-
-**Directly actionable cards:** Move to next card container
-
-**Non-actionable cards with actionable elements:** Move to next actionable element
-
-**Space** or **Enter**
-
-Confirm action
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Move to the next actionable element **Directly actionable cards:** Move to next card container **Non-actionable cards with actionable elements:** Move to next actionable element |
+| **Space** or **Enter** | Confirm action |
 
 ## Labeling elements
 
@@ -130,4 +118,4 @@ Non-actionable cards are purely containers, so they don’t need a role.
 
 ![Card elements annotated in the order that a screen reader tabs through them.](../../../assets/images/7f33570dd561-mk6jw3io-09.png)
 
-_Non-actionable card elements are navigable, focused in order, and verbalized when in focus. In this example, the order is:HeadingImageBody textPrimary buttonSecondary button_
+_Non-actionable card elements are navigable, focused in order, and verbalized when in focus. In this example, the order is: Heading; Image; Body text; Primary button; Secondary button_

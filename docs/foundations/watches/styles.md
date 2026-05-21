@@ -2,7 +2,7 @@
 title: "Design for watches"
 source_url: "https://m3.material.io/foundations/watches/styles"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/cd6d62700ad7-mp5bgujn-22.png"
@@ -27,25 +27,14 @@ Watches have special design considerations and interaction patterns
 
 ## Resources
 
-Type
-
-Resource
-
-Design
-
-[M3 Expressive on Wear OS](https://developer.android.com/design/ui/wear/guides/get-started)
-
-[Typography for Wear OS](https://developer.android.com/design/ui/wear/guides/styles/typography)
-
-[Color for Wear OS](https://developer.android.com/design/ui/wear/guides/styles/color)
-
-[Motion for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/apply#shape-motion)
-
-Implementation
-
-[Android Developers: Wear OS](https://developer.android.com/training/wearables)
-
-[Jetpack Compose for Wear OS](https://developer.android.com/training/wearables/compose?version=3)
+| Type | Resource |
+| --- | --- |
+| Design | [M3 Expressive on Wear OS](https://developer.android.com/design/ui/wear/guides/get-started) |
+| [Typography for Wear OS](https://developer.android.com/design/ui/wear/guides/styles/typography) |  |
+| [Color for Wear OS](https://developer.android.com/design/ui/wear/guides/styles/color) |  |
+| [Motion for Wear OS](https://developer.android.com/design/ui/wear/guides/get-started/apply#shape-motion) |  |
+| Implementation | [Android Developers: Wear OS](https://developer.android.com/training/wearables) |
+| [Jetpack Compose for Wear OS](https://developer.android.com/training/wearables/compose?version=3) |  |
 
 ## Typography
 
@@ -105,27 +94,27 @@ Below are some common color pairings that can help establish priority, function,
 
 ![Three buttons, with the center one in Primary and side ones in Primary Dim. ](../../../assets/images/e72fb39ed4da-mp5bls9w-23.png)
 
-_PrimaryPrimary dim_
+_Primary; Primary dim_
 
 ![ A number pad with most keys in Primary Dim and the pressed key in Tertiary. ](../../../assets/images/82b23727981a-mp5bmhyv-24.png)
 
-_Primary dimTertiary_
+_Primary dim; Tertiary_
 
 ![Call button in tertiary color, open button in primary color and open on phone button in secondary-container.](../../../assets/images/e7799a639a98-mp5bn2dm-28.png)
 
-_TertiaryPrimarySecondary container_
+_Tertiary; Primary; Secondary container_
 
 ![accept button in primary and delete button in primary container.](../../../assets/images/324ea752c8ae-mp5bnriq-30.png)
 
-_PrimaryTertiaryPrimary container_
+_Primary; Tertiary; Primary container_
 
 ![Plus button in primary color, date button is in tertiary color and appointment summary is in primary container color.](../../../assets/images/cc7e16523b63-mp5bof6i-27.png)
 
-_Primary dimTertiary dim_
+_Primary dim; Tertiary dim_
 
 ![Bicycle button in primary, weight button in tertiary dim.](../../../assets/images/348196780e06-mp5bp0a1-31.png)
 
-_PrimaryTertiary dim_
+_Primary; Tertiary dim_
 
 ## Motion
 

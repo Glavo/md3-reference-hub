@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/086afdbd42f5-lwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4"
@@ -110,17 +110,10 @@ _Avoid focusing on the carousel container_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-**Tab** or **Arrows**
-
-Moves to the previous or next carousel item
-
-**Space** or **Enter**
-
-Activates the focused carousel item
+| Keys | Actions |
+| --- | --- |
+| **Tab** or **Arrows** | Moves to the previous or next carousel item |
+| **Space** or **Enter** | Activates the focused carousel item |
 
 ## Labeling elements
 

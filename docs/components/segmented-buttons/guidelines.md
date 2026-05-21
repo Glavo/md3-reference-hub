@@ -2,7 +2,7 @@
 title: "Segmented buttons"
 source_url: "https://m3.material.io/components/segmented-buttons/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/c34371b7149d-lw7mlxdq-1.png"
@@ -43,7 +43,7 @@ Segmented buttons are no longer recommended in the Material 3 expressive update.
 
 ![Two types of segmented buttons.](../../../assets/images/c34371b7149d-lw7mlxdq-1.png)
 
-_Single-select Multi-select_
+_Single-select; Multi-select_
 
 ## Usage
 
@@ -61,13 +61,13 @@ There are 2 variants of segmented buttons:
 
 ![Side by side view of single and multi-select segmented buttons](../../../assets/images/bd83bf9c7482-lw7mz9ev-3.png)
 
-_Single-select segmented button can only have 1 segment selectedMulti-select segmented button can have multiple segments selected_
+_Single-select segmented button can only have 1 segment selected; Multi-select segmented button can have multiple segments selected_
 
 ## Anatomy
 
 ![Diagram of segmented button indicating 5 parts of its anatomy](../../../assets/images/b03cac3c48c8-lw7n59nt-4.png)
 
-_SegmentContainerIcon (optional)Label text (optional)Selected icon_
+_Segment; Container; Icon (optional); Label text (optional); Selected icon_
 
 ### Segments
 

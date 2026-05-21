@@ -2,7 +2,7 @@
 title: "Checkbox"
 source_url: "https://m3.material.io/components/checkbox/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/adec38612545-memmstmc-1-3P.png"
@@ -24,13 +24,17 @@ Browse the component elements, attributes, tokens, and their values.
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Checkbox
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Checkbox | md.comp.checkbox | COMPONENT | For checkboxes. |
 
 ## Checkbox
 
 ![Diagram of checkbox indicating the 2 parts of its anatomy.](../../../assets/images/adec38612545-memmstmc-1-3P.png)
 
-_Container Icon_
+_Container; Icon_
 
 ## Color
 
@@ -38,7 +42,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Checkbox color roles in light and dark themes.](../../../assets/images/397c3a43a343-memmtsu5-2-3P.png)
 
-_CheckboxState-layerIcon_
+_Checkbox; State-layer; Icon; /_
 
 ### Adjacent text label color
 
@@ -54,36 +58,17 @@ States are visual representations used to communicate the status of a component 
 
 ![Side by side view of states in light and dark themes.](../../../assets/images/3e93318de949-memmxoan-4-3P.png)
 
-_Enabled Disabled Hovered Focused Pressed_
+_Enabled; Disabled; Hovered; Focused; Pressed_
 
 ## Measurements
 
 ![Diagram of a selected checkbox with a container width and height of 18dp and a state-layer width and height of 40dp.](../../../assets/images/0d6c7bb91103-memn204f-5-3P.png)
 
-Attribute
-
-Value
-
-Container size
-
-18dp
-
-Container corner shape
-
-2dp
-
-Icon size
-
-18dp
-
-Icon alignment
-
-Center-aligned
-
-Target size
-
-48dp
-
-State-layer size
-
-40dp
+| Attribute | Value |
+| --- | --- |
+| Container size | 18dp |
+| Container corner shape | 2dp |
+| Icon size | 18dp |
+| Icon alignment | Center-aligned |
+| Target size | 48dp |
+| State-layer size | 40dp |

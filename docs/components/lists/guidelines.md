@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -52,7 +52,7 @@ Lists are continuous, vertical indexes of text or images.
 
 ![3 list items show different layout options, with varying sizes of elements in the leading slot.](../../../assets/images/4a9930535305-miewlynz-01.png)
 
-_Lists can include a range of layout combinations:Leading images, videos, icons, or avatarsTrailing text, icons, or icon buttons_
+_Lists can include a range of layout combinations: Leading images, videos, icons, or avatars; Trailing text, icons, or icon buttons_
 
 ## Usage
 
@@ -78,7 +78,7 @@ Don’t vary the position of elements within a list.
 
 ![4 versions of the same list highlighting avatar and text alignment.](../../../assets/images/892d0ac2280d-miewmxat-04.png)
 
-_Sample listContent placement in a rowSupporting visuals are aligned for easy scanningPrimary text is aligned for easy scanning_
+_Sample list; Content placement in a row; Supporting visuals are aligned for easy scanning; Primary text is aligned for easy scanning_
 
 List items can adapt to different lengths of text:
 
@@ -90,13 +90,13 @@ List items can adapt to different lengths of text:
 
 ![3 lists show items with label text only, label text with 1-line of supporting text, and label text with 2-lines of supporting text.](../../../assets/images/ba6ab990be9c-miewpdzm-05.png)
 
-_Three examples of list item sizes:Label text onlyLabel text with supporting text on one lineLabel text with supporting text that wraps to two lines_
+_Three examples of list item sizes: Label text only; Label text with supporting text on one line; Label text with supporting text that wraps to two lines_
 
 ## Anatomy
 
 ![List diagram with 10 elements.](../../../assets/images/85e13e8531d9-miewsyte-06.png)
 
-_Container and label text are required. All other elements are optional:ContainerLabel textSupporting textTrailing textTrailing iconTrailing selection control - checkbox, radio button, switchLeading avatar containerLeading avatar textLeading iconLeading media - image or video_
+_Container and label text are required. All other elements are optional: Container; Label text; Supporting text; Trailing text; Trailing icon; Trailing selection control - checkbox, radio button, switch; Leading avatar container; Leading avatar text; Leading icon; Leading media - image or video_
 
 ### Container
 
@@ -136,7 +136,7 @@ A trailing icon is often used to communicate status or indicate an action, like 
 ![Leading icons should relate to the label text
 A list of items with leading and trailing icons on a mobile device.](../../../assets/images/356524314c6a-miexc5t2-9.png)
 
-_Leading icons should relate to the label textTrailing icons can communicate an action_
+_Leading icons should relate to the label text; Trailing icons can communicate an action_
 
 ### Leading media
 
@@ -167,11 +167,11 @@ Use spacing to draw attention to the most important aspect of the list item, usu
 
 ![A folder icon in the primary action area takes up the full height of the list item.](../../../assets/images/6a92f0772e2a-miexnuvs-13.png)
 
-_The primary action takes up more space:1. Primary action area2. Secondary action area_
+_The primary action takes up more space: 1. Primary action area 2. Secondary action area_
 
 ![A list item has an avatar in the more distinguishing content position on the left, and “15 min” trailing text on the right.](../../../assets/images/67d5ecf980a2-miexoaw7-14.png)
 
-_Align content by importance:1. More distinguishing content2. Less distinguishing content_
+_Align content by importance: 1. More distinguishing content 2. Less distinguishing content_
 
 ### Trailing text
 
@@ -193,7 +193,7 @@ Selection controls display list item actions. Position controls at the leading o
 
 ![3 lists with different selection controls.](../../../assets/images/6697e28ef7aa-miexzfsy-16.png)
 
-_List items with: CheckboxesSwitches Radio buttons_
+_List items with: Checkboxes; Switches; Radio buttons_
 
 ### Gaps & dividers
 

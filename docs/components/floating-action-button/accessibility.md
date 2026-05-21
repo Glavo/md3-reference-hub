@@ -2,7 +2,7 @@
 title: "FABs"
 source_url: "https://m3.material.io/components/floating-action-button/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/fa63fb000f1b-malo050e-1.png"
@@ -83,17 +83,10 @@ _Don’t completely obscure an actionable element and its focus indicator_
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-**Tab**
-
-Focus lands on the FAB
-
-**Space** or **Enter**
-
-Perform the default action on an item
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** | Focus lands on the FAB |
+| **Space** or **Enter** | Perform the default action on an item |
 
 ## Labeling elements
 

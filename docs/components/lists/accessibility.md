@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -152,25 +152,12 @@ _The Space or Enter key activates a selected action in a list_
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-**Tab**
-
-To move focus to the first list item, last list item, or outside of the list component
-
-Down and right arrow keys
-
-Moves to the next element in the list; if the focused element is the last in the list, it wraps back to the top of the list
-
-Up and left arrow keys
-
-Moves to the previous element in the list; if the focused element is the first in the list, it wraps back to the bottom of the list
-
-**Space** or **Enter**
-
-To select a list item not yet selected
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** | To move focus to the first list item, last list item, or outside of the list component |
+| Down and right arrow keys | Moves to the next element in the list; if the focused element is the last in the list, it wraps back to the top of the list |
+| Up and left arrow keys | Moves to the previous element in the list; if the focused element is the first in the list, it wraps back to the bottom of the list |
+| **Space** or **Enter** | To select a list item not yet selected |
 
 ## Labeling elements
 
@@ -188,75 +175,19 @@ _A list item’s label text and supporting text is used for its accessibility la
 
 #### Single-select lists
 
-**Trait**
-
-**Web**
-
-**Android Views (MDC-Android)**
-
-**Jetpack Compose**
-
-Aria label
-
-Container label: Should describe selection type
-
-List item: Should match the visible label text 
-
-List item: Should match the visible label text 
-
-List item: Should match the visible label text 
-
-Role
-
-Container: List box  List item: Option
-
-List item: Radio button
-
-List item: Radio button
-
-State
-
-Selected or Not-selected
-
-Checked or Not-checked
-
-Checked or Not-checked
+| **Trait** | **Web** | **Android Views (MDC-Android)** | **Jetpack Compose** |
+| --- | --- | --- | --- |
+| Aria label | Container label: Should describe selection type List item: Should match the visible label text | List item: Should match the visible label text | List item: Should match the visible label text |
+| Role | Container: List box List item: Option | List item: Radio button | List item: Radio button |
+| State | Selected or Not-selected | Checked or Not-checked | Checked or Not-checked |
 
 #### Multi-select lists
 
-**Trait**
-
-**Web**
-
-**Android Views (MDC-Android)**
-
-**Jetpack Compose**
-
-Aria label
-
-Container label: Should describe selection type
-
-List item: Should match the visible label text 
-
-List item: Should match the visible label text
-
-List item: Should match the visible label text 
-
-Role
-
-Container: List box  List item: Option
-
-List item: Checkbox
-
-List item: Checkbox
-
-State
-
-Selected or Not-selected
-
-Checked or Not-checked
-
-Checked or Not-checked
+| **Trait** | **Web** | **Android Views (MDC-Android)** | **Jetpack Compose** |
+| --- | --- | --- | --- |
+| Aria label | Container label: Should describe selection type List item: Should match the visible label text | List item: Should match the visible label text | List item: Should match the visible label text |
+| Role | Container: List box List item: Option | List item: Checkbox | List item: Checkbox |
+| State | Selected or Not-selected | Checked or Not-checked | Checked or Not-checked |
 
 On web, a list container’s accessibility label describes the type of selection that can be made, and the role is **List box**.
 

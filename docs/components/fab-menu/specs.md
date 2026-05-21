@@ -2,7 +2,7 @@
 title: "FAB menu"
 source_url: "https://m3.material.io/components/fab-menu/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/d0bd754269cd-ma3q0apv-01-3p.png"
@@ -34,39 +34,19 @@ The floating action button (FAB) menu opens from a FAB to display multiple relat
 
 _There’s one variant of FAB menu_
 
-Variant
-
-M3
-
-M3 Expressive
-
-FAB menu
-
-\--
-
-Available
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| FAB menu | \-- | Available |
 
 ## Configurations
 
 ![3 color configurations of FAB menus.](../../../assets/images/4b37ca20fbc0-ma3q1bvc-02-3p.png)
 
-_Three color sets:PrimarySecondaryTertiary_
+_Three color sets: Primary; Secondary; Tertiary_
 
-Category
-
-Configuration
-
-M3
-
-M3 Expressive
-
-Color
-
-Primary set, secondary set, tertiary set
-
-\--
-
-Available
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Color | Primary set, secondary set, tertiary set | \-- | Available |
 
 ## Tokens & specs
 
@@ -74,13 +54,23 @@ Use the table's menu to switch token sets. The FAB menu has a common token set a
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: FAB menu
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| FAB menu - Common | md.comp.fab-menu | COMPONENT | Common tokens for all FAB menus. |
+| FAB menu close button - Color - Primary | md.comp.fab-menu.primary.close-button | COMPONENT | Primary color tokens for the close button in the FAB menu. |
+| FAB menu close button - Color - Secondary | md.comp.fab-menu.secondary.close-button | COMPONENT | Secondary color tokens for the close button in the FAB menu. |
+| FAB menu close button - Color - Tertiary | md.comp.fab-menu.tertiary.close-button | COMPONENT | Tertiary color tokens for the close button in the FAB menu. |
+| FAB menu list items - Color - Primary | md.comp.fab-menu.primary-container | COMPONENT | Primary container color tokens for the items in the FAB menu. |
+| FAB menu list items - Color - Secondary | md.comp.fab-menu.secondary-container | COMPONENT | Secondary container color tokens for the items in the FAB menu. |
+| FAB menu list items - Color - Tertiary | md.comp.fab-menu.tertiary-container | COMPONENT | Tertiary container color tokens for the items in the FAB menu. |
 
 ## Anatomy
 
 ![2 elements of a FAB menu.](../../../assets/images/c4b41ea32b7d-ma3q41o4-03-3p.png)
 
-_Close buttonMenu item_
+_Close button; Menu item_
 
 ![5 FAB menus showing the range of 2–6 items.](../../../assets/images/3d2a4094a6e4-ma3q4pvy-04-3p.png)
 
@@ -92,7 +82,7 @@ Color values are implemented through design tokens. For designers, this means wo
 
 ![12 colors of the FAB menu.](../../../assets/images/b73b88f6ee01-ma3q6ipd-05-3p.png)
 
-_On primary containerPrimary containerOn primaryPrimaryOn secondary containerSecondary containerOn secondarySecondaryOn tertiary containerTertiary containerOn tertiaryTertiary_
+_On primary container; Primary container; On primary; Primary; On secondary container; Secondary container; On secondary; Secondary; On tertiary container; Tertiary container; On tertiary; Tertiary_
 
 ## States
 
@@ -102,13 +92,13 @@ States are visual representations used to communicate the status of a component 
 
 ![4 states of the FAB menu close button.](../../../assets/images/961437ab47d3-ma3q7h0v-06-3p.png)
 
-_Close button states in light and dark themes: EnabledHoveredFocusedPressed_
+_Close button states in light and dark themes: Enabled; Hovered; Focused; Pressed_
 
 ### Menu item
 
 ![4 states of the FAB menu items.](../../../assets/images/8cfdc1c811e1-ma3q8bqk-07-3p.png)
 
-_Menu item states in light and dark themes:EnabledHoveredFocusedPressed_
+_Menu item states in light and dark themes: Enabled; Hovered; Focused; Pressed_
 
 ## Measurements
 
@@ -154,4 +144,4 @@ The gap between the FAB and menu can vary, but 4dp is recommended.
 
 ![FAB menu on web states and specifications.](../../../assets/images/8b53b0cc6636-mn7ox1xs-04-3P.png)
 
-_Spacing and interaction on FAB menu for web:EnabledHoveredSelected_
+_Spacing and interaction on FAB menu for web: Enabled; Hovered; Selected_

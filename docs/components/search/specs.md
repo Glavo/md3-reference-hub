@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/cc13cedade94-mm28azl5-GM3-Search-Bar-Specs-01-3P-v02.mp4"
@@ -40,17 +40,9 @@ Search lets people enter a keyword or phrase to get relevant information
 
 [Open video](../../../assets/videos/cc13cedade94-mm28azl5-GM3-Search-Bar-Specs-01-3P-v02.mp4)
 
-Variant
-
-M3
-
-M3 Expressive
-
-Search
-
-Available
-
-Available
+| Variant | M3 | M3 Expressive |
+| --- | --- | --- |
+| Search | Available | Available |
 
 ## Configurations
 
@@ -90,35 +82,11 @@ _Full-screen layout in the divided style_
 
 _Docked layout in the divided style_
 
-Category
-
-Configuration
-
-M3
-
-M3 Expressive
-
-Style
-
-Contained
-
-\--
-
-Available
-
-Divided
-
-Available
-
-Not recommended. Use contained.
-
-Layout
-
-Docked, full-screen
-
-Available
-
-Available
+| Category | Configuration | M3 | M3 Expressive |
+| --- | --- | --- | --- |
+| Style | Contained | \-- | Available |
+|  | Divided | Available | Not recommended. Use contained. |
+| Layout | Docked, full-screen | Available | Available |
 
 ## Tokens & specs
 
@@ -126,7 +94,12 @@ Use the table's menu to select a token set. The **search bar** set only contains
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Search
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Search - Bar | md.comp.search-bar | COMPONENT | For baseline search bar and expressive search. |
+| Search - View | md.comp.search-view | COMPONENT | For baseline search view and expressive search when activated. |
 
 ## Anatomy
 
@@ -134,7 +107,7 @@ Search includes a search bar and a container for suggestions and results. The co
 
 ![6 elements of search.](../../../assets/images/c3a3be87873e-mm17eoxh-08-3P.png)
 
-_Search bar containerLeading iconSupporting textTrailing icon and avatar (optional)Input textContainer for search suggestions or results_
+_Search bar container; Leading icon; Supporting text; Trailing icon and avatar (optional); Input text; Container for search suggestions or results_
 
 ### Examples
 
@@ -156,13 +129,13 @@ Color values are implemented through design tokens. For designers, this means wo
 
 ![6 full-screen search color roles in light and dark themes.](../../../assets/images/d5c2a23f12c2-mm17f6n2-12-3P.png)
 
-_Full-screen search color roles used in light and dark themes:Surface container lowOn surface variantOn surface variantSurface container highOn surface variantOn surface_
+_Full-screen search color roles used in light and dark themes: Surface container low; On surface variant; On surface variant; Surface container high; On surface variant; On surface_
 
 ### Docked layout
 
 ![6 docked search color roles in light and dark themes.](../../../assets/images/3fa3e854e091-mm17g3kb-13.png)
 
-_Docked search color roles used in light and dark themes:Surface container high On surface variantOn surface variantSurface container highOn surface variantOn surface_
+_Docked search color roles used in light and dark themes: Surface container high; On surface variant; On surface variant; Surface container high; On surface variant; On surface_
 
 ## States
 
@@ -172,7 +145,7 @@ States are visual representations used to communicate the status of a component 
 
 ![4 search bar states in light and dark mode.](../../../assets/images/904e413437a4-mm17mvvh-14-3P.png)
 
-_EnabledHoveredFocusedPressed (ripple)_
+_Enabled; Hovered; Focused; Pressed (ripple)_
 
 ### Search suggestions & results
 
@@ -180,7 +153,7 @@ Search includes a container for suggestions and results. The container is empty 
 
 ![4 search result states in light and dark mode.](../../../assets/images/dbb466c63389-mm17n640-15-3P.png)
 
-_EnabledHoveredFocusedPressed (ripple)_
+_Enabled; Hovered; Focused; Pressed (ripple)_
 
 ## Measurements
 
@@ -204,47 +177,16 @@ _Unfocused search bar margin measurements_
 
 _Focused search bar margin measurements_
 
-Element
-
-Attribute
-
-Value
-
-Container
-
-Width
-
-Min: 360dp, max: 720dp
-
-Height
-
-56dp
-
-Label alignment
-
-Start-aligned
-
-Leading padding
-
-Unfocused: 24dp, focused: 12dp
-
-Trailing padding
-
-Unfocused: 24dp, focused: 12dp
-
-Leading icon and label padding (from tap target)
-
-4dp
-
-Label and trailing icon padding (from tap target)
-
-4dp
-
-Avatar
-
-Size
-
-30dp
+| Element | Attribute | Value |
+| --- | --- | --- |
+| Container | Width | Min: 360dp, max: 720dp |
+| Height | 56dp |  |
+| Label alignment | Start-aligned |  |
+| Leading padding | Unfocused: 24dp, focused: 12dp |  |
+| Trailing padding | Unfocused: 24dp, focused: 12dp |  |
+| Leading icon and label padding (from tap target) | 4dp |  |
+| Label and trailing icon padding (from tap target) | 4dp |  |
+| Avatar | Size | 30dp |
 
 ### Focused search
 
@@ -258,57 +200,18 @@ _Full-screen search padding and size measurements for contained style_
 
 _Docked search padding and size measurements for contained style_
 
-Element
-
-Attribute
-
-Value
-
-Full-screen container
-
-Width
-
-Full width
-
-Height
-
-Full height
-
-Docked container
-
-Width
-
-Min: 360dp, max: 720dp
-
-Height
-
-Min: 240dp, max: 2/3 of screen height
-
-Search bar container
-
-Height
-
-56dp
-
-Label alignment
-
-Start-aligned
-
-Leading padding
-
-16dp
-
-Trailing padding
-
-16dp
-
-Leading icon and label padding (from tap target)
-
-4dp
-
-Leading icon and label padding (from tap target)
-
-4dp
+| Element | Attribute | Value |
+| --- | --- | --- |
+| Full-screen container | Width | Full width |
+| Height | Full height |  |
+| Docked container | Width | Min: 360dp, max: 720dp |
+| Height | Min: 240dp, max: 2/3 of screen height |  |
+| Search bar container | Height | 56dp |
+| Label alignment | Start-aligned |  |
+| Leading padding | 16dp |  |
+| Trailing padding | 16dp |  |
+| Leading icon and label padding (from tap target) | 4dp |  |
+| Leading icon and label padding (from tap target) | 4dp |  |
 
 #### Divided style
 

@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/designing-icons"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/c50e03f4e9a8-mlhi79a8-1.png"
@@ -112,11 +112,11 @@ If additional visual weight is needed, content may extend into the padding betwe
 
 ![A 24dp-by-24dp icon grid with the 20dp-by-20dp live area highlighted.](../../../assets/images/d3620bde07c5-mlhienpf-10.png)
 
-_Live areaIcon content is limited to the 20dp x 20dp live area, with 2dp of padding around the perimeter_
+_Live area Icon content is limited to the 20dp x 20dp live area, with 2dp of padding around the perimeter_
 
 ![A 24dp-by-24dp icon grid with the inner 2dp padding highlighted.](../../../assets/images/ce97d7a1573b-mlhievo4-11.png)
 
-_Padding2dp of padding surrounds the live area_
+_Padding 2dp of padding surrounds the live area_
 
 ![A 24dp-by-24dp icon grid with the inner 2dp padding highlighted.](../../../assets/images/945caa872564-mlhifrut-12.png)
 
@@ -198,7 +198,7 @@ _Don’t place the icon on a coordinate that isn’t “on pixel”_
 
 ![Diagram of a calendar icon on a grid highlighting six different elements.](../../../assets/images/a4269eac463b-mlhird2l-27.png)
 
-_CornerStroke terminalCounter strokeStrokeCounter areaBounding area_
+_Corner; Stroke terminal; Counter stroke; Stroke; Counter area; Bounding area_
 
 ### Corners
 

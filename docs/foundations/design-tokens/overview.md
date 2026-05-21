@@ -2,7 +2,7 @@
 title: "Design tokens"
 source_url: "https://m3.material.io/foundations/design-tokens/overview"
 lastmod: "2025-11-27"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/37994385a52c-mihjfljt-tokens-overview-01-3P.png"
@@ -43,27 +43,11 @@ _Using design tokens instead of hardcoded values can streamline the work of buil
 
 ## Resources
 
-Type
-
-Link
-
-Status
-
-Design
-
-[Design Kit](http://goo.gle/m3-design-kit) (Figma)
-
-Available
-
-[Material Theme Builder Figma plugin](https://goo.gle/material-theme-builder-figma)
-
-Available
-
-Implementation
-
-[Material baseline theme and tokens](https://github.com/material-foundation/material-tokens) (DSP)
-
-Available
+| Type | Link | Status |
+| --- | --- | --- |
+| Design | [Design Kit](http://goo.gle/m3-design-kit) (Figma) | Available |
+| [Material Theme Builder Figma plugin](https://goo.gle/material-theme-builder-figma) | Available |  |
+| Implementation | [Material baseline theme and tokens](https://github.com/material-foundation/material-tokens) (DSP) | Available |
 
 ## What’s a design token?
 
@@ -173,7 +157,7 @@ The parts of a token name are separated by periods and proceed from the most gen
 
 ![Diagram of the 3 parts of a design token name: system prefix, token type, and role description](../../../assets/images/2e498e981bff-m4mwzkye-tokens-naming-convention.png)
 
-_Communicates design systemCommunicates token classCommunicates token’s purpose_
+_Communicates design system; Communicates token class; Communicates token’s purpose_
 
 ## Classes of tokens
 

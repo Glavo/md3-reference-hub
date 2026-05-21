@@ -2,7 +2,7 @@
 title: "FAB menu"
 source_url: "https://m3.material.io/components/fab-menu/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/ab4ca043c1ea-m0am5xpn-01.png"
@@ -54,21 +54,14 @@ Then the focus moves from the top menu item to the bottom.
 
 ![4 FAB menus with the focus order labelled. Focus moves from the close button at the bottom to the topmost menu item next.](../../../assets/images/d4a711aa1169-maejeaf9-04.png)
 
-_Focus lands on the close button. People can then navigate through all the items.Close buttonFirst menu itemSecond menu itemThird menu item_
+_Focus lands on the close button. People can then navigate through all the items. Close button; First menu item; Second menu item; Third menu item_
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-**Tab**
-
-Navigate to the next interactive element
-
-**Space** or **Enter**
-
-Activate the focused button or item
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** | Navigate to the next interactive element |
+| **Space** or **Enter** | Activate the focused button or item |
 
 ## Labeling elements
 

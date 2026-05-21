@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/d3b65a742fa5-lx8i6cjo-1.png"
@@ -29,7 +29,13 @@ Select a component variant below to see its elements, attributes, tokens, and th
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Cards
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Card - Filled | md.comp.filled-card | COMPONENT | For filled cards. |
+| Card - Elevated | md.comp.elevated-card | COMPONENT | For elevated cards. |
+| Card - Outlined | md.comp.outlined-card | COMPONENT | For outlined cards. |
 
 ## Elevated card
 
@@ -43,7 +49,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Color diagram indicating elevated card surface color.](../../../assets/images/4acfd35b59f2-lx8i798w-2.png)
 
-_Elevated card color roles used for light and dark themes:Surface container low_
+_Elevated card color roles used for light and dark themes: Surface container low_
 
 ### Elevated card states
 
@@ -51,7 +57,7 @@ States are visual representations used to communicate the status of a component 
 
 ![Diagram of 5 elevated card states.](../../../assets/images/e2439e0cb022-m8tathzk-3.png)
 
-_Elevated card states: HoveredFocused Pressed Dragged Disabled_
+_Elevated card states: Hovered; Focused; Pressed; Dragged; Disabled_
 
 ## Filled card
 
@@ -65,7 +71,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Color diagram indicating filled card surface color.](../../../assets/images/9035fedcb9ce-lx8i8kna-5.png)
 
-_Filled card color roles used for light and dark themes:Surface container highest_
+_Filled card color roles used for light and dark themes: Surface container highest_
 
 ### Filled card states
 
@@ -73,13 +79,13 @@ States are visual representations used to communicate the status of a component 
 
 ![Diagram of 5 filled card states.](../../../assets/images/0d00c3df1353-m8taswqd-7.png)
 
-_Filled card states: HoveredFocused Pressed Dragged Disabled_
+_Filled card states: Hovered; Focused; Pressed; Dragged; Disabled_
 
 ## Outlined card
 
 ![Diagram indicating outlined card container and outline.](../../../assets/images/bc320c9ff678-lx8ia1sc-8.png)
 
-_ContainerOutline_
+_Container; Outline_
 
 ### Outlined card color
 
@@ -87,7 +93,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Outlined card color roles in light and dark themes.](../../../assets/images/68c8d097f3d2-lx8iah38-9.png)
 
-_Outlined card color roles used for light and dark themes:SurfaceOutline variant_
+_Outlined card color roles used for light and dark themes: Surface; Outline variant_
 
 ### Outlined card states
 
@@ -95,7 +101,7 @@ States are visual representations used to communicate the status of a component 
 
 ![Diagram of 5 outlined card states.](../../../assets/images/8fa0f53ed2e4-m8taue2l-10.png)
 
-_Outlined card states: Hovered Focused Pressed Dragged Disabled_
+_Outlined card states: Hovered; Focused; Pressed; Dragged; Disabled_
 
 ## Measurements
 
@@ -103,22 +109,9 @@ _Outlined card states: Hovered Focused Pressed Dragged Disabled_
 
 _Card padding and size measurements_
 
-Attribute
-
-Value
-
-Shape
-
-12dp corner radius
-
-Left/right padding
-
-16dp
-
-Padding between cards
-
-8dp max
-
-Label text alignment
-
-Start-aligned
+| Attribute | Value |
+| --- | --- |
+| Shape | 12dp corner radius |
+| Left/right padding | 16dp |
+| Padding between cards | 8dp max |
+| Label text alignment | Start-aligned |

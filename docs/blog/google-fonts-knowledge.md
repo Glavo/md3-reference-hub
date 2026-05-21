@@ -2,7 +2,7 @@
 title: "Announcing Google Fonts Knowledge"
 source_url: "https://m3.material.io/blog/google-fonts-knowledge"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/b2485e6f5c2c-7I_HJpE7Ey92aJnE6PLYwwPVR4DEnPScLc7zAR3fUsVDQYWQgYrlrk7UOKEDj6rfreKBVWcgsT-N2viMuIedK7iaaBz-2_yy.png"

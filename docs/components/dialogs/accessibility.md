@@ -2,7 +2,7 @@
 title: "Dialogs"
 source_url: "https://m3.material.io/components/dialogs/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/c4ce5ffeac41-m8sgve0z-01_do.png"
@@ -85,25 +85,12 @@ _The shift and tab keys together move focus in the opposite direction. The space
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Tab
-
-Focus lands on the next interactive element contained in the dialog, or the first element if focus is currently on the last element
-
-Shift + Tab
-
-Focus lands on the previous interactive element contained in the dialog, or the last element if focus is currently on the first element
-
-Space or Enter
-
-Triggers or commits the action of the focused element
-
-Escape
-
-Closes the dialog
+| Keys | Actions |
+| --- | --- |
+| Tab | Focus lands on the next interactive element contained in the dialog, or the first element if focus is currently on the last element |
+| Shift + Tab | Focus lands on the previous interactive element contained in the dialog, or the last element if focus is currently on the first element |
+| Space or Enter | Triggers or commits the action of the focused element |
+| Escape | Closes the dialog |
 
 ## Labeling elements
 

@@ -2,7 +2,7 @@
 title: "Color system"
 source_url: "https://m3.material.io/styles/color/system/how-the-system-works"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/d7293f5bfed3-m4mxjs2l-1.png"
@@ -235,15 +235,15 @@ The standard contrast emphasizes visual hierarchy using high and low contrast el
 
 ![Email app in standard contrast.](../../../../assets/images/1af33a54a13e-lna5ow9i-user-controlled-contrast_04.png)
 
-_Standard contrastThe baseline color scheme already uses mixed levels of contrast to reduce cognitive load_
+_Standard contrast The baseline color scheme already uses mixed levels of contrast to reduce cognitive load_
 
 ![Email app in medium contrast.](../../../../assets/images/b88c5876a258-lna5p9nh-user-controlled-contrast_05.png)
 
-_Medium contrastProvides a minimum contrast ratio of 3:1 for those who need more contrast, but may experience visual discomfort with higher contrasts from effects like halation._
+_Medium contrast Provides a minimum contrast ratio of 3:1 for those who need more contrast, but may experience visual discomfort with higher contrasts from effects like halation._
 
 ![Email app in high contrast.](../../../../assets/images/2d6ea1366dd8-lna5pkhc-user-controlled-contrast_06.png)
 
-_High contrastFurther emphasizes essential elements with a 7:1 contrast ratio to reduce visual distractions and enable users to focus. For example, high contrast is applied to the content in a card but not the card container._
+_High contrast Further emphasizes essential elements with a 7:1 contrast ratio to reduce visual distractions and enable users to focus. For example, high contrast is applied to the content in a card but not the card container._
 
 The contrast settings are automatically applied to both light and dark themes.
 
@@ -321,7 +321,7 @@ Because of biological and screen rendering limitations, different hues and diffe
 
 ![Diagram showing chroma range from 120 (maximum intensity) to 0 (pure grey). A second diagram shows how pure black and pure white also correspond to 0 chroma](../../../../assets/images/028da004c7f3-lna5x1is-chroma.png)
 
-_The higher the color purity, the higher the chromaNote how lightening and darkening a hue also affects its chroma value_
+_The higher the color purity, the higher the chroma; Note how lightening and darkening a hue also affects its chroma value_
 
 ### Tone
 

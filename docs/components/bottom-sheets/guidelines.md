@@ -2,7 +2,7 @@
 title: "Bottom sheets"
 source_url: "https://m3.material.io/components/bottom-sheets/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/20d353317b66-lvp7eqa7-1.png"
@@ -39,7 +39,7 @@ Bottom sheets show secondary content anchored to the bottom of the screen
 
 ![Two variants of bottom sheets.](../../../assets/images/20d353317b66-lvp7eqa7-1.png)
 
-_Standard bottom sheetsModal bottom sheets_
+_Standard bottom sheets; Modal bottom sheets_
 
 ## Usage
 
@@ -61,7 +61,7 @@ A container is the only required element of a bottom sheet. Bottom sheet layouts
 
 ![3 elements of a bottom sheet.](../../../assets/images/9f136ca8eae7-lvp7l25p-4.png)
 
-_ContainerDrag handle (optional)Scrim (modal only)_
+_Container; Drag handle (optional); Scrim (modal only); /_
 
 ### Container
 

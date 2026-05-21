@@ -2,7 +2,7 @@
 title: "Typography"
 source_url: "https://m3.material.io/styles/typography/type-scale-tokens"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/038eba240c40-macb26zl-1.png"
@@ -44,7 +44,7 @@ Each of the 30 styles has a single token that captures all the default propertie
 
 ### TYPOGRAPHY
 
-- **system:** Google Material 3
+Component: Sliders
 
 ## Emphasized type styles
 
@@ -54,7 +54,7 @@ The M3 type scale has 15 emphasized type styles. Use both baseline and emphasize
 
 ### TYPOGRAPHY
 
-- **system:** Google Material 3
+Component: Sliders
 
 ## Where emphasized styles can be used
 
@@ -85,7 +85,7 @@ Emphasized context and weight can be used at the same time.
 
 ![Diagram showing emphasized styles being applied in and UI of an active call with live translation turned on.](../../../assets/images/3fd62be687d9-macdkln0-2.png)
 
-_Weight: Apply emphasized styles to text already bolded for an expressive styleContext: Apply emphasized styles to text in selective places to better communicate hierarchy or state_
+_Weight: Apply emphasized styles to text already bolded for an expressive style; Context: Apply emphasized styles to text in selective places to better communicate hierarchy or state_
 
 ## Customize the typeface
 
@@ -105,7 +105,7 @@ _Roboto can be replaced with another font, like Roboto Flex_
 
 ### TYPOGRAPHY
 
-- **system:** Google Material 3
+Component: Sliders
 
 ## Customizing type styles
 
@@ -157,76 +157,33 @@ _If the default sizes from the Material Design type scale do not meet your needs
 
 The following units are used to express font size on Android and the web.
 
-Platform
-
-Android
-
-Web
-
-Font size unit
-
-sp
-
-rem
-
-Conversion ratio
-
-1.0
-
-0.0625
+| Platform | Android | Web |
+| --- | --- | --- |
+| Font size unit | sp | rem |
+| Conversion ratio | 1.0 | 0.0625 |
 
 Web browsers calculate the REM (the root em size) based on the root element size. The default for modern web browsers is 16px, so the conversion is SP\_SIZE/16 = rem.
 
 #### Example conversions
 
-Android
-
-Web
-
-10sp
-
-0.625rem
-
-12sp
-
-0.75rem
-
-24sp
-
-1.5rem
-
-60sp
-
-3.75rem
+| Android | Web |
+| --- | --- |
+| 10sp | 0.625rem |
+| 12sp | 0.75rem |
+| 24sp | 1.5rem |
+| 60sp | 3.75rem |
 
 ### Letter spacing units
 
 The following units are for spacing letters in a UI.
 
-Platform
-
-Android
-
-Web
-
-Letter spacing unit
-
-em
-
-rem
-
-Conversion ratio
-
-(Tracking value in px / font size in sp) = letter spacing
-
-(Tracking value in px / font size in sp) = letter spacing
+| Platform | Android | Web |
+| --- | --- | --- |
+| Letter spacing unit | em | rem |
+| Conversion ratio | (Tracking value in px / font size in sp) = letter spacing | (Tracking value in px / font size in sp) = letter spacing |
 
 #### Letter spacing examples
 
-Android
-
-Web
-
-(.2 tracking / 16sp font size) = 0.0125 em
-
-(.2 tracking / 16px font size) = 0.0125 rem
+| Android | Web |
+| --- | --- |
+| (.2 tracking / 16sp font size) = 0.0125 em | (.2 tracking / 16px font size) = 0.0125 rem |

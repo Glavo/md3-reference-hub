@@ -2,7 +2,7 @@
 title: "Tooltips"
 source_url: "https://m3.material.io/components/tooltips/accessibility"
 lastmod: "2026-01-30"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/07ad74c4efcc-m1i00uln-lwj9io0m-GM3-Components-ToolTips-Guidelines-1-v01.mp4"
@@ -57,21 +57,14 @@ People should be able to move linearly through the rest of the page.
 
 ![Different elements of a rich tooltip are given a focus order, moving from parent element to inline link to text button.](../../../assets/images/8441b09b02ba-mjha0vdq-04.png)
 
-_Parent elementInline linkText button_
+_Parent element; Inline link; Text button_
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-**Tab**
-
-Focus lands on button, if available
-
-**Space** or **Enter**
-
-Activates the focused element
+| **Keys** | **Actions** |
+| --- | --- |
+| **Tab** | Focus lands on button, if available |
+| **Space** or **Enter** | Activates the focused element |
 
 ## Labeling elements
 

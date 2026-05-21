@@ -2,7 +2,7 @@
 title: "Canonical layout examples"
 source_url: "https://m3.material.io/foundations/layout/canonical-examples/supporting-pane"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/dda7f94a0aa6-mp54jbnh-01.png"
@@ -55,23 +55,10 @@ Depending on the breakpoint, the supporting pane may appear below or beside the 
 
 _Supporting panes can appear beside or below the primary area_
 
-Supporting pane placement
-
-Pane width
-
-Breakpoint
-
-Below
-
-Flexible
-
-Compact or Medium
-
-Leading or trailing
-
-Fixed (360 dp)
-
-Expanded
+| Supporting pane placement | Pane width | Breakpoint |
+| --- | --- | --- |
+| Below | Flexible | Compact or Medium |
+| Leading or trailing | Fixed (360 dp) | Expanded |
 
 ## Across breakpoints
 

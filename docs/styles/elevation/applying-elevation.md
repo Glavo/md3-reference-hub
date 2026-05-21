@@ -2,7 +2,7 @@
 title: "Elevation"
 source_url: "https://m3.material.io/styles/elevation/applying-elevation"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/fed7916d81ed-lwyl8vgl-1.png"
@@ -42,7 +42,7 @@ To successfully depict elevation, a surface must show:
 
 ![3 images. The first shows a violet square overlapping a white square. The second shows 2 overlapping squares with the same color, but with shadows beneath the top square. The third shows a violet square overlapping a dark gray square.](../../../assets/images/5af53fcab0e5-lwyl9cz5-2.png)
 
-_Two overlapping surfaces with distinct tonal valuesTwo overlapping surfaces with the same tonal values separated via shadowTwo overlapping surfaces with the same tonal values separated via scrim_
+_Two overlapping surfaces with distinct tonal values; Two overlapping surfaces with the same tonal values separated via shadow; Two overlapping surfaces with the same tonal values separated via scrim_
 
 ### Tonal difference
 
@@ -56,7 +56,7 @@ By default, Material 3's surfaces use tonal difference to indicate separation. O
 
 ![Elevation, scrim, and tonal differences used to indicate separation.](../../../assets/images/218777c15667-lwynetr7-3.png)
 
-_A FAB's elevation helps separate it from body contentA scrim appears below a modal to communicate importanceTonal differences between a navigation bar and body content indicate separate surfaces_
+_A FAB's elevation helps separate it from body content; A scrim appears below a modal to communicate importance; Tonal differences between a navigation bar and body content indicate separate surfaces_
 
 For interactive components, edges must create sufficient contrast between surfaces (by meeting or exceeding accessible contrast ratios) for them to be seen as separate from one another.
 
@@ -78,7 +78,7 @@ Any overlapping containment areas or components should have different color role
 
 ![Diagram of email home screen with "1" indicating the list item background color and "2" indicating the navigation bar background color.](../../../assets/images/6be86f2f9297-lwynjnhh-6.png)
 
-_SurfaceSurface container_
+_Surface; Surface container_
 
 ## Shadows
 

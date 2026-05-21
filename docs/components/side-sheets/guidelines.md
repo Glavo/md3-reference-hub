@@ -2,7 +2,7 @@
 title: "Side sheets"
 source_url: "https://m3.material.io/components/side-sheets/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/13c02ec3c4c9-meqqqohk-01.png"
@@ -34,7 +34,7 @@ Side sheets show secondary content anchored to the side of the screen
 
 ![Side by side comparison of a standard and a modal side sheet.](../../../assets/images/13c02ec3c4c9-meqqqohk-01.png)
 
-_Standard side sheet Modal side sheet_
+_Standard side sheet; Modal side sheet_
 
 ## Usage
 
@@ -76,11 +76,11 @@ _Don’t inset a side sheet from the screen edges far beyond the recommended mar
 
 ![4 elements of a standard side sheet.  ](../../../assets/images/45a544965186-meqrqfpt-06.png)
 
-_Divider (optional)HeadlineContainerClose icon button_
+_Divider (optional); Headline; Container; Close icon button_
 
 ![7 elements of a modal side sheet.](../../../assets/images/e3ad6ec359ff-meqrrjh7-07.png)
 
-_Back icon button (optional)HeadlineContainer Close icon buttonDivider (optional) Action buttons (optional) Scrim_
+_Back icon button (optional); Headline; Container; Close icon button; Divider (optional); Action buttons (optional); Scrim_
 
 ### Container
 

@@ -2,7 +2,7 @@
 title: "Cards"
 source_url: "https://m3.material.io/components/cards/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/6eeeabdc42f0-lwujy207-1.png"
@@ -110,7 +110,7 @@ Each provides the same legibility and functionality, so the variant you use depe
 
 ![3 variants of cards.](../../../assets/images/e8ec5457ea13-lwuk16p3-7.png)
 
-_Elevated cardFilled card Outlined card_
+_Elevated card; Filled card; Outlined card_
 
 ![Example elevated card.](../../../assets/images/5be0d05044dc-lwuk25nc-8.png)
 
@@ -130,7 +130,7 @@ The card container is the only required element in a card. Card layouts can vary
 
 ![Diagram labeling the 6 parts of card anatomy.](../../../assets/images/e1396fe6d640-mk6jnfqn-11.png)
 
-_ContainerImageButtonSupporting textSubheadHeadline_
+_Container; Image; Button; Supporting text; Subhead; Headline_
 
 ### Container
 
@@ -271,7 +271,7 @@ Filter or sorting options should be placed outside of the card collection.
 
 ![A sort-by-date option placed above a card collection.](../../../assets/images/a444b09a31ea-lwukig38-27.png)
 
-_Card collections can be filtered in a variety of ways, including by date:1. A sort-by-date option is placed outside of the card collection_
+_Card collections can be filtered in a variety of ways, including by date: / 1. A sort-by-date option is placed outside of the card collection_
 
 Organize card collections so that they'e easy to use. Their layout affects how they are perceived.
 

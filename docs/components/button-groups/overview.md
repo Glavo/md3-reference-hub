@@ -2,7 +2,7 @@
 title: "Button groups"
 source_url: "https://m3.material.io/components/button-groups/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/9d31dcf7ad0e-m4sskpfx-1_alt.png"
@@ -33,8 +33,8 @@ _Button groups can contain buttons and icon buttons_
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#button-groups |
 | LIT_IMPLEMENTATION | Web: Expressive | UNAVAILABLE |  |
 | JETPACK_IMPLEMENTATION | Jetpack Compose: Expressive | AVAILABLE | https://developer.android.com/reference/kotlin/androidx/compose/material3/package-summary#ButtonGroup(androidx.compose.ui.Modifier,kotlin.Float,androidx.compose.foundation.layout.Arrangement.Horizontal,kotlin.Function1) |

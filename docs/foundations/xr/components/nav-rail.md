@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/nav-rail"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -46,13 +46,13 @@ There are two variants of navigation rail orbiters: the contained FAB and spatia
 
 ![Navigation bar orbiters with a contained FAB and a spatialized FAB.](../../../../assets/images/042d8ac85fee-mp5sirou-01-3P.png)
 
-_Contained FAB railSpatialized FAB rail_
+_Contained FAB rail; Spatialized FAB rail_
 
 ## Anatomy
 
 ![Diagram of navigation rail orbiter identifying 9 internal elements of the component.](../../../../assets/images/678e989df20a-mp5sjxq7-02-3P.png)
 
-_ContainerActive indicatorLarge badge (optional)Badge (optional)Large badge label (optional)Label textIconEmbedded or spatialized FAB (optional)Menu icon (optional)_
+_Container; Active indicator; Large badge (optional); Badge (optional); Large badge label (optional); Label text; Icon; Embedded or spatialized FAB (optional); Menu icon (optional)_
 
 ## Color & elevation
 
@@ -60,7 +60,7 @@ On XR, color is used to highlight elevated UI elements and orbiters. With [spat
 
 ![4 versions of elevation color strategy.](../../../../assets/images/162f45d3c74e-mp5smtp2-03-3P.png)
 
-_Surface container with tertiary FABSurface container high with tertiary fixed dim FABSurface container highest with tertiary fixed dim FABTertiary container with primary FAB_
+_Surface container with tertiary FAB; Surface container high with tertiary fixed dim FAB; Surface container highest with tertiary fixed dim FAB; Tertiary container with primary FAB_
 
 ## Measurements
 

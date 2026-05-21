@@ -2,7 +2,7 @@
 title: "Writing and text"
 source_url: "https://m3.material.io/foundations/writing/text-resizing"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/f0a75e64882a-lwj5gijr-8.png"
@@ -95,7 +95,7 @@ Avoid common text resizing issues by increasing container size, reflowing layout
 
 ![ Side by side of 4 commonly found issues when resizing text up.](../../../assets/images/cac5dd089de3-lwj5iwyv-14.png)
 
-_Unresponsive container; unintentionally clipped textUnresponsive textOverlapping elementsUnwanted truncation_
+_Unresponsive container; unintentionally clipped text; Unresponsive text; Overlapping elements; Unwanted truncation_
 
 #### **Increase container size**
 
@@ -110,7 +110,7 @@ Consider reflowing the layout, especially when components grow very long. To acc
 
 ![ left: buttons placed side-by-side. Right: buttons stacked on top of one another.](../../../assets/images/fc3e7eb07eba-lwj5jdor-15.png)
 
-_UI displayed at 1x: buttons positioned side-by-side in a standard layoutUI displayed at 2x: buttons stacked to fit the limited horizontal width after text is resized_
+_UI displayed at 1x: buttons positioned side-by-side in a standard layout; UI displayed at 2x: buttons stacked to fit the limited horizontal width after text is resized_
 
 #### **Enable content to scroll**
 

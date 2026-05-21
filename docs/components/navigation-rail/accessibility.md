@@ -2,7 +2,7 @@
 title: "Navigation rail"
 source_url: "https://m3.material.io/components/navigation-rail/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/4e25a25955ef-m0guemtv-01-static.png"
@@ -118,17 +118,10 @@ _Avoid using the same unfilled icon style for both selected and unselected items
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Tab / Arrows
-
-Navigate between interactive elements
-
-Space / Enter
-
-Selects an interactive element
+| Keys | Actions |
+| --- | --- |
+| Tab / Arrows | Navigate between interactive elements |
+| Space / Enter | Selects an interactive element |
 
 ## Labeling elements
 

@@ -2,7 +2,7 @@
 title: "Search"
 source_url: "https://m3.material.io/components/search/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/a07de0722807-mlb0x4f4-GM3-Search-Bar-Overview-01-v2.mp4"
@@ -35,8 +35,8 @@ Search lets people enter a keyword or phrase to get relevant information
 
 ### STATUS_TABLE
 
-| Type |Resource |Status |URL |
-| --- |--- |--- |--- |
+| Type | Resource | Status | URL |
+| --- | --- | --- | --- |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android): Expressive | UNAVAILABLE |  |
 | ANDROID_IMPLEMENTATION | Android Views (MDC-Android) | AVAILABLE | https://github.com/material-components/material-components-android/blob/master/docs/components/Search.md |
 | FLUTTER_IMPLEMENTATION | Flutter | AVAILABLE | https://api.flutter.dev/flutter/material/SearchBar-class.html |

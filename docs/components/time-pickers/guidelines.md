@@ -2,7 +2,7 @@
 title: "Time pickers"
 source_url: "https://m3.material.io/components/time-pickers/guidelines"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/eab2ea48c98c-md2pwu0i-01.png"
@@ -68,11 +68,11 @@ _24-hour dial view_
 
 ![17 elements of a dial time picker.](../../../assets/images/8c4a9d5363d8-md2u47yh-05.png)
 
-_Label (headline)Time selector separatorInput fieldInput text Period selector (selected)Period selector text (selected)ContainerPeriod selector outlinePeriod selector textDial selector trackDial label (selected)Text buttonsIcon buttonDial label (unselected)Clock dialInput text (selected)Input field (selected)_
+_Label (headline); Time selector separator; Input field; Input text; Period selector (selected); Period selector text (selected); Container; Period selector outline; Period selector text; Dial selector track; Dial label (selected); Text buttons; Icon button; Dial label (unselected); Clock dial; Input text (selected); Input field (selected); /_
 
 ![13 elements of an input time picker.](../../../assets/images/4401777cef53-md2u4xoe-06.png)
 
-_Label (headline)Time selector separatorInput fieldInput text Period selector (selected)Period selector text (selected)ContainerPeriod selector outlinePeriod selector text (unselected)Text buttonsIcon buttonInput text (selected)Input field (selected)_
+_Label (headline); Time selector separator; Input field; Input text; Period selector (selected); Period selector text (selected); Container; Period selector outline; Period selector text (unselected); Text buttons; Icon button; Input text (selected); Input field (selected)_
 
 ### Container
 

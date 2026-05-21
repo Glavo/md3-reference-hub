@@ -2,7 +2,7 @@
 title: "Date pickers"
 source_url: "https://m3.material.io/components/date-pickers/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/7fce4b897815-md5tcq2g-01.png"
@@ -112,37 +112,15 @@ _Dates pass the 4.5:1 contrast minimum_
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-Enter/return
-
-Enter/return
-
-Enter/return
-
-Closes the calendar and saves the selected date
-
-Page up/down
-
-Move to the same date on next/previous month
-
-Home/End    
-
-Move to the first day of the month
-
-Shift + Page up/down
-
-Moves to the same date in the next/previous year
-
-Shift + M
-
-Moves to the month list dropdown
-
-Shift + Y
-
-Moves to the year list dropdown
+| **Keys** | **Actions** |
+| --- | --- |
+| Enter/return | Enter/return |
+| Enter/return | Closes the calendar and saves the selected date |
+| Page up/down | Move to the same date on next/previous month |
+| Home/End | Move to the first day of the month |
+| Shift + Page up/down | Moves to the same date in the next/previous year |
+| Shift + M | Moves to the month list dropdown |
+| Shift + Y | Moves to the year list dropdown |
 
 ## Labeling elements
 
@@ -154,31 +132,12 @@ The helper text (below the text field) should specify the date format (for examp
 
 _The accessibility label clearly states the kind of input as an event date_
 
-**Element**
-
-**A11y label**
-
-**Role**
-
-Previous / next month and year
-
-“{label}”
-
-Button
-
-Month and year dropdowns
-
-“{label}”
-
-Button
-
-Days of the week
-
-Column header
-
-Month grid
-
-Grid
+| **Element** | **A11y label** | **Role** |
+| --- | --- | --- |
+| Previous / next month and year | “{label}” | Button |
+| Month and year dropdowns | “{label}” | Button |
+| Days of the week | Column header |  |
+| Month grid | Grid |  |
 
 ## Screen reader verbalizations
 

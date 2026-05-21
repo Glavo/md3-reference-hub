@@ -2,7 +2,7 @@
 title: "Easing and duration"
 source_url: "https://m3.material.io/styles/motion/easing-and-duration/applying-easing-and-duration"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/videos/37f9cdf23aea-lxo5kg57-GM3-Styles-Motion-EasingAndDuration-1-v01.mp4"
@@ -36,47 +36,14 @@ In the expressive update, components and motion now use the [motion physics syst
 
 Choosing the right combination of easing and duration can be complicated. As a simple starting point, these are sensible defaults that will work for most transitions.
 
-**Easing** 
-
-**Duration**
-
-**Transition type**
-
-Emphasized
-
-500ms
-
-Begin and end on screen
-
-Emphasized decelerate
-
-400ms
-
-Enter the screen
-
-Emphasized accelerate
-
-200ms
-
-Exit the screen
-
-Standard
-
-300ms
-
-Begin and end on screen
-
-Standard decelerate
-
-250ms
-
-Enter the screen
-
-Standard accelerate
-
-200ms
-
-Exit the screen
+| **Easing** | **Duration** | **Transition type** |
+| --- | --- | --- |
+| Emphasized | 500ms | Begin and end on screen |
+| Emphasized decelerate | 400ms | Enter the screen |
+| Emphasized accelerate | 200ms | Exit the screen |
+| Standard | 300ms | Begin and end on screen |
+| Standard decelerate | 250ms | Enter the screen |
+| Standard accelerate | 200ms | Exit the screen |
 
 ## Easing
 

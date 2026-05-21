@@ -2,7 +2,7 @@
 title: "Toolbars"
 source_url: "https://m3.material.io/components/toolbars/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/818dbc1643f2-ma798ukw-GM3_Toolbar_Accessibility_1_IA_v02.mp4"
@@ -67,17 +67,10 @@ _Use Space or Enter to activate actions_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Tab or Arrows
-
-Navigate between interactive elements
-
-Space or Enter
-
-Activate the focused element
+| Keys | Actions |
+| --- | --- |
+| Tab or Arrows | Navigate between interactive elements |
+| Space or Enter | Activate the focused element |
 
 ### Labeling elements
 

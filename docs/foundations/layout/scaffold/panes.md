@@ -2,7 +2,7 @@
 title: "Scaffold"
 source_url: "https://m3.material.io/foundations/layout/scaffold/panes"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/446eae9d32e5-mp3nyytv-13-key01.png"
@@ -50,41 +50,13 @@ _Layouts often include multiple panes that work together_
 
 All layouts are made up of 1–3 visible panes. The type of layout and amount of panes you choose should depend on the breakpoint and the type of product you're building.
 
-Breakpoint
-
-Recommended pane total
-
-Other pane totals
-
-Compact
-
-1
-
-\--
-
-Medium
-
-1
-
-2
-
-Expanded
-
-2
-
-1
-
-Large
-
-2
-
-1
-
-Extra-large
-
-2
-
-1, 3
+| Breakpoint | Recommended pane total | Other pane totals |
+| --- | --- | --- |
+| Compact | 1 | \-- |
+| Medium | 1 | 2 |
+| Expanded | 2 | 1 |
+| Large | 2 | 1 |
+| Extra-large | 2 | 1, 3 |
 
 Panes can be:
 
@@ -97,7 +69,7 @@ All layouts need at least one flexible pane.
 
 ![A device with 2 panes: 1 fixed and 1 flexible. ](../../../../assets/images/2b134f435e40-mp3o5axo-01.png)
 
-_Fixed paneFlexible pane_
+_Fixed pane; Flexible pane_
 
 Panes can be permanent or temporary. Temporary panes can appear and be dismissed when necessary, affecting the layout and size of other panes.
 
@@ -143,7 +115,7 @@ The fixed pane is often temporary, and used for side sheets or lists with light 
 
 ![Fixed and flexible panes arranged 2 different ways.](../../../../assets/images/f06d9bb8d11c-mp3ogbeu-07.png)
 
-_Fixed paneFlexible pane_
+_Fixed pane; Flexible pane_
 
 ### Three-pane layouts
 
@@ -271,7 +243,7 @@ On large screens:
 
 ![2 ways of showing floating panes on large screens, with and without a scrim.](../../../../assets/images/172bfba9fe43-mp3p9uz9-20.png)
 
-_Floating pane with a scrimFloating pane without a scrim_
+_Floating pane with a scrim; Floating pane without a scrim_
 
 Docked panes are usually at the bottom of the window, like a bottom sheet.
 
@@ -291,7 +263,7 @@ On large screens, consider changing docked panes into co-planar panes.
 
 ![A docked pane on mobile and a co-planar pane on a tablet.](../../../../assets/images/63052cc2edeb-mp3riptw-23.png)
 
-_A compact screen can have a docked paneOn a large screen, it should change to a co-planar pane_
+_A compact screen can have a docked pane; On a large screen, it should change to a co-planar pane_
 
 ### Reflow
 

@@ -2,7 +2,7 @@
 title: "Buttons"
 source_url: "https://m3.material.io/components/buttons/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/d6beeee81d7c-mmlqkp7g-01.png"
@@ -109,7 +109,7 @@ _A button container’s width shouldn’t be narrower than its label text_
 
 ![Diagram of button styles and toggle behaviors.](../../../assets/images/7986cdbc4e5f-mmlquaj1-08.png)
 
-_A: Default button; B: Toggle (unselected); C: Toggle (selected) for five button styles, in order of emphasis:Elevated buttonFilled buttonFilled tonal buttonOutlined buttonText button_
+_A: Default button; B: Toggle (unselected); C: Toggle (selected) for five button styles, in order of emphasis: Elevated button; Filled button; Filled tonal button; Outlined button; Text button_
 
 A button group is a collection of buttons that relate to each other and can respond to one another. Both buttons and icon buttons can be used inside a button group.
 
@@ -147,7 +147,7 @@ _The label length shouldn’t change dramatically to be longer or shorter_
 
 ![3 parts of a button.](../../../assets/images/12ac83a93e04-mmlt6b63-13.png)
 
-_Label textContainerIcon (optional)_
+_Label text; Container; Icon (optional)_
 
 ### Label text
 

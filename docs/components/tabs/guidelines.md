@@ -2,7 +2,7 @@
 title: "Tabs"
 source_url: "https://m3.material.io/components/tabs/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/9bdb10157beb-m2k0hhto-1.png"
@@ -61,7 +61,7 @@ Secondary tabs are used within a content area to further separate related conten
 
 ![3 primary tabs above 3 secondary tabs.](../../../assets/images/5bdea935eac6-m2neyv4z-2.png)
 
-_Primary tabs Secondary tabs_
+_Primary tabs; Secondary tabs_
 
 ### Related content
 
@@ -79,7 +79,7 @@ _Don’t use tabs to move through sequential content that needs to be read in a 
 
 ![Six components of tabs.](../../../assets/images/e71949eb3596-m2k0lum1-5.png)
 
-_ContainerIcon (optional)Badge (optional)LabelDividerActive indicator_
+_Container; Icon (optional); Badge (optional); Label; Divider; Active indicator_
 
 ### Container
 

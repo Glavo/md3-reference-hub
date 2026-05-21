@@ -2,7 +2,7 @@
 title: "Badges"
 source_url: "https://m3.material.io/components/badges/specs"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/827879794a3d-mamlcpos-1-3P.png"
@@ -21,11 +21,11 @@ Badges show notifications, counts, or status information on navigation items and
 
 ![5 aspects of badge anatomy on a navigation bar.](../../../assets/images/827879794a3d-mamlcpos-1-3P.png)
 
-_Navigation barSmall badgeLarge badge containerLarge badge labelLarge badge maximum character count containerLarge badge maximum character count label_
+_Navigation bar Small badge; Large badge container; Large badge label; Large badge maximum character count container; Large badge maximum character count label_
 
 ![5 aspects of badge anatomy on a navigation rail.](../../../assets/images/e0ba99ad622c-mamlee0o-2-3P.png)
 
-_Navigation railSmall badgeLarge badge containerLarge badge labelLarge badge maximum character count containerLarge badge maximum character count label_
+_Navigation rail Small badge; Large badge container; Large badge label; Large badge maximum character count container; Large badge maximum character count label; /_
 
 ## Tokens & specs
 
@@ -33,7 +33,11 @@ Browse the component elements, attributes, tokens, and their values.
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Badges
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Badges | md.comp.badge | COMPONENT | For badges. |
 
 ## Color
 
@@ -41,11 +45,11 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![5 applications of badge color on light and dark theme navigation bars.](../../../assets/images/7298af6b76bd-mg0yc68n-03-3P.png)
 
-_Badge color roles used for light and dark schemes in navigation bar:ErrorErrorOn errorOn errorError_
+_Badge color roles used for light and dark schemes in navigation bar: Error; Error; On error; On error; Error_
 
 ![5 applications of badge color on light and dark theme navigation rails.](../../../assets/images/eeb1cf35bfd7-lz9ep1tz-4.png)
 
-_Badge color roles used for light and dark schemes in navigation rail:ErrorOn errorErrorOn errorError_
+_Badge color roles used for light and dark schemes in navigation rail: Error; On error; Error; On error; Error; /_
 
 ## Measurements
 
@@ -53,41 +57,16 @@ _Badge color roles used for light and dark schemes in navigation rail:ErrorOn er
 
 _Badge padding and size measurements_
 
-Attribute
-
-Value
-
-Small badge shape
-
-3dp corner radius
-
-Small badge size (HxW)
-
-6dp
-
-Large badge shape
-
-8dp corner radius
-
-Large badge one digit size (HxW)
-
-16dp
-
-Large badge max character count size (HxW)
-
-16x34dp
-
-Small badge: distance from top trailing icon corner to bottom leading badge corner (HxW)
-
-6x6dp
-
-Large badge: distance from top trailing icon corner to bottom leading badge corner (HxW)
-
-14x12dp
-
-Large badge padding between badge and text container
-
-4dp
+| Attribute | Value |
+| --- | --- |
+| Small badge shape | 3dp corner radius |
+| Small badge size (HxW) | 6dp |
+| Large badge shape | 8dp corner radius |
+| Large badge one digit size (HxW) | 16dp |
+| Large badge max character count size (HxW) | 16x34dp |
+| Small badge: distance from top trailing icon corner to bottom leading badge corner (HxW) | 6x6dp |
+| Large badge: distance from top trailing icon corner to bottom leading badge corner (HxW) | 14x12dp |
+| Large badge padding between badge and text container | 4dp |
 
 ## Configuration
 

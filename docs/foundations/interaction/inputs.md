@@ -2,7 +2,7 @@
 title: "Inputs"
 source_url: "https://m3.material.io/foundations/interaction/inputs"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/3345346605b4-lwvoasbb-1.png"
@@ -80,41 +80,16 @@ People can use external inputs like a mouse, keyboard, or stylus with their phon
 
 Depending on the input device, designers and developers can implement behaviors that meet standard conventions and user expectations.
 
-Input device action
-
-Anticipated behavior
-
-Mouse and trackpad movement
-
-Show a mouse cursor on the screen
-
-Primary click
-
-Treat mouse clicks differently than touch events
-
-Secondary click
-
-Activate context menus
-
-Hover
-
-Change component states
-
-Highlight
-
-Allow text to be selected by the mouse cursor
-
-Mouse wheel and trackpad two finger drag
-
-Scroll list vertically and horizontally
-
-Trackpad pinch
-
-Zoom an element or page
-
-Physical keyboard
-
-Hide and show on screen keyboard
+| Input device action | Anticipated behavior |
+| --- | --- |
+| Mouse and trackpad movement | Show a mouse cursor on the screen |
+| Primary click | Treat mouse clicks differently than touch events |
+| Secondary click | Activate context menus |
+| Hover | Change component states |
+| Highlight | Allow text to be selected by the mouse cursor |
+| Mouse wheel and trackpad two finger drag | Scroll list vertically and horizontally |
+| Trackpad pinch | Zoom an element or page |
+| Physical keyboard | Hide and show on screen keyboard |
 
 ## Mouse and cursor interactions
 
@@ -150,7 +125,7 @@ Hovering with a cursor (or stylus) should also invoke tooltips when applicable. 
 
 ![Icon button, floating action button, and menu items in their hovered and not hovered states.](../../../assets/images/63f2daa416e5-lwvofwmm-7.png)
 
-_Components without a hover stateComponents with a hover state change applied_
+_Components without a hover state; Components with a hover state change applied_
 
 ### Cursors
 

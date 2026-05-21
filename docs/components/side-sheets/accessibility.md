@@ -2,7 +2,7 @@
 title: "Side sheets"
 source_url: "https://m3.material.io/components/side-sheets/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/1cf90e501198-mgamgh0c-01-do.png"
@@ -39,21 +39,14 @@ Actions within a side sheet can be focused by tab order using a keyboard or swit
 
 ![Side sheet diagram showing the focus order of headline, close, save, cancel.](../../../assets/images/7c917ca24323-mgamkh0k-03.png)
 
-_Visible focus shown on the available actions within a side sheet:HeadlineCloseCancelSave_
+_Visible focus shown on the available actions within a side sheet: Headline; Close; Cancel; Save; /_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-**Tab**
-
-Focus lands on (non-disabled) icon button
-
-**Space** or **Enter**
-
-Activates the (non-disabled) icon button
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Focus lands on (non-disabled) icon button |
+| **Space** or **Enter** | Activates the (non-disabled) icon button |
 
 ## Labeling
 

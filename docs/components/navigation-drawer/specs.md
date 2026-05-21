@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/39e28301e737-mobm461s-1-3P-3p.png"
@@ -28,7 +28,7 @@ The navigation drawer is no longer recommended in the Material 3 Expressive upda
 
 ![Navigation drawer diagram numbering 7 elements](../../../assets/images/39e28301e737-mobm461s-1-3P-3p.png)
 
-_ContainerHeadlineLabel textActive indicatorBadge label textScrimIcon_
+_Container; Headline; Label text; Active indicator; Badge label text; Scrim; Icon_
 
 ## Tokens & specs
 
@@ -36,7 +36,11 @@ The navigation drawer has one token set. [Learn about design tokens](https://m3.
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Navigation drawer
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Navigation drawers (baseline) | md.comp.navigation-drawer | COMPONENT | For the baseline navigation drawer. For expressive, use the expanded nav rail instead `md.comp.nav-rail.expanded`. |
 
 ## Color
 
@@ -44,7 +48,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Navigation drawer diagram numbering 9 color roles.](../../../assets/images/b7067955cc8a-ma6b7pyr-2-3p.png)
 
-_Navigation drawer color roles used for light and dark schemes:Surface container lowOn surface variantOn secondary containerOn secondary containerSecondary containerOn secondary containerOn surface variantOn surface variantScrim_
+_Navigation drawer color roles used for light and dark schemes: Surface container low; On surface variant; On secondary container; On secondary container; Secondary container; On secondary container; On surface variant; On surface variant; Scrim_
 
 For divider color roles, go to [divider specs](../divider/specs.md).
 
@@ -54,7 +58,7 @@ States are visual representations used to communicate the status of a component 
 
 ![4 navigation drawers illustrating enabled, hovered, focused, and pressed states.](../../../assets/images/93478c23447b-ma77ejxi-3b-3p.png)
 
-_Navigation drawer states: Enabled Hovered Focused Pressed_
+_Navigation drawer states: Enabled; Hovered; Focused; Pressed_
 
 [State specs are in the tokens module above](specs.md#6207b00f-a259-41d2-8146-b6efc6380976)
 
@@ -70,57 +74,20 @@ _Element size measurements_
 
 _Padding and margins_
 
-Attribute
-
-Value
-
-Container height
-
-100%
-
-Container width
-
-360dp
-
-Container shape
-
-0,16,16,0dp corner radii
-
-Icon size
-
-24dp
-
-Active indicator height
-
-56dp
-
-Active indicator shape
-
-28dp
-
-Active indicator width
-
-336dp
-
-Horizontal label alignment
-
-Start-aligned
-
-Left padding
-
-28dp
-
-Right padding
-
-28dp
-
-Active indicator padding
-
-12dp
-
-Padding between elements
-
-0dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 100% |
+| Container width | 360dp |
+| Container shape | 0,16,16,0dp corner radii |
+| Icon size | 24dp |
+| Active indicator height | 56dp |
+| Active indicator shape | 28dp |
+| Active indicator width | 336dp |
+| Horizontal label alignment | Start-aligned |
+| Left padding | 28dp |
+| Right padding | 28dp |
+| Active indicator padding | 12dp |
+| Padding between elements | 0dp |
 
 ### Modal navigation drawer
 
@@ -132,50 +99,16 @@ _Element size measurements_
 
 _Padding and margins_
 
-Attribute
-
-Value
-
-Container height
-
-100%
-
-Container width
-
-360dp
-
-Icon size
-
-24dp
-
-Active indicator height
-
-56dp
-
-Active indicator shape
-
-28dp
-
-Active indicator width
-
-336dp
-
-Horizontal label alignment
-
-Start-aligned
-
-Left padding
-
-28dp
-
-Right padding
-
-28dp
-
-Active indicator padding
-
-12dp
-
-Padding between elements
-
-0dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 100% |
+| Container width | 360dp |
+| Icon size | 24dp |
+| Active indicator height | 56dp |
+| Active indicator shape | 28dp |
+| Active indicator width | 336dp |
+| Horizontal label alignment | Start-aligned |
+| Left padding | 28dp |
+| Right padding | 28dp |
+| Active indicator padding | 12dp |
+| Padding between elements | 0dp |

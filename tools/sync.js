@@ -44,6 +44,14 @@ turndown.addRule("video", {
   },
 });
 
+turndown.addRule("table", {
+  filter: "table",
+  replacement: (_content, node) => {
+    const markdown = markdownTableFromNode(node);
+    return markdown ? `\n\n${markdown}\n\n` : "";
+  },
+});
+
 const execFileAsync = promisify(execFile);
 const VIDEO_EXTENSIONS = new Set([".mp4", ".mov", ".webm", ".m4v"]);
 
@@ -816,6 +824,47 @@ function htmlToMarkdown(html, context) {
   return cleanMarkdown(turndown.turndown($("body").html() || ""));
 }
 
+function markdownTableFromNode(tableNode) {
+  const rows = Array.from(tableNode.querySelectorAll("tr"))
+    .map((row) => Array.from(row.children)
+      .filter((cell) => ["TH", "TD"].includes(cell.nodeName))
+      .map((cell) => markdownTableCell(cell)))
+    .filter((cells) => cells.length);
+
+  if (!rows.length) {
+    return "";
+  }
+
+  const columnCount = Math.max(...rows.map((row) => row.length));
+  if (columnCount < 2) {
+    return rows.flat().join("\n");
+  }
+
+  const header = padTableRow(rows[0], columnCount);
+  const bodyRows = rows.slice(1).map((row) => padTableRow(row, columnCount));
+  const lines = [
+    `| ${header.join(" | ")} |`,
+    `| ${header.map(() => "---").join(" | ")} |`,
+    ...bodyRows.map((row) => `| ${row.join(" | ")} |`),
+  ];
+
+  return lines.join("\n");
+}
+
+function markdownTableCell(cell) {
+  const html = cell.innerHTML || cell.textContent || "";
+  const markdown = turndown.turndown(html);
+  return cleanTableCell(markdown || cell.textContent || "");
+}
+
+function padTableRow(row, columnCount) {
+  const padded = row.slice(0, columnCount);
+  while (padded.length < columnCount) {
+    padded.push("");
+  }
+  return padded;
+}
+
 function renderFrontmatter(page, assets) {
   const assetFiles = assets.map((asset) => asset.file);
   const lines = [
@@ -863,7 +912,15 @@ function plainText(value) {
   if (!/[<>]/u.test(text)) {
     return cleanInline(text);
   }
-  return cleanInline(cheerio.load(`<body>${text}</body>`)("body").text());
+  const $ = cheerio.load(`<body>${text}</body>`);
+  $("br").replaceWith(" / ");
+  $("li").append("; ");
+  $("p, div, tr").append(" ");
+  return cleanInline($("body").text())
+    .replace(/\s*\/\s*;\s*/gu, "; ")
+    .replace(/\s*;\s*/gu, "; ")
+    .replace(/\s+([,.:;])/gu, "$1")
+    .replace(/;\s*$/u, "");
 }
 
 function collectPageAssetsBeforeFrontmatter(markdownParts, pageAssets, page) {
@@ -1027,6 +1084,10 @@ function summarizeResourceData(resourceData) {
     return "";
   }
 
+  if (resourceData.system?.components && resourceData.system?.tokenSets) {
+    return summarizeTokenSystem(resourceData.system);
+  }
+
   if (Array.isArray(resourceData)) {
     return tableFromObjects(resourceData.slice(0, 50));
   }
@@ -1048,14 +1109,33 @@ function summarizeResourceData(resourceData) {
   return keys.map((key) => `- **${key}:** ${formatScalar(resourceData[key])}`).join("\n");
 }
 
+function summarizeTokenSystem(system) {
+  const component = ensureArray(system.components)[0];
+  const tokenSets = ensureArray(system.tokenSets);
+  const componentTokenSetNames = new Set(ensureArray(component?.tokenSets));
+  const rows = tokenSets
+    .filter((tokenSet) => !componentTokenSetNames.size || componentTokenSetNames.has(tokenSet.name))
+    .sort((a, b) => (a.order || 0) - (b.order || 0) || String(a.displayName || "").localeCompare(String(b.displayName || "")))
+    .map((tokenSet) => ({
+      "Token set": tokenSet.displayName || tokenSet.tokenSetName || "",
+      Name: tokenSet.tokenSetName || "",
+      Type: tokenSet.tokenType || tokenSet.custom?.token_class || "",
+      Description: tokenSet.description || "",
+    }));
+
+  const heading = component?.displayName ? `Component: ${component.displayName}` : "";
+  const table = tableFromObjects(rows.slice(0, 100));
+  return [heading, table].filter(Boolean).join("\n\n");
+}
+
 function tableFromObjects(rows) {
   if (!rows.length) {
     return "";
   }
   const headers = Array.from(new Set(rows.flatMap((row) => Object.keys(row)))).slice(0, 6);
   const lines = [
-    `| ${headers.join(" |")} |`,
-    `| ${headers.map(() => "---").join(" |")} |`,
+    `| ${headers.join(" | ")} |`,
+    `| ${headers.map(() => "---").join(" | ")} |`,
   ];
   for (const row of rows) {
     lines.push(`| ${headers.map((header) => cleanTableCell(formatScalar(row[header]))).join(" | ")} |`);

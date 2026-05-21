@@ -2,7 +2,7 @@
 title: "Dialogs"
 source_url: "https://m3.material.io/components/dialogs/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/68c0d68b0c0b-m8sf9qay-01.png"
@@ -63,7 +63,7 @@ Dialogs are purposefully interruptive, so they should be used sparingly. A less 
 
 ![Diagram of basic and full-screen dialogs.](../../../assets/images/5a83b92362be-m8sfc7pz-02.png)
 
-_There are two variants of dialogs:Basic dialogFull-screen dialog_
+_There are two variants of dialogs: Basic dialog; Full-screen dialog_
 
 ![Dialog in front of app content.](../../../assets/images/2a1ac7ea588f-m8sfcqhr-03_do.png)
 
@@ -83,23 +83,10 @@ Choose the right component based on the importance of the message. This componen
 
 _Snackbars can disappear automatically_
 
-**Component**
-
-**Importance**
-
-**Action needed**
-
-Snackbar
-
-Low importance
-
-Optional: Snackbars may not have a button, and can disappear automatically
-
-Dialog
-
-High importance
-
-Required: Dialogs block the main content until an action is confirmed
+| **Component** | **Importance** | **Action needed** |
+| --- | --- | --- |
+| Snackbar | Low importance | Optional: Snackbars may not have a button, and can disappear automatically |
+| Dialog | High importance | Required: Dialogs block the main content until an action is confirmed |
 
 ## Anatomy
 
@@ -107,13 +94,13 @@ Required: Dialogs block the main content until an action is confirmed
 
 ![Diagram of 7 elements of basic dialog.](../../../assets/images/f43e2f6859e9-m8sfhos4-07.png)
 
-_ContainerIcon (optional)Headline (optional)Supporting textDivider (optional)Buttons label textScrim_
+_Container; Icon (optional); Headline (optional); Supporting text; Divider (optional); Buttons label text; Scrim_
 
 ### Full-screen dialog
 
 ![6 elements of full-screen dialog.](../../../assets/images/e1f2ebc441bd-m8sfick9-08.png)
 
-_ContainerHeader regionIcon (close affordance)Headline (optional)Button label textDivider (optional)_
+_Container; Header region; Icon (close affordance); Headline (optional); Button label text; Divider (optional)_
 
 ### Container and scrim
 
@@ -308,7 +295,7 @@ Dialogs can swap variants as the window size class changes. For example, a full-
 
 ![Example of full-screen dialog on left, simple dialog on right](../../../assets/images/f9b0cf4c1831-m8sgbmj3-33.png)
 
-_Full-screen dialog on mobileDialog on a tablet_
+_Full-screen dialog on mobile; Dialog on a tablet_
 
 ### Medium window size
 

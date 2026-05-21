@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/12dd17fec8ea-lwoqqvsf-GM3-Components-NavDrawer-Accessibility-1-v01.mp4"
@@ -99,21 +99,11 @@ _When selected, the icon fills, darkens in light theme (or lightens in dark them
 
 ## Keyboard navigation
 
-**Keys**
-
-**Actions**
-
-Tab
-
-Focus lands on the first navigation destination 
-
-Space or Enter
-
-Selects the focused navigation destination, and focus moves to the newly opened section (if applicable)
-
-Arrow
-
-Navigate between destinations within the navigation drawer
+| **Keys** | **Actions** |
+| --- | --- |
+| Tab | Focus lands on the first navigation destination |
+| Space or Enter | Selects the focused navigation destination, and focus moves to the newly opened section (if applicable) |
+| Arrow | Navigate between destinations within the navigation drawer |
 
 ## Labeling elements
 

@@ -2,7 +2,7 @@
 title: "Design for watches"
 source_url: "https://m3.material.io/foundations/watches/layout"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/9040c7aa8fd3-mp5b7fkb-01.png"
@@ -25,37 +25,27 @@ Watches have special design considerations and interaction patterns
 
 ## Resources
 
-Type
-
-Resource
-
-Design
-
-[Wear OS common design layouts](https://developer.android.com/design/ui/wear/guides/foundations/common-layouts)
-
-[Adaptive layout for Wear OS](https://developer.android.com/design/ui/wear/guides/foundations/adaptive-design)
-
-[Figma Design Kit for Wear OS Apps](https://www.figma.com/community/file/1506418396052412186)
-
-[Figma Design Kit for Wear OS Tiles](https://www.figma.com/community/file/1507852095734722321/m3-wear-os-tiles-design-kit?fuid=1348995927136540612)
-
-Implementation
-
-[Android Developers: Wear OS](https://developer.android.com/training/wearables)
+| Type | Resource |
+| --- | --- |
+| Design | [Wear OS common design layouts](https://developer.android.com/design/ui/wear/guides/foundations/common-layouts) |
+| [Adaptive layout for Wear OS](https://developer.android.com/design/ui/wear/guides/foundations/adaptive-design) |  |
+| [Figma Design Kit for Wear OS Apps](https://www.figma.com/community/file/1506418396052412186) |  |
+| [Figma Design Kit for Wear OS Tiles](https://www.figma.com/community/file/1507852095734722321/m3-wear-os-tiles-design-kit?fuid=1348995927136540612) |  |
+| Implementation | [Android Developers: Wear OS](https://developer.android.com/training/wearables) |
 
 ## Layout principles
 
 ![A social networking scrolling screen showing Followers, sorting and search.](../../../assets/images/9040c7aa8fd3-mp5b7fkb-01.png)
 
-_Prioritize contentPlace the most important information at the top of the screen._
+_Prioritize content Place the most important information at the top of the screen._
 
 ![An audio interface showing headphones are connected with volume indicator and controls.](../../../assets/images/d00fd5e2bdbe-mp5bb5xm-02.png)
 
-_Limit choicesReduce the number of actions to prevent decision fatigue. Focus on critical tasks to help people get things done within seconds._
+_Limit choices Reduce the number of actions to prevent decision fatigue. Focus on critical tasks to help people get things done within seconds._
 
 ![A dialog confirming device access to call log and contacts.](../../../assets/images/032d06f452ba-mp5b8fz0-03.png)
 
-_Simplify navigationUse a clear, shallow hierarchy so people don't get lost in complex menus. Aim to display content and navigation inline._
+_Simplify navigation Use a clear, shallow hierarchy so people don't get lost in complex menus. Aim to display content and navigation inline._
 
 ## Standard layouts
 
@@ -72,7 +62,7 @@ Wear OS offers [Figma Design Kits](https://developer.android.com/design/ui/wear/
 
 ![A watch screen showing a social media app and a watch screen showing a timer with element indicators.](../../../assets/images/ca7b8c5eaafa-mp5b97lf-04.png)
 
-_Time textPage titleScroll indicatorAction button_
+_Time text; Page title; Scroll indicator; Action button_
 
 ### Non-scrolling layouts
 

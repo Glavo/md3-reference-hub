@@ -2,7 +2,7 @@
 title: "Grids &amp; spacing"
 source_url: "https://m3.material.io/foundations/layout/grids-spacing/density"
 lastmod: "2026-05-15"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/videos/8afc04a4ecf5-mp5c4fqq-m6fec25z-GM3-Components-Density-2-v03.mp4"
@@ -181,30 +181,8 @@ _Low-density screen displayed with density independence_
 
 _High-density screen displayed with density independence_
 
-Screen physical width
-
-Screen density
-
-Screen width in pixels
-
-Screen width in dps
-
-1.5 in
-
-120
-
-180 px
-
-240dp
-
-1.5 in
-
-160
-
-240 px
-
-1.5 in
-
-240
-
-360 px
+| Screen physical width | Screen density | Screen width in pixels | Screen width in dps |
+| --- | --- | --- | --- |
+| 1.5 in | 120 | 180 px | 240dp |
+| 1.5 in | 160 | 240 px |  |
+| 1.5 in | 240 | 360 px |  |

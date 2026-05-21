@@ -2,7 +2,7 @@
 title: "Text fields"
 source_url: "https://m3.material.io/components/text-fields/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/4a67db93abb5-m2j3wjd6-1.png"
@@ -35,13 +35,22 @@ Browse the component elements, attributes, tokens, and their values. [Learn abo
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Text fields
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| Text field - Select, outlined | md.comp.outlined-select | COMPONENT | For outlined select text fields. |
+| Text field - Autocomplete, filled | md.comp.filled-autocomplete | COMPONENT | For filled autocomplete text fields. |
+| Text field - Autocomplete, outlined | md.comp.outlined-autocomplete | COMPONENT | For outlined autocomplete text fields. |
+| Text field - Select, filled | md.comp.filled-select | COMPONENT | For filled select text fields. |
+| Text field - Filled | md.comp.filled-text-field | COMPONENT | For filled text fields. |
+| Text field - Outlined | md.comp.outlined-text-field | COMPONENT | For outlined text fields. |
 
 ## Filled text field
 
 ![Diagram of a filled text field indicating the 10 parts of its anatomy.](../../../assets/images/4a67db93abb5-m2j3wjd6-1.png)
 
-_ContainerLeading icon (optional)Label text in empty fieldLabel text in populated fieldTrailing icon (optional)Focused active IndicatorCaretInput textSupporting text (optional)Enabled active indicator_
+_Container; Leading icon (optional); Label text in empty field; Label text in populated field; Trailing icon (optional); Focused active Indicator; Caret; Input text; Supporting text (optional); Enabled active indicator_
 
 ### Filled text field color
 
@@ -49,7 +58,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Diagram of a filled text field indicating its color mappings. ](../../../assets/images/1e7b23e6ae40-m2j3x0d6-2-3P.png)
 
-_Filled text field color roles used for light and dark schemes:Surface container highestOn surface variantOn surface variantPrimaryOn surface variantPrimaryPrimaryOn surfaceOn surface variantOn surface_
+_Filled text field color roles used for light and dark schemes: Surface container highest; On surface variant; On surface variant; Primary; On surface variant; Primary; Primary; On surface; On surface variant; On surface_
 
 ### Filled text field states
 
@@ -57,7 +66,7 @@ States are visual representations used to communicate the status of a component 
 
 ![Side by side view of empty and populated filled text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ](../../../assets/images/6902c75bf75b-lyqwy2pr-3.png)
 
-_Enabled (empty)Focused (empty)Hovered (empty)Disabled (empty)Enabled (populated)Focused (populated)Hovered (populated)Disabled (populated)_
+_Enabled (empty); Focused (empty); Hovered (empty); Disabled (empty); Enabled (populated); Focused (populated); Hovered (populated); Disabled (populated)_
 
 ### Filled text field error states
 
@@ -65,7 +74,7 @@ Error states are visual representations used to communicate the status of a comp
 
 ![Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ](../../../assets/images/a6fc462532ae-lyqx5pjx-4.png)
 
-_Enabled (empty)Focused (empty)Hovered (empty)Enabled (populated)Focused (populated)Hovered (populated)_
+_Enabled (empty); Focused (empty); Hovered (empty); Enabled (populated); Focused (populated); Hovered (populated)_
 
 ### Filled text field measurements
 
@@ -81,61 +90,30 @@ _Padding and size measurements with icons_
 
 _Padding and size measurements with supporting text and character count_
 
-Attribute
-
-Value
-
-Default container height
-
-56dp
-
-Label alignment (unpopulated)
-
-Vertically centered
-
-Top/bottom padding
-
-8dp
-
-Left/right padding without icons
-
-16dp
-
-Left/right padding with icons
-
-12dp
-
-Icon alignment
-
-Vertically centered
-
-Padding between icons and text
-
-16dp
-
-Supporting text and character counter top padding
-
-4dp
-
-Padding between supporting text and character counter
-
-16dp
-
-Target size
-
-56dp
+| Attribute | Value |
+| --- | --- |
+| Default container height | 56dp |
+| Label alignment (unpopulated) | Vertically centered |
+| Top/bottom padding | 8dp |
+| Left/right padding without icons | 16dp |
+| Left/right padding with icons | 12dp |
+| Icon alignment | Vertically centered |
+| Padding between icons and text | 16dp |
+| Supporting text and character counter top padding | 4dp |
+| Padding between supporting text and character counter | 16dp |
+| Target size | 56dp |
 
 ### Filled text field configurations
 
 ![Side by side view of filled text fields in different configurations.](../../../assets/images/c2563cb5fcec-m84goiff-8-3P.png)
 
-_Empty and populated filled text fields with:Supporting textTrailing iconLeading iconLeading and trailing iconsPrefixSuffixMulti-line text field_
+_Empty and populated filled text fields with: Supporting text; Trailing icon; Leading icon; Leading and trailing icons; Prefix; Suffix; Multi-line text field_
 
 ## Outlined text field
 
 ![Diagram of an outlined text field indicating the 9 parts of its anatomy](../../../assets/images/a516b444f343-mhk4c6jn-09-3P.png)
 
-_Enabled container outlineLeading icon (optional)Label text in empty fieldLabel text in populated fieldTrailing icon (optional)Focused container outlineCaretInput textSupporting text (optional)_
+_Enabled container outline; Leading icon (optional); Label text in empty field; Label text in populated field; Trailing icon (optional); Focused container outline; Caret; Input text; Supporting text (optional)_
 
 ### Outlined text field color
 
@@ -143,7 +121,7 @@ Color values are implemented through design tokens. For design, this means worki
 
 ![Diagram of an outlined text field indicating its color mappings ](../../../assets/images/ca994a0b6710-m2j3xtlg-10-3P.png)
 
-_Outlined text field color roles used for light and dark schemes:OutlineOn surface variantOn surface variantPrimaryOn surface variantPrimaryPrimaryOn surfaceOn surface variant_
+_Outlined text field color roles used for light and dark schemes: Outline; On surface variant; On surface variant; Primary; On surface variant; Primary; Primary; On surface; On surface variant_
 
 ### Outlined text field states
 
@@ -151,7 +129,7 @@ States are visual representations used to communicate the status of a component 
 
 ![Side by side view of empty and populated outlined text fields across different states, showing the differences between enabled, focused, hovered, and disabled. ](../../../assets/images/9e46ee37dd16-lyqy69rp-11.png)
 
-_Enabled (empty)Focused (empty)Hovered (empty)Disabled (empty)Enabled (populated)Focused (populated)Hovered (populated)Disabled (populated)_
+_Enabled (empty); Focused (empty); Hovered (empty); Disabled (empty); Enabled (populated); Focused (populated); Hovered (populated); Disabled (populated)_
 
 ### Outlined text field error states
 
@@ -159,7 +137,7 @@ Error states are visual representations used to communicate the status of a comp
 
 ![Side by side view of empty and populated filled text fields across different error states, showing the differences between enabled, focused, hovered. ](../../../assets/images/61ba0085222b-lyqya4uw-12.png)
 
-_Enabled (empty)Focused (empty)Hovered (empty)Enabled (populated)Focused (populated)Hovered (populated)_
+_Enabled (empty); Focused (empty); Hovered (empty); Enabled (populated); Focused (populated); Hovered (populated)_
 
 ### Outlined text field measurements
 
@@ -175,52 +153,21 @@ _Padding and size measurements with icons_
 
 _Padding and size measurements with supporting text and character count_
 
-Attribute
-
-Value
-
-Container height
-
-56dp
-
-Left/right padding without icons
-
-16dp
-
-Left/right padding with icons
-
-12dp
-
-Padding between icons and text
-
-16dp
-
-Icon alignment
-
-Vertically centered
-
-Supporting text and character counter top padding
-
-4dp
-
-Padding between supporting text and character counter
-
-16dp
-
-Label alignment
-
-Vertically centered
-
-Left/right padding populated label text
-
-4dp
-
-Target size
-
-56dp
+| Attribute | Value |
+| --- | --- |
+| Container height | 56dp |
+| Left/right padding without icons | 16dp |
+| Left/right padding with icons | 12dp |
+| Padding between icons and text | 16dp |
+| Icon alignment | Vertically centered |
+| Supporting text and character counter top padding | 4dp |
+| Padding between supporting text and character counter | 16dp |
+| Label alignment | Vertically centered |
+| Left/right padding populated label text | 4dp |
+| Target size | 56dp |
 
 ### Outlined text field configurations
 
 ![A side by side view of outlined text fields in different configurations.](../../../assets/images/7b5fd2232386-m84gq17k-16-3P.png)
 
-_Empty and populated outlined text fields with:Supporting textTrailing iconLeading iconLeading and trailing iconsPrefixSuffixMulti-line text field_
+_Empty and populated outlined text fields with: Supporting text; Trailing icon; Leading icon; Leading and trailing icons; Prefix; Suffix; Multi-line text field_

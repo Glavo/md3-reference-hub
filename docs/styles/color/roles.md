@@ -2,7 +2,7 @@
 title: "Color roles"
 source_url: "https://m3.material.io/styles/color/roles"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "styles"
 assets:
   - "assets/images/1a32091256d8-ly2ms4t2-1.png"
@@ -105,7 +105,7 @@ Accent color roles include primary, secondary, and tertiary. Assign them to elem
 
 ![A mail app showing a mix of primary, secondary, and tertiary accent colors used across the screen.](../../../assets/images/a3d20450511a-m7atpmau-04.png)
 
-_Primary colors are used for the most important elements, like a starred message and FAB to start a new messageTertiary colors are used for smaller emphasized elements, like a badge suggesting a follow upSecondary colors are used for less urgent elements, like the background of an inactive star icon and the selection state of an inbox icon_
+_Primary colors are used for the most important elements, like a starred message and FAB to start a new message; Tertiary colors are used for smaller emphasized elements, like a badge suggesting a follow up; Secondary colors are used for less urgent elements, like the background of an inactive star icon and the selection state of an inbox icon_
 
 ## Primary
 
@@ -128,11 +128,11 @@ _Primary color roles include primary and primary container, with their respectiv
 
 ![Primary color used for filled button, and "on primary" color used for the text within that button.](../../../assets/images/2acc40d6d8ea-ly2muo2k-5.png)
 
-_On primary Primary_
+_On primary; Primary_
 
 !["Primary container" color used for FAB and "on primary container" color used for the text and icon within.](../../../assets/images/08f251bbbb80-m2kwfth2-6.png)
 
-_On primary container Primary container_
+_On primary container; Primary container_
 
 ## Secondary
 
@@ -157,7 +157,7 @@ _Secondary color roles include secondary and secondary container, with their res
 
 ![An icon button using "secondary container" color, and an icon using "on secondary color."](../../../assets/images/077a888057cc-ly2mvlj0-8.png)
 
-_Icon: On secondary container Button: Secondary container_
+_Icon: On secondary container; Button: Secondary container_
 
 ## Tertiary
 
@@ -184,7 +184,7 @@ The tertiary color roles can be applied at the designer's discretion. They're in
 
 ![A selected element using Tertiary Container as a background color and On Tertiary Container for text. ](../../../assets/images/11a1daef333e-ly2n0pba-10.png)
 
-_On tertiary containerTertiary container_
+_On tertiary container; Tertiary container_
 
 ## Error
 
@@ -256,13 +256,13 @@ Text and icons typically use **on surface** and **on surface variant** on all
 
 ![Email app using Surface for the main background color and Surface Container for the navigation bar background](../../../assets/images/4ec5661d372a-ly2n20l4-14.png)
 
-_SurfaceSurface container_
+_Surface; Surface container_
 
 All color mappings – but especially surface colors – should remain the same for layout regions across window size classes. For example, the body area will use the **surface** color and the navigation area will use the **surface container** color on both mobile and tablet.
 
 ![Mobile and tablet screens both using Surface for main background and surface container for navigation background.](../../../assets/images/fdf945671117-ly2n2btl-15.png)
 
-_SurfaceSurface container_
+_Surface; Surface container_
 
 Depending on necessary hierarchy, feature area, and design logic, you can use [add-on surface colors](https://m3.material.io/m3/pages/color-roles/tab-1#63d6db08-59e2-4341-ac33-9509eefd9b4f) in larger window class sizes as long as colors are consistently applied.
 
@@ -274,7 +274,7 @@ By default, neutral-colored components such as navigation bars, menus, or dialog
 
 ![Surface container low applied to an elevated button and card, surface container applied to the top and bottom bar, surface container high applied to the FAB and basic dialog, surface container highest applied to an input label and off switch.](../../../assets/images/4043b4d5d33b-ly2n2wcp-17.png)
 
-_Default surface container roles applied to components:Surface container lowSurface container Surface container highSurface container highest_
+_Default surface container roles applied to components: Surface container low; Surface container; Surface container high; Surface container highest_
 
 ### Inverse colors
 
@@ -294,7 +294,7 @@ _Inverse surface, inverse on surface, and inverse primary roles in the color sch
 
 ![Snackbar component using inverse surface for its background, inverse on surface for its text and inverse primary of its text button, shown in light theme](../../../assets/images/a234fd00a30a-ly2n6f78-25.png)
 
-_A snackbar which uses:Inverse surface for its backgroundInverse on surface for its textInverse primary for its text button_
+_A snackbar which uses: Inverse surface for its background; Inverse on surface for its text; Inverse primary for its text button; /_
 
 ## Outline
 
@@ -311,7 +311,7 @@ _Outline and outline variant roles in the color scheme, shown in light theme_
 
 ![Diagram comparing used of outline and outline variant.](../../../assets/images/25ea4346e130-ly2n7081-19.png)
 
-_A text field which uses outline for its container borderA list item which uses outline variant for its divider line_
+_A text field which uses outline for its container border; A list item which uses outline variant for its divider line; /_
 
 ![Outline color incorrectly used for dividers](../../../assets/images/957e6a129478-ly2n7i8q-20_dont.png)
 
@@ -353,15 +353,15 @@ _For comparison, a FAB which uses primary container (2) for its container fill c
 
 ![2 email app screens using primary fixed and primary fixed dim.](../../../assets/images/ff1b97465633-ly2n9m0g-29.png)
 
-_Examples of fixed and fixed dim colors in use:Primary fixed for a FAB container colorPrimary fixed dim for an icon button container_
+_Examples of fixed and fixed dim colors in use: Primary fixed for a FAB container color; Primary fixed dim for an icon button container; /_
 
 ![Permissions screen with Surface used for the background and Primary Fixed incorrectly used for the button fill.](../../../assets/images/4f995ddea403-ly2n9vnb-30_dont.png)
 
-_Fixed colors don't change based on light or dark theme, so they're likely to cause contrast issues. Avoid using them where contrast is necessary._
+_Fixed colors don't change based on light or dark theme, so they're likely to cause contrast issues. Avoid using them where contrast is necessary. / / / / / /_
 
 ![Permissions screen with Surface used for the background and Primary correctly used for the button fill.](../../../assets/images/55ac7e293740-ly2na1i9-31_do.png)
 
-_Use primary, secondary, and tertiary roles for accent colors where contrast is needed_
+_Use primary, secondary, and tertiary roles for accent colors where contrast is needed /_
 
 ### On fixed accent colors
 
@@ -399,20 +399,20 @@ For example, in an interface using the default **surface** role, the mapped area
 
 ![UI with surface role applied to the body area and surface container applied to the navigation area, shown in light theme.](../../../assets/images/109e00d05a75-ly2nf2l7-36.png)
 
-_Light themeSurfaceSurface container_
+_Light theme Surface; Surface container_
 
 ![UI with surface role applied to the body area and surface container applied to the navigation area, shown in dark theme.](../../../assets/images/668e405887df-ly2nfaia-37.png)
 
-_Dark themeSurfaceSurface container_
+_Dark theme Surface; Surface container_
 
 ![UI with surface bright role applied to the body area and surface container applied to the navigation area, shown in light theme.](../../../assets/images/dacf21bca0dd-ly2nfhyc-38.png)
 
-_Light themeSurface brightSurface container_
+_Light theme Surface bright; Surface container; /_
 
 ![UI with surface bright role applied to the body area and surface container applied to the navigation area, shown in dark theme.](../../../assets/images/0f4a124e4a61-ly2nep5x-39.png)
 
-_Dark themeSurface brightSurface container_
+_Dark theme Surface bright; Surface container; /_
 
 ![Large screen chat UI. The surface dim role is applied to the left navigation rail and the surface bright role is applied to the chat window.](../../../assets/images/dc2cd2e6c510-ly2nfqah-40.png)
 
-_Navigation rail with surface dim backgroundChat window with surface bright background_
+_Navigation rail with surface dim background; Chat window with surface bright background; /_

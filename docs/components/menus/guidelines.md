@@ -2,7 +2,7 @@
 title: "Menus"
 source_url: "https://m3.material.io/components/menus/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/8fce25fd715c-mhlk1jwz-GM3_Menus_Guidelines-01_IA_v01.mp4"
@@ -97,7 +97,7 @@ Vertical menu items can be grouped by adding a divider or small gap. Use groups 
 
 ![2 vertical menus: a standard menu with no gap and a grouped menu with 1 gap.](../../../assets/images/8e01c2304abf-mi5o0xc8-05.png)
 
-_Menu items can be grouped to be more scannable:Standard vertical menuGrouped vertical menu_
+_Menu items can be grouped to be more scannable: Standard vertical menu; Grouped vertical menu_
 
 ### Context menus
 
@@ -111,7 +111,7 @@ _A context menu appears when right clicking with a mouse or trackpad. It can rev
 
 ![Diagram outlining 11 elements of a menu’s anatomy.](../../../assets/images/b0593560e9ec-migxx4lp-07.png)
 
-_Menu item Leading icon (optional)Menu item textTrailing icon (optional)Badge (optional)Trailing text (optional)ContainerSupporting text (optional)Label text (optional)Gap (optional)Divider (optional)_
+_Menu item; Leading icon (optional); Menu item text; Trailing icon (optional); Badge (optional); Trailing text (optional); Container; Supporting text (optional); Label text (optional); Gap (optional); Divider (optional)_
 
 ### Menu items
 

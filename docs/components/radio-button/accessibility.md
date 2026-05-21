@@ -2,7 +2,7 @@
 title: "Radio button"
 source_url: "https://m3.material.io/components/radio-button/accessibility"
 lastmod: "2026-02-16"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/4eccbf5fd5ad-mcelaxg0-GM3_Radio-button_Accessibility_01_IA_v01.mp4"
@@ -64,25 +64,12 @@ _Arrows move to next element in a list_
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-**Tab**
-
-Moves focus into the group to the selected radio button, or the first if none are selected
-
-**Shift** + **Tab**
-
-Moves focus into the group to the selected radio button, or the last if none are selected
-
-**Arrows**
-
-Moves focus and selects the previous or next radio button. Wraps focus and selection between the first and last radio buttons.
-
-**Space**
-
-Selects a focused radio button. If already selected, does nothing.
+| Keys | Actions |
+| --- | --- |
+| **Tab** | Moves focus into the group to the selected radio button, or the first if none are selected |
+| **Shift** + **Tab** | Moves focus into the group to the selected radio button, or the last if none are selected |
+| **Arrows** | Moves focus and selects the previous or next radio button. Wraps focus and selection between the first and last radio buttons. |
+| **Space** | Selects a focused radio button. If already selected, does nothing. |
 
 ## Labeling elements
 

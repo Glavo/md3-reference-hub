@@ -2,7 +2,7 @@
 title: "Alt text"
 source_url: "https://m3.material.io/foundations/content-design/alt-text"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/2589cf097f70-lwj77km2-1_do.png"
@@ -50,11 +50,11 @@ Alt text also displays when an image doesn’t load. It tells people what they n
 
 ![4 tin mugs and appropriate alt text.](../../../assets/images/2589cf097f70-lwj77km2-1_do.png)
 
-_Write alt text for images to provide context to screen reader users.Alt text: Two large and two small tin mugs._
+_Write alt text for images to provide context to screen reader users. / Alt text: Two large and two small tin mugs. / /_
 
 ![4 tin mugs with file name as alt text.](../../../assets/images/d67014b7c856-lwj782ss-2_don't.png)
 
-_Avoid leaving the automatically generated file number as alt text.Alt text: jpg - 0223939-330_
+_Avoid leaving the automatically generated file number as alt text. / Alt text: jpg - 0223939-330 / /_
 
 ### When to use alt text
 
@@ -64,7 +64,7 @@ An image can be marked decorative using a null alt attribute, such as **alt=”�
 
 ![A bitcoin decorative image in a crypto article.](../../../assets/images/ee08a38e69cd-lwj79l11-3.png)
 
-_Images that don’t add information don’t need alt text.Alt text: “”_
+_Images that don’t add information don’t need alt text. / Alt text: “” / /_
 
 ### Focus on the meaning of the image
 
@@ -74,11 +74,11 @@ Alt text can also help improve SEO, but its primary purpose should be to make si
 
 ![Watering can in a shopping app and good alt text.](../../../assets/images/cb563b1a13a7-lwj7a0ft-4_do.png)
 
-_Focus on the important part of the image.Alt text: A Scandinavian-style, copper-handled, cream-colored watering can._
+_Focus on the important part of the image. / Alt text: A Scandinavian-style, copper-handled, cream-colored watering can. / /_
 
 ![Watering can in a shopping app and overly detailed alt text.](../../../assets/images/c1816aca39ed-lwj7aw71-5_don't.png)
 
-_Avoid detailed descriptions that don’t contribute to the image’s meaning.Alt text: On a window sill, a child’s hands pours from copper handled cream colored watering can into a phoenix plant in a grey pot._
+_Avoid detailed descriptions that don’t contribute to the image’s meaning. / Alt text: On a window sill, a child’s hands pours from copper handled cream colored watering can into a phoenix plant in a grey pot. /_
 
 ### Keep it short
 
@@ -88,11 +88,11 @@ If alt text is too long, it may be cut off by some screen readers, which is a po
 
 ![Relates idea of keeping alt text to a max of 140 characters.](../../../assets/images/5b1292cf1b19-lwkc2f9v-6_do.png)
 
-_Write brief alt text.Alt text: A small happy dog hanging out the passenger window of a vintage car._
+_Write brief alt text. / Alt text: A small happy dog hanging out the passenger window of a vintage car. /_
 
 ![Long alt text can be overwhelming and ineffective.](../../../assets/images/56d8da527685-lwkc3gw3-7_don't.png)
 
-_Don’t write more than 140 characters of alt text. Alt text: An aqua colored vintage car is driven by a woman in a cowboy hat. A poodle-mix dog sits in the passenger seat with its tongue out and paws out the window._
+_Don’t write more than 140 characters of alt text. / Alt text: An aqua colored vintage car is driven by a woman in a cowboy hat. A poodle-mix dog sits in the passenger seat with its tongue out and paws out the window. / /_
 
 ### Don’t start alt text with “image of”
 
@@ -100,11 +100,11 @@ Screen readers announce “image” when they come across an image. If your star
 
 ![Makes the point of not  using “image of” to start alt text.](../../../assets/images/1b9c4b98ed52-lwj7cw95-8_do.png)
 
-_Describe the image, rather than the format.Alt text: A wooden box of artisan sourdough bread is carried by a baker._
+_Describe the image, rather than the format. / Alt text: A wooden box of artisan sourdough bread is carried by a baker. /_
 
 ![Makes the point that poor alt text starts with “Image of.”](../../../assets/images/47b5c3521503-lwj7dpkq-9_don't.png)
 
-_Avoid writing “image of." The screen reader will announce it’s an image.Alt text: Image of a wooden box of artisan sourdough bread is carried by a baker._
+_Avoid writing “image of." The screen reader will announce it’s an image. / Alt text: Image of a wooden box of artisan sourdough bread is carried by a baker. /_
 
 ## Context and nearby text
 
@@ -118,11 +118,11 @@ Be consistent in your word choices. For example, don’t use “antique” in a 
 
 ![Shopping app with image of a chair in a bathroom.](../../../assets/images/84a04e032414-lwj7ehhx-10_do.png)
 
-_Alt text should always relate to the context.Alt text: Brown oak dining chair._
+_Alt text should always relate to the context. / Alt text: Brown oak dining chair. /_
 
 ![Home decorating blog post heading and caption and image of a wooden chair in bathroom.](../../../assets/images/3c30e8e024bc-lwj7f0me-11_do.png)
 
-_Change alt text for an image depending on where it’s used.Alt text: Books on a wooden chair next to a vintage bathtub._
+_Change alt text for an image depending on where it’s used. / Alt text: Books on a wooden chair next to a vintage bathtub. /_
 
 ### Alt text is subjective
 
@@ -132,23 +132,23 @@ The same image should have different alt text in different settings. Use the inf
 
 ![Shows idea of alt text supporting the caption.](../../../assets/images/34a7db31484d-lwj7flrw-12_do.png)
 
-_Make alt text consistent with the caption.Alt text: A well composed photo of a photographer waiting for the perfect shot of sailboats._
+_Make alt text consistent with the caption. / Alt text: A well composed photo of a photographer waiting for the perfect shot of sailboats. /_
 
 ![Shows idea of alt text  missing key information from the image.](../../../assets/images/c78592732877-lwj7i4ba-13_don't.png)
 
-_Don’t ignore the caption. Information in alt text should correspond to adjacent text.Alt text: A black and white photo of a woman standing on a pier while looking at sailboats._
+_Don’t ignore the caption. Information in alt text should correspond to adjacent text. / Alt text: A black and white photo of a woman standing on a pier while looking at sailboats. /_
 
 ![Shows idea of alt text focussing on the meaning of the image.](../../../assets/images/6a3e9adfb069-lwj7ik28-14_do.png)
 
-_Focus on the meaning of the image.Alt text: A black and white photo of woman looking at sailboats from a pier._
+_Focus on the meaning of the image. / Alt text: A black and white photo of woman looking at sailboats from a pier. /_
 
 ![Shows idea of alt text reinforcing the caption theme.](../../../assets/images/ff2087230329-lwj7ixvo-15_do.png)
 
-_Use alt text to reinforce ideas in the caption.Alt text: A photographer stands on a pier between 2 dock posts looking at sailboats._
+_Use alt text to reinforce ideas in the caption. / Alt text: A photographer stands on a pier between 2 dock posts looking at sailboats. / /_
 
 ![Shows idea of overly detailed alt text.](../../../assets/images/74132dbb96bc-lwj7jdth-16_don't.png)
 
-_Don’t write alt text with details that aren’t relevant to the context of the image.Alt text: A black and white photo of a female photographer looking at sailboats while standing between 2 dock posts on a Venetian pier._
+_Don’t write alt text with details that aren’t relevant to the context of the image. / Alt text: A black and white photo of a female photographer looking at sailboats while standing between 2 dock posts on a Venetian pier._
 
 ### Captions should benefit all users
 
@@ -158,11 +158,11 @@ Good captions support the image rather than duplicating its information. A well-
 
 ![Alt text of “flying pigeons” supports the caption “Pigeons have a distinct silhouette.” ](../../../assets/images/6e33d42dd643-lwj7jync-17_do.png)
 
-_Capture the meaning of the image in a few words.Alt text: Flying pigeons._
+_Capture the meaning of the image in a few words. / Alt text: Flying pigeons. /_
 
 ![The caption and alt text are both “Pigeons have a distinct silhouette.”](../../../assets/images/4ac2caf72d91-lwj7kb1h-18_don't.png)
 
-_Don’t repeat the caption as the alt text.Alt text: Pigeons have a distinct silhouette._
+_Don’t repeat the caption as the alt text. / Alt text: Pigeons have a distinct silhouette. /_
 
 ## Types of imagery
 
@@ -180,7 +180,7 @@ Occasionally it benefits users to name the type of image. This can include:
 
 ![Map with alt text that begins with “map of.”](../../../assets/images/96b29f447bcb-lwj7kr95-19.png)
 
-_Be careful when using alt text that describes the type of image.Alt text: Map of Denver Rd. Park and surrounding area._
+_Be careful when using alt text that describes the type of image. / Alt text: Map of Denver Rd. Park and surrounding area. / /_
 
 ### Charts and graphs
 
@@ -202,11 +202,11 @@ A general formula for chart alt text would be: “Summary of \[data type\] + \[r
 
 ![Alt text that summarizes the meaning of the chart.](../../../assets/images/984bb3cf9fe7-m2ch1hb7-21_do.png)
 
-_Capture the meaning of the chart, along with key data pointsAlt text: Summary of interest in Manchester City, which is almost double that of Liverpool. Manchester interest peaks at 100 at 6pm. Liverpool peaks at 40 at 3am and 12:30pm._
+_Capture the meaning of the chart, along with key data points / Alt text: Summary of interest in Manchester City, which is almost double that of Liverpool. Manchester interest peaks at 100 at 6pm. Liverpool peaks at 40 at 3am and 12:30pm. /_
 
 ![Alt text for a chart that details too many data points. ](../../../assets/images/adc16f8143c8-m2ch1sqk-22_don't.png)
 
-_Avoid copying data pointsAlt text: Interest in Manchester City: 12am=40, 12pm=56, 6pm=100, 9pm=45. Liverpool interest 12am=20, 12:30pm=40, 6pm=30, 9pm=20._
+_Avoid copying data points Alt text: Interest in Manchester City: 12am=40, 12pm=56, 6pm=100, 9pm=45. Liverpool interest 12am=20, 12:30pm=40, 6pm=30, 9pm=20. /_
 
 **Charts for editorial use
 **
@@ -216,7 +216,7 @@ For example, a chart from a weekly digest showing highlights of physical activit
 
 ![A fitness digest with a takeaway and metric highlighted in sample alt text.](../../../assets/images/1b127ee5b468-m5v7afru-02-Editorial-Chart-(1).png)
 
-_In charts with an editorial focus, highlight the main takeaway and metricsAlt text: Your step count was 55% higher this week vs last week with 4,106 additional steps on average._
+_In charts with an editorial focus, highlight the main takeaway and metrics / / Alt text: Your step count was 55% higher this week vs last week with 4,106 additional steps on average._
 
 **Charts for analysis**
 
@@ -228,11 +228,11 @@ To avoid introducing unintentional bias in charts with many possible takeaways, 
 
 ![Chart for analysis with alt text that describes general structure and provides link to data.](../../../assets/images/c0b54cae93c8-m2kctoq6-03-Analyst-Chart.png)
 
-_In charts used for analysis, mention the general structure, and highlight opportunities for more investigationAlt text: Comparison of annual high, avg, and low temperatures. Visit the link provided to explore the data in detail._
+_In charts used for analysis, mention the general structure, and highlight opportunities for more investigation / / Alt text: Comparison of annual high, avg, and low temperatures. Visit the link provided to explore the data in detail._
 
 ![Chart for analysis with alt text that inaccurately summarizes it.](../../../assets/images/b29d34b797e2-m2kcv16w-03-Analyst-Chart-1.png)
 
-_Don’t summarize a chart used for analysisAlt text: High, average, and low temperatures varied widely over the course of the year._
+_Don’t summarize a chart used for analysis / / Alt text: High, average, and low temperatures varied widely over the course of the year. /_
 
 **Use interactive charts**
 
@@ -258,8 +258,8 @@ Alt text on informative GIFs or motion assets should highlight the important poi
 
 ![alt=""](../../../assets/images/f78b12271458-lwj7mf38-24_do.png)
 
-_Write alt text that summarizes the motion asset.Alt text: A tooltip labeled “star” appears when a cursor hovers over a star icon._
+_Write alt text that summarizes the motion asset. / Alt text: A tooltip labeled “star” appears when a cursor hovers over a star icon. /_
 
 ![alt=""](../../../assets/images/e2f1076d2b83-lwj7mptb-25_don't.png)
 
-_Don’t write about every aspect of the motion.Alt text: A hand-shaped cursor lands on a star-shaped icon and then a tooltip labeled “star” appears below the star._
+_Don’t write about every aspect of the motion. / Alt text: A hand-shaped cursor lands on a star-shaped icon and then a tooltip labeled “star” appears below the star. /_

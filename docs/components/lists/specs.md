@@ -2,7 +2,7 @@
 title: "Lists"
 source_url: "https://m3.material.io/components/lists/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/images/74fff6d874e2-miq1b43h-frame.png"
@@ -69,23 +69,10 @@ In M3 Expressive, baseline lists are still available to use, but don’t have th
 
 _Baseline list items have square corners and standard colors_
 
-**Variants**
-
-**M3**
-
-**M3 Expressive**
-
-List (expressive)
-
-\--
-
-Available
-
-List (baseline)
-
-Available
-
-Available
+| **Variants** | **M3** | **M3 Expressive** |
+| --- | --- | --- |
+| List (expressive) | \-- | Available |
+| List (baseline) | Available | Available |
 
 ## Configurations
 
@@ -95,7 +82,7 @@ The standard and segmented styles are a visual choice, and don’t affect a list
 
 ![A standard list and segmented list in dark mode.](../../../assets/images/5d9f6ffce6ef-mio99zjp-03-3P.png)
 
-_StandardSegmented_
+_Standard; Segmented_
 
 ### List selection modes
 
@@ -127,45 +114,12 @@ On Android, lists can [expand and collapse](guidelines.md#90a236ee-b587-4361-891
 
 [Open video](../../../assets/videos/d882401ef931-miqm268j-GM3-Expressive-Specs-08-3P-v01-(1).mp4)
 
-**Category**
-
-**Configuration**
-
-**M3**
-
-**M3 Expressive**
-
-Styles
-
-Standard
-
-Available
-
-Available
-
-Segmented
-
-\--
-
-Available
-
-Selection modes
-
-Single-action, multi-action,
-
-single-select, multi-select
-
-Available
-
-Available
-
-Interactions
-
-Expand
-
-Available
-
-Available
+| **Category** | **Configuration** | **M3** | **M3 Expressive** |
+| --- | --- | --- | --- |
+| Styles | Standard | Available | Available |
+| Segmented | \-- | Available |  |
+| Selection modes | Single-action, multi-action, single-select, multi-select | Available | Available |
+| Interactions | Expand | Available | Available |
 
 ## Tokens & specs
 
@@ -173,13 +127,20 @@ Use the table's menu to select a token set. The **common** set combines baseline
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Lists
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| List - Expand | md.comp.list.expand | COMPONENT | For list items that can expand and collapse. |
+| List - Reorder | md.comp.list.reorder | COMPONENT | For reordering a list item using a drag handle or accessible alternative. Only use for Expressive lists. For baseline lists, use `md.comp.list.list-item.dragged` tokens. |
+| List - Reveal | md.comp.list.reveal | COMPONENT | For list items that can be swiped or tapped to reveal more actions as buttons. Only use for expressive lists. |
+| List - Common | md.comp.list | COMPONENT | Common baseline and expressive list tokens. |
 
 ## Anatomy
 
 ![Diagram with 10 elements that can be included in lists.](../../../assets/images/3826f2ff6539-mioasn71-11-3P-VQA.png)
 
-_Container and label text are required. All other elements are optional:ContainerOverlineLabel textTrailing textSupporting textTrailing iconDividerLeading avatarLeading iconLeading media - image or video_
+_Container and label text are required. All other elements are optional: Container; Overline; Label text; Trailing text; Supporting text; Trailing icon; Divider; Leading avatar; Leading icon; Leading media - image or video_
 
 ### Flexibility & slots
 
@@ -202,7 +163,7 @@ Slots are not accessible by default. Consider the following:
 
 ![A diagram with leading, content, and trailing slots.](../../../assets/images/2111c46ec444-mioecnyy-12-3P.png)
 
-_Reserve the use of slots for use cases that maintain the list’s accessibility and functionalityLeading slotContent slot Trailing slot_
+_Reserve the use of slots for use cases that maintain the list’s accessibility and functionality Leading slot; Content slot; Trailing slot_
 
 warning
 
@@ -258,7 +219,7 @@ Color values are implemented through design tokens. For designers, this means wo
 
 ![10 list element color roles in light mode and dark mode.](../../../assets/images/85549be8a1ab-mion9qya-16-3P.png)
 
-_List color roles used for light and dark themes:Surface On surface variantOn surface On surface variantOn surface variant On surface variantOutline variantPrimary containerOn primary containerOn surface variant_
+_List color roles used for light and dark themes: Surface; On surface variant; On surface; On surface variant; On surface variant; On surface variant; Outline variant; Primary container; On primary container; On surface variant_
 
 ## States
 
@@ -268,13 +229,13 @@ States are visual representations used to communicate the status of a component 
 
 ![6 default list states in light and dark mode.](../../../assets/images/6218de9f92c6-mionai1i-17-3P.png)
 
-_Enabled DisabledHoveredFocusedPressedDragged_
+_Enabled; Disabled; Hovered; Focused; Pressed; Dragged_
 
 ### Selected list items
 
 ![6 selected list states in light and dark mode.](../../../assets/images/f254a2d7d520-mioncezo-18-3P.png)
 
-_Enabled DisabledHoveredFocusedPressedDragged_
+_Enabled; Disabled; Hovered; Focused; Pressed; Dragged_
 
 ## Measurements
 
@@ -292,7 +253,14 @@ Baseline list tokens are in the **common** token set. Note: This set also inclu
 
 ### TOKEN_TABLE
 
-- **system:** Google Material 3
+Component: Lists
+
+| Token set | Name | Type | Description |
+| --- | --- | --- | --- |
+| List - Expand | md.comp.list.expand | COMPONENT | For list items that can expand and collapse. |
+| List - Reorder | md.comp.list.reorder | COMPONENT | For reordering a list item using a drag handle or accessible alternative. Only use for Expressive lists. For baseline lists, use `md.comp.list.list-item.dragged` tokens. |
+| List - Reveal | md.comp.list.reveal | COMPONENT | For list items that can be swiped or tapped to reveal more actions as buttons. Only use for expressive lists. |
+| List - Common | md.comp.list | COMPONENT | Common baseline and expressive list tokens. |
 
 ### Color
 
@@ -300,7 +268,7 @@ Color values are implemented through design tokens. For designers, this means wo
 
 ![9 baseline list element color roles in light and dark mode.](../../../assets/images/d387ffffe098-miq3n8p4-20-3P.png)
 
-_List color roles used for light and dark themes:SurfaceOn surfaceOn surface variantOn surface variantOn surface variantOutline variantPrimary containerOn primary containerOn surface variant_
+_List color roles used for light and dark themes: Surface; On surface; On surface variant; On surface variant; On surface variant; Outline variant; Primary container; On primary container; On surface variant_
 
 ### States
 
@@ -308,7 +276,7 @@ States are visual representations used to communicate the status of a component 
 
 ![6 baseline list states in light and dark mode.](../../../assets/images/df279fe63fbb-miq3rr3p-21-3P.png)
 
-_1. Enabled2. Disabled3. Hovered4. Focused5. Pressed6. Dragged_
+_1. Enabled 2. Disabled 3. Hovered 4. Focused 5. Pressed 6. Dragged_
 
 ### Layout
 
@@ -342,81 +310,26 @@ _Baseline three-line list alignment, padding, and size measurements_
 
 _Baseline list item measurements and padding_
 
-Attribute
-
-Value
-
-Label alignment
-
-Center
-
-Label alignment when height is 88dp or taller
-
-Top
-
-Label left padding
-
-16dp
-
-Leading element alignment (vertical)
-
-Center
-
-Leading element alignment (vertical) when height is 88dp or taller
-
-Top
-
-Leading element left padding
-
-16dp
-
-Leading icon alignment (vertical)
-
-Top
-
-Leading icon top padding
-
-8dp
-
-Leading icon top padding when height is 88dp or taller
-
-12dp
-
-Trailing element alignment (vertical)
-
-Center
-
-Trailing element alignment (vertical) when height is 88dp or taller
-
-Top
-
-Trailing element left padding
-
-16dp
-
-Trailing element right padding
-
-24dp
-
-Padding above/below divider
-
-0dp
-
-Targets
-
-48dp
-
-Divider full-width
-
-100%
-
-Divider inset left padding
-
-16dp
-
-Divider inset right padding
-
-24dp
+| Attribute | Value |
+| --- | --- |
+| Label alignment | Center |
+| Label alignment when height is 88dp or taller | Top |
+| Label left padding | 16dp |
+| Leading element alignment (vertical) | Center |
+| Leading element alignment (vertical) when height is 88dp or taller | Top |
+| Leading element left padding | 16dp |
+| Leading icon alignment (vertical) | Top |
+| Leading icon top padding | 8dp |
+| Leading icon top padding when height is 88dp or taller | 12dp |
+| Trailing element alignment (vertical) | Center |
+| Trailing element alignment (vertical) when height is 88dp or taller | Top |
+| Trailing element left padding | 16dp |
+| Trailing element right padding | 24dp |
+| Padding above/below divider | 0dp |
+| Targets | 48dp |
+| Divider full-width | 100% |
+| Divider inset left padding | 16dp |
+| Divider inset right padding | 24dp |
 
 ### Configurations
 
@@ -424,46 +337,46 @@ Divider inset right padding
 
 ![1, 2, and 3-line list items with and without a leading avatar and trailing checkbox, in dark mode.](../../../assets/images/c7f68d2e6d5c-mioh5e7e-28-3P.png)
 
-_With leading avatarWith leading avatar and trailing checkbox_
+_With leading avatar; With leading avatar and trailing checkbox_
 
 #### Leading image or thumbnail
 
 ![1, 2, and 3-line list items with and without a leading image and trailing checkbox, in dark mode.](../../../assets/images/c4120dba3e34-mioh5246-29-3P.png)
 
-_With leading imageWith leading image and trailing checkbox_
+_With leading image; With leading image and trailing checkbox_
 
 #### Leading video
 
 ![1, 2, and 3-line list items with and without a leading video and trailing checkbox, in dark mode.](../../../assets/images/f8c8fd9257e0-mioh4nys-30-3P.png)
 
-_With leading videoWith leading video and trailing checkbox_
+_With leading video; With leading video and trailing checkbox_
 
 #### Leading icon
 
 ![1, 2, and 3-line list items with and without a leading icon and trailing checkbox, in dark mode.](../../../assets/images/4e1e18904259-mioh3zha-31-3P.png)
 
-_With leading iconWith leading icon and trailing checkbox_
+_With leading icon; With leading icon and trailing checkbox_
 
 #### Text-only
 
 ![1, 2, and 3-line text only list items with and without a trailing checkbox, in dark mode.](../../../assets/images/2df5141fe05f-mioh3lil-32-3P.png)
 
-_With text onlyWith text and trailing checkbox_
+_With text only; With text and trailing checkbox_
 
 #### Leading checkbox
 
 ![1, 2, and 3-line list items with and without a leading checkbox and trailing text, in dark mode.](../../../assets/images/bf8ea0c73a06-mioh2vwf-33-3P.png)
 
-_With leading checkboxWith leading checkbox and trailing text_
+_With leading checkbox; With leading checkbox and trailing text_
 
 #### Leading radio button
 
 ![1, 2, and 3-line list items with and without a leading radio button and trailing text, in dark mode.](../../../assets/images/a47fa496da60-mioh2gxb-34-3P.png)
 
-_With leading radio buttonWith leading radio button and trailing text_
+_With leading radio button; With leading radio button and trailing text_
 
 #### Trailing switch
 
 ![1, 2, and 3-line list items with and without a leading icon and trailing switch, in dark mode.](../../../assets/images/9bca09bd4728-mioh0mgk-35-3P.png)
 
-_With trailing switchWith leading icon and trailing switch_
+_With trailing switch; With leading icon and trailing switch_

@@ -2,7 +2,7 @@
 title: "How Google created a custom Material theme"
 source_url: "https://m3.material.io/blog/google-material-custom-theme"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/6956bb8eeb86-ZxnXueIhFlAFYyCid-0_IOTlpsw9ws2FWcqkn_kEiaz91wqM4PuKAWxYoodZel_00d42dl1G9i7d1eZcb0Epx2DhXj7huNsy.png"

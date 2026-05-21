@@ -2,7 +2,7 @@
 title: "Designing"
 source_url: "https://m3.material.io/foundations/designing/overview"
 lastmod: "2025-10-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/411f00b5774d-lwj3q0f4-1.png"
@@ -26,7 +26,7 @@ Accessibility markup is an integral part of creating documentation for design sp
 
 ![Diagram of switches showing the Tab key changing the focus to the second switch and Space/Enter corresponding to changing the state of the switch. ](../../../assets/images/411f00b5774d-lwj3q0f4-1.png)
 
-_1. Switch in the on state with visible focus 2. Switch in the off state with visible focus_
+_1. Switch in the on state with visible focus 2. Switch in the off state with visible focus /_
 
 ### Implementing accessibility
 

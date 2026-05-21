@@ -2,7 +2,7 @@
 title: "XR components"
 source_url: "https://m3.material.io/foundations/xr/components/dialogs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/7cfdd50a69a7-mp6grqe5-hero-image.png"
@@ -46,7 +46,7 @@ Color and elevation for spatial dialogs aren’t available in Jetpack Compose ye
 
 ![2 spatially elevated dialogs with surface-container-high and surface-container-highest color roles.](../../../../assets/images/2df61bb43496-mp5rmvr7-01-3P.png)
 
-_Surface container highSurface container highest_
+_Surface container high; Surface container highest_
 
 For effective visual hierarchy, a dialog should be the most prominent element. 
 

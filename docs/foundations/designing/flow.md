@@ -2,7 +2,7 @@
 title: "Designing"
 source_url: "https://m3.material.io/foundations/designing/flow"
 lastmod: "2025-10-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/74ae75052e62-m0qvgj8o-5.png"
@@ -73,7 +73,7 @@ _Navigating the interactive elements on a card via tab_
 
 ![Diagram showing a group of three sub-elements, with navigation within the group assigned to arrow keys.](../../../assets/images/74bd8fcbae52-lwj44h3h-8.png)
 
-_In the case of unique layouts and use cases, it can help to group a collection of interactive elements as one tab stop, and use arrow keys to traverse sub-elementsUsing Tab navigation to focus groupUsing arrrow key to traverse sub-elements_
+_In the case of unique layouts and use cases, it can help to group a collection of interactive elements as one tab stop, and use arrow keys to traverse sub-elements Using Tab navigation to focus group; Using arrrow key to traverse sub-elements_
 
 ## Keyboard shortcuts
 

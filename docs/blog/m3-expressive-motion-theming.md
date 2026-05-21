@@ -2,7 +2,7 @@
 title: "Adding Motion Physics with Jetpack Compose"
 source_url: "https://m3.material.io/blog/m3-expressive-motion-theming"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "blog"
 assets:
   - "assets/images/1ded508971c3-Jq3O_D_spnxd-2_CxeWYFAgtXFYlUS-FT4FUiLdPzRa2pnXVq8IllmGem9q4q1lY1YaLkGRTST_fIPpbuCr40sI987QAmJD1.png"
@@ -102,29 +102,11 @@ Effects springs applied to color.
 
 Each animation can also have one of three speeds: **default**, **fast**, and **slow**. Most motion should use the default speed, but smaller elements may benefit from the fast speed and larger elements from the slow.
 
-Speed
-
-Spatial example
-
-Effects example
-
-Default
-
-Animations that partially cover the screen, such as [bottom sheets](../components/bottom-sheets/overview.md) or [expanded navigation rails](../components/navigation-rail/overview.md)
-
-Opacity of the content within a navigation rail
-
-Fast
-
-Animations for small components such as [switches](../components/switch/overview.md) and [buttons](../components/all-buttons.md)
-
-Color change of the switch handle
-
-Slow
-
-Full-screen [animations](../styles/motion/transitions/transition-patterns.md)
-
-Full-screen content refresh
+| Speed | Spatial example | Effects example |
+| --- | --- | --- |
+| Default | Animations that partially cover the screen, such as [bottom sheets](../components/bottom-sheets/overview.md) or [expanded navigation rails](../components/navigation-rail/overview.md) | Opacity of the content within a navigation rail |
+| Fast | Animations for small components such as [switches](../components/switch/overview.md) and [buttons](../components/all-buttons.md) | Color change of the switch handle |
+| Slow | Full-screen [animations](../styles/motion/transitions/transition-patterns.md) | Full-screen content refresh |
 
 **Speed tokens work across devices**. For example, the **Spatial “fast”** token will always be faster than **“default”** or **“slow,”** but the exact values of each token will differ depending on whether the device is a wearable, phone, or tablet. This ensures the movement feels fast in the context of the device. This also applies when using spring tokens in a custom motion scheme.
 

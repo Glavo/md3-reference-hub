@@ -2,7 +2,7 @@
 title: "Scaffold"
 source_url: "https://m3.material.io/foundations/layout/scaffold/bars"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/1ee7d60cfd68-mp3nck82-01.png"
@@ -25,7 +25,7 @@ Bars can span a single pane or across the full width of a window.
 
 ![Navigation bar on mobile and app bar on desktop.](../../../../assets/images/1ee7d60cfd68-mp3nck82-01.png)
 
-_A navigation bar occupies the bottom bar region on mobileAn app bar occupies the top bar region on the web_
+_A navigation bar occupies the bottom bar region on mobile; An app bar occupies the top bar region on the web_
 
 App bars are placed at the top of the screen to help people navigate, providing a title and 1–2 essential actions like search or back.
 

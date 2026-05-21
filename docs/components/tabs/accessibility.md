@@ -2,7 +2,7 @@
 title: "Tabs"
 source_url: "https://m3.material.io/components/tabs/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "components"
 assets:
   - "assets/videos/e2af1b381076-m60bkpen-GM3-Components-Tabs-Accessibility-1-v01.mp4"
@@ -89,21 +89,11 @@ On arrow/tab in a tab menu, the active indicator appears on the first interactiv
 
 ## Keyboard navigation
 
-Keys
-
-Actions
-
-Arrow
-
-Focus lands on the next available navigation destination
-
-Space / Enter
-
-Activates the focused navigation destination
-
-Arrow
-
-Allows navigation through menu items
+| Keys | Actions |
+| --- | --- |
+| Arrow | Focus lands on the next available navigation destination |
+| Space / Enter | Activates the focused navigation destination |
+| Arrow | Allows navigation through menu items |
 
 ## Labeling elements
 

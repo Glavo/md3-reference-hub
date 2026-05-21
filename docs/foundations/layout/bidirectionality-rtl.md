@@ -2,7 +2,7 @@
 title: "Bidirectionality &amp; RTL"
 source_url: "https://m3.material.io/foundations/layout/bidirectionality-rtl"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T00:38:04.260Z"
+snapshot_at: "2026-05-21T02:20:48.794Z"
 section: "foundations"
 assets:
   - "assets/images/66230034630b-mp5maeep-01.png"
@@ -64,11 +64,11 @@ Improperly rendering text in RTL languages can create cognitive overload and neg
 
 ![Text field incorrectly displaying the word order of an email address and cursor placement.](../../../assets/images/5657e5d3563d-mp3b8jsf-02-dont.png)
 
-_Don't reverse the order of the email username and domain (@google.com). The domain should always be to the right of the username. Usernames can still be written RTL, with the cursor moving to the left.Note: This example isn’t translated to illustrate a common issue with text rendering._
+_Don't reverse the order of the email username and domain (@google.com). The domain should always be to the right of the username. Usernames can still be written RTL, with the cursor moving to the left. Note: This example isn’t translated to illustrate a common issue with text rendering._
 
 ![Dialog window incorrectly displaying word order decreasing readability.](../../../assets/images/71a65740cb48-mp3ba9e6-03-dont.png)
 
-_Don’t apply LTR directionality to RTL content, because it may scramble word order. To ensure readability across all languages, the content should have both RTL alignment and directionality.Note: This example isn’t translated to illustrate a common issue with text rendering._
+_Don’t apply LTR directionality to RTL content, because it may scramble word order. To ensure readability across all languages, the content should have both RTL alignment and directionality. Note: This example isn’t translated to illustrate a common issue with text rendering._
 
 ## Icons & symbols
 
@@ -94,7 +94,7 @@ Circular representations of time remain the same.
 
 ![RTL linear progress indicator filling from right to left and circular progress indicator filling clockwise.](../../../assets/images/bf635fdb979a-mp3bpnel-06.png)
 
-_RTL linear progress indicator starts to fill progress from the right Circular progress indicators move clockwise_
+_RTL linear progress indicator starts to fill progress from the right; Circular progress indicators move clockwise_
 
 ### Media players
 
@@ -182,7 +182,7 @@ _Mirrored floating toolbar, where the FAB appears on the left_
 
 ![4 app bars in RTL.](../../../assets/images/517a9714257e-mp5msyjc-16.png)
 
-_RTL center-aligned, small app bars RTL medium, flexible app bar RTL large, flexible app bar_
+_RTL center-aligned, small app bars; RTL medium, flexible app bar; RTL large, flexible app bar_
 
 ### Navigation rail
 
@@ -190,7 +190,7 @@ The [navigation rail](../../components/navigation-rail/overview.md) is placed 
 
 ![Nav rail on the right side for an RTL language, and left side for LTR.](../../../assets/images/df7c459ca352-mp3kj0nq-18.png)
 
-_Based on the language, a navigation rail is set on a screen’s leading edge:Right side for RTL languagesLeft side for LTR languages_
+_Based on the language, a navigation rail is set on a screen’s leading edge: Right side for RTL languages; Left side for LTR languages_
 
 ### Expanded navigation rail
 
@@ -206,7 +206,7 @@ Icons in [text fields](../../components/text-fields/guidelines.md#5c8a5f07-b1a5
 
 ![Text fields in RTL with leading and trailing icons.](../../../assets/images/2e2fdd572e93-mp3krmhd-19.png)
 
-_Icons, symbols, and label text for RTL: Icon signifier Valid or error icon Clear icon Voice input icon Dropdown icon Image_
+_Icons, symbols, and label text for RTL: Icon signifier; Valid or error icon; Clear icon; Voice input icon; Dropdown icon; Image_
 
 ### Chips
 
