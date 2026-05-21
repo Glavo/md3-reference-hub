@@ -2,7 +2,7 @@
 title: "Introducing the M3 design kit for Figma"
 source_url: "https://m3.material.io/blog/material-3-figma-design-kit"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/2bc614b90413-njAw6ZMF6WzfvQoirrfVNMbSc8LHXMTawSd1zvMQRxnPhEzWKBG_POU_Gi5fCeB5ftB00co0V-52Fj2gqv9LWX6RRagds2Sn.png"

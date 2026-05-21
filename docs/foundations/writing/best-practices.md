@@ -2,7 +2,7 @@
 title: "Writing and text"
 source_url: "https://m3.material.io/foundations/writing/best-practices"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "foundations"
 assets:
   - "assets/images/3d89a63de9d1-lwj55hv4-8.png"

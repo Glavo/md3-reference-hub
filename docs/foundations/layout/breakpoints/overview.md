@@ -2,7 +2,7 @@
 title: "Breakpoints"
 source_url: "https://m3.material.io/foundations/layout/breakpoints/overview"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "foundations"
 assets:
   - "assets/images/a2b539d17417-mp3zlnnl-01.png"

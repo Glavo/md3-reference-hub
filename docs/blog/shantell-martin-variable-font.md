@@ -2,7 +2,7 @@
 title: "The Story of Shantell Sans"
 source_url: "https://m3.material.io/blog/shantell-martin-variable-font"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/ce4b67d73e4b-cHy28WI3xTJQV6u7NoWoQzy2tto013E18vi_tXj24nkclyQ_OaJZh9VUmSg1EhZvwj5PKP1cEtCzSc_J39uMM7mu7Yan-LEA.png"

@@ -2,7 +2,7 @@
 title: "Dialogs"
 source_url: "https://m3.material.io/components/dialogs/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/images/ab5c82b2661e-ml9yk7iw-01.png"

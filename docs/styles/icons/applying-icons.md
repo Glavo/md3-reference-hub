@@ -2,7 +2,7 @@
 title: "Icons"
 source_url: "https://m3.material.io/styles/icons/applying-icons"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "styles"
 assets:
   - "assets/images/0bb108f96569-mltewg4l-3p-icons-simple-sm.png"

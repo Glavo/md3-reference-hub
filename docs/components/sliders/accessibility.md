@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/accessibility"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/videos/49270f5c3c90-lx2tjccg-GM3-Components-accessibility-Sliders-1-v01_1.mp4"

@@ -2,7 +2,7 @@
 title: "Notifications"
 source_url: "https://m3.material.io/foundations/content-design/notifications"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "foundations"
 assets:
   - "assets/images/fc3c24363406-lw53k6lt-1.png"

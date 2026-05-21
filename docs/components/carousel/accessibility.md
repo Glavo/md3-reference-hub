@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/videos/086afdbd42f5-lwutxg2r-GM3-Components-Carousel-Accesibility-1-v01.mp4"

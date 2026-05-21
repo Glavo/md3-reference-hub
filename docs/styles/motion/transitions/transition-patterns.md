@@ -2,7 +2,7 @@
 title: "Transitions"
 source_url: "https://m3.material.io/styles/motion/transitions/transition-patterns"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "styles"
 assets:
   - "assets/videos/356db3dca250-lyfqbdij-GM3-Transitions-TransitionPatterns-1-v01.mp4"

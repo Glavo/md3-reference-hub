@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/guidelines"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/videos/c2ee114ad7a2-m7m4gc9t-slider-motion.mp4"

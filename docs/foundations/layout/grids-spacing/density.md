@@ -2,7 +2,7 @@
 title: "Grids &amp; spacing"
 source_url: "https://m3.material.io/foundations/layout/grids-spacing/density"
 lastmod: "2026-05-15"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "foundations"
 assets:
   - "assets/videos/8afc04a4ecf5-mp5c4fqq-m6fec25z-GM3-Components-Density-2-v03.mp4"

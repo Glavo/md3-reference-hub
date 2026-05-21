@@ -2,7 +2,7 @@
 title: "Grids &amp; spacing"
 source_url: "https://m3.material.io/foundations/layout/grids-spacing/grids"
 lastmod: "2026-05-15"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "foundations"
 assets:
   - "assets/images/bc2847d8da88-mp54500h-03.png"

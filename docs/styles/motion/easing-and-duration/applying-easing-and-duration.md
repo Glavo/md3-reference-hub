@@ -2,7 +2,7 @@
 title: "Easing and duration"
 source_url: "https://m3.material.io/styles/motion/easing-and-duration/applying-easing-and-duration"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "styles"
 assets:
   - "assets/videos/37f9cdf23aea-lxo5kg57-GM3-Styles-Motion-EasingAndDuration-1-v01.mp4"

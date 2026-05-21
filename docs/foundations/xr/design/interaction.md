@@ -2,7 +2,7 @@
 title: "Design for immersive XR"
 source_url: "https://m3.material.io/foundations/xr/design/interaction"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "foundations"
 assets:
   - "assets/images/c96d3c3a1421-mp6oo483-hero-image.png"

@@ -2,7 +2,7 @@
 title: "Making it easier to get Google Fonts"
 source_url: "https://m3.material.io/blog/get-google-fonts-update"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/cf0bef74bce3-wOuJ98A5lAbKHWXgo8zqsqCWrKLcv69cr8QZzzP9Rmqy4WRdi_TJnCzDtEuXbIG5VLR9wa2MSkqRX-N2UFlhFbEGiq0p0Gyf.png"

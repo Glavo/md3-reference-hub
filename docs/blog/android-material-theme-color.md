@@ -2,7 +2,7 @@
 title: "Building a Material Theme on Android: Color"
 source_url: "https://m3.material.io/blog/android-material-theme-color"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/a47b4728bf09-1xWolfPsT-609CJjfZQkU0YpR69DVltAb4IL4NVbcxNKbnya_LvQmo4csc_tQjbyUBw6JKLiMX82veLqYzDq7IC06UJE48kA.png"

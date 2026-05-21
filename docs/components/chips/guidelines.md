@@ -2,7 +2,7 @@
 title: "Chips"
 source_url: "https://m3.material.io/components/chips/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/images/eddf4f105b99-m8smcq59-01.png"

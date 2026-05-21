@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/videos/12dd17fec8ea-lwoqqvsf-GM3-Components-NavDrawer-Accessibility-1-v01.mp4"

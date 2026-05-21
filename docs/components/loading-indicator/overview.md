@@ -2,7 +2,7 @@
 title: "Loading indicator"
 source_url: "https://m3.material.io/components/loading-indicator/overview"
 lastmod: "2026-02-05"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/videos/929ee2bfca47-m0fcl84h-Loading-Indicator-Overview-A-Sync.mp4"

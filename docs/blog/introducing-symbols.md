@@ -2,7 +2,7 @@
 title: "Introducing Material Symbols"
 source_url: "https://m3.material.io/blog/introducing-symbols"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/796475f3dfa1-fUIGet1Le7TR9VZnlKNsV6h-XA8tNx-9Z6XtmkhoMBYVMARxGdOk8Bn8Jhyih28czNybmF0RXfv3ae2NyzPAjoZAwmhsXkAZ.png"

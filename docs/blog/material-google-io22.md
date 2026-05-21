@@ -2,7 +2,7 @@
 title: "Join Material Design at I/O ‘22"
 source_url: "https://m3.material.io/blog/material-google-io22"
 lastmod: "2024-11-11"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/ab0dd3acc594-CEiAxXbUlIrCLml5_GClaHZArjTnCSbgYSNjg_JBB1sJ9S6Agng_bKd0hGdUg4zmX4t4gfIdKqsn5NwRMQjoxLuSMFe0Vwpq.png"

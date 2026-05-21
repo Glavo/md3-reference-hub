@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose is now stable"
 source_url: "https://m3.material.io/blog/material-3-compose-stable"
 lastmod: "2025-03-11"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/69c1a8d9affd-yYfg__SGRj3ELVT3kcpto_hEBpyDEShR2HyKztmxiYxBIg2AKBokBC03XX8M72Zi2mX4bADa4pcg6PaWGJJ-qyDFAMK0rUJn.png"

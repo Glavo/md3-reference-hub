@@ -2,7 +2,7 @@
 title: "FABs"
 source_url: "https://m3.material.io/components/floating-action-button/accessibility"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "components"
 assets:
   - "assets/images/fa63fb000f1b-malo050e-1.png"

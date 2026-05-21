@@ -2,7 +2,7 @@
 title: "Easing and duration"
 source_url: "https://m3.material.io/styles/motion/easing-and-duration/tokens-specs"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "styles"
 assets:
   - "assets/videos/5c43e3ea7901-lxo7ug8i-GM3-Styles-Motion-Easing_Duration-Tokens-1-1-v01.mp4"

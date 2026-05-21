@@ -2,7 +2,7 @@
 title: "Principles and Techniques for Effective Localization"
 source_url: "https://m3.material.io/blog/localization-principles-techniques"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:27:03.936Z"
+snapshot_at: "2026-05-21T02:35:31.341Z"
 section: "blog"
 assets:
   - "assets/images/68c15071f532-JyAlIoZ7WIdN6N61L5CMHMWcMmKzO51edjGN1oiNHMRaXhlpZlpXEXPI8lXnhX8MLSD_WDvKQ0_W-veWXqk3iNZNSYWEuBZ5.png"

@@ -1085,6 +1085,22 @@ function selectCarbonSections(carbonData, route, tabSlug) {
   return matched ? [matched] : sections.slice(0, 1);
 }
 
+function routeTabLabel(route, tabSlug) {
+  if (!tabSlug) {
+    return null;
+  }
+
+  const tab = ensureArray(route.tabs).find((candidate) => {
+    const slugs = new Set([
+      kebabCase(candidate.label),
+      ...ensureArray(candidate.alternateSlugs).map(trimSlashes),
+    ]);
+    return slugs.has(tabSlug);
+  });
+
+  return tab?.label || humanizePathSegment(tabSlug);
+}
+
 async function renderResourceChunk(chunk, context) {
   const resourceName = chunk.resourceName;
   const type = chunk.libraryModuleType;
@@ -1294,6 +1310,7 @@ async function renderCarbonPage(entry, match, context, manifestPage) {
   manifestPage.kind = "carbon";
   manifestPage.route_slug = route.slug;
   manifestPage.tab = match.tabSlug || null;
+  manifestPage.tab_title = routeTabLabel(route, match.tabSlug);
   manifestPage.page_data_url = pageDataUrl.replace("?cachebust=1", "");
   manifestPage.carbon_url = carbonUrl;
   manifestPage.assets = Array.from(pageAssets);
@@ -1481,9 +1498,13 @@ async function generateDocsReadme(manifest) {
   for (const [section, sectionPages] of Array.from(bySection.entries()).sort(([a], [b]) => a.localeCompare(b))) {
     lines.push(`### ${section}`);
     lines.push("");
-    for (const page of sectionPages.sort((a, b) => a.output_file.localeCompare(b.output_file))) {
-      const relative = toPosix(path.relative(DOCS_DIR, path.join(ROOT_DIR, page.output_file)));
-      lines.push(`- [${page.title || page.source_url}](${relative})`);
+    const sortedPages = sectionPages.sort((a, b) => a.output_file.localeCompare(b.output_file));
+    const titleCounts = countReadmeTitles(sortedPages);
+    const usedLabels = new Set();
+    for (const page of sortedPages) {
+      const relative = readmeRelativePath(page);
+      const label = readmeLinkLabel(page, titleCounts, usedLabels);
+      lines.push(`- [${escapeMarkdownLinkText(label)}](${relative})`);
     }
     lines.push("");
   }
@@ -1496,6 +1517,97 @@ async function generateDocsReadme(manifest) {
   lines.push("- License: https://www.apache.org/licenses/LICENSE-2.0.html");
 
   await writeTextFile(path.join(DOCS_DIR, "README.md"), lines.join("\n"));
+}
+
+function readmeRelativePath(page) {
+  return toPosix(path.relative(DOCS_DIR, path.join(ROOT_DIR, page.output_file)));
+}
+
+function countReadmeTitles(pages) {
+  const counts = new Map();
+  for (const page of pages) {
+    const title = readmeBaseTitle(page);
+    counts.set(title, (counts.get(title) || 0) + 1);
+  }
+  return counts;
+}
+
+function readmeBaseTitle(page) {
+  return decodeHtmlEntities(page.title || page.source_url).trim();
+}
+
+function readmeLinkLabel(page, titleCounts, usedLabels) {
+  const baseTitle = readmeBaseTitle(page);
+  let label = baseTitle;
+
+  if ((titleCounts.get(baseTitle) || 0) > 1) {
+    const suffix = readmePathSuffix(page, baseTitle);
+    if (suffix) {
+      label = `${baseTitle} - ${suffix}`;
+    }
+  }
+
+  if (usedLabels.has(label)) {
+    label = `${label} (${readmeRelativePath(page).replace(/\.md$/u, "")})`;
+  }
+
+  usedLabels.add(label);
+  return label;
+}
+
+function readmePathSuffix(page, baseTitle) {
+  if (page.tab_title && page.tab_title.toLowerCase() !== baseTitle.toLowerCase()) {
+    return decodeHtmlEntities(page.tab_title);
+  }
+  if (page.tab && humanizePathSegment(page.tab).toLowerCase() !== baseTitle.toLowerCase()) {
+    return humanizePathSegment(page.tab);
+  }
+
+  const pathWithoutExtension = readmeRelativePath(page).replace(/\.md$/u, "");
+  const segments = pathWithoutExtension.split("/").filter(Boolean);
+  if (!segments.length) {
+    return "";
+  }
+
+  const readableSegments = segments.map(humanizePathSegment);
+  const leaf = readableSegments.at(-1);
+  if (leaf && leaf.toLowerCase() !== baseTitle.toLowerCase()) {
+    return leaf;
+  }
+
+  return readableSegments.slice(-2).join(" - ");
+}
+
+function humanizePathSegment(segment) {
+  const words = decodeURIComponent(segment)
+    .split(/[-_]+/u)
+    .filter(Boolean);
+
+  return words.map((word, index) => {
+    const lower = word.toLowerCase();
+    const special = {
+      fab: "FAB",
+      fabs: "FABs",
+      io: "I/O",
+      m3: "M3",
+      rtl: "RTL",
+      ux: "UX",
+      xr: "XR",
+    }[lower];
+    if (special) {
+      return special;
+    }
+    return index === 0 ? `${word.charAt(0).toUpperCase()}${word.slice(1)}` : word;
+  }).join(" ");
+}
+
+function escapeMarkdownLinkText(value) {
+  return String(value || "")
+    .replace(/\\/gu, "\\\\")
+    .replace(/\[/gu, "\\[")
+    .replace(/\]/gu, "\\]")
+    .replace(/\s+/gu, " ")
+    .trim();
 }
 
 async function main() {
