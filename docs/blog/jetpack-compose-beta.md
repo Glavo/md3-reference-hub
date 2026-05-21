@@ -2,7 +2,7 @@
 title: "Jetpack Compose: Now in Beta"
 source_url: "https://m3.material.io/blog/jetpack-compose-beta"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/8c410e1abc33-IGVvFnjHRRbphKVi5QL8VrdI1ou4bgUIdWpt0CCHXweVBIwydrpun88kL73-kFg0UeGL2mxwxv6K1EIVIBn4IYiV_2bWT-85.png"

@@ -2,7 +2,7 @@
 title: "States"
 source_url: "https://m3.material.io/foundations/interaction/states/state-layers"
 lastmod: "2025-08-05"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "foundations"
 assets:
   - "assets/images/f5d12d9567f6-ly2qh1yi-1p_State-Layers_1.png"

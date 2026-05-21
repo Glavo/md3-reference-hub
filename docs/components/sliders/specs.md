@@ -2,7 +2,7 @@
 title: "Sliders"
 source_url: "https://m3.material.io/components/sliders/specs"
 lastmod: "2026-05-08"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "components"
 assets:
   - "assets/images/e6ea7ef4d189-ma6a7kht-01-3P.png"

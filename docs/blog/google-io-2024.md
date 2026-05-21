@@ -2,7 +2,7 @@
 title: "Material Design at Google I/O ‘24"
 source_url: "https://m3.material.io/blog/google-io-2024"
 lastmod: "2024-11-04"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/9f08fc120ec8-14Q1LNsO6yr4LElzuCQ3ex7FduKZX1KkrJBsNHyXWqO_PvBc-X3vq6ImhhnFV6-mcTKcf-UFwsfd-_GNchWeTXZFf7QWml6D.png"

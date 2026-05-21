@@ -2,7 +2,7 @@
 title: "Styles"
 source_url: "https://m3.material.io/styles"
 lastmod: "2024-11-27"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "styles"
 assets:
   - "assets/images/cdb0f21d40c5-wT_VRcr1F26D9-YlbeUqii1zZjKYuRgGqEFVePdOcgRITVEEKLmd9sUCT13lORm18Pwl85M2UETDOy5_2OwJ9O9n8QirWi7n.png"

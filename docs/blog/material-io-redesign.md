@@ -2,7 +2,7 @@
 title: "Magic, utility, and redesigning Material.io"
 source_url: "https://m3.material.io/blog/material-io-redesign"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/394799d84e53-n1AFrqnEqCS6Ntd1UZtqoFZOgSmhYk_YX-CQa9J69XFZoChDhW1tyui1uGpBfh-VJOIJXYbDGfsVrFJfD0Lx9KpaHRguiAo_.png"

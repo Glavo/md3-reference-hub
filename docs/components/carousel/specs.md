@@ -2,7 +2,7 @@
 title: "Carousel"
 source_url: "https://m3.material.io/components/carousel/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "components"
 assets:
   - "assets/images/f0e518717353-lyr7cydt-1.png"

@@ -2,7 +2,7 @@
 title: "Unveiling Material You"
 source_url: "https://m3.material.io/blog/announcing-material-you"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/88253ec5a315-552oGSlinN0Gd7T8EjNkYGCBzHt0UmoG_pWtHSUY6FwaGT4q4-zJlGHD9rWO7MT5Oe_rtQZmyVnGRxVXch7Q1CTSQMs_1Tcw.png"

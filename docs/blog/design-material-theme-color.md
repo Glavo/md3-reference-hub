@@ -2,7 +2,7 @@
 title: "Designing a Material Theme: Color"
 source_url: "https://m3.material.io/blog/design-material-theme-color"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/f7529fd099e8-JYnQiXTLxC5hupKlxKhpe-MqayvYo6jlQqo-a7avSxlYeBfeGXu5xPR-o02RlNNxEKPiOSia-oR9OFk2hIe-iEJkEo-18g33.png"

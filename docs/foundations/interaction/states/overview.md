@@ -2,7 +2,7 @@
 title: "States"
 source_url: "https://m3.material.io/foundations/interaction/states/overview"
 lastmod: "2025-08-05"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "foundations"
 assets:
   - "assets/images/448ba388c9f2-ly2n4rwz-1p-Enabled-button.png"

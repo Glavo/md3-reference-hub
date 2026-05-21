@@ -2,7 +2,7 @@
 title: "Video: Craft a Dark Theme with Material Design"
 source_url: "https://m3.material.io/blog/dark-theme-design-tutorial-video"
 lastmod: "2024-12-23"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/27a611a52c6e-D_LRW8IdVqH8UHILZbktm3QJj95pIVaYy0NShnLbCumeWSlV2f1fFLKYlhqgqEZuxc6e-7aL5c4mbe6RMedilEjRTKMb7J_i.png"

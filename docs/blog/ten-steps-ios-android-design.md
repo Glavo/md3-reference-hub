@@ -2,7 +2,7 @@
 title: "10 Steps to Translate Your iOS Designs for Android"
 source_url: "https://m3.material.io/blog/ten-steps-ios-android-design"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/edfb54e45ccb-uBvkusTLFmWwcwPtg4RjBW1en2nMGR7DtXlIPqrCINBfqqy54obNp6nfHC7oa3OLNZFkqqPo8Hr3Dp0QtiwAJKxWjZWQdOVx.png"

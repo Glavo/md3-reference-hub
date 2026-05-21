@@ -2,7 +2,7 @@
 title: "Navigation drawer"
 source_url: "https://m3.material.io/components/navigation-drawer/specs"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "components"
 assets:
   - "assets/images/39e28301e737-mobm461s-1-3P-3p.png"

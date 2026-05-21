@@ -2,7 +2,7 @@
 title: "Migrating to Material Components for Android"
 source_url: "https://m3.material.io/blog/migrate-android-material-components"
 lastmod: "2024-12-19"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/425fe177aa42-Vrmz8X7tAk7W7ghz6oQ9Ik2Z95UtS6LPPR1mUYWjtTNcdMDJvelHxTgfVeWj5hRMa1iVriE0vTp3HHKNfRC8CzObwSLwGS14.png"

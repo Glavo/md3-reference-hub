@@ -2,7 +2,7 @@
 title: "Icon buttons"
 source_url: "https://m3.material.io/components/icon-buttons/accessibility"
 lastmod: "2026-02-11"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "components"
 assets:
   - "assets/images/5839acbccc38-mal4w7e9-1_Do.png"

@@ -1532,12 +1532,11 @@ async function generateDocsReadme(manifest) {
     lines.push(`### ${readmeSectionLabel(section)}`);
     lines.push("");
     const sortedPages = sectionPages.sort(compareReadmePages);
-    const titleCounts = countReadmeTitles(sortedPages);
+    const entries = groupReadmePages(sortedPages);
+    const titleCounts = countReadmeTitles(entries);
     const usedLabels = new Set();
-    for (const page of sortedPages) {
-      const relative = readmeRelativePath(page);
-      const label = readmeLinkLabel(page, titleCounts, usedLabels);
-      lines.push(`- [${escapeMarkdownLinkText(label)}](${relative})`);
+    for (const entry of entries) {
+      lines.push(renderReadmeEntry(entry, titleCounts, usedLabels));
     }
     lines.push("");
   }
@@ -1615,36 +1614,103 @@ function readmeTabOrder(page) {
   return page.tab ? Number.MAX_SAFE_INTEGER : -1;
 }
 
-function countReadmeTitles(pages) {
-  const counts = new Map();
+function groupReadmePages(pages) {
+  const entries = [];
   for (const page of pages) {
-    const title = readmeBaseTitle(page);
+    const key = readmeGroupKey(page);
+    const last = entries.at(-1);
+    if (last?.key === key) {
+      last.pages.push(page);
+    } else {
+      entries.push({ key, pages: [page] });
+    }
+  }
+  return entries;
+}
+
+function readmeGroupKey(page) {
+  return isReadmeTabPage(page) ? `route:${page.route_slug}` : `page:${page.output_file}`;
+}
+
+function isReadmeTabPage(page) {
+  return Boolean(page.route_slug && page.tab);
+}
+
+function renderReadmeEntry(entry, titleCounts, usedLabels) {
+  if (entry.pages.length > 1 && entry.pages.every(isReadmeTabPage)) {
+    const label = readmeEntryLabel(entry, titleCounts, usedLabels);
+    const tabs = entry.pages
+      .map((page) => `[${escapeMarkdownLinkText(readmeTabLinkLabel(page))}](${readmeRelativePath(page)})`)
+      .join(" | ");
+    return `- ${escapeMarkdownLinkText(label)} (${tabs})`;
+  }
+
+  const page = entry.pages[0];
+  const relative = readmeRelativePath(page);
+  const label = readmeEntryLabel(entry, titleCounts, usedLabels);
+  return `- [${escapeMarkdownLinkText(label)}](${relative})`;
+}
+
+function readmeTabLinkLabel(page) {
+  return page.tab_title || (page.tab ? humanizePathSegment(page.tab) : readmeBaseTitle(page));
+}
+
+function countReadmeTitles(entries) {
+  const counts = new Map();
+  for (const entry of entries) {
+    const title = readmeEntryBaseTitle(entry);
     counts.set(title, (counts.get(title) || 0) + 1);
   }
   return counts;
+}
+
+function readmeEntryBaseTitle(entry) {
+  return readmeBaseTitle(entry.pages[0]);
 }
 
 function readmeBaseTitle(page) {
   return decodeHtmlEntities(page.title || page.source_url).trim();
 }
 
-function readmeLinkLabel(page, titleCounts, usedLabels) {
-  const baseTitle = readmeBaseTitle(page);
+function readmeEntryLabel(entry, titleCounts, usedLabels) {
+  const baseTitle = readmeEntryBaseTitle(entry);
   let label = baseTitle;
 
   if ((titleCounts.get(baseTitle) || 0) > 1) {
-    const suffix = readmePathSuffix(page, baseTitle);
+    const suffix = readmeEntryPathSuffix(entry, baseTitle);
     if (suffix) {
       label = `${baseTitle} - ${suffix}`;
     }
   }
 
   if (usedLabels.has(label)) {
-    label = `${label} (${readmeRelativePath(page).replace(/\.md$/u, "")})`;
+    label = `${label} (${readmeEntryPath(entry)})`;
   }
 
   usedLabels.add(label);
   return label;
+}
+
+function readmeEntryPathSuffix(entry, baseTitle) {
+  if (entry.pages.length > 1 && entry.pages.every(isReadmeTabPage)) {
+    return readmeRouteSuffix(entry.pages[0], baseTitle);
+  }
+  return readmePathSuffix(entry.pages[0], baseTitle);
+}
+
+function readmeEntryPath(entry) {
+  const page = entry.pages[0];
+  return (page.route_slug || readmeRelativePath(page)).replace(/\.md$/u, "");
+}
+
+function readmeRouteSuffix(page, baseTitle) {
+  const route = page.route_slug || readmeRelativePath(page).replace(/\.md$/u, "");
+  const readableSegments = route.split("/").filter(Boolean).map(humanizePathSegment);
+  const leaf = readableSegments.at(-1);
+  if (leaf && leaf.toLowerCase() !== baseTitle.toLowerCase()) {
+    return leaf;
+  }
+  return readableSegments.slice(-2).join(" - ");
 }
 
 function readmePathSuffix(page, baseTitle) {

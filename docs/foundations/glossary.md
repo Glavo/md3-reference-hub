@@ -2,7 +2,7 @@
 title: "Material A-Z"
 source_url: "https://m3.material.io/foundations/glossary"
 lastmod: "2025-09-26"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "foundations"
 assets: []
 ---

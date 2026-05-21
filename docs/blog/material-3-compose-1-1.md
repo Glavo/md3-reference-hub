@@ -2,7 +2,7 @@
 title: "Material Design 3 for Compose gets new components and features"
 source_url: "https://m3.material.io/blog/material-3-compose-1-1"
 lastmod: "2024-12-26"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/b19f5cf4e139-luOy6tCtv9Q6bJsVMD4jbQYdk_vBOTeemCcI5Zp2m88X_Z4FtrobQ7prtNkSevt1O-zZwg-vO5VAo-MGwzCG0IOqf-AkGuqr.png"

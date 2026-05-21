@@ -2,7 +2,7 @@
 title: "Usability"
 source_url: "https://m3.material.io/foundations/usability/overview"
 lastmod: "2026-01-22"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "foundations"
 assets:
   - "assets/images/f2410487f3ca-mejie2v2-Hero-image.png"

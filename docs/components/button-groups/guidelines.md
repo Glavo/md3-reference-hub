@@ -2,7 +2,7 @@
 title: "Button groups"
 source_url: "https://m3.material.io/components/button-groups/guidelines"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "components"
 assets:
   - "assets/videos/7bc21ce78aaa-m34lmgn1-Button-Group-Hero-alt-2.mp4"

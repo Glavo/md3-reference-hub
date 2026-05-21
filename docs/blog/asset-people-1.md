@@ -2,7 +2,7 @@
 title: "Replacing “Users” with People"
 source_url: "https://m3.material.io/blog/asset-people-1"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/a6c697aef9af-U1kpQVQ_FXSY6dBaJTXPPP2ItujhE1DXv-ji64uftie5dRIby3Z9pmHG5F2HKphGTSMUYjqaI6WLj3Podcw_MGK46b3gI5cQ.png"

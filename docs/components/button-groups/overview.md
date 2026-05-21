@@ -2,7 +2,7 @@
 title: "Button groups"
 source_url: "https://m3.material.io/components/button-groups/overview"
 lastmod: "2026-05-18"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "components"
 assets:
   - "assets/images/9d31dcf7ad0e-m4sskpfx-1_alt.png"

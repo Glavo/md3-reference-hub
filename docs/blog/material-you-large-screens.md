@@ -2,7 +2,7 @@
 title: "Better design for bigger screens"
 source_url: "https://m3.material.io/blog/material-you-large-screens"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/e548cb799500-_mkKRboDKzkH_IzsVklwbVxksh3ZXWFDoZkHE0T6WxRh0IkqJxZRwVde-kTVy-NFc0ciYVHNGsIwBnVJK9XL75UqHocdiwE8.png"

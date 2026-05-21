@@ -2,7 +2,7 @@
 title: "What’s new at Google I/O 2026"
 source_url: "https://m3.material.io/blog/whats-new-at-io26"
 lastmod: "2026-05-19"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/06f720059c08-G43IvlJGVU11dBAU71P9RY24Ps5l4Ea7GjzZz26tiDF25ayml6gkwjmXKQWryF5vcByAtg_2X3aorc3g5cw6bMUrD6rlwpAr.png"

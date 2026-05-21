@@ -2,7 +2,7 @@
 title: "Video: Fonts are software"
 source_url: "https://m3.material.io/blog/fonts-are-software-video"
 lastmod: "2024-04-15"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "blog"
 assets:
   - "assets/images/ffdf32670731-UZDpLpdaA00MuMc0cBiRzQTG3zvUR-ZMHyI7LALYCBzw3ZA7hRxnb-bwy4GZS7yqJhAxbIBWtQMQiAO4saj2W2YgfA-LAyFU.png"

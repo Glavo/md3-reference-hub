@@ -2,7 +2,7 @@
 title: "Typography"
 source_url: "https://m3.material.io/styles/typography/editorial-treatments"
 lastmod: "2026-05-06"
-snapshot_at: "2026-05-21T02:53:59.363Z"
+snapshot_at: "2026-05-21T02:57:25.562Z"
 section: "styles"
 assets:
   - "assets/images/d5539ea9f26b-madq1nd5-01type.png"
